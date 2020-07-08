@@ -1,1 +1,0 @@
-tellraw @s [{"text":"[点击测试]","clickEvent": {"action":"suggest_command","value": "./"}}]
