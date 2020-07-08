@@ -1,4 +1,4 @@
-# 检测并控制方块消失的命令
+# 检测应该消失的方块
 execute as @a[tag=tntrun_pc,nbt={OnGround:1b}] at @s positioned ~ ~-1 ~ run function mini:tntrun/checkfloor
 
 # 修改下面这一行的数字以调整方块消失的延迟（刻）
