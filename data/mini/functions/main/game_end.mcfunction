@@ -7,6 +7,6 @@ tag @a[scores={mini_score=0}] add mini_rank1
 tag @a[scores={mini_score=-1}] add mini_rank2
 tag @a[scores={mini_score=-2}] add mini_rank3
 tag @a[scores={mini_score=..-3}] add mini_rank4
-
+say test
 # 进入状态 6
 function ltw:state/6/state_enter
