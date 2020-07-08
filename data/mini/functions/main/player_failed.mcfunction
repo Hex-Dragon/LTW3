@@ -6,8 +6,8 @@ scoreboard players set $t_alive mem 0
 execute as @a[tag=mini_running] run scoreboard players add $t_alive mem 1
 tellraw @a [{"selector": "@s","color":"red"}," 已失败! 剩余 ",{"score": {"name": "$alive","objective": "mem"}}," 人!"]
 
-# 记录名次
-# UNDONE
+# 给存活的玩家加分
+scoreboard players add @a[tag=mini_running] mini_score 1
 
 # 进入旁观
 gamemode spectator @s

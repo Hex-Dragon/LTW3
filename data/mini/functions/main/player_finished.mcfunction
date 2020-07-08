@@ -6,8 +6,8 @@ scoreboard players set $t_finish mem 0
 execute as @a[tag=!mini_running] run scoreboard players add $t_finish mem 1
 tellraw @a [{"selector": "@s","color":"green"}," 已成功! 已完成 ",{"score": {"name": "$finish","objective": "mem"}}," 人!"]
 
-# 记录名次
-# UNDONE
+# 给已完成的玩家加分
+scoreboard players add @a[tag=!mini_running] mini_score 1
 
 # 进入旁观
 gamemode spectator @s
