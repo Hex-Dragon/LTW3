@@ -4,35 +4,35 @@ forceload add 1000 3000 1050 3050
 # 生成地图
 
 #   111
-setblock 1023 27 3022 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:22,posZ:0,integrity:1.0f,showair:0b,name:"minecraft:hp111",sizeY:23,sizeZ:22,showboundingbox:1b}
+setblock 1023 27 3022 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:22,posZ:0,integrity:1.0f,showair:0b,name:"mini:hp111",sizeY:23,sizeZ:22,showboundingbox:1b}
 setblock 1023 28 3022 minecraft:redstone_block
 
 #   110
-setblock 1023 27 2999 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:22,posZ:0,integrity:1.0f,showair:0b,name:"minecraft:hp110",sizeY:23,sizeZ:23,showboundingbox:1b}
+setblock 1023 27 2999 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:22,posZ:0,integrity:1.0f,showair:0b,name:"mini:hp110",sizeY:23,sizeZ:23,showboundingbox:1b}
 setblock 1023 28 2999 minecraft:redstone_block
 
 #   011
-setblock 1000 27 3022 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:23,posZ:0,integrity:1.0f,showair:0b,name:"minecraft:hp011",sizeY:23,sizeZ:22,showboundingbox:1b}
+setblock 1000 27 3022 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:23,posZ:0,integrity:1.0f,showair:0b,name:"mini:hp011",sizeY:23,sizeZ:22,showboundingbox:1b}
 setblock 1000 28 3022 minecraft:redstone_block
 
 #   010
-setblock 1000 27 2999 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"00ll00",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:23,posZ:0,integrity:1.0f,showair:0b,name:"minecraft:hp010",sizeY:24,sizeZ:23,showboundingbox:1b}
+setblock 1000 27 2999 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"00ll00",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:23,posZ:0,integrity:1.0f,showair:0b,name:"mini:hp010",sizeY:24,sizeZ:23,showboundingbox:1b}
 setblock 1000 28 2999 minecraft:redstone_block
 
 #   101
-setblock 1023 4 3022 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"00ll00",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:23,posZ:0,integrity:1.0f,showair:0b,name:"minecraft:hp101",sizeY:24,sizeZ:23,showboundingbox:1b}
+setblock 1023 4 3022 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"00ll00",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:23,posZ:0,integrity:1.0f,showair:0b,name:"mini:hp101",sizeY:24,sizeZ:23,showboundingbox:1b}
 setblock 1023 5 3022 minecraft:redstone_block
 
 #   100
-setblock 1023 4 2999 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"00ll00",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:23,posZ:0,integrity:1.0f,showair:0b,name:"minecraft:hp100",sizeY:24,sizeZ:23,showboundingbox:1b}
+setblock 1023 4 2999 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"00ll00",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:23,posZ:0,integrity:1.0f,showair:0b,name:"mini:hp100",sizeY:24,sizeZ:23,showboundingbox:1b}
 setblock 1023 5 2999 minecraft:redstone_block
 
 #   001
-setblock 1000 4 3022 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:1b,seed:0L,author:"00ll00",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:23,posZ:0,integrity:1.0f,showair:0b,name:"minecraft:hp001",sizeY:23,sizeZ:22,showboundingbox:1b}
+setblock 1000 4 3022 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:1b,seed:0L,author:"00ll00",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:23,posZ:0,integrity:1.0f,showair:0b,name:"mini:hp001",sizeY:23,sizeZ:22,showboundingbox:1b}
 setblock 1000 5 3022 minecraft:redstone_block
 
 #   000
-setblock 1000 4 2999 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"00ll00",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:23,posZ:0,integrity:1.0f,showair:0b,name:"minecraft:hp000",sizeY:24,sizeZ:23,showboundingbox:1b}
+setblock 1000 4 2999 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"00ll00",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:23,posZ:0,integrity:1.0f,showair:0b,name:"mini:hp000",sizeY:24,sizeZ:23,showboundingbox:1b}
 setblock 1000 5 2999 minecraft:redstone_block
 
 # 清理残余实体
