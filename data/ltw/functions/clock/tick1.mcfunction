@@ -2,3 +2,5 @@
 
 # 调用其他模块
 function mini:main/tick1
+execute if score $state mem matches 3 run function ltw:state/3/tick1
+execute if score $state mem matches 5 run function ltw:state/5/tick1

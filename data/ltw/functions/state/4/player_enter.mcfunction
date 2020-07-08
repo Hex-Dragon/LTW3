@@ -6,4 +6,7 @@ gamemode spectator @s
 effect clear @s
 effect give @s saturation 1000000 0 true
 effect give @s instant_health 10 0 true
-effect give @s blindness 1000000 0 true
+effect give @s night_vision 1000000 0 true
+
+# 显示小游戏介绍
+function mini:main/player_intro
