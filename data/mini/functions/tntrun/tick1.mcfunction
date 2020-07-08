@@ -1,11 +1,5 @@
-# 以下为检测并控制方块消失的命令
-execute as @a[tag=tntrun_pc,nbt={OnGround:1b}] at @s positioned ~ ~-1 ~ align xyz if block ~ ~ ~ #mini:tntrun_floor positioned ~0.5 ~ ~0.5 run tag @e[tag=tntrun_edge,distance=..0.1] remove tntrun_edge
-execute as @a[tag=tntrun_pc,nbt={OnGround:1b}] at @s positioned ~ ~-1 ~ align xyz if block ~ ~ ~ #mini:tntrun_floor positioned ~0.5 ~ ~0.5 unless entity @e[tag=tntrun_block,distance=..0.1] run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["tntrun_block"],Age: -2147483648, Duration: -1, WaitTime: -2147483648}
-execute as @a[tag=tntrun_pc,nbt={OnGround:1b}] at @s positioned ~0.31 ~-1 ~0.31 align xyz if block ~ ~ ~ #mini:tntrun_floor positioned ~0.5 ~ ~0.5 unless entity @e[tag=tntrun_block,distance=..0.1] run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["tntrun_block","tntrun_edge"],Age: -2147483648, Duration: -1, WaitTime: -2147483648}
-execute as @a[tag=tntrun_pc,nbt={OnGround:1b}] at @s positioned ~-0.31 ~-1 ~-0.31 align xyz if block ~ ~ ~ #mini:tntrun_floor positioned ~0.5 ~ ~0.5 unless entity @e[tag=tntrun_block,distance=..0.1] run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["tntrun_block","tntrun_edge"],Age: -2147483648, Duration: -1, WaitTime: -2147483648}
-execute as @a[tag=tntrun_pc,nbt={OnGround:1b}] at @s positioned ~0.31 ~-1 ~-0.31 align xyz if block ~ ~ ~ #mini:tntrun_floor positioned ~0.5 ~ ~0.5 unless entity @e[tag=tntrun_block,distance=..0.1] run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["tntrun_block","tntrun_edge"],Age: -2147483648, Duration: -1, WaitTime: -2147483648}
-execute as @a[tag=tntrun_pc,nbt={OnGround:1b}] at @s positioned ~-0.31 ~-1 ~0.31 align xyz if block ~ ~ ~ #mini:tntrun_floor positioned ~0.5 ~ ~0.5 unless entity @e[tag=tntrun_block,distance=..0.1] run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["tntrun_block","tntrun_edge"],Age: -2147483648, Duration: -1, WaitTime: -2147483648}
-execute as @a[tag=tntrun_pc,nbt={OnGround:1b}] at @s positioned ~ ~-1 ~ align xyz if block ~ ~ ~ minecraft:air positioned ~0.5 ~ ~0.5 run tag @e[tag=tntrun_edge,distance=..1.51] remove tntrun_edge
+# 检测并控制方块消失的命令
+execute as @a[tag=tntrun_pc,nbt={OnGround:1b}] at @s positioned ~ ~-1 ~ run function mini:tntrun/checkfloor
 
 # 修改下面这一行的数字以调整方块消失的延迟（刻）
 # tntrun_timer=12
