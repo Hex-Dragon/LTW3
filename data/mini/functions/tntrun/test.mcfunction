@@ -1,0 +1,1 @@
+execute as @s run say 233!
