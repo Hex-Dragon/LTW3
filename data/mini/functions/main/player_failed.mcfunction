@@ -2,8 +2,7 @@
 
 # 计数
 tag @s remove mini_running
-scoreboard players set $t_alive mem 0
-execute as @a[tag=mini_running] run scoreboard players add $t_alive mem 1
+execute store result score $t_finish mem if entity @a[tag=mini_running]
 execute if score $t_alive mem matches 1.. run tellraw @a [{"selector": "@s","color":"red"}," 已失败! 剩余 ",{"score": {"name": "$t_alive","objective": "mem"}}," 人!"]
 
 # 给存活的玩家加分
