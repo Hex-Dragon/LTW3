@@ -5,7 +5,7 @@ tag @s remove mini_running
 execute store result score $t_finish mem if entity @a[tag=!mini_running]
 execute if score $t_finish mem matches ..3 run tellraw @a [{"selector": "@s","color":"green"}," 已成功! 第 ",{"score": {"name": "$t_finish","objective": "mem"}}," 名!"]
 
-# 给已完成的玩家减分
+# 给已完成的玩家加分
 scoreboard players add @a[tag=!mini_running] mini_score 1
 
 # 进入旁观
