@@ -8,7 +8,7 @@ execute as @a[scores={damage_taken=0..},tag=damage_taken] run scoreboard players
 execute as @a[scores={damage_taken=0..},tag=damage_taken] run scoreboard players operation @s damage_counter2 %= 除数 damage_counter1
 
 # 进行受伤提示
-tellraw @a[tag=damage_taken,tag=damage_dealt,scores={damage_taken=0..,damage_system=1..}] [{"text":"[!] ","color":"red"},{"text":"你对自己造成了","color":"white"},{"color":"red","score":{"name":"@a[tag=damage_taken,scores={damage_taken=0..}]","objective":"damage_counter1"}},{"text":".","color":"red"},{"color":"red","score":{"name":"@a[tag=damage_taken,scores={damage_taken=0..}]","objective":"damage_counter2"}},{"text":"点伤害","color":"white"}]
+tellraw @a[tag=damage_taken,tag=damage_dealt,scores={damage_taken=0..}] [{"text":"[!] ","color":"red"},{"text":"你对自己造成了","color":"white"},{"color":"red","score":{"name":"@a[tag=damage_taken,scores={damage_taken=0..}]","objective":"damage_counter1"}},{"text":".","color":"red"},{"color":"red","score":{"name":"@a[tag=damage_taken,scores={damage_taken=0..}]","objective":"damage_counter2"}},{"text":"点伤害","color":"white"}]
 
 # 重置分数
 scoreboard players set @a[tag=damage_taken] damage_counter1 0
