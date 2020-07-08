@@ -1,6 +1,7 @@
 # 小游戏结束
 execute if score $mini_type mem matches 1 run function mini:parkour/game_end
 execute if score $mini_type mem matches 2 run function mini:tntrun/game_end
+execute if score $mini_type mem matches 3 run function mini:hotpm/game_end
 
 # 计算排名
 tag @a remove mini_rank1

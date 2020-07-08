@@ -8,7 +8,7 @@ scoreboard players set $countdown mem 3
 # 决定进行哪个小游戏
 # 1 跑酷；2 TNT Run；3 热土豆
 scoreboard players set $random_min mem 1
-scoreboard players set $random_max mem 2
+scoreboard players set $random_max mem 3
 function lib:random
 scoreboard players operation $mini_type mem = $random mem
 

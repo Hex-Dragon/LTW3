@@ -8,6 +8,7 @@ gamerule doFireTick false
 gamerule doMobSpawning false
 gamerule keepInventory true
 gamerule doWeatherCycle false
+gamerule doImmediateRespawn true
 
 # 全局变量
 scoreboard objectives remove mem
