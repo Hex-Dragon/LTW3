@@ -7,4 +7,4 @@ execute if score $state mem matches 4 run function ltw:state/4/tick20
 execute if score $state mem matches 6 run function ltw:state/6/tick20
 
 # 全局倒计时
-scoreboard players remove $countdown mem 1
+execute if score $countdown mem matches 1.. run scoreboard players remove $countdown mem 1
