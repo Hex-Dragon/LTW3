@@ -3,6 +3,10 @@ execute if score $mini_type mem matches 1 run function mini:parkour/game_end
 execute if score $mini_type mem matches 2 run function mini:tntrun/game_end
 
 # 计算排名
+tag @a remove mini_rank1
+tag @a remove mini_rank2
+tag @a remove mini_rank3
+tag @a remove mini_rank4
 # 1
 scoreboard players set $t_score_max mini_score -2147483648
 execute as @a run function mini:main/get_max_score
