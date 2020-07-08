@@ -1,8 +1,8 @@
 # 全局初始化
 
-# 状态机初始化
-scoreboard objectives remove ltw_state
-scoreboard objectives add ltw_state dummy ["主状态"]
+# 全局变量初始化
+scoreboard objectives remove mem
+scoreboard objectives add mem dummy ["全局变量"]
 
 # 时钟初始化
 schedule function ltw:clock/tick4 4t replace
