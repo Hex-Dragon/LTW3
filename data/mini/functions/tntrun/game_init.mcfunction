@@ -7,4 +7,3 @@ setblock 1000 11 2000 minecraft:redstone_block
 
 # 清理残余实体
 kill @e[tag=tntrun_block]
-execute positioned 10000 10 2000 run kill @e[type=item,distance=..50]
