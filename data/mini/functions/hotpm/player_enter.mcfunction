@@ -12,4 +12,7 @@ effect give @s resistance 1000000 4 true
 # 关闭伤害
 gamerule fallDamage false
 
-# UNDONE : 传送玩家
+# 传送玩家
+spreadplayers 1023 3021 5 5 false @s
+schedule function mini:hotpm/player_enter2 1t replace
+# schedule: tp @a ~ 25 ~
