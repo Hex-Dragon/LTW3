@@ -35,4 +35,5 @@ setblock 1000 5 3022 minecraft:redstone_block
 setblock 1000 4 2999 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:23,posZ:0,integrity:1.0f,showair:0b,name:"mini:hotpm000",sizeY:24,sizeZ:23,showboundingbox:0b}
 setblock 1000 5 2999 minecraft:redstone_block
 
-# 清理残余实体
+# 生成土豆
+function mini:hotpm/pm_init
