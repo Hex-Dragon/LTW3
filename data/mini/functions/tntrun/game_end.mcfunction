@@ -7,3 +7,6 @@ kill @e[tag=tntrun_block]
 # 开启伤害
 gamerule fallDamage true
 gamerule fireDamage true
+
+# 清理玩家标签
+tag @a remove tntrun_pc
