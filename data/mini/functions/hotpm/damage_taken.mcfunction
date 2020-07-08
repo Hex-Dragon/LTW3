@@ -1,7 +1,5 @@
 # 收到伤害加tag
-tag @s add pm_damage_taken
-
-say 我被打了！
+execute if score $state mem matches 5 if score mini_type mem matches 3 run tag @s add pm_damage_taken
 
 # 移除造成伤害advancement
-advancement revoke @s only mini:hotpm/pm_damage_taken
+advancement revoke @s only mini:pm_damage_taken
