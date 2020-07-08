@@ -10,7 +10,7 @@ execute as @a unless entity @a[tag=mini_rank1] if score @s mini_score = $t_score
 # 2
 scoreboard players set $t_score_max mini_score -2147483648
 execute as @a[tag=!mini_rank1] run function mini:main/get_max_score
-execute as @a[tag=!mini_rank1] unless entity @a[tag=mini_rank2] if score @s mini_score = $t_score_max mini_score run tag @s add mini_rank1
+execute as @a[tag=!mini_rank1] unless entity @a[tag=mini_rank2] if score @s mini_score = $t_score_max mini_score run tag @s add mini_rank2
 
 # 进入状态 6
 function ltw:state/6/state_enter
