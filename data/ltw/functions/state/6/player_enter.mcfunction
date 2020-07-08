@@ -8,9 +8,9 @@ effect give @s saturation 1000000 0 true
 effect give @s instant_health 10 0 true
 effect give @s night_vision 1000000 0 true
 
-# 显示小游戏介绍
-function mini:main/player_intro
+# 显示小游戏结果
+function mini:main/show_result
 
 # 自由旁观
-gamemode spectator @s
+gamemode spectator
 spectate
