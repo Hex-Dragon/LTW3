@@ -1,1 +1,1 @@
-funtcion mini:tntrun/tick
+function mini:tntrun/tick
