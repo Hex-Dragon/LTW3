@@ -1,7 +1,7 @@
 {
     "criteria": {
         "hurt": {
-            "trigger": "minecraft:player_hurt_entity",
+            "trigger": "minecraft:entity_hurt_player",
             "conditions": {
                 "damage": {
                     "taken": {
@@ -12,6 +12,6 @@
         }
     },
     "rewards": {
-        "function": "mini:hotpm/damage_indicator/damage_dealt"
+        "function": "lib:damage_indicator/damage_taken"
     }
 }
