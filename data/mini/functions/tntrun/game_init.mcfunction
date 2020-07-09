@@ -7,3 +7,7 @@ setblock 1000 11 2000 minecraft:redstone_block
 
 # 清理残余实体
 kill @e[tag=tntrun_block]
+
+# 关闭伤害
+gamerule fallDamage false
+gamerule fireDamage false

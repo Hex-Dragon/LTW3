@@ -1,6 +1,6 @@
 # 单个玩家开始小游戏时执行
 title @s clear
-gamemode adventure @s
+gamemode creative
 
 # 状态效果
 effect clear @s
@@ -14,11 +14,12 @@ tag @s remove pm_hoding
 tag @s remove pm_damage_dealt
 tag @s remove pm_damage_taken
 
-# 关闭伤害
-gamerule fallDamage false
+# 调整模式
+gamemode adventure @s[tag=!watcher]
+gamemode spectator @s[tag=watcher]
 
 # 传送玩家
-spreadplayers 1023 3021 5 5 false @s
+spreadplayers 1023 3021 5 5 false @s[tag=!watcher]
 schedule function mini:hotpm/player_enter2 1t replace
 # schedule: tp @a ~ 25 ~
 
