@@ -9,4 +9,4 @@ scoreboard players add $random_max mem 1
 scoreboard players operation $random mem %= $random_max mem
 scoreboard players operation $random mem += $random_min mem
 
-# TODO : 重置血量上限
+# TODO : 血量上限改变依然会触发假死
