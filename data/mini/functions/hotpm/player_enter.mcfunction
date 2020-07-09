@@ -22,5 +22,5 @@ spreadplayers 1023 3021 5 5 false @s
 schedule function mini:hotpm/player_enter2 1t replace
 # schedule: tp @a ~ 25 ~
 
-# 给与土豆
-schedule function mini:hotpm/pm_init_init 5s replace
+# 3秒后给予土豆
+schedule function mini:hotpm/pm_init_init 3s replace
