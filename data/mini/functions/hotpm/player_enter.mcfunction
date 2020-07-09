@@ -23,7 +23,7 @@ gamemode spectator @s
 gamemode adventure @s[tag=!watcher,tag=!rejoining]
 
 # 设置玩家生命数量
-scoreboard players set @s mini_heart 3
+scoreboard players set @s mini_heart 2
 function mini:main/player_max_health
 
 # 3秒后给予土豆
