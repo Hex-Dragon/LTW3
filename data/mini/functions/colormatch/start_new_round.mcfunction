@@ -12,6 +12,10 @@ scoreboard players operation $countdown mem = $color_match_time mem
 # 重置分数
 scoreboard players set $color_match_type mem 0
 
+# 将玩家拉下屏障
+execute as @a[tag=color_match_fall] at @s run tp @s ~ 20 ~
+tag @a[tag=color_match_fall] remove color_match_fall
+
 # TODO 告知玩家是啥方块
 # 告知玩家
 tellraw @a [{"text":">> ","color":"gold","bold": true},{"text":" 新的一轮开始了！","color":"white","bold": false}]
