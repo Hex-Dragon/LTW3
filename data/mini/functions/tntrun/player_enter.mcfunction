@@ -11,12 +11,10 @@ effect give @s resistance 1000000 4 true
 
 # 传送玩家
 spreadplayers 1011.5 2011.5 7 7 false @s[tag=!watcher,tag=!rejoining]
-execute if entity @s[tag=!watcher,tag=!rejoining] run schedule function mini:tntrun/player_enter2 1t replace
 # schedule: tp @a ~ ~-3 ~
 
 # 两秒后才开始 TNT 掉落
 tag @s remove tntrun_pc
-execute if entity @s[tag=!watcher,tag=!rejoining] run schedule function mini:tntrun/player_enter3 2s replace
 # schedule: tag @a add tntrun_pc
 
 # 调整模式

@@ -25,9 +25,6 @@ gamemode adventure @s[tag=!watcher,tag=!rejoining]
 # 设置玩家生命数量
 scoreboard players set @s[tag=!watcher,tag=!rejoining] mini_heart 2
 function mini:main/player_max_health
-
-# 3秒后给予土豆
-execute if entity @s[tag=!watcher,tag=!rejoining] run schedule function mini:hotpm/pm_init_first 3s replace
 # TODO 灭火无效
 
 # 重新加入处理
