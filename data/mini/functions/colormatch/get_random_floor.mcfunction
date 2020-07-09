@@ -4,6 +4,8 @@ scoreboard players set $random_max mem 25
 function lib:random
 
 # TODO 更换地板方块-增强对比+辨识度
+# 随机选择不消失的方块
+execute at @e[tag=color_match_floor] run fill ~1 ~1 ~ ~26 ~1 ~25 air replace
 execute at @e[tag=color_match_floor] if score $random mem matches 1 run clone ~1 ~ ~ ~26 ~ ~25 ~1 ~1 ~ filtered iron_block
 execute at @e[tag=color_match_floor] if score $random mem matches 2 run clone ~1 ~ ~ ~26 ~ ~25 ~1 ~1 ~ filtered white_concrete
 execute at @e[tag=color_match_floor] if score $random mem matches 3 run clone ~1 ~ ~ ~26 ~ ~25 ~1 ~1 ~ filtered quartz_block
