@@ -13,5 +13,5 @@ setblock 0 10 2000 minecraft:structure_block{mode:"LOAD",name:"ltw:select"}
 setblock 0 11 2000 minecraft:redstone_block
 
 # 判断进入下一轮小游戏或结束
-execute if score $game_type mem matches 1 if score $round mem matches ..3 run function ltw:state/7/continue_gameparty
-execute if score $game_type mem matches 1 if score $round mem matches 4.. run function ltw:main/game_end
+# execute if score $game_type mem matches 1 if score $round mem matches ..3 run function ltw:state/7/continue_gameparty
+# execute if score $game_type mem matches 1 if score $round mem matches 4.. run function ltw:main/game_end
