@@ -17,6 +17,13 @@ scoreboard objectives add mem dummy "全局变量"
 scoreboard objectives remove total_score
 scoreboard objectives add total_score dummy "得分"
 
+# 队伍
+team remove ltw
+team add ltw "龙猫战争3"
+team modify ltw color white
+team modify ltw collisionRule never
+
+
 # 时钟
 schedule function ltw:clock/tick4 4t replace
 schedule function ltw:clock/tick20 20t replace
