@@ -1,8 +1,8 @@
-#as holder
-#加tag
+# 玩家失去土豆时执行
 tag @s remove pm_hoding
 
-#效果
 effect clear @s glowing
+effect clear @s speed
+effect clear @s jump_boost
 effect give @s speed 2 1 true
-effect give @s jump_boost 2 1 true
+effect give @s jump_boost 2 2 true
