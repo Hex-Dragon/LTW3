@@ -23,4 +23,4 @@ schedule function mini:hotpm/player_enter2 1t replace
 # schedule: tp @a ~ 25 ~
 
 # 3秒后给予土豆
-schedule function mini:hotpm/pm_init_init 3s replace
+schedule function mini:hotpm/pm_init_first 3s replace
