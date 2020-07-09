@@ -7,3 +7,6 @@ scoreboard objectives setdisplay sidebar
 
 # 关闭伤害
 gamerule fallDamage false
+
+# 清理加载区域
+forceload remove all
