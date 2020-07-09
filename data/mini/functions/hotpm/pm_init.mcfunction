@@ -1,4 +1,3 @@
-say 刷土豆了
 # 将土豆刷新给离自己最远的人
 execute at @s as @a[sort=furthest,tag=mini_running,tag=!watcher,limit=1] run function mini:hotpm/pm_get
 
