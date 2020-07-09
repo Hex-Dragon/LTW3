@@ -2,7 +2,7 @@
 tag @a[tag=pm_hoding] remove pm_hoding
 
 # 刷新土豆
-execute at @s as @a[limit=1,sort=furthest,tag=mini_running] run function mini:hotpm/pm_get
+execute at @s as @a[sort=furthest,tag=mini_running,limit=1] run function mini:hotpm/pm_get
 
 # 旁观土豆持有者
 execute as @a[gamemode=spectator] run spectate @p[tag=pm_hoding]
