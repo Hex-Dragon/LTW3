@@ -14,8 +14,8 @@ gamerule doImmediateRespawn true
 # 记分板
 scoreboard objectives remove mem
 scoreboard objectives add mem dummy "全局变量"
-scoreboard objectives remove gameparty_score
-scoreboard objectives add gameparty_score dummy "积分"
+scoreboard objectives remove total_score
+scoreboard objectives add total_score dummy "得分"
 
 # 时钟
 schedule function ltw:clock/tick4 4t replace

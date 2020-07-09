@@ -2,4 +2,7 @@
 scoreboard players set $state mem 7
 execute as @a run function ltw:state/7/player_enter
 
+# HUD
+scoreboard objectives setdisplay sidebar total_score
+
 schedule function ltw:state/0/state_enter 5t replace

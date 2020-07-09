@@ -2,5 +2,8 @@
 scoreboard players set $state mem 0
 execute as @a run function ltw:state/0/player_enter
 
+# HUD
+scoreboard objectives setdisplay sidebar
+
 # 关闭伤害
 gamerule fallDamage false
