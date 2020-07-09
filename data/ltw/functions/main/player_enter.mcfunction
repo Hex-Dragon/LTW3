@@ -1,4 +1,5 @@
 # 当玩家加入游戏时触发
+team join ltw @s
 
 # 如果是旁观者或局号不对头：开始旁观
 execute if entity @s[tag=watcher] run function ltw:main/player_enter_watcher
