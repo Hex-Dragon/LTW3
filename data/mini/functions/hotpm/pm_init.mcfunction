@@ -1,7 +1,3 @@
-# 清理残余tag
-tag @a[tag=pm_hoding] remove pm_hoding
-
-# TODO : 这个见鬼东西现在会刷新给最近的人
 # 将土豆刷新给离自己最远的人
 execute at @s as @a[sort=furthest,tag=mini_running,limit=1] run function mini:hotpm/pm_get
 
