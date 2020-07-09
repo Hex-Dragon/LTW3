@@ -39,12 +39,11 @@ setblock 1000 4 2999 minecraft:structure_block[mode=load]{metadata:"",mirror:"NO
 setblock 1000 5 2999 minecraft:redstone_block
 
 # 干掉结构方块
-setblock 1023 27 3022 air
-setblock 1023 27 2999 air
-setblock 1000 27 3022 air
-setblock 1000 27 2999 air
-setblock 1023 4 3022 air
-setblock 1023 4 2999 air
-setblock 1000 4 3022 air
-setblock 1000 4 2999 air
-
+setblock 1000 50 2999 air
+setblock 1044 50 2999 air
+setblock 1044 50 3043 air
+setblock 1000 50 3043 air
+setblock 1000 5 3043 air
+setblock 1044 5 3043 air
+setblock 1044 5 2999 air
+setblock 1000 5 2999 air
