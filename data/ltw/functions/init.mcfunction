@@ -11,9 +11,11 @@ gamerule keepInventory true
 gamerule doWeatherCycle false
 gamerule doImmediateRespawn true
 
-# 全局变量
+# 记分板
 scoreboard objectives remove mem
-scoreboard objectives add mem dummy ["全局变量"]
+scoreboard objectives add mem dummy "全局变量"
+scoreboard objectives remove gameparty_score
+scoreboard objectives add gameparty_score dummy "积分"
 
 # 时钟
 schedule function ltw:clock/tick4 4t replace
@@ -21,3 +23,8 @@ schedule function ltw:clock/tick20 20t replace
 
 # 其他模块
 function mini:main/init
+
+# 状态
+function ltw:state/0/state_enter
+
+# TODO 关闭玩家碰撞箱

@@ -25,3 +25,4 @@ schedule function mini:hotpm/player_enter2 1t replace
 
 # 3秒后给予土豆
 schedule function mini:hotpm/pm_init_first 3s replace
+# TODO 灭火无效
