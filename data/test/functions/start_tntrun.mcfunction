@@ -1,5 +1,6 @@
 # 测试用：快速开始 TNT Run
 
+tag @a remove watcher
 scoreboard players set $mini_type mem 2
 function mini:main/game_init
 function ltw:state/4/state_enter
