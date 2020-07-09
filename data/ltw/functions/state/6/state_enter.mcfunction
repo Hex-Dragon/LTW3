@@ -4,6 +4,7 @@ execute as @a run function ltw:state/6/player_enter
 
 # HUD
 scoreboard objectives setdisplay sidebar total_score
+scoreboard objectives setdisplay list total_score
 
 # 初始化倒计时
 scoreboard players set $countdown mem 5

@@ -4,6 +4,7 @@ execute as @a run function ltw:state/0/player_enter
 
 # HUD
 scoreboard objectives setdisplay sidebar
+scoreboard objectives setdisplay list
 
 # 关闭伤害
 gamerule fallDamage false
