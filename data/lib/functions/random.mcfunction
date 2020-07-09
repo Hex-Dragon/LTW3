@@ -8,3 +8,5 @@ scoreboard players operation $random_max mem -= $random_min mem
 scoreboard players add $random_max mem 1
 scoreboard players operation $random mem %= $random_max mem
 scoreboard players operation $random mem += $random_min mem
+
+# TODO : 重置血量上限
