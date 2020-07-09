@@ -9,4 +9,4 @@ scoreboard players set $countdown mem 5
 execute as @a[tag=mini_running] run scoreboard players add $countdown mem 5
 
 # 删除效果云
-kill @s
+kill @s[type=area_effect_cloud]
