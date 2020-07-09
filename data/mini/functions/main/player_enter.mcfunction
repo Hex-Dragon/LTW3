@@ -6,3 +6,4 @@ scoreboard players set @s[tag=watcher] mini_score -9999999
 execute if score $mini_type mem matches 1 run function mini:parkour/player_enter
 execute if score $mini_type mem matches 2 run function mini:tntrun/player_enter
 execute if score $mini_type mem matches 3 run function mini:hotpm/player_enter
+execute if score $mini_type mem matches 4 run function mini:colormatch/player_enter
