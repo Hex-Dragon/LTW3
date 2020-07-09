@@ -11,11 +11,13 @@ execute if score $count mem matches 9.. run tellraw @a [{"text": "小游戏模�
 execute if score $count mem matches 3..8 run tag @a remove watcher
 execute if score $count mem matches 3..8 run tag @a[tag=!hub_gameparty] add watcher
 
-# 重置数据
+# 设置数据
 scoreboard players reset * total_score
 scoreboard players set @a[tag=!watcher] total_score 0
 scoreboard players set $round mem 1
 scoreboard players set $game_type mem 1
+scoreboard players add $ game_id 1
+scoreboard players operation @a game_id = $ game_id
 
 # 开始小游戏
 execute if score $count mem matches 3..8 run function ltw:state/3/state_enter
