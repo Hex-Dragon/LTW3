@@ -1,3 +1,4 @@
+say 有人炸了
 #玩家失败
 function mini:hotpm/pm_lost
 #记录位置
