@@ -1,6 +1,5 @@
 # 初始化地图
 forceload add 1001 4000 1075 4025
-
 fill 1049 10 4025 1075 10 3999 minecraft:bedrock
 fill 1074 11 4000 1050 11 4024 lava
 fill 1074 15 4000 1050 15 4024 stone
@@ -12,7 +11,7 @@ fill 1074 30 4024 1050 30 4000 barrier
 
 # 设置分数
 scoreboard players set $color_match_round mem 0
-scoreboard players set $color_match_time mem 15
+scoreboard players set $color_match_time mem 10
 
 # 设置模式为地板消失
 scoreboard players set $color_match_type mem 0
