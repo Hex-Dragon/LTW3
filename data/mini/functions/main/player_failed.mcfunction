@@ -2,7 +2,7 @@
 
 # 计数
 tag @s remove mini_running
-execute store result score $t_alive mem if entity @a[tag=mini_running]
+execute store result score $t_alive mem if entity @a[tag=mini_running,tag=!hub_watch]
 execute if score $t_alive mem matches 1.. run tellraw @a [{"selector": "@s","color":"red"}," 已失败! 剩余 ",{"score": {"name": "$t_alive","objective": "mem"}}," 人!"]
 
 # 给存活的玩减分
