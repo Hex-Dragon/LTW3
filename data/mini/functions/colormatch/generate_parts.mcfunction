@@ -1,5 +1,3 @@
-# TODO 将场地设为固定位置
-# TODO 解决奇怪的极端生成情况
 # 分数更改 
 scoreboard players add $floor_generate_part mem 1
 # 随机生成地板
@@ -30,4 +28,5 @@ execute if score $floor_generate_part mem matches 24 positioned 1000 10 4000 run
 execute if score $floor_generate_part mem matches 25 positioned 1000 10 4000 run setblock ~ ~ ~ minecraft:structure_block{posX:1,mode:"LOAD",name:"mini:color_match/color_25",integrity:0.04f}
 setblock 1000 9 4000 redstone_block
 setblock 1000 9 4000 air
+setblock 1000 10 4000 air
 execute if score $floor_generate_part mem matches 1..24 run schedule function mini:colormatch/generate_parts 1t
