@@ -6,15 +6,15 @@ tag @a remove total_rank2
 tag @a remove total_rank3
 # 1
 scoreboard players set $t_score_max total_score -2147483648
-execute as @a run function total:main/get_max_score
+execute as @a run function ltw:main/get_max_score
 execute as @a unless entity @a[tag=total_rank1] if score @s total_score = $t_score_max total_score run tag @s add total_rank1
 # 2
 scoreboard players set $t_score_max total_score -2147483648
-execute as @a[tag=!total_rank1] run function total:main/get_max_score
+execute as @a[tag=!total_rank1] run function ltw:main/get_max_score
 execute as @a[tag=!total_rank1] unless entity @a[tag=total_rank2] if score @s total_score = $t_score_max total_score run tag @s add total_rank2
 # 3
 scoreboard players set $t_score_max total_score -2147483648
-execute as @a[tag=!total_rank1,tag=!total_rank2] run function total:main/get_max_score
+execute as @a[tag=!total_rank1,tag=!total_rank2] run function ltw:main/get_max_score
 execute as @a[tag=!total_rank1,tag=!total_rank2] unless entity @a[tag=total_rank3] if score @s total_score = $t_score_max total_score run tag @s add total_rank3
 
 # 显示排名

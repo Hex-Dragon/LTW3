@@ -3,7 +3,7 @@ scoreboard players set $state mem 4
 execute as @a run function ltw:state/4/player_enter
 
 # HUD
-scoreboard objectives setdisplay sidebar
+scoreboard objectives setdisplay sidebar total_score
 
 # 初始化倒计时
 scoreboard players set $countdown mem 10

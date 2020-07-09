@@ -1,6 +1,9 @@
 # 初始化热土豆地图
 forceload add 1000 3000 1100 3100
 
+# 关闭伤害
+gamerule fallDamage false
+
 # 生成地图
 
 #   111
@@ -18,9 +21,6 @@ setblock 1000 28 3022 minecraft:redstone_block
 #   010
 setblock 1000 27 2999 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:23,posZ:0,integrity:1.0f,showair:0b,name:"mini:hotpm010",sizeY:24,sizeZ:23,showboundingbox:0b}
 setblock 1000 28 2999 minecraft:redstone_block
-
-# 关闭伤害
-gamerule fallDamage false
 
 #   101
 setblock 1023 4 3022 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"!",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:23,posZ:0,integrity:1.0f,showair:0b,name:"mini:hotpm101",sizeY:24,sizeZ:23,showboundingbox:0b}
