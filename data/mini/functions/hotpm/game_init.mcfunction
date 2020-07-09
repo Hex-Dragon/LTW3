@@ -1,5 +1,5 @@
 # 初始化 TNT Run 地图
-forceload add 1000 3000 1050 3050
+forceload add 1000 3000 1100 3100
 
 # 生成地图
 

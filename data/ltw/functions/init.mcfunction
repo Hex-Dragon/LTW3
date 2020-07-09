@@ -1,6 +1,7 @@
 # 全局初始化
 
 # 游戏数据
+forceload remove all
 time set noon
 weather clear
 gamerule doDaylightCycle false

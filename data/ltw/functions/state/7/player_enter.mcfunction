@@ -8,5 +8,5 @@ effect give @s saturation 1000000 0 true
 effect give @s instant_health 10 0 true
 effect give @s night_vision 1000000 0 true
 
-# UNDONE : 继续阶段 7
+# TODO : 继续阶段 7
 gamemode creative
