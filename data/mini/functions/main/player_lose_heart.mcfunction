@@ -3,5 +3,7 @@
 execute if score @s mini_heart matches 1.. run scoreboard players remove @s mini_heart 1
 # 计算血量
 function mini:main/player_max_health
+# 修改血量
+effect give @s minecraft:instant_health 1 0
 # 生命值归0判定失败
 execute if score @s mini_heart matches 0 run function mini:main/player_failed
