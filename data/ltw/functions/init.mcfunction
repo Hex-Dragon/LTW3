@@ -34,4 +34,4 @@ function mini:main/init
 # 状态
 function ltw:state/0/state_enter
 
-# TODO 关闭玩家碰撞箱
+# TODO 让玩家进入时触发 ltw:main/player_enter
