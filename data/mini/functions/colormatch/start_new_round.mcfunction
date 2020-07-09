@@ -18,4 +18,4 @@ tag @a[tag=color_match_fall] remove color_match_fall
 
 # TODO 告知玩家是啥方块
 # 告知玩家
-tellraw @a [{"text":">> ","color":"gold","bold": true},{"text":" 新的一轮开始了！","color":"white","bold": false}]
+tellraw @a [{"text":">> ","color":"gold","bold": true},{"text":"新的一轮开始了！","color":"white","bold": false}]

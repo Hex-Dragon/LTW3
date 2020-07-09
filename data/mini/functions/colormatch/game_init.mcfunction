@@ -19,7 +19,7 @@ scoreboard players set $color_match_type mem 0
 
 # 刷新地基
 function mini:colormatch/prepare_round
-schedule function mini:colormatch/start_new_round 28t replace
+schedule function mini:colormatch/game_init2 28t replace
 
 # 关闭伤害
 gamerule fallDamage false
