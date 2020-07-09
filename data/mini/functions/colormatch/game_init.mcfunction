@@ -13,6 +13,9 @@ fill 1049 11 4025 1075 40 4025 stone
 scoreboard players set $color_match_round mem 0
 scoreboard players set $color_match_time mem 15
 
+# 设置模式为地板消失
+scoreboard players set $color_match_type mem 0
+
 # 刷新地基
 function mini:colormatch/prepare_round
 schedule function mini:colormatch/start_new_round 28t replace
