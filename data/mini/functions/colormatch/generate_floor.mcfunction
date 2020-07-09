@@ -1,4 +1,5 @@
 # TODO 将场地设为固定位置
+# 随机生成地板
 execute at @e[tag=color_match_floor] run setblock ~ ~ ~ minecraft:structure_block{posX:1,mode:"LOAD",name:"mini:color_match/color_1",integrity:1.0f}
 execute at @e[tag=color_match_floor] run setblock ~-1 ~ ~ minecraft:redstone_block
 execute at @e[tag=color_match_floor] run setblock ~-1 ~ ~ minecraft:air
