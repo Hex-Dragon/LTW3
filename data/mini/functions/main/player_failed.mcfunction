@@ -3,9 +3,10 @@
 # 计数
 tag @s remove mini_running
 execute store result score $t_alive mem if entity @a[tag=mini_running,tag=!watcher]
-execute if score $t_alive mem matches 1.. run tellraw @a [{"selector": "@s","color":"red"}," 已失败! 剩余 ",{"score": {"name": "$t_alive","objective": "mem"}}," 人!"]
+execute store result score $t_finish mem if entity @a[tag=!mini_running,tag=!watcher]
+execute if entity @s[tag=!rejoining] if score $t_alive mem matches 1.. run tellraw @a [{"selector": "@s","color":"red"}," 已失败! 剩余 ",{"score": {"name": "$t_alive","objective": "mem"}}," 人!"]
 
-# 给存活的玩减分
+# 给存活的玩家加分
 scoreboard players add @a[tag=mini_running] mini_score 1
 
 # 进入旁观

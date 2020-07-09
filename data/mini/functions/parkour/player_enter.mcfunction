@@ -10,8 +10,8 @@ effect give @s night_vision 1000000 0 true
 effect give @s resistance 1000000 4 true
 
 # 传送玩家
-tp @s[tag=!watcher] 1005 15 1005
+tp @s[tag=!watcher,tag=!rejoining] 1005 15 1005
 
 # 调整模式
-gamemode adventure @s[tag=!watcher]
-gamemode spectator @s[tag=watcher]
+gamemode spectator @s
+gamemode adventure @s[tag=!watcher,tag=!rejoining]

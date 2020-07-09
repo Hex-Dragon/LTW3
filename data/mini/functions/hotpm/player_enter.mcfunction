@@ -14,15 +14,17 @@ tag @s remove pm_hoding
 tag @s remove pm_damage_dealt
 tag @s remove pm_damage_taken
 
-# 调整模式
-gamemode adventure @s[tag=!watcher]
-gamemode spectator @s[tag=watcher]
-
 # 传送玩家
-spreadplayers 1023 3021 5 5 false @s[tag=!watcher]
-schedule function mini:hotpm/player_enter2 1t replace
-# schedule: tp @a ~ 25 ~
+spreadplayers 1023 3021 5 5 false @s[tag=!watcher,tag=!rejoining]
+execute if entity @s[tag=!watcher,tag=!rejoining] run schedule function mini:hotpm/player_enter2 1t replace
+
+# 调整模式
+gamemode spectator @s
+gamemode adventure @s[tag=!watcher,tag=!rejoining]
 
 # 3秒后给予土豆
-schedule function mini:hotpm/pm_init_first 3s replace
+execute if entity @s[tag=!watcher,tag=!rejoining] run schedule function mini:hotpm/pm_init_first 3s replace
 # TODO 灭火无效
+
+# 重新加入处理
+execute if entity @s[tag=rejoining] run function mini:hotpm/player_failed
