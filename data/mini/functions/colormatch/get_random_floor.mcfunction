@@ -4,6 +4,7 @@ function lib:random
 
 # TODO 更换地板方块-增强对比+辨识度
 # 随机选择不消失的方块
+execute positioned 1000 10 4000 run fill ~ ~1 ~ ~25 ~1 ~25 air replace
 execute positioned 1000 10 4000 if score $random mem matches 1 run clone ~ ~ ~ ~25 ~ ~25 ~ ~1 ~ filtered iron_block
 execute positioned 1000 10 4000 if score $random mem matches 2 run clone ~ ~ ~ ~25 ~ ~25 ~ ~1 ~ filtered white_concrete
 execute positioned 1000 10 4000 if score $random mem matches 3 run clone ~ ~ ~ ~25 ~ ~25 ~ ~1 ~ filtered quartz_block
