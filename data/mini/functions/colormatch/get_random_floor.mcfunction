@@ -29,7 +29,7 @@ execute positioned 1001 10 4000 if score $random mem matches 21 run clone ~ ~ ~ 
 execute positioned 1001 10 4000 if score $random mem matches 22 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered red_concrete
 execute positioned 1001 10 4000 if score $random mem matches 23 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered netherrack
 execute positioned 1001 10 4000 if score $random mem matches 24 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered red_nether_bricks
-execute positioned 1001 10 4000 if score $random mem matches 24 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered bricks
+execute positioned 1001 10 4000 if score $random mem matches 25 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered bricks
 
 # 存计分板
 scoreboard players operation $color_match_floor mem = $random mem
