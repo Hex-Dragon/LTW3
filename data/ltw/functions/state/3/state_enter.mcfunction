@@ -6,7 +6,7 @@ execute as @a run function ltw:state/3/player_enter
 scoreboard objectives setdisplay sidebar total_score
 
 # 初始化倒计时
-scoreboard players set $countdown mem 3
+scoreboard players set $countdown mem 10
 
 # 小游戏编号
 # 1 跑酷；2 TNT Run；3 热土豆
