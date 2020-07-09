@@ -32,5 +32,5 @@ execute positioned 1000 10 4000 if score $random mem matches 24 run clone ~ ~ ~ 
 execute positioned 1000 10 4000 if score $random mem matches 24 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered bricks
 
 # 存计分板
-scoreboard players operation $floor_next_round mem = $random mem
+scoreboard players operation $color_match_floor mem = $random mem
 

@@ -6,3 +6,6 @@ tellraw @a [{"text":">> ","color":"gold","bold": true},{"text":" 时间到！","
 # 重置分数
 scoreboard players set $countdown mem 5
 scoreboard players set $color_match_type mem 1
+
+# 预备下一轮
+function mini:colormatch/prepare_round
