@@ -35,3 +35,8 @@ function mini:main/init
 
 # 状态
 function ltw:state/0/state_enter
+<<<<<<< HEAD
+=======
+
+# TODO 让玩家离开时触发 ltw:main/player_leave
+>>>>>>> a4700e93d99ee964f1df5fbe0fae9d37e1f01760
