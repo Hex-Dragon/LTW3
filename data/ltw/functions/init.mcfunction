@@ -18,6 +18,9 @@ scoreboard objectives remove total_score
 scoreboard objectives add total_score dummy "得分"
 scoreboard objectives remove leave_game
 scoreboard objectives add leave_game minecraft.custom:leave_game "离开游戏"
+scoreboard objectives remove game_id
+scoreboard objectives add game_id dummy "游戏编号"
+scoreboard players set $ game_id 0
 
 # 队伍
 team remove ltw
