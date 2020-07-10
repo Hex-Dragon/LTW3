@@ -24,4 +24,6 @@ scoreboard players set @s mini_heart 3
 function mini:main/player_max_health
 
 # 重新加入处理
-execute if entity @s[tag=rejoining] run function mini:hotpm/player_failed
+execute if entity @s[tag=rejoining] run function mini:hotpm/player_lose_heart
+# TODO 旁观者应该直接让生命值清零
+# TODO 测试方法存在问题……等我修（龙猫
