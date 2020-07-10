@@ -24,6 +24,11 @@ scoreboard objectives remove game_id
 scoreboard objectives add game_id dummy "游戏编号"
 scoreboard players set $ game_id 0
 
+#全局变量（常量）
+#   minigame总数
+scoreboard players set $global_mini_count mem 3
+
+
 # 队伍
 team remove ltw
 team add ltw "龙猫战争3"
