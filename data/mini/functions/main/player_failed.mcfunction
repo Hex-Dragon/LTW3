@@ -4,7 +4,10 @@
 tag @s remove mini_running
 execute store result score $alive mem if entity @a[tag=mini_running,tag=!watcher]
 execute store result score $t_finish mem if entity @a[tag=!mini_running,tag=!watcher]
+
+# 显示提示
 execute if entity @s[tag=!rejoining] if score $alive mem matches 1.. run tellraw @a [{"selector": "@s","color":"red"}," 已失败! 剩余 ",{"score": {"name": "$alive","objective": "mem"}}," 人!"]
+execute as @a at @s run function lib:sounds/error
 
 # 给存活的玩家加分
 scoreboard players add @a[tag=mini_running] mini_score 1

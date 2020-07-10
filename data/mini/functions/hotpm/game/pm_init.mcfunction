@@ -7,9 +7,9 @@ tellraw @a [{"text":">> ","color":"gold","bold": true},{"selector":"@a[tag=pm_ho
 # 强制观战
 execute at @s as @a[gamemode=spectator,distance=..0.1] run spectate @p[tag=pm_hoding]
 
-# 土豆爆炸时间 = 2.5 * 存活人数 + 3（秒）
-scoreboard players set $countdown_fast mem 25
-execute as @a[tag=mini_running] run scoreboard players add $countdown_fast mem 30
+# 土豆爆炸时间 = 2 * 存活人数 + 4（秒）
+scoreboard players set $countdown_fast mem 40
+execute as @a[tag=mini_running] run scoreboard players add $countdown_fast mem 20
 
 # 删除效果云
 kill @s[type=area_effect_cloud,tag=pm_boom]
