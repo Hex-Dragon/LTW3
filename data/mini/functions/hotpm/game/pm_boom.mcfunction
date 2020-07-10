@@ -11,4 +11,4 @@ summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["pm_boom"]}
 # 减少生命
 function mini:hotpm/player_lose_heart
 # 选新土豆
-execute if score $alive mem matches 2.. as @e[type=area_effect_cloud,tag=pm_boom] run function mini:hotpm/game/pm_init
+execute if score $alive mem matches 2.. as @e[type=area_effect_cloud,tag=pm_boom] at @s run function mini:hotpm/game/pm_init
