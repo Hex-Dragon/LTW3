@@ -1,6 +1,4 @@
 # 每 1 Tick 执行一次
 
 # 调用其他模块
-execute if score $state mem matches 3 run function ltw:state/3/tick1
 execute if score $state mem matches 5 run function ltw:state/5/tick1
-execute if score $state mem matches 7 run function ltw:state/7/tick1

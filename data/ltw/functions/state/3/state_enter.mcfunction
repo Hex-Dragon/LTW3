@@ -17,4 +17,4 @@ execute store result score $mini_type mem run data get storage ltw:mini types[0]
 data remove storage ltw:mini types[0]
 
 # 初始化小游戏
-function mini:main/map_init
+function mini:main/game_init

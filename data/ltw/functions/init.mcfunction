@@ -30,7 +30,8 @@ team modify ltw collisionRule never
 
 
 # 时钟
-schedule function ltw:clock/tick4 4t replace
+schedule function ltw:clock/tick2 2t replace
+schedule function ltw:clock/tick5 5t replace
 schedule function ltw:clock/tick20 20t replace
 
 # 其他模块
