@@ -1,0 +1,1 @@
+playsound minecraft:entity.arrow.hit_player block @s

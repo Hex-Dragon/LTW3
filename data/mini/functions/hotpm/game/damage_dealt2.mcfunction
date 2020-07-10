@@ -1,7 +1,7 @@
 # 土豆持有者打到人时执行
 
 tag @s add pm_damage_dealt
-playsound minecraft:entity.arrow.hit_player ambient @s ~ ~ ~ 1 1 1
+function lib:sounds/ding
 
 # 转移土豆
 function mini:hotpm/game/pm_lost
