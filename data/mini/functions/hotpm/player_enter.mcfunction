@@ -24,7 +24,8 @@ gamemode adventure @s[tag=!watcher,tag=!rejoining]
 
 # 设置玩家生命数量
 scoreboard players set @s[tag=!watcher,tag=!rejoining] mini_heart 2
+scoreboard players reset @s[tag=!watcher,tag=rejoining] mini_heart
 function mini:main/player_max_health
 
 # 重新加入处理
-execute if entity @s[tag=rejoining] run function mini:hotpm/player_lose_heart
+execute if entity @s[tag=rejoining] run function mini:main/player_failed

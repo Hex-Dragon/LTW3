@@ -18,8 +18,10 @@ gamemode adventure @s[tag=!watcher,tag=!rejoining]
 
 # 设置玩家生命数量
 scoreboard players set @s[tag=!watcher,tag=!rejoining] mini_heart 3
+scoreboard players reset @s[tag=!watcher,tag=rejoining] mini_heart
 function mini:main/player_max_health
 
 # 重新加入处理
-execute if entity @s[tag=rejoining] run function mini:hotpm/player_lose_heart
-# TODO 旁观者应该直接让生命值清零
+execute if entity @s[tag=rejoining] run function mini:main/player_failed
+
+# FIXME : 持有土豆的玩家如果掉线会导致游戏无法继续
