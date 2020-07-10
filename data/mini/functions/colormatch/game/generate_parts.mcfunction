@@ -16,17 +16,7 @@ execute if score $floor_generate_part mem matches 12 positioned 1000 10 4000 run
 execute if score $floor_generate_part mem matches 13 positioned 1000 10 4000 run setblock ~ ~ ~ minecraft:structure_block{posX:1,mode:"LOAD",name:"mini:color_match/color_13",integrity:0.07692307692307693f}
 execute if score $floor_generate_part mem matches 14 positioned 1000 10 4000 run setblock ~ ~ ~ minecraft:structure_block{posX:1,mode:"LOAD",name:"mini:color_match/color_14",integrity:0.07142857142857142f}
 execute if score $floor_generate_part mem matches 15 positioned 1000 10 4000 run setblock ~ ~ ~ minecraft:structure_block{posX:1,mode:"LOAD",name:"mini:color_match/color_15",integrity:0.06666666666666667f}
-execute if score $floor_generate_part mem matches 16 positioned 1000 10 4000 run setblock ~ ~ ~ minecraft:structure_block{posX:1,mode:"LOAD",name:"mini:color_match/color_16",integrity:0.0625f}
-execute if score $floor_generate_part mem matches 17 positioned 1000 10 4000 run setblock ~ ~ ~ minecraft:structure_block{posX:1,mode:"LOAD",name:"mini:color_match/color_17",integrity:0.058823529411764705f}
-execute if score $floor_generate_part mem matches 18 positioned 1000 10 4000 run setblock ~ ~ ~ minecraft:structure_block{posX:1,mode:"LOAD",name:"mini:color_match/color_18",integrity:0.05555555555555555f}
-execute if score $floor_generate_part mem matches 19 positioned 1000 10 4000 run setblock ~ ~ ~ minecraft:structure_block{posX:1,mode:"LOAD",name:"mini:color_match/color_19",integrity:0.05263157894736842f}
-execute if score $floor_generate_part mem matches 20 positioned 1000 10 4000 run setblock ~ ~ ~ minecraft:structure_block{posX:1,mode:"LOAD",name:"mini:color_match/color_20",integrity:0.05f}
-execute if score $floor_generate_part mem matches 21 positioned 1000 10 4000 run setblock ~ ~ ~ minecraft:structure_block{posX:1,mode:"LOAD",name:"mini:color_match/color_21",integrity:0.047619047619047616f}
-execute if score $floor_generate_part mem matches 22 positioned 1000 10 4000 run setblock ~ ~ ~ minecraft:structure_block{posX:1,mode:"LOAD",name:"mini:color_match/color_22",integrity:0.045454545454545456f}
-execute if score $floor_generate_part mem matches 23 positioned 1000 10 4000 run setblock ~ ~ ~ minecraft:structure_block{posX:1,mode:"LOAD",name:"mini:color_match/color_23",integrity:0.043478260869565216f}
-execute if score $floor_generate_part mem matches 24 positioned 1000 10 4000 run setblock ~ ~ ~ minecraft:structure_block{posX:1,mode:"LOAD",name:"mini:color_match/color_24",integrity:0.041666666666666664f}
-execute if score $floor_generate_part mem matches 25 positioned 1000 10 4000 run setblock ~ ~ ~ minecraft:structure_block{posX:1,mode:"LOAD",name:"mini:color_match/color_25",integrity:0.04f}
 setblock 1000 9 4000 redstone_block
 setblock 1000 9 4000 air
 setblock 1000 10 4000 air
-execute if score $floor_generate_part mem matches 1..24 run schedule function mini:colormatch/game/generate_parts 1t replace
+execute if score $floor_generate_part mem matches 1..14 run schedule function mini:colormatch/game/generate_parts 1t replace

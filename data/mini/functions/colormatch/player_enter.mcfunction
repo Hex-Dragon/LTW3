@@ -11,6 +11,7 @@ effect give @s saturation 1000000 0 true
 effect give @s instant_health 10 0 true
 effect give @s night_vision 1000000 0 true
 effect give @s resistance 1000000 4 true
+effect give @s jump_boost 1000000 2 true
 
 # 传送玩家
 tp @s[tag=!watcher,tag=!rejoining] 1062 20 4012
