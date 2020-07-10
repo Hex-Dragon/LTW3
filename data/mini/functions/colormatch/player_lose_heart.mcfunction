@@ -5,4 +5,4 @@ tellraw @a [{"text":">> ","color":"gold","bold": true},{"selector":"@s","color":
 function mini:main/player_lose_heart
 
 # 拉回来
-execute if entity @s[tag=mini_running] run tp @s ~ 17 ~
+execute if entity @s[tag=mini_running] run tp @s ~ 17.5 ~

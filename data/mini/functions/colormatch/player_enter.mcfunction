@@ -11,7 +11,7 @@ effect give @s resistance 1000000 4 true
 effect give @s slow_falling 1000000 0 true
 
 # 传送玩家
-tp @s[tag=!watcher,tag=!rejoining] 1062 20 4012
+tp @s[tag=!watcher,tag=!rejoining] 1062 16.5 4012
 
 # 调整模式
 gamemode spectator @s
