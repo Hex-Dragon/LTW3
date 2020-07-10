@@ -11,6 +11,7 @@ gamerule keepInventory true
 gamerule doWeatherCycle false
 gamerule doImmediateRespawn true
 gamerule mobGriefing false
+gamerule randomTickSpeed 0
 
 # 记分板
 scoreboard objectives remove mem
