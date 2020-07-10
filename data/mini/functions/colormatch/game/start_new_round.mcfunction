@@ -11,5 +11,8 @@ scoreboard players operation $countdown_fast mem = $color_match_time mem
 # 重置分数
 scoreboard players set $color_match_type mem 0
 
+# 拉玩家下来
+execute as @a[tag=color_match_fall] at @s run tp @s ~ 17 ~
+tag @a[tag=color_match_fall] remove color_match_fall
 # 告知玩家
 execute as @a at @s run function lib:sounds/hit
