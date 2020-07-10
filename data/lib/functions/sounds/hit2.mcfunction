@@ -1,1 +1,1 @@
-playsound minecraft:entity.arrow.hit_player block @s ~ ~ ~ 1 0.5
+playsound minecraft:entity.arrow.hit_player ambient @s ~ ~ ~ 1 0.5

@@ -1,1 +1,1 @@
-playsound minecraft:entity.arrow.hit_player block @s
+playsound minecraft:entity.arrow.hit_player ambient @s
