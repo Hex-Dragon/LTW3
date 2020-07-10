@@ -4,6 +4,7 @@
 forceload remove all
 time set noon
 weather clear
+difficulty normal
 gamerule doDaylightCycle false
 gamerule doFireTick false
 gamerule doMobSpawning false
@@ -28,7 +29,6 @@ scoreboard players set $ game_id 0
 #全局变量（常量）
 #   minigame总数
 scoreboard players set $global_mini_count mem 4
-
 
 # 队伍
 team remove ltw
