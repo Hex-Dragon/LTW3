@@ -4,7 +4,10 @@ function mini:colormatch/game/replace_wall
 execute positioned 1001 10 4000 run clone ~ ~ ~ ~24 ~ ~24 1050 15 4000
 
 # 设置倒计时
-scoreboard players remove $color_match_time mem 2
+execute if score $color_match_time mem matches 70.. run scoreboard players remove $color_match_time mem 10
+execute if score $color_match_time mem matches 40..69 run scoreboard players remove $color_match_time mem 5
+execute if score $color_match_time mem matches 25..39 run scoreboard players remove $color_match_time mem 2
+execute if score $color_match_time mem matches 15..20 run scoreboard players remove $color_match_time mem 1
 scoreboard players operation $countdown_fast mem = $color_match_time mem
 
 # 重置分数
