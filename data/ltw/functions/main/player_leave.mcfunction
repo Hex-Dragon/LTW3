@@ -6,3 +6,6 @@ execute if score $state mem matches 1.. if score $game_type mem matches 1 if sco
 
 # TODO : [LTCat] 优化跑酷，让它更有趣！
 # TODO : [HIM] 将 colormatch 的地图缩小到 20x20
+# TODO : [010/HIM] 做一下主地图
+# TODO : [LTCat] 奖励选择系统
+# TODO : [010/HIM] 快捷栏锁定系统
