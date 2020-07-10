@@ -10,6 +10,7 @@ gamerule doMobSpawning false
 gamerule keepInventory true
 gamerule doWeatherCycle false
 gamerule doImmediateRespawn true
+gamerule mobGriefing false
 
 # 记分板
 scoreboard objectives remove mem

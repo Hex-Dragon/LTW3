@@ -1,7 +1,7 @@
 # 土豆持有者打到人时执行
 
 tag @s add pm_damage_dealt
-function lib:sounds/ding
+function lib:sounds/hit
 
 # 转移土豆
 function mini:hotpm/game/pm_lost
