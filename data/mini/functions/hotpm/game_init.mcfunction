@@ -3,6 +3,7 @@ forceload add 1000 3000 1100 3100
 
 # 关闭伤害
 gamerule fallDamage false
+gamerule fireDamage false
 
 # 生成地图
 

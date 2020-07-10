@@ -2,9 +2,6 @@
 gamemode creative
 title @s clear
 
-# 重置tag
-tag @s remove color_match_fall
-
 # 状态效果
 effect clear @s
 effect give @s saturation 1000000 0 true
