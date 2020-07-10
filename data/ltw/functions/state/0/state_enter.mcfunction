@@ -8,7 +8,6 @@ scoreboard objectives setdisplay list
 
 # 关闭伤害
 gamerule fallDamage false
-gamerule fireDamage false
 
 # 清理加载区域
 forceload remove all
