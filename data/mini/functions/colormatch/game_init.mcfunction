@@ -10,8 +10,7 @@ fill 1049 11 4025 1075 40 4025 stone
 fill 1074 30 4024 1050 30 4000 barrier
 
 # 设置分数
-scoreboard players set $color_match_round mem 0
-scoreboard players set $color_match_time mem 10
+scoreboard players set $color_match_time mem 100
 
 # 设置模式为地板消失
 scoreboard players set $color_match_type mem 0
