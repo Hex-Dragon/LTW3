@@ -15,7 +15,7 @@ execute positioned 1001 10 4000 if score $random mem matches 8 run clone ~ ~ ~ ~
 execute positioned 1001 10 4000 if score $random mem matches 9 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered purpur_block
 execute positioned 1001 10 4000 if score $random mem matches 10 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered granite
 execute positioned 1001 10 4000 if score $random mem matches 11 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered prismarine
-execute positioned 1001 10 4000 if score $random mem matches 12 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered soul_sand
+execute positioned 1001 10 4000 if score $random mem matches 12 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered soul_soil
 execute positioned 1001 10 4000 if score $random mem matches 13 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered packed_ice
 execute positioned 1001 10 4000 if score $random mem matches 14 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered white_wool
 execute positioned 1001 10 4000 if score $random mem matches 15 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered honey_block
