@@ -11,7 +11,7 @@ fill 1049 11 4025 1075 40 4025 stone
 
 # 初始化
 scoreboard players set $finish_mode mem 0
-scoreboard players set $color_match_time mem 70
+scoreboard players set $color_match_time mem 60
 scoreboard players set $color_match_type mem 0
 
 # 刷新地基
