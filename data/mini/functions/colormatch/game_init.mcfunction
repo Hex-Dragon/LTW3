@@ -9,10 +9,9 @@ fill 1075 11 3999 1049 40 3999 stone
 fill 1049 11 3999 1049 40 4025 stone
 fill 1049 11 4025 1075 40 4025 stone
 
-# 设置分数
+# 初始化
+scoreboard players set $finish_mode mem 0
 scoreboard players set $color_match_time mem 70
-
-# 设置模式为地板消失
 scoreboard players set $color_match_type mem 0
 
 # 刷新地基

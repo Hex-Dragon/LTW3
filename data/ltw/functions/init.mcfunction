@@ -14,6 +14,7 @@ gamerule doImmediateRespawn true
 gamerule mobGriefing false
 gamerule randomTickSpeed 0
 gamerule fireDamage false
+gamerule doTileDrops false
 
 # 记分板
 scoreboard objectives remove mem
