@@ -5,7 +5,7 @@ execute positioned 1001 11 4000 run clone ~ ~ ~ ~24 ~ ~24 1050 15 4000
 execute as @a at @s run function lib:sounds/hit2
 
 # 重置分数
-scoreboard players set $countdown_fast mem 33
+scoreboard players set $countdown_fast mem 28
 scoreboard players operation $countdown_fast mem < $color_match_time mem
 scoreboard players remove $countdown_fast mem 3
 scoreboard players set $color_match_type mem 1

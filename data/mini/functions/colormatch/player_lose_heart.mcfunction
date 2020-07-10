@@ -6,5 +6,4 @@ function mini:main/player_lose_heart
 
 # 拉上屏障
 execute if entity @s[tag=mini_running] run tp @s ~ 27 ~
-effect give @s speed 7 2
 tag @s add color_match_fall

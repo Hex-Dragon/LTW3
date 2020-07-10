@@ -5,7 +5,7 @@ execute positioned 1001 10 4000 run clone ~ ~ ~ ~24 ~ ~24 1050 15 4000
 
 # 设置倒计时
 execute if score $color_match_time mem matches 37.. run scoreboard players remove $color_match_time mem 5
-execute if score $color_match_time mem matches 17..36 run scoreboard players remove $color_match_time mem 1
+execute if score $color_match_time mem matches 15..36 run scoreboard players remove $color_match_time mem 1
 scoreboard players operation $countdown_fast mem = $color_match_time mem
 
 # 重置分数
