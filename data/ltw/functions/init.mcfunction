@@ -4,6 +4,7 @@
 forceload remove all
 time set noon
 weather clear
+difficulty normal
 gamerule doDaylightCycle false
 gamerule doFireTick false
 gamerule doMobSpawning false
