@@ -23,3 +23,4 @@ execute positioned 1001 10 4000 if score $random mem matches 15 run clone ~ ~ ~ 
 # 存计分板
 scoreboard players operation $color_match_floor mem = $random mem
 
+# TODO : 让连续两次方块不一样（不一定需要随机数列）
