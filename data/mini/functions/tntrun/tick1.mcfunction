@@ -1,5 +1,5 @@
 # 检测应该消失的方块
-execute as @a[tag=tntrun_pc,nbt={OnGround:1b}] at @s positioned ~ ~-1 ~ run function mini:tntrun/check_floor
+execute as @a[tag=tntrun_pc,nbt={OnGround:1b}] at @s positioned ~ ~-1 ~ run function mini:tntrun/game/check_floor
 
 # 修改下面这一行的数字以调整方块消失的延迟（刻）
 # tntrun_timer=12

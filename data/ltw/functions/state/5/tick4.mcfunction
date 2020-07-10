@@ -1,2 +1,2 @@
 function mini:main/tick4
-function mini:main/spectator_range
+function mini:main/watcher_limit

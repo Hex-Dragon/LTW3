@@ -1,5 +1,5 @@
 # 替换墙壁
-function mini:colormatch/replace_wall
+function mini:colormatch/game/replace_wall
 # 复制地板
 execute positioned 1001 10 4000 run clone ~ ~ ~ ~24 ~ ~24 1050 15 4000
 
@@ -18,6 +18,6 @@ scoreboard players set $color_match_type mem 0
 execute as @a[tag=color_match_fall] at @s run tp @s ~ 20 ~
 tag @a[tag=color_match_fall] remove color_match_fall
 
-# TODO 告知玩家是啥方块
+# 龙猫：我觉得没必要告知玩家是啥方块，看墙壁就够了……
 # 告知玩家
 tellraw @a [{"text":">> ","color":"gold","bold": true},{"text":"新的一轮开始了！","color":"white","bold": false}]

@@ -5,4 +5,4 @@ execute if score $countdown mem matches 1.. run title @a actionbar [{"text":"土
 execute as @a[tag=pm_hoding] at @s run playsound minecraft:entity.creeper.primed player @s
 
 # 爆炸
-execute if score $countdown mem matches 0 as @a[tag=pm_hoding] run function mini:hotpm/pm_boom
+execute if score $countdown mem matches 0 as @a[tag=pm_hoding] run function mini:hotpm/game/pm_boom

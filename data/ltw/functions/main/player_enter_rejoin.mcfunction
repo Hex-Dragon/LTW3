@@ -16,5 +16,3 @@ execute if score $state mem matches 5 run function ltw:state/5/player_enter
 execute if score $state mem matches 6 run function ltw:state/6/player_enter
 execute if score $state mem matches 7 run function ltw:state/7/player_enter
 tag @s remove rejoining
-
-# TODO : 如果玩家在奖励选择阶段重连，玩家应该跳过此次奖励选择

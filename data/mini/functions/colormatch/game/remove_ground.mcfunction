@@ -8,4 +8,4 @@ scoreboard players set $countdown mem 3
 scoreboard players set $color_match_type mem 1
 
 # 预备下一轮
-function mini:colormatch/prepare_round
+function mini:colormatch/game/prepare_round

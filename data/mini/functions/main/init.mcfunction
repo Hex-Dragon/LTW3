@@ -1,7 +1,5 @@
 # 初始化
 function mini:tntrun/init
-function mini:parkour/init
-function mini:hotpm/init
 function mini:colormatch/init
 
 # 计分板初始化

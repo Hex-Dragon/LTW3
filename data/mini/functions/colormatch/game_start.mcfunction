@@ -1,2 +1,2 @@
 # 开始轮次
-function mini:colormatch/start_new_round
+function mini:colormatch/game/start_new_round

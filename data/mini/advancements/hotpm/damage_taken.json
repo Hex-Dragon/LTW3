@@ -12,6 +12,6 @@
         }
     },
     "rewards": {
-        "function": "mini:hotpm/damage_taken"
+        "function": "mini:hotpm/game/damage_taken"
     }
 }
