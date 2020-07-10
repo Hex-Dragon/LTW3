@@ -24,3 +24,4 @@ execute unless entity @a[tag=total_rank2] run tellraw @a ["",{"text":"\n\n\n----
 
 # 返回主大厅
 schedule function ltw:state/0/state_enter 2t replace
+execute as @a at @s run function lib:sounds/theend

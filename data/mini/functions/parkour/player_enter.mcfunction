@@ -1,6 +1,7 @@
 # 单个玩家开始小游戏时执行
 gamemode creative
 title @s clear
+title @s actionbar []
 
 # 状态效果
 effect clear @s
