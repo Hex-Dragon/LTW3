@@ -10,4 +10,4 @@ scoreboard players add @s[tag=mini_rank2,tag=!watcher] total_score 2
 scoreboard players add @s[tag=mini_rank3,tag=!watcher] total_score 1
 scoreboard players add @s[tag=mini_rank4,tag=!watcher] total_score 0
 
-# TODO 进入游戏会误判离开
+# TODO *进入游戏会误判离开

@@ -24,8 +24,5 @@ execute as @a[tag=!mini_rank1,tag=!mini_rank2] unless entity @a[tag=mini_rank3] 
 # 4
 tag @a[tag=!mini_rank1,tag=!mini_rank2,tag=!mini_rank3,tag=!watcher] add mini_rank4
 
-# 重置玩家血量上限
-execute as @a run attribute @s generic.max_health base set 20
-
 # 进入状态 6
 function ltw:state/6/state_enter

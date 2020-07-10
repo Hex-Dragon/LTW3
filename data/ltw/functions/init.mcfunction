@@ -29,7 +29,6 @@ scoreboard players set $ game_id 0
 #   minigame总数
 scoreboard players set $global_mini_count mem 4
 
-
 # 队伍
 team remove ltw
 team add ltw "龙猫战争3"
