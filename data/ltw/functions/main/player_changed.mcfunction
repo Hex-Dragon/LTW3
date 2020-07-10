@@ -6,4 +6,4 @@ execute store result score $player_count_now mem if entity @a
 execute if score $player_count_now mem < $player_count mem run function ltw:main/player_leave
 
 # 重置玩家数量
-execute if score $player_count_now mem < $player_count mem run scoreboard players operation $player_count mem = $player_count_now mem
+execute unless score $player_count_now mem = $player_count mem run scoreboard players operation $player_count mem = $player_count_now mem
