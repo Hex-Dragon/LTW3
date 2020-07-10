@@ -12,6 +12,7 @@ gamerule doWeatherCycle false
 gamerule doImmediateRespawn true
 gamerule mobGriefing false
 gamerule randomTickSpeed 0
+gamerule fireDamage false
 
 # 记分板
 scoreboard objectives remove mem
@@ -26,7 +27,7 @@ scoreboard players set $ game_id 0
 
 #全局变量（常量）
 #   minigame总数
-scoreboard players set $global_mini_count mem 3
+scoreboard players set $global_mini_count mem 4
 
 
 # 队伍

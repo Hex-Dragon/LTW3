@@ -7,4 +7,3 @@ setblock 1000 11 1000 minecraft:redstone_block
 
 # 关闭伤害
 gamerule fallDamage false
-gamerule fireDamage false

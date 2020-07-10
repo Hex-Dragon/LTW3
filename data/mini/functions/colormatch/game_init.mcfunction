@@ -20,4 +20,3 @@ schedule function mini:colormatch/game_init2 18t replace
 
 # 关闭伤害
 gamerule fallDamage false
-gamerule fireDamage false
