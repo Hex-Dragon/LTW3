@@ -1,1 +1,0 @@
-execute as @a if data entity @s Inventory[{"tag":{"item_new":1b}}] run function item:check_item/run_cmd
