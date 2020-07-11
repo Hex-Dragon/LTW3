@@ -7,6 +7,10 @@ tag @s remove mini_rank2
 tag @s remove mini_rank3
 tag @s remove mini_rank4
 
+# 清除得分显示（防止中途加入的旁观者依然保留上一局的得分）
+scoreboard players reset @s total_score
+scoreboard players reset @s total_score_disp
+
 # 重新加入阶段
 tag @s add rejoining
 execute if score $state mem matches 0 run function ltw:state/0/player_enter

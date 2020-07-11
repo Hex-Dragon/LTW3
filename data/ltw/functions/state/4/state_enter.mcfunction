@@ -4,7 +4,7 @@ execute as @a run function ltw:state/4/player_enter
 
 # HUD
 scoreboard objectives setdisplay belowName total_score_disp
-scoreboard objectives setdisplay sidebar total_score_disp
+scoreboard objectives setdisplay sidebar total_score
 scoreboard objectives setdisplay list total_score_disp
 
 # 初始化倒计时
