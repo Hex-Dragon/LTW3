@@ -1,1 +1,1 @@
-summon item ~ ~ ~ {Item:{id:"fishing_rod",Count:1,tag:{"bonus":1b,"bonus_new":1b,"bonus_name":'{"text":"破损的钓鱼竿","color":"green"}'}},CustomName:'{"text":"破损的钓鱼竿","color":"green"}',Tags:["team_green"],Age:-32768,PickupDelay:0,NoGravity:1,Invulnerable:1,CustomNameVisible:1,Glowing:1}
+summon item ~ ~ ~ {Item:{id:"fishing_rod",Count:1,tag:{"bonus":1b,"bonus_new":1b,"bonus_return":1b,"bonus_name":'{"text":"破损的钓鱼竿","color":"green"}'}},CustomName:'{"text":"破损的钓鱼竿","color":"green"}',Tags:["team_green"],Age:-32768,PickupDelay:0,NoGravity:1,Invulnerable:1,CustomNameVisible:1,Glowing:1}
