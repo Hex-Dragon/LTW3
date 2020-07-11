@@ -1,0 +1,2 @@
+execute as @e[type=item] if data entity @s Thrower run data merge entity @s {PickupDelay:0s}
+execute as @e[type=item] if data entity @s Thrower run data modify entity @s Owner set from entity @s Thrower
