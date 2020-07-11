@@ -24,4 +24,4 @@ function mini:main/player_max_health
 # 重新加入处理
 execute if entity @s[tag=rejoining] run function mini:main/player_failed
 
-# FIXME : [010/HIM] 持有土豆的玩家如果掉线会导致游戏无法继续
+# FIXME : [010/HIM] 玩家掉线后，如果场上没有土豆，就再生成一次，以免游戏无法继续（玩家和土豆一起掉线.jpg）
