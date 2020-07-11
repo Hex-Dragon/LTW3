@@ -1,11 +1,16 @@
 #as player
 #with forceload 0 0
-setblock 0 0 0 jukebox
-data modify block 0 0 0 RecordItem set from entity @s Inventory[{"tag":{"ltw_item_new":1b}}]
-tellraw @a [{"selector": "@s"},{"text":"获得了道具："},{"nbt": "RecordItem.tag.ltw_item_name","block": "0 0 0","interpret": true}]
-data modify block 0 0 0 RecordItem.tag.ltw_item_new set value 0b
-clear @s #item:items{"ltw_item_new":1b}
-fill 0 0 0 0 0 0 air destroy
-tag @s add ltw_item_op
-execute as @e[tag=!ltw_item_old,type=minecraft:item,nbt={"Item":{"tag":{"ltw_item":1b}}},limit=1] run function item:check_item/tp
-tag @s remove ltw_item_op
+setblock 0 0 0 jukebox replace
+data modify block 0 0 0 RecordItem set from entity @s Inventory[{"tag":{"item_new":1b}}]
+#清除原物品
+clear @s #item:items{"item_new":1b}
+
+#通知玩家物品被拾取
+tellraw @a [{"selector": "@s"},{"text":"获得了道具："},{"nbt": "RecordItem.tag.item_name","block": "0 0 0","interpret": true}]
+
+# TODO 通过判断RecordItem.tag里的自定义标签来决定捡起道具之后的事情（如增加积分）
+
+
+
+#如果有return标签则退回物品
+execute if data block 0 0 0 RecordItem.tag{"item_return":1b} run function item:check_item/return_item
