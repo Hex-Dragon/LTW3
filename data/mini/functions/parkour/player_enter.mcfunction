@@ -1,4 +1,5 @@
 # 单个玩家开始小游戏时执行
+function lib:sounds/music/mini_fast
 title @s clear
 title @s actionbar ""
 

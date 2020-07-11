@@ -1,1 +1,1 @@
-playsound minecraft:entity.enderman.teleport block @s
+playsound minecraft:entity.enderman.teleport block @s 0 1000000 0 1000000

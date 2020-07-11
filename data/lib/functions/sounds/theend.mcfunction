@@ -1,1 +1,1 @@
-playsound minecraft:ui.toast.challenge_complete ambient @s ~ ~ ~ 0.5 0.9
+playsound minecraft:ui.toast.challenge_complete block @s ~ ~ ~ 0.7 0.9

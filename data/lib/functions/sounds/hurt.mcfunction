@@ -1,1 +1,1 @@
-playsound minecraft:entity.player.hurt ambient @s
+playsound minecraft:entity.player.hurt player @s
