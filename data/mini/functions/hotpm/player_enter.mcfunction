@@ -11,7 +11,7 @@ effect give @s night_vision 1000000 0 true
 effect give @s resistance 1000000 4 true
 
 # 清理 Tag
-tag @s remove pm_hoding
+tag @s remove pm_holding
 tag @s remove pm_damage_dealt
 tag @s remove pm_damage_taken
 
