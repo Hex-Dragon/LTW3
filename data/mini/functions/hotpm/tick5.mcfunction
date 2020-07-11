@@ -3,4 +3,4 @@ execute as @a[gamemode=!spectator] at @s if block ~ ~-1 ~ minecraft:barrier run 
 execute as @a[gamemode=!spectator] at @s if block ~ ~-1 ~ minecraft:barrier run function lib:sounds/teleport
 
 # 给持有者播放音效
-execute as @a[tag=pm_hoding] at @s run function lib:sounds/creeper
+execute as @a[tag=pm_holding] at @s run function lib:sounds/creeper
