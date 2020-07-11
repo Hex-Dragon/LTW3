@@ -1,1 +1,1 @@
-playsound minecraft:block.portal.travel block @s ~ ~ ~ 0.3 2
+playsound minecraft:block.portal.travel block @s ~ ~ ~ 0.5 2

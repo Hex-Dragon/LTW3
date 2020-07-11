@@ -1,1 +1,1 @@
-playsound minecraft:block.note_block.didgeridoo block @s ~ ~ ~ 1 1
+playsound minecraft:block.note_block.didgeridoo block @s
