@@ -15,4 +15,5 @@ scoreboard players add $ game_id 1
 scoreboard players operation @a game_id = $ game_id
 
 # 开始小游戏
+function lib:sounds/music/stop
 function ltw:state/3/state_enter

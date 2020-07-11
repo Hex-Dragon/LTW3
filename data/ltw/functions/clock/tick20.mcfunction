@@ -11,3 +11,4 @@ execute if score $countdown mem matches 1.. run scoreboard players remove $count
 
 # 掐死原版 BGM
 stopsound @a music music.game
+stopsound @a music music.creative
