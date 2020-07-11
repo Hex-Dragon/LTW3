@@ -6,4 +6,4 @@ function lib:sounds/hit
 # 转移土豆
 function mini:hotpm/game/pm_lost
 execute as @p[tag=pm_damage_taken,tag=!pm_damage_dealt] run function mini:hotpm/game/pm_get
-tellraw @a [{"text":">> ","color":"gold","bold":true},{"selector":"@s","color":"yellow","bold":false},{"text":" 将土豆拍在了 ","color":"white","bold":false},{"selector":"@a[tag=pm_holding]","color":"yellow","bold":false},{"text":" 的脸上!","color":"white","bold":false}]
+tellraw @a ["",{"text":">> ","color":"gold","bold":true},{"selector":"@s","color":"yellow"}," 将土豆拍在了 ",{"selector":"@a[tag=pm_holding]","color":"yellow"}," 的脸上!"]
