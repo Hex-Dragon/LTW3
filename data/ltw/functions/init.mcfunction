@@ -35,15 +35,12 @@ team remove ltw
 team add ltw "玩家"
 team modify ltw color white
 team modify ltw collisionRule never
-team remove white
-team add white "白色"
-team modify white color white
 team remove green
 team add green "绿色"
 team modify green color green
 team remove blue
 team add blue "蓝色"
-team modify blue color blue
+team modify blue color aqua
 team remove purple
 team add purple "紫色"
 team modify purple color light_purple
