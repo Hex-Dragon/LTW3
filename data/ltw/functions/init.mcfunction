@@ -16,6 +16,10 @@ gamerule randomTickSpeed 0
 gamerule fireDamage false
 gamerule doTileDrops false
 
+# 主寄存区块
+forceload add 0 0
+#   0,0,0 唱片机：玩家拾取奖励物品 item:check_item
+
 # 记分板
 scoreboard objectives remove mem
 scoreboard objectives add mem dummy "全局变量"
