@@ -3,9 +3,9 @@ scoreboard players set $state mem 7
 execute as @a run function ltw:state/7/player_enter
 
 # HUD
-scoreboard objectives setdisplay belowName total_score
+# scoreboard objectives setdisplay belowName total_score
 scoreboard objectives setdisplay sidebar total_score
-scoreboard objectives setdisplay list total_score
+# scoreboard objectives setdisplay list total_score
 
 # 初始化跑酷地图
 forceload add 0 2000 50 2050
