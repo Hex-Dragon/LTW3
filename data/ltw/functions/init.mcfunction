@@ -57,6 +57,7 @@ schedule function ltw:clock/tick20 20t replace
 
 # 其他模块
 function mini:main/init
+function item:init
 
 # 状态
 function ltw:state/0/state_enter
