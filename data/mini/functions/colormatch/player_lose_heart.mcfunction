@@ -1,5 +1,5 @@
 # 告知玩家
-tellraw @a ["",{"text":">> ","color":"gold","bold": true},{"selector":"@s","color":"yellow"}," 掉入了陷阱！"]
+tellraw @a ["",{"text":">> ","color":"gold","bold": true},{"selector":"@s","color":"gold"}," 掉入了陷阱！"]
 
 # 失去一颗心
 function mini:main/player_lose_heart

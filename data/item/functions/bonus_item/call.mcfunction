@@ -7,7 +7,7 @@ data modify block 0 0 0 RecordItem set from entity @s Inventory[{"tag":{"bonus_n
 clear @s #item:bonus{"bonus_new":1b}
 
 # 通知玩家物品被拾取
-tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"yellow"},{"text":"获得了 "},{"nbt": "RecordItem.tag.item_name","block": "0 0 0","interpret": true}]
+tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 获得了 ",{"nbt": "RecordItem.tag.item_name","block": "0 0 0","interpret": true}]
 
 # 如果有 return 标签则退回物品
 execute if data block 0 0 0 RecordItem.tag{"bonus_return":1b} run function item:bonus_item/return_item
