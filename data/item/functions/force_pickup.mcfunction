@@ -7,4 +7,4 @@ data modify entity @s Owner set from entity @s Thrower
 
 # TP玩家
 tag @s add item_force_tp
-execute as @a if score @s UUID = @e[type=item,tag=item_force_tp,limit=1] UUID run tp @e[type=item,tag=item_force_tp] @s
+execute as @a if score @s UUID = @e[type=item,tag=item_force_tp,limit=1] UUID run say 检测到相同UUID
