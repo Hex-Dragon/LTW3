@@ -3,6 +3,12 @@ team join ltw @s
 advancement revoke @s everything
 execute as @a at @s run function lib:sounds/error
 
+# 存储UUID
+execute store result score @s UUID1 run data get entity @s UUID[0]
+execute store result score @s UUID2 run data get entity @s UUID[1]
+execute store result score @s UUID3 run data get entity @s UUID[2]
+execute store result score @s UUID4 run data get entity @s UUID[3]
+
 # 如果是旁观者或局号不对头：开始旁观
 execute if entity @s[tag=watcher] run function ltw:main/player_enter_watcher
 execute if entity @s[tag=!watcher] unless score @s game_id = $ game_id run function ltw:main/player_enter_watcher
