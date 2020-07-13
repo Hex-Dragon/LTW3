@@ -19,5 +19,3 @@ data remove storage ltw:mini types[0]
 
 # 初始化小游戏
 function mini:main/game_init
-
-say state 3!

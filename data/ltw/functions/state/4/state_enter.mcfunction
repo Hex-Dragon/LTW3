@@ -9,5 +9,3 @@ scoreboard objectives setdisplay list total_score_disp
 
 # 初始化倒计时
 scoreboard players set $countdown mem 7
-
-say state 4!

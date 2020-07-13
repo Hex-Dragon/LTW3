@@ -13,5 +13,3 @@ gamerule fallDamage false
 
 # 清理加载区域
 forceload remove all
-
-say state 0!

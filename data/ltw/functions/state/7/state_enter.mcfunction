@@ -17,5 +17,3 @@ setblock 0 11 2000 minecraft:redstone_block
 # 判断进入下一轮小游戏或结束
 execute if score $game_type mem matches 1 if score $round mem matches ..5 run function ltw:state/7/continue_gameparty
 execute if score $game_type mem matches 1 if score $round mem matches 6.. run function ltw:main/game_end
-
-say state 7!
