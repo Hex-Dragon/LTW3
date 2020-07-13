@@ -19,12 +19,14 @@ gamerule doTileDrops false
 gamerule doMobLoot false
 
 # 主寄存区块：将所有需要不卸载的都放里面
-#   已占用： (0,0,0) (0,0,1)
+#   已占用：(0,0,0) (0,0,1)
 forceload add 0 0
 
 # 记分板
 scoreboard objectives remove health
 scoreboard objectives add health health "生命值"
+scoreboard objectives remove health_disp
+scoreboard objectives add health_disp dummy "生命值"
 scoreboard objectives remove death
 scoreboard objectives add death deathCount "死亡触发"
 scoreboard objectives remove mem
