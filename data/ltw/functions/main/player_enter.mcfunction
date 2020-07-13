@@ -1,5 +1,5 @@
 # 当玩家加入游戏时触发
-team join ltw @s
+team join player @s
 advancement revoke @s everything
 execute as @a at @s run function lib:sounds/error
 

@@ -11,5 +11,5 @@ setblock 1000 11 2000 minecraft:redstone_block
 kill @e[tag=tntrun_block]
 
 # 伤害管理
-team modify ltw friendlyFire true
+team modify player friendlyFire true
 gamerule fallDamage false

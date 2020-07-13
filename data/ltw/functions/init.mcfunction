@@ -45,19 +45,26 @@ scoreboard players set $ game_id 0
 scoreboard players set $global_mini_count mem 5
 
 # 队伍
-team remove ltw
-team add ltw "玩家"
-team modify ltw color white
-team modify ltw collisionRule never
+team remove player
+team add player "玩家"
+team modify player color white
+team modify player collisionRule never
+team modify player deathMessageVisibility never
+team remove white
+team add white "白色"
+team modify white friendlyFire false
 team remove green
 team add green "绿色"
 team modify green color green
+team modify green friendlyFire false
 team remove blue
 team add blue "蓝色"
 team modify blue color aqua
+team modify blue friendlyFire false
 team remove purple
 team add purple "紫色"
 team modify purple color light_purple
+team modify purple friendlyFire false
 
 # 进度
 advancement revoke @a everything

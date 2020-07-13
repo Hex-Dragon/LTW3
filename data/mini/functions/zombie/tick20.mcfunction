@@ -14,11 +14,11 @@ execute if score $random mem matches 60.. run tp @e[type=vex,limit=1,sort=random
 # 赋予随机效果
 effect give @e[type=husk,limit=1,sort=random] speed 1 1
 effect give @e[type=husk,limit=1,sort=random] speed 4
-effect give @e[type=zombie,limit=2,sort=random] slowness 4 1
-effect give @e[type=zombie,limit=1,sort=random] slowness 2 2
+effect give @e[type=zombie,limit=1,sort=random] slowness 4
+effect give @e[type=zombie,limit=1,sort=random] slowness 2 1
 
 # 召唤怪物
 execute if score $random mem matches -5..5 run function mini:zombie/game/summon_zombie
-execute if score $random mem matches ..-10 run function mini:zombie/game/summon_evoker
+execute if score $random mem matches ..-12 run function mini:zombie/game/summon_evoker
 
 # FIXME [010/HIM] 连续小游戏过程中侧边栏得分会显示出 $t_score_max

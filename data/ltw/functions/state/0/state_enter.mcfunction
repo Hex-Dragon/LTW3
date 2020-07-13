@@ -8,7 +8,7 @@ scoreboard objectives setdisplay sidebar
 scoreboard objectives setdisplay list
 
 # 伤害管理
-team modify ltw friendlyFire false
+team modify player friendlyFire false
 gamerule fallDamage false
 
 # 清理加载区域

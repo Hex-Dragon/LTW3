@@ -16,3 +16,6 @@ execute if score $random mem matches 7..8 positioned 1002.0 19.1 5016.0 unless e
 execute if score $random mem matches 9..10 positioned 1019.0 13.1 5013.0 unless entity @e[tag=mini_mob,distance=..1] run summon zombie ~ ~ ~ {Tags:["mini_mob"]}
 execute if score $random mem matches 11..12 positioned 1002.0 13.1 5024.0 unless entity @e[tag=mini_mob,distance=..1] run summon zombie ~ ~ ~ {Tags:["mini_mob"]}
 execute if score $random mem matches 13..14 positioned 1002.0 13.1 5002.0 unless entity @e[tag=mini_mob,distance=..1] run summon zombie ~ ~ ~ {Tags:["mini_mob"]}
+
+# 关闭怪物间友伤
+team join white @e[tag=mini_mob]

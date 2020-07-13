@@ -19,5 +19,5 @@ function mini:colormatch/game/prepare_round
 schedule function mini:colormatch/game_init2 18t replace
 
 # 伤害管理
-team modify ltw friendlyFire true
+team modify player friendlyFire true
 gamerule fallDamage false
