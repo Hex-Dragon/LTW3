@@ -9,6 +9,7 @@ setblock 1000 11 5000 minecraft:redstone_block
 
 # 清理残余实体
 tp @e[tag=mini_mob] ~ -100 ~
+tp @e[type=vex] ~ -100 ~
 
 # 伤害管理
 team modify ltw friendlyFire false
