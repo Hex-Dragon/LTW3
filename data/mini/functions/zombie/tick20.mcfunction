@@ -20,5 +20,3 @@ effect give @e[type=zombie,limit=1,sort=random] slowness 2 1
 # 召唤怪物
 execute if score $random mem matches -5..5 run function mini:zombie/game/summon_zombie
 execute if score $random mem matches ..-12 run function mini:zombie/game/summon_evoker
-
-# FIXME [010/HIM] 连续小游戏过程中侧边栏得分会显示出 $t_score_max

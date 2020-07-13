@@ -5,7 +5,7 @@ tag @s remove mini_running
 function mini:main/update_player_count
 
 # 显示提示
-execute if entity @s[tag=!rejoining] if score $player_alive mem matches 1.. run tellraw @a ["",{"text": ">> ","color":"red","bold":true},{"selector": "@s","color":"red"}," 已失败! 还有 ",{"score": {"name": "$player_alive","objective": "mem"}}," 人存活!"]
+execute if entity @s[tag=!rejoining] if score $player_alive mem matches 1.. run tellraw @a ["",{"text": ">> ","color":"red","bold":true},{"selector": "@s","color":"red"}," 已淘汰! 还剩 ",{"score": {"name": "$player_alive","objective": "mem"}}," 人!"]
 execute as @a at @s run function lib:sounds/error
 
 # 给存活的玩家加分
