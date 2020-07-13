@@ -13,3 +13,5 @@ tp @e[type=zombie] ~ -100 ~
 # 伤害管理
 team modify ltw friendlyFire false
 gamerule fallDamage false
+
+# FIXME 玩家生命值显示存在问题
