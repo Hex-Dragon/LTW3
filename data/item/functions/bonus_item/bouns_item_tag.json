@@ -1,0 +1,11 @@
+{
+    "is_bonus": true,
+    "bonus_new": true,
+    "bonus_return": true,
+    "item_name":"{\"text\": \"破损的钓鱼竿\",\"color\": \"green\"}",
+    "bonus_add_score":15,
+    "bonus_give_items":[
+        {"id":"minecraft:stone","Count":64,"tag":{"is_bonus":true,"display":{"Name":"\"普通的石头\""}}},
+        {"id":"minecraft:arrow","Count":64,"tag":{"is_bonus":true}}
+    ]
+}
