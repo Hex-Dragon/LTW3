@@ -12,7 +12,6 @@ effect give @s saturation 1000000 0 true
 gamerule naturalRegeneration true
 effect give @s night_vision 1000000 0 true
 effect give @s resistance 1000000 4 true
-effect give @s weakness 1000000 4 true
 
 # 冒险模式
 gamemode adventure

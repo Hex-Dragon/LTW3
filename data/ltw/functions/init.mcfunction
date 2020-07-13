@@ -21,6 +21,10 @@ gamerule doTileDrops false
 forceload add 0 0
 
 # 记分板
+scoreboard objectives remove health
+scoreboard objectives add health health "生命值"
+scoreboard objectives remove death
+scoreboard objectives add death deathCount "死亡触发"
 scoreboard objectives remove mem
 scoreboard objectives add mem dummy "全局变量"
 scoreboard objectives remove total_score
@@ -34,7 +38,7 @@ scoreboard objectives add game_id dummy "游戏编号"
 scoreboard players set $ game_id 0
 
 # 常量
-scoreboard players set $global_mini_count mem 4
+scoreboard players set $global_mini_count mem 5
 
 # 队伍
 team remove ltw
