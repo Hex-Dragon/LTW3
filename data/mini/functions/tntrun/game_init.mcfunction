@@ -12,4 +12,5 @@ kill @e[tag=tntrun_block]
 
 # 伤害管理
 team modify player friendlyFire true
+team modify player collisionRule never
 gamerule fallDamage false

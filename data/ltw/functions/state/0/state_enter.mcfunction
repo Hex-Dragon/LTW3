@@ -9,6 +9,7 @@ scoreboard objectives setdisplay list
 
 # 伤害管理
 team modify player friendlyFire false
+team modify player collisionRule never
 gamerule fallDamage false
 
 # 清理加载区域

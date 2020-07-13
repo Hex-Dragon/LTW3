@@ -5,6 +5,7 @@ scoreboard players set $finish_mode mem 0
 
 # 伤害管理
 team modify player friendlyFire true
+team modify player collisionRule never
 gamerule fallDamage false
 
 # 生成地图

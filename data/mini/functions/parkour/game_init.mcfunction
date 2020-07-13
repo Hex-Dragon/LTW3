@@ -9,4 +9,5 @@ setblock 1000 11 1000 minecraft:redstone_block
 
 # 伤害管理
 team modify player friendlyFire true
+team modify player collisionRule never
 gamerule fallDamage false

@@ -16,4 +16,5 @@ scoreboard players set $zombie_luck mem 0
 
 # 伤害管理
 team modify player friendlyFire false
+team modify player collisionRule always
 gamerule fallDamage false
