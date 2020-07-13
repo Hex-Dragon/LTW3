@@ -7,7 +7,8 @@ scoreboard objectives setdisplay belowName
 scoreboard objectives setdisplay sidebar
 scoreboard objectives setdisplay list
 
-# 关闭伤害
+# 伤害管理
+team modify ltw friendlyFire false
 gamerule fallDamage false
 
 # 清理加载区域

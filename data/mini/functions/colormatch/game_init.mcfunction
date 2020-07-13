@@ -18,5 +18,6 @@ scoreboard players set $color_match_type mem 0
 function mini:colormatch/game/prepare_round
 schedule function mini:colormatch/game_init2 18t replace
 
-# 关闭伤害
+# 伤害管理
+team modify ltw friendlyFire true
 gamerule fallDamage false

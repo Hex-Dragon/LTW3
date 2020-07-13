@@ -1,0 +1,1 @@
+execute if score $mini_type mem matches 5 run function mini:zombie/tick20

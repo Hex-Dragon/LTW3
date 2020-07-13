@@ -10,5 +10,6 @@ setblock 1000 11 2000 minecraft:redstone_block
 # 清理残余实体
 kill @e[tag=tntrun_block]
 
-# 关闭伤害
+# 伤害管理
+team modify ltw friendlyFire true
 gamerule fallDamage false

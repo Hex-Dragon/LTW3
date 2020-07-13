@@ -3,7 +3,8 @@ forceload add 1000 3000 1100 3100
 
 scoreboard players set $finish_mode mem 0
 
-# 关闭伤害
+# 伤害管理
+team modify ltw friendlyFire true
 gamerule fallDamage false
 
 # 生成地图

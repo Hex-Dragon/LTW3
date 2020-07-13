@@ -8,8 +8,10 @@ execute if score $mini_type mem matches 3 run scoreboard objectives setdisplay s
 execute if score $mini_type mem matches 3 run scoreboard objectives setdisplay belowName mini_heart
 execute if score $mini_type mem matches 4 run scoreboard objectives setdisplay sidebar mini_heart
 execute if score $mini_type mem matches 4 run scoreboard objectives setdisplay belowName mini_heart
+execute if score $mini_type mem matches 5 run scoreboard objectives setdisplay sidebar health
+execute if score $mini_type mem matches 5 run scoreboard objectives setdisplay belowName health
 scoreboard objectives setdisplay list total_score_disp
-
+# TODO : [LTCat] 添加 list HUD 统一
 
 # 调用其他模块
 execute if score $mini_type mem matches 2 run function mini:tntrun/game_start

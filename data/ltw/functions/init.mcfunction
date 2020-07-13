@@ -39,7 +39,7 @@ scoreboard objectives add game_id dummy "游戏编号"
 scoreboard players set $ game_id 0
 
 # 常量
-scoreboard players set $global_mini_count mem 4
+scoreboard players set $global_mini_count mem 5
 
 # 队伍
 team remove ltw
