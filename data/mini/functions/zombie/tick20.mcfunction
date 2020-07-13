@@ -1,25 +1,20 @@
 # 随机召唤僵尸
-scoreboard players set $random_min mem 1
-scoreboard players set $random_max mem 100
-function lib:random
-
 effect clear @a hunger
 
-execute if score $random mem matches 1..2 positioned 1019.0 18.1 5013.0 unless entity @e[tag=mini_mob,distance=..1] run summon zombie ~ ~ ~ {Tags:["mini_mob"]}
-execute if score $random mem matches 4 positioned 1019.0 18.1 5013.0 unless entity @e[tag=mini_mob,distance=..1] run summon husk ~ ~ ~ {Tags:["mini_mob"]}
-execute if score $random mem matches 5..6 positioned 1002.0 18.1 5013.0 unless entity @e[tag=mini_mob,distance=..1] run summon zombie ~ ~ ~ {Tags:["mini_mob"]}
-execute if score $random mem matches 8 positioned 1002.0 18.1 5013.0 unless entity @e[tag=mini_mob,distance=..1] run summon husk ~ ~ ~ {Tags:["mini_mob"]}
-execute if score $random mem matches 9..10 positioned 1002.5 13.1 5002.5 unless entity @e[tag=mini_mob,distance=..1] run summon zombie ~ ~ ~ {Tags:["mini_mob"]}
-execute if score $random mem matches 12 positioned 1002.5 13.1 5002.5 unless entity @e[tag=mini_mob,distance=..1] run summon husk ~ ~ ~ {Tags:["mini_mob"]}
-execute if score $random mem matches 13..14 positioned 1018.5 13.1 5023.5 unless entity @e[tag=mini_mob,distance=..1] run summon zombie ~ ~ ~ {Tags:["mini_mob"]}
-execute if score $random mem matches 16 positioned 1018.5 13.1 5023.5 unless entity @e[tag=mini_mob,distance=..1] run summon husk ~ ~ ~ {Tags:["mini_mob"]}
-execute if score $random mem matches 99..100 positioned 1019.0 18.1 5013.0 run summon evoker ~ ~ ~ {Tags:["mini_mob"]}
+# 生成随机数
+scoreboard players set $random_min mem 0
+scoreboard players set $random_max mem 100
+function lib:random
+scoreboard players operation $random mem -= $zombie_luck mem
+execute if score $random mem matches 75.. run scoreboard players remove $zombie_luck mem 1
 
-attribute @e[tag=mini_mob,limit=1,sort=random] generic.movement_speed modifier remove 3d2ff588-63bb-458f-b5b7-a533169db5d9
-attribute @e[tag=mini_mob,limit=1,sort=random] generic.movement_speed modifier remove 3d2ff588-63bb-458f-b5b7-a533169db5d9
-attribute @e[tag=mini_mob,limit=1,sort=random] generic.movement_speed modifier remove 3d2ff588-63bb-458f-b5b7-a533169db5d9
-attribute @e[type=husk,limit=1,sort=random] generic.movement_speed modifier add 3d2ff588-63bb-458f-b5b7-a533169db5d9 mob_speed 0.15 add
-attribute @e[type=zombie,limit=1,sort=random] generic.movement_speed modifier add 3d2ff588-63bb-458f-b5b7-a533169db5d9 mob_speed -0.1 add
+# 召唤怪物
+execute if score $random mem matches -2..8 run function mini:zombie/game/summon_zombie
+execute if score $random mem matches ..-5 run function mini:zombie/game/summon_evoker
 
 # 清理恼鬼
-execute if score $random mem matches 76..100 run tp @e[type=vex,limit=1,sort=random] ~ -100 ~
+execute if score $random mem matches 50.. run tp @e[type=vex,limit=1,sort=random] ~ -100 ~
+
+# 赋予随机效果
+effect give @e[type=husk,limit=1,sort=random] speed 4
+effect give @e[type=zombie,limit=1,sort=random] slowness 4
