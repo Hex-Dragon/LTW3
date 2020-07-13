@@ -12,4 +12,10 @@ tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","co
 # 如果有 return 标签则退回物品
 execute if data block 0 0 0 RecordItem.tag{"bonus_return":1b} run function item:bonus_item/return_item
 
+# 如果有 add_score 标签则增加积分
+execute if data block 0 0 0 RecordItem.tag.bonus_add_score run function item:bonus_item/add_score
+
+# 如果有 give_items 标签则给与物品
+execute if data block 0 0 0 RecordItem.tag.bonus_give_items[0] run function item:bonus_item/give_items
+
 # TODO : [010] 通过判断 RecordItem.tag 里的自定义标签来决定捡起道具之后的事情（如增加积分）
