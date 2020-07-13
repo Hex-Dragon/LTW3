@@ -4,3 +4,5 @@ execute as @a run function ltw:state/5/player_enter
 
 # 调用游戏开始
 function mini:main/game_start
+
+say state 5!
