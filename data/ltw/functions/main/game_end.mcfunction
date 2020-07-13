@@ -5,17 +5,17 @@ tag @a remove total_rank1
 tag @a remove total_rank2
 tag @a remove total_rank3
 # 1
-scoreboard players set $t_score_max total_score -2147483648
+scoreboard players set $t_score_max mem -2147483648
 execute as @a run function ltw:main/get_max_score
-execute as @a unless entity @a[tag=total_rank1] if score @s total_score = $t_score_max total_score run tag @s add total_rank1
+execute as @a unless entity @a[tag=total_rank1] if score @s total_score = $t_score_max mem run tag @s add total_rank1
 # 2
-scoreboard players set $t_score_max total_score -2147483648
+scoreboard players set $t_score_max mem -2147483648
 execute as @a[tag=!total_rank1] run function ltw:main/get_max_score
-execute as @a[tag=!total_rank1] unless entity @a[tag=total_rank2] if score @s total_score = $t_score_max total_score run tag @s add total_rank2
+execute as @a[tag=!total_rank1] unless entity @a[tag=total_rank2] if score @s total_score = $t_score_max mem run tag @s add total_rank2
 # 3
-scoreboard players set $t_score_max total_score -2147483648
+scoreboard players set $t_score_max mem -2147483648
 execute as @a[tag=!total_rank1,tag=!total_rank2] run function ltw:main/get_max_score
-execute as @a[tag=!total_rank1,tag=!total_rank2] unless entity @a[tag=total_rank3] if score @s total_score = $t_score_max total_score run tag @s add total_rank3
+execute as @a[tag=!total_rank1,tag=!total_rank2] unless entity @a[tag=total_rank3] if score @s total_score = $t_score_max mem run tag @s add total_rank3
 
 # 显示排名
 execute if entity @a[tag=total_rank2] if entity @a[tag=total_rank3] run tellraw @a ["",{"text":"\n\n----- 游戏结束 -----\n\n","color":"gold","bold":true},{"text": "第一名 - ","color":"green"},{"selector": "@a[tag=total_rank1]","color":"white"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=total_rank1]","objective": "total_score"},"color":"gray"},{"text":")","color":"gray"},{"text": "\n第二名 - ","color":"green"},{"selector": "@a[tag=total_rank2]","color":"white"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=total_rank2]","objective": "total_score"},"color":"gray"},{"text":")","color":"gray"},{"text": "\n第三名 - ","color":"green"},{"selector": "@a[tag=total_rank3]","color":"white"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=total_rank3]","objective": "total_score"},"color":"gray"},{"text":")","color":"gray"},"\n\n"]
