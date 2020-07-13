@@ -16,5 +16,5 @@ execute if score $random mem matches 16 positioned 1018.5 13.1 5023.5 unless ent
 
 attribute @e[tag=mini_mob,limit=1,sort=random] generic.movement_speed modifier remove 3d2ff588-63bb-458f-b5b7-a533169db5d9
 attribute @e[tag=mini_mob,limit=1,sort=random] generic.movement_speed modifier remove 3d2ff588-63bb-458f-b5b7-a533169db5d9
-attribute @e[type=husk,limit=1,sort=random] generic.movement_speed modifier add 3d2ff588-63bb-458f-b5b7-a533169db5d9 mob_speed 0.15 add
-attribute @e[type=zombie,limit=1,sort=random] generic.movement_speed modifier add 3d2ff588-63bb-458f-b5b7-a533169db5d9 mob_speed -0.15 add
+attribute @e[type=husk,limit=1,sort=random] generic.movement_speed modifier add 3d2ff588-63bb-458f-b5b7-a533169db5d9 mob_speed 0.2 add
+attribute @e[type=zombie,limit=1,sort=random] generic.movement_speed modifier add 3d2ff588-63bb-458f-b5b7-a533169db5d9 mob_speed -0.1 add
