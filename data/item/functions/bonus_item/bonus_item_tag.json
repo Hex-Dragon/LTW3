@@ -1,5 +1,6 @@
 {
     "is_bonus": true,
+    "bonus_clear_nbt":true,
     "bonus_new": true,
     "bonus_return": true,
     "item_name":"{\"text\": \"破损的钓鱼竿\",\"color\": \"green\"}",
