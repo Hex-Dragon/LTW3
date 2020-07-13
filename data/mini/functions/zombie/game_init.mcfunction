@@ -17,5 +17,3 @@ scoreboard players set $zombie_luck mem 0
 # 伤害管理
 team modify player friendlyFire false
 gamerule fallDamage false
-
-# FIXME [LTCat] 玩家生命值显示存在问题

@@ -8,4 +8,4 @@ execute if score $mini_type mem matches 4 run function mini:colormatch/tick5
 # 同步生命值
 scoreboard players reset * health_disp
 scoreboard players set @a[gamemode=!spectator] health_disp 20
-execute as @a[gamemode=!spectator] run scoreboard players operation @s health_disp = @s health
+execute as @a[gamemode=!spectator,scores={health=1..}] run scoreboard players operation @s health_disp = @s health
