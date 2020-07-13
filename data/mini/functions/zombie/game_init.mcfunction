@@ -8,6 +8,7 @@ setblock 1000 10 5000 minecraft:structure_block{mode:"LOAD",name:"mini:zombie"}
 setblock 1000 11 5000 minecraft:redstone_block
 
 # 清理残余实体
+kill @e[type=arrow]
 tp @e[tag=mini_mob] ~ -100 ~
 tp @e[type=vex] ~ -100 ~
 
