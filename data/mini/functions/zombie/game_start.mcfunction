@@ -4,3 +4,6 @@ function mini:zombie/game/summon_zombie
 function mini:zombie/game/summon_zombie
 function mini:zombie/game/summon_zombie
 function mini:zombie/game/summon_zombie
+function mini:zombie/game/summon_zombie
+function mini:zombie/game/summon_zombie
+function mini:zombie/game/summon_zombie

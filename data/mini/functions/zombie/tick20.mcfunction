@@ -5,12 +5,12 @@ effect clear @a hunger
 scoreboard players set $random_min mem 0
 scoreboard players set $random_max mem 100
 function lib:random
-scoreboard players operation $random mem -= $zombie_luck mem
-execute if score $random mem matches 75.. run scoreboard players remove $zombie_luck mem 1
+scoreboard players operation $random mem += $zombie_luck mem
+execute if score $random mem matches 80.. run scoreboard players remove $zombie_luck mem 1
 
 # 召唤怪物
-execute if score $random mem matches -2..8 run function mini:zombie/game/summon_zombie
-execute if score $random mem matches ..-5 run function mini:zombie/game/summon_evoker
+execute if score $random mem matches -5..5 run function mini:zombie/game/summon_zombie
+execute if score $random mem matches ..-10 run function mini:zombie/game/summon_evoker
 
 # 清理恼鬼
 execute if score $random mem matches 50.. run tp @e[type=vex,limit=1,sort=random] ~ -100 ~
