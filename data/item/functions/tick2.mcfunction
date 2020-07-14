@@ -7,6 +7,7 @@ execute as @a if data entity @s Inventory[{"tag":{"bonus_new":1b}}] run function
 
 # 检测玩家第九格锁定
 execute as @a unless data entity @s Inventory[{Slot:8b,tag:{GameItem:1b}}] unless data entity @s Inventory[{Slot:8b,tag:{LockItem:1b},Count:1b}] run function item:disable_slot
+execute as @a unless data entity @s Inventory[{Slot:8b,tag:{LockItem:1b},Count:1b}] if data entity @s Inventory[{tag:{LockItem:1b},Count:1b}] run clear @s red_dye{LockItem:1b}
 
 # 清除临时物品
 clear @a red_dye{LockTempItem:1b}
