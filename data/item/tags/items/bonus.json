@@ -1,5 +1,9 @@
 {
     "values": [
+        "minecraft:iron_sword",
+        "minecraft:ender_pearl",
+        "minecraft:netherite_sword",
+        "minecraft:arrow",
         "minecraft:nether_star",
         "minecraft:fishing_rod",
         "minecraft:bow"
