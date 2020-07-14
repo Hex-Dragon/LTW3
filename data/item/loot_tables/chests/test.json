@@ -9,18 +9,8 @@
             "weight": 1,
             "functions": [
               {
-                "function": "minecraft:set_damage",
-                "damage": {
-                  "min": 0.1,
-                  "max": 0.5
-                }
-              },
-              {
-                "function": "minecraft:enchant_randomly"
-              },
-              {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"item_name\":\"\\\"弓\\\"\",\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":64,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}]}"
+                "tag": "{\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"item_name\":\"{\\\"text\\\":\\\"破损的钓鱼竿\\\",\\\"color\\\":\\\"green\\\"}\",\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":64,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}]}"
               }
             ],
             "name": "minecraft:bow"
