@@ -1,1 +1,1 @@
-playsound minecraft:entity.player.hurt player @s
+playsound minecraft:entity.player.hurt player @s 0 1000000 0 1000000

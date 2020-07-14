@@ -4,6 +4,7 @@ tag @s remove mini_rank1
 tag @s remove mini_rank2
 tag @s remove mini_rank3
 tag @s remove mini_rank4
+tag @s add selecting
 
 gamemode adventure
 

@@ -8,4 +8,14 @@ scoreboard objectives setdisplay sidebar total_score
 scoreboard objectives setdisplay list total_score_disp
 
 # 初始化倒计时
-scoreboard players set $countdown mem 15
+scoreboard players set $countdown mem 10
+
+# 初始化地图
+forceload add 0 2000 50 2050
+
+# 生成地图
+setblock 0 10 2000 minecraft:structure_block{mode:"LOAD",name:"ltw:select"}
+setblock 0 11 2000 minecraft:redstone_block
+
+# 让地图先加载好
+schedule function ltw:state/6/generate_bonus 1t
