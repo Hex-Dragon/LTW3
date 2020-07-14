@@ -2,7 +2,7 @@
 kill @e[type=item]
 
 execute store result score $t_bonus_count mem if entity @a[tag=!watcher]
-scoreboard players add $t_bonus_count mem 1
+# scoreboard players add $t_bonus_count mem 1
 execute if score $t_bonus_count mem matches 1.. positioned 9.0 12.5 2012.5 run function item:bonus_item/rank/random
 execute if score $t_bonus_count mem matches 2.. positioned 5.0 12.5 2012.5 run function item:bonus_item/rank/random
 execute if score $t_bonus_count mem matches 3.. positioned 1.5 12.5 2009.0 run function item:bonus_item/rank/random

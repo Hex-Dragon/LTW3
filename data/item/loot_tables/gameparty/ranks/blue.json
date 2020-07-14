@@ -2,7 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 3,
+    "weight": 2,
     "name": "minecraft:nether_star",
     "functions": [
         {
