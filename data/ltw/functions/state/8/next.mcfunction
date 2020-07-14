@@ -21,3 +21,7 @@ execute unless entity @a[tag=selecting] if score $game_type mem matches 1 if sco
 
 # 初始化倒计时
 scoreboard players set $countdown mem 5
+
+# 播放音效
+execute as @a[tag=selecting] at @s run function lib:sounds/hit
+execute as @a[tag=!selecting] at @s run function lib:sounds/hit2
