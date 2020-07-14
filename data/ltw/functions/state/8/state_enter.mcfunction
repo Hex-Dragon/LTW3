@@ -17,7 +17,7 @@ setblock 0 11 2000 minecraft:redstone_block
 
 # 生成奖励物品
 execute store result score $t_player_count mem if entity @a[tag=!watcher]
-scoreboard players set $t_player_count mem 8
+# scoreboard players set $t_player_count mem 8
 execute if score $t_player_count mem matches 1.. positioned 9.0 12.5 2012.5 run function item:bonus_item/rank/random
 execute if score $t_player_count mem matches 2.. positioned 5.0 12.5 2012.5 run function item:bonus_item/rank/random
 execute if score $t_player_count mem matches 3.. positioned 1.5 12.5 2009.0 run function item:bonus_item/rank/random
@@ -32,7 +32,7 @@ execute as @e[type=item] at @s run fill ~-0.2 ~ ~-0.2 ~0.2 ~ ~0.2 air
 execute as @e[type=item] at @s run fill ~-0.2 ~1 ~-0.2 ~0.2 ~1 ~0.2 barrier
 
 # 防止幽灵实体，分 tick 执行
-schedule function ltw:state/7/state_enter2 1t
+schedule function ltw:state/8/state_enter2 1t
 
 # 判断进入下一轮小游戏或结束
 # execute if score $game_type mem matches 1 if score $round mem matches ..5 run function ltw:state/7/continue_gameparty

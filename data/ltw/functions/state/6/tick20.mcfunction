@@ -4,4 +4,4 @@ title @a subtitle {"score":{"name":"$countdown","objective":"mem"}}
 title @a title [""]
 
 # 退出状态
-execute if score $countdown mem matches ..11 run function ltw:state/7/state_enter
+execute if score $countdown mem matches ..12 run function ltw:state/7/state_enter
