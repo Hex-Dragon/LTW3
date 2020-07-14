@@ -5,4 +5,5 @@ data merge entity @e[distance=..1,limit=1,type=item] {Tags:["new_item"],Age:-327
 execute as @e[tag=new_item] run data modify entity @s CustomName set from entity @s Item.tag.item_name
 team join blue @e[tag=new_item]
 tag @e[tag=new_item] add item_blue
+tag @e[tag=new_item] add item_new
 tag @e[tag=new_item] remove new_item
