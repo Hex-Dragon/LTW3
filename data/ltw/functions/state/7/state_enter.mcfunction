@@ -7,13 +7,41 @@ scoreboard objectives setdisplay belowName total_score_disp
 scoreboard objectives setdisplay sidebar total_score
 scoreboard objectives setdisplay list total_score_disp
 
-# 初始化跑酷地图
+# 初始化地图
 forceload add 0 2000 50 2050
+kill @e[type=item]
 
 # 生成地图
 setblock 0 10 2000 minecraft:structure_block{mode:"LOAD",name:"ltw:select"}
 setblock 0 11 2000 minecraft:redstone_block
 
+# 生成奖励物品
+execute store result score $t_player_count mem if entity @a[tag=!watcher]
+scoreboard players set $t_player_count mem 8
+execute if score $t_player_count mem matches 1.. positioned 9.0 13.0 2014.0 run function item:bonus_item/rank/random
+execute if score $t_player_count mem matches 2.. positioned 5.0 13.0 2014.0 run function item:bonus_item/rank/random
+execute if score $t_player_count mem matches 3.. positioned 0.0 13.0 2009.0 run function item:bonus_item/rank/random
+execute if score $t_player_count mem matches 4.. positioned 0.0 13.0 2005.0 run function item:bonus_item/rank/random
+execute if score $t_player_count mem matches 5.. positioned 5.0 13.0 2000.0 run function item:bonus_item/rank/random
+execute if score $t_player_count mem matches 6.. positioned 9.0 13.0 2000.0 run function item:bonus_item/rank/random
+execute if score $t_player_count mem matches 7.. positioned 14.0 13.0 2005.0 run function item:bonus_item/rank/random
+execute if score $t_player_count mem matches 8.. positioned 14.0 13.0 2009.0 run function item:bonus_item/rank/random
+
+# 生成奖励物品背景
+execute as @e[team=white,type=item] at @s run fill ~-0.5 ~-0.5 ~-0.5 ~0.5 ~0.5 ~0.5 white_concrete_powder
+execute as @e[team=green,type=item] at @s run fill ~-0.5 ~-0.5 ~-0.5 ~0.5 ~0.5 ~0.5 lime_concrete_powder
+execute as @e[team=blue,type=item] at @s run fill ~-0.5 ~-0.5 ~-0.5 ~0.5 ~0.5 ~0.5 light_blue_concrete_powder
+execute as @e[team=purple,type=item] at @s run fill ~-0.5 ~-0.5 ~-0.5 ~0.5 ~0.5 ~0.5 purple_concrete_powder
+
+# 传送回原位
+execute as @e[type=item,x=-1,y=12,z=1999,dx=2,dy=2,dz=50] at @s run tp @s 1.5 ~ ~
+execute as @e[type=item,x=13,y=12,z=1999,dx=2,dy=2,dz=50] at @s run tp @s -1.5 ~ ~
+execute as @e[type=item,x=-1,y=12,z=1999,dx=50,dy=2,dz=2] at @s run tp @s ~ ~ 1.5
+execute as @e[type=item,x=-1,y=12,z=2013,dx=50,dy=2,dz=2] at @s run tp @s ~ ~ -1.5
+
+# 生成屏障
+execute as @e[type=item] at @s run fill ~-0.1 ~1 ~-0.1 ~0.1 ~1 ~0.1 barrier
+
 # 判断进入下一轮小游戏或结束
-execute if score $game_type mem matches 1 if score $round mem matches ..5 run function ltw:state/7/continue_gameparty
-execute if score $game_type mem matches 1 if score $round mem matches 6.. run function ltw:main/game_end
+# execute if score $game_type mem matches 1 if score $round mem matches ..5 run function ltw:state/7/continue_gameparty
+# execute if score $game_type mem matches 1 if score $round mem matches 6.. run function ltw:main/game_end
