@@ -8,4 +8,3 @@ tag @s remove mini_rank4
 gamemode adventure
 
 tellraw @s ["",{"text": ">> ","color":"green"},"轮到你选择奖励了!"]
-tag @s remove selecting
