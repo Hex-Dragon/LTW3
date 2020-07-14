@@ -22,6 +22,7 @@ tag @s[tag=rejoining] remove mini_rank1
 tag @s[tag=rejoining] remove mini_rank2
 tag @s[tag=rejoining] remove mini_rank3
 tag @s[tag=rejoining] remove mini_rank4
+tag @s remove selecting
 
 # 自由旁观
 gamemode spectator
