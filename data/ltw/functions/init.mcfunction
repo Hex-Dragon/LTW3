@@ -21,6 +21,7 @@ gamerule doMobLoot false
 # 主寄存区块：将所有需要不卸载的都放里面
 #   已占用：(0,0,0) (0,0,1)
 forceload add 0 0
+setblock 0 0 0 jukebox
 
 # 记分板
 scoreboard objectives remove health
