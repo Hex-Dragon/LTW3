@@ -7,11 +7,11 @@
     "functions": [
         {
             "function": "minecraft:set_count",
-            "count": 2
+            "count": 4
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +2\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":2}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +4\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":4}"
         }
     ]
 },
