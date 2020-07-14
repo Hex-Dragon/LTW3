@@ -20,5 +20,5 @@ schedule function mini:colormatch/game_init2 18t replace
 
 # 伤害管理
 team modify player friendlyFire true
-team modify player collisionRule never
+team modify player collisionRule always
 gamerule fallDamage false
