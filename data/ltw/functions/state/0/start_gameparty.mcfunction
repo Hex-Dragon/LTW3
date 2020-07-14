@@ -13,6 +13,7 @@ scoreboard players set $round mem 1
 scoreboard players set $game_type mem 1
 scoreboard players add $ game_id 1
 scoreboard players operation @a game_id = $ game_id
+clear @a[tag=!watcher]
 
 # 开始小游戏
 function lib:sounds/music/stop
