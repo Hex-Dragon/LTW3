@@ -2,7 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 6,
+    "weight": 24,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -13,7 +13,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 4,
     "name": "minecraft:ender_pearl",
     "functions": [
         {
@@ -24,7 +24,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 4,
     "name": "minecraft:netherite_sword",
     "functions": [
         {
@@ -35,7 +35,18 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 4,
+    "name": "minecraft:shield",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"盾牌\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 4,
     "name": "minecraft:bow",
     "functions": [
         {
