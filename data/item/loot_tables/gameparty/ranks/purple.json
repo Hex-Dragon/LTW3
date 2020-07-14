@@ -11,7 +11,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +3\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":3}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +3\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":3,\"Motion\":[0,0,0]}"
         }
     ]
 },
@@ -22,7 +22,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"冲击弓, 箭 x20\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"Enchantments\":[{\"id\":\"punch\",\"lvl\":1}],\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":20,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}]}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"冲击弓, 箭 x20\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"Enchantments\":[{\"id\":\"punch\",\"lvl\":1}],\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":20,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}],\"Motion\":[0,0,0]}"
         }
     ]
 }
