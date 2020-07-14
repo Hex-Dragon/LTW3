@@ -1,9 +1,9 @@
 
 # 传送回背景生成点
 execute as @e[type=item,x=-1,y=12,z=1999,dx=3,dy=2,dz=50] at @s run tp @s ~-1.5 ~0.5 ~
-execute as @e[type=item,x=13,y=12,z=1999,dx=3,dy=2,dz=50] at @s run tp @s ~1.5 ~0.5 ~
+execute as @e[type=item,x=12,y=12,z=1999,dx=3,dy=2,dz=50] at @s run tp @s ~1.5 ~0.5 ~
 execute as @e[type=item,x=-1,y=12,z=1999,dx=50,dy=2,dz=3] at @s run tp @s ~ ~0.5 ~-1.5
-execute as @e[type=item,x=-1,y=12,z=2013,dx=50,dy=2,dz=3] at @s run tp @s ~ ~0.5 ~1.5
+execute as @e[type=item,x=-1,y=12,z=2012,dx=50,dy=2,dz=3] at @s run tp @s ~ ~0.5 ~1.5
 
 # 生成奖励物品背景
 execute as @e[type=item,tag=item_white] at @s run fill ~-0.5 ~-0.5 ~-0.5 ~0.5 ~0.5 ~0.5 white_concrete_powder
