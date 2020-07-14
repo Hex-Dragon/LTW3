@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "hurt": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_apple"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "item:special/golden_apple"
+    }
+}
