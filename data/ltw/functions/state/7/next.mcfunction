@@ -20,11 +20,11 @@ execute unless entity @a[tag=new_selector] if score $game_type mem matches 1 if 
 execute unless entity @a[tag=new_selector] if score $game_type mem matches 1 if score $round mem matches 6.. run function ltw:main/game_end
 
 # 初始化倒计时
-scoreboard players set $countdown mem 11
+scoreboard players set $countdown mem 10
 
 # 播放音效
 execute as @a[tag=new_selector] at @s run function lib:sounds/hit
 execute if entity @a[tag=new_selector] as @a[tag=!new_selector] at @s run function lib:sounds/hit2
-execute unless entity @a[tag=new_selector] run function lib:sounds/levelup
+execute unless entity @a[tag=new_selector] as @a at @s run function lib:sounds/levelup
 
 # FIXME : 僵尸游戏的旁观者偶尔会抽搐
