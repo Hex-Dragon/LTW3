@@ -8,7 +8,7 @@ scoreboard objectives setdisplay sidebar total_score
 scoreboard objectives setdisplay list total_score_disp
 
 # 初始化倒计时
-scoreboard players set $countdown mem 12
+scoreboard players set $countdown mem 11
 
 # 初始化地图
 forceload add 0 2000 50 2050
