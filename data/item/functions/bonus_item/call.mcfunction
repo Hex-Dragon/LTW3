@@ -2,7 +2,6 @@
 # as player
 
 # 将玩家拾取到的原物品替换到原点的唱片机里
-setblock 0 0 0 jukebox replace
 data modify block 0 0 0 RecordItem set from entity @s Inventory[{"tag":{"bonus_new":1b}}]
 clear @s #item:bonus{"bonus_new":1b}
 
