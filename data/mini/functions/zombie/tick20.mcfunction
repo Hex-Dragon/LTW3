@@ -20,5 +20,3 @@ effect give @e[type=zombie,limit=1,sort=random] slowness 2 1
 # 召唤怪物
 execute if score $random mem matches -5..5 run function mini:zombie/game/summon_zombie
 execute if score $random mem matches ..-8 run function mini:zombie/game/summon_skeleton
-
-# FIXME : 僵尸游戏旁观者没夜视
