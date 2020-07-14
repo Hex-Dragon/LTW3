@@ -10,4 +10,4 @@ execute as @a unless data entity @s Inventory[{Slot:8b,tag:{GameItem:1b}}] unles
 
 # 清除临时物品
 clear @a red_dye{LockTempItem:1b}
-kill @e[type=item,tag=LockTempItem]
+kill @e[type=item,tag=LockTempItem,nbt={Item:{tag:{LockTempItem:1b}}}]
