@@ -15,5 +15,6 @@ execute if score $state mem matches 3 run function ltw:state/3/player_enter
 execute if score $state mem matches 4 run function ltw:state/4/player_enter
 execute if score $state mem matches 5 run function ltw:state/5/player_enter
 execute if score $state mem matches 6 run function ltw:state/6/player_enter
+execute if score $state mem matches 7 run function ltw:state/7/player_enter
 execute if score $state mem matches 8 run function ltw:state/8/player_enter
 tag @s remove rejoining
