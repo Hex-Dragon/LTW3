@@ -19,4 +19,4 @@ execute if data block 0 0 0 RecordItem.tag.bonus_add_score run function item:bon
 execute if data block 0 0 0 RecordItem.tag.bonus_give_items[0] run function item:bonus_item/give_items
 
 # 执行特定函数
-execute if score $state mem matches 8 run function ltw:state/8/pickup
+execute if score $state mem matches 7 run function ltw:state/7/pickup

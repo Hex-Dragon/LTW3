@@ -1,3 +1,3 @@
-# 固定旁观
-execute as @a run spectate
-tp @a 0 10000 1000 0 0
+# 观察者限制
+execute as @a[gamemode=spectator] run spectate
+execute as @a[gamemode=spectator] run tp @s 7.0 11.4 2007.0
