@@ -9,7 +9,7 @@ scoreboard players operation $t_quality mem *= $c_10 mem
 scoreboard players operation $t_quality mem += $random mem
 
 # 根据品质生成不同的物品
-execute if score $t_quality mem matches ..15 run function item:bonus_item/rank/white
-execute if score $t_quality mem matches 15..54 run function item:bonus_item/rank/green
+execute if score $t_quality mem matches ..19 run function item:bonus_item/rank/white
+execute if score $t_quality mem matches 20..54 run function item:bonus_item/rank/green
 execute if score $t_quality mem matches 55..79 run function item:bonus_item/rank/blue
 execute if score $t_quality mem matches 80.. run function item:bonus_item/rank/purple
