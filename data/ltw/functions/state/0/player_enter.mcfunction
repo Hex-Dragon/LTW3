@@ -3,6 +3,9 @@ function lib:sounds/music/hub
 title @s clear
 title @s actionbar ""
 
+# 清理物品
+clear @s
+
 # 重置玩家血量上限
 execute as @a run attribute @s generic.max_health base set 20
 
