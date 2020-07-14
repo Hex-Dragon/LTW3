@@ -26,4 +26,5 @@ scoreboard players set $countdown mem 10
 execute as @a[tag=new_selector] at @s run function lib:sounds/hit
 execute if entity @a[tag=new_selector] as @a[tag=!new_selector] at @s run function lib:sounds/hit2
 
-# FIXME : 僵尸游戏的旁观者偶尔会抽搐
+# FIXME : 僵尸游戏的旁观者偶尔会传送到他人身上
+# FIXME : [重要] 物品生成的时候会漂移
