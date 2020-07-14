@@ -27,21 +27,11 @@ execute if score $t_player_count mem matches 6.. positioned 9.0 13.0 2000.0 run 
 execute if score $t_player_count mem matches 7.. positioned 14.0 13.0 2005.0 run function item:bonus_item/rank/random
 execute if score $t_player_count mem matches 8.. positioned 14.0 13.0 2009.0 run function item:bonus_item/rank/random
 
-# 生成奖励物品背景
-execute as @e[type=item,team=white] at @s run fill ~-0.5 ~-0.5 ~-0.5 ~0.5 ~0.5 ~0.5 white_concrete_powder
-execute as @e[type=item,team=green] at @s run fill ~-0.5 ~-0.5 ~-0.5 ~0.5 ~0.5 ~0.5 lime_concrete_powder
-execute as @e[type=item,team=blue] at @s run fill ~-0.5 ~-0.5 ~-0.5 ~0.5 ~0.5 ~0.5 light_blue_concrete_powder
-execute as @e[type=item,team=purple] at @s run fill ~-0.5 ~-0.5 ~-0.5 ~0.5 ~0.5 ~0.5 purple_concrete_powder
+# 清空区域
+execute as @e[type=item] at @s run fill ~-0.5 ~-0.5 ~-0.5 ~0.5 ~0.5 ~0.5 air
 
-# 传送回原位
-execute as @e[type=item,x=-1,y=12,z=1999,dx=2,dy=2,dz=50] at @s run tp @s ~1.5 ~-0.5 ~
-execute as @e[type=item,x=13,y=12,z=1999,dx=2,dy=2,dz=50] at @s run tp @s ~-1.5 ~-0.5 ~
-execute as @e[type=item,x=-1,y=12,z=1999,dx=50,dy=2,dz=2] at @s run tp @s ~ ~-0.5 ~1.5
-execute as @e[type=item,x=-1,y=12,z=2013,dx=50,dy=2,dz=2] at @s run tp @s ~ ~-0.5 ~-1.5
-
-# 生成拿取窗口
-execute as @e[type=item] at @s run fill ~-0.1 ~ ~-0.1 ~0.1 ~ ~0.1 air
-execute as @e[type=item] at @s run fill ~-0.1 ~1 ~-0.1 ~0.1 ~1 ~0.1 barrier
+# 防止幽灵实体分 tick 执行
+schedule function ltw:state/7/state_enter2 1t
 
 # 判断进入下一轮小游戏或结束
 # execute if score $game_type mem matches 1 if score $round mem matches ..5 run function ltw:state/7/continue_gameparty
