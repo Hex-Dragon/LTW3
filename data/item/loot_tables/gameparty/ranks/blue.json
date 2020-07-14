@@ -6,6 +6,10 @@
     "name": "minecraft:nether_star",
     "functions": [
         {
+            "function": "minecraft:set_count",
+            "count": 2
+        },
+        {
             "function": "minecraft:set_nbt",
             "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +2\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":2}"
         }
@@ -19,21 +23,6 @@
         {
             "function": "minecraft:set_nbt",
             "tag": "{\"item_name\":\"{\\\"text\\\":\\\"击退铁剑\\\",\\\"color\\\":\\\"aqua\\\"}\",\"Enchantments\":[{\"id\":\"knockback\",\"lvl\":1}],\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 1,
-    "name": "minecraft:snowball",
-    "functions": [
-        {
-            "function": "minecraft:set_count",
-            "count": 64
-        },
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"雪球 x64\\\",\\\"color\\\":\\\"aqua\\\"}\",\"Enchantments\":[{\"id\":\"knockback\",\"lvl\":1}],\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
         }
     ]
 }
