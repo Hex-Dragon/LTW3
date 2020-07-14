@@ -10,7 +10,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"\\\"破损的钓鱼竿\\\"\",\"color\":\"green\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":64,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}]}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"破损的钓鱼竿\\\",\\\"color\\\":\\\"green\\\"}\",\"color\":\"green\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":64,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}]}"
               }
             ],
             "name": "minecraft:bow"
