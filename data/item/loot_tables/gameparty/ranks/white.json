@@ -2,7 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 4,
     "name": "minecraft:arrow",
     "functions": [
         {
@@ -17,12 +17,56 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 4,
     "name": "minecraft:stone_sword",
     "functions": [
         {
             "function": "minecraft:set_nbt",
             "tag": "{\"item_name\":\"{\\\"text\\\":\\\"石剑\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 1,
+    "name": "minecraft:iron_helmet",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁头盔\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 1,
+    "name": "minecraft:iron_chestplate",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁胸甲\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 1,
+    "name": "minecraft:iron_leggings",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁护腿\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 1,
+    "name": "minecraft:iron_boots",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁靴子\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
         }
     ]
 }

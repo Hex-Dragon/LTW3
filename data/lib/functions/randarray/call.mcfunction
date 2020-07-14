@@ -8,4 +8,4 @@ execute if score $randarray_max mem matches 1.. run function lib:randarray/recu
 execute as @e[tag=randarray_marker] if score @s mem = $randarray_last mem run kill @s
 execute as @e[tag=randarray_marker,sort=random] run function lib:randarray/add
 
-tellraw @a ["新随机数组已生成：",{"nbt": "out","storage": "lib:randarray"},"，去重：",{"score": {"name": "$randarray_last","objective": "mem"}}]
+# tellraw @a ["新随机数组已生成：",{"nbt": "out","storage": "lib:randarray"},"，去重：",{"score": {"name": "$randarray_last","objective": "mem"}}]

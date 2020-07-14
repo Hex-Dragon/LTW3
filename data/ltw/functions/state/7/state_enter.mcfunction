@@ -31,7 +31,7 @@ execute if score $t_player_count mem matches 8.. positioned 12.5 12.5 2009.0 run
 execute as @e[type=item] at @s run fill ~-0.2 ~ ~-0.2 ~0.2 ~ ~0.2 air
 execute as @e[type=item] at @s run fill ~-0.2 ~1 ~-0.2 ~0.2 ~1 ~0.2 barrier
 
-# 防止幽灵实体分 tick 执行
+# 防止幽灵实体，分 tick 执行
 schedule function ltw:state/7/state_enter2 1t
 
 # 判断进入下一轮小游戏或结束
