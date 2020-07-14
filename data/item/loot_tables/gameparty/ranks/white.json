@@ -18,6 +18,51 @@
 {
     "type": "minecraft:item",
     "weight": 4,
+    "name": "minecraft:fishing_rod",
+    "functions": [
+        {
+            "function": "minecraft:set_damage",
+            "damage":{"min": 0.05, "max": 0.11}
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"破损的钓鱼竿\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 4,
+    "name": "minecraft:shield",
+    "functions": [
+        {
+            "function": "minecraft:set_damage",
+            "damage":{"min": 0.05, "max": 0.13}
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"破损的盾牌\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 4,
+    "name": "minecraft:wooden_sword",
+    "functions": [
+        {
+            "function": "minecraft:set_damage",
+            "damage":{"min": 0.04, "max": 0.1}
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"破损的击退木剑\\\",\\\"color\\\":\\\"white\\\"}\",\"Enchantments\":[{\"id\":\"knockback\",\"lvl\":1}],\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 4,
     "name": "minecraft:stone_sword",
     "functions": [
         {
