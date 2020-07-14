@@ -24,21 +24,6 @@
                     "tag": "{\"item_name\":\"{\\\"text\\\":\\\"击退弓, 箭 x20\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":20,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}]}"
                 }
             ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "minecraft:snowball",
-            "functions": [
-                {
-                    "function": "minecraft:set_count",
-                    "count": 100
-                },
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{\"item_name\":\"{\\\"text\\\":\\\"雪球 x100\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
-                }
-            ]
           }
         ]
       }
