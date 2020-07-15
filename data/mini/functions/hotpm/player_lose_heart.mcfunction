@@ -13,4 +13,4 @@ function mini:main/player_lose_heart
 # 最远的人新土豆
 execute if score $player_alive mem matches 2.. as @e[type=area_effect_cloud,tag=pm_boom] at @s as @a[sort=furthest,tag=mini_running,tag=!watcher,limit=1] run function mini:hotpm/game/pm_init
 # 强制观战
-execute at @s as @a[gamemode=spectator,distance=..0.1] run spectate @p[tag=pm_holding]
+# execute at @s as @a[gamemode=spectator,distance=..0.1] run spectate @p[tag=pm_holding]
