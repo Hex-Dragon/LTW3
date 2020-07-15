@@ -4,9 +4,10 @@ advancement revoke @s only item:special/consume_enchanted_apple
 # 计算生命值
 execute if score $state mem matches 5 if score @s mini_heart matches 1.. run scoreboard players operation @s mini_heart += @s mini_heart
 execute if score $state mem matches 5 if score @s mini_heart matches 1.. run function mini:main/player_max_health
+execute if score $state mem matches 5 if score @s mini_heart matches 1.. run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 食用了附魔生命果, 生命值加倍!"]
 
 # 归还苹果
-execute if score $state mem matches 5 unless score @s mini_heart matches 1.. run tellraw @s ["",{"text": ">> ","color":"gold","bold": true},"附魔金苹果目前无法使用！"]
+execute if score $state mem matches 5 unless score @s mini_heart matches 1.. run tellraw @s ["",{"text": ">> ","color":"aqua","bold": true},{"text":"你只能在存在生命计数的小游戏中食用生命果!","color":"aqua"}]
 execute if score $state mem matches 5 unless score @s mini_heart matches 1.. run give @s enchanted_golden_apple
 
 # 检测小游戏是否去除特殊效果
