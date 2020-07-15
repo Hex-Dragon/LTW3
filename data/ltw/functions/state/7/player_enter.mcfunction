@@ -10,7 +10,7 @@ gamerule naturalRegeneration true
 effect give @s resistance 1000000 4 true
 
 # 传送玩家
-tp @s 24.50 14.00 1967.50 90 90
+tp @s 24.5 11.0 1967.5 112.5 25
 execute at @s run function lib:sounds/travel
 
 # 清除 Tag
