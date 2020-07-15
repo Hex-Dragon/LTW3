@@ -10,7 +10,7 @@ effect give @s night_vision 1000000 0 true
 effect give @s resistance 1000000 4 true
 
 # 传送玩家
-tp @s 7.0 12.0 2007.0 0 0
+tp @s 24.50 14.00 1967.50 0 90
 execute at @s run function lib:sounds/travel
 
 # 清除 Tag

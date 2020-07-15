@@ -11,7 +11,7 @@ scoreboard objectives setdisplay list total_score_disp
 scoreboard players set $countdown mem 10
 
 # 初始化地图
-forceload add 0 2000 50 2050
+forceload add 0 1900 50 2000
 
 # 生成地图
 setblock 0 10 2000 minecraft:structure_block{mode:"LOAD",name:"ltw:select"}
