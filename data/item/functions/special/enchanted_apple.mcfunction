@@ -2,8 +2,16 @@
 advancement revoke @s only item:special/consume_enchanted_apple
 
 # 计算生命值
-execute if score $state mem matches 1.. if score @s mini_heart matches 1.. run scoreboard players operation @s mini_heart += @s mini_heart
-execute if score $state mem matches 1.. if score @s mini_heart matches 1.. run function mini:main/player_max_health
+execute if score $state mem matches 5 if score @s mini_heart matches 1.. run scoreboard players operation @s mini_heart += @s mini_heart
+execute if score $state mem matches 5 if score @s mini_heart matches 1.. run function mini:main/player_max_health
+
+# 归还苹果
+execute if score $state mem matches 5 unless score @s mini_heart matches 1.. run tellraw @s ["",{"text": ">> ","color":"gold","bold": true},"附魔金苹果目前无法使用！"]
+execute if score $state mem matches 5 unless score @s mini_heart matches 1.. run give @s enchanted_golden_apple
+
+# 检测小游戏是否去除特殊效果
+execute if score $state mem matches 5 if score $mini_type mem matches 5 run scoreboard players set $t_remove_resistance mem 1 
+
 # 去除buff
-execute if score $state mem matches 1.. if score @s mini_heart matches 1.. run tag @s add consume_apple
+execute if score $state mem matches 5 run tag @s add consume_apple
 schedule function item:special/clear_effect 1t replace
