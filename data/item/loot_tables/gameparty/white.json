@@ -40,7 +40,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"生命果\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"生命果\\\",\\\"italic\\\":0,\\\"Lore\\\":[\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"小游戏中生命值 +1\\\\\\\",\\\\\\\"italic\\\\\\\":0,\\\\\\\"color\\\\\\\":\\\\\\\"gray\\\\\\\"}\\\"]}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"生命果\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Lore\":[\"{\\\"text\\\":\\\"小游戏中生命值 +1\\\",\\\"italic\\\":0,\\\"color\\\":\\\"gray\\\"}\"],\"Name\":\"{\\\"text\\\":\\\"生命果\\\",\\\"italic\\\":0}\"}}"
         }
     ]
 },
