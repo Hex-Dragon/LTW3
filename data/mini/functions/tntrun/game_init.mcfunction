@@ -8,8 +8,9 @@ setblock 1000 10 2000 minecraft:structure_block{mode:"LOAD",name:"mini:tntrun"}
 setblock 1000 11 2000 minecraft:redstone_block
 
 # 清理残余实体
-kill @e[tag=tntrun_block]
+kill @e[type=arrow]
 kill @e[type=item]
+kill @e[tag=tntrun_block]
 
 # 生成奖励
 execute positioned 1011.5 15.5 2011.5 run function item:bonus_item/rank/green

@@ -8,6 +8,10 @@ team modify player friendlyFire true
 team modify player collisionRule always
 gamerule fallDamage false
 
+# 清理残余实体
+kill @e[type=arrow]
+kill @e[type=item]
+
 # 生成地图
 
 #   111

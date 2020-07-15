@@ -18,6 +18,10 @@ scoreboard players set $color_match_type mem 0
 function mini:colormatch/game/prepare_round
 schedule function mini:colormatch/game_init2 18t replace
 
+# 清理残余实体
+kill @e[type=arrow]
+kill @e[type=item]
+
 # 伤害管理
 team modify player friendlyFire true
 team modify player collisionRule always
