@@ -8,7 +8,7 @@ scoreboard objectives setdisplay sidebar total_score
 scoreboard objectives setdisplay list total_score_disp
 
 # 初始化倒计时
-scoreboard players set $countdown mem 6
+scoreboard players set $countdown mem 7
 
 # 伤害管理
 team modify player friendlyFire false
