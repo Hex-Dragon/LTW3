@@ -61,12 +61,23 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 4,
+    "weight": 2,
+    "name": "minecraft:crossbow",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"弩, 箭 x3\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":3,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}]}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 2,
     "name": "minecraft:bow",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"弓, 箭 x3\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":3,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}]}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"弓, 箭 x5\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":5,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}]}"
         }
     ]
 },
