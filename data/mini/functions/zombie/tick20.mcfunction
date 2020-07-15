@@ -10,16 +10,16 @@ function lib:random
 execute if score $random mem matches 40.. run tp @e[type=vex,limit=1,sort=random] ~ -100 ~
 
 # 赋予随机效果
-effect give @e[limit=1,sort=random] speed 1 1
-effect give @e[limit=1,sort=random] speed 4
-effect give @e[type=zombie,limit=1,sort=random] slowness 4
-effect give @e[type=zombie,limit=1,sort=random] slowness 2 1
+effect give @e[type=!player,limit=1,sort=random] speed 1 1
+effect give @e[type=!player,limit=1,sort=random] speed 4
+effect give @e[type=zombie,limit=1,sort=random] slowness 3
+effect give @e[type=zombie,limit=1,sort=random] slowness 1 1
 
 # 召唤怪物
-execute if score $countdown mem matches ..120 if score $random mem matches 0..10 run function mini:zombie/game/summon_zombie
-execute if score $countdown mem matches ..90 if score $random mem matches 11..15 run function mini:zombie/game/summon_skeleton
-execute if score $countdown mem matches ..60 if score $random mem matches 16..20 run function mini:zombie/game/summon_creeper
-execute if score $countdown mem matches ..0 if score $random mem matches 21..25 run function mini:zombie/game/summon_evoker
+execute if score $countdown mem matches 61..120 if score $random mem matches 0..10 run function mini:zombie/game/summon_zombie
+execute if score $countdown mem matches 1..90 if score $random mem matches 11..20 run function mini:zombie/game/summon_skeleton
+execute if score $countdown mem matches ..60 if score $random mem matches 21..30 run function mini:zombie/game/summon_creeper
+execute if score $countdown mem matches ..0 if score $random mem matches 31..40 run function mini:zombie/game/summon_evoker
 
 # 显示提示
 execute if score $countdown mem matches 90 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"text": "骷髅 ","color":"red"},"已开始出现!"]

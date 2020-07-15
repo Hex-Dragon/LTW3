@@ -9,6 +9,10 @@ setblock 1000 11 2000 minecraft:redstone_block
 
 # 清理残余实体
 kill @e[tag=tntrun_block]
+kill @e[type=item]
+
+# 生成奖励
+execute positioned 1011.5 15.5 2011.5 run function item:bonus_item/rank/green
 
 # 伤害管理
 team modify player friendlyFire true
