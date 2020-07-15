@@ -13,6 +13,12 @@ setblock 1000 5 1032 minecraft:redstone_block
 kill @e[type=arrow]
 kill @e[type=item]
 
+# 生成奖励物品
+execute positioned 1017.5 24.5 1049.5 run function item:bonus_item/rank/white
+
+# 初始化开门变量
+scoreboard players set $parkour_door mem 0
+
 # 伤害管理
 team modify player friendlyFire true
 team modify player collisionRule never
