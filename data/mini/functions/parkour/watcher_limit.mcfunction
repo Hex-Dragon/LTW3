@@ -1,3 +1,3 @@
 # 观察者限制飞行范围
-execute as @a[gamemode=spectator] unless entity @s[x=1001,y=11,z=1001,dx=11,dy=15,dz=24] run spectate
-execute as @a[gamemode=spectator] unless entity @s[x=1001,y=11,z=1001,dx=11,dy=15,dz=24] run tp @s 1007 24 1005
+execute as @a[gamemode=spectator] unless entity @s[x=1001,y=7,z=1001,dx=30,dy=30,dz=62] run spectate
+execute as @a[gamemode=spectator] unless entity @s[x=1001,y=7,z=1001,dx=30,dy=30,dz=62] run tp @s 1008.5 8.00 1008.5
