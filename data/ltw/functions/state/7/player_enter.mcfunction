@@ -6,11 +6,11 @@ title @s actionbar ""
 effect clear @s
 effect give @s saturation 1000000 0 true
 gamerule naturalRegeneration true
-effect give @s night_vision 1000000 0 true
+#effect give @s night_vision 1000000 0 true
 effect give @s resistance 1000000 4 true
 
 # 传送玩家
-tp @s 24.50 14.00 1967.50 0 90
+tp @s 24.50 14.00 1967.50 90 90
 execute at @s run function lib:sounds/travel
 
 # 清除 Tag
