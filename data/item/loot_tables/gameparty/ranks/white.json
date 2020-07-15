@@ -2,12 +2,34 @@
 
 {
     "type": "minecraft:item",
-    "weight": 24,
+    "weight": 32,
     "name": "minecraft:nether_star",
     "functions": [
         {
             "function": "minecraft:set_nbt",
             "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +1\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":1}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 4,
+    "name": "minecraft:golden_apple",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"跳跃提升 II \\n(0:20)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":8,\"Amplifier\":1,\"Duration\":400}]}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 4,
+    "name": "minecraft:golden_apple",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"金苹果\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
         }
     ]
 },
@@ -33,7 +55,7 @@
     "functions": [
         {
             "function": "minecraft:set_damage",
-            "damage":{"min": 0.05, "max": 0.11}
+            "damage":{"min": 0.07, "max": 0.11}
         },
         {
             "function": "minecraft:set_nbt",
@@ -48,7 +70,7 @@
     "functions": [
         {
             "function": "minecraft:set_damage",
-            "damage":{"min": 0.05, "max": 0.13}
+            "damage":{"min": 0.05, "max": 0.11}
         },
         {
             "function": "minecraft:set_nbt",
