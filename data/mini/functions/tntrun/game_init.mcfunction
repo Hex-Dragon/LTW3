@@ -13,7 +13,7 @@ kill @e[type=item]
 kill @e[tag=tntrun_block]
 
 # 生成奖励
-execute positioned 1011.5 15.5 2011.5 run function item:bonus_item/rank/green
+execute positioned 1011.5 15.5 2011.5 run function item:bonus_item/rank/white
 
 # 伤害管理
 team modify player friendlyFire true

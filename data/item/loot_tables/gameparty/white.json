@@ -115,7 +115,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"破损的击退木剑\\\",\\\"color\\\":\\\"white\\\"}\",\"Enchantments\":[{\"id\":\"knockback\",\"lvl\":1}],\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"破损的击退木剑\\\",\\\"color\\\":\\\"white\\\"}\",\"Enchantments\":[{\"id\":\"knockback\",\"lvl\":2}],\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
         }
     ]
 },
