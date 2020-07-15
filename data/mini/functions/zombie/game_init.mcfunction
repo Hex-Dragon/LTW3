@@ -11,7 +11,6 @@ setblock 1000 11 5000 minecraft:redstone_block
 kill @e[type=arrow]
 kill @e[type=item]
 tp @e[tag=mini_mob] ~ -100 ~
-tp @e[type=vex] ~ -100 ~
 
 # 伤害管理
 team modify player friendlyFire false
