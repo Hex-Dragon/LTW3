@@ -4,7 +4,7 @@ title @s clear
 title @s actionbar ""
 
 # 重置玩家血量上限
-execute as @a run attribute @s generic.max_health base set 20
+attribute @s generic.max_health base set 20
 
 # 状态效果
 effect clear @s

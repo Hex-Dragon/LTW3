@@ -1,6 +1,10 @@
 {
     "values": [
-        "minecraft:iron_sword",
+        "minecraft:enchanted_golden_apple",
+        "minecraft:golden_apple",
+        "minecraft:splash_potion",
+        "minecraft:potion",
+        "minecraft:iron_axe",
         "minecraft:ender_pearl",
         "minecraft:stone_sword",
         "minecraft:snowball",
@@ -19,6 +23,7 @@
         "minecraft:netherite_boots",
         "minecraft:fishing_rod",
         "minecraft:shield",
+        "minecraft:crossbow",
         "minecraft:bow"
     ]
 }

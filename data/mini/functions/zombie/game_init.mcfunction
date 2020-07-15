@@ -12,9 +12,6 @@ kill @e[type=arrow]
 tp @e[tag=mini_mob] ~ -100 ~
 tp @e[type=vex] ~ -100 ~
 
-# 初始化附加值
-scoreboard players set $zombie_luck mem 0
-
 # 伤害管理
 team modify player friendlyFire false
 team modify player collisionRule always

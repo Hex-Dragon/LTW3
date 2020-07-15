@@ -2,6 +2,50 @@
 
 {
     "type": "minecraft:item",
+    "weight": 34,
+    "name": "minecraft:nether_star",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +1\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":1}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:splash_potion",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"喷溅型跳跃药水 VII (0:02)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":8,\"Amplifier\":6,\"Duration\":40}],\"CustomPotionColor\":2292811,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型跳跃药水\\\",\\\"italic\\\":0}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:potion",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"跳跃药水 II (0:15)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":8,\"Amplifier\":1,\"Duration\":300}],\"CustomPotionColor\":2292811,\"display\":{\"Name\":\"{\\\"text\\\":\\\"跳跃药水\\\",\\\"italic\\\":0}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 4,
+    "name": "minecraft:golden_apple",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"生命果\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"生命果\\\",\\\"italic\\\":0}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
     "weight": 4,
     "name": "minecraft:arrow",
     "functions": [
@@ -22,7 +66,7 @@
     "functions": [
         {
             "function": "minecraft:set_damage",
-            "damage":{"min": 0.05, "max": 0.11}
+            "damage":{"min": 0.07, "max": 0.11}
         },
         {
             "function": "minecraft:set_nbt",
@@ -37,7 +81,7 @@
     "functions": [
         {
             "function": "minecraft:set_damage",
-            "damage":{"min": 0.05, "max": 0.13}
+            "damage":{"min": 0.05, "max": 0.11}
         },
         {
             "function": "minecraft:set_nbt",
