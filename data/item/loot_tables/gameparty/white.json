@@ -111,7 +111,7 @@
     "functions": [
         {
             "function": "minecraft:set_damage",
-            "damage":{"min": 0.04, "max": 0.1}
+            "damage":{"min": 0.04, "max": 0.07}
         },
         {
             "function": "minecraft:set_nbt",

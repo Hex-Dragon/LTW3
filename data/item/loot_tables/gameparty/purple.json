@@ -18,11 +18,11 @@
 {
     "type": "minecraft:item",
     "weight": 1,
-    "name": "minecraft:bow",
+    "name": "minecraft:crossbow",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"冲击弓, 箭 x20\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"Enchantments\":[{\"id\":\"punch\",\"lvl\":1}],\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":20,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}]}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"快速装填弩, 箭 x20\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"Enchantments\":[{\"id\":\"quick_charge\",\"lvl\":3}],\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":20,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}]}"
         }
     ]
 }

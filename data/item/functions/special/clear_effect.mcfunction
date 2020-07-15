@@ -10,5 +10,3 @@ execute if score $t_remove_resistance mem matches 1 run effect clear @a[tag=cons
 # 重置tag和分数
 tag @a[tag=consume_apple] remove consume_apple
 scoreboard players reset $t_remove_resistance mem
-
-# TODO : 为小游戏留出重置效果接口
