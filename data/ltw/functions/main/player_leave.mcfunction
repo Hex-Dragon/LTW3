@@ -9,6 +9,10 @@ execute if score $state mem matches 1.. if score $game_type mem matches 1 if sco
 # 如果携带热土豆的玩家掉线，则重新生成土豆
 execute if score $state mem matches 5 if score $mini_type mem matches 3 run function mini:hotpm/player_leave
 
-# TODO : 如果在熔炉中放入魔晶石（暂时用下界之星代替），则显示提示并且炸毁熔炉
-# TODO : 判断玩家背包中的魔晶石数量（暂时用下界之星代替），每一个魔晶石提供 -10% 速度和 +0.5 击退抗性
-# FIXME : 奖励选择房里还有结构方块的线
+# TODO : [010|HIM] 如果在熔炉中放入魔晶石（暂时用下界之星代替），则显示提示并且炸毁熔炉
+# TODO : [010|HIM] 修改跑酷：进一步降低主路难度（不必苛求难度递增），增加点灯支线难度和长度，然后将点灯支线修改为绿色物品
+# TODO : [010|HIM] 判断玩家背包中的魔晶石数量（暂时用下界之星代替），每一个魔晶石提供 -10% 速度和 +0.5 击退抗性
+# FIXME : [010] 奖励选择房里还有结构方块的线
+# FIXME : 去掉小猪灵（不过注意别在 summon 时给予 NBT，这会覆盖掉它们的装备）
+# FIXME : 玩家可以钓鱼
+# TODO : [LTCat] 添加更多游戏中 BGM

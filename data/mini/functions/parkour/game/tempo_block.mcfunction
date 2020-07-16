@@ -1,4 +1,7 @@
-function lib:sounds/error
+# 似乎不需要播放音效，方块破坏的时候自带音效了
+# 顺带一提，下次放音效记得 execute as @a at @s，给服务器放 rap 没什么卵用
+# function lib:sounds/error
+
 scoreboard players add $parkour_block mem 1
 execute if score $parkour_block mem matches 1 run setblock 1009 9 1036 air destroy
 execute if score $parkour_block mem matches 1 run setblock 1013 9 1032 air destroy
