@@ -10,6 +10,5 @@ execute if score $state mem matches 1.. if score $game_type mem matches 1 if sco
 execute if score $state mem matches 5 if score $mini_type mem matches 3 run function mini:hotpm/player_leave
 
 # FIXME : [010] 奖励选择房里还有结构方块的线
-# FIXME : [LTCat] 去掉小猪灵（不过注意别在 summon 时给予 NBT，这会覆盖掉它们的装备）
 # FIXME : [010/HIM] 玩家可以钓鱼
 # TODO : [LTCat] 添加更多游戏中 BGM
