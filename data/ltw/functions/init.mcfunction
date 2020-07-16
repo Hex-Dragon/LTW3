@@ -17,6 +17,7 @@ gamerule randomTickSpeed 0
 gamerule fireDamage false
 gamerule doTileDrops false
 gamerule doMobLoot false
+gamerule doTraderSpawning false
 
 # 主寄存区块：将所有需要不卸载的都放里面
 #   已占用：(0,0,0) (0,0,1)
