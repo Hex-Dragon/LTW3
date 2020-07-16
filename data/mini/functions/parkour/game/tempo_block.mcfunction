@@ -12,6 +12,7 @@ execute if score $parkour_block mem matches 1 run setblock 1012 8 1035 minecraft
 execute if score $parkour_block mem matches 1 run setblock 1009 10 1036 minecraft:crimson_hyphae
 execute if score $parkour_block mem matches 1 run setblock 1010 10 1033 minecraft:crimson_hyphae
 execute if score $parkour_block mem matches 1 run setblock 1010 12 1030 minecraft:crimson_hyphae
+
 execute if score $parkour_block mem matches 2.. run scoreboard players set $parkour_block mem 0
 execute if score $parkour_block mem matches 0 run setblock 1012 8 1035 air destroy
 execute if score $parkour_block mem matches 0 run setblock 1009 10 1036 air destroy
