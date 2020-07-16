@@ -9,4 +9,4 @@ execute if score $parkour_door mem matches 1 run particle minecraft:portal 1014.
 
 # 标记是否通过传送门
 tag @a[x=1015.0,y=20.0,z=1055.0,dx=2,dy=4,dz=4,gamemode=!spectator] remove parkour_portal
-tag @a[x=1012.0,y=20.0,z=1055.0,dx=2,dy=4,dz=4,gamemode=!spectator] add parkour_portal
+tag @a[x=1011.0,y=20.0,z=1055.0,dx=2,dy=4,dz=4,gamemode=!spectator] add parkour_portal
