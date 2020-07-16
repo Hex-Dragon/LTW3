@@ -11,3 +11,11 @@ execute if score $state mem matches 5 if score $mini_type mem matches 3 run func
 
 # FIXME : [010] 奖励选择房和跑酷图还有结构方块的线
 # FIXME : [010/HIM] 玩家可以钓鱼
+# FIXME : 喝完药的玻璃瓶没有 clear
+# FIXME : 跑酷中途掉线导致名次判断错误
+# TODO : 将跑酷的绿色奖励改为 2~3 分
+# TODO : [LTCat] 猪灵的房间角落改成圆角
+# TODO : [LTCat] 猪灵的物品改为随机位置发放
+# FIXME : [010] 弩和箭可能给不到人
+# TODO : 为跑酷添加死时限限制，或者其他解决没人开门的方法
+# TODO : [HIM] 附魔生命果支持在猪灵游戏回满血，普通生命果回复 4 心
