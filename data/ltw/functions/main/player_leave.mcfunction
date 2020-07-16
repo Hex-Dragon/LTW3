@@ -11,4 +11,3 @@ execute if score $state mem matches 5 if score $mini_type mem matches 3 run func
 
 # FIXME : [010] 奖励选择房里还有结构方块的线
 # FIXME : [010/HIM] 玩家可以钓鱼
-# TODO : [LTCat] 添加更多游戏中 BGM
