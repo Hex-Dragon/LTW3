@@ -14,7 +14,7 @@ kill @e[type=arrow]
 kill @e[type=item]
 
 # 生成奖励物品
-execute positioned 1017.5 24.5 1049.5 run function item:bonus_item/rank/white
+execute positioned 1004.5 18.5 1043.5 run function item:bonus_item/rank/white
 
 # 初始化开门变量
 scoreboard players set $parkour_door mem 0
