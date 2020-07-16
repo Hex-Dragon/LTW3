@@ -1,0 +1,1 @@
+execute if score $parkour_door mem matches 1 run playsound block.portal.ambient ambient @a 1014.5 22 1057.5
