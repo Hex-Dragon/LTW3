@@ -17,5 +17,3 @@ execute if score $mini_type mem matches 2 run function mini:tntrun/game_start
 execute if score $mini_type mem matches 3 run function mini:hotpm/game_start
 execute if score $mini_type mem matches 4 run function mini:colormatch/game_start
 execute if score $mini_type mem matches 5 run function mini:zombie/game_start
-
-# FIXME : [010] 从状态 7 转到游戏结束的时候触发了状态 3
