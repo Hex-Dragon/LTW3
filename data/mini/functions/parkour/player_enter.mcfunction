@@ -15,3 +15,7 @@ tp @s[tag=!watcher,tag=!rejoining] 1008.5 8.00 1008.5
 # 调整模式
 gamemode spectator @s
 gamemode adventure @s[tag=!watcher,tag=!rejoining]
+
+# 修改 Tag
+tag @s add parkour_portal
+tag @s[tag=!watcher,tag=!rejoining] remove parkour_portal

@@ -12,6 +12,7 @@ setblock 1000 5 1032 minecraft:redstone_block
 # 清理残余实体
 kill @e[type=arrow]
 kill @e[type=item]
+kill @e[type=falling_block,tag=parkour_block]
 
 # 生成奖励物品
 execute positioned 1004.5 18.5 1043.5 run function item:bonus_item/rank/white

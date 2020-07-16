@@ -29,7 +29,7 @@ execute if score $parkour_block mem matches 1 run setblock 1009 16 1051 minecraf
 execute if score $parkour_block mem matches 1 run setblock 1004 17 1050 minecraft:crimson_hyphae
 
 # 音效
-execute if score $parkour_block mem matches 0 run playsound block.note_block.pling block @a 1005 15 1051 0.6 0.6
-execute if score $parkour_block mem matches 1 run playsound block.note_block.pling block @a 1005 15 1051 0.6 1.1
-execute if score $parkour_block mem matches 0 run playsound block.note_block.pling block @a 1008 10 1033 0.6 0.6
-execute if score $parkour_block mem matches 1 run playsound block.note_block.pling block @a 1008 10 1033 0.6 1.1
+execute if score $parkour_block mem matches 0 run playsound block.note_block.pling block @a[tag=parkour_portal] 1007 15 1051 1 0.6
+execute if score $parkour_block mem matches 1 run playsound block.note_block.pling block @a[tag=parkour_portal] 1007 15 1051 1 1.1
+execute if score $parkour_block mem matches 0 run playsound block.note_block.pling block @a[tag=parkour_portal] 1010 10 1033 1 0.6
+execute if score $parkour_block mem matches 1 run playsound block.note_block.pling block @a[tag=parkour_portal] 1010 10 1033 1 1.1
