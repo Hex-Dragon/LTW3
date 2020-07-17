@@ -25,6 +25,8 @@ forceload add 0 0
 setblock 0 0 0 jukebox
 
 # 记分板
+scoreboard objectives remove temp
+scoreboard objectives add temp dummy
 scoreboard objectives remove health
 scoreboard objectives add health health "生命值"
 scoreboard objectives remove health_disp
