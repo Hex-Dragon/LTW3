@@ -4,7 +4,7 @@
 scoreboard players set $random_min mem 1
 scoreboard players set $random_max mem 100
 function lib:random
-scoreboard players operation $t_quality mem = $round mem
+scoreboard players operation $t_quality mem = $random mem
 
 # 根据品质生成不同的物品
 execute if score $t_quality mem matches ..24 run function item:bonus_item/gameparty/last/white
