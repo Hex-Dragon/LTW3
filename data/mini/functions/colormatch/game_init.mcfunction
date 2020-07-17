@@ -13,6 +13,7 @@ fill 1049 11 4025 1075 40 4025 stone
 scoreboard players set $finish_mode mem 0
 scoreboard players set $color_match_time mem 60
 scoreboard players set $color_match_type mem 0
+scoreboard players set $remove_resistance mem 0
 
 # 刷新地基
 function mini:colormatch/game/prepare_round

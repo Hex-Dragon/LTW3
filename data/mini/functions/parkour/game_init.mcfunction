@@ -2,6 +2,7 @@
 forceload add 1000 1000 1064 1064
 
 scoreboard players set $finish_mode mem 1
+scoreboard players set $remove_resistance mem 0
 
 # 生成地图
 setblock 1000 4 1000 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"00ll00",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:32,posZ:0,integrity:1.0f,showair:0b,name:"mini:parkour0",sizeY:32,sizeZ:32,showboundingbox:0b}
@@ -16,7 +17,7 @@ kill @e[type=falling_block,tag=parkour_block]
 
 # 生成奖励物品
 execute positioned 1004.5 18.5 1043.5 run function item:bonus_item/gameparty/normal/white
-execute positioned 1024.5 30.5 1038.5 run function item:bonus_item/gameparty/normal/green
+execute positioned 1024.5 30.5 1038.5 run function item:bonus_item/gameparty/last/green
 
 # 初始化开门变量
 scoreboard players set $parkour_door mem 0
