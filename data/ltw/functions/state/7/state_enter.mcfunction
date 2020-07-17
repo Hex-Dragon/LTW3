@@ -11,6 +11,7 @@ scoreboard objectives setdisplay list total_score_disp
 scoreboard players set $countdown mem 7
 
 # 伤害管理
+scoreboard players set $remove_resistance mem 0
 team modify player friendlyFire false
 team modify player collisionRule always
 gamerule fallDamage false

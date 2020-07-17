@@ -8,6 +8,7 @@ scoreboard objectives setdisplay sidebar
 scoreboard objectives setdisplay list
 
 # 伤害管理
+scoreboard players set $remove_resistance mem 0
 team modify player friendlyFire false
 team modify player collisionRule never
 gamerule fallDamage false

@@ -2,7 +2,6 @@
 forceload add 1000 2000 1050 2050
 
 scoreboard players set $finish_mode mem 0
-scoreboard players set $remove_resistance mem 0
 
 # 生成地图
 setblock 1000 10 2000 minecraft:structure_block{mode:"LOAD",name:"mini:tntrun"}
@@ -17,6 +16,7 @@ kill @e[tag=tntrun_block]
 execute positioned 1011.5 15.5 2011.5 run function item:bonus_item/gameparty/normal/white
 
 # 伤害管理
+scoreboard players set $remove_resistance mem 0
 team modify player friendlyFire true
 team modify player collisionRule always
 gamerule fallDamage false

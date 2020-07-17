@@ -2,9 +2,9 @@
 forceload add 1000 3000 1100 3100
 
 scoreboard players set $finish_mode mem 0
-scoreboard players set $remove_resistance mem 0
 
 # 伤害管理
+scoreboard players set $remove_resistance mem 0
 team modify player friendlyFire true
 team modify player collisionRule always
 gamerule fallDamage false
