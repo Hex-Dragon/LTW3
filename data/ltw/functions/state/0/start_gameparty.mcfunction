@@ -1,8 +1,8 @@
 # 开始小游戏模式
 
 # 设置旁观
-tag @a remove watcher
-tag @a[tag=hub_watch] add watcher
+tag @a add watcher
+tag @a[tag=hub_ready,sort=random,limit=8] remove watcher
 
 # 设置数据
 scoreboard players reset * total_score

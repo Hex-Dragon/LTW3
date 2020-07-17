@@ -20,4 +20,4 @@ forceload remove all
 scoreboard players set $countdown mem 0
 
 # 重置当前状态
-function ltw:state/0/refresh_state
+function ltw:state/0/refresh_game_type

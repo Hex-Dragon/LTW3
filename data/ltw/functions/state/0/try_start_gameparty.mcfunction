@@ -3,11 +3,16 @@
 # 计算玩家数量
 execute store result score $count mem if entity @a[tag=hub_ready]
 
-# 根据玩家数量判定
+# 判断玩家数量过少
 execute if score $count mem matches ..1 as @a at @s run function lib:sounds/error
-execute if score $count mem matches ..1 run tellraw @a [{"text": "需要至少 2 人以开始小游戏模式, 当前仅有 ","color":"red"},{"score": { "name": "$count","objective": "mem"}}, " 人!"]
-execute if score $count mem matches 9.. as @a at @s run function lib:sounds/error
-execute if score $count mem matches 9.. run tellraw @a [{"text": "小游戏模式最多支持 8 人, 当前已有 ","color":"red"},{"score": { "name": "$count","objective": "mem"}}, " 人!"]
+execute if score $count mem matches ..1 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"text": "需要至少 2 人以开始小游戏模式, 当前人数不足!","color":"red"}]
+execute if score $count mem matches ..1 run scoreboard players set $countdown mem 0
 
-# 判断旁观
-execute if score $count mem matches 2..8 run function ltw:state/0/start_gameparty
+# 判断玩家数量过多
+execute if score $count mem matches 9.. if score $countdown mem matches 10 run tellraw @a [{"text":"","color":"gold"},{"text":">> ","bold": true},"小游戏模式最多支持 8 人, 当前已有 ",{"score": { "name": "$count","objective": "mem"}}, " 人, 将随机抽取 8 人开始游戏!"]
+execute if score $count mem matches 9.. if score $countdown mem matches 1 run tellraw @a [{"text":"","color":"gold"},{"text":">> ","bold": true},"小游戏模式最多支持 8 人, 当前已有 ",{"score": { "name": "$count","objective": "mem"}}, " 人, 将随机抽取 8 人开始游戏!"]
+
+# 开始游戏
+execute if score $countdown mem matches 10 run tellraw @a [{"text":"","color":"green"},{"text": ">> ","bold": true},"即将开始小游戏模式, 请到准备区域准备, 若想旁观则请离开准备区域!"]
+execute if score $countdown mem matches 10 as @a at @s run function lib:sounds/levelup
+execute if score $countdown mem matches 1 run function ltw:state/0/start_gameparty

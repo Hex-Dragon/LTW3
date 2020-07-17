@@ -16,4 +16,3 @@ execute if score $state mem matches 5 if score $mini_type mem matches 3 run func
 # FIXME : <! 紧急> [010] 弩和箭可能给不到人
 # FIXME : [010/HIM] 关闭原版进度，它会给玩家经验值什么的很烦
 # TODO : [010] 制作命运硬币（拾取时得分加倍或减半）、命运骰子（拾取时得分 +1~6）
-# TODO : [LTCat] 游戏开始机制优化
