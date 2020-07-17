@@ -20,7 +20,6 @@ execute positioned 1024.5 30.5 1038.5 run function item:bonus_item/gameparty/las
 
 # 初始化开门变量
 scoreboard players set $parkour_door mem 0
-scoreboard players set $countdown mem 150
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 0
