@@ -18,7 +18,7 @@ execute if score $countdown mem matches 130 run tellraw @a ["",{"text": ">> ","c
 execute if score $countdown mem matches 105 run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"text": "补给物资已经送达!","color":"aqua"}]
 execute if score $countdown mem matches 80 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"text": "猪灵开始取回他们的装备了!","color":"red"}]
 execute if score $countdown mem matches 80 run scoreboard players set $random mem 1
-execute if score $countdown mem matches 55 run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"text": "补给物资已经送达!","color":"aqua"}]
+# execute if score $countdown mem matches 55 run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"text": "补给物资已经送达!","color":"aqua"}]
 
 # 召唤猪灵
 execute if score $random mem matches ..10 if score $countdown mem matches 81.. run function mini:zombie/game/summon_empty

@@ -2,7 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 26,
+    "weight": 1,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -12,6 +12,17 @@
         {
             "function": "minecraft:set_nbt",
             "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +2\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":2}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 1,
+    "name": "minecraft:gold_ingot",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"从最高分玩家处偷取 1 分\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":200}"
         }
     ]
 }
