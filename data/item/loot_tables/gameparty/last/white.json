@@ -2,12 +2,34 @@
 
 {
     "type": "minecraft:item",
-    "weight": 13,
+    "weight": 8,
     "name": "minecraft:nether_star",
     "functions": [
         {
             "function": "minecraft:set_nbt",
             "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +1\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":1}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:filled_map",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"极小概率得分 +5\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":0}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 1,
+    "name": "minecraft:filled_map",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"极小概率得分 +5\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":5}"
         }
     ]
 }
