@@ -1,5 +1,4 @@
 # 土豆持有者打到人时执行
-
 tag @s add pm_damage_dealt
 function lib:sounds/hit
 
