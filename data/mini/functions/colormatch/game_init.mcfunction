@@ -21,6 +21,7 @@ schedule function mini:colormatch/game_init2 18t replace
 # 清理残余实体
 kill @e[type=arrow]
 kill @e[type=item]
+kill @e[type=trident]
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 0

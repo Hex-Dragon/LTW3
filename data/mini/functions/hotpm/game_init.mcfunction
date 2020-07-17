@@ -12,6 +12,7 @@ gamerule fallDamage false
 # 清理残余实体
 kill @e[type=arrow]
 kill @e[type=item]
+kill @e[type=trident]
 
 # 生成地图
 
