@@ -8,8 +8,8 @@ clear @s #item:bonus{"bonus_new":1b}
 # 播放音效
 function lib:sounds/hit
 
-# 显示物品拾取
-tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 获得了 ",{"nbt": "RecordItem.tag.item_name","block": "0 0 0","interpret": true}]
+# 显示拾取提示（获得得分的提示由 add_score 显示）
+execute unless data block 0 0 0 RecordItem.tag.bonus_add_score run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 获得了 ",{"nbt": "RecordItem.tag.item_name","block": "0 0 0","interpret": true}]
 
 # 如果有 return 标签则退回物品（最先执行）
 execute if data block 0 0 0 RecordItem.tag{"bonus_return":1b} run function item:bonus_item/return_item
