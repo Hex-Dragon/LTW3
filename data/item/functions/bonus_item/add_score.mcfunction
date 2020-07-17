@@ -4,7 +4,7 @@ execute store result score #bonus_add_score mem run data get block 0 0 0 RecordI
 # 正常的加分
 execute unless score #bonus_add_score mem matches 100 run scoreboard players operation @s total_score += #bonus_add_score mem
 execute unless score #bonus_add_score mem matches 100 run scoreboard players operation @s total_score_disp += #bonus_add_score mem
-execute unless score #bonus_add_score mem matches 100 run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 获得了 ",{"score": {"name":"#bonus_add_score","objective": "mem"}}, " 分, 当前共有 ",{"score": {"name": "@s","objective": "total_score"}}, " 分"]
+execute unless score #bonus_add_score mem matches 100 run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 获得了 ",{"score": {"name":"#bonus_add_score","objective": "mem"},"color":"aqua"},{"text": " 分","color":"aqua"},", 当前共有 ",{"score": {"name": "@s","objective": "total_score"}}, " 分"]
 
 # 100：硬币
 scoreboard players set $random_max mem 1
@@ -12,7 +12,7 @@ scoreboard players set $random_min mem 0
 function lib:random
 execute if score #bonus_add_score mem matches 100 if score $random mem matches 1 run scoreboard players operation @s total_score *= $c_2 mem
 execute if score #bonus_add_score mem matches 100 if score $random mem matches 1 run scoreboard players operation @s total_score_disp *= $c_2 mem
-execute if score #bonus_add_score mem matches 100 if score $random mem matches 1 run tellraw @a ["",{"text": ">> ","color":"green","bold": true},{"selector": "@s","color":"green"}," 的硬币投出了正面, 得分加倍, 当前共有 ",{"score": {"name": "@s","objective": "total_score"}}, " 分"]
+execute if score #bonus_add_score mem matches 100 if score $random mem matches 1 run tellraw @a ["",{"text": ">> ","color":"green","bold": true},{"selector": "@s","color":"green"}," 的硬币投出了正面, 得分加倍, 当前共有 ",{"score": {"name": "@s","objective": "total_score"},"color":"green"},{"text": " 分", "color":"green"}]
 execute if score #bonus_add_score mem matches 100 if score $random mem matches 0 run scoreboard players operation @s total_score /= $c_2 mem
 execute if score #bonus_add_score mem matches 100 if score $random mem matches 0 run scoreboard players operation @s total_score_disp /= $c_2 mem
-execute if score #bonus_add_score mem matches 100 if score $random mem matches 0 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"selector": "@s","color":"red"}," 的硬币投出了反面, 得分减半, 当前共有 ",{"score": {"name": "@s","objective": "total_score"}}, " 分"]
+execute if score #bonus_add_score mem matches 100 if score $random mem matches 0 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"selector": "@s","color":"red"}," 的硬币投出了反面, 得分减半, 当前共有 ",{"score": {"name": "@s","objective": "total_score"},"color":"red"},{"text": " 分", "color":"red"}]
