@@ -13,7 +13,5 @@ execute if score $state mem matches 5 if score $mini_type mem matches 3 run func
 # FIXME : [010/HIM] 玩家可以钓鱼
 # FIXME : [010/HIM] 喝完药的玻璃瓶没有 clear
 # FIXME : [010/HIM] 跑酷中途掉线导致名次判断错误
-# TODO : [LTCat] 猪灵的房间角落改成圆角
-# TODO : [LTCat] 猪灵的物品改为随机位置发放
 # FIXME : [010] 弩和箭可能给不到人
 # FIXME : [010] 关闭原版进度

@@ -2,11 +2,10 @@
 effect clear @a[tag=consume_apple] absorption
 effect clear @a[tag=consume_apple] regeneration
 effect clear @a[tag=consume_apple] fire_resistance
-effect give @a[tag=consume_apple] minecraft:resistance 999999 4 true
+effect give @a[tag=consume_apple] resistance 999999 4 true
 
 # 检测是否保留抗性提升
 execute if score $remove_resistance mem matches 1 run effect clear @a[tag=consume_apple] resistance 
 
-# 重置tag和分数
+# 重置 tag
 tag @a[tag=consume_apple] remove consume_apple
-scoreboard players reset $remove_resistance mem
