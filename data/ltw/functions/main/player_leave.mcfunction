@@ -11,7 +11,9 @@ execute if score $state mem matches 5 if score $mini_type mem matches 3 run func
 
 # FIXME : [010/HIM] 奖励选择房和跑酷图还有结构方块的线
 # FIXME : [010/HIM] 玩家可以钓鱼
-# FIXME : [010/HIM] 喝完药的玻璃瓶没有 clear
-# FIXME : [010/HIM] 跑酷中途掉线导致名次判断错误
-# FIXME : [010] 弩和箭可能给不到人
-# FIXME : [010] 关闭原版进度
+# FIXME : 喝完药的玻璃瓶没有 clear
+# FIXME : <! 紧急> 跑酷中途掉线导致名次判断错误
+# FIXME : <! 紧急> [010] 弩和箭可能给不到人
+# FIXME : [010/HIM] 关闭原版进度，它会给玩家经验值什么的很烦
+# TODO : [010] 制作命运硬币（拾取时得分加倍或减半）、命运骰子（拾取时得分 +1~6）
+# TODO : [LTCat] 游戏开始机制优化
