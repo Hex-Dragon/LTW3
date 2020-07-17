@@ -1,7 +1,7 @@
 # 尝试开始小游戏模式
 
 # 计算玩家数量
-execute store result score $count mem if entity @a[tag=hub_gameparty]
+execute store result score $count mem if entity @a[tag=hub_ready]
 
 # 根据玩家数量判定
 execute if score $count mem matches ..1 as @a at @s run function lib:sounds/error

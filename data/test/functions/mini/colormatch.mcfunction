@@ -1,5 +1,5 @@
 # 测试用：快速开始 Color Match
-tag @a add hub_gameparty
+tag @a add hub_ready
 tag @a remove hub_watch
 function ltw:state/0/start_gameparty
 scoreboard players set $round mem 6

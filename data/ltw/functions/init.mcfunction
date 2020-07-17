@@ -44,9 +44,10 @@ scoreboard objectives remove game_id
 scoreboard objectives add game_id dummy "游戏编号"
 scoreboard players set $ game_id 0
 
-# 常量
+# 常量与变量初始化
 scoreboard players set $c_mini_total mem 5
 scoreboard players set $c_10 mem 10
+scoreboard players set $game_type mem 1
 
 # 队伍
 team remove player

@@ -2,7 +2,7 @@
 
 # 设置旁观
 tag @a remove watcher
-tag @a[tag=!hub_gameparty] add watcher
+tag @a[tag=hub_watch] add watcher
 
 # 设置数据
 scoreboard players reset * total_score
