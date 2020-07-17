@@ -9,6 +9,10 @@ clear @s
 # 重置玩家血量上限
 attribute @s generic.max_health base set 20
 
+# 重置经验值
+xp set @s 0 points
+xp set @s 0 levels
+
 # 状态效果
 effect clear @s
 effect give @s saturation 1000000 0 true
