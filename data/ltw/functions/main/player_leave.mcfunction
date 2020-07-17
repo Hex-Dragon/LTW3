@@ -18,7 +18,4 @@ execute if score $state mem matches 5 if score $mini_type mem matches 3 run func
 # TODO : [LTCat] 猪灵的物品改为随机位置发放
 # FIXME : [010] 弩和箭可能给不到人
 # TODO : [HIM] 附魔生命果支持在猪灵游戏回满血，普通生命果回复 4 心
-# TODO : [LTCat] 最后一轮不刷出得分以外的物品
-# TODO : [LTCat] 对道具重新进行平衡
-# TODO : [LTCat] 为道具添加颜色，与稀有度一致
 # FIXME : [010] 关闭原版进度
