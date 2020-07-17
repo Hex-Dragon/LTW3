@@ -16,6 +16,6 @@ execute positioned 1001 10 4000 if score $color_match_floor mem matches 9 run cl
 execute positioned 1001 10 4000 if score $color_match_floor mem matches 10 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered emerald_block
 execute positioned 1001 10 4000 if score $color_match_floor mem matches 11 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered prismarine
 execute positioned 1001 10 4000 if score $color_match_floor mem matches 12 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered soul_soil
-execute positioned 1001 10 4000 if score $color_match_floor mem matches 13 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered packed_ice
-execute positioned 1001 10 4000 if score $color_match_floor mem matches 14 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered white_wool
-execute positioned 1001 10 4000 if score $color_match_floor mem matches 15 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered diamond_block
+# execute positioned 1001 10 4000 if score $color_match_floor mem matches 13 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered packed_ice
+# execute positioned 1001 10 4000 if score $color_match_floor mem matches 14 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered white_wool
+# execute positioned 1001 10 4000 if score $color_match_floor mem matches 15 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered diamond_block

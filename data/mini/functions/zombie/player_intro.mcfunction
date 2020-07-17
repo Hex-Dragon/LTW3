@@ -5,5 +5,4 @@ tellraw @s ["",{"text": " <死亡淘汰制> ","color":"red","bold": true}, {"tex
 tellraw @s ["",{"text": " <PVE> ","color":"light_purple","bold": true}, {"text":"无法攻击其他玩家, 但可以杀死猪灵。","color":"gray"}]
 tellraw @s ["",{"text": " <额外道具> ","color":"aqua","bold": true}, {"text":"将会随着时间推移生成 2 个白色道具。","color":"gray"}]
 tellraw @s ["",{"text": " <原型> ","color":"gold","bold": true}, {"text":"此游戏目前仅用于玩法测试, 尚未进行修缮。","color":"gray"}]
-tellraw @s ["",{"text": " <缺乏测试> ","color":"gold","bold": true}, {"text":"此游戏尚未经过足够测试, 可能存在 Bug 或设计漏洞。","color":"gray"}]
 tellraw @s ""

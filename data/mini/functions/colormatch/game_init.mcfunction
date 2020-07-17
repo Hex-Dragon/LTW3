@@ -18,7 +18,7 @@ scoreboard players set $color_match_type mem 0
 
 # 刷新地基
 function mini:colormatch/game/prepare_round
-schedule function mini:colormatch/game_init2 18t replace
+schedule function mini:colormatch/game_init2 13t replace
 
 # 清理残余实体
 kill @e[type=arrow]

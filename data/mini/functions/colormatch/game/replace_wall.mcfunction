@@ -46,15 +46,15 @@ execute if score $color_match_floor mem matches 12 run fill 1075 11 3999 1075 40
 execute if score $color_match_floor mem matches 12 run fill 1075 11 3999 1049 40 3999 soul_soil
 execute if score $color_match_floor mem matches 12 run fill 1049 11 3999 1049 40 4025 soul_soil
 execute if score $color_match_floor mem matches 12 run fill 1049 11 4025 1075 40 4025 soul_soil
-execute if score $color_match_floor mem matches 13 run fill 1075 11 3999 1075 40 4025 packed_ice
-execute if score $color_match_floor mem matches 13 run fill 1075 11 3999 1049 40 3999 packed_ice
-execute if score $color_match_floor mem matches 13 run fill 1049 11 3999 1049 40 4025 packed_ice
-execute if score $color_match_floor mem matches 13 run fill 1049 11 4025 1075 40 4025 packed_ice
-execute if score $color_match_floor mem matches 14 run fill 1075 11 3999 1075 40 4025 white_wool
-execute if score $color_match_floor mem matches 14 run fill 1075 11 3999 1049 40 3999 white_wool
-execute if score $color_match_floor mem matches 14 run fill 1049 11 3999 1049 40 4025 white_wool
-execute if score $color_match_floor mem matches 14 run fill 1049 11 4025 1075 40 4025 white_wool
-execute if score $color_match_floor mem matches 15 run fill 1075 11 3999 1075 40 4025 diamond_block
-execute if score $color_match_floor mem matches 15 run fill 1075 11 3999 1049 40 3999 diamond_block
-execute if score $color_match_floor mem matches 15 run fill 1049 11 3999 1049 40 4025 diamond_block
-execute if score $color_match_floor mem matches 15 run fill 1049 11 4025 1075 40 4025 diamond_block
+# execute if score $color_match_floor mem matches 13 run fill 1075 11 3999 1075 40 4025 packed_ice
+# execute if score $color_match_floor mem matches 13 run fill 1075 11 3999 1049 40 3999 packed_ice
+# execute if score $color_match_floor mem matches 13 run fill 1049 11 3999 1049 40 4025 packed_ice
+# execute if score $color_match_floor mem matches 13 run fill 1049 11 4025 1075 40 4025 packed_ice
+# execute if score $color_match_floor mem matches 14 run fill 1075 11 3999 1075 40 4025 white_wool
+# execute if score $color_match_floor mem matches 14 run fill 1075 11 3999 1049 40 3999 white_wool
+# execute if score $color_match_floor mem matches 14 run fill 1049 11 3999 1049 40 4025 white_wool
+# execute if score $color_match_floor mem matches 14 run fill 1049 11 4025 1075 40 4025 white_wool
+# execute if score $color_match_floor mem matches 15 run fill 1075 11 3999 1075 40 4025 diamond_block
+# execute if score $color_match_floor mem matches 15 run fill 1075 11 3999 1049 40 3999 diamond_block
+# execute if score $color_match_floor mem matches 15 run fill 1049 11 3999 1049 40 4025 diamond_block
+# execute if score $color_match_floor mem matches 15 run fill 1049 11 4025 1075 40 4025 diamond_block
