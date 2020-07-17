@@ -1,29 +1,18 @@
 {
     "values": [
-        "minecraft:enchanted_golden_apple",
-        "minecraft:golden_apple",
-        "minecraft:splash_potion",
-        "minecraft:potion",
-        "minecraft:iron_axe",
-        "minecraft:ender_pearl",
-        "minecraft:stone_sword",
-        "minecraft:snowball",
-        "minecraft:wooden_sword",
-        "minecraft:netherite_sword",
-        "minecraft:arrow",
         "minecraft:nether_star",
+        "minecraft:trident",
+        "minecraft:iron_axe",
+        "minecraft:wooden_axe",
         "minecraft:fishing_rod",
-        "minecraft:iron_helmet",
-        "minecraft:iron_chestplate",
-        "minecraft:iron_leggings",
-        "minecraft:iron_boots",
+        "minecraft:shield",
+        "minecraft:splash_potion",
+        "minecraft:crossbow",
+        "minecraft:bow",
+        "minecraft:arrow",
         "minecraft:netherite_helmet",
         "minecraft:netherite_chestplate",
         "minecraft:netherite_leggings",
-        "minecraft:netherite_boots",
-        "minecraft:fishing_rod",
-        "minecraft:shield",
-        "minecraft:crossbow",
-        "minecraft:bow"
+        "minecraft:netherite_boots"
     ]
 }

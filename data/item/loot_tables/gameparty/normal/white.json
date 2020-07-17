@@ -1,0 +1,178 @@
+{"pools": [{"rolls": 1,"entries": [
+
+{
+    "type": "minecraft:item",
+    "weight": 13,
+    "name": "minecraft:nether_star",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +1\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":1}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 2,
+    "name": "minecraft:trident",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"三叉戟\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"三叉戟\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 2,
+    "name": "minecraft:iron_axe",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁斧\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"铁斧\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 2,
+    "name": "minecraft:wooden_axe",
+    "functions": [
+        {
+            "function": "minecraft:set_damage",
+            "damage":{"min": 0.05, "max": 0.08}
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<击退 II> 破损的木斧\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Enchantments\":[{\"id\":\"knockback\",\"lvl\":2}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<击退 II> 木斧\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 4,
+    "name": "minecraft:fishing_rod",
+    "functions": [
+        {
+            "function": "minecraft:set_damage",
+            "damage":{"min": 0.06, "max": 0.09}
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"破损的钓鱼竿\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"钓鱼竿\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:shield",
+    "functions": [
+        {
+            "function": "minecraft:set_damage",
+            "damage":{"min": 0.05, "max": 0.09}
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"破损的盾牌\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"盾牌\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 4,
+    "name": "minecraft:splash_potion",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"0:10 飘浮\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":25,\"Amplifier\":0,\"Duration\":200}],\"CustomPotionColor\":11458519,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型浮空药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 2,
+    "name": "minecraft:crossbow",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"弩, 箭 x3\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"弩\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"},\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":3,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}]}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 2,
+    "name": "minecraft:bow",
+    "functions": [
+        {
+            "function": "minecraft:set_damage",
+            "damage":{"min": 0.01, "max": 0.02}
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<冲击 I> 弓\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Enchantments\":[{\"id\":\"punch\",\"lvl\":1}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<冲击 I> 弓\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 2,
+    "name": "minecraft:arrow",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 10
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"箭 x10\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 0.67,
+    "name": "minecraft:netherite_helmet",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金头盔\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 0.67,
+    "name": "minecraft:netherite_chestplate",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金胸甲\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 0.67,
+    "name": "minecraft:netherite_leggings",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金护腿\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 0.67,
+    "name": "minecraft:netherite_boots",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金靴子\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+        }
+    ]
+}
+
+]}]}
