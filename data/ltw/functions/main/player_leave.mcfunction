@@ -13,12 +13,11 @@ execute if score $state mem matches 5 if score $mini_type mem matches 3 run func
 # FIXME : [010/HIM] 玩家可以钓鱼
 # FIXME : [010/HIM] 喝完药的玻璃瓶没有 clear
 # FIXME : [010/HIM] 跑酷中途掉线导致名次判断错误
-# TODO : [LTCat] 将跑酷的绿色奖励改为固定 3 分，允许中途返回
+# TODO : [LTCat] 将跑酷的绿色奖励改为固定 3 分
 # TODO : [LTCat] 猪灵的房间角落改成圆角
 # TODO : [LTCat] 猪灵的物品改为随机位置发放
 # FIXME : [010] 弩和箭可能给不到人
 # TODO : [HIM] 附魔生命果支持在猪灵游戏回满血，普通生命果回复 4 心
-# TODO : [LTCat] ColorMatch 支持刷出奖励物品
 # TODO : [LTCat] 最后一轮不刷出得分以外的物品
 # TODO : [LTCat] 对道具重新进行平衡
 # TODO : [LTCat] 为道具添加颜色，与稀有度一致

@@ -8,7 +8,7 @@ scoreboard objectives setdisplay sidebar total_score
 scoreboard objectives setdisplay list total_score_disp
 
 # 初始化倒计时
-scoreboard players set $countdown mem 10
+scoreboard players set $countdown mem 13
 
 # 小游戏编号
 # 1 跑酷；2 TNT Run；3 热土豆；4 陷阱迷阵；5 僵尸

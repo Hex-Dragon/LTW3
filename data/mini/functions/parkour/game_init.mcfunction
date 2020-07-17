@@ -22,6 +22,6 @@ execute positioned 1024.5 30.5 1038.5 run function item:bonus_item/rank/green
 scoreboard players set $parkour_door mem 0
 
 # 伤害管理
-team modify player friendlyFire true
-team modify player collisionRule never
+team modify player friendlyFire false
+team modify player collisionRule always
 gamerule fallDamage false

@@ -28,4 +28,3 @@ execute if score $random mem matches ..20 if score $countdown mem matches ..80 a
 # 生成奖励
 execute if score $countdown mem matches 155 run execute positioned 1015.5 11.0 5022.0 run function item:bonus_item/rank/white
 execute if score $countdown mem matches 105 run execute positioned 1005.5 11.0 5004.0 run function item:bonus_item/rank/white
-execute if score $countdown mem matches 55 run execute positioned 1015.5 11.0 5022.0 run function item:bonus_item/rank/white

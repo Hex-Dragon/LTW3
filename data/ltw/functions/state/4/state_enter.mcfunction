@@ -8,4 +8,4 @@ scoreboard objectives setdisplay sidebar total_score
 scoreboard objectives setdisplay list total_score_disp
 
 # 初始化倒计时
-scoreboard players set $countdown mem 8
+scoreboard players set $countdown mem 10

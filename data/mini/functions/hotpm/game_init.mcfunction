@@ -49,4 +49,4 @@ setblock 1000 5 2999 minecraft:redstone_block
 # 生成物品
 execute positioned 1022.0 17.0 3009.0 run function item:bonus_item/rank/white
 execute positioned 1022.5 32.0 3038.0 run function item:bonus_item/rank/white
-execute positioned 1022.5 43.5 3012.5 run function item:bonus_item/rank/white
+# execute positioned 1022.5 43.5 3012.5 run function item:bonus_item/rank/white
