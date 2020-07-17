@@ -106,10 +106,6 @@
     "name": "minecraft:bow",
     "functions": [
         {
-            "function": "minecraft:set_damage",
-            "damage":{"min": 0.01, "max": 0.02}
-        },
-        {
             "function": "minecraft:set_nbt",
             "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<冲击 I> 弓\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Enchantments\":[{\"id\":\"punch\",\"lvl\":1}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<冲击 I> 弓\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
         }
@@ -132,7 +128,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 0.67,
+    "weight": 1,
     "name": "minecraft:netherite_helmet",
     "functions": [
         {
@@ -143,7 +139,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 0.67,
+    "weight": 1,
     "name": "minecraft:netherite_chestplate",
     "functions": [
         {
@@ -154,7 +150,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 0.67,
+    "weight": 1,
     "name": "minecraft:netherite_leggings",
     "functions": [
         {
@@ -165,7 +161,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 0.67,
+    "weight": 1,
     "name": "minecraft:netherite_boots",
     "functions": [
         {
