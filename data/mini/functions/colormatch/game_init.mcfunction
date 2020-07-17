@@ -8,6 +8,8 @@ fill 1075 11 3999 1075 40 4025 stone
 fill 1075 11 3999 1049 40 3999 stone
 fill 1049 11 3999 1049 40 4025 stone
 fill 1049 11 4025 1075 40 4025 stone
+fill 1074 40 4000 1050 40 4024 barrier
+
 
 # 初始化
 scoreboard players set $finish_mode mem 0
