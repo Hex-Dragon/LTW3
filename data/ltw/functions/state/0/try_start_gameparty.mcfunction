@@ -13,6 +13,4 @@ execute if score $count mem matches 9.. if score $countdown mem matches 10 run t
 execute if score $count mem matches 9.. if score $countdown mem matches 1 run tellraw @a [{"text":"","color":"gold"},{"text":">> ","bold": true},"小游戏模式最多支持 8 人, 当前已有 ",{"score": { "name": "$count","objective": "mem"}}, " 人, 将随机抽取 8 人开始游戏!"]
 
 # 开始游戏
-execute if score $countdown mem matches 11 run tellraw @a [{"text":"","color":"green"},{"text": ">> ","bold": true},"即将开始小游戏模式, 请到准备区域准备, 若想旁观则请离开准备区域!"]
-execute if score $countdown mem matches 11 as @a at @s run function lib:sounds/levelup
-execute if score $countdown mem matches 1 run function ltw:state/0/start_gameparty
+execute if score $countdown mem matches 1 run schedule function ltw:state/0/start_gameparty 18t
