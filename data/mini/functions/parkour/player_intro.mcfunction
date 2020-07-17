@@ -1,5 +1,5 @@
 # 向单个玩家展示小游戏介绍
-tp @s 1010.83 30.16 1033.66 -1117.71 18.17
+tp @s 1027.56 18.03 1046.89 13.48 4.84
 tellraw @s ["",{"text":"\n >> 旅途 >>\n\n","color":"red","bold":true}," 沿途前进, 到达终点, 获得胜利!\n"]
 tellraw @s ["",{"text": " <完成制> ","color":"red","bold": true}, {"text":"根据完成跑酷的速度快慢决定排名。","color":"gray"}]
 tellraw @s ["",{"text": " <和平环境> ","color":"light_purple","bold": true}, {"text":"无法攻击其他玩家。","color":"gray"}]
