@@ -8,4 +8,4 @@ scoreboard objectives remove mini_heart
 scoreboard objectives add mini_heart dummy "生命"
 scoreboard objectives remove mini_heart_disp
 scoreboard objectives add mini_heart_disp dummy "生命"
-scoreboard objectives modify mini_heart rendertype hearts
+scoreboard objectives modify mini_heart_disp rendertype hearts

@@ -11,7 +11,7 @@ effect give @s night_vision 1000000 0 true
 effect give @s resistance 1000000 4 true
 
 # 传送玩家
-spreadplayers 1011.5 2011.5 7 7 false @s[tag=!watcher,tag=!rejoining]
+spreadplayers 1011.5 2011.5 4 4 false @s[tag=!watcher,tag=!rejoining]
 # schedule: tp @a ~ ~-3 ~
 
 # 两秒后才开始 TNT 掉落
