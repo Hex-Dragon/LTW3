@@ -8,6 +8,9 @@ effect give @s saturation 1000000 0 true
 gamerule naturalRegeneration true
 effect give @s blindness 1000000 0 true
 
+# 音效
+execute at @s run function lib:sounds/levelup
+
 # 自由旁观
 gamemode spectator @s
 spectate

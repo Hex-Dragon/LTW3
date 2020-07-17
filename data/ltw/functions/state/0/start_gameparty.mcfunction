@@ -16,6 +16,5 @@ scoreboard players operation @a game_id = $ game_id
 clear @a[tag=!watcher]
 
 # 开始小游戏
-execute as @a at @s run function lib:sounds/levelup
 function lib:sounds/music/stop
 function ltw:state/3/state_enter

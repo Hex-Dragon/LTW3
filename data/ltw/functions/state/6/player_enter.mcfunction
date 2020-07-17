@@ -14,6 +14,7 @@ effect give @s night_vision 1000000 0 true
 
 # 显示小游戏结果
 function mini:main/show_result
+execute at @s run function lib:sounds/levelup
 
 # 自由旁观
 gamemode spectator

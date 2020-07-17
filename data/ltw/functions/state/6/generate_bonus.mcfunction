@@ -1,5 +1,9 @@
 # 生成奖励物品
+
+# 清理残余实体
 kill @e[type=item]
+kill @e[type=arrow]
+kill @e[type=trident]
 
 execute store result score $t_bonus_count mem if entity @a[tag=!watcher]
 # scoreboard players add $t_bonus_count mem 1
