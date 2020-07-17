@@ -29,6 +29,7 @@ scoreboard objectives remove health
 scoreboard objectives add health health "生命值"
 scoreboard objectives remove health_disp
 scoreboard objectives add health_disp dummy "生命值"
+scoreboard objectives modify health_disp rendertype hearts
 scoreboard objectives remove death
 scoreboard objectives add death deathCount "死亡触发"
 scoreboard objectives remove mem

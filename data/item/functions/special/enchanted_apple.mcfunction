@@ -18,5 +18,3 @@ execute unless score @s mini_heart matches 1.. run tellraw @a ["",{"text": ">> "
 # 去除buff
 execute run tag @s add consume_apple
 schedule function item:special/clear_effect 1t replace
-
-# TODO : [LTCat] 让 list 显示生命
