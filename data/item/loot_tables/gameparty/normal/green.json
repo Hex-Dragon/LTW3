@@ -2,7 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 17,
+    "weight": 16,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -17,7 +17,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 9,
+    "weight": 7,
     "name": "minecraft:gold_ingot",
     "functions": [
         {
@@ -56,17 +56,6 @@
         {
             "function": "minecraft:set_nbt",
             "tag": "{\"item_name\":\"{\\\"text\\\":\\\"末影珍珠\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"末影珍珠\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 3,
-    "name": "minecraft:splash_potion",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"缓慢 V (0:10)\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":2,\"Amplifier\":4,\"Duration\":200}],\"CustomPotionColor\":5860223,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型迟缓药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
         }
     ]
 },
