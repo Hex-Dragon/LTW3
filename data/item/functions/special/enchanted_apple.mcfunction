@@ -16,3 +16,5 @@ execute if score $state mem matches 5 if score $mini_type mem matches 5 run scor
 # 去除buff
 execute if score $state mem matches 5 run tag @s add consume_apple
 schedule function item:special/clear_effect 1t replace
+
+# TODO : [LTCat] 让 list 显示生命
