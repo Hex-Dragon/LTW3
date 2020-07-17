@@ -14,7 +14,7 @@
 {
     "type": "minecraft:item",
     "weight": 3,
-    "name": "minecraft:filled_map",
+    "name": "minecraft:paper",
     "functions": [
         {
             "function": "minecraft:set_nbt",
@@ -25,7 +25,7 @@
 {
     "type": "minecraft:item",
     "weight": 1,
-    "name": "minecraft:filled_map",
+    "name": "minecraft:paper",
     "functions": [
         {
             "function": "minecraft:set_nbt",
