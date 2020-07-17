@@ -29,3 +29,5 @@ execute if score #bonus_add_score mem matches 200 run scoreboard players remove 
 execute if score #bonus_add_score mem matches 200 if entity @s[tag=highest] run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 试图偷取自己的分数……"]
 execute if score #bonus_add_score mem matches 200 if entity @s[tag=!highest] run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"selector": "@a[tag=highest,limit=1,sort=furthest]","color":"red"}," 被偷取了 ",{"text": "1 分","color":"red"},", 当前共有 ",{"score": {"name": "@a[tag=highest,limit=1,sort=furthest]","objective": "total_score"}}, " 分"]
 execute if score #bonus_add_score mem matches 200 if entity @s[tag=!highest] run tellraw @a ["",{"text": ">> ","color":"green","bold": true},{"selector": "@s","color":"green"}," 偷取了 ",{"text": "1 分","color":"green"},", 当前共有 ",{"score": {"name": "@s","objective": "total_score"}}, " 分"]
+
+# FIXME : [LTCat] 偷分提示存在 Bug
