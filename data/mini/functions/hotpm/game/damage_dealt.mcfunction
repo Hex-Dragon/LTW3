@@ -1,6 +1,4 @@
 # 如果是土豆持有者在热土豆游戏中打到人，才执行下一步
-say 有人打人！
-
 execute if entity @s[tag=pm_holding] at @s run function mini:hotpm/game/damage_dealt2
 
 # 结束伤害判断

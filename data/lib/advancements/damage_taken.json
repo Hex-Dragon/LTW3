@@ -12,6 +12,6 @@
         }
     },
     "rewards": {
-        "function": "lib:damage_indicator/game/damage_taken"
+        "function": "lib:damage_indicator/damage_taken"
     }
 }
