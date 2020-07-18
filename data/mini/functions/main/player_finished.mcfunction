@@ -12,8 +12,7 @@ execute as @a at @s run function lib:sounds/error
 scoreboard players add @a[tag=!mini_running] mini_score 1
 
 # 进入旁观
-gamemode spectator @s
-# spectate @r[tag=mini_running]
+gamemode spectator
 
 # 检查游戏是否结束
 function mini:main/check_game_end

@@ -11,11 +11,11 @@ effect give @s night_vision 1000000 0 true
 effect give @s resistance 1000000 4 true
 
 # 传送玩家
-tp @s[tag=!watcher,tag=!rejoining] 1062 16.5 4012
+tp @s[tag=!watcher,tag=!rejoining,tag=!debug] 1062 16.5 4012
 
 # 调整模式
-gamemode spectator @s
-gamemode adventure @s[tag=!watcher,tag=!rejoining]
+gamemode spectator @s[tag=!debug]
+gamemode adventure @s[tag=!watcher,tag=!rejoining,tag=!debug]
 
 # 设置玩家生命数量
 scoreboard players set @s[tag=!watcher,tag=!rejoining] mini_heart 3

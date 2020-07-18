@@ -21,7 +21,7 @@ effect give @s night_vision 1000000 0 true
 effect give @s resistance 1000000 4 true
 
 # 冒险模式
-gamemode adventure
+gamemode adventure @s[tag=!debug]
 
 # 传送玩家
-tp @s 10 16 10
+tp @s[tag=!debug] 10 16 10

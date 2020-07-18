@@ -10,7 +10,7 @@ gamerule naturalRegeneration true
 effect give @s resistance 1000000 4 true
 
 # 传送玩家
-tp @s 24.5 11.0 1967.5 112.5 25
+tp @s[tag=!debug] 24.5 11.0 1967.5 112.5 25
 execute at @s run function lib:sounds/travel
 
 # 清除 Tag
@@ -25,5 +25,5 @@ tag @s[tag=rejoining] remove mini_rank4
 tag @s remove selecting
 
 # 自由旁观
-gamemode spectator
+gamemode spectator @s[tag=!debug]
 spectate

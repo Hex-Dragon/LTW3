@@ -12,7 +12,7 @@ execute if score $countdown mem matches ..105 run effect give @e[tag=mini_mob,li
 execute if score $countdown mem matches 131..170 run effect give @e[tag=mini_mob,limit=3,sort=random] slowness 2 0
 
 # 显示提示
-execute if score $countdown mem matches 150 run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"text": "补给物资已经送达!","color":"aqua"}]
+execute if score $countdown mem matches 155 run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"text": "补给物资已经送达!","color":"aqua"}]
 execute if score $countdown mem matches 130 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"text": "猪灵开始摆脱缓慢的束缚了!","color":"red"}]
 execute if score $countdown mem matches 105 run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"text": "补给物资已经送达!","color":"aqua"}]
 execute if score $countdown mem matches 80 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"text": "猪灵开始取回他们的装备了!","color":"red"}]

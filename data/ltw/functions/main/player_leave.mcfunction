@@ -9,7 +9,6 @@ execute if score $state mem matches 1.. if score $game_type mem matches 1 if sco
 # 如果携带热土豆的玩家掉线，则重新生成土豆
 execute if score $state mem matches 5 if score $mini_type mem matches 3 run function mini:hotpm/player_leave
 
-# TODO : <! 紧急> [LTCat/HIM] 添加debug的tag，使debug人员不受游戏影响
 # FIXME : [010/HIM] 奖励选择房和跑酷图还有结构方块的线
 # FIXME : <! 紧急> 跑酷中途掉线导致名次判断错误
 # FIXME : <! 紧急> [010] 物品依然可能给不到人

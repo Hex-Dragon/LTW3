@@ -11,11 +11,11 @@ gamerule naturalRegeneration false
 effect give @s night_vision 1000000 0 true
 
 # 传送玩家
-tp @s 1010.5 12 5013.0
+tp @s[tag=!debug] 1010.5 12 5013.0
 
 # 调整模式
-gamemode spectator @s
-gamemode adventure @s[tag=!watcher,tag=!rejoining]
+gamemode spectator @s[tag=!debug]
+gamemode adventure @s[tag=!watcher,tag=!rejoining,tag=!debug]
 
 # 重新加入处理
 execute if entity @s[tag=rejoining] run function mini:zombie/player_failed

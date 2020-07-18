@@ -17,5 +17,5 @@ function mini:main/show_result
 execute at @s run function lib:sounds/levelup
 
 # 自由旁观
-gamemode spectator
+gamemode spectator @s[tag=!debug]
 spectate

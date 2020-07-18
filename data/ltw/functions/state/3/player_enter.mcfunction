@@ -12,5 +12,5 @@ effect give @s blindness 1000000 0 true
 execute at @s run function lib:sounds/levelup
 
 # 自由旁观
-gamemode spectator @s
+gamemode spectator @s[tag=!debug]
 spectate
