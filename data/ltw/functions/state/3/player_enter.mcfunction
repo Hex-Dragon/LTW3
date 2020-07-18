@@ -6,7 +6,7 @@ title @s actionbar ""
 effect clear @s
 effect give @s saturation 1000000 0 true
 gamerule naturalRegeneration true
-effect give @s blindness 1000000 0 true
+effect give @s[tag=!debug] blindness 1000000 0 true
 
 # 音效
 execute at @s run function lib:sounds/levelup
