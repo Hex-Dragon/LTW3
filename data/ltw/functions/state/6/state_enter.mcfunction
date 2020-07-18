@@ -16,6 +16,7 @@ forceload add 0 1900 50 2000
 # 生成地图
 setblock 0 10 2000 minecraft:structure_block{mode:"LOAD",name:"ltw:select"}
 setblock 0 11 2000 minecraft:redstone_block
+setblock 0 10 2000 air
 
 # 让地图先加载好
 schedule function ltw:state/6/generate_bonus 1t
