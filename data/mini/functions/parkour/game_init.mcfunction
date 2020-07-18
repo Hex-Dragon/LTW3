@@ -8,6 +8,8 @@ setblock 1000 4 1000 minecraft:structure_block[mode=load]{metadata:"",mirror:"NO
 setblock 1000 5 1000 minecraft:redstone_block
 setblock 1000 4 1032 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"00ll00",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:32,posZ:0,integrity:1.0f,showair:0b,name:"mini:parkour1",sizeY:32,sizeZ:32,showboundingbox:0b}
 setblock 1000 5 1032 minecraft:redstone_block
+setblock 1000 4 1000 air
+setblock 1000 4 1032 air
 
 # 清理残余实体
 kill @e[type=arrow]
