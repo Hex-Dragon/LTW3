@@ -11,6 +11,7 @@ execute if score $state mem matches 7 run function ltw:state/7/tick20
 
 # 全局倒计时
 execute if score $countdown mem matches 1.. run scoreboard players remove $countdown mem 1
+scoreboard players remove @e[scores={countdown=1..}] countdown 1
 
 # 掐死原版 BGM
 stopsound @a music music.game
