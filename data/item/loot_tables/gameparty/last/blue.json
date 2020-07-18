@@ -18,7 +18,7 @@
 {
     "type": "minecraft:item",
     "weight": 1,
-    "name": "minecraft:snowball",
+    "name": "minecraft:emerald",
     "functions": [
         {
             "function": "minecraft:set_nbt",

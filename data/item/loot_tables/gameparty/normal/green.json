@@ -2,7 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 16,
+    "weight": 14,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -17,7 +17,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 7,
+    "weight": 6,
     "name": "minecraft:gold_ingot",
     "functions": [
         {
@@ -45,17 +45,6 @@
         {
             "function": "minecraft:set_nbt",
             "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<击退 II> 铁剑\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Enchantments\":[{\"id\":\"knockback\",\"lvl\":2}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<击退 II> 铁剑\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 4,
-    "name": "minecraft:ender_pearl",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"末影珍珠\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"末影珍珠\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
         }
     ]
 },
