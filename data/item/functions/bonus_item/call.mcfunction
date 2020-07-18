@@ -22,4 +22,4 @@ execute if data block 0 0 0 RecordItem.tag.bonus_give_items[0] run function item
 
 # 执行特定函数
 tag @s add pickup_player
-schedule function item:bonus_item/pickup 1t replace
+schedule function item:bonus_item/pickup 2t replace
