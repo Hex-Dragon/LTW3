@@ -11,5 +11,3 @@ function lib:random
 execute if score $random mem matches 1..2 run replaceitem entity @s weapon.mainhand minecraft:crossbow
 execute if score $random mem matches 3..4 run replaceitem entity @s weapon.mainhand minecraft:golden_sword
 execute if score $random mem matches 2..3 run replaceitem entity @s armor.legs minecraft:golden_leggings
-
-# TODO : [HIM] 被猪灵打了之后给予 2 秒无敌和速度
