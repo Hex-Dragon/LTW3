@@ -27,5 +27,5 @@ scoreboard players set $parkour_door mem 0
 # 伤害管理
 scoreboard players set $remove_resistance mem 0
 team modify player friendlyFire false
-team modify player collisionRule always
+team modify player collisionRule never
 gamerule fallDamage false
