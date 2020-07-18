@@ -118,7 +118,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"失明 (0:10)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":15,\"Amplifier\":0,\"Duration\":200}],\"CustomPotionColor\":5860223,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型迟缓药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"失明 (0:15)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":15,\"Amplifier\":0,\"Duration\":300}],\"CustomPotionColor\":1644828,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型迟缓药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
         }
     ]
 },
