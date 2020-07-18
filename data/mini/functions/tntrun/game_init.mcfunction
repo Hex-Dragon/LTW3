@@ -14,7 +14,7 @@ kill @e[tag=tntrun_block]
 kill @e[type=trident]
 
 # 生成奖励
-execute positioned 1011.5 15.5 2011.5 run function item:bonus_item/gameparty/normal/white
+execute positioned 1011.5 15.5 2011.5 run function item:bonus_item/gameparty/auto/white
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 0

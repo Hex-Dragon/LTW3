@@ -16,8 +16,8 @@ kill @e[type=falling_block,tag=parkour_block]
 kill @e[type=trident]
 
 # 生成奖励物品
-execute positioned 1004.5 18.5 1043.5 run function item:bonus_item/gameparty/normal/white
-execute positioned 1024.5 30.5 1038.5 run function item:bonus_item/gameparty/normal/blue
+execute positioned 1004.5 18.5 1043.5 run function item:bonus_item/gameparty/auto/white
+execute positioned 1024.5 30.5 1038.5 run function item:bonus_item/gameparty/auto/blue
 
 # 初始化开门变量
 scoreboard players set $parkour_door mem 0

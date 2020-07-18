@@ -27,7 +27,7 @@ execute if score $random mem matches 21..30 if score $countdown mem matches ..5 
 execute if score $random mem matches 21..30 if score $countdown mem matches ..5 as @e[tag=empty_pig,limit=1,sort=random] run function mini:zombie/game/give_equip
 
 # 生成奖励
-execute if score $random mem matches ..50 if score $countdown mem matches 155 run execute positioned 1015.5 11.0 5022.0 run function item:bonus_item/gameparty/normal/white
-execute if score $random mem matches 51.. if score $countdown mem matches 155 run execute positioned 1005.5 11.0 5004.0 run function item:bonus_item/gameparty/normal/white
-execute if score $random mem matches ..50 if score $countdown mem matches 105 run execute positioned 1015.5 11.0 5022.0 run function item:bonus_item/gameparty/normal/white
-execute if score $random mem matches 51.. if score $countdown mem matches 105 run execute positioned 1005.5 11.0 5004.0 run function item:bonus_item/gameparty/normal/white
+execute if score $random mem matches ..50 if score $countdown mem matches 155 run execute positioned 1015.5 11.0 5022.0 run function item:bonus_item/gameparty/auto/white
+execute if score $random mem matches 51.. if score $countdown mem matches 155 run execute positioned 1005.5 11.0 5004.0 run function item:bonus_item/gameparty/auto/white
+execute if score $random mem matches ..50 if score $countdown mem matches 105 run execute positioned 1015.5 11.0 5022.0 run function item:bonus_item/gameparty/auto/white
+execute if score $random mem matches 51.. if score $countdown mem matches 105 run execute positioned 1005.5 11.0 5004.0 run function item:bonus_item/gameparty/auto/white

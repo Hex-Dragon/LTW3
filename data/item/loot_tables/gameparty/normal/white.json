@@ -107,7 +107,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"0:10 飘浮\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":25,\"Amplifier\":0,\"Duration\":200}],\"CustomPotionColor\":11458519,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型浮空药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"飘浮 (0:10)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":25,\"Amplifier\":0,\"Duration\":200}],\"CustomPotionColor\":11458519,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型浮空药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
         }
     ]
 },
@@ -118,7 +118,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"缓慢 V (0:15)\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":2,\"Amplifier\":4,\"Duration\":300}],\"CustomPotionColor\":5860223,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型迟缓药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"失明 (0:10)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":15,\"Amplifier\":0,\"Duration\":200}],\"CustomPotionColor\":5860223,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型迟缓药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
         }
     ]
 },
