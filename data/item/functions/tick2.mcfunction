@@ -12,6 +12,3 @@ execute if score $state mem matches 1.. as @a unless data entity @s Inventory[{S
 # 清除临时物品
 clear @a red_dye{LockTempItem:1b}
 kill @e[type=item,tag=LockTempItem,nbt={Item:{tag:{LockTempItem:1b}}}]
-
-# 检测容器
-function item:container/check/call
