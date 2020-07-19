@@ -2,7 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 14,
+    "weight": 13,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -17,7 +17,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 6,
+    "weight": 7,
     "name": "minecraft:gold_ingot",
     "functions": [
         {
@@ -50,7 +50,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 3,
+    "weight": 4,
     "name": "minecraft:splash_potion",
     "functions": [
         {

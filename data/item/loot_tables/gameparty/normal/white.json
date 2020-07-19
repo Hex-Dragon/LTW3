@@ -2,7 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 13,
+    "weight": 72,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -13,7 +13,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 6,
+    "weight": 19,
     "name": "minecraft:paper",
     "functions": [
         {
@@ -24,7 +24,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 5,
     "name": "minecraft:paper",
     "functions": [
         {
@@ -35,18 +35,18 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 2,
-    "name": "minecraft:trident",
+    "weight": 8,
+    "name": "minecraft:splash_potion",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"三叉戟\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"三叉戟\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"速度 (0:30)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":1,\"Amplifier\":0,\"Duration\":600}],\"CustomPotionColor\":8039610,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型速度药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
         }
     ]
 },
 {
     "type": "minecraft:item",
-    "weight": 2,
+    "weight": 8,
     "name": "minecraft:iron_axe",
     "functions": [
         {
@@ -57,7 +57,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 2,
+    "weight": 8,
     "name": "minecraft:wooden_axe",
     "functions": [
         {
@@ -72,7 +72,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 4,
+    "weight": 8,
     "name": "minecraft:fishing_rod",
     "functions": [
         {
@@ -87,7 +87,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 3,
+    "weight": 12,
     "name": "minecraft:shield",
     "functions": [
         {
@@ -102,7 +102,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 4,
+    "weight": 8,
     "name": "minecraft:splash_potion",
     "functions": [
         {
@@ -113,7 +113,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 4,
+    "weight": 8,
     "name": "minecraft:splash_potion",
     "functions": [
         {
@@ -124,7 +124,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 3,
+    "weight": 8,
     "name": "minecraft:crossbow",
     "functions": [
         {
@@ -135,7 +135,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 3,
+    "weight": 8,
     "name": "minecraft:bow",
     "functions": [
         {
@@ -146,7 +146,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 3,
+    "weight": 8,
     "name": "minecraft:arrow",
     "functions": [
         {
@@ -161,7 +161,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 3,
     "name": "minecraft:netherite_helmet",
     "functions": [
         {
@@ -172,7 +172,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 3,
     "name": "minecraft:netherite_chestplate",
     "functions": [
         {
@@ -183,7 +183,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 3,
     "name": "minecraft:netherite_leggings",
     "functions": [
         {
@@ -194,7 +194,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 3,
     "name": "minecraft:netherite_boots",
     "functions": [
         {
