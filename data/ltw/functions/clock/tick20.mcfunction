@@ -2,6 +2,7 @@
 schedule function ltw:clock/tick20 20t replace
 
 # 调用其他模块
+function item:tick20
 execute if score $state mem matches 0 run function ltw:state/0/tick20
 execute if score $state mem matches 3 run function ltw:state/3/tick20
 execute if score $state mem matches 4 run function ltw:state/4/tick20
