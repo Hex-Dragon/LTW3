@@ -7,5 +7,4 @@ scoreboard players operation #count mem += #count mem
 scoreboard players operation #count mem += #count mem
 execute as @e[tag=phantom] run scoreboard players remove #count mem 1
 
-say try generate
 execute if score #count mem matches 1.. run function mini:phantom/game/summon
