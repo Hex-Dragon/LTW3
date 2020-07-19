@@ -3,6 +3,9 @@ forceload add 1000 6000 1064 6064
 
 scoreboard players set $finish_mode mem 0
 
+# 调整时间
+time set 21000t
+
 # 生成地图
 setblock 1000 4 6000 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"LTCat",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:32,posZ:0,integrity:1.0f,showair:0b,name:"mini:hy00",sizeY:32,sizeZ:32,showboundingbox:0b}
 setblock 1000 5 6000 redstone_block
