@@ -1,5 +1,6 @@
 # 初始化
 function mini:tntrun/init
+function mini:phantom/init
 
 # 计分板初始化
 scoreboard objectives remove mini_score
