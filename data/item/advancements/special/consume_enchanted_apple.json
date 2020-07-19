@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "hurt": {
+        "consume_ega": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {

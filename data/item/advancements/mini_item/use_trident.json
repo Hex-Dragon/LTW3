@@ -1,15 +1,15 @@
 {
     "criteria": {
-        "consume_ga": {
+        "use_trident": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:golden_apple"
+                    "item": "minecraft:trident"
                 }
             }
         }
     },
     "rewards": {
-        "function": "item:special/golden_apple"
+        "function": "item:use_item/trident"
     }
 }
