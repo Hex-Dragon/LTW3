@@ -5,3 +5,5 @@ tellraw @s ["",{"text": " <完成制> ","color":"red","bold": true}, {"text":"�
 tellraw @s ["",{"text": " <和平环境> ","color":"light_purple","bold": true}, {"text":"无法攻击其他玩家。","color":"gray"}]
 tellraw @s ["",{"text": " <额外道具> ","color":"aqua","bold": true}, {"text":"小游戏地图中存在 1 个蓝色道具与 1 个白色道具。","color":"gray"}]
 tellraw @s ""
+
+effect give @s night_vision 1000000 0 true

@@ -6,3 +6,5 @@ tellraw @s ["",{"text": " <PVE> ","color":"light_purple","bold": true}, {"text":
 tellraw @s ["",{"text": " <额外道具> ","color":"aqua","bold": true}, {"text":"将会随着时间推移生成 2 个白色道具。","color":"gray"}]
 tellraw @s ["",{"text": " <原型> ","color":"gold","bold": true}, {"text":"此游戏目前仅用于玩法测试, 尚未进行修缮。","color":"gray"}]
 tellraw @s ""
+
+effect give @s night_vision 1000000 0 true

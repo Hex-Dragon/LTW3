@@ -1,2 +1,2 @@
 gamerule doDaylightCycle true
-scoreboard players set $countdown mem 100
+scoreboard players set $countdown mem 105
