@@ -17,7 +17,7 @@ tag @s remove pm_damage_taken
 
 # 传送玩家
 spreadplayers 1023 3021 5 5 false @s[tag=!watcher,tag=!rejoining,tag=!debug]
-execute if entity @s[tag=!watcher,tag=!rejoining,tag=!debug] run schedule function mini:hotpm/player_enter2 1t replace
+schedule function mini:hotpm/player_enter2 1t replace
 
 # 调整模式
 gamemode spectator @s[tag=!debug]
