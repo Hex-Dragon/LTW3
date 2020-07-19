@@ -1,11 +1,13 @@
 {
     "criteria": {
         "use_trident": {
-            "trigger": "minecraft:consume_item",
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "item": {
-                    "item": "minecraft:trident"
-                }
+                "items": [
+                    {
+                        "item": "minecraft:trident"
+                    }
+                ]   
             }
         }
     },
