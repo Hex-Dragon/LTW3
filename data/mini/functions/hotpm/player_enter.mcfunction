@@ -30,5 +30,3 @@ function mini:main/player_max_health
 
 # 重新加入处理
 execute if entity @s[tag=rejoining] run function mini:main/player_failed
-
-# FIXME : 末影珍珠可以把玩家卡墙里

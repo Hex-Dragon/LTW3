@@ -9,6 +9,8 @@ execute if score $state mem matches 1.. if score $game_type mem matches 1 if sco
 # 如果携带热土豆的玩家掉线，则重新生成土豆
 execute if score $state mem matches 5 if score $mini_type mem matches 3 run function mini:hotpm/player_leave
 
-# TODO : [010] 恢复萝卜头的白名单功能，只需要私聊用户名即可进服，不需要验证码
-# FIXME : <! 紧急> [010] 物品依然可能给不到人 [尝试改为过2t切模式]
 # FIXME : [010/HIM] 关闭原版进度，它会给玩家经验值什么的很烦
+# TODO : [010] 如果熔炉内有下界之星（魔晶石），则显示提示并自爆
+# TODO : [010/HIM] 为幻翼小游戏地图添加基础的照明，因为这个游戏里玩家莫得夜视
+# TODO : [LTCat] 制作幻翼小游戏的原型
+# TODO : [010/HIM] 在主阶段（state 2）玩家背包里每有一个下界之星（魔晶石），给予 -10% 减速
