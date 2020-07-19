@@ -1,5 +1,5 @@
 
-execute if score $countdown mem matches ..10 run function mini:phantom/game/try_summon
+execute if score $countdown mem matches 11.. run function mini:phantom/game/try_summon
 
 # 显示倒计时
 execute if score $countdown mem matches ..10 run title @a times 3 14 2
