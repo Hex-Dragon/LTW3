@@ -11,3 +11,4 @@ execute if score $state mem matches 7 run function ltw:state/7/tick2
 
 # 全局倒计时
 execute if score $countdown_fast mem matches 1.. run scoreboard players remove $countdown_fast mem 1
+scoreboard players remove @e[scores={countdown_fast=1..}] countdown_fast 1
