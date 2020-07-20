@@ -21,4 +21,4 @@ gamemode adventure @s[tag=!watcher,tag=!rejoining,tag=!debug]
 execute if entity @s[tag=rejoining] run function mini:slime/player_failed
 
 # 给予物品
-replaceitem entity @s hotbar.8 stick{GameItem:1b,Enchantments:[{id:"knockback",lvl:1}],Unbreakable:1b,display:{Name:'{"text":"击退棒","italic":false}'}} 1
+replaceitem entity @s hotbar.8 stick{game_item:1b,Enchantments:[{id:"knockback",lvl:1}],Unbreakable:1b,display:{Name:'{"text":"击退棒","italic":false}'}} 1

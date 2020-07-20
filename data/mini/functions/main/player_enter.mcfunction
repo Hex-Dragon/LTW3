@@ -7,6 +7,8 @@ scoreboard players set @s[tag=rejoining] mini_score -1000
 scoreboard players set @s[tag=watcher] mini_score -1000000
 function mini:main/update_player_count
 
+clear @s #mini:game_item{game_item:1b}
+
 execute if score $mini_type mem matches 1 run function mini:parkour/player_enter
 execute if score $mini_type mem matches 2 run function mini:tntrun/player_enter
 execute if score $mini_type mem matches 3 run function mini:hotpm/player_enter

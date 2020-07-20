@@ -12,3 +12,5 @@ scoreboard players operation @s temp /= #count_9 mem
 scoreboard players operation @s temp = @s gold
 scoreboard players operation @s temp %= #count_9 mem
 # 给予金粒
+
+# TODO : 给予指定数量的物品
