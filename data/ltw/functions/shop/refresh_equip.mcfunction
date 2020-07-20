@@ -4,6 +4,17 @@ clear @s arrow
 give @s[scores={shop_arrow=1}] arrow 2
 give @s[scores={shop_arrow=2}] tipped_arrow{Potion:"minecraft:slowness"} 3
 
+clear @s wooden_hoe
+clear @s stone_hoe
+give @s[scores={shop_weapon=1}] wooden_hoe
+give @s[scores={shop_weapon=2}] stone_hoe
+
+clear @s potion
+give @s[scores={shop_potion=1}] potion
+
+clear @s golden_apple
+give @s[scores={shop_potion=1}] golden_apple
+
 replaceitem entity @s armor.head air
 replaceitem entity @s[scores={shop_armor=1}] armor.head leather_helmet
 replaceitem entity @s armor.chest air
