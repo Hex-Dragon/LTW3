@@ -3,9 +3,6 @@ function lib:sounds/music/hub
 title @s clear
 title @s actionbar ""
 
-# 清理物品
-clear @s[tag=!debug]
-
 # 重置玩家血量上限
 attribute @s generic.max_health base set 20
 
@@ -25,3 +22,7 @@ gamemode adventure @s[tag=!debug]
 
 # 传送玩家
 tp @s[tag=!debug] 10 16 10
+
+# 刷新物品
+clear @s[tag=!debug]
+function ltw:state/0/shop/refresh_gold

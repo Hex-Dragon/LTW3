@@ -17,10 +17,42 @@ scoreboard players set #score_max mem -2147483648
 execute as @a[tag=!total_rank1,tag=!total_rank2] run function ltw:main/get_max_score
 execute as @a[tag=!total_rank1,tag=!total_rank2] unless entity @a[tag=total_rank3] if score @s total_score = #score_max mem run tag @s add total_rank3
 
+# 计算金粒奖励
+scoreboard players set #total_gold mem 0
+execute as @a[tag=!watcher] run scoreboard players add #total_gold mem 800
+# 无名次
+execute as @a[tag=!total_rank1,tag=!total_rank2,tag=!total_rank3,tag=!watcher] run scoreboard players remove #total_gold mem 100
+# 计算总权重与单份奖励
+scoreboard players set #total_weight mem 0
+execute as @a[tag=total_rank1] run scoreboard players add #total_weight mem 3
+execute as @a[tag=total_rank2] run scoreboard players add #total_weight mem 2
+execute as @a[tag=total_rank3] run scoreboard players add #total_weight mem 1
+scoreboard players operation #total_gold mem /= #total_weight mem
+# 计算名次奖励
+scoreboard players set #rank1_gold mem 3
+scoreboard players operation #rank1_gold mem *= #total_gold mem
+scoreboard players operation #rank1_gold mem /= #const_100 mem
+scoreboard players set #rank2_gold mem 2
+scoreboard players operation #rank2_gold mem *= #total_gold mem
+scoreboard players operation #rank2_gold mem /= #const_100 mem
+scoreboard players set #rank3_gold mem 1
+scoreboard players operation #rank3_gold mem *= #total_gold mem
+scoreboard players operation #rank3_gold mem /= #const_100 mem
+
 # 显示排名
-execute if entity @a[tag=total_rank2] if entity @a[tag=total_rank3] run tellraw @a ["",{"text":"\n\n----- 游戏结束 -----\n\n","color":"gold","bold":true},{"text": "第一名 - ","color":"green"},{"selector": "@a[tag=total_rank1]","color":"white"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=total_rank1]","objective": "total_score"},"color":"gray"},{"text":")","color":"gray"},{"text": "\n第二名 - ","color":"green"},{"selector": "@a[tag=total_rank2]","color":"white"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=total_rank2]","objective": "total_score"},"color":"gray"},{"text":")","color":"gray"},{"text": "\n第三名 - ","color":"green"},{"selector": "@a[tag=total_rank3]","color":"white"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=total_rank3]","objective": "total_score"},"color":"gray"},{"text":")","color":"gray"},"\n\n"]
-execute if entity @a[tag=total_rank2] unless entity @a[tag=total_rank3] run tellraw @a ["",{"text":"\n\n\n----- 游戏结束 -----\n\n","color":"gold","bold":true},{"text": "第一名 - ","color":"green"},{"selector": "@a[tag=total_rank1]","color":"white"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=total_rank1]","objective": "total_score"},"color":"gray"},{"text":")","color":"gray"},{"text": "\n第二名 - ","color":"green"},{"selector": "@a[tag=total_rank2]","color":"white"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=total_rank2]","objective": "total_score"},"color":"gray"},{"text":")","color":"gray"},"\n\n\n"]
-execute unless entity @a[tag=total_rank2] run tellraw @a ["",{"text":"\n\n\n\n----- 游戏结束 -----\n\n","color":"gold","bold":true},{"text": "第一名 - ","color":"green"},{"selector": "@a[tag=total_rank1]","color":"white"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=total_rank1]","objective": "total_score"},"color":"gray"},{"text":")","color":"gray"},"\n\n\n"]
+execute if entity @a[tag=total_rank2] if entity @a[tag=total_rank3] run tellraw @a ["",{"text":"\n\n----- 游戏结束 -----\n\n","color":"green","bold":true},{"text": "第一名 - ","color":"green"},{"selector": "@a[tag=total_rank1]","color":"white"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=total_rank1]","objective": "total_score"},"color":"gray"},{"text":")","color":"gray"},{"text": "\n第二名 - ","color":"green"},{"selector": "@a[tag=total_rank2]","color":"white"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=total_rank2]","objective": "total_score"},"color":"gray"},{"text":")","color":"gray"},{"text": "\n第三名 - ","color":"green"},{"selector": "@a[tag=total_rank3]","color":"white"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=total_rank3]","objective": "total_score"},"color":"gray"},{"text":")","color":"gray"},"\n\n"]
+execute if entity @a[tag=total_rank2] unless entity @a[tag=total_rank3] run tellraw @a ["",{"text":"\n\n\n----- 游戏结束 -----\n\n","color":"green","bold":true},{"text": "第一名 - ","color":"green"},{"selector": "@a[tag=total_rank1]","color":"white"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=total_rank1]","objective": "total_score"},"color":"gray"},{"text":")","color":"gray"},{"text": "\n第二名 - ","color":"green"},{"selector": "@a[tag=total_rank2]","color":"white"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=total_rank2]","objective": "total_score"},"color":"gray"},{"text":")","color":"gray"},"\n\n\n"]
+execute unless entity @a[tag=total_rank2] run tellraw @a ["",{"text":"\n\n\n\n----- 游戏结束 -----\n\n","color":"green","bold":true},{"text": "第一名 - ","color":"green"},{"selector": "@a[tag=total_rank1]","color":"white"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=total_rank1]","objective": "total_score"},"color":"gray"},{"text":")","color":"gray"},"\n\n\n"]
+
+# 给予金粒奖励
+execute as @a[tag=total_rank1] run scoreboard players operation @s gold += #rank1_gold mem
+tellraw @a[tag=total_rank1] ["",{"text": ">> ","color":"green","bold": true},"由于获得第一名, 你得到了 ",{"selector": "#rank1_gold","color":"green"},{"text": " 金粒","color":"green"}]
+execute as @a[tag=total_rank2] run scoreboard players operation @s gold += #rank2_gold mem
+tellraw @a[tag=total_rank2] ["",{"text": ">> ","color":"green","bold": true},"由于获得第二名, 你得到了 ",{"selector": "#rank2_gold","color":"green"},{"text": " 金粒","color":"green"}]
+execute as @a[tag=total_rank3] run scoreboard players operation @s gold += #rank3_gold mem
+tellraw @a[tag=total_rank3] ["",{"text": ">> ","color":"green","bold": true},"由于获得第三名, 你得到了 ",{"selector": "#rank3_gold","color":"green"},{"text": " 金粒","color":"green"}]
+scoreboard players add @a[tag=!total_rank1,tag=!total_rank2,tag=!total_rank3,tag=!watcher] gold 1
+tellraw @a[tag=!total_rank1,tag=!total_rank2,tag=!total_rank3,tag=!watcher] ["",{"text": ">> ","color":"aqua","bold": true},"由于没有获得名次, 你得到了 ",{"text": " 1 金粒","color":"aqua"}]
 
 # 返回主大厅
 schedule function ltw:state/0/state_enter 2t replace
