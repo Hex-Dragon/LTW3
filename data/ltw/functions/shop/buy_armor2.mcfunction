@@ -8,7 +8,7 @@ tellraw @s[scores={shop_armor=2..}] ["",{"text":">> ","color":"aqua","bold":true
 tellraw @s[scores={shop_armor=1,gold=..62}] ["",{"text":">> ","color":"red","bold":true},{"text":"你没有足够的金锭来购买这个物品!","color":"red"}]
 tellraw @s[scores={shop_armor=..0}] ["",{"text":">> ","color":"red","bold":true},{"text":"你需要先购买上一级的物品!","color":"red"}]
 
-tellraw @s[tag=canbuy] ["",{"text":">> ","color":"green","bold":true},{"text":"你升级到了 皮革裤子!","color":"green"}]
+tellraw @s[tag=canbuy] ["",{"text":">> ","color":"green","bold":true},"你升级到了 ",{"text":"皮革裤子","color":"green"},"!"]
 scoreboard players add @s[tag=canbuy] shop_armor 1
 scoreboard players remove @s[tag=canbuy] gold 63
 
@@ -16,4 +16,3 @@ execute as @s[tag=!canbuy] at @s run function lib:sounds/error
 execute as @s[tag=canbuy] at @s run function lib:sounds/levelup
 
 function ltw:shop/refresh_gold
-function ltw:shop/refresh_equip
