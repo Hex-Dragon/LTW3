@@ -18,3 +18,10 @@ scoreboard players set $remove_resistance mem 1
 team modify player friendlyFire false
 team modify player collisionRule always
 gamerule fallDamage false
+
+# 先召唤几只
+function mini:zombie/game/summon_empty
+function mini:zombie/game/summon_empty
+function mini:zombie/game/summon_empty
+function mini:zombie/game/summon_empty
+function mini:zombie/game/summon_empty

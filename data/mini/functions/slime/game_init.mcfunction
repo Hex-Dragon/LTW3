@@ -19,3 +19,6 @@ scoreboard players set $remove_resistance mem 1
 team modify player friendlyFire false
 team modify player collisionRule always
 gamerule fallDamage false
+
+# 第一只
+function mini:slime/game/summon

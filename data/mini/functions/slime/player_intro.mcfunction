@@ -1,5 +1,5 @@
 # 向单个玩家展示小游戏介绍
-tp @s[tag=!debug] 1062.34 27.11 7040.84 461.44 28.30
+tp @s[tag=!debug] 1008.54 7.69 7003.91 332.38 9.83
 tellraw @s ["",{"text":"\n >> 夺命足球 >>\n\n","color":"gold","bold":true}," 将史莱姆踢到其他人的脸上, 干掉他们!\n"]
 tellraw @s ["",{"text": " <死亡淘汰制> ","color":"red","bold": true}, {"text":"生命无法自然恢复, 被史莱姆杀死时即被淘汰。","color":"gray"}]
 tellraw @s ["",{"text": " <间接 PVP> ","color":"light_purple","bold": true}, {"text":"无法直接攻击他人, 但可以击退史莱姆撞击他人。","color":"gray"}]
