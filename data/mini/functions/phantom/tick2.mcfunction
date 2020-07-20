@@ -1,5 +1,5 @@
 # 使用三叉戟调用函数
-execute as @a[tag=mini_running] if score @s useTrident matches 1.. run function mini:phantom/game/use_trident
+execute as @a[tag=mini_running] if score @s use_trident matches 1.. run function mini:phantom/game/use_trident
 
 # 给予三叉戟
 execute as @a[tag=mini_running] unless data entity @s Inventory[{id:"minecraft:trident",tag:{GameItem:1b}}] unless score @s countdown_fast matches 1.. run function mini:phantom/game/give_trident

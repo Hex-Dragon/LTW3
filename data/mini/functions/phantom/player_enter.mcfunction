@@ -10,7 +10,8 @@ effect give @s instant_health 10 0 true
 gamerule naturalRegeneration false
 
 # 计分板重置
-scoreboard players reset @s useTrident
+scoreboard players reset @s kill_phantom
+scoreboard players reset @s use_trident
 scoreboard players reset @s countdown
 
 # 传送玩家
