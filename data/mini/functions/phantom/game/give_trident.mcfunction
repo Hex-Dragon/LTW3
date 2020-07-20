@@ -1,2 +1,2 @@
 clear @s trident{GameItem:1b}
-replaceitem entity @s hotbar.8 trident{GameItem:1b,Unbreakable:1b,Enchantments:[],display:{Name:'{"text":"叉鸟戟","color":"aqua","italic": false}',Lore:['{"text":"用来插幻翼再合适不过了！","color":"white","italic": false}']}} 1
+replaceitem entity @s hotbar.8 trident{GameItem:1b,Unbreakable:1b} 1
