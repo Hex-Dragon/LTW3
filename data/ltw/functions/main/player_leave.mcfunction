@@ -11,5 +11,3 @@ execute if score $state mem matches 5 if score $mini_type mem matches 3 run func
 
 # FIXME : [010/HIM] 关闭原版进度，它会给玩家经验值什么的很烦
 # TODO : [LTCat] 制作幻翼小游戏的原型
-# TODO : [010/HIM] 在主阶段（state 2）玩家背包里每有一个下界之星（魔晶石），给予 -10% 减速
-# TODO : [010/HIM] 倒腾主阶段地图
