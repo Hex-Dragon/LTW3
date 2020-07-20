@@ -11,7 +11,7 @@ gamerule naturalRegeneration false
 effect give @s night_vision 1000000 0 true
 
 # 传送玩家
-tp @s[tag=!debug] 1015.79 7.01 7009.40
+tp @s[tag=!debug] 1003.00 7.41 7003.04
 
 # 调整模式
 gamemode spectator @s[tag=!debug]
