@@ -1,5 +1,5 @@
-# 初始化幻翼地图
-forceload add 1000 6000 1064 6064
+# 初始化史莱姆地图
+forceload add 1000 7000 1064 7064
 
 scoreboard players set $finish_mode mem 0
 
