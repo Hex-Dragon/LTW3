@@ -25,7 +25,6 @@ forceload add 0 0
 setblock 0 0 0 jukebox
 
 # 记分板
-scoreboard objectives add gold dummy "金粒"
 scoreboard objectives remove temp
 scoreboard objectives add temp dummy
 scoreboard objectives remove countdown
@@ -50,6 +49,14 @@ scoreboard objectives add leave_game minecraft.custom:leave_game "离开游戏"
 scoreboard objectives remove game_id
 scoreboard objectives add game_id dummy "游戏编号"
 scoreboard players set $ game_id 0
+
+# 商店系统记分板
+scoreboard objectives add gold dummy "金粒"
+scoreboard objectives add shop_arrow dummy "箭升级"
+scoreboard objectives add shop_potion dummy "药水升级"
+scoreboard objectives add shop_apple dummy "苹果升级"
+scoreboard objectives add shop_armor dummy "护甲升级"
+scoreboard objectives add shop_weapon dummy "武器升级"
 
 # 常量与变量初始化
 scoreboard players set $c_mini_total mem 7
