@@ -20,15 +20,15 @@ setblock 1000 4 6032 air
 setblock 1032 4 6000 air
 setblock 1032 4 6032 air
 
-# 生成奖励物品
-execute positioned 1034.0 27.5 6058.5 run function item:bonus_item/gameparty/auto/white
-execute positioned 1035.0 28.5 6002.5 run function item:bonus_item/gameparty/auto/white
-
 # 清理残余实体
 kill @e[type=arrow]
 kill @e[type=item]
 tp @e[type=phantom] 1000 -100 6000
 kill @e[type=trident]
+
+# 生成奖励物品
+execute positioned 1034.0 27.5 6058.5 run function item:bonus_item/gameparty/auto/white
+execute positioned 1035.0 28.5 6002.5 run function item:bonus_item/gameparty/auto/white
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 1
