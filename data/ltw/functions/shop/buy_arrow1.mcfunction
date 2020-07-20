@@ -1,5 +1,6 @@
 # 箭 x2 (1 gi)
 
+execute unless entity @s[scores={shop_arrow=0..}] run scoreboard players set @s shop_arrow 0
 tag @s remove canbuy
 tag @s[scores={shop_arrow=..0,gold=9..}] add canbuy
 

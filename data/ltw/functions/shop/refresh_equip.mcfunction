@@ -2,3 +2,4 @@
 
 clear @s arrow
 give @s[scores={shop_arrow=1}] arrow 2
+give @s[scores={shop_arrow=2}] tipped_arrow{Potion:"minecraft:slowness"} 3
