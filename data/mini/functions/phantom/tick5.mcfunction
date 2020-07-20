@@ -1,5 +1,7 @@
 
 # 击杀音效与提示
+execute as @a run scoreboard players operation @s temp = @s kill_phantom
+execute as @a run scoreboard players operation @s temp -= @s kill_phantom2
 execute as @a run scoreboard players operation @s kill_phantom2 = @s kill_phantom
 execute as @a run scoreboard players operation @s kill_phantom2 %= #const_5 mem
 execute as @a[scores={temp=1..,kill_phantom2=1..}] run function lib:sounds/hit
