@@ -6,3 +6,5 @@ tellraw @s ["",{"text": " <间接 PVP> ","color":"light_purple","bold": true}, {
 tellraw @s ["",{"text": " <原型> ","color":"gold","bold": true}, {"text":"此游戏目前仅用于玩法测试, 尚未进行修缮。","color":"gray"}]
 tellraw @s ["",{"text": " <早期测试> ","color":"dark_red","bold": true}, {"text":"这是刚做出来的新游戏, 碰到什么见鬼问题都很正常!","color":"dark_red"}]
 tellraw @s ""
+
+effect give @s night_vision 1000000 0 true
