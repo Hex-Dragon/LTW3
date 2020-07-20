@@ -19,7 +19,7 @@ setblock 1032 5 6032 redstone_block
 # 清理残余实体
 kill @e[type=arrow]
 kill @e[type=item]
-kill @e[type=phantom]
+tp @e[type=phantom] 1000 -100 6000
 kill @e[type=trident]
 
 # 伤害管理

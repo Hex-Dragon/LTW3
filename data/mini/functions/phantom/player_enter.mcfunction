@@ -11,6 +11,7 @@ gamerule naturalRegeneration false
 
 # 计分板重置
 scoreboard players reset @s kill_phantom
+scoreboard players set @s[tag=!watcher,tag=!rejoining,tag=!debug] kill_phantom 0
 scoreboard players reset @s use_trident
 scoreboard players reset @s countdown
 
