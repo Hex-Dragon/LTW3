@@ -10,11 +10,11 @@ execute if score #bonus_add_score mem matches ..10 run tellraw @a ["",{"text": "
 scoreboard players set $random_max mem 1
 scoreboard players set $random_min mem 0
 function lib:random
-execute if score #bonus_add_score mem matches 100 if score $random mem matches 1 run scoreboard players operation @s total_score *= $c_2 mem
-execute if score #bonus_add_score mem matches 100 if score $random mem matches 1 run scoreboard players operation @s total_score_disp *= $c_2 mem
+execute if score #bonus_add_score mem matches 100 if score $random mem matches 1 run scoreboard players operation @s total_score *= #const_2 mem
+execute if score #bonus_add_score mem matches 100 if score $random mem matches 1 run scoreboard players operation @s total_score_disp *= #const_2 mem
 execute if score #bonus_add_score mem matches 100 if score $random mem matches 1 run tellraw @a ["",{"text": ">> ","color":"green","bold": true},{"selector": "@s","color":"green"}," 的硬币投出了正面, 得分加倍, 当前共有 ",{"score": {"name": "@s","objective": "total_score"},"color":"green"},{"text": " 分", "color":"green"}]
-execute if score #bonus_add_score mem matches 100 if score $random mem matches 0 run scoreboard players operation @s total_score /= $c_2 mem
-execute if score #bonus_add_score mem matches 100 if score $random mem matches 0 run scoreboard players operation @s total_score_disp /= $c_2 mem
+execute if score #bonus_add_score mem matches 100 if score $random mem matches 0 run scoreboard players operation @s total_score /= #const_2 mem
+execute if score #bonus_add_score mem matches 100 if score $random mem matches 0 run scoreboard players operation @s total_score_disp /= #const_2 mem
 execute if score #bonus_add_score mem matches 100 if score $random mem matches 0 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"selector": "@s","color":"red"}," 的硬币投出了反面, 得分减半, 当前共有 ",{"score": {"name": "@s","objective": "total_score"},"color":"red"},{"text": " 分", "color":"red"}]
 
 # 200：偷分

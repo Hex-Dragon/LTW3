@@ -5,7 +5,7 @@ scoreboard players set $random_min mem -49
 scoreboard players set $random_max mem 50
 function lib:random
 scoreboard players operation #quality mem = $round mem
-scoreboard players operation #quality mem *= $c_10 mem
+scoreboard players operation #quality mem *= #const_10 mem
 scoreboard players operation #quality mem += $random mem
 
 # 根据品质生成不同的物品
