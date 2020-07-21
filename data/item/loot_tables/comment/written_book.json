@@ -13,11 +13,36 @@
                             "source": "this",
 						    "ops":[
                                 {
-                                    "source": "Inventory[{id:\"minecraft:written_book\"}].tag",
-                                    "target": "Item.tag",
+                                    "source": "Inventory[{id:\"minecraft:written_book\"}].tag.pages",
+                                    "target": "pages",
+                                    "op":"replace"
+                                },
+                                {
+                                    "source": "Inventory[{id:\"minecraft:written_book\"}].tag.author",
+                                    "target": "author",
+                                    "op":"replace"
+                                },
+                                {
+                                    "source": "Inventory[{id:\"minecraft:written_book\"}].tag.title",
+                                    "target": "title",
                                     "op":"replace"
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name":{
+                                "text":"反馈主题:",
+                                "color":"aqua",
+                                "italic": false,
+                                "extra": [
+                                    {
+                                        "nbt":"Inventory[{id:\"minecraft:written_book\"}].tag.title",
+                                        "entity":"@s"
+                                    }
+                                ]
+                            }
                         }
                     ]
 				}
