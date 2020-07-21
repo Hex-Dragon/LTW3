@@ -9,4 +9,4 @@ scoreboard players remove #time mem 1
 execute if score $countdown mem matches 1.. run title @a subtitle {"score":{"name":"#time","objective":"mem"}}
 execute if score $countdown mem matches 1.. if score $game_type mem matches 0 run title @a title ["晶石模式"]
 execute if score $countdown mem matches 1.. if score $game_type mem matches 1 run title @a title [""]
-execute if score $countdown mem matches 1..10 run execute as @a at @s run function lib:sounds/hit2
+execute if score $countdown mem matches 1..40 run execute as @a at @s run function lib:sounds/hit2
