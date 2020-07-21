@@ -1,1 +1,1 @@
-give @s writable_book{display:{Name:'[{"selector":"@s"}]'}}
+loot give @s loot item:comment/writable_book
