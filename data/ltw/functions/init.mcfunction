@@ -3,7 +3,7 @@
 # 游戏数据
 setworldspawn 10 13 10
 forceload remove all
-time set noon
+time set midnight
 weather clear
 difficulty normal
 gamerule doDaylightCycle false

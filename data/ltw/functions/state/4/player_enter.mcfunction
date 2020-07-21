@@ -7,9 +7,6 @@ effect clear @s
 effect give @s saturation 1000000 0 true
 gamerule naturalRegeneration true
 
-# 修改时间
-time set midnight
-
 # 显示小游戏介绍
 function mini:main/player_intro
 

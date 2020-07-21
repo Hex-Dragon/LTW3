@@ -7,6 +7,9 @@ scoreboard objectives setdisplay belowName total_score_disp
 scoreboard objectives setdisplay sidebar total_score
 scoreboard objectives setdisplay list total_score_disp
 
+# 修改时间
+time set midnight
+
 # 初始化倒计时
 scoreboard players set $countdown mem 13
 
