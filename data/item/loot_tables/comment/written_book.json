@@ -14,7 +14,7 @@
 						    "ops":[
                                 {
                                     "source": "Inventory[{id:\"minecraft:written_book\"}].tag",
-                                    "target": "Item.tag",
+                                    "target": "tag",
                                     "op":"replace"
                                 }
                             ]
