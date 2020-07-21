@@ -1,0 +1,1 @@
+give @s writable_book{display:{Name:'[{"selector":"@s"}]'}}
