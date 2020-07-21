@@ -64,6 +64,7 @@ scoreboard players set #const_2 mem 2
 scoreboard players set #const_5 mem 5
 scoreboard players set #const_9 mem 9
 scoreboard players set #const_10 mem 10
+scoreboard players set #const_81 mem 81
 scoreboard players set #const_100 mem 100
 scoreboard players set $game_type mem 1
 
