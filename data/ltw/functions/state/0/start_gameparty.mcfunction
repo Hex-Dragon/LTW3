@@ -17,7 +17,7 @@ scoreboard players operation @a game_id = $ game_id
 
 # 重置物品
 clear @a[tag=!watcher,tag=!debug]
-function ltw:shop/refresh_equip
+execute as @a[tag=!watcher,tag=!debug] at @s run function ltw:shop/refresh_equip
 
 # 开始小游戏
 function lib:sounds/music/stop

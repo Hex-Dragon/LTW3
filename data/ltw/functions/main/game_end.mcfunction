@@ -19,7 +19,7 @@ execute as @a[tag=!total_rank1,tag=!total_rank2] unless entity @a[tag=total_rank
 
 # 计算金粒奖励
 scoreboard players set #total_gold mem 0
-execute as @a[tag=!watcher] run scoreboard players add #total_gold mem 800
+execute as @a[tag=!watcher] run scoreboard players add #total_gold mem 900
 # 无名次
 execute as @a[tag=!total_rank1,tag=!total_rank2,tag=!total_rank3,tag=!watcher] run scoreboard players remove #total_gold mem 100
 # 计算总权重与单份奖励
