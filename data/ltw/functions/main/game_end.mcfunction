@@ -65,5 +65,4 @@ schedule function ltw:state/0/state_enter 2t replace
 execute as @a at @s run function lib:sounds/theend
 forceload remove all
 
-# FIXME : <! 紧急> 土豆消失了
 # FIXME : 新加入游戏的玩家会显示幻翼击杀数和得分
