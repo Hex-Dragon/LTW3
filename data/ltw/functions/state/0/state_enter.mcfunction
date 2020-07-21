@@ -4,7 +4,7 @@ execute as @a run function ltw:state/0/player_enter
 
 # HUD
 scoreboard objectives setdisplay belowName gold
-scoreboard objectives setdisplay sidebar gold
+scoreboard objectives setdisplay sidebar
 scoreboard objectives setdisplay list gold
 
 # 伤害管理
