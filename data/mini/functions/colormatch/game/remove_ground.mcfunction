@@ -13,5 +13,4 @@ scoreboard players set $color_match_type mem 1
 # 预备下一轮
 function mini:colormatch/game/prepare_round
 
-# FIXME : <! 严重> [HIM] 如果两个人同时打一个人疑似导致土豆消失
 # FIXME : [010/HIM] 史莱姆贴墙
