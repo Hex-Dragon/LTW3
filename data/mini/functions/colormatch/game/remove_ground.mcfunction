@@ -12,5 +12,3 @@ scoreboard players set $color_match_type mem 1
 
 # 预备下一轮
 function mini:colormatch/game/prepare_round
-
-# FIXME : [010/HIM] 史莱姆贴墙
