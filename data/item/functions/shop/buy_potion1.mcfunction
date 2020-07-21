@@ -15,4 +15,4 @@ scoreboard players remove @s[tag=canbuy] gold 81
 execute as @s[tag=!canbuy] at @s run function lib:sounds/error
 execute as @s[tag=canbuy] at @s run function lib:sounds/levelup
 
-execute as @s[tag=canbuy] run function ltw:shop/refresh_gold
+execute as @s[tag=canbuy] run function item:shop/refresh_gold

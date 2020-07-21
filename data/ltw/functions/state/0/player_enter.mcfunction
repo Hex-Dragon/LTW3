@@ -25,4 +25,4 @@ tp @s[tag=!debug] 10 16 10
 
 # 刷新物品
 clear @s[tag=!debug]
-function ltw:shop/refresh_gold
+function item:shop/refresh_gold

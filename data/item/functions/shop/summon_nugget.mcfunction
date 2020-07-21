@@ -5,6 +5,6 @@ execute if score @s temp matches 65.. run data modify entity @e[type=item,tag=sc
 data modify entity @e[type=item,tag=score_item,limit=1] Owner set from entity @s UUID
 tag @e[type=item,tag=score_item] remove score_item
 scoreboard players remove @s temp 64
-execute if score @s temp matches 1.. run function ltw:shop/summon_nugget
+execute if score @s temp matches 1.. run function item:shop/summon_nugget
 
 
