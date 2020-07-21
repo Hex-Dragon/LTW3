@@ -16,6 +16,26 @@
                                     "source": "Inventory[{id:\"minecraft:written_book\"}].tag.pages",
                                     "target": "pages",
                                     "op":"replace"
+                                },
+                                {
+                                    "source": "Inventory[{id:\"minecraft:written_book\"}].tag.author",
+                                    "target": "author",
+                                    "op":"replace"
+                                },
+                                {
+                                    "source": "Inventory[{id:\"minecraft:written_book\"}].tag.title",
+                                    "target": "title",
+                                    "op":"replace"
+                                },
+                                {
+                                    "source": "Inventory[{id:\"minecraft:written_book\"}].tag.display.Name",
+                                    "target": "display.Name",
+                                    "op":"replace"
+                                },
+                                {
+                                    "source": "Inventory[{id:\"minecraft:written_book\"}].tag.title",
+                                    "target": "display.Lore",
+                                    "op":"append"
                                 }
                             ]
                         }
