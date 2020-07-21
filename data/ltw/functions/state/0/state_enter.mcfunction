@@ -3,9 +3,9 @@ scoreboard players set $state mem 0
 execute as @a run function ltw:state/0/player_enter
 
 # HUD
-scoreboard objectives setdisplay belowName gold
-scoreboard objectives setdisplay sidebar
-scoreboard objectives setdisplay list gold
+scoreboard objectives setdisplay belowName gold_total
+scoreboard objectives setdisplay sidebar gold_total
+scoreboard objectives setdisplay list gold_total
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 0

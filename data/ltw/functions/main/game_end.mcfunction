@@ -65,4 +65,5 @@ schedule function ltw:state/0/state_enter 2t replace
 execute as @a at @s run function lib:sounds/theend
 forceload remove all
 
-# FIXME : 新加入游戏的玩家会显示幻翼击杀数和得分
+# FIXME : [LTCat] 旁观者会显示幻翼击杀数
+# TODO : 为跑酷添加阶段性随机
