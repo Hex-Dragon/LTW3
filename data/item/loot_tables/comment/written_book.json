@@ -33,13 +33,14 @@
                             "function": "set_name",
                             "entity": "this",
                             "name":{
-                                "text":"反馈主题:",
+                                "text":"反馈主题: ",
                                 "color":"aqua",
                                 "italic": false,
                                 "extra": [
                                     {
                                         "nbt":"Inventory[{id:\"minecraft:written_book\"}].tag.title",
-                                        "entity":"@s"
+                                        "entity":"@s",
+                                        "color":"white"
                                     }
                                 ]
                             }
