@@ -13,7 +13,7 @@
                             "source": "this",
 						    "ops":[
                                 {
-                                    "source": "Inventory[{id:\"minecraft:written_book\"}]",
+                                    "source": "Inventory[{id:\"minecraft:written_book\"}][0]",
                                     "target": "Item",
                                     "op":"replace"
                                 }
