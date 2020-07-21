@@ -17,12 +17,12 @@
                                     {
                                         "selector": "@s",
                                         "italic": false,
-                                        "color": "white"
+                                        "color": "gold"
                                     },
                                     {
-                                        "text":"的反馈书",
+                                        "text":" 的反馈书",
                                         "italic":false,
-                                        "color":"gold"
+                                        "color":"white"
                                     }
                                 ]
                             },
@@ -32,24 +32,7 @@
                             "function": "minecraft:set_lore",
                             "lore":[
                                 {
-                                    "text":"请认真写反馈哦,",
-                                    "italic":false,
-                                    "color":"gray",
-                                    "extra": [
-                                        {
-                                            "selector": "@s",
-                                            "color":"gray",
-                                            "italic":false
-                                        },
-                                        {
-                                            "text":"！",
-                                            "color":"gray",
-                                            "italic":false
-                                        }
-                                    ]
-                                },
-                                {
-                                    "text":"不然小心被龙猫夹哟！",
+                                    "text":"请认真写反馈, 不然小心被夹哟!",
                                     "italic":false,
                                     "color":"gray"
                                 }
