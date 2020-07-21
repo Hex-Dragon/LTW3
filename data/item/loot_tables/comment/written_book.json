@@ -1,5 +1,5 @@
 {
-	"type":"minecraft:entity",
+	"type":"minecraft:generic",
 	"pools":[
 		{
 		"rolls":1,
@@ -14,7 +14,7 @@
 						    "ops":[
                                 {
                                     "source": "Inventory[{id:\"minecraft:written_book\"}]",
-                                    "target": "",
+                                    "target": "Item",
                                     "op":"replace"
                                 }
                             ]
