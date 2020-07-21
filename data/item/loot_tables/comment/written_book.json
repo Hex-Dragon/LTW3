@@ -1,0 +1,27 @@
+{
+	"type":"minecraft:generic",
+	"pools":[
+		{
+		"rolls":1,
+		"entries":[
+				{	
+					"type":"item",
+					"name":"minecraft:written_book",
+					"functions":[
+                        {
+						    "function":"copy_nbt",
+                            "source": "this",
+						    "ops":[
+                                {
+                                    "source": "Inventory[{id:\"minecraft:written_book\"}].tag",
+                                    "target": "Item.tag",
+                                    "op":"replace"
+                                }
+                            ]
+                        }
+                    ]
+				}
+			]
+		}
+	]
+}
