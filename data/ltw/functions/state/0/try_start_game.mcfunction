@@ -8,4 +8,4 @@ execute if score $game_type mem matches 1 run function ltw:state/0/try_start_gam
 # 进行提示
 execute if score $countdown mem matches 999 run tellraw @a [{"text":"","color":"green"},{"text": ">> ","bold": true},"游戏即将开始, 请到准备区域准备, 若想旁观则请离开准备区域!"]
 execute if score $countdown mem matches 999 as @a at @s run function lib:sounds/levelup
-execute if score $countdown mem matches 999 run scoreboard players set $countdown mem 11
+execute if score $countdown mem matches 999 run scoreboard players set $countdown mem 16
