@@ -52,6 +52,7 @@ scoreboard players set $ game_id 0
 
 # 商店系统记分板
 scoreboard objectives add gold dummy "金粒"
+scoreboard objectives add gold_total dummy "金粒总计"
 scoreboard objectives add shop_arrow dummy "箭升级"
 scoreboard objectives add shop_potion dummy "药水升级"
 scoreboard objectives add shop_apple dummy "苹果升级"

@@ -48,12 +48,16 @@ tellraw @a ["\n"]
 
 # 给予金粒奖励
 execute as @a[tag=total_rank1] run scoreboard players operation @s gold += #rank1_gold mem
+execute as @a[tag=total_rank1] run scoreboard players operation @s gold_total += #rank1_gold mem
 tellraw @a[tag=total_rank1] ["",{"text": ">> ","color":"green","bold": true},"由于获得第一名, 你得到了 ",{"score":{"name": "#rank1_gold","objective": "mem"},"color":"green"},{"text": " 金粒","color":"green"}]
 execute as @a[tag=total_rank2] run scoreboard players operation @s gold += #rank2_gold mem
+execute as @a[tag=total_rank2] run scoreboard players operation @s gold_total += #rank2_gold mem
 tellraw @a[tag=total_rank2] ["",{"text": ">> ","color":"green","bold": true},"由于获得第二名, 你得到了 ",{"score":{"name": "#rank2_gold","objective": "mem"},"color":"green"},{"text": " 金粒","color":"green"}]
 execute as @a[tag=total_rank3] run scoreboard players operation @s gold += #rank3_gold mem
+execute as @a[tag=total_rank3] run scoreboard players operation @s gold_total += #rank3_gold mem
 tellraw @a[tag=total_rank3] ["",{"text": ">> ","color":"green","bold": true},"由于获得第三名, 你得到了 ",{"score":{"name": "#rank3_gold","objective": "mem"},"color":"green"},{"text": " 金粒","color":"green"}]
 scoreboard players add @a[tag=!total_rank1,tag=!total_rank2,tag=!total_rank3,tag=!watcher] gold 1
+scoreboard players add @a[tag=!total_rank1,tag=!total_rank2,tag=!total_rank3,tag=!watcher] gold_total 1
 tellraw @a[tag=!total_rank1,tag=!total_rank2,tag=!total_rank3,tag=!watcher] ["",{"text": ">> ","color":"aqua","bold": true},"由于没有获得名次, 你得到了 ",{"text": "1 金粒","color":"aqua"}]
 
 # 返回主大厅
