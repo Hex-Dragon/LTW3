@@ -8,7 +8,8 @@ tellraw @s[scores={shop_armor=3..}] ["",{"text":">> ","color":"aqua","bold":true
 tellraw @s[scores={shop_armor=2,gold=..89}] ["",{"text":">> ","color":"red","bold":true},{"text":"你没有足够的金锭来购买这个物品!","color":"red"}]
 tellraw @s[scores={shop_armor=..1}] ["",{"text":">> ","color":"red","bold":true},{"text":"你需要先购买上一级的物品!","color":"red"}]
 
-tellraw @s[tag=canbuy] ["",{"text":">> ","color":"green","bold":true},"你升级到了 ",{"text":"皮革外套","color":"green"},"!"]
+tellraw @s[tag=canbuy] ["",{"text":">> ","color":"green","bold":true},"你升级到了 ",{"text":"皮革外套","color":"green"}]
+execute as @s[tag=canbuy] run tellraw @a[tag=!canbuy] ["",{"text":">> ","color":"green","bold":true},{"selector": "@s","color":"green"}," 升级到了 ",{"text":"皮革外套","color":"green"}]
 scoreboard players add @s[tag=canbuy] shop_armor 1
 scoreboard players remove @s[tag=canbuy] gold 90
 
