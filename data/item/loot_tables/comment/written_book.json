@@ -26,18 +26,23 @@
                                     "source": "Inventory[{id:\"minecraft:written_book\"}].tag.title",
                                     "target": "title",
                                     "op":"replace"
-                                },
-                                {
-                                    "source": "Inventory[{id:\"minecraft:written_book\"}].tag.display.Name",
-                                    "target": "display.Name",
-                                    "op":"replace"
-                                },
-                                {
-                                    "source": "Inventory[{id:\"minecraft:written_book\"}].tag.title",
-                                    "target": "display.Lore",
-                                    "op":"append"
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name":{
+                                "text":"反馈主题:",
+                                "color":"aqua",
+                                "italic": false,
+                                "extra": [
+                                    {
+                                        "nbt":"Inventory[{id:\"minecraft:written_book\"}].tag.title",
+                                        "entity":"@s"
+                                    }
+                                ]
+                            }
                         }
                     ]
 				}
