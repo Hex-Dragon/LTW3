@@ -16,7 +16,7 @@ execute if score $mini_type mem matches 5 run scoreboard objectives setdisplay l
 execute if score $mini_type mem matches 5 run scoreboard objectives setdisplay belowName health_disp
 execute if score $mini_type mem matches 5 run scoreboard objectives setdisplay sidebar total_score
 execute if score $mini_type mem matches 6 run scoreboard objectives setdisplay list health_disp
-execute if score $mini_type mem matches 6 run scoreboard objectives setdisplay belowName kill_phantom
+execute if score $mini_type mem matches 6 run scoreboard objectives setdisplay belowName health_disp
 execute if score $mini_type mem matches 6 run scoreboard objectives setdisplay sidebar kill_phantom
 execute if score $mini_type mem matches 7 run scoreboard objectives setdisplay list health_disp
 execute if score $mini_type mem matches 7 run scoreboard objectives setdisplay belowName total_score

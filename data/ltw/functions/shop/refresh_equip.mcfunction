@@ -21,5 +21,3 @@ replaceitem entity @s armor.chest air
 replaceitem entity @s[scores={shop_armor=3}] armor.chest leather_chestplate{display:{Name:'{"text":"皮革外套","italic":false,"color":"gray"}'}}
 replaceitem entity @s armor.legs air
 replaceitem entity @s[scores={shop_armor=2}] armor.legs leather_leggings{display:{Name:'{"text":"皮革裤子","italic":false,"color":"gray"}'}}
-
-# FIXME : 幻翼击杀数有旁观显示
