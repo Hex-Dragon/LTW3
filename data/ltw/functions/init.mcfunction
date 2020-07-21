@@ -62,6 +62,7 @@ scoreboard objectives add shop_weapon dummy "武器升级"
 scoreboard players set $c_mini_total mem 7
 scoreboard players set #const_2 mem 2
 scoreboard players set #const_5 mem 5
+scoreboard players set #const_9 mem 9
 scoreboard players set #const_10 mem 10
 scoreboard players set #const_100 mem 100
 scoreboard players set $game_type mem 1
