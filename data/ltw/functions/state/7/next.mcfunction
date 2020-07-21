@@ -14,6 +14,8 @@ execute unless entity @a[tag=mini_rank1] unless entity @a[tag=mini_rank2] if ent
 execute unless entity @a[tag=new_selector] run tag @a[tag=mini_rank4] add new_selector
 execute unless entity @a[tag=mini_rank1] unless entity @a[tag=mini_rank2] unless entity @a[tag=mini_rank3] if entity @a[tag=mini_rank4] run tellraw @a[tag=!new_selector] ["",{"text": ">> ","color":"gold","bold": true},{"text":"轮到其他人选择奖励了!","color":"gold"}]
 
+execute unless entity @a[tag=new_selector] if entity @a[tag=selecting] run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"selector": "@a[tag=selecting]","color":"gold"}," 未选择奖励"]
+
 # 以玩家为对象开始执行
 execute as @a[tag=new_selector] run function ltw:state/7/next2
 execute unless entity @a[tag=new_selector] if score $game_type mem matches 1 if score $round mem matches 6.. run function ltw:main/game_end

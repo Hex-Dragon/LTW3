@@ -18,20 +18,25 @@ execute if score $countdown mem matches 60 run function mini:slime/game/set_atta
 execute if score $countdown mem matches 60 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"text": "史莱姆的攻击力提高了!","color":"red"}]
 execute if score $countdown mem matches 60 as @a at @s run function lib:sounds/error
 
-# 加速
-execute if score $countdown mem matches 40 run tellraw @a ["",{"text": ">> ","color":"gold","bold": true},{"text": "史莱姆的移动速度提高了!","color":"gold"}]
-execute if score $countdown mem matches ..40 run effect give @e[type=slime] speed 10 3
-
 # 召唤提示 2
-execute if score $countdown mem matches 25 run tellraw @a ["",{"text": ">> ","color":"gold","bold": true},{"text": "新的史莱姆将在 5 秒后空投到球场中央!","color":"gold"}]
-execute if score $countdown mem matches 25 as @a at @s run function lib:sounds/error
+execute if score $countdown mem matches 45 run tellraw @a ["",{"text": ">> ","color":"gold","bold": true},{"text": "新的史莱姆将在 5 秒后空投到球场中央!","color":"gold"}]
+execute if score $countdown mem matches 45 as @a at @s run function lib:sounds/error
 
 # 召唤 2
-execute if score $countdown mem matches 20 run function mini:slime/game/summon
-execute if score $countdown mem matches 20 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"text": "新的史莱姆已空投!","color":"red"}]
-execute if score $countdown mem matches 20 as @a at @s run function lib:sounds/teleport
+execute if score $countdown mem matches 40 run function mini:slime/game/summon
+execute if score $countdown mem matches 40 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"text": "新的史莱姆已空投!","color":"red"}]
+execute if score $countdown mem matches 40 as @a at @s run function lib:sounds/teleport
 
 # 属性提升 3
-execute if score $countdown mem matches 1 run function mini:slime/game/set_attack
-execute if score $countdown mem matches 1 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"text": "史莱姆的攻击力提高了!","color":"red"}]
-execute if score $countdown mem matches 1 as @a at @s run function lib:sounds/error
+execute if score $countdown mem matches 20 run function mini:slime/game/set_attack
+execute if score $countdown mem matches 20 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"text": "史莱姆的攻击力提高了!","color":"red"}]
+execute if score $countdown mem matches 20 as @a at @s run function lib:sounds/error
+
+# 召唤提示 4
+execute if score $countdown mem matches 6 run tellraw @a ["",{"text": ">> ","color":"gold","bold": true},{"text": "新的史莱姆将在 5 秒后空投到球场中央!","color":"gold"}]
+execute if score $countdown mem matches 6 as @a at @s run function lib:sounds/error
+
+# 召唤 4
+execute if score $countdown mem matches 1 run function mini:slime/game/summon
+execute if score $countdown mem matches 1 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"text": "新的史莱姆已空投!","color":"red"}]
+execute if score $countdown mem matches 1 as @a at @s run function lib:sounds/teleport
