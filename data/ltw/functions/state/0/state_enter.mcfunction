@@ -16,6 +16,10 @@ gamerule fallDamage false
 # 清理加载区域
 forceload remove all
 
+# 启用节奏跑酷
+scoreboard players set $tempo_enable mem 1
+function ltw:state/0/parkour/tempo_block/marker_spawn
+
 # 重置开始倒计时
 scoreboard players set $countdown mem 0
 
