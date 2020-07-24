@@ -11,4 +11,3 @@ execute if score $state mem matches 5 if score $mini_type mem matches 3 run func
 
 # FIXME : [010] 物品依然偶尔给不了 [尝试过5tick改模式]
 # TODO : 摸新的大厅
-# TODO : [LTCat] 跑酷计时结束

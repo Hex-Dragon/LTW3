@@ -9,6 +9,18 @@ effect give @s saturation 1000000 0 true
 gamerule naturalRegeneration true
 effect give @s resistance 1000000 4 true
 
+# 计分板重置
+scoreboard players reset @s treasure
+scoreboard players set @s[tag=!watcher,tag=!rejoining,tag=!debug] treasure 0
+tag @s remove treasure1
+tag @s remove treasure2
+tag @s remove treasure3
+tag @s remove treasure4
+tag @s remove treasure5
+tag @s remove treasure6
+tag @s remove treasure7
+tag @s remove treasure8
+
 # 传送玩家
 tp @s[tag=!watcher,tag=!rejoining,tag=!debug] 1010.07 7.50 1006.98 -1518.69 -10.62
 

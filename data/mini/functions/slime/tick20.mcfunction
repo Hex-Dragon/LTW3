@@ -34,5 +34,3 @@ execute if score $countdown mem matches 6 as @a at @s run function lib:sounds/er
 execute if score $countdown mem matches 1 run function mini:slime/game/summon
 execute if score $countdown mem matches 1 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"text": "新的史莱姆已空投!","color":"red"}]
 execute if score $countdown mem matches 1 as @a at @s run function lib:sounds/teleport
-
-# FIXME : [LTCat] 第一名偷分疑似会偷到第二名
