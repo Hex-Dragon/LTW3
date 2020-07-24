@@ -13,6 +13,9 @@ time set midnight
 # 初始化倒计时
 scoreboard players set $countdown mem 13
 
+# 设置禁用tempo_block
+scoreboard players set $tempo_enable mem 0
+
 # 小游戏编号
 # 1 跑酷；2 TNT Run；3 热土豆；4 陷阱迷阵；5 僵尸
 # 优化下一次游戏的选择：生成一个 1~[最大游戏编号] 的 randomarray，每次从其中取下一个数。
