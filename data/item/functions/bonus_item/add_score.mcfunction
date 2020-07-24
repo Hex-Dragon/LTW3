@@ -36,4 +36,5 @@ execute if score #bonus_add_score mem matches 200 if entity @s[tag=!highest] run
 
 # 300：金粒 +1
 execute if score #bonus_add_score mem matches 300 run scoreboard players add @s gold 1
+execute if score #bonus_add_score mem matches 300 run scoreboard players add @s gold_total 1
 execute if score #bonus_add_score mem matches 300 run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 获得了 1 金粒"]

@@ -23,11 +23,15 @@ kill @e[type=trident]
 function mini:parkour/game/marker_spawn
 
 # 生成奖励物品
-execute positioned 1004.5 18.5 1043.5 run function item:bonus_item/gameparty/auto/white
-execute positioned 1024.5 30.5 1038.5 run function item:bonus_item/gameparty/auto/blue
+execute positioned 1024.5 30.5 1038.5 run function item:bonus_item/gameparty/auto/green
 
-# 初始化开门变量
-scoreboard players set $parkour_door mem 0
+# 生成传送门实体
+summon minecraft:falling_block 1014 21 1057 {Time:1,NoGravity:1b,BlockState:{Name:"nether_portal",Properties:{axis:z}},Tags:["parkour_block"]}
+summon minecraft:falling_block 1014 21 1056 {Time:1,NoGravity:1b,BlockState:{Name:"nether_portal",Properties:{axis:z}},Tags:["parkour_block"]}
+summon minecraft:falling_block 1014 22 1057 {Time:1,NoGravity:1b,BlockState:{Name:"nether_portal",Properties:{axis:z}},Tags:["parkour_block"]}
+summon minecraft:falling_block 1014 22 1056 {Time:1,NoGravity:1b,BlockState:{Name:"nether_portal",Properties:{axis:z}},Tags:["parkour_block"]}
+summon minecraft:falling_block 1014 23 1057 {Time:1,NoGravity:1b,BlockState:{Name:"nether_portal",Properties:{axis:z}},Tags:["parkour_block"]}
+summon minecraft:falling_block 1014 23 1056 {Time:1,NoGravity:1b,BlockState:{Name:"nether_portal",Properties:{axis:z}},Tags:["parkour_block"]}
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 0
