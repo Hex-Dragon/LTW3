@@ -5,7 +5,7 @@ tag @s remove mini_running
 function mini:main/update_player_count
 
 # 显示提示
-execute if entity @s[tag=!rejoining] if score $player_finish mem matches ..3 run tellraw @a ["",{"text": ">> ","color":"green","bold": true},{"selector": "@s","color":"green"}," 已成功! 获得了第 ",{"score": {"name": "$player_finish","objective": "mem"}}," 名!"]
+execute if entity @s[tag=!rejoining] if score $player_finish mem matches ..3 run tellraw @a ["",{"text": ">> ","color":"green","bold": true},{"selector": "@s","color":"green"}," 已完成! 获得了第 ",{"score": {"name": "$player_finish","objective": "mem"}}," 名!"]
 execute as @a at @s run function lib:sounds/error
 
 # 给已完成的玩家加分
