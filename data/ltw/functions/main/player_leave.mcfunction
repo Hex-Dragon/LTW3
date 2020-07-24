@@ -9,5 +9,4 @@ execute if score $state mem matches 1.. if score $game_type mem matches 1 if sco
 # 如果携带热土豆的玩家掉线，则重新生成土豆
 execute if score $state mem matches 5 if score $mini_type mem matches 3 run function mini:hotpm/player_leave
 
-# FIXME : [010] 物品依然偶尔给不了 [尝试过5tick改模式]
 # TODO : 摸新的大厅
