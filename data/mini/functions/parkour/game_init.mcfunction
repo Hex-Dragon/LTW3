@@ -34,22 +34,14 @@ summon minecraft:falling_block 1014 23 1057 {Time:1,NoGravity:1b,BlockState:{Nam
 summon minecraft:falling_block 1014 23 1056 {Time:1,NoGravity:1b,BlockState:{Name:"nether_portal",Properties:{axis:z}},Tags:["parkour_block"]}
 
 # 生成宝藏实体
-# 1009.52 14.08 1007.45 营地屋顶
-# 1021.53 15.95 1016.63 沙漠骨骸
-# 1007.72 30.50 1019.92 神庙立柱
-# 1011.66 19.16 1058.34 下界之门
-# 1026.56 18.30 1047.10 落日森林
-# 1004.50 18.50 1043.50 地狱之顶
-# 1013.08 08.30 1040.86 节奏舞厅
-# 1007.35 13.30 1025.31 末路营火
-summon item 1009.52 14.08 1007.45 {Tags:["treasure_item"],Age:-32768,PickupDelay:32768,NoGravity:1,Invulnerable:1,CustomNameVisible:1,Glowing:1,Motion:[0,0,0],Item:{id:"chest",Count:1},CustomName:'"营地屋顶"'}
-summon item 1021.53 15.95 1016.63 {Tags:["treasure_item"],Age:-32768,PickupDelay:32768,NoGravity:1,Invulnerable:1,CustomNameVisible:1,Glowing:1,Motion:[0,0,0],Item:{id:"chest",Count:1},CustomName:'"沙漠骨骸"'}
-summon item 1007.72 30.50 1019.92 {Tags:["treasure_item"],Age:-32768,PickupDelay:32768,NoGravity:1,Invulnerable:1,CustomNameVisible:1,Glowing:1,Motion:[0,0,0],Item:{id:"chest",Count:1},CustomName:'"神庙立柱"'}
-summon item 1011.66 19.16 1058.34 {Tags:["treasure_item"],Age:-32768,PickupDelay:32768,NoGravity:1,Invulnerable:1,CustomNameVisible:1,Glowing:1,Motion:[0,0,0],Item:{id:"chest",Count:1},CustomName:'"下界之门"'}
-summon item 1026.56 18.30 1047.10 {Tags:["treasure_item"],Age:-32768,PickupDelay:32768,NoGravity:1,Invulnerable:1,CustomNameVisible:1,Glowing:1,Motion:[0,0,0],Item:{id:"chest",Count:1},CustomName:'"落日森林"'}
+summon item 1009.50 14.50 1007.50 {Tags:["treasure_item"],Age:-32768,PickupDelay:32768,NoGravity:1,Invulnerable:1,CustomNameVisible:1,Glowing:1,Motion:[0,0,0],Item:{id:"chest",Count:1},CustomName:'"营地屋顶"'}
+summon item 1021.50 15.50 1016.50 {Tags:["treasure_item"],Age:-32768,PickupDelay:32768,NoGravity:1,Invulnerable:1,CustomNameVisible:1,Glowing:1,Motion:[0,0,0],Item:{id:"chest",Count:1},CustomName:'"沙漠骨骸"'}
+summon item 1008.50 30.50 1020.50 {Tags:["treasure_item"],Age:-32768,PickupDelay:32768,NoGravity:1,Invulnerable:1,CustomNameVisible:1,Glowing:1,Motion:[0,0,0],Item:{id:"chest",Count:1},CustomName:'"神庙立柱"'}
+summon item 1011.50 19.50 1058.50 {Tags:["treasure_item"],Age:-32768,PickupDelay:32768,NoGravity:1,Invulnerable:1,CustomNameVisible:1,Glowing:1,Motion:[0,0,0],Item:{id:"chest",Count:1},CustomName:'"下界之门"'}
+summon item 1026.50 18.50 1047.00 {Tags:["treasure_item"],Age:-32768,PickupDelay:32768,NoGravity:1,Invulnerable:1,CustomNameVisible:1,Glowing:1,Motion:[0,0,0],Item:{id:"chest",Count:1},CustomName:'"落日森林"'}
 summon item 1004.50 18.50 1043.50 {Tags:["treasure_item"],Age:-32768,PickupDelay:32768,NoGravity:1,Invulnerable:1,CustomNameVisible:1,Glowing:1,Motion:[0,0,0],Item:{id:"chest",Count:1},CustomName:'"地狱之顶"'}
-summon item 1013.08 08.30 1040.86 {Tags:["treasure_item"],Age:-32768,PickupDelay:32768,NoGravity:1,Invulnerable:1,CustomNameVisible:1,Glowing:1,Motion:[0,0,0],Item:{id:"chest",Count:1},CustomName:'"节奏舞厅"'}
-summon item 1007.35 13.30 1025.31 {Tags:["treasure_item"],Age:-32768,PickupDelay:32768,NoGravity:1,Invulnerable:1,CustomNameVisible:1,Glowing:1,Motion:[0,0,0],Item:{id:"chest",Count:1},CustomName:'"末路营火"'}
+summon item 1013.00 08.50 1041.00 {Tags:["treasure_item"],Age:-32768,PickupDelay:32768,NoGravity:1,Invulnerable:1,CustomNameVisible:1,Glowing:1,Motion:[0,0,0],Item:{id:"chest",Count:1},CustomName:'"节奏舞厅"'}
+summon item 1007.50 13.50 1025.50 {Tags:["treasure_item"],Age:-32768,PickupDelay:32768,NoGravity:1,Invulnerable:1,CustomNameVisible:1,Glowing:1,Motion:[0,0,0],Item:{id:"chest",Count:1},CustomName:'"末路营火"'}
 team join gold @e[tag=treasure_item]
 
 # 伤害管理
