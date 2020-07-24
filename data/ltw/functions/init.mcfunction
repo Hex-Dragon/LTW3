@@ -91,6 +91,10 @@ team remove purple
 team add purple "紫色"
 team modify purple color light_purple
 team modify purple friendlyFire false
+team remove gold
+team add gold "金色"
+team modify gold color gold
+team modify gold friendlyFire false
 
 # 进度
 advancement revoke @a everything

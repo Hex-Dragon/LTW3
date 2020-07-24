@@ -1,5 +1,6 @@
 # 初始化
 function mini:tntrun/init
+function mini:parkour/init
 function mini:phantom/init
 
 # 计分板初始化
