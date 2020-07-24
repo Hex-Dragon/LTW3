@@ -42,6 +42,6 @@ execute positioned 1007.50 13.50 1025.50 as @a[tag=!treasure8,tag=!watcher,tag=!
 execute positioned 1007.50 13.50 1025.50 as @a[tag=!treasure8,tag=!watcher,tag=!debug,distance=..2] run tag @s add treasure8
 
 scoreboard players add @a[tag=get_treasure] treasure 1
-tellraw @a[tag=get_treasure,scores={treasure=..7}] ["",{"text":">> ","color":"green","bold": true},"你已获得 ",{"score": {"objective": "treasure","name": "@s"},"color":"green"},{"text": " 份 ","color":"green"},"宝藏!"]
+tellraw @a[tag=get_treasure,scores={treasure=..7}] ["",{"text":">> ","color":"green","bold": true},"你已获得 ",{"score": {"objective": "treasure","name": "*"},"color":"green"},{"text": " 份 ","color":"green"},"宝藏!"]
 execute as @a[tag=get_treasure,scores={treasure=8}] run function mini:parkour/player_finished
 execute as @a[tag=get_treasure] at @s run function lib:sounds/levelup
