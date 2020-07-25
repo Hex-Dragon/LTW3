@@ -9,6 +9,9 @@ effect give @s saturation 1000000 0 true
 effect give @s instant_health 10 0 true
 gamerule naturalRegeneration false
 
+# 设置玩家生命
+attribute @s generic.max_health base set 20
+
 # 计分板重置
 scoreboard players reset @s kill_phantom
 scoreboard players reset @s kill_phantom2
