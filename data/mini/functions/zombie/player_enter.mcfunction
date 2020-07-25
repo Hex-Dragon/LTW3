@@ -10,6 +10,9 @@ effect give @s instant_health 10 0 true
 gamerule naturalRegeneration false
 effect give @s night_vision 1000000 0 true
 
+# 设置玩家生命
+attribute @s generic.max_health base set 20
+
 # 传送玩家
 tp @s[tag=!debug] 1010.5 12 5013.0
 

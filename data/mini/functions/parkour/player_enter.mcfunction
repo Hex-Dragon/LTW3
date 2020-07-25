@@ -9,6 +9,9 @@ effect give @s saturation 1000000 0 true
 gamerule naturalRegeneration true
 effect give @s resistance 1000000 4 true
 
+# 设置玩家生命
+attribute @s generic.max_health base set 20
+
 # 计分板重置
 scoreboard players reset @s treasure
 scoreboard players set @s[tag=!watcher,tag=!rejoining,tag=!debug] treasure 0
