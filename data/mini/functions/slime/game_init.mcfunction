@@ -2,6 +2,7 @@
 forceload add 1000 7000 1064 7064
 
 scoreboard players set $finish_mode mem 0
+scoreboard players reset * slime_score
 
 # 生成地图
 setblock 1000 4 7000 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"LTCat",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:32,posZ:0,integrity:1.0f,showair:0b,name:"mini:slime",sizeY:7,sizeZ:32,showboundingbox:0b}
