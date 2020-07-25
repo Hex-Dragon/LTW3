@@ -16,6 +16,10 @@ attribute @s generic.max_health base set 20
 # 传送玩家
 tp @s[tag=!debug] 1002.0 7.5 7002.0
 
+# 重置记分板
+scoreboard players reset @s slime_score
+scoreboard players set @s[tag=!watcher,tag=!rejoining,tag=!debug] slime_score 0
+
 # 调整模式
 gamemode spectator @s[tag=!debug]
 gamemode adventure @s[tag=!watcher,tag=!rejoining,tag=!debug]
@@ -24,4 +28,4 @@ gamemode adventure @s[tag=!watcher,tag=!rejoining,tag=!debug]
 execute if entity @s[tag=rejoining] run function mini:slime/player_failed
 
 # 给予物品
-replaceitem entity @s hotbar.8 stick{game_item:1b,Enchantments:[{id:"knockback",lvl:2}],display:{Name:'{"text":"补给用击退棒","italic":false,"color":"white"}'}} 1
+replaceitem entity @s hotbar.8 stick{game_item:1b,Enchantments:[{id:"knockback",lvl:1}],display:{Name:'{"text":"补给用击退棒","italic":false,"color":"white"}'}} 1

@@ -2,6 +2,7 @@
 function mini:tntrun/init
 function mini:parkour/init
 function mini:phantom/init
+function mini:slime/init
 
 # 计分板初始化
 scoreboard objectives remove mini_score
