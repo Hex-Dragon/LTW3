@@ -2,7 +2,7 @@
 kill @e[type=armor_stand,tag=lobby_tempo]
 
 # 生成as
-summon armor_stand 11 15.6 23 {Marker:1b,Invisible:1b,Invulnerable:1b,Small:1b,NoGravity:1b,Tags:["lobby_tempo","tempo_red"]}
+summon armor_stand 11 15.6 26 {Marker:1b,Invisible:1b,Invulnerable:1b,Small:1b,NoGravity:1b,Tags:["lobby_tempo","tempo_red"]}
 summon armor_stand 11 16.6 30 {Marker:1b,Invisible:1b,Invulnerable:1b,Small:1b,NoGravity:1b,Tags:["lobby_tempo","tempo_red"]}
 summon armor_stand 11 17.6 37 {Marker:1b,Invisible:1b,Invulnerable:1b,Small:1b,NoGravity:1b,Tags:["lobby_tempo","tempo_red"]}
 summon armor_stand 9 19.6 40 {Marker:1b,Invisible:1b,Invulnerable:1b,Small:1b,NoGravity:1b,Tags:["lobby_tempo","tempo_red"]}
