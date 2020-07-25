@@ -18,3 +18,6 @@ execute if score $bossbar_color mem matches 1 run bossbar set mini:red players @
 execute if score $bossbar_color mem matches 2 run bossbar set mini:yellow players @a
 execute if score $bossbar_color mem matches 3 run bossbar set mini:green players @a
 execute if score $bossbar_color mem matches 4 run bossbar set mini:blue players @a
+
+# 立即刷新
+function lib:bossbar/tick2

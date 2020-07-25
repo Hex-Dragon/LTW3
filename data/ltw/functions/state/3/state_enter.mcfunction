@@ -14,7 +14,7 @@ time set midnight
 # 初始化倒计时
 scoreboard players set $countdown mem 3
 
-# 设置禁用tempo_block
+# 禁用tempo_block
 scoreboard players set $tempo_enable mem 0
 
 # 小游戏编号
