@@ -1,11 +1,9 @@
 # 如小游戏有多条命,需在小游戏中设置给玩家mini_heart生命上限并调用此函数
 # 设置生命值上限
-execute if score @s mini_heart matches 13.. run tellraw @s ["",{"text": ">> ","color":"red","bold": true},{"text":"小游戏生命上限为 12!","color":"red"}]
-execute if score @s mini_heart matches 13.. run scoreboard players set @s mini_heart 12
+execute if score @s mini_heart matches 11.. run tellraw @s ["",{"text": ">> ","color":"red","bold": true},{"text":"小游戏生命上限为 10!","color":"red"}]
+execute if score @s mini_heart matches 11.. run scoreboard players set @s mini_heart 10
 
 # 根据玩家mini_heart数量决定生命值上限
-execute if score @s mini_heart matches 12 run attribute @s generic.max_health base set 24
-execute if score @s mini_heart matches 11 run attribute @s generic.max_health base set 22
 execute if score @s mini_heart matches 10 run attribute @s generic.max_health base set 20
 execute if score @s mini_heart matches 9 run attribute @s generic.max_health base set 18
 execute if score @s mini_heart matches 8 run attribute @s generic.max_health base set 16
