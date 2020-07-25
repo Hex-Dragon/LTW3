@@ -5,4 +5,5 @@ execute if score $bossbar_type mem matches 2 run function lib:bossbar/set_countd
 
 # 显示bossbar
 execute unless score $bossbar_type mem matches 0 as @a run function lib:bossbar/show_color
+execute unless score $bossbar_type mem matches 0 as @a run function lib:bossbar/set_max
 execute if score $bossbar_type mem matches 0 as @a run function lib:bossbar/show_none
