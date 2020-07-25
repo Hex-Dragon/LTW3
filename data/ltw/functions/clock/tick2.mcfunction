@@ -14,6 +14,7 @@ execute if score $tempo_enable mem matches 1 run function lib:tempo_block/tick2
 
 # 调用物品模块（必须最后调用
 function item:tick2
+function lib:bossbar/tick2
 
 # 全局倒计时
 execute if score $countdown_fast mem matches 1.. run scoreboard players remove $countdown_fast mem 1
