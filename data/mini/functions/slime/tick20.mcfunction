@@ -11,5 +11,5 @@ execute if score $countdown mem matches 10 run tellraw @a ["",{"text": ">> ","co
 execute if score $countdown mem matches 0 run function mini:main/game_end
 
 # 回复生命值
-effect give @a regeneration 1 10 true
-schedule function mini:slime/game/clear_effect 1t replace
+execute if score $twice mem matches 1 run effect give @a regeneration 1 10 true
+execute if score $twice mem matches 1 run schedule function mini:slime/game/clear_effect 1t replace
