@@ -1,3 +1,4 @@
+function lib:bossbar/reset
 
 # 计算最大值
 scoreboard players operation #temp mem = $countdown_max mem
