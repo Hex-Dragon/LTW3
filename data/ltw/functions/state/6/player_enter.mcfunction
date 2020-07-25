@@ -3,6 +3,10 @@ function lib:sounds/music/rest
 title @s clear
 title @s actionbar ""
 
+# 显示 Title
+title @s times 5 20 5
+title @s title "选择奖励"
+
 # 重置玩家血量上限
 attribute @s generic.max_health base set 20
 

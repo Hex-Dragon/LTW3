@@ -12,7 +12,7 @@ scoreboard players set $bossbar_type mem 0
 time set midnight
 
 # 初始化倒计时
-scoreboard players set $countdown mem 13
+scoreboard players set $countdown mem 3
 
 # 设置禁用tempo_block
 scoreboard players set $tempo_enable mem 0

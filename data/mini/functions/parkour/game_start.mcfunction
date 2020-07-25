@@ -8,5 +8,5 @@ execute if score $mini_type mem matches 1 run scoreboard objectives setdisplay s
 scoreboard players set $bossbar_color mem 4
 scoreboard players set $countdown_max mem 140
 scoreboard players set $bossbar_type mem 2
-bossbar set mini:blue name ""
+bossbar set mini:blue name "剩余时间"
 function lib:bossbar/show

@@ -9,7 +9,7 @@ scoreboard objectives setdisplay list total_score_disp
 scoreboard players set $bossbar_type mem 0
 
 # 初始化倒计时
-scoreboard players set $countdown mem 10
+scoreboard players set $countdown mem 3
 
 # 初始化地图
 forceload add 0 1900 50 2000

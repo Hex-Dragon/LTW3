@@ -2,6 +2,11 @@
 title @s clear
 title @s actionbar ""
 
+# 显示 Title
+title @s times 5 20 5
+execute if score $round mem matches ..5 run title @a title ["第 ",{"score": {"objective": "mem","name": "$round"}},"/6 轮"]
+execute if score $round mem matches 6 run title @a title {"text":"最终轮","color":"gold"}
+
 # 状态效果
 effect clear @s
 effect give @s saturation 1000000 0 true
