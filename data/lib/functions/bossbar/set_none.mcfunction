@@ -1,4 +1,4 @@
-bossbar set mini:red players @a
-bossbar set mini:yellow players @a
-bossbar set mini:green players @a
-bossbar set mini:blue players @a
+bossbar set mini:red players
+bossbar set mini:yellow players
+bossbar set mini:green players
+bossbar set mini:blue players
