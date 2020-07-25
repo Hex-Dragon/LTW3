@@ -3,7 +3,7 @@ title @s clear
 title @s actionbar ""
 
 # 显示 Title
-title @s times 5 50 5
+title @s times 5 53 2
 title @s subtitle ""
 execute if score $round mem matches ..5 run title @s title ["第 ",{"score": {"objective": "mem","name": "$round"}},"/6 轮"]
 execute if score $round mem matches 6 run title @s title {"text":"最终轮","color":"gold"}

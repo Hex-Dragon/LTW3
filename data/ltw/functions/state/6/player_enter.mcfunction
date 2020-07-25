@@ -4,7 +4,7 @@ title @s clear
 title @s actionbar ""
 
 # 显示 Title
-title @s times 5 50 5
+title @s times 5 53 2
 title @s subtitle ""
 title @s title "选择奖励"
 
