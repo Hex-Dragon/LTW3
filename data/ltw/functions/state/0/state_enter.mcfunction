@@ -7,6 +7,7 @@ scoreboard objectives setdisplay belowName gold_total
 scoreboard objectives setdisplay sidebar gold_total
 scoreboard objectives setdisplay list gold_total
 scoreboard players set $bossbar_type mem 0
+function lib:bossbar/show
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 0

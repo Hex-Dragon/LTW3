@@ -23,14 +23,14 @@ execute unless entity @a[tag=new_selector] if score $game_type mem matches 1 if 
 
 # 初始化倒计时与 HUD
 scoreboard players set $countdown mem 10
-scoreboard players set $bossbar_color mem 0
-scoreboard players set @a[tag=!new_selector] bossbar_color 2
-scoreboard players set @a[tag=new_selector] bossbar_color 4
-scoreboard players set $countdown_max mem 10
-scoreboard players set $bossbar_type mem 2
-function lib:bossbar/show
-bossbar set mini:yellow name "等待他人选择"
-bossbar set mini:blue name "剩余时间"
+# scoreboard players set $bossbar_color mem 0
+# scoreboard players set @a[tag=!new_selector] bossbar_color 2
+# scoreboard players set @a[tag=new_selector] bossbar_color 4
+# scoreboard players set $countdown_max mem 10
+# scoreboard players set $bossbar_type mem 2
+# function lib:bossbar/show
+# bossbar set mini:yellow name "等待他人选择"
+# bossbar set mini:blue name "剩余时间"
 
 # 播放音效
 execute as @a[tag=new_selector] at @s run function lib:sounds/hit

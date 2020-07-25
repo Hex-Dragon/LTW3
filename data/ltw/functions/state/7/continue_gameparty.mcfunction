@@ -1,5 +1,6 @@
 # 清除 Bossbar
 scoreboard players set $bossbar_type mem 0
+function lib:bossbar/show
 
 # 继续下一轮小游戏
 scoreboard players add $round mem 1

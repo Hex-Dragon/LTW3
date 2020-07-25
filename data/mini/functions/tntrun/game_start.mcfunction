@@ -9,3 +9,4 @@ execute if score $mini_type mem matches 2 run scoreboard objectives setdisplay l
 execute if score $mini_type mem matches 2 run scoreboard objectives setdisplay belowName total_score_disp
 execute if score $mini_type mem matches 2 run scoreboard objectives setdisplay sidebar total_score
 scoreboard players set $bossbar_type mem 0
+function lib:bossbar/show
