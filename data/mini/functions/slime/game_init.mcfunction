@@ -14,6 +14,10 @@ kill @e[type=item]
 tp @e[type=slime] 1000 -100 6000
 kill @e[type=trident]
 
+# 重置分数
+scoreboard players reset $slime_last_hit mem
+scoreboard players set $countdown_fast mem 0
+
 # 伤害管理
 scoreboard players set $remove_resistance mem 1
 team modify player friendlyFire false

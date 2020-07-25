@@ -1,0 +1,1 @@
+execute if score $countdown_fast mem matches 0 run scoreboard players reset $slime_last_hit mem
