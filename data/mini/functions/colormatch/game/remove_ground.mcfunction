@@ -14,8 +14,8 @@ scoreboard players set $color_match_type mem 1
 scoreboard players set $bossbar_color mem 3
 scoreboard players operation $countdown_max mem = $countdown_fast mem
 scoreboard players set $bossbar_type mem 1
-bossbar set mini:green name "下一轮"
 function lib:bossbar/show
+bossbar set mini:green name "下一轮"
 
 # 预备下一轮
 function mini:colormatch/game/prepare_round

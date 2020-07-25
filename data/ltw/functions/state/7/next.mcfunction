@@ -28,9 +28,9 @@ scoreboard players set @a[tag=!new_selector] bossbar_color 2
 scoreboard players set @a[tag=new_selector] bossbar_color 4
 scoreboard players set $countdown_max mem 10
 scoreboard players set $bossbar_type mem 2
+function lib:bossbar/show
 bossbar set mini:yellow name "等待他人选择"
 bossbar set mini:blue name "剩余时间"
-function lib:bossbar/show
 
 # 播放音效
 execute as @a[tag=new_selector] at @s run function lib:sounds/hit

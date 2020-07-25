@@ -12,8 +12,8 @@ scoreboard players operation $countdown_fast mem = $color_match_time mem
 scoreboard players set $bossbar_color mem 1
 scoreboard players operation $countdown_max mem = $countdown_fast mem
 scoreboard players set $bossbar_type mem 1
-bossbar set mini:red name "地板消失"
 function lib:bossbar/show
+bossbar set mini:red name "地板消失"
 
 # 重置分数
 scoreboard players set $color_match_type mem 0

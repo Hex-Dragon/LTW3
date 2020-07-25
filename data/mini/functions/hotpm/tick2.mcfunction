@@ -8,7 +8,7 @@ scoreboard players set @a[tag=!pm_holding,distance=..15] bossbar_color 2
 scoreboard players set @a[tag=!pm_holding,distance=15..] bossbar_color 3
 scoreboard players operation $countdown_max mem = $countdown_fast mem
 scoreboard players set $bossbar_type mem 1
+function lib:bossbar/show
 bossbar set mini:green name "土豆爆炸"
 bossbar set mini:yellow name "土豆爆炸"
 bossbar set mini:red name "土豆爆炸"
-function lib:bossbar/show
