@@ -10,5 +10,12 @@ scoreboard players operation $countdown_fast mem < $color_match_time mem
 scoreboard players remove $countdown_fast mem 3
 scoreboard players set $color_match_type mem 1
 
+# HUD
+scoreboard players set $bossbar_color mem 3
+scoreboard players operation $countdown_max mem = $countdown_fast mem
+scoreboard players set $bossbar_type mem 1
+bossbar set mini:green name "下一轮"
+function lib:bossbar/show
+
 # 预备下一轮
 function mini:colormatch/game/prepare_round
