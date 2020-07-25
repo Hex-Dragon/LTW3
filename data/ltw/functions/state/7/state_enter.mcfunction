@@ -9,7 +9,7 @@ scoreboard objectives setdisplay list total_score_disp
 scoreboard players set $bossbar_type mem 0
 
 # 初始化倒计时
-scoreboard players set $countdown mem 7
+scoreboard players set $countdown mem 5
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 0
