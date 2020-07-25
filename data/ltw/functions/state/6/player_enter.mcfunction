@@ -4,7 +4,8 @@ title @s clear
 title @s actionbar ""
 
 # 显示 Title
-title @s times 5 20 5
+title @s times 5 50 5
+title @s subtitle ""
 title @s title "选择奖励"
 
 # 重置玩家血量上限
