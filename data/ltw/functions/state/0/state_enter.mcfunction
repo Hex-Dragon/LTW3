@@ -6,6 +6,7 @@ execute as @a run function ltw:state/0/player_enter
 scoreboard objectives setdisplay belowName gold_total
 scoreboard objectives setdisplay sidebar gold_total
 scoreboard objectives setdisplay list gold_total
+scoreboard players set $bossbar_type mem 0
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 0

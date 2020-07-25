@@ -6,6 +6,7 @@ execute as @a run function ltw:state/3/player_enter
 scoreboard objectives setdisplay belowName total_score_disp
 scoreboard objectives setdisplay sidebar total_score
 scoreboard objectives setdisplay list total_score_disp
+scoreboard players set $bossbar_type mem 0
 
 # 修改时间
 time set midnight

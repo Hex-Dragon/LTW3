@@ -66,4 +66,3 @@ execute as @a at @s run function lib:sounds/theend
 forceload remove all
 
 # TODO : [010] 给奖励选择阶段添加上层罩子
-# TODO : 修改史莱姆足球

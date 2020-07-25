@@ -9,4 +9,4 @@ execute if score $state mem matches 1.. if score $game_type mem matches 1 if sco
 # 如果携带热土豆的玩家掉线，则重新生成土豆
 execute if score $state mem matches 5 if score $mini_type mem matches 3 run function mini:hotpm/player_leave
 
-# TODO : 摸新的大厅
+# TODO : [010] 摸新的大厅
