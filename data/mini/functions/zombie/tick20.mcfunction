@@ -9,7 +9,7 @@ function lib:random
 execute if score $countdown mem matches ..30 run effect give @e[tag=mini_mob,limit=2,sort=random] speed 2 1
 execute if score $countdown mem matches ..80 run effect give @e[tag=mini_mob,limit=2,sort=random] resistance 2 1
 execute if score $countdown mem matches ..105 run effect give @e[tag=mini_mob,limit=1,sort=random] speed 2 0
-execute if score $countdown mem matches 131..170 run effect give @e[tag=mini_mob,limit=3,sort=random] slowness 2 0
+execute if score $countdown mem matches 131..170 run effect give @e[tag=mini_mob,limit=2,sort=random] slowness 2 0
 
 # 显示提示
 execute if score $countdown mem matches 155 run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"text": "补给物资已经送达!","color":"aqua"}]
@@ -20,7 +20,7 @@ execute if score $countdown mem matches 80 run scoreboard players set $random me
 # execute if score $countdown mem matches 55 run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"text": "补给物资已经送达!","color":"aqua"}]
 
 # 召唤猪灵
-execute if score $random mem matches ..10 if score $countdown mem matches 81.. run function mini:zombie/game/summon_empty
+execute if score $random mem matches ..20 if score $countdown mem matches 81.. run function mini:zombie/game/summon_empty
 execute if score $random mem matches ..20 if score $countdown mem matches ..80 unless entity @e[tag=empty_pig] run function mini:zombie/game/summon_equip
 execute if score $random mem matches ..20 if score $countdown mem matches ..80 as @e[tag=empty_pig,limit=1,sort=random] run function mini:zombie/game/give_equip
 execute if score $random mem matches 21..30 if score $countdown mem matches ..5 unless entity @e[tag=empty_pig] run function mini:zombie/game/summon_equip

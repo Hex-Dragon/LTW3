@@ -16,8 +16,10 @@ tag @s remove pm_damage_dealt
 tag @s remove pm_damage_taken
 
 # 传送玩家
-spreadplayers 1023 3021 5 5 false @s[tag=!watcher,tag=!rejoining,tag=!debug]
-schedule function mini:hotpm/player_enter2 1t replace
+tp @s[tag=!watcher,tag=!rejoining,tag=!debug] 1023 25 3021
+# spreadplayers 1023 3021 5 5 false @s[tag=!watcher,tag=!rejoining,tag=!debug]
+# schedule function mini:hotpm/player_enter2 1t replace
+# execute as @a[tag=!watcher,tag=!rejoining,tag=!debug] at @s run tp @s ~ 25 ~
 
 # 调整模式
 gamemode spectator @s[tag=!debug]
