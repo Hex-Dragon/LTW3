@@ -23,6 +23,8 @@ tag @s remove treasure5
 tag @s remove treasure6
 tag @s remove treasure7
 tag @s remove treasure8
+tag @s remove treasure9
+tag @s remove treasure10
 
 # 传送玩家
 tp @s[tag=!watcher,tag=!rejoining,tag=!debug] 1010.07 7.50 1006.98 -1518.69 -10.62

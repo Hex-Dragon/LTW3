@@ -1,21 +1,12 @@
-# 1009.52 14.08 1007.45 营地屋顶
-# 1021.53 15.95 1016.63 沙漠骨骸
-# 1007.72 30.50 1019.92 神庙立柱
-# 1011.66 19.16 1058.34 下界之门
-# 1026.56 18.30 1047.10 落日森林
-# 1004.50 18.50 1043.50 地狱之顶
-# 1013.08 08.30 1040.86 节奏舞厅
-# 1007.35 13.30 1025.31 末路营火
-
 tag @a remove get_treasure
 
 execute positioned 1009.50 14.50 1007.50 as @a[tag=!treasure1,tag=!watcher,tag=!debug,distance=..2] unless entity @a[tag=treasure1] run tellraw @a ["",{"text": ">> ","color":"gold","bold": true},{"selector": "@s","color":"gold"} , " 第一个获得了 ",{"text": "营地屋顶","color":"gold"}," 的宝藏!"]
 execute positioned 1009.50 14.50 1007.50 as @a[tag=!treasure1,tag=!watcher,tag=!debug,distance=..2] run tag @s add get_treasure
 execute positioned 1009.50 14.50 1007.50 as @a[tag=!treasure1,tag=!watcher,tag=!debug,distance=..2] run tag @s add treasure1
 
-execute positioned 1021.50 15.50 1016.50 as @a[tag=!treasure2,tag=!watcher,tag=!debug,distance=..2] unless entity @a[tag=treasure2] run tellraw @a ["",{"text": ">> ","color":"gold","bold": true},{"selector": "@s","color":"gold"} , " 第一个获得了 ",{"text": "沙漠骨骸","color":"gold"}," 的宝藏!"]
-execute positioned 1021.50 15.50 1016.50 as @a[tag=!treasure2,tag=!watcher,tag=!debug,distance=..2] run tag @s add get_treasure
-execute positioned 1021.50 15.50 1016.50 as @a[tag=!treasure2,tag=!watcher,tag=!debug,distance=..2] run tag @s add treasure2
+execute positioned 1020.50 15.50 1016.50 as @a[tag=!treasure2,tag=!watcher,tag=!debug,distance=..2] unless entity @a[tag=treasure2] run tellraw @a ["",{"text": ">> ","color":"gold","bold": true},{"selector": "@s","color":"gold"} , " 第一个获得了 ",{"text": "沙漠骨骸","color":"gold"}," 的宝藏!"]
+execute positioned 1020.50 15.50 1016.50 as @a[tag=!treasure2,tag=!watcher,tag=!debug,distance=..2] run tag @s add get_treasure
+execute positioned 1020.50 15.50 1016.50 as @a[tag=!treasure2,tag=!watcher,tag=!debug,distance=..2] run tag @s add treasure2
 
 execute positioned 1008.50 30.50 1020.50 as @a[tag=!treasure3,tag=!watcher,tag=!debug,distance=..2] unless entity @a[tag=treasure3] run tellraw @a ["",{"text": ">> ","color":"gold","bold": true},{"selector": "@s","color":"gold"} , " 第一个获得了 ",{"text": "神庙立柱","color":"gold"}," 的宝藏!"]
 execute positioned 1008.50 30.50 1020.50 as @a[tag=!treasure3,tag=!watcher,tag=!debug,distance=..2] run tag @s add get_treasure
@@ -41,7 +32,15 @@ execute positioned 1007.50 13.50 1025.50 as @a[tag=!treasure8,tag=!watcher,tag=!
 execute positioned 1007.50 13.50 1025.50 as @a[tag=!treasure8,tag=!watcher,tag=!debug,distance=..2] run tag @s add get_treasure
 execute positioned 1007.50 13.50 1025.50 as @a[tag=!treasure8,tag=!watcher,tag=!debug,distance=..2] run tag @s add treasure8
 
+execute positioned 1024.50 30.50 1038.50 as @a[tag=!treasure9,tag=!watcher,tag=!debug,distance=..2] unless entity @a[tag=treasure9] run tellraw @a ["",{"text": ">> ","color":"gold","bold": true},{"selector": "@s","color":"gold"} , " 第一个获得了 ",{"text": "活塞平台","color":"gold"}," 的宝藏!"]
+execute positioned 1024.50 30.50 1038.50 as @a[tag=!treasure9,tag=!watcher,tag=!debug,distance=..2] run tag @s add get_treasure
+execute positioned 1024.50 30.50 1038.50 as @a[tag=!treasure9,tag=!watcher,tag=!debug,distance=..2] run tag @s add treasure9
+
+execute positioned 1014.50 19.50 1024.50 as @a[tag=!treasure10,tag=!watcher,tag=!debug,distance=..2] unless entity @a[tag=treasure10] run tellraw @a ["",{"text": ">> ","color":"gold","bold": true},{"selector": "@s","color":"gold"} , " 第一个获得了 ",{"text": "沙漠密室","color":"gold"}," 的宝藏!"]
+execute positioned 1014.50 19.50 1024.50 as @a[tag=!treasure10,tag=!watcher,tag=!debug,distance=..2] run tag @s add get_treasure
+execute positioned 1014.50 19.50 1024.50 as @a[tag=!treasure10,tag=!watcher,tag=!debug,distance=..2] run tag @s add treasure10
+
 scoreboard players add @a[tag=get_treasure] treasure 1
-tellraw @a[tag=get_treasure,scores={treasure=..7}] ["",{"text":">> ","color":"green","bold": true},"你已获得 ",{"score": {"objective": "treasure","name": "*"},"color":"green"},{"text": " 份 ","color":"green"},"宝藏!"]
-execute as @a[tag=get_treasure,scores={treasure=8}] run function mini:parkour/player_finished
+tellraw @a[tag=get_treasure,scores={treasure=..9}] ["",{"text":">> ","color":"green","bold": true},"你已获得 ",{"score": {"objective": "treasure","name": "*"},"color":"green"},{"text": " 份 ","color":"green"},"宝藏!"]
+execute as @a[tag=get_treasure,scores={treasure=10}] run function mini:parkour/player_finished
 execute as @a[tag=get_treasure] at @s run function lib:sounds/levelup
