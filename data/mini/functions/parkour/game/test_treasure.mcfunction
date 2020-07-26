@@ -32,9 +32,9 @@ execute positioned 1007.50 13.50 1025.50 as @a[tag=!treasure8,tag=!watcher,tag=!
 execute positioned 1007.50 13.50 1025.50 as @a[tag=!treasure8,tag=!watcher,tag=!debug,distance=..2] run tag @s add get_treasure
 execute positioned 1007.50 13.50 1025.50 as @a[tag=!treasure8,tag=!watcher,tag=!debug,distance=..2] run tag @s add treasure8
 
-execute positioned 1024.50 30.50 1038.50 as @a[tag=!treasure9,tag=!watcher,tag=!debug,distance=..2] unless entity @a[tag=treasure9] run tellraw @a ["",{"text": ">> ","color":"gold","bold": true},{"selector": "@s","color":"gold"} , " 第一个获得了 ",{"text": "活塞平台","color":"gold"}," 的宝藏!"]
-execute positioned 1024.50 30.50 1038.50 as @a[tag=!treasure9,tag=!watcher,tag=!debug,distance=..2] run tag @s add get_treasure
-execute positioned 1024.50 30.50 1038.50 as @a[tag=!treasure9,tag=!watcher,tag=!debug,distance=..2] run tag @s add treasure9
+execute positioned 1024.50 29.50 1038.50 as @a[tag=!treasure9,tag=!watcher,tag=!debug,distance=..2] unless entity @a[tag=treasure9] run tellraw @a ["",{"text": ">> ","color":"gold","bold": true},{"selector": "@s","color":"gold"} , " 第一个获得了 ",{"text": "活塞平台","color":"gold"}," 的宝藏!"]
+execute positioned 1024.50 29.50 1038.50 as @a[tag=!treasure9,tag=!watcher,tag=!debug,distance=..2] run tag @s add get_treasure
+execute positioned 1024.50 29.50 1038.50 as @a[tag=!treasure9,tag=!watcher,tag=!debug,distance=..2] run tag @s add treasure9
 
 execute positioned 1014.50 19.50 1024.50 as @a[tag=!treasure10,tag=!watcher,tag=!debug,distance=..2] unless entity @a[tag=treasure10] run tellraw @a ["",{"text": ">> ","color":"gold","bold": true},{"selector": "@s","color":"gold"} , " 第一个获得了 ",{"text": "沙漠密室","color":"gold"}," 的宝藏!"]
 execute positioned 1014.50 19.50 1024.50 as @a[tag=!treasure10,tag=!watcher,tag=!debug,distance=..2] run tag @s add get_treasure

@@ -6,3 +6,6 @@ execute as @e[tag=treasure_item] at @s run particle minecraft:crit ~ ~0.9 ~ 0.25
 
 # 测试宝藏
 function mini:parkour/game/test_treasure
+
+# 旋转宝藏
+execute as @e[tag=treasure_item] at @s run tp @s ~ ~ ~ ~2 ~
