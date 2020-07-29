@@ -38,6 +38,11 @@ scoreboard players operation #rank2_gold mem /= #const_100 mem
 scoreboard players set #rank3_gold mem 1
 scoreboard players operation #rank3_gold mem *= #total_gold mem
 scoreboard players operation #rank3_gold mem /= #const_100 mem
+# 如果因为掉线强制结束则无奖励
+execute store result score #count mem if entity @a[tag=!watcher]
+execute if score #count mem matches ..2 run scoreboard players set #rank1_gold mem 0
+execute if score #count mem matches ..2 run scoreboard players set #rank2_gold mem 0
+execute if score #count mem matches ..2 run scoreboard players set #rank3_gold mem 0
 
 # 显示排名
 tellraw @a ["",{"text":"\n\n\n\n----- 游戏结束 -----\n","color":"green","bold":true}]
