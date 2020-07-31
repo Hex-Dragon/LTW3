@@ -25,7 +25,7 @@
               "dimension": "minecraft:overworld",
               "position": {
                   "x":{
-                      "max": -27,
+                      "max": -25,
                       "min": -29
                   },
                   "y":{
