@@ -1,7 +1,13 @@
 # 当玩家加入游戏时触发
 team join player @s
-advancement revoke @s everything
-execute as @a at @s run function lib:sounds/error
+
+advancement revoke @s only lib:damage_dealt
+advancement revoke @s only lib:damage_taken
+advancement revoke @s only item:container/place
+advancement revoke @s only item:special/consume_enchanted_apple
+advancement revoke @s only item:special/consume_golden_apple
+
+execute as @a at @s run function lib:sounds/hit
 
 # 存储UUID
 execute store result score @s UUID run data get entity @s UUID[0]

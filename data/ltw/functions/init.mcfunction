@@ -98,7 +98,11 @@ team modify gold color gold
 team modify gold friendlyFire false
 
 # 进度
-advancement revoke @a everything
+advancement revoke @a only lib:damage_dealt
+advancement revoke @a only lib:damage_taken
+advancement revoke @a only item:container/place
+advancement revoke @a only item:special/consume_enchanted_apple
+advancement revoke @a only item:special/consume_golden_apple
 
 # 时钟
 schedule function ltw:clock/tick2 2t replace
