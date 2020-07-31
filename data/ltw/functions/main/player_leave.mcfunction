@@ -7,4 +7,4 @@ execute if score $state mem matches 1.. if score $game_type mem matches 1 if sco
 execute if score $state mem matches 1.. if score $game_type mem matches 1 if score #count mem matches ..2 run tellraw @a {"text": "由于玩家人数不足, 游戏直接结束且无金粒奖励","color":"red"}
 
 # 如果携带热土豆的玩家掉线，则重新生成土豆
-execute if score $state mem matches 5 if score $mini_type mem matches 3 run function mini:hotpm/player_leave
+execute if score $state mem matches 5 run function mini:main/player_leave
