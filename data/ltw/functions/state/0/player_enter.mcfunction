@@ -14,14 +14,13 @@ xp set @s 0 levels
 effect clear @s
 effect give @s saturation 1000000 0 true
 gamerule naturalRegeneration true
-effect give @s night_vision 1000000 0 true
 effect give @s resistance 1000000 4 true
 
 # 冒险模式
 gamemode adventure @s[tag=!debug]
 
 # 传送玩家
-tp @s[tag=!debug] 10 16 10
+tp @s[tag=!debug] -10 8 -42 68 -20
 
 # 刷新物品
 clear @s[tag=!debug]
