@@ -44,3 +44,7 @@ scoreboard players add @a[tag=get_treasure] treasure 1
 tellraw @a[tag=get_treasure,scores={treasure=..9}] ["",{"text":">> ","color":"green","bold": true},"你已获得 ",{"score": {"objective": "treasure","name": "*"},"color":"green"},{"text": " 份 ","color":"green"},"宝藏!"]
 execute as @a[tag=get_treasure,scores={treasure=10}] run function mini:parkour/player_finished
 execute as @a[tag=get_treasure] at @s run function lib:sounds/levelup
+
+execute as @a[tag=get_treasure] if score @s treasure matches 4 run advancement grant @s only ltw:parkour/mini_1
+execute as @a[tag=get_treasure] if score @s treasure matches 7 run advancement grant @s only ltw:parkour/mini_2
+execute as @a[tag=get_treasure] if score @s treasure matches 10 run advancement grant @s only ltw:parkour/mini_3

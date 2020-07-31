@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:pufferfish_spawn_egg"
+      },
+      "title": {
+        "text":"彩蛋"
+      },
+      "description": {
+        "text":"仔细探索整个主城吧"
+      },
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false,
+      "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "criteria": {
+      "root": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "root"
+      ]
+    ]
+  }

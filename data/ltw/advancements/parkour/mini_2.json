@@ -1,0 +1,31 @@
+{
+    "parent": "ltw:parkour/mini_1",
+    "display": {
+      "icon": {
+        "item": "minecraft:golden_boots"
+      },
+      "title": {
+        "text": "跑酷熟手"
+      },
+      "description": {
+        "text": "在跑酷游戏中获得 7 分"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "rewards": {
+      "function": "ltw:advancement/parkour/grant_root"
+    },
+    "criteria": {
+      "get_score":{
+          "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+          "get_score"
+      ]
+    ]
+  }

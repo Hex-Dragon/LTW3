@@ -1,0 +1,31 @@
+{
+    "parent": "ltw:parkour/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:chainmail_boots"
+      },
+      "title": {
+        "text": "健步如飞"
+      },
+      "description": {
+        "text": "完成主大厅跑酷"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "rewards": {
+      "function": "ltw:advancement/parkour/grant_root"
+    },
+    "criteria": {
+      "finish":{
+          "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+          "finish"
+      ]
+    ]
+  }

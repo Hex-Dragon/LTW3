@@ -1,0 +1,31 @@
+{
+    "parent": "ltw:eastereggs/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:barrier"
+      },
+      "title": {
+        "text": "跑酷的极限"
+      },
+      "description": {
+        "text": "试图从主城的中心翻越世界围墙"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "rewards": {
+      "function": "ltw:advancement/eastereggs/grant_root"
+    },
+    "criteria": {
+      "finish":{
+          "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+          "finish"
+      ]
+    ]
+  }

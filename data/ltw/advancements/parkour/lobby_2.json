@@ -1,0 +1,31 @@
+{
+    "parent": "ltw:parkour/lobby_1",
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_boots"
+      },
+      "title": {
+        "text": "风驰电掣"
+      },
+      "description": {
+        "text": "完成主大厅隐藏跑酷"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "rewards": {
+      "function": "ltw:advancement/parkour/grant_root"
+    },
+    "criteria": {
+      "finish":{
+          "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+          "finish"
+      ]
+    ]
+  }

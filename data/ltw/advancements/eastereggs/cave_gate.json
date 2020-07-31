@@ -1,0 +1,31 @@
+{
+    "parent": "ltw:eastereggs/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:crimson_door"
+      },
+      "title": {
+        "text": "神必洞窟"
+      },
+      "description": {
+        "text": "试图窥视洞窟的秘密"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "rewards": {
+      "function": "ltw:advancement/eastereggs/grant_root"
+    },
+    "criteria": {
+      "finish":{
+          "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+          "finish"
+      ]
+    ]
+  }

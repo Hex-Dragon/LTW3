@@ -1,0 +1,31 @@
+{
+    "parent": "ltw:eastereggs/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:potion"
+      },
+      "title": {
+        "text": "作者的茶会"
+      },
+      "description": {
+        "text": "与地图作者们饮茶聊天"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "rewards": {
+      "function": "ltw:advancement/eastereggs/grant_root"
+    },
+    "criteria": {
+      "finish":{
+          "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+          "finish"
+      ]
+    ]
+  }

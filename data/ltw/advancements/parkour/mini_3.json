@@ -1,0 +1,31 @@
+{
+    "parent": "ltw:parkour/mini_2",
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_boots"
+      },
+      "title": {
+        "text": "跑酷大师"
+      },
+      "description": {
+        "text": "在跑酷游戏中获得 10 分"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "rewards": {
+      "function": "ltw:advancement/parkour/grant_root"
+    },
+    "criteria": {
+      "get_score":{
+          "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+          "get_score"
+      ]
+    ]
+  }
