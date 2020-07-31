@@ -20,7 +20,24 @@
     },
     "criteria": {
       "finish":{
-          "trigger": "minecraft:impossible"
+          "trigger": "minecraft:location",
+          "conditions": {
+              "dimension": "minecraft:overworld",
+              "position": {
+                  "x":{
+                      "max": 29,
+                      "min": 25
+                  },
+                  "y":{
+                      "max": 24,
+                      "min": 20
+                  },
+                  "z":{
+                      "max": -37,
+                      "min": -41
+                  }
+              }
+          }
       }
     },
     "requirements": [
