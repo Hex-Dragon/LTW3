@@ -8,9 +8,7 @@
         "text": "探索学徒"
       },
       "description": [
-        {"text": "完成等待大厅的旅途\n", "color":"gray"},
-        {"text": "奖励: ","color":"green"},
-        {"text": "4 金粒","color":"white"}
+        {"text": "完成等待大厅的旅途\n", "color":"gray"}
       ],
       "frame": "task",
       "show_toast": true,
