@@ -15,9 +15,6 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "rewards": {
-      "function": "ltw:advancement/combat/grant_root"
-    },
     "criteria": {
       "get_score":{
           "trigger": "minecraft:impossible"

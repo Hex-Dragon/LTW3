@@ -1,5 +1,5 @@
 {
-    "parent": "ltw:parkour/mini_2",
+    "parent": "ltw:parkour/treasure_2",
     "display": {
       "icon": {
         "item": "minecraft:netherite_scrap"
@@ -18,7 +18,7 @@
       "hidden": false
     },
     "rewards": {
-      "function": "ltw:advancement/parkour/grant_root"
+      "function": "ltw:advancement/bonus_2"
     },
     "criteria": {
       "get_score":{

@@ -1,24 +1,19 @@
 {
-    "parent": "ltw:combat/phantom_1",
+    "parent": "ltw:parkour/root",
     "display": {
       "icon": {
-        "item": "minecraft:diamond_sword"
+        "item": "minecraft:iron_ingot"
       },
       "title": {
-        "text": "狩猎老手"
+        "text": "寻宝学徒"
       },
       "description": [
-        {"text": "在月夜狩猎小游戏中击杀 20 只幻翼\n", "color":"gray"},
-        {"text": "奖励: ","color":"green"},
-        {"text": "4 金粒","color":"white"}
+        {"text": "在遗迹寻宝小游戏中收集 4 处宝藏", "color":"gray"}
       ],
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
-    },
-    "rewards": {
-      "function": "ltw:advancement/bonus_1"
     },
     "criteria": {
       "get_score":{

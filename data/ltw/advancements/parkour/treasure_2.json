@@ -1,5 +1,5 @@
 {
-    "parent": "ltw:parkour/mini_1",
+    "parent": "ltw:parkour/treasure_1",
     "display": {
       "icon": {
         "item": "minecraft:diamond"
@@ -18,7 +18,7 @@
       "hidden": false
     },
     "rewards": {
-      "function": "ltw:advancement/parkour/grant_root"
+      "function": "ltw:advancement/bonus_1"
     },
     "criteria": {
       "get_score":{
