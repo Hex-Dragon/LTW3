@@ -1,5 +1,5 @@
 # 木铲 (2 gi)
-
+# 触发器ID 10
 execute unless entity @s[scores={shop_weapon=0..}] run scoreboard players set @s shop_weapon 0
 tag @s remove canbuy
 tag @s[scores={shop_weapon=..0,gold=18..}] add canbuy

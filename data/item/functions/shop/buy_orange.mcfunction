@@ -1,5 +1,5 @@
 # 活跃橙 (3 gb)
-
+# 触发器ID 8
 execute unless entity @s[scores={shop_orange=0..}] run scoreboard players set @s shop_orange 0
 tag @s remove canbuy
 tag @s[scores={shop_orange=..0,gold=243..}] add canbuy
