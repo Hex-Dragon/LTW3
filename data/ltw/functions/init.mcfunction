@@ -63,6 +63,9 @@ scoreboard objectives add shop_apple dummy "苹果升级"
 scoreboard objectives add shop_armor dummy "护甲升级"
 scoreboard objectives add shop_weapon dummy "武器升级"
 scoreboard objectives add shop_orange dummy "活跃橙升级"
+scoreboard objectives add shop_potion_spd dummy "速度药水升级"
+scoreboard objectives add shop_potion_rst dummy "抗性药水升级"
+scoreboard objectives add shop_bow dummy "弓升级"
 
 # 常量与变量初始化
 scoreboard players set $c_mini_total mem 7
