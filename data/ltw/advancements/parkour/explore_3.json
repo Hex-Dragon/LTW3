@@ -1,24 +1,24 @@
 {
-    "parent": "ltw:parkour/lobby_1",
+    "parent": "ltw:parkour/explore_2",
     "display": {
       "icon": {
-        "item": "minecraft:diamond_boots"
+        "item": "minecraft:netherite_boots"
       },
       "title": {
-        "text": "探索老手"
+        "text": "探索大师"
       },
       "description": [
-        {"text": "完成等待大厅的跑酷\n", "color":"gray"},
+        {"text": "完成等待大厅的超级隐藏跑酷\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
-        {"text": "4 金粒","color":"white"}
+        {"text": "1 金锭","color":"white"}
       ],
-      "frame": "task",
+      "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
-      "hidden": false
+      "hidden": true
     },
     "rewards": {
-      "function": "ltw:advancement/parkour/grant_root"
+      "function": "ltw:advancement/bonus_2"
     },
     "criteria": {
       "finish":{

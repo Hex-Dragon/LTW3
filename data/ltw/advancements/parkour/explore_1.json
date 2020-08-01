@@ -2,30 +2,27 @@
     "parent": "ltw:parkour/root",
     "display": {
       "icon": {
-        "item": "minecraft:iron_ingot"
+        "item": "minecraft:iron_boots"
       },
       "title": {
-        "text": "寻宝学徒"
+        "text": "探索学徒"
       },
       "description": [
-        {"text": "在遗迹寻宝小游戏中收集 4 处宝藏", "color":"gray"}
+        {"text": "完成等待大厅的旅途\n", "color":"gray"}
       ],
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "rewards": {
-      "function": "ltw:advancement/parkour/grant_root"
-    },
     "criteria": {
-      "get_score":{
+      "finish":{
           "trigger": "minecraft:impossible"
       }
     },
     "requirements": [
       [
-          "get_score"
+          "finish"
       ]
     ]
   }

@@ -17,7 +17,7 @@
     },
     "criteria": {
       "root": {
-        "trigger": "minecraft:impossible"
+        "trigger": "minecraft:location"
       }
     },
     "requirements": [

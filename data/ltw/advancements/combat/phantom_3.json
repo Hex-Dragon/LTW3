@@ -18,7 +18,7 @@
       "hidden": false
     },
     "rewards": {
-      "function": "ltw:advancement/combat/grant_root"
+      "function": "ltw:advancement/bonus_2"
     },
     "criteria": {
       "finish":{
