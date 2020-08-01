@@ -9,3 +9,6 @@ scoreboard players remove #time mem 1
 execute if score $countdown mem matches 1.. run title @a subtitle {"score":{"name":"#time","objective":"mem"}}
 execute if score $countdown mem matches 1.. run title @a title [""]
 execute if score $countdown mem matches 1..10 run execute as @a at @s run function lib:sounds/hit2
+
+# 检测主大厅实体是否存在
+function ltw:state/0/check_entity
