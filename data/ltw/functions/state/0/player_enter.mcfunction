@@ -25,6 +25,13 @@ gamemode adventure @s[tag=!debug]
 # 传送玩家
 tp @s[tag=!debug] -10 8 -42 68 -20
 
+# 返还金粒
+scoreboard players operation @s[tag=!gold_return] gold = @s gold_total
+tellraw @s[tag=!gold_return] ["",{"text":">> ","color":"aqua","bold": true},{"text":"由于商店更新, 你的已有购买已重置, 花费的金粒已返还!","color":"aqua"}]
+tellraw @s[tag=!gold_return] ["",{"text":">> ","color":"aqua","bold": true},{"text":"由于商店更新, 你的已有购买已重置, 花费的金粒已返还!","color":"aqua"}]
+tellraw @s[tag=!gold_return] ["",{"text":">> ","color":"aqua","bold": true},{"text":"由于商店更新, 你的已有购买已重置, 花费的金粒已返还!","color":"aqua"}]
+tag @s add gold_return
+
 # 刷新物品
 clear @s[tag=!debug]
 function item:shop/refresh_gold
