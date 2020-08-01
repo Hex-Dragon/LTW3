@@ -2,13 +2,13 @@
     "parent": "ltw:eastereggs/root",
     "display": {
       "icon": {
-        "item": "minecraft:potion"
+        "item": "minecraft:ender_eye"
       },
       "title": {
-        "text": "作者的茶会"
+        "text": "凝视虚空"
       },
       "description": {
-        "text": "与地图作者们饮茶聊天杠上开花"
+        "text": "也被虚空凝视"
       },
       "frame": "challenge",
       "show_toast": true,
@@ -25,16 +25,16 @@
             "dimension": "minecraft:overworld",
             "position": {
                 "x":{
-                    "max": 21,
-                    "min": 25
+                    "max": -1,
+                    "min": 1
                 },
                 "y":{
-                    "max": 52,
-                    "min": 54
+                    "max": 47,
+                    "min": 48
                 },
                 "z":{
-                    "max": -36,
-                    "min": -40
+                    "max": -17,
+                    "min": -19
                 }
             }
         }
