@@ -1,5 +1,5 @@
 # 速度药 (1 gb)
-
+# 触发器ID 9
 execute unless entity @s[scores={shop_potion=0..}] run scoreboard players set @s shop_potion 0
 tag @s remove canbuy
 tag @s[scores={shop_potion=..0,gold=81..}] add canbuy
