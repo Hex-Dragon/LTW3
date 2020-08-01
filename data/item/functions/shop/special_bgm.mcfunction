@@ -1,0 +1,1 @@
+execute as @a run function lib:sounds/music/mini_fast

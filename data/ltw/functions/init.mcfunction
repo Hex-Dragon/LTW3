@@ -66,6 +66,9 @@ scoreboard objectives add shop_orange dummy "活跃橙升级"
 scoreboard objectives add shop_potion_spd dummy "速度药水升级"
 scoreboard objectives add shop_potion_rst dummy "抗性药水升级"
 scoreboard objectives add shop_bow dummy "弓升级"
+scoreboard objectives add shop_firework dummy "烟花"
+scoreboard objectives add shop_bgm dummy "BGM"
+scoreboard objectives add shop_pig dummy "猪叫"
 
 # 常量与变量初始化
 scoreboard players set $c_mini_total mem 7

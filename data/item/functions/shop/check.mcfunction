@@ -16,5 +16,8 @@ execute if score @s buy_trigger matches 15 run function item:shop/buy_bow
 execute if score @s buy_trigger matches 16 run function item:shop/buy_potion_resist
 execute if score @s buy_trigger matches 17 run function item:shop/buy_potion_speed1
 execute if score @s buy_trigger matches 18 run function item:shop/buy_potion_speed2
+execute if score @s buy_trigger matches 19 run function item:shop/buy_firework
+execute if score @s buy_trigger matches 20 run function item:shop/buy_bgm
+execute if score @s buy_trigger matches 21 run function item:shop/buy_pig
 scoreboard players set @s buy_trigger 0
 scoreboard players enable @s buy_trigger
