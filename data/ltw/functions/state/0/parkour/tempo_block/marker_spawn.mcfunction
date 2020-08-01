@@ -11,8 +11,6 @@ execute positioned 6 19 -27 run summon armor_stand ~ ~-0.4 ~ {Marker:1b,Invisibl
 execute positioned 13 43 -61 run summon armor_stand ~ ~-0.4 ~ {Marker:1b,Invisible:1b,Invulnerable:1b,Small:1b,NoGravity:1b,Tags:["lobby_tempo","tempo_red_t"]}
 execute positioned 12 45 -56 run summon armor_stand ~ ~-0.4 ~ {Marker:1b,Invisible:1b,Invulnerable:1b,Small:1b,NoGravity:1b,Tags:["lobby_tempo","tempo_red_t"]}
 execute positioned 17 45 -51 run summon armor_stand ~ ~-0.4 ~ {Marker:1b,Invisible:1b,Invulnerable:1b,Small:1b,NoGravity:1b,Tags:["lobby_tempo","tempo_red_t"]}
-execute positioned 21 49 -33 run summon armor_stand ~ ~-0.4 ~ {Marker:1b,Invisible:1b,Invulnerable:1b,Small:1b,NoGravity:1b,Tags:["lobby_tempo","tempo_red_t"]}
-execute positioned 21 50 -33 run summon armor_stand ~ ~-0.4 ~ {Marker:1b,Invisible:1b,Invulnerable:1b,Small:1b,NoGravity:1b,Tags:["lobby_tempo","tempo_red_t"]}
 
 execute positioned 16 43 -46 run summon armor_stand ~ ~-0.4 ~ {Marker:1b,Invisible:1b,Invulnerable:1b,Small:1b,NoGravity:1b,Tags:["lobby_tempo","tempo_red_r"]}
 execute positioned 14 44 -43 run summon armor_stand ~ ~-0.4 ~ {Marker:1b,Invisible:1b,Invulnerable:1b,Small:1b,NoGravity:1b,Tags:["lobby_tempo","tempo_red_r"]}
