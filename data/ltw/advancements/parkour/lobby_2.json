@@ -2,18 +2,20 @@
     "parent": "ltw:parkour/lobby_1",
     "display": {
       "icon": {
-        "item": "minecraft:netherite_boots"
+        "item": "minecraft:diamond_boots"
       },
       "title": {
-        "text": "风驰电掣"
+        "text": "探索老手"
       },
-      "description": {
-        "text": "完成主大厅隐藏跑酷"
-      },
-      "frame": "challenge",
+      "description": [
+        {"text": "完成等待大厅的跑酷\n", "color":"gray"},
+        {"text": "奖励: ","color":"green"},
+        {"text": "4 金粒","color":"white"}
+      ],
+      "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
-      "hidden": true
+      "hidden": false
     },
     "rewards": {
       "function": "ltw:advancement/parkour/grant_root"

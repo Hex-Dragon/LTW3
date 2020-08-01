@@ -1,28 +1,28 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:leather_boots"
-      },
-      "title": {
-        "text":"跑酷"
-      },
-      "description": {
-        "text":"奔波的时光开始了"
-      },
-      "frame": "task",
-      "show_toast": false,
-      "announce_to_chat": false,
-      "hidden": false,
-      "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_boots"
     },
-    "criteria": {
-      "root": {
-        "trigger": "minecraft:impossible"
-      }
+    "title": {
+      "text":"探索"
     },
-    "requirements": [
-      [
-        "root"
-      ]
+    "description": [
+      {"text": "探索的时光开始了……", "color":"gray"}
+    ],
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  },
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "root"
     ]
-  }
+  ]
+}

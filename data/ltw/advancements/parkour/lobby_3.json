@@ -1,33 +1,33 @@
 {
-    "parent": "ltw:parkour/mini_2",
+    "parent": "ltw:parkour/lobby_2",
     "display": {
       "icon": {
-        "item": "minecraft:netherite_scrap"
+        "item": "minecraft:netherite_boots"
       },
       "title": {
-        "text": "寻宝大师"
+        "text": "探索大师"
       },
       "description": [
-        {"text": "在遗迹寻宝小游戏中收集全部宝藏\n", "color":"gray"},
+        {"text": "完成等待大厅的超级隐藏跑酷\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "1 金锭","color":"white"}
       ],
       "frame": "challenge",
       "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+      "announce_to_chat": false,
+      "hidden": true
     },
     "rewards": {
       "function": "ltw:advancement/parkour/grant_root"
     },
     "criteria": {
-      "get_score":{
+      "finish":{
           "trigger": "minecraft:impossible"
       }
     },
     "requirements": [
       [
-          "get_score"
+          "finish"
       ]
     ]
   }

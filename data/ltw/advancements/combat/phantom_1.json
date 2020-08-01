@@ -1,24 +1,22 @@
 {
-    "parent": "ltw:parkour/mini_2",
+    "parent": "ltw:combat/root",
     "display": {
       "icon": {
-        "item": "minecraft:netherite_scrap"
+        "item": "minecraft:iron_sword"
       },
       "title": {
-        "text": "寻宝大师"
+        "text": "狩猎学徒"
       },
       "description": [
-        {"text": "在遗迹寻宝小游戏中收集全部宝藏\n", "color":"gray"},
-        {"text": "奖励: ","color":"green"},
-        {"text": "1 金锭","color":"white"}
+        {"text": "在月夜狩猎小游戏中击杀 10 只幻翼", "color":"gray"}
       ],
-      "frame": "challenge",
+      "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
     "rewards": {
-      "function": "ltw:advancement/parkour/grant_root"
+      "function": "ltw:advancement/combat/grant_root"
     },
     "criteria": {
       "get_score":{
