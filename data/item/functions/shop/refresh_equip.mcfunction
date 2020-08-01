@@ -28,6 +28,9 @@ give @s[scores={shop_arrow=1}] arrow
 give @s[scores={shop_arrow=2}] arrow 2
 give @s[scores={shop_arrow=3}] tipped_arrow{Potion:"minecraft:slowness"} 2
 
+clear @s firework_rocket
+give @s[scores={shop_firework=1}] minecraft:firework_rocket{Fireworks:{Flight:1b,Explosions:[{Type:0b,Colors:[I;11743532,15435844,14602026,4312372,6719955,2437522,8073150],Flicker:1b}]}} 1
+
 replaceitem entity @s armor.head air
 replaceitem entity @s[scores={shop_armor=2}] armor.head golden_helmet{display:{Name:'{"text":"金头盔","italic":false,"color":"gray"}'}}
 replaceitem entity @s armor.chest air
