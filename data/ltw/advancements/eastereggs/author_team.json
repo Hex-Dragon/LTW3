@@ -25,12 +25,12 @@
             "dimension": "minecraft:overworld",
             "position": {
                 "x":{
-                    "max": 21,
-                    "min": 25
+                    "max": 25,
+                    "min": 21
                 },
                 "y":{
-                    "max": 52,
-                    "min": 54
+                    "max": 54,
+                    "min": 52
                 },
                 "z":{
                     "max": -36,
