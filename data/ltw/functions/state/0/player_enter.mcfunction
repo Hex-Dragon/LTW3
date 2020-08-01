@@ -10,6 +10,9 @@ attribute @s generic.max_health base set 20
 xp set @s 0 points
 xp set @s 0 levels
 
+# 开启触发器
+scoreboard players enable @s buy_trigger
+
 # 状态效果
 effect clear @s
 effect give @s saturation 1000000 0 true
