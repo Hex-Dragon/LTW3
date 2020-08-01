@@ -1,0 +1,1 @@
+execute unless entity @e[type=piglin,tag=shop_piglin_1,tag=lobby_entity] run summon piglin 0 22 -60 {Tags:["lobby_entity","shop_piglin_1"],PersistenceRequired:1b,IsImmuneToZombification:1b,CannotHunt:1b,HandItems:[{id:"firework_rocket",Count:1b},{id:"firework_star",Count:1b,tag:{}}],HandDropChances:[0.0f,0.0f]}
