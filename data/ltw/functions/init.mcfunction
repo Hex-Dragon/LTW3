@@ -54,6 +54,7 @@ scoreboard objectives add game_id dummy "游戏编号"
 scoreboard players set $ game_id 0
 
 # 商店系统记分板
+scoreboard objectives add buy_trigger trigger "触发器_购买物品"
 scoreboard objectives add gold dummy "金粒"
 scoreboard objectives add gold_total dummy "金粒总计"
 scoreboard objectives add shop_arrow dummy "箭升级"
