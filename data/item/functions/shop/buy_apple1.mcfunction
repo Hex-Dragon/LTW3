@@ -5,7 +5,7 @@
     tag @s[scores={shop_apple=0,gold=36..}] add canbuy
 
     tellraw @s[scores={shop_apple=1..}] ["",{"text":">> ","color":"aqua","bold":true},{"text":"你已经购买了这个物品了!","color":"aqua"}]
-    tellraw @s[scores={shop_apple=0,gold=..35}] ["",{"text":">> ","color":"red","bold":true},{"text":"你没有足够的金块来购买这个物品!","color":"red"}]
+    tellraw @s[scores={shop_apple=0,gold=..35}] ["",{"text":">> ","color":"red","bold":true},{"text":"你没有足够的金锭来购买这个物品!","color":"red"}]
     tellraw @s[scores={shop_apple=..-1}] ["",{"text":">> ","color":"red","bold":true},{"text":"你需要先购买上一级的物品!","color":"red"}]
 
     tellraw @s[tag=canbuy] ["",{"text":">> ","color":"green","bold":true},"你购买了 ",{"text":"生命果","color":"green"}]
