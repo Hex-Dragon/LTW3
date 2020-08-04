@@ -1,3 +1,7 @@
+# 干掉老板
+kill @e[type=piglin,tag=lobby_entity]
+
+# 召唤老板
 execute unless entity @e[type=piglin,tag=shop_piglin_1,tag=lobby_entity] run summon piglin 0 22 -60 {Tags:["lobby_entity","shop_piglin_1"],PersistenceRequired:1b,IsImmuneToZombification:1b,CannotHunt:1b,HandItems:[{id:"firework_rocket",Count:1b},{}],HandDropChances:[0.0f,0.0f]}
 execute unless entity @e[type=piglin,tag=shop_piglin_2,tag=lobby_entity] run summon piglin 0 22 -60 {Tags:["lobby_entity","shop_piglin_2"],PersistenceRequired:1b,IsImmuneToZombification:1b,CannotHunt:1b,HandItems:[{id:"music_disc_pigstep",Count:1b},{}],HandDropChances:[0.0f,0.0f]}
 execute unless entity @e[type=piglin,tag=shop_piglin_3,tag=lobby_entity] run summon piglin 1 8 -37 {Tags:["lobby_entity","shop_piglin_3"],PersistenceRequired:1b,IsImmuneToZombification:1b,CannotHunt:1b,HandItems:[{id:"golden_shovel",Count:1b},{}],HandDropChances:[0.0f,0.0f]}

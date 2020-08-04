@@ -18,6 +18,9 @@ team modify player friendlyFire false
 team modify player collisionRule never
 gamerule fallDamage false
 
+# 加载老板
+function ltw:state/0/summon_entity
+
 # 清理加载区域
 forceload remove all
 
