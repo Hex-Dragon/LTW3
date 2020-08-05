@@ -38,4 +38,4 @@ replaceitem entity @s[scores={shop_armor=4}] armor.chest golden_chestplate{displ
 replaceitem entity @s armor.legs air
 replaceitem entity @s[scores={shop_armor=3}] armor.legs golden_leggings{display:{Name:'{"text":"金护腿","italic":false,"color":"gray"}'}}
 replaceitem entity @s armor.feet air
-replaceitem entity @s[scores={shop_armor=1}] armor.legs golden_boots{display:{Name:'{"text":"金靴子","italic":false,"color":"gray"}'}}
+replaceitem entity @s[scores={shop_armor=1}] armor.feet golden_boots{display:{Name:'{"text":"金靴子","italic":false,"color":"gray"}'}}
