@@ -12,17 +12,18 @@ tag @a remove mini_rank2
 tag @a remove mini_rank3
 tag @a remove mini_rank4
 # 1
-scoreboard players set #score_max mem -2147483648
-execute as @a run function mini:main/get_max_score
-execute as @a unless entity @a[tag=mini_rank1] if score @s mini_score = #score_max mem run tag @s[tag=!watcher] add mini_rank1
+function mini:main/get_max_score
+execute as @a if score @s mini_score = #score_max mem run tag @s[tag=!watcher] add mini_rank1
+tag @a[tag=mini_rank1] add max_uncounted
 # 2
-scoreboard players set #score_max mem -2147483648
-execute as @a[tag=!mini_rank1] run function mini:main/get_max_score
-execute as @a[tag=!mini_rank1] unless entity @a[tag=mini_rank2] if score @s mini_score = #score_max mem run tag @s[tag=!watcher] add mini_rank2
+function mini:main/get_max_score
+execute as @a[tag=!max_uncounted] if score @s mini_score = #score_max mem run tag @s[tag=!watcher] add mini_rank2
+tag @a[tag=mini_rank2] add max_uncounted
 # 3
-scoreboard players set #score_max mem -2147483648
-execute as @a[tag=!mini_rank1,tag=!mini_rank2] run function mini:main/get_max_score
-execute as @a[tag=!mini_rank1,tag=!mini_rank2] unless entity @a[tag=mini_rank3] if score @s mini_score = #score_max mem run tag @s[tag=!watcher] add mini_rank3
+function mini:main/get_max_score
+execute as @a[tag=!max_uncounted] if score @s mini_score = #score_max mem run tag @s[tag=!watcher] add mini_rank3
+tag @a[tag=max_uncounted] remove max_uncounted
+
 # 4
 tag @a[tag=!mini_rank1,tag=!mini_rank2,tag=!mini_rank3,tag=!watcher] add mini_rank4
 

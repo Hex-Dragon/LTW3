@@ -18,8 +18,7 @@ execute if score #bonus_add_score mem matches 100 if score $random mem matches 0
 execute if score #bonus_add_score mem matches 100 if score $random mem matches 0 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"selector": "@s","color":"red"}," 的硬币投出了反面, 得分减半, 当前共有 ",{"score": {"name": "@s","objective": "total_score"},"color":"red"},{"text": " 分", "color":"red"}]
 
 # 200：偷分
-scoreboard players set #score_max mem -2147483648
-execute as @a run function ltw:main/get_max_score
+function ltw:main/get_max_score
 tag @a remove highest
 tag @a remove may_highest
 execute as @a if score @s total_score = #score_max mem run tag @s add may_highest

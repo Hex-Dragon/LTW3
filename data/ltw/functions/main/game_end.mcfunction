@@ -5,17 +5,17 @@ tag @a remove total_rank1
 tag @a remove total_rank2
 tag @a remove total_rank3
 # 1
-scoreboard players set #score_max mem -2147483648
-execute as @a run function ltw:main/get_max_score
-execute as @a unless entity @a[tag=total_rank1] if score @s total_score = #score_max mem run tag @s add total_rank1
+function ltw:main/get_max_score
+execute as @a if score @s total_score = #score_max mem run tag @s add total_rank1
+tag @a[tag=total_rank1] add max_uncounted
 # 2
-scoreboard players set #score_max mem -2147483648
-execute as @a[tag=!total_rank1] run function ltw:main/get_max_score
-execute as @a[tag=!total_rank1] unless entity @a[tag=total_rank2] if score @s total_score = #score_max mem run tag @s add total_rank2
+function ltw:main/get_max_score
+execute as @a[tag=!max_uncounted] if score @s total_score = #score_max mem run tag @s add total_rank2
+tag @a[tag=total_rank2] add max_uncounted
 # 3
-scoreboard players set #score_max mem -2147483648
-execute as @a[tag=!total_rank1,tag=!total_rank2] run function ltw:main/get_max_score
-execute as @a[tag=!total_rank1,tag=!total_rank2] unless entity @a[tag=total_rank3] if score @s total_score = #score_max mem run tag @s add total_rank3
+function ltw:main/get_max_score
+execute as @a[tag=!max_uncounted] if score @s total_score = #score_max mem run tag @s add total_rank3
+tag @a[tag=max_uncounted] remove max_uncounted
 
 # 计算金粒奖励
 scoreboard players set #total_gold mem 0
