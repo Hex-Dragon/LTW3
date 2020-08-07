@@ -71,7 +71,7 @@ scoreboard objectives add shop_bgm dummy "BGM"
 scoreboard objectives add shop_pig dummy "猪叫"
 
 # 常量与变量初始化
-scoreboard players set $c_mini_total mem 7
+scoreboard players set $c_mini_total mem 6
 scoreboard players set #const_2 mem 2
 scoreboard players set #const_5 mem 5
 scoreboard players set #const_9 mem 9
