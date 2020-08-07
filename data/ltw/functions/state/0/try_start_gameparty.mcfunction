@@ -5,7 +5,7 @@ execute store result score $count mem if entity @a[tag=lobby_ready]
 
 # 判断玩家数量过少
 execute if score $count mem matches ..2 as @a at @s run function lib:sounds/error
-execute if score $count mem matches ..2 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},"需要至少 3 人准备以开始游戏, 当前仅有 ",{"score": {"name": "$count","objective": "mem"}},{"text": " 人","color":"red"}]
+execute if score $count mem matches ..2 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},"需要至少 3 人准备以开始游戏, 当前仅有 ",{"score": {"name": "$count","objective": "mem"},"color":"red"},{"text": " 人","color":"red"}]
 execute if score $count mem matches ..2 run scoreboard players set $countdown mem 0
 
 # 提示未准备

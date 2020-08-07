@@ -33,7 +33,7 @@ tag @s add gold_return
 
 # 刷新物品
 clear @s[tag=!debug]
-function item:shop/refresh_gold
+execute as @s[tag=!debug] run function item:shop/refresh_gold
 
 # 默认进入待机状态
 function item:lobby_state/join_watch
