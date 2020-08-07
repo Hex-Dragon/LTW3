@@ -1,5 +1,5 @@
 # 第一次初始化土豆
-tag @a[tag=mini_running] add max_uncounted
+tag @a[tag=!mini_running] add max_uncounted
 function ltw:main/get_max_score
 tag @a[tag=max_uncounted] remove max_uncounted
 execute as @a[tag=mini_running] if score @s total_score = #score_max mem run tag @s add mini_hotpm_top
