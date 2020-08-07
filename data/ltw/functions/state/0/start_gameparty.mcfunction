@@ -2,7 +2,7 @@
 
 # 设置旁观
 tag @a add watcher
-tag @a[tag=hub_ready,sort=random,limit=8,tag=!debug] remove watcher
+tag @a[tag=lobby_ready,sort=random,limit=8,tag=!debug] remove watcher
 tellraw @a[tag=debug] "你正处于 Debug 模式中, 将忽略游戏开始!"
 
 # 设置数据

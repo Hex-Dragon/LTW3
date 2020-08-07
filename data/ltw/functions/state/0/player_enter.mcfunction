@@ -1,5 +1,5 @@
 # 对单个玩家的处理（如果玩家中途加入就会执行此函数）
-function lib:sounds/music/hub
+function lib:sounds/music/lobby
 title @s clear
 title @s actionbar ""
 
@@ -36,3 +36,6 @@ tag @s add gold_return
 # 刷新物品
 clear @s[tag=!debug]
 function item:shop/refresh_gold
+
+# 默认进入待机状态
+function item:lobby_state/join_watch

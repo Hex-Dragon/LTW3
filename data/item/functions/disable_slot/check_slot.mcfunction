@@ -8,4 +8,3 @@ execute unless data entity @s Inventory[{Slot:8b,tag:{LockItem:1b,LockSlot:8b},C
 
 # 清除临时物品
 clear @a red_dye{LockTempItem:1b}
-kill @e[type=item,tag=LockTempItem,nbt={Item:{tag:{LockTempItem:1b}}}]
