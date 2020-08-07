@@ -71,7 +71,6 @@ execute as @a at @s run function lib:sounds/theend
 forceload remove all
 
 # TODO: [010] 给奖励选择阶段添加上层罩子
-# TODO: [010/HIM] 让玩家在快捷栏准备/取消准备
 # TODO: 用盔甲架给商店添加物品预览
 # TODO: 修改大厅简单跑酷的最后一段，让玩家需要经过一个节奏原地跳才能到达终点
 # TODO: 要不要真做一个用桶摸鱼的小游戏？
