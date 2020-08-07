@@ -9,5 +9,5 @@ execute if score $countdown mem matches ..10 as @a at @s run function lib:sounds
 execute if score $countdown mem matches 0 run function mini:main/game_end
 
 # 回复生命值
-execute if score $twice mem matches 1 run effect give @a regeneration 1 10 true
-execute if score $twice mem matches 1 run schedule function mini:slime/game/clear_effect 1t replace
+execute as @a at @s if block ~ ~-1 ~ emerald_block run effect give @s regeneration 1 10 true
+execute as @a at @s if block ~ ~-1 ~ emerald_block run schedule function mini:slime/game/clear_effect 1t replace

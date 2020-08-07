@@ -1,1 +1,1 @@
-execute as @e[type=slime] run attribute @s minecraft:generic.attack_damage base set 7
+execute as @e[type=slime] run attribute @s minecraft:generic.attack_damage base set 6
