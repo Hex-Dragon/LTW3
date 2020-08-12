@@ -24,7 +24,9 @@ effect give @s weakness 1000000 4 true
 gamemode adventure @s[tag=!debug]
 
 # 传送玩家
-tp @s[tag=!debug] -10 8 -42 68 -20
+# FIXME
+tp @s[tag=!debug] 10.49 12.00 10.58 -539.78 5.82
+# tp @s[tag=!debug] -10 8 -42 68 -20
 
 # 刷新物品
 clear @s[tag=!debug]
