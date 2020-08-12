@@ -24,7 +24,7 @@ effect give @s weakness 1000000 4 true
 gamemode adventure @s[tag=!debug]
 
 # 传送玩家
-# FIXME
+# FIXME: <拿到地图后> 改回大厅坐标
 tp @s[tag=!debug] 10.49 12.00 10.58 -539.78 5.82
 # tp @s[tag=!debug] -10 8 -42 68 -20
 
