@@ -70,5 +70,5 @@ schedule function ltw:state/0/state_enter 2t replace
 execute as @a at @s run function lib:sounds/theend
 forceload remove all
 
-# TODO: <拿到地图后> [010] 给奖励选择阶段添加上层罩子
+# TODO: [010] 给奖励选择阶段添加上层罩子
 # TODO: 要不要真做一个用桶摸鱼的小游戏？
