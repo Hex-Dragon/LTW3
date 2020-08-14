@@ -70,5 +70,4 @@ schedule function ltw:state/0/state_enter 2t replace
 execute as @a at @s run function lib:sounds/theend
 forceload remove all
 
-# TODO: [010] 给奖励选择阶段添加上层罩子
-# TODO: 要不要真做一个用桶摸鱼的小游戏？
+# TODO: 主要的需求见 https://shimo.im/docs/8dQtWhYp8rJhRRWG
