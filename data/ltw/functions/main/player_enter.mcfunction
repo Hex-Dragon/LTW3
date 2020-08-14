@@ -1,5 +1,6 @@
 # 当玩家加入游戏时触发
 team join player @s
+bossbar set ltw:notice players @a
 
 advancement revoke @s only lib:damage_dealt
 advancement revoke @s only lib:damage_taken
