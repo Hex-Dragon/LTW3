@@ -36,4 +36,4 @@ execute positioned 1035.0 28.5 6002.5 run function item:bonus_item/gameparty/aut
 scoreboard players set $remove_resistance mem 1
 team modify player friendlyFire false
 team modify player collisionRule always
-gamerule fallDamage false
+#gamerule fallDamage false
