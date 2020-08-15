@@ -7,7 +7,7 @@ scoreboard players add @a[tag=pm_explode_last] temp 10000
 
 # 寻找最高分
 tag @a[tag=!mini_running] add max_uncounted
-tag @a[tag=!pm_holding] add max_uncounted
+tag @a[tag=pm_holding] add max_uncounted
 function mini:main/get_max_temp
 
 # 给予土豆
