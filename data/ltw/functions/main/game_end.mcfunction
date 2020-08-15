@@ -54,7 +54,7 @@ tellraw @a "\n"
 # 得分金粒奖励
 execute as @a[tag=!watcher] run scoreboard players operation @s gold += @s total_score
 execute as @a[tag=!watcher] run scoreboard players operation @s gold_total += @s total_score
-tellraw @a[tag=!watcher] [" ",{"text": "得分奖励: ","color":"gold"},{"score":{"name": "@s","objective": "total_score"}}," 金粒"]
+tellraw @a[tag=!watcher] [" ",{"text": "得分奖励: ","color":"gold"},{"score":{"name": "*","objective": "total_score"}}," 金粒"]
 
 # 名次金粒奖励
 scoreboard players set @a temp 0
@@ -64,7 +64,7 @@ execute as @a[tag=total_rank3] run scoreboard players operation @s temp = #rank3
 scoreboard players set @a[tag=!total_rank1,tag=!total_rank2,tag=!total_rank3,tag=!watcher] temp 1
 execute as @a run scoreboard players operation @s gold += @s temp
 execute as @a run scoreboard players operation @s gold_total += @s temp
-tellraw @a[tag=!watcher] [" ",{"text": "名次奖励: ","color":"gold"},{"score":{"name": "@s","objective": "temp"}}," 金粒"]
+tellraw @a[tag=!watcher] [" ",{"text": "名次奖励: ","color":"gold"},{"score":{"name": "*","objective": "temp"}}," 金粒"]
 
 # 奖励结束
 tellraw @a[tag=!watcher] "\n"
