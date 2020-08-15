@@ -33,7 +33,7 @@ execute if score #bonus_add_score mem matches 200 if entity @s[tag=highest] run 
 execute if score #bonus_add_score mem matches 200 if entity @s[tag=!highest] run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"selector": "@p[tag=highest]","color":"red"}," 被偷取了 ",{"text": "1 分","color":"red"},", 当前共有 ",{"score": {"name": "@p[tag=highest]","objective": "total_score"}}, " 分"]
 execute if score #bonus_add_score mem matches 200 if entity @s[tag=!highest] run tellraw @a ["",{"text": ">> ","color":"green","bold": true},{"selector": "@s","color":"green"}," 偷取了 ",{"text": "1 分","color":"green"},", 当前共有 ",{"score": {"name": "@s","objective": "total_score"}}, " 分"]
 
-# 300：金粒 +1
-execute if score #bonus_add_score mem matches 300 run scoreboard players add @s gold 1
-execute if score #bonus_add_score mem matches 300 run scoreboard players add @s gold_total 1
-execute if score #bonus_add_score mem matches 300 run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 获得了 1 金粒"]
+# 300：金粒 +2
+execute if score #bonus_add_score mem matches 300 run scoreboard players add @s gold 2
+execute if score #bonus_add_score mem matches 300 run scoreboard players add @s gold_total 2
+execute if score #bonus_add_score mem matches 300 run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 获得了 2 金粒"]

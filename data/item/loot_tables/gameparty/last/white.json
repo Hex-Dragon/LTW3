@@ -39,8 +39,12 @@
     "name": "minecraft:gold_nugget",
     "functions": [
         {
+            "function": "minecraft:set_count",
+            "count": 2
+        },
+        {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"金粒 +1\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":300}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"金粒 +2\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":300}"
         }
     ]
 }
