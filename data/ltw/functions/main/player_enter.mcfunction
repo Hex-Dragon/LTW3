@@ -19,6 +19,4 @@ execute if entity @s[tag=!watcher] unless score @s game_id = $ game_id run funct
 # 如果不是旁观且局号正确：游戏中掉线
 execute if entity @s[tag=!watcher] if score @s game_id = $ game_id run function ltw:main/player_enter_rejoin
 
-# FIXME: [HIM] 旁观者可能会有一个灰色染料一直 tp 他
-# FIXME: 游戏结束时 kill 老板会有猪叫
 # FIXME: 不再允许偷到 -1 分
