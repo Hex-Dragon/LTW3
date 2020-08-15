@@ -20,3 +20,4 @@ execute if entity @s[tag=!watcher] unless score @s game_id = $ game_id run funct
 execute if entity @s[tag=!watcher] if score @s game_id = $ game_id run function ltw:main/player_enter_rejoin
 
 # FIXME: 不再允许偷到 -1 分
+# FIXME: 旁观者在游戏开局的时候似乎会看到 2 然后 ding
