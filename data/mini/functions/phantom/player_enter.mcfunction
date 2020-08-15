@@ -7,7 +7,7 @@ title @s actionbar ""
 effect clear @s
 effect give @s saturation 1000000 0 true
 effect give @s instant_health 10 0 true
-gamerule naturalRegeneration false
+gamerule naturalRegeneration true
 
 # 设置玩家生命
 attribute @s generic.max_health base set 20
