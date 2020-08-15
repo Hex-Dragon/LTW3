@@ -3,5 +3,8 @@
 execute if score $mini_type mem matches 1 run function mini:parkour/tick20
 execute if score $mini_type mem matches 5 run function mini:phantom/tick20
 
+# 特殊方块给予效果
+execute as @a[tag=mini_running] at @s if block ~ ~-1 ~ emerald_block run effect give @s regeneration 2 1 true
+
 # 结束游戏判定
 function mini:main/check_game_end
