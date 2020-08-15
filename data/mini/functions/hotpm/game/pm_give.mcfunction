@@ -4,6 +4,7 @@ execute as @a run scoreboard players operation @s temp = @s mini_heart
 execute as @a run scoreboard players operation @s temp *= #const_100 mem
 execute as @a run scoreboard players operation @s temp += @s total_score
 scoreboard players add @a[tag=!pm_explode_last] temp 10000
+tag @a[tag=pm_explode_last] remove pm_explode_last
 
 # 寻找最高分
 tag @a[tag=!mini_running] add max_uncounted
