@@ -11,7 +11,9 @@ tag @a[tag=!pm_holding] add max_uncounted
 function mini:main/get_max_temp
 
 # 给予土豆
-execute as @a[tag=!max_uncounted,sort=random,limit=1] if score @s temp = #score_max mem run function mini:hotpm/game/pm_get
+execute as @a[tag=!max_uncounted] if score @s temp = #score_max mem run tag @s add pm_list
+execute as @a[tag=pm_list,sort=random,limit=1] run function mini:hotpm/game/pm_get
+tag @a[tag=pm_list] remove pm_list
 
 # 处理tag与分数
 tag @a[tag=max_uncounted] remove max_uncounted
