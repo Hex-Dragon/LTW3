@@ -24,3 +24,4 @@ execute if entity @s[tag=!watcher] if score @s game_id = $ game_id run function 
 # FIXME: “新配方已解锁”
 # FIXME: Trigger 能触发换歌，小草弄出来的
 # FIXME: [HIM] 你可以打开背包把物品丢出去
+# FIXME: 不再允许偷到 -1 分
