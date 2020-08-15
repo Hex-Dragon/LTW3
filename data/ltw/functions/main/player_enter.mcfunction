@@ -21,6 +21,5 @@ execute if entity @s[tag=!watcher] if score @s game_id = $ game_id run function 
 
 # FIXME: [HIM] 旁观者可能会有一个灰色染料一直 tp 他
 # FIXME: 游戏结束时 kill 老板会有猪叫
-# FIXME: “新配方已解锁”
-# FIXME: Trigger 能触发换歌，小草弄出来的
 # FIXME: [HIM] 你可以打开背包把物品丢出去
+# TODO: 新的统计信息显示
