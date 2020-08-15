@@ -21,4 +21,4 @@ execute if entity @s[tag=!watcher] if score @s game_id = $ game_id run function 
 
 # FIXME: [HIM] 旁观者可能会有一个灰色染料一直 tp 他
 # FIXME: 游戏结束时 kill 老板会有猪叫
-# FIXME: [LTCat] 游戏开始时会闪一下数字 2
+# FIXME: 不再允许偷到 -1 分

@@ -3,4 +3,5 @@ data modify entity @e[type=item,tag=LockTempItem,limit=1] Item set from entity @
 data modify entity @e[type=item,tag=LockTempItem,limit=1] PickupDelay set value 0
 data modify entity @e[type=item,tag=LockTempItem,limit=1] Thrower set from entity @s UUID
 execute as @e[type=item,tag=LockTempItem,limit=1] run function item:disable_throw
+tag @e[type=item,tag=LockTempItem] remove LockTempItem
 replaceitem entity @s hotbar.8 air
