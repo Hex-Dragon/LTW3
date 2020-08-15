@@ -1,6 +1,6 @@
 # 玩家失败时由玩家自己触发
 
-tellraw @a ["",{"text":">> ","color":"gold","bold": true},{"selector":"@s","color":"gold"}," 爆炸了!"]
+tellraw @a ["",{"text":">> ","color":"red","bold": true},{"selector":"@s","color":"red"}," 爆炸了!"]
 # 玩家失去土豆
 function mini:hotpm/game/pm_lost
 # 特效
