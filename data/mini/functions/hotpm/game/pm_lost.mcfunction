@@ -4,3 +4,5 @@ tag @s remove pm_holding
 effect clear @s glowing
 effect clear @s speed
 effect give @s speed 2 3 true
+
+replaceitem entity @s armor.head air
