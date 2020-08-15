@@ -1,5 +1,5 @@
 # 爆炸
-execute if score $countdown_fast mem matches 0 as @a[tag=pm_holding] at @s run function mini:hotpm/player_lose_heart
+execute if score $countdown_fast mem matches 0 run function mini:hotpm/player_lose_heart
 
 # 检测土豆
 function mini:hotpm/game/pm_check
