@@ -23,4 +23,4 @@ stopsound @a music music.game
 stopsound @a music music.creative
 
 # 特殊方块给予效果
-execute as @a[tag=mini_running] at @s if block ~ ~-1 ~ emerald_block run effect give @s regeneration 2 1 true
+execute as @a[tag=mini_running] at @s if block ~ ~-1 ~ emerald_block run effect give @s regeneration 2 2 true
