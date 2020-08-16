@@ -1,5 +1,6 @@
 # 刷新对应人数的土豆
 function mini:hotpm/game/pm_give
+tag @a[tag=pm_explode_last] remove pm_explode_last
 
 # 告知玩家
 tellraw @a ["",{"text":">> ","color":"red","bold": true},{"selector":"@a[tag=pm_holding]","color":"red"}," 获得了炸弹!"]
