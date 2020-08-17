@@ -14,11 +14,13 @@ execute if score $state mem matches 7 run function ltw:state/7/tick20
 # 全局倒计时
 execute if score $countdown mem matches 1.. run scoreboard players remove $countdown mem 1
 scoreboard players remove @e[scores={countdown=1..}] countdown 1
-
-# 两秒一次的支持
+# 两秒一次
 scoreboard players add $twice mem 1
 execute if score $twice mem matches 2.. run scoreboard players set $twice mem 0
 
 # 掐死原版 BGM
 stopsound @a music music.game
 stopsound @a music music.creative
+
+# 特殊方块给予效果
+execute as @a[tag=mini_running] at @s if block ~ ~-1 ~ emerald_block run effect give @s regeneration 2 2 true

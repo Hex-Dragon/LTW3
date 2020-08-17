@@ -1,6 +1,6 @@
 # 玩家失败时由玩家自己触发
 
-tellraw @a ["",{"text":">> ","color":"red","bold": true},{"selector":"@a[tag=pm_holding]","color":"red"}," 爆炸了!"]
+tellraw @a ["",{"text":">> ","color":"gold","bold": true},{"selector":"@a[tag=pm_holding]","color":"gold"}," 爆炸了!"]
 # 增加tag
 tag @a[tag=pm_holding] add pm_explode_last
 
