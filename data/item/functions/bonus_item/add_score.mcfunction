@@ -22,7 +22,8 @@ function ltw:main/get_max_score
 tag @a remove highest
 tag @a remove may_highest
 execute as @a if score @s total_score = #score_max mem run tag @s add may_highest
-execute at @s run tag @a[tag=may_highest,limit=1,sort=furthest] add highest
+execute at @s run tag @a[tag=may_highest,limit=1,sort=furthest,scores={total_score=1..}] add highest
+execute unless entity @a[tag=highest] run tag @s add highest
 
 execute if score #bonus_add_score mem matches 200 run scoreboard players add @s total_score 1
 execute if score #bonus_add_score mem matches 200 run scoreboard players add @s total_score_disp 1
