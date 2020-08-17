@@ -2,8 +2,8 @@
 # 钻石：起飞
 
 scoreboard players remove @a effect_floating 1
-execute as @a[gamemode=!spectator,scores={effect_floating=..-3}] at @s if block ~ ~-1 ~ diamond_block run effect give @s levitation 1 12
-execute as @a[gamemode=!spectator,scores={effect_floating=..-3}] at @s if block ~ ~-1 ~ diamond_block run effect give @s slow_falling 2 0 true
-execute as @a[gamemode=!spectator,scores={effect_floating=..-3}] at @s if block ~ ~-1 ~ diamond_block run function lib:sounds/teleport
-execute as @a[gamemode=!spectator,scores={effect_floating=..-3}] at @s if block ~ ~-1 ~ diamond_block run scoreboard players set @s effect_floating 2
+execute as @a[gamemode=!spectator,scores={effect_floating=..-2}] at @s if block ~ ~-1 ~ diamond_block run effect give @s levitation 1 12
+execute as @a[gamemode=!spectator,scores={effect_floating=..-2}] at @s if block ~ ~-1 ~ diamond_block run effect give @s slow_falling 2 0 true
+execute as @a[gamemode=!spectator,scores={effect_floating=..-2}] at @s if block ~ ~-1 ~ diamond_block run function lib:sounds/teleport
+execute as @a[gamemode=!spectator,scores={effect_floating=..-2}] at @s if block ~ ~-1 ~ diamond_block run scoreboard players set @s effect_floating 2
 effect clear @a[scores={effect_floating=0}] levitation
