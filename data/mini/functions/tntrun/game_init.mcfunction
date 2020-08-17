@@ -28,7 +28,6 @@ setblock 1032 51 2000 minecraft:redstone_block
 ##111
 setblock 1032 52 2032 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"chengzi_SC",rotation:"NONE",posX:0,mode:"LOAD",posY:-10,sizeX:9,posZ:0,integrity:1.0f,showair:0b,name:"mini:tntrun111",sizeY:10,sizeZ:8,showboundingbox:0b}
 setblock 1032 51 2032 minecraft:redstone_block
-# FIXME: [010] 清理结构方块
 
 # 清理残余实体
 kill @e[type=arrow]
