@@ -49,12 +49,12 @@ scoreboard objectives remove total_score_disp
 scoreboard objectives add total_score_disp dummy "得分"
 scoreboard objectives remove leave_game
 scoreboard objectives add leave_game minecraft.custom:leave_game "离开游戏"
-scoreboard objectives remove game_id
-scoreboard objectives add game_id dummy "游戏编号"
 scoreboard objectives remove effect_floating
 scoreboard objectives add effect_floating dummy "悬浮计时"
-scoreboard objectives remove effect_regen
-scoreboard objectives add effect_regen dummy "恢复计时"
+# scoreboard objectives remove effect_regen
+# scoreboard objectives add effect_regen dummy "恢复计时"
+scoreboard objectives remove game_id
+scoreboard objectives add game_id dummy "游戏编号"
 scoreboard players set $ game_id 0
 
 # 商店系统记分板
