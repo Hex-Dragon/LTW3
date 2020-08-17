@@ -14,7 +14,7 @@ setblock 1000 10 2032 minecraft:redstone_block
 setblock 1032 9 2000 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"chengzi_SC",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:9,posZ:0,integrity:1.0f,showair:0b,name:"mini:tntrun100",sizeY:32,sizeZ:32,showboundingbox:0b}
 setblock 1032 10 2000 minecraft:redstone_block
 ##101
-setblock 1032 9 2032 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"chengzi_SC",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:9,posZ:0,integrity:1.0f,showair:0b,name:"mini:tntrun101",sizeY:32,sizeZ:8,showboundingbox:10}
+setblock 1032 9 2032 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"chengzi_SC",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:9,posZ:0,integrity:1.0f,showair:0b,name:"mini:tntrun101",sizeY:32,sizeZ:8,showboundingbox:0b}
 setblock 1032 10 2032 minecraft:redstone_block
 ##010
 setblock 1000 52 2000 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"chengzi_SC",rotation:"NONE",posX:0,mode:"LOAD",posY:-10,sizeX:32,posZ:0,integrity:1.0f,showair:0b,name:"mini:tntrun010",sizeY:10,sizeZ:32,showboundingbox:0b}
