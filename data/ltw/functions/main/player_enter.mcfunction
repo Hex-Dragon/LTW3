@@ -22,5 +22,6 @@ execute if entity @s[tag=!watcher] if score @s game_id = $ game_id run function 
 bossbar set ltw:notice players @a
 function lib:bossbar/show
 
-# FIXME: 不再允许偷到 -1 分
-# FIXME: 旁观者在游戏开局的时候似乎会看到 2 然后 ding
+# FIXME: [LTCat] 不再允许偷到 -1 分
+# FIXME: [LTCat] 旁观者在游戏开局的时候似乎会看到 2 然后 ding
+# FIXME: [HIM] init 之后猪灵可能会消失（并且会 ding 两声，疑似执行了两次
