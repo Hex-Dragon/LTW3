@@ -73,6 +73,7 @@ scoreboard objectives add shop_bow dummy "弓升级"
 scoreboard objectives add shop_firework dummy "烟花"
 scoreboard objectives add shop_bgm dummy "BGM"
 scoreboard objectives add shop_pig dummy "猪叫"
+scoreboard objectives add shop_easter_egg dummy "臭彩蛋"
 
 # 常量与变量初始化
 scoreboard players set #mini_total mem 5
