@@ -176,18 +176,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 3,
-    "name": "minecraft:netherite_helmet",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金头盔\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 3,
+    "weight": 4,
     "name": "minecraft:netherite_chestplate",
     "functions": [
         {
@@ -198,7 +187,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 3,
+    "weight": 4,
     "name": "minecraft:netherite_leggings",
     "functions": [
         {
@@ -209,7 +198,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 3,
+    "weight": 4,
     "name": "minecraft:netherite_boots",
     "functions": [
         {
