@@ -24,6 +24,7 @@ give @s[scores={shop_apple=2}] enchanted_golden_apple{display:{Name:'{"text":"é™
 scoreboard players reset @s shop_apple
 
 clear @s arrow
+clear @s tipped_arrow
 give @s[scores={shop_arrow=1}] arrow
 give @s[scores={shop_arrow=2}] arrow 2
 give @s[scores={shop_arrow=3}] tipped_arrow{Potion:"minecraft:slowness"} 2
