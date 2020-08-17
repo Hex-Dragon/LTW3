@@ -7,6 +7,6 @@ schedule function mini:tntrun/player_enter3 2s replace
 # HUD
 execute if score $mini_type mem matches 2 run scoreboard objectives setdisplay list total_score_disp
 execute if score $mini_type mem matches 2 run scoreboard objectives setdisplay belowName total_score_disp
-execute if score $mini_type mem matches 2 run scoreboard objectives setdisplay sidebar total_score
+execute if score $mini_type mem matches 2 run scoreboard objectives setdisplay sidebar layer
 scoreboard players set $bossbar_type mem 0
 function lib:bossbar/show

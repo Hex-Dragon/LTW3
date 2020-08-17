@@ -7,3 +7,9 @@ execute as @e[tag=tntrun_edge] at @s unless entity @a[tag=tntrun_pc,distance=..1
 
 # 玩家死亡判断
 execute as @a[tag=mini_running] at @s if block ~ ~-1 ~ magma_block run function mini:tntrun/player_failed
+
+# 显示层数
+execute as @a[tag=mini_running] at @s if entity @s[y=35,dy=10] run scoreboard players set @s layer 4
+execute as @a[tag=mini_running] at @s if entity @s[y=30,dy=5] run scoreboard players set @s layer 3
+execute as @a[tag=mini_running] at @s if entity @s[y=25,dy=5] run scoreboard players set @s layer 2
+execute as @a[tag=mini_running] at @s if entity @s[y=20,dy=5] run scoreboard players set @s layer 1
