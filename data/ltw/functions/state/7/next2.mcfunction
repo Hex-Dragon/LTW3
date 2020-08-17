@@ -7,5 +7,6 @@ tag @s remove mini_rank4
 tag @s add selecting
 
 gamemode adventure
+tp @s 24.5 11.0 1967.5
 
 tellraw @s ["",{"text": ">> ","color":"green","bold": true},{"text":"轮到你选择奖励了!","color":"green"}]
