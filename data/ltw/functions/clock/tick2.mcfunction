@@ -18,11 +18,3 @@ function item:tick2
 # 全局倒计时
 execute if score $countdown_fast mem matches 1.. run scoreboard players remove $countdown_fast mem 1
 scoreboard players remove @e[scores={countdown_fast=1..}] countdown_fast 1
-
-# 特殊方块给予效果
-execute as @a[gamemode=!spectator] if score @s effect_floating matches 1.. run scoreboard players add @s effect_floating 1
-execute as @a[gamemode=!spectator] if score @s effect_floating matches 6.. run effect clear @s levitation
-execute as @a[gamemode=!spectator] if score @s effect_floating matches 6.. run scoreboard players set @s effect_floating 0
-execute as @a[gamemode=!spectator] at @s if block ~ ~-1 ~ diamond_block run scoreboard players set @s effect_floating 1
-execute as @a[gamemode=!spectator] at @s if block ~ ~-1 ~ diamond_block run effect give @s levitation 1 12 true
-execute as @a[gamemode=!spectator] at @s if block ~ ~-1 ~ diamond_block run effect give @s slow_falling 2 0 true

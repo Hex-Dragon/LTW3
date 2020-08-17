@@ -8,3 +8,6 @@ function ltw:main/tick5
 
 # 死亡触发
 execute as @a[scores={death=1..,health=1..}] at @s run function ltw:main/player_death
+
+# 特殊方块给予效果
+function lib:effect/special_block
