@@ -13,4 +13,4 @@ execute as @a[tag=mini_running] at @s if block ~ ~-1 ~ magma_block run function 
 execute as @a[tag=mini_running] at @s if entity @s[y=35,dy=10] run scoreboard players set @s layer 4
 execute as @a[tag=mini_running] at @s if entity @s[y=30,dy=3] run scoreboard players set @s layer 3
 execute as @a[tag=mini_running] at @s if entity @s[y=25,dy=3] run scoreboard players set @s layer 2
-execute as @a[tag=mini_running] at @s if entity @s[y=20,dy=3] run scoreboard players set @s layer 1
+execute as @a[tag=mini_running] at @s if entity @s[y=20,dy=3] run scoreboard players set @s layer 1 
