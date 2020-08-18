@@ -27,7 +27,8 @@ tag @s remove treasure9
 tag @s remove treasure10
 
 # 传送玩家
-tp @s[tag=!watcher,tag=!rejoining,tag=!debug] 1010.07 7.50 1006.98 -1518.69 -10.62
+spreadplayers 1018 1007 4 6 under 9 false @s[tag=!watcher,tag=!rejoining,tag=!debug]
+# tp @s[tag=!watcher,tag=!rejoining,tag=!debug] 1010.07 7.50 1006.98 -1518.69 -10.62
 
 # 调整模式
 gamemode spectator @s[tag=!debug]
