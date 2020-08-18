@@ -18,6 +18,7 @@ execute if score @s buy_trigger matches 18 if score $state mem matches 0 run fun
 execute if score @s buy_trigger matches 19 if score $state mem matches 0 run function item:shop/buy_firework
 execute if score @s buy_trigger matches 20 if score $state mem matches 0 run function item:shop/buy_bgm
 execute if score @s buy_trigger matches 21 if score $state mem matches 0 run function item:shop/buy_pig
+execute if score @s buy_trigger matches 999 if score $state mem matches 0 run function item:shop/buy_dice
 execute if score @s buy_trigger matches 114514 if score $state mem matches 0 run function item:shop/buy_easter_egg
 scoreboard players set @s buy_trigger 0
 execute if score $state mem matches 0 run scoreboard players enable @s buy_trigger
