@@ -6,4 +6,5 @@
 execute as @a[tag=!lobby_ready,tag=!lobby_watch] run function item:lobby_state/join_watch
 
 # 给予进度
+execute as @a at @s if entity @s[x=-1,y=22,z=-29,dx=5,dy=3,dz=3] run advancement grant @s only ltw:parkour/explore_1
 execute as @a at @s if entity @s[x=6,y=48,z=-32,dx=4,dy=3,dz=9] run advancement grant @s only ltw:parkour/explore_2
