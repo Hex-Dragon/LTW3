@@ -8,16 +8,19 @@ clear @s gold_nugget
 # 获取金块数，存于 temp
 scoreboard players operation @s temp = @s gold
 scoreboard players operation @s temp /= #const_81 mem
-# 给予金锭
+# 给予金块
+tellraw @s [{"score": {"name":"@s","objective": "temp"}}]
 execute if score @s temp matches 1.. at @s run function item:shop/summon_block
 # 获取金锭数，存于 temp
 scoreboard players operation @s temp = @s gold
 scoreboard players operation @s temp %= #const_81 mem
 scoreboard players operation @s temp /= #const_9 mem
 # 给予金锭
+tellraw @s [{"score": {"name":"@s","objective": "temp"}}]
 execute if score @s temp matches 1.. at @s run function item:shop/summon_gold
 # 获取金粒数，存于 temp
 scoreboard players operation @s temp = @s gold
 scoreboard players operation @s temp %= #const_9 mem
+tellraw @s [{"score": {"name":"@s","objective": "temp"}}]
 # 给予金粒
 execute if score @s temp matches 1.. at @s run function item:shop/summon_nugget
