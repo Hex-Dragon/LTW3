@@ -1,3 +1,8 @@
+# 抽取随机地板值
+execute unless data storage ltw:mini colormatch.types[0] run function mini:colormatch/game/newarray
+execute store result score $color_match_floor mem run data get storage ltw:mini colormatch.types[0]
+data remove storage ltw:mini colormatch.types[0]
+
 # 随机选择不消失的方块 # prismarine
 execute positioned 1001 10 4000 run fill ~ ~1 ~ ~24 ~1 ~24 air replace
 execute positioned 1001 10 4000 if score $color_match_floor mem matches 1 run clone ~ ~ ~ ~24 ~ ~24 ~ ~1 ~ filtered acacia_planks
