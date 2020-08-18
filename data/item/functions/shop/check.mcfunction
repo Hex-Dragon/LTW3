@@ -1,9 +1,8 @@
 execute if score @s buy_trigger matches 1 if score $state mem matches 0 run function item:shop/buy_apple1
 execute if score @s buy_trigger matches 2 if score $state mem matches 0 run function item:shop/buy_apple2
 execute if score @s buy_trigger matches 3 if score $state mem matches 0 run function item:shop/buy_armor1
-execute if score @s buy_trigger matches 4 if score $state mem matches 0 run function item:shop/buy_armor2
-execute if score @s buy_trigger matches 5 if score $state mem matches 0 run function item:shop/buy_armor3
-execute if score @s buy_trigger matches 6 if score $state mem matches 0 run function item:shop/buy_armor4
+execute if score @s buy_trigger matches 5 if score $state mem matches 0 run function item:shop/buy_armor2
+execute if score @s buy_trigger matches 6 if score $state mem matches 0 run function item:shop/buy_armor3
 execute if score @s buy_trigger matches 7 if score $state mem matches 0 run function item:shop/buy_arrow1
 execute if score @s buy_trigger matches 8 if score $state mem matches 0 run function item:shop/buy_arrow2
 execute if score @s buy_trigger matches 9 if score $state mem matches 0 run function item:shop/buy_arrow3
