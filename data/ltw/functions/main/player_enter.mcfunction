@@ -23,3 +23,4 @@ bossbar set ltw:notice players @a
 function lib:bossbar/show
 
 # FIXME: [LTCat] 旁观者在游戏开局的时候似乎会看到 2 然后 ding
+# TODO: [010] 在 init 的时候也重置随机数组
