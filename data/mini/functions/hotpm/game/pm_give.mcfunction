@@ -2,7 +2,7 @@
 scoreboard players reset @a temp
 execute as @a run scoreboard players operation @s temp = @s mini_heart
 execute as @a run scoreboard players operation @s temp *= #const_100 mem
-execute as @a run scoreboard players operation @s temp += @s total_score
+execute as @a run scoreboard players operation @s temp += @s total_score_disp
 scoreboard players add @a[tag=!pm_explode_last] temp 10000
 
 # 寻找最高分
