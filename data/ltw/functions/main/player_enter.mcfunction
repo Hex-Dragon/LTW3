@@ -29,3 +29,4 @@ function lib:bossbar/show
 # FIXME: [LTCat] 提示未选择奖励的同时可能捡到物品
 # TODO: [LTCat] 将开始准备延长到 30s
 # FIXME: [HIM] 反馈：色彩迷阵如果正好在切换轮次的时候死亡，就会一直卡在天上不会下来（存疑
+# FIXME: [HIM] 色彩迷阵的提示方块在游戏结束的时候不会清空
