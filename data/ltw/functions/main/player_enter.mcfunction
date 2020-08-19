@@ -25,3 +25,4 @@ function lib:bossbar/show
 # FIXME: [LTCat] 旁观者在游戏开局的时候似乎会看到 2 然后 ding
 # TODO: [010] 在 init 的时候也重置随机数组
 # FIXME: [HIM] 旁观者脚下还是有灰色染料
+# FIXME: [HIM] 土豆疑似会导致旁观者显示得分
