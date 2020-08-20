@@ -26,3 +26,4 @@ function lib:bossbar/show
 # FIXME: [010] 在 init 的时候也重置随机数组
 # TODO: [LTCat] 将开始准备延长到 30s
 # FIXME: [HIM] 反馈：色彩迷阵如果正好在切换轮次的时候死亡，就会一直卡在天上不会下来（存疑
+# FIXME: [010] 已确认确实可以用钓鱼竿获得两个奖励
