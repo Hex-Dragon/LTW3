@@ -18,6 +18,8 @@ function mini:main/player_max_health
 tag @s remove pm_holding
 tag @s remove pm_damage_dealt
 tag @s remove pm_damage_taken
+tag @s remove pm_explode_last
+
 
 # 传送玩家
 tp @s[tag=!watcher,tag=!rejoining,tag=!debug] 1023 25 3021

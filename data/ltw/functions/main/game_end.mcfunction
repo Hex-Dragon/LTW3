@@ -49,7 +49,7 @@ tellraw @a [" ",{"text":"\n\n\n\n----- 游戏结束 -----\n","color":"green","bo
 tellraw @a [" ",{"text": "第一名 - ","color":"green"},{"selector": "@a[tag=total_rank1]","color":"white"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=total_rank1]","objective": "total_score"},"color":"gray"},{"text":")","color":"gray"}]
 execute if entity @a[tag=total_rank2] run tellraw @a [" ",{"text": "第二名 - ","color":"green"},{"selector": "@a[tag=total_rank2]","color":"white"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=total_rank2]","objective": "total_score"},"color":"gray"},{"text":")","color":"gray"}]
 execute if entity @a[tag=total_rank3] run tellraw @a [" ",{"text": "第三名 - ","color":"green"},{"selector": "@a[tag=total_rank3]","color":"white"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=total_rank3]","objective": "total_score"},"color":"gray"},{"text":")","color":"gray"}]
-tellraw @a "\n"
+tellraw @a ""
 
 # 得分金粒奖励
 execute as @a[tag=!watcher] run scoreboard players operation @s gold += @s total_score
@@ -67,11 +67,11 @@ execute as @a run scoreboard players operation @s gold_total += @s temp
 tellraw @a[tag=!watcher] [" ",{"text": "名次奖励: ","color":"gold"},{"score":{"name": "*","objective": "temp"}}," 金粒"]
 
 # 奖励结束
-tellraw @a[tag=!watcher] "\n"
+tellraw @a[tag=!watcher] ""
 
 # 返回主大厅
 schedule function ltw:state/0/state_enter 2t replace
 execute as @a at @s run function lib:sounds/theend
 forceload remove all
 
-# TODO: 主要的需求见 https://shimo.im/docs/8dQtWhYp8rJhRRWG
+# TODO: https://shimo.im/docs/8dQtWhYp8rJhRRWG

@@ -8,7 +8,7 @@ execute as @a if data entity @s Inventory[{"tag":{"bonus_new":1b}}] run function
 # 检测玩家格子锁定
 execute if score $state mem matches 1.. as @a[tag=!debug] run function item:disable_slot/check_slot
 execute if score $state mem matches 0 as @a run function item:lobby_state/check_slot
-execute if score $state mem matches 0.. run kill @e[type=item,tag=LockTempItem,nbt={Item:{tag:{LockTempItem:1b}}}]
+execute if score $state mem matches 0.. run kill @e[type=item,tag=LockTempItem]
 
 # 检查购买物品
 execute as @a run function item:shop/check

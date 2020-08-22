@@ -20,7 +20,7 @@ gamerule doMobLoot false
 gamerule doTraderSpawning false
 gamerule drowningDamage false
 gamerule doLimitedCrafting true
-gamerule announceAdvancements false
+gamerule announceAdvancements true
 
 # 主寄存区块：将所有需要不卸载的都放里面
 #   已占用：(0,0,0) (0,0,1)
@@ -49,6 +49,10 @@ scoreboard objectives remove total_score_disp
 scoreboard objectives add total_score_disp dummy "得分"
 scoreboard objectives remove leave_game
 scoreboard objectives add leave_game minecraft.custom:leave_game "离开游戏"
+scoreboard objectives remove effect_floating
+scoreboard objectives add effect_floating dummy "悬浮计时"
+# scoreboard objectives remove effect_regen
+# scoreboard objectives add effect_regen dummy "恢复计时"
 scoreboard objectives remove game_id
 scoreboard objectives add game_id dummy "游戏编号"
 scoreboard players set $ game_id 0
@@ -69,6 +73,8 @@ scoreboard objectives add shop_bow dummy "弓升级"
 scoreboard objectives add shop_firework dummy "烟花"
 scoreboard objectives add shop_bgm dummy "BGM"
 scoreboard objectives add shop_pig dummy "猪叫"
+scoreboard objectives add shop_easter_egg dummy "臭彩蛋"
+scoreboard objectives add shop_dice dummy "骰子"
 
 # 常量与变量初始化
 scoreboard players set #mini_total mem 5

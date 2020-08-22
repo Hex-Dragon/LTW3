@@ -1,2 +1,2 @@
 # spreadplayer 后不能立即传送，所以延迟 1tick
-execute as @a[tag=!watcher,tag=!rejoining] at @s run tp @s[tag=!debug] ~ ~-3 ~
+execute as @a[tag=!watcher,tag=!rejoining] at @s run tp @s[tag=!debug] ~ 34.5 ~

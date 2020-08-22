@@ -1,6 +1,5 @@
 # 当玩家加入游戏时触发
 team join player @s
-bossbar set ltw:notice players @a
 
 advancement revoke @s only lib:damage_dealt
 advancement revoke @s only lib:damage_taken
@@ -19,7 +18,12 @@ execute if entity @s[tag=!watcher] unless score @s game_id = $ game_id run funct
 # 如果不是旁观且局号正确：游戏中掉线
 execute if entity @s[tag=!watcher] if score @s game_id = $ game_id run function ltw:main/player_enter_rejoin
 
-# FIXME: [HIM] 旁观者可能会有一个灰色染料一直 tp 他
-# FIXME: 游戏结束时 kill 老板会有猪叫
-# FIXME: [HIM] 你可以打开背包把物品丢出去
-# TODO: 新的统计信息显示
+# 更新 Bossbar
+bossbar set ltw:notice players @a
+function lib:bossbar/show
+
+# FIXME: [LTCat] 旁观者在游戏开局的时候似乎会看到 2 然后 ding
+# FIXME: [010] 在 init 的时候也重置随机数组
+# TODO: [LTCat] 将开始准备延长到 30s
+# FIXME: [HIM] 反馈：色彩迷阵如果正好在切换轮次的时候死亡，就会一直卡在天上不会下来（存疑
+# FIXME: [010] 已确认确实可以用钓鱼竿获得两个奖励

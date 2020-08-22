@@ -10,7 +10,7 @@ scoreboard players set $bossbar_type mem 0
 function lib:bossbar/show
 
 # 初始化倒计时
-scoreboard players set $countdown mem 3
+scoreboard players set $countdown mem 4
 
 # 初始化地图
 forceload add 0 1900 50 2000
