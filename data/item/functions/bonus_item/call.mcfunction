@@ -21,5 +21,4 @@ execute if data block 0 0 0 RecordItem.tag.bonus_add_score run function item:bon
 execute if data block 0 0 0 RecordItem.tag.bonus_give_items[0] run function item:bonus_item/give_items
 
 # 执行特定函数
-tag @s add pickup_player
-schedule function item:bonus_item/pickup 5t replace
+execute if score $state mem matches 7 run function item:bonus_item/pickup_1
