@@ -27,24 +27,24 @@ function lib:bossbar/show
 bossbar set mini:red name "地板消失"
 
 # 物品栏显示
-execute if score $color_match_floor mem matches 1 run replaceitem entity @a hotbar.7 acacia_planks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
-execute if score $color_match_floor mem matches 2 run replaceitem entity @a hotbar.7 birch_planks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
-execute if score $color_match_floor mem matches 3 run replaceitem entity @a hotbar.7 bedrock{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
-execute if score $color_match_floor mem matches 4 run replaceitem entity @a hotbar.7 crimson_planks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
-execute if score $color_match_floor mem matches 5 run replaceitem entity @a hotbar.7 warped_planks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
-execute if score $color_match_floor mem matches 6 run replaceitem entity @a hotbar.7 gold_block{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
-execute if score $color_match_floor mem matches 7 run replaceitem entity @a hotbar.7 bricks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
-execute if score $color_match_floor mem matches 8 run replaceitem entity @a hotbar.7 mossy_cobblestone{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
-execute if score $color_match_floor mem matches 9 run replaceitem entity @a hotbar.7 purpur_block{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
-execute if score $color_match_floor mem matches 10 run replaceitem entity @a hotbar.7 prismarine{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
+execute if score $color_match_floor mem matches 1 run replaceitem entity @a hotbar.8 acacia_planks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
+execute if score $color_match_floor mem matches 2 run replaceitem entity @a hotbar.8 birch_planks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
+execute if score $color_match_floor mem matches 3 run replaceitem entity @a hotbar.8 bedrock{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
+execute if score $color_match_floor mem matches 4 run replaceitem entity @a hotbar.8 crimson_planks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
+execute if score $color_match_floor mem matches 5 run replaceitem entity @a hotbar.8 warped_planks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
+execute if score $color_match_floor mem matches 6 run replaceitem entity @a hotbar.8 gold_block{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
+execute if score $color_match_floor mem matches 7 run replaceitem entity @a hotbar.8 bricks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
+execute if score $color_match_floor mem matches 8 run replaceitem entity @a hotbar.8 mossy_cobblestone{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
+execute if score $color_match_floor mem matches 9 run replaceitem entity @a hotbar.8 purpur_block{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
+execute if score $color_match_floor mem matches 10 run replaceitem entity @a hotbar.8 prismarine{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
 
-# execute if score $color_match_floor mem matches 1 run replaceitem entity @a hotbar.7 acacia_planks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.acacia_planks","bold":true,"color":"gold"}]'}}
-# execute if score $color_match_floor mem matches 2 run replaceitem entity @a hotbar.7 birch_planks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.birch_planks","bold":true,"color":"gold"}]'}}
-# execute if score $color_match_floor mem matches 3 run replaceitem entity @a hotbar.7 bedrock{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.bedrock","bold":true,"color":"gold"}]'}}
-# execute if score $color_match_floor mem matches 4 run replaceitem entity @a hotbar.7 crimson_planks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.crimson_planks","bold":true,"color":"gold"}]'}}
-# execute if score $color_match_floor mem matches 5 run replaceitem entity @a hotbar.7 warped_planks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.warped_planks","bold":true,"color":"gold"}]'}}
-# execute if score $color_match_floor mem matches 6 run replaceitem entity @a hotbar.7 gold_block{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.gold_block","bold":true,"color":"gold"}]'}}
-# execute if score $color_match_floor mem matches 7 run replaceitem entity @a hotbar.7 bricks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.bricks","bold":true,"color":"gold"}]'}}
-# execute if score $color_match_floor mem matches 8 run replaceitem entity @a hotbar.7 mossy_cobblestone{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.mossy_cobblestone","bold":true,"color":"gold"}]'}}
-# execute if score $color_match_floor mem matches 9 run replaceitem entity @a hotbar.7 purpur_block{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.purpur_block","bold":true,"color":"gold"}]'}}
-# execute if score $color_match_floor mem matches 10 run replaceitem entity @a hotbar.7 prismarine{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.prismarine","bold":true,"color":"gold"}]'}}
+# execute if score $color_match_floor mem matches 1 run replaceitem entity @a hotbar.8 acacia_planks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.acacia_planks","bold":true,"color":"gold"}]'}}
+# execute if score $color_match_floor mem matches 2 run replaceitem entity @a hotbar.8 birch_planks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.birch_planks","bold":true,"color":"gold"}]'}}
+# execute if score $color_match_floor mem matches 3 run replaceitem entity @a hotbar.8 bedrock{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.bedrock","bold":true,"color":"gold"}]'}}
+# execute if score $color_match_floor mem matches 4 run replaceitem entity @a hotbar.8 crimson_planks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.crimson_planks","bold":true,"color":"gold"}]'}}
+# execute if score $color_match_floor mem matches 5 run replaceitem entity @a hotbar.8 warped_planks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.warped_planks","bold":true,"color":"gold"}]'}}
+# execute if score $color_match_floor mem matches 6 run replaceitem entity @a hotbar.8 gold_block{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.gold_block","bold":true,"color":"gold"}]'}}
+# execute if score $color_match_floor mem matches 7 run replaceitem entity @a hotbar.8 bricks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.bricks","bold":true,"color":"gold"}]'}}
+# execute if score $color_match_floor mem matches 8 run replaceitem entity @a hotbar.8 mossy_cobblestone{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.mossy_cobblestone","bold":true,"color":"gold"}]'}}
+# execute if score $color_match_floor mem matches 9 run replaceitem entity @a hotbar.8 purpur_block{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.purpur_block","bold":true,"color":"gold"}]'}}
+# execute if score $color_match_floor mem matches 10 run replaceitem entity @a hotbar.8 prismarine{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false},{"translate": "block.minecraft.prismarine","bold":true,"color":"gold"}]'}}
