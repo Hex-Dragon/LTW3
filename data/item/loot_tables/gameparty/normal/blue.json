@@ -2,7 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 7,
+    "weight": 9,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -17,12 +17,23 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 3,
-    "name": "minecraft:emerald",
+    "weight": 5,
+    "name": "minecraft:ender_eye",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机翻倍或减半\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":100}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"从最高分玩家处偷取 2 分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":200}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 4,
+    "name": "minecraft:iron_axe",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<击退 II> 铁斧\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Enchantments\":[{\"id\":\"knockback\",\"lvl\":2}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<击退 II> 铁斧\\\",\\\"italic\\\":0,\\\"color\\\":\\\"aqua\\\"}\"}}"
         }
     ]
 },

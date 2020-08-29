@@ -2,7 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 13,
+    "weight": 15,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -17,12 +17,12 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 7,
-    "name": "minecraft:ender_eye",
+    "weight": 5,
+    "name": "minecraft:emerald",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"从最高分玩家处偷取 1 分\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":200}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机翻倍或减半\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":100}"
         }
     ]
 },
@@ -34,17 +34,6 @@
         {
             "function": "minecraft:set_nbt",
             "tag": "{\"item_name\":\"{\\\"text\\\":\\\"生命果\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Lore\":[\"{\\\"text\\\":\\\"恢复 4 颗心或生命 +1\\\",\\\"italic\\\":0,\\\"color\\\":\\\"gray\\\"}\"],\"Name\":\"{\\\"text\\\":\\\"生命果\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 4,
-    "name": "minecraft:iron_axe",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<击退 II> 铁斧\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Enchantments\":[{\"id\":\"knockback\",\"lvl\":2}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<击退 II> 铁斧\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
         }
     ]
 },
@@ -67,17 +56,6 @@
         {
             "function": "minecraft:set_nbt",
             "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<快速装填 III> 弩, 箭 x15\\\",\\\"color\\\":\\\"green\\\"}\",\"Enchantments\":[{\"id\":\"quick_charge\",\"lvl\":3}],\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":15,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<快速装填 III> 弩\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 4,
-    "name": "minecraft:fishing_rod",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"钓鱼竿\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"钓鱼竿\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
         }
     ]
 }

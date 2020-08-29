@@ -2,7 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 4,
+    "weight": 8,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -35,7 +35,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 2,
+    "weight": 4,
     "name": "minecraft:gold_nugget",
     "functions": [
         {

@@ -2,7 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 2,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -18,11 +18,11 @@
 {
     "type": "minecraft:item",
     "weight": 1,
-    "name": "minecraft:ender_eye",
+    "name": "minecraft:emerald",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"从最高分玩家处偷取 1 分\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":200}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机翻倍或减半\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":100}"
         }
     ]
 }
