@@ -30,6 +30,7 @@ execute if score $mini_type mem matches 1 as @a[tag=mini_rank1] run advancement 
 execute if score $mini_type mem matches 1 as @a[tag=mini_rank1,scores={layer=3..}] run advancement grant @s only ltw:parkour/tnt2
 execute if score $mini_type mem matches 3 as @a[tag=mini_rank1] run advancement grant @s only ltw:vs/potato1
 execute if score $mini_type mem matches 3 as @a[tag=mini_rank1,scores={mini_heart=3..}] run advancement grant @s only ltw:vs/potato2
+execute if score $mini_type mem matches 4 if score $countdown_max mem matches 10 as @a[tag=mini_rank1] run advancement grant @s only ltw:parkour/colormatch2
 
 # 进入状态 6
 function ltw:state/6/state_enter

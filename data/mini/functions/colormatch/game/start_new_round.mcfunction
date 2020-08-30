@@ -5,7 +5,7 @@ execute positioned 1001 10 4000 run clone ~ ~ ~ ~24 ~ ~24 1050 15 4000
 
 # 设置倒计时
 execute if score $color_match_time mem matches 37.. run scoreboard players remove $color_match_time mem 5
-execute if score $color_match_time mem matches 12..36 run scoreboard players remove $color_match_time mem 1
+execute if score $color_match_time mem matches 11..36 run scoreboard players remove $color_match_time mem 1
 scoreboard players operation $countdown_fast mem = $color_match_time mem
 
 # 重置分数
@@ -25,6 +25,9 @@ scoreboard players operation $countdown_max mem = $countdown_fast mem
 scoreboard players set $bossbar_type mem 1
 function lib:bossbar/show
 bossbar set mini:red name "地板消失"
+
+# 给予进度
+execute if score $countdown_max mem matches 10 as @a[tag=!debug,gamemode=adventure] run advancement grant @s only ltw:parkour/colormatch1
 
 # 物品栏显示
 execute if score $color_match_floor mem matches 1 run replaceitem entity @a hotbar.8 acacia_planks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
