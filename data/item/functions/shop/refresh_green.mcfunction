@@ -5,6 +5,6 @@ execute unless entity @s[scores={green=0..}] run scoreboard players set @s green
 clear @s emerald
 
 # 获取绿宝石数，存于 temp
-scoreboard players operation @s temp = @s emerald
+scoreboard players operation @s temp = @s green
 # 给予金粒
 execute if score @s temp matches 1.. at @s run function item:shop/summon_emerald
