@@ -4,11 +4,8 @@
         "item": "minecraft:wooden_axe"
       },
       "title": {
-        "text":"竞技          "
+        "text":"竞技"
       },
-      "description": [
-        {"text": "还好, 这里不会因为一轮的失败就把你淘汰……", "color":"gray"}
-      ],
       "frame": "task",
       "show_toast": false,
       "announce_to_chat": false,
