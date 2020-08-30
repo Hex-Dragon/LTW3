@@ -1,6 +1,7 @@
 # 刷新单个玩家背包中的金粒
 
 execute unless entity @s[scores={gold=0..}] run scoreboard players set @s gold 0
+execute unless entity @s[scores={gold=0..}] run scoreboard players set @s gold_total 0
 clear @s gold_block
 clear @s gold_ingot
 clear @s gold_nugget

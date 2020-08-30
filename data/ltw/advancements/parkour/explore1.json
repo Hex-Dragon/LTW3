@@ -8,7 +8,7 @@
         "text": "闲来无事"
       },
       "description": [
-        {"text": "完成大厅中的旅途", "color":"gray"},
+        {"text": "完成大厅中的旅途\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "1 绿宝石","color":"white"}
       ],

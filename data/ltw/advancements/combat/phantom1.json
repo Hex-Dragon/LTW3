@@ -8,7 +8,7 @@
         "text": "狩猎学徒"
       },
       "description": [
-        {"text": "在月夜狩猎小游戏中击杀 8 只幻翼", "color":"gray"},
+        {"text": "在月夜狩猎小游戏中击杀 8 只幻翼\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "1 绿宝石","color":"white"}
       ],
