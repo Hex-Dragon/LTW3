@@ -5,10 +5,10 @@
         "item": "minecraft:tnt"
       },
       "title": {
-        "text": "炸弹仁      "
+        "text": "炸弹仁        "
       },
       "description": [
-        {"text": "在炸弹狂魔小游戏中获胜, 且剩余 3 心或更多的生命值\n", "color":"gray"},
+        {"text": "在炸弹狂魔中获胜, 且剩余 3 心或更多的生命值\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "3 绿宝石","color":"white"}
       ],

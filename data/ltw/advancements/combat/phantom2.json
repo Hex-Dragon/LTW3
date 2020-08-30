@@ -5,10 +5,10 @@
         "item": "minecraft:arrow"
       },
       "title": {
-        "text": "狩猎大师    "
+        "text": "狩猎大师      "
       },
       "description": [
-        {"text": "在月夜狩猎小游戏中击杀 16 只幻翼\n", "color":"gray"},
+        {"text": "在月夜狩猎中击杀 16 只幻翼\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "2 绿宝石","color":"white"}
       ],

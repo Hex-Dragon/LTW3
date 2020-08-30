@@ -5,10 +5,10 @@
         "item": "minecraft:ender_chest"
       },
       "title": {
-        "text": "宝藏之神    "
+        "text": "宝藏之神      "
       },
       "description": [
-        {"text": "在遗迹寻宝小游戏中收集全部宝藏\n", "color":"gray"},
+        {"text": "在遗迹寻宝中收集全部宝藏\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "3 绿宝石","color":"white"}
       ],

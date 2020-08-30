@@ -1,14 +1,14 @@
 {
-    "parent": "ltw:combat/phantom2",
+    "parent": "ltw:parkour/tnt1",
     "display": {
       "icon": {
-        "item": "minecraft:spectral_arrow"
+        "item": "minecraft:crying_obsidian"
       },
       "title": {
-        "text": "狩猎之神      "
+        "text": "圣坛之主      "
       },
       "description": [
-        {"text": "在月夜狩猎中击杀 24 只幻翼\n", "color":"gray"},
+        {"text": "在地陷圣坛中获胜, 且位于第 3 或第 4 层\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "3 绿宝石","color":"white"}
       ],
@@ -21,13 +21,13 @@
       "function": "ltw:advancement/bonus_3"
     },
     "criteria": {
-      "finish":{
+      "get_score":{
           "trigger": "minecraft:impossible"
       }
     },
     "requirements": [
       [
-          "finish"
+          "get_score"
       ]
     ]
   }
