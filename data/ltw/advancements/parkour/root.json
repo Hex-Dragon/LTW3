@@ -7,7 +7,7 @@
       "text":"跑酷"
     },
     "description": [
-      {"text": "跑酷的时光开始了……", "color":"gray"}
+      {"text": "这很简单, 只是从这里跳到那里而已", "color":"gray"}
     ],
     "frame": "task",
     "show_toast": false,

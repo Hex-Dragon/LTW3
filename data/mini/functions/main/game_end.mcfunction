@@ -22,9 +22,12 @@ tag @a[tag=mini_rank2] add max_uncounted
 function mini:main/get_max_score
 execute as @a[tag=!max_uncounted] if score @s mini_score = #score_max mem run tag @s[tag=!watcher] add mini_rank3
 tag @a[tag=max_uncounted] remove max_uncounted
-
 # 4
 tag @a[tag=!mini_rank1,tag=!mini_rank2,tag=!mini_rank3,tag=!watcher] add mini_rank4
+
+# 给予进度
+execute if score $mini_type mem matches 3 as @a[tag=mini_rank1] run advancement grant @s only ltw:vs/potato1
+execute if score $mini_type mem matches 3 as @a[tag=mini_rank1,scores={mini_heart=3..}] run advancement grant @s only ltw:vs/potato2
 
 # 进入状态 6
 function ltw:state/6/state_enter
