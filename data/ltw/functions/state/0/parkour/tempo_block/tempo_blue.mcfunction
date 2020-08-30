@@ -5,4 +5,4 @@ execute at @e[type=armor_stand,tag=lobby_tempo,tag=tempo_red_r] run setblock ~ ~
 execute at @e[type=armor_stand,tag=lobby_tempo,tag=tempo_blue_r] run setblock ~ ~0.4 ~ redstone_block
 
 # 播放音效
-execute at @e[type=armor_stand,tag=lobby_tempo] run playsound block.note_block.pling block @a ~ ~0.4 ~ 0.5 0.6
+execute at @e[type=armor_stand,tag=lobby_tempo] run playsound block.note_block.pling block @a[distance=..7] ~ ~0.4 ~ 0.5 0.6
