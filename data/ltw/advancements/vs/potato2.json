@@ -1,11 +1,11 @@
 {
-    "parent": "ltw:vs/potato2",
+    "parent": "ltw:vs/potato1",
     "display": {
       "icon": {
         "item": "minecraft:tnt"
       },
       "title": {
-        "text": "炸弹仁"
+        "text": "炸弹仁      "
       },
       "description": [
         {"text": "在炸弹狂魔小游戏中获胜, 且剩余 3 心或更多的生命值\n", "color":"gray"},
