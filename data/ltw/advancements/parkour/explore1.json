@@ -1,16 +1,16 @@
 {
-    "parent": "ltw:combat/phantom_1",
+    "parent": "ltw:parkour/root",
     "display": {
       "icon": {
-        "item": "minecraft:diamond_sword"
+        "item": "minecraft:mossy_cobblestone"
       },
       "title": {
-        "text": "狩猎老手"
+        "text": "闲来无事"
       },
       "description": [
-        {"text": "在月夜狩猎小游戏中击杀 16 只幻翼\n", "color":"gray"},
+        {"text": "完成大厅中的旅途", "color":"gray"},
         {"text": "奖励: ","color":"green"},
-        {"text": "4 金粒","color":"white"}
+        {"text": "1 绿宝石","color":"white"}
       ],
       "frame": "task",
       "show_toast": true,
@@ -21,13 +21,13 @@
       "function": "ltw:advancement/bonus_1"
     },
     "criteria": {
-      "get_score":{
+      "finish":{
           "trigger": "minecraft:impossible"
       }
     },
     "requirements": [
       [
-          "get_score"
+          "finish"
       ]
     ]
   }

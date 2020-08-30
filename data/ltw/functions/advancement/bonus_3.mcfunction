@@ -1,3 +1,3 @@
-scoreboard players add @s green 2
-scoreboard players add @s green_total 2
+scoreboard players add @s green 3
+scoreboard players add @s green_total 3
 execute if score $state mem matches 0 run function item:shop/refresh_green

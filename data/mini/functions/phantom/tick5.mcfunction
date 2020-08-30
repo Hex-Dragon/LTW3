@@ -10,6 +10,6 @@ execute as @a[tag=!watcher,scores={temp=1..,kill_phantom2=0}] run tellraw @a [""
 execute as @a[tag=!watcher] run scoreboard players operation @s kill_phantom2 = @s kill_phantom
 
 # 给予进度
-execute as @a[tag=!watcher,scores={temp=1..,kill_phantom=8}] run advancement grant @s only ltw:combat/phantom_1
-execute as @a[tag=!watcher,scores={temp=1..,kill_phantom=16}] run advancement grant @s only ltw:combat/phantom_2
-execute as @a[tag=!watcher,scores={temp=1..,kill_phantom=24}] run advancement grant @s only ltw:combat/phantom_3
+execute as @a[tag=!watcher,scores={temp=1..,kill_phantom=8}] run advancement grant @s only ltw:combat/phantom1
+execute as @a[tag=!watcher,scores={temp=1..,kill_phantom=16}] run advancement grant @s only ltw:combat/phantom2
+execute as @a[tag=!watcher,scores={temp=1..,kill_phantom=24}] run advancement grant @s only ltw:combat/phantom3

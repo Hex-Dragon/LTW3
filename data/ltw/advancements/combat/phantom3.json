@@ -1,16 +1,16 @@
 {
-    "parent": "ltw:combat/phantom_2",
+    "parent": "ltw:combat/phantom2",
     "display": {
       "icon": {
-        "item": "minecraft:netherite_sword"
+        "item": "minecraft:spectral_arrow"
       },
       "title": {
-        "text": "狩猎大师"
+        "text": "狩猎之神"
       },
       "description": [
         {"text": "在月夜狩猎小游戏中击杀 24 只幻翼\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
-        {"text": "1 金锭","color":"white"}
+        {"text": "3 绿宝石","color":"white"}
       ],
       "frame": "challenge",
       "show_toast": true,
@@ -18,7 +18,7 @@
       "hidden": false
     },
     "rewards": {
-      "function": "ltw:advancement/bonus_2"
+      "function": "ltw:advancement/bonus_3"
     },
     "criteria": {
       "finish":{

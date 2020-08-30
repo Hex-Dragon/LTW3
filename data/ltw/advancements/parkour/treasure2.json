@@ -1,18 +1,18 @@
 {
-    "parent": "ltw:parkour/treasure_2",
+    "parent": "ltw:parkour/treasure1",
     "display": {
       "icon": {
-        "item": "minecraft:netherite_scrap"
+        "item": "minecraft:chest"
       },
       "title": {
-        "text": "寻宝大师"
+        "text": "宝藏大师"
       },
       "description": [
-        {"text": "在遗迹寻宝小游戏中收集全部宝藏\n", "color":"gray"},
+        {"text": "在遗迹寻宝小游戏中收集 7 处宝藏\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
-        {"text": "1 金锭","color":"white"}
+        {"text": "2 绿宝石","color":"white"}
       ],
-      "frame": "challenge",
+      "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false

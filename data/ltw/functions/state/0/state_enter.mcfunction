@@ -6,9 +6,9 @@ scoreboard players set $state mem 0
 execute as @a run function ltw:state/0/player_enter
 
 # HUD
-scoreboard objectives setdisplay belowName gold_total
-scoreboard objectives setdisplay sidebar gold_total
-scoreboard objectives setdisplay list gold_total
+scoreboard objectives setdisplay belowName green_total
+scoreboard objectives setdisplay sidebar green_total
+scoreboard objectives setdisplay list green_total
 scoreboard players set $bossbar_type mem 0
 function lib:bossbar/show
 

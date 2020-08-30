@@ -45,6 +45,6 @@ tellraw @a[tag=get_treasure,scores={treasure=..9}] ["",{"text":">> ","color":"gr
 execute as @a[tag=get_treasure,scores={treasure=10}] run function mini:parkour/player_finished
 execute as @a[tag=get_treasure] at @s run function lib:sounds/levelup
 
-execute as @a[tag=get_treasure] if score @s treasure matches 4 run advancement grant @s only ltw:parkour/treasure_1
-execute as @a[tag=get_treasure] if score @s treasure matches 7 run advancement grant @s only ltw:parkour/treasure_2
-execute as @a[tag=get_treasure] if score @s treasure matches 10 run advancement grant @s only ltw:parkour/treasure_3
+execute as @a[tag=get_treasure] if score @s treasure matches 4 run advancement grant @s only ltw:parkour/treasure1
+execute as @a[tag=get_treasure] if score @s treasure matches 7 run advancement grant @s only ltw:parkour/treasure2
+execute as @a[tag=get_treasure] if score @s treasure matches 10 run advancement grant @s only ltw:parkour/treasure3

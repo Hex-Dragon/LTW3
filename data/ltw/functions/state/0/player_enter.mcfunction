@@ -29,6 +29,7 @@ tp @s[tag=!debug] -10 8 -42 68 -20
 # 刷新物品
 clear @s[tag=!debug]
 execute as @s[tag=!debug] run function item:shop/refresh_gold
+execute as @s[tag=!debug] run function item:shop/refresh_green
 
 # 默认进入待机状态
 function item:lobby_state/join_watch

@@ -1,24 +1,24 @@
 {
-    "parent": "ltw:parkour/explore_1",
+    "parent": "ltw:parkour/explore2",
     "display": {
       "icon": {
-        "item": "minecraft:diamond_boots"
+        "item": "minecraft:gilded_blackstone"
       },
       "title": {
-        "text": "探索老手"
+        "text": "空手而返"
       },
       "description": [
-        {"text": "完成等待大厅的跑酷\n", "color":"gray"},
+        {"text": "到达神秘的老板面前\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
-        {"text": "4 金粒","color":"white"}
+        {"text": "3 绿宝石","color":"white"}
       ],
-      "frame": "task",
+      "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
     "rewards": {
-      "function": "ltw:advancement/bonus_1"
+      "function": "ltw:advancement/bonus_3"
     },
     "criteria": {
       "finish":{

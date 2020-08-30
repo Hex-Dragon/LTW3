@@ -1,21 +1,21 @@
 {
-    "parent": "ltw:parkour/explore_2",
+    "parent": "ltw:parkour/explore1",
     "display": {
       "icon": {
-        "item": "minecraft:netherite_boots"
+        "item": "minecraft:crimson_hyphae"
       },
       "title": {
-        "text": "探索大师"
+        "text": "挑战自我"
       },
       "description": [
-        {"text": "完成等待大厅的超级隐藏跑酷\n", "color":"gray"},
+        {"text": "完成大厅中隐藏的跑酷\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
-        {"text": "1 金锭","color":"white"}
+        {"text": "2 绿宝石","color":"white"}
       ],
-      "frame": "challenge",
+      "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
-      "hidden": true
+      "hidden": false
     },
     "rewards": {
       "function": "ltw:advancement/bonus_2"
