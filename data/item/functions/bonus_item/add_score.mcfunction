@@ -38,3 +38,8 @@ execute if score #bonus_add_score mem matches 200 if entity @s[tag=!highest] run
 execute if score #bonus_add_score mem matches 300 run scoreboard players add @s gold 2
 execute if score #bonus_add_score mem matches 300 run scoreboard players add @s gold_total 2
 execute if score #bonus_add_score mem matches 300 run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 获得了 2 金粒"]
+
+# 给予进度
+execute if entity @s[scores={total_score=6..}] run advancement grant @s only ltw:story/score1
+execute if entity @s[scores={total_score=12..}] run advancement grant @s only ltw:story/score2
+execute if entity @s[scores={total_score=18..}] run advancement grant @s only ltw:story/score3
