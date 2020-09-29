@@ -30,6 +30,8 @@ setblock 0 0 0 jukebox
 # 记分板
 scoreboard objectives remove temp
 scoreboard objectives add temp dummy
+scoreboard objectives remove temp2
+scoreboard objectives add temp2 dummy
 scoreboard objectives remove countdown
 scoreboard objectives add countdown dummy "倒计时"
 scoreboard objectives remove countdown_fast

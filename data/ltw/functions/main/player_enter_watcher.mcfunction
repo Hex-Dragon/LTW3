@@ -20,3 +20,6 @@ execute if score $state mem matches 5 run function ltw:state/5/player_enter
 execute if score $state mem matches 6 run function ltw:state/6/player_enter
 execute if score $state mem matches 7 run function ltw:state/7/player_enter
 tag @s remove rejoining
+
+# 显示倒计时
+scoreboard players set @s temp 0
