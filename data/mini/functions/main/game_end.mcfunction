@@ -26,8 +26,8 @@ tag @a[tag=max_uncounted] remove max_uncounted
 tag @a[tag=!mini_rank1,tag=!mini_rank2,tag=!mini_rank3,tag=!watcher] add mini_rank4
 
 # 给予进度
-execute if score $mini_type mem matches 1 as @a[tag=mini_rank1] run advancement grant @s only ltw:parkour/tnt1
-execute if score $mini_type mem matches 1 as @a[tag=mini_rank1,scores={layer=3..}] run advancement grant @s only ltw:parkour/tnt2
+execute if score $mini_type mem matches 2 as @a[tag=mini_rank1] run advancement grant @s only ltw:parkour/tnt1
+execute if score $mini_type mem matches 2 as @a[tag=mini_rank1,scores={layer=3..}] run advancement grant @s only ltw:parkour/tnt2
 execute if score $mini_type mem matches 3 as @a[tag=mini_rank1] run advancement grant @s only ltw:vs/potato1
 execute if score $mini_type mem matches 3 as @a[tag=mini_rank1,scores={mini_heart=3..}] run advancement grant @s only ltw:vs/potato2
 execute if score $mini_type mem matches 4 if score $countdown_max mem matches 10 as @a[tag=mini_rank1] run advancement grant @s only ltw:parkour/colormatch2
