@@ -7,11 +7,11 @@ function lib:random
 # 20 大成功：获得 2 金块
 execute if score $random mem matches 20 run function ltw:state/0/roll_dice/super_win
 
-# 19-18 / 10% 成功：返还 1 金锭
-execute if score $random mem matches 18..19 run function ltw:state/0/roll_dice/win
+# 19-16 / 20% 成功：返还 1 金锭
+execute if score $random mem matches 16..19 run function ltw:state/0/roll_dice/win
 
-# 17-2 / 80% 失败：不返还
-execute if score $random mem matches 2..17 run function ltw:state/0/roll_dice/lose
+# 15-2 / 70% 失败：不返还
+execute if score $random mem matches 2..15 run function ltw:state/0/roll_dice/lose
 
 # 1 大失败：归零
 execute if score $random mem matches 1 run function ltw:state/0/roll_dice/super_lose
