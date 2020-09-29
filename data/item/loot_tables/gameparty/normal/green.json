@@ -2,7 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 15,
+    "weight": 16,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -17,7 +17,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 5,
+    "weight": 4,
     "name": "minecraft:emerald",
     "functions": [
         {
