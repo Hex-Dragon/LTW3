@@ -24,5 +24,6 @@ function lib:bossbar/show
 
 # FIXME: [010] 在 init 的时候也重置随机数组
 # FIXME: [010] 已确认确实可以用钓鱼竿获得两个奖励
-# FIXME: [LTCat] 旁观者在游戏开局的时候似乎会看到 2 然后 ding
+# FIXME: [LTCat] 在游戏开局的时候可能会看到 2 然后 ding
 # TODO: [LTCat/HIM] 土豆的两个炸弹同时爆炸把两个人炸死，让他们俩并列第三（按存活回合数记分）
+# FIXME: 物品可以丢给其他人
