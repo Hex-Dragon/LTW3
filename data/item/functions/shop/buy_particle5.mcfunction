@@ -7,7 +7,7 @@ tag @s[scores={shop_particle_s=1..,shop_particle_5=0,green=6..}] add canbuy
 tellraw @s[scores={shop_particle_s=0}] ["",{"text":">> ","color":"red","bold":true},{"text":"你需要先在左侧购买尾迹特效才能切换尾迹种类!","color":"red"}]
 execute as @s[scores={shop_particle_s=0}] at @s run function lib:sounds/error
 
-tellraw @s[scores={shop_particle_s=1..,shop_particle_5=1..}] ["",{"text":">> ","color":"aqua","bold":true},"尾迹特效已切换为 ",{"text":"炫彩","color":"aqua"}]
+tellraw @s[scores={shop_particle_s=1..,shop_particle_5=1..}] ["",{"text":">> ","color":"green","bold":true},"尾迹特效已切换为 ",{"text":"炫彩","color":"green"}]
 execute as @s[scores={shop_particle_s=1..,shop_particle_5=1..}] at @s run function lib:sounds/hit
 
 tellraw @s[scores={shop_particle_s=1..,shop_particle_5=0,green=..5}] ["",{"text":">> ","color":"red","bold":true},{"text":"你没有足够的绿宝石来购买它!","color":"red"}]
