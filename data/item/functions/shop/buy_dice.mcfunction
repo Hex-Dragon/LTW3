@@ -11,6 +11,5 @@ tellraw @s[scores={shop_dice=..-1}] ["",{"text":">> ","color":"red","bold":true}
 execute as @s[tag=canbuy] run function ltw:state/0/roll_dice/roll
 scoreboard players remove @s[tag=canbuy] gold 9
 execute as @s[tag=!canbuy] at @s run function lib:sounds/error
-execute as @s[tag=canbuy] at @s run function lib:sounds/levelup
 execute as @s[tag=canbuy] run function item:shop/refresh_gold
 tag @s remove canbuy
