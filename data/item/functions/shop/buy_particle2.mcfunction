@@ -2,7 +2,8 @@
 # 触发器ID 104
 execute unless entity @s[scores={shop_particle_2=0..}] run scoreboard players set @s shop_particle_2 0
 tag @s remove canbuy
-tag @s[scores={shop_particle_2=0,green=3..},tag=particle] add canbuy
+tag @s[scores={shop_particle_s=1,shop_particle_2=0,green=3..}] add canbuy
+
 tellraw @s[scores={shop_particle_2=1..},tag=!show_particle_2] ["",{"text":">> ","color":"aqua","bold":true},{"text":"成功切换 ","color":"aqua"},{"text":"素雅粒子","color":"green"}]
 tellraw @s[scores={shop_particle_2=1..},tag=show_particle_2] ["",{"text":">> ","color":"aqua","bold":true},{"text":"你已经激活了 ","color":"aqua"},{"text":"素雅粒子","color":"green"}]
 tellraw @s[scores={shop_particle_2=0,green=..2},tag=particle] ["",{"text":">> ","color":"red","bold":true},{"text":"你没有足够的绿宝石来购买这个粒子!","color":"red"}]
