@@ -2,7 +2,7 @@
     "parent": "ltw:story/total1",
     "display": {
       "icon": {
-        "item": "minecraft:melon"
+        "item": "minecraft:melon_slice"
       },
       "title": {
         "text": "驾轻就熟      "
