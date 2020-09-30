@@ -27,4 +27,3 @@ function lib:bossbar/show
 # FIXME: [LTCat] 在游戏开局的时候可能会看到 2 然后 ding
 # TODO: [LTCat/HIM] 土豆的两个炸弹同时爆炸把两个人炸死，让他们俩并列第三（按存活回合数记分）
 # FIXME: 物品可以丢给其他人
-# FIXME: 无法获取 [终局迷阵] 进度
