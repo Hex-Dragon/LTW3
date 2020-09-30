@@ -15,6 +15,9 @@ function lib:effect/floating
 # 调用节奏方块模块
 execute if score $tempo_enable mem matches 1 run function lib:tempo_block/tick2
 
+# 调用粒子模块
+function item:particle/show_particle
+
 # 调用物品模块（必须最后调用）
 function item:tick2
 
