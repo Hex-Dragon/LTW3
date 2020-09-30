@@ -1,7 +1,7 @@
 
 # 随机时间
-scoreboard players set $random_min mem -5
-scoreboard players set $random_max mem 5
+scoreboard players set $random_min mem -4
+scoreboard players set $random_max mem 4
 function lib:random
 scoreboard players operation $countdown_fast mem += $random mem
 execute if score $countdown_fast mem matches ..0 run scoreboard players set $countdown_fast mem 0
