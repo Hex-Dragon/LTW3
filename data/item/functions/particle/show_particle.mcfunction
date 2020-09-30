@@ -1,3 +1,4 @@
+tag @a[tag=!particle] add particle
 # 播放粒子效果
 execute as @e[tag=show_particle_1] at @s run particle minecraft:composter ~ ~ ~ 0.15 0 0.15 0.001 2 force @a[tag=particle]
 execute as @e[tag=show_particle_2] at @s run particle dust 1 1 1 1.5 ~ ~ ~ 0.15 0 0.15 0.001 2 force @a[tag=particle]
