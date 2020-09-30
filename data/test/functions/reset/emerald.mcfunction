@@ -9,4 +9,4 @@ scoreboard objectives remove shop_particle_5
 scoreboard objectives remove shop_particle_6
 scoreboard objectives remove particle_type
 function ltw:init
-tellraw @a ["",{"text": ">> ","color": "red","bold":true},{"text":" 已重置绿宝石记分板记录!","color":"red"}]
+tellraw @a ["",{"text": ">> ","color": "red","bold":true},{"text":"已重置绿宝石记分板记录!","color":"red"}]

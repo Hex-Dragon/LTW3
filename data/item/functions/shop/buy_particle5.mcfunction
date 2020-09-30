@@ -1,5 +1,6 @@
 # 炫彩粒子 (6 e)
 # 触发器ID 107
+execute unless entity @s[scores={shop_particle_s=0..}] run scoreboard players set @s shop_particle_s 0
 execute unless entity @s[scores={shop_particle_5=0..}] run scoreboard players set @s shop_particle_5 0
 tag @s remove canbuy
 tag @s[scores={shop_particle_s=1..,shop_particle_5=0,green=6..}] add canbuy

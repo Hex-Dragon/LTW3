@@ -1,5 +1,6 @@
 # 水滴粒子 (3 e)
 # 触发器ID 105
+execute unless entity @s[scores={shop_particle_s=0..}] run scoreboard players set @s shop_particle_s 0
 execute unless entity @s[scores={shop_particle_3=0..}] run scoreboard players set @s shop_particle_3 0
 tag @s remove canbuy
 tag @s[scores={shop_particle_s=1..,shop_particle_3=0,green=3..}] add canbuy

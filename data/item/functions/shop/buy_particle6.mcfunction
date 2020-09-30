@@ -1,5 +1,6 @@
 # 魂焰粒子 (1 eb)
 # 触发器ID 108
+execute unless entity @s[scores={shop_particle_s=0..}] run scoreboard players set @s shop_particle_s 0
 execute unless entity @s[scores={shop_particle_6=0..}] run scoreboard players set @s shop_particle_6 0
 tag @s remove canbuy
 tag @s[scores={shop_particle_s=1..,shop_particle_6=0,green=9..}] add canbuy
