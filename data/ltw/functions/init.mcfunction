@@ -56,6 +56,7 @@ scoreboard objectives add effect_floating dummy "悬浮计时"
 scoreboard objectives remove game_id
 scoreboard objectives add game_id dummy "游戏编号"
 scoreboard players set $ game_id 0
+scoreboard objectives add particle_type dummy "粒子种类"
 
 # 商店系统记分板
 scoreboard objectives add gold dummy "金粒"
@@ -77,7 +78,6 @@ scoreboard objectives add shop_bgm dummy "BGM"
 scoreboard objectives add shop_pig dummy "猪叫"
 scoreboard objectives add shop_easter_egg dummy "臭彩蛋"
 scoreboard objectives add shop_particle_s dummy "粒子效果系统"
-scoreboard objectives add shop_particle_1 dummy "粒子效果1"
 scoreboard objectives add shop_particle_2 dummy "粒子效果2"
 scoreboard objectives add shop_particle_3 dummy "粒子效果3"
 scoreboard objectives add shop_particle_4 dummy "粒子效果4"
