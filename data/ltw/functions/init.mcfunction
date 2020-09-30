@@ -57,13 +57,11 @@ scoreboard objectives remove game_id
 scoreboard objectives add game_id dummy "游戏编号"
 scoreboard players set $ game_id 0
 
-# 货币存储
+# 商店系统记分板
 scoreboard objectives add gold dummy "金粒"
 scoreboard objectives add gold_total dummy "总金粒"
 scoreboard objectives add green dummy "绿宝石"
 scoreboard objectives add green_total dummy "总绿宝石"
-
-# 商店系统记分板
 scoreboard objectives add buy_trigger trigger "触发器_购买物品"
 scoreboard objectives add shop_arrow dummy "箭升级"
 scoreboard objectives add shop_potion dummy "药水升级"
@@ -79,6 +77,8 @@ scoreboard objectives add shop_bgm dummy "BGM"
 scoreboard objectives add shop_pig dummy "猪叫"
 scoreboard objectives add shop_easter_egg dummy "臭彩蛋"
 scoreboard objectives add shop_dice dummy "骰子"
+scoreboard objectives add stat_total dummy "总场次"
+scoreboard objectives add stat_win dummy "总胜场"
 
 # 常量与变量初始化
 scoreboard players set #mini_total mem 5

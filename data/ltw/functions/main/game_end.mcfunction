@@ -66,6 +66,16 @@ execute as @a run scoreboard players operation @s gold += @s temp
 execute as @a run scoreboard players operation @s gold_total += @s temp
 tellraw @a[tag=!watcher] [" ",{"text": "名次奖励: ","color":"gold"},{"score":{"name": "*","objective": "temp"}}," 金粒"]
 
+# 给予进度
+scoreboard players add @a[tag=!watcher] stat_total 1
+advancement grant @a[scores={stat_total=5..}] only ltw:story/total1
+advancement grant @a[scores={stat_total=20..}] only ltw:story/total2
+advancement grant @a[scores={stat_total=50..}] only ltw:story/total3
+scoreboard players add @a[tag=total_rank1] stat_win 1
+advancement grant @a[scores={stat_win=1..}] only ltw:story/win1
+advancement grant @a[scores={stat_win=5..}] only ltw:story/win2
+advancement grant @a[scores={stat_win=20..}] only ltw:story/win3
+
 # 奖励结束
 tellraw @a[tag=!watcher] ""
 
