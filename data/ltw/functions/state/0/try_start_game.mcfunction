@@ -1,9 +1,8 @@
-# 尝试开始任意游戏
+# 尝试开始游戏
 
 # 进行条件判断
 execute if score $countdown mem matches 0 run scoreboard players set $countdown mem 999
-execute if score $game_type mem matches 0 run function ltw:state/0/try_start_classic
-execute if score $game_type mem matches 1 run function ltw:state/0/try_start_gameparty
+function ltw:state/0/try_start_gameparty
 
 # 进行提示
 execute if score $countdown mem matches 999 run tellraw @a [{"text":"","color":"green"},{"text": ">> ","bold": true},"游戏即将开始, 请使用快捷栏最后一格确定自己是否参与!"]

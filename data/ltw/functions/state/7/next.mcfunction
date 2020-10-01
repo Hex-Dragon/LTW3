@@ -18,8 +18,8 @@ execute unless entity @a[tag=new_selector] if entity @a[tag=selecting] run tellr
 
 # 以玩家为对象开始执行
 execute as @a[tag=new_selector] run function ltw:state/7/next2
-execute unless entity @a[tag=new_selector] if score $game_type mem matches 1 if score $round mem matches 5.. run function ltw:main/game_end
-execute unless entity @a[tag=new_selector] if score $game_type mem matches 1 if score $round mem matches ..4 run function ltw:state/7/continue_gameparty
+execute unless entity @a[tag=new_selector] if score $round mem matches 5.. run function ltw:main/game_end
+execute unless entity @a[tag=new_selector] if score $round mem matches ..4 run function ltw:state/7/continue_gameparty
 
 # 初始化倒计时与 HUD
 scoreboard players set $countdown mem 10

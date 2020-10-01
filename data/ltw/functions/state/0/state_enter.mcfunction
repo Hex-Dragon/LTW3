@@ -30,6 +30,3 @@ function ltw:state/0/parkour/tempo_block/marker_spawn
 
 # 重置开始倒计时
 scoreboard players set $countdown mem 0
-
-# 重置当前状态
-function ltw:state/0/refresh_game_type
