@@ -1,5 +1,5 @@
 # 让无状态玩家变为准备状态
-execute as @a[tag=!lobby_ready,tag=!lobby_watch] run function item:lobby_state/join_watch
+execute as @a[tag=!lobby_ready,tag=!lobby_watch] run function ltw:state/0/state/join_watch
 
 # 给予进度
 execute as @a at @s if entity @s[x=-1,y=22,z=-29,dx=5,dy=3,dz=3] run advancement grant @s only ltw:parkour/explore1

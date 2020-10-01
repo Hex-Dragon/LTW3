@@ -32,4 +32,4 @@ execute as @s[tag=!debug] run function item:shop/refresh_gold
 execute as @s[tag=!debug] run function item:shop/refresh_green
 
 # 默认进入待机状态
-function item:lobby_state/join_watch
+function ltw:state/0/state/join_watch
