@@ -90,6 +90,7 @@ scoreboard objectives add stat_win dummy "总胜场"
 # 常量与变量初始化
 scoreboard players set #mini_total mem 5
 scoreboard players set #const_2 mem 2
+scoreboard players set #const_4 mem 4
 scoreboard players set #const_5 mem 5
 scoreboard players set #const_9 mem 9
 scoreboard players set #const_10 mem 10
