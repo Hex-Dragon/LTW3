@@ -30,14 +30,14 @@ execute if score $count mem matches ..2 if score #start_countdown mem matches ..
 # 计算实际时间
 scoreboard players remove #start_countdown mem 1
 scoreboard players operation #start_sec mem = #start_countdown mem
-scoreboard players operation #start_sec mem %= #const_4 mem
+scoreboard players operation #start_sec mem /= #const_4 mem
 
 # 20s：提示未准备
-execute if score #start_sec mem matches 20 run tellraw @a[tag=!lobby_ready] [{"text":"","color":"red"},{"text":">> ","bold": true},"你现在还没有准备, 如果要参加游戏, 请丢出快捷栏最后一格的物品!"]
+execute if score #start_sec mem matches 20 run tellraw @a[tag=!lobby_ready] [{"text":"","color":"red"},{"text":">> ","bold": true},"你还没有准备, 如果要参加游戏, 请丢出快捷栏最后一格的物品!"]
 
 # 30、10s：提示玩家数量过多
-execute if score #start_sec mem matches 30 if score $count mem matches 9.. run tellraw @a [{"text":"","color":"gold"},{"text":">> ","bold": true},"游戏最多支持 8 人, 当前已有 ",{"score": { "name": "$count","objective": "mem"}}, " 人, 将随机抽取 8 人开始游戏!"]
-execute if score #start_sec mem matches 10 if score $count mem matches 9.. run tellraw @a [{"text":"","color":"gold"},{"text":">> ","bold": true},"游戏最多支持 8 人, 当前已有 ",{"score": { "name": "$count","objective": "mem"}}, " 人, 将随机抽取 8 人开始游戏!"]
+execute if score #start_sec mem matches 30 if score $count mem matches 9.. run tellraw @a [{"text":"","color":"gold"},{"text":">> ","bold": true},"已超出游戏最多支持的 8 人人数上限, 将随机抽取 8 人开始游戏!"]
+execute if score #start_sec mem matches 10 if score $count mem matches 9.. run tellraw @a [{"text":"","color":"gold"},{"text":">> ","bold": true},"已超出游戏最多支持的 8 人人数上限, 将随机抽取 8 人开始游戏!"]
 
 # 0s：开始游戏
 execute if score #start_sec mem matches 0 run function ltw:state/0/start_game
