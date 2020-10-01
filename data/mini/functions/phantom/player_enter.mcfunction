@@ -21,7 +21,7 @@ scoreboard players reset @s use_trident
 scoreboard players reset @s countdown
 
 # 传送玩家
-tp @s[tag=!debug] 1030.5 24.5 6031.5
+tp @s[tag=!watcher,tag=!debug] 1030.5 24.5 6031.5
 
 # 调整模式
 gamemode spectator @s[tag=!debug]
