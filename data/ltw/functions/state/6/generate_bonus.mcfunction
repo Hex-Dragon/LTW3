@@ -5,8 +5,8 @@ kill @e[type=item]
 kill @e[type=arrow]
 kill @e[type=trident]
 
-execute store result score #bonus_count mem if entity @a[tag=!watcher]
-# scoreboard players add #bonus_count mem 1
+#execute store result score #bonus_count mem if entity @a[tag=!watcher]
+scoreboard players set #bonus_count mem 8
 execute if score #bonus_count mem matches 1.. positioned 17.5 10.2 1967.5 run function item:bonus_item/gameparty/random
 execute if score #bonus_count mem matches 2.. positioned 19.5 10.2 1962.5 run function item:bonus_item/gameparty/random
 execute if score #bonus_count mem matches 3.. positioned 24.5 10.2 1960.5 run function item:bonus_item/gameparty/random
