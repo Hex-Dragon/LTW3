@@ -22,14 +22,14 @@ tag @s remove pm_explode_last
 
 
 # 传送玩家
-tp @s[team=!watching,tag=!rejoining,team=!debugging] 1023 25 3021
-# spreadplayers 1023 3021 5 5 false @s[team=!watching,tag=!rejoining,team=!debugging]
+tp @s[team=playing,tag=!rejoining] 1023 25 3021
+# spreadplayers 1023 3021 5 5 false @s[team=playing,tag=!rejoining]
 # schedule function mini:hotpm/player_enter2 1t replace
-# execute as @a[team=!watching,tag=!rejoining,team=!debugging] at @s run tp @s ~ 25 ~
+# execute as @a[team=playing,tag=!rejoining] at @s run tp @s ~ 25 ~
 
 # 调整模式
 gamemode spectator @s[team=!debugging]
-gamemode adventure @s[team=!watching,tag=!rejoining,team=!debugging]
+gamemode adventure @s[team=playing,tag=!rejoining]
 
 # 重新加入处理
 execute if entity @s[tag=rejoining] run function mini:main/player_failed

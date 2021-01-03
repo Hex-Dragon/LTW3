@@ -13,7 +13,7 @@ effect give @s resistance 1000000 4 true
 attribute @s generic.max_health base set 20
 
 # 传送玩家
-spreadplayers 1019.5 2020.5 2 2 false @s[team=!watching,tag=!rejoining,team=!debugging]
+spreadplayers 1019.5 2020.5 2 2 false @s[team=playing,tag=!rejoining]
 # schedule: tp @a ~ ~-3 ~
 
 # 两秒后才开始 TNT 掉落
@@ -22,7 +22,7 @@ tag @s remove tntrun_pc
 
 # 调整模式
 gamemode spectator @s[team=!debugging]
-gamemode adventure @s[team=!watching,tag=!rejoining,team=!debugging]
+gamemode adventure @s[team=playing,tag=!rejoining]
 
 # 重新加入处理
 execute if entity @s[tag=rejoining] run function mini:tntrun/player_failed
