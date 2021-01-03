@@ -1,5 +1,6 @@
 # 单个玩家开始小游戏时执行
 # TODO: 让 BGM 支持循环播放
+say 3
 function lib:sounds/music/mini_slow
 title @s clear
 title @s actionbar ""
