@@ -5,6 +5,7 @@ scoreboard players reset * treasure
 scoreboard players set $finish_mode mem 1
 scoreboard players set $tempo_enable mem 1
 scoreboard players set $countdown_fast mem 0
+scoreboard players set $survival mem 0
 
 # 生成地图
 setblock 1000 4 1000 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"00ll00",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:32,posZ:0,integrity:1.0f,showair:0b,name:"mini:parkour0",sizeY:32,sizeZ:32,showboundingbox:0b}

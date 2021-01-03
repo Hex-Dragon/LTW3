@@ -5,6 +5,7 @@ forceload remove 1000 5000 1064 5064
 gamerule doDaylightCycle false
 gamerule doLimitedCrafting true
 gamerule keepInventory true
+gamerule doTileDrops false
 
 # 计算得分
 execute as @a[team=playing] run scoreboard players operation @s mini_score += @s diamond
