@@ -40,6 +40,6 @@ execute positioned 1019.5 19.2 2020.5 run function item:bonus_item/gameparty/aut
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 0
-team modify player friendlyFire true
-team modify player collisionRule always
+team modify playing friendlyFire true
+team modify playing collisionRule always
 gamerule fallDamage false

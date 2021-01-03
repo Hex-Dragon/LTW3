@@ -51,6 +51,6 @@ effect give @e[tag=treasure_item] glowing 1000000 0 true
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 0
-team modify player friendlyFire false
-team modify player collisionRule never
+team modify playing friendlyFire false
+team modify playing collisionRule never
 gamerule fallDamage false

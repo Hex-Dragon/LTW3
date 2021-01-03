@@ -14,8 +14,8 @@ function lib:bossbar/show
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 0
-team modify player friendlyFire false
-team modify player collisionRule never
+team modify playing friendlyFire false
+team modify playing collisionRule never
 gamerule fallDamage false
 
 # 修改队伍颜色
@@ -32,4 +32,4 @@ scoreboard players set $tempo_enable mem 1
 function ltw:state/0/parkour/tempo_block/marker_spawn
 
 # 重置开始倒计时
-scoreboard players set #start_countdown mem 9999
+scoreboard players set #start_countdown mem 9999999

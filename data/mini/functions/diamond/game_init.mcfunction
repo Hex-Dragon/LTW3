@@ -15,6 +15,6 @@ kill @e[type=!player,x=950,y=0,z=4950,dx=100,dy=500,dz=100]
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 1
-team modify player friendlyFire true
-team modify player collisionRule always
+team modify playing friendlyFire true
+team modify playing collisionRule always
 gamerule fallDamage true
