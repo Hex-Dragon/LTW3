@@ -5,7 +5,7 @@ execute as @e[type=item] if data entity @s Thrower run function item:disable_thr
 execute as @a if data entity @s Inventory[{"tag":{"bonus_new":1b}}] run function item:bonus_item/call
 
 # 检测玩家格子锁定
-execute if score $state mem matches 1.. as @a[tag=!debug] run function item:disable_slot/check_slot
+execute if score $state mem matches 1.. as @a[team=!debugging] run function item:disable_slot/check_slot
 execute if score $state mem matches 0 as @a run function ltw:state/0/state/check_slot
 execute if score $state mem matches 0.. run kill @e[type=item,tag=LockTempItem]
 

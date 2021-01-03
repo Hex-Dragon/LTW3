@@ -7,5 +7,4 @@ replaceitem entity @s hotbar.8 gray_dye{lobby_item:1b,lobby_watch:1b,display:{Na
 execute at @s run function lib:sounds/hit2
 
 # 处理数据
-tag @s remove lobby_ready
-tag @s add lobby_watch
+team join watching @s

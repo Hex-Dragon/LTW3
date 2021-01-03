@@ -1,7 +1,5 @@
 # 测试用：快速开始 Hot Potato
-tag @a add lobby_ready
-tag @a remove lobby_watch
-tag @a remove watcher
+team join playing @a
 function ltw:state/0/start_gameparty
 scoreboard players set $round mem 5
 scoreboard players set $mini_type mem 3

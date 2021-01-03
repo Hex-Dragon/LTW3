@@ -18,7 +18,7 @@ execute as @a[tag=!max_uncounted] if score @s total_score = #score_max mem run t
 tag @a[tag=max_uncounted] remove max_uncounted
 
 # 给予进度
-scoreboard players add @a[tag=!watcher] stat_total 1
+scoreboard players add @a[team=!watching] stat_total 1
 advancement grant @a[scores={stat_total=5..}] only ltw:story/total1
 advancement grant @a[scores={stat_total=20..}] only ltw:story/total2
 advancement grant @a[scores={stat_total=50..}] only ltw:story/total3
@@ -29,9 +29,9 @@ advancement grant @a[scores={stat_win=20..}] only ltw:story/win3
 
 # 计算金粒奖励
 scoreboard players set #total_gold mem 0
-execute as @a[tag=!watcher] run scoreboard players add #total_gold mem 400
+execute as @a[team=!watching] run scoreboard players add #total_gold mem 400
 # 无名次
-execute as @a[tag=!total_rank1,tag=!total_rank2,tag=!total_rank3,tag=!watcher] run scoreboard players remove #total_gold mem 100
+execute as @a[tag=!total_rank1,tag=!total_rank2,tag=!total_rank3,team=!watching] run scoreboard players remove #total_gold mem 100
 # 计算总权重与单份奖励
 scoreboard players set #total_weight mem 0
 execute as @a[tag=total_rank1] run scoreboard players add #total_weight mem 3
@@ -49,7 +49,7 @@ scoreboard players set #rank3_gold mem 1
 scoreboard players operation #rank3_gold mem *= #total_gold mem
 scoreboard players operation #rank3_gold mem /= #const_100 mem
 # 如果因为掉线强制结束则无名次奖励
-execute store result score #count mem if entity @a[tag=!watcher]
+execute store result score #count mem if entity @a[team=!watching]
 execute if score #count mem matches ..2 run scoreboard players set #rank1_gold mem 0
 execute if score #count mem matches ..2 run scoreboard players set #rank2_gold mem 0
 execute if score #count mem matches ..2 run scoreboard players set #rank3_gold mem 0
@@ -62,22 +62,22 @@ execute if entity @a[tag=total_rank3] run tellraw @a [" ",{"text": "第三名 - 
 tellraw @a ""
 
 # 得分金粒奖励
-execute as @a[tag=!watcher] run scoreboard players operation @s gold += @s total_score
-execute as @a[tag=!watcher] run scoreboard players operation @s gold_total += @s total_score
-tellraw @a[tag=!watcher] [" ",{"text": "得分奖励: ","color":"gold"},{"score":{"name": "*","objective": "total_score"}}," 金粒"]
+execute as @a[team=!watching] run scoreboard players operation @s gold += @s total_score
+execute as @a[team=!watching] run scoreboard players operation @s gold_total += @s total_score
+tellraw @a[team=!watching] [" ",{"text": "得分奖励: ","color":"gold"},{"score":{"name": "*","objective": "total_score"}}," 金粒"]
 
 # 名次金粒奖励
 scoreboard players set @a temp 0
 execute as @a[tag=total_rank1] run scoreboard players operation @s temp = #rank1_gold mem
 execute as @a[tag=total_rank2] run scoreboard players operation @s temp = #rank2_gold mem
 execute as @a[tag=total_rank3] run scoreboard players operation @s temp = #rank3_gold mem
-scoreboard players set @a[tag=!total_rank1,tag=!total_rank2,tag=!total_rank3,tag=!watcher] temp 1
+scoreboard players set @a[tag=!total_rank1,tag=!total_rank2,tag=!total_rank3,team=!watching] temp 1
 execute as @a run scoreboard players operation @s gold += @s temp
 execute as @a run scoreboard players operation @s gold_total += @s temp
-tellraw @a[tag=!watcher] [" ",{"text": "名次奖励: ","color":"gold"},{"score":{"name": "*","objective": "temp"}}," 金粒"]
+tellraw @a[team=!watching] [" ",{"text": "名次奖励: ","color":"gold"},{"score":{"name": "*","objective": "temp"}}," 金粒"]
 
 # 奖励结束
-tellraw @a[tag=!watcher] ""
+tellraw @a[team=!watching] ""
 
 # 返回主大厅
 schedule function ltw:state/0/state_enter 2t replace

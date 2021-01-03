@@ -12,18 +12,18 @@ tag @a remove mini_rank3
 tag @a remove mini_rank4
 # 1
 function mini:main/get_max_score
-execute as @a if score @s mini_score = #score_max mem run tag @s[tag=!watcher] add mini_rank1
+execute as @a if score @s mini_score = #score_max mem run tag @s[team=!watching] add mini_rank1
 tag @a[tag=mini_rank1] add max_uncounted
 # 2
 function mini:main/get_max_score
-execute as @a[tag=!max_uncounted] if score @s mini_score = #score_max mem run tag @s[tag=!watcher] add mini_rank2
+execute as @a[tag=!max_uncounted] if score @s mini_score = #score_max mem run tag @s[team=!watching] add mini_rank2
 tag @a[tag=mini_rank2] add max_uncounted
 # 3
 function mini:main/get_max_score
-execute as @a[tag=!max_uncounted] if score @s mini_score = #score_max mem run tag @s[tag=!watcher] add mini_rank3
+execute as @a[tag=!max_uncounted] if score @s mini_score = #score_max mem run tag @s[team=!watching] add mini_rank3
 tag @a[tag=max_uncounted] remove max_uncounted
 # 4
-tag @a[tag=!mini_rank1,tag=!mini_rank2,tag=!mini_rank3,tag=!watcher] add mini_rank4
+tag @a[tag=!mini_rank1,tag=!mini_rank2,tag=!mini_rank3,team=!watching] add mini_rank4
 
 # 给予进度
 execute if score $mini_type mem matches 2 run advancement grant @a[tag=mini_rank1] only ltw:parkour/tnt1

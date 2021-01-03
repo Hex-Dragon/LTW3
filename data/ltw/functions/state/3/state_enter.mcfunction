@@ -15,8 +15,11 @@ time set midnight
 # 初始化倒计时
 scoreboard players set $countdown mem 3
 
-# 禁用tempo_block
+# 禁用 tempo_block
 scoreboard players set $tempo_enable mem 0
+
+# 修改队伍颜色
+team modify playing color white
 
 # 小游戏编号
 # 优化下一次游戏的选择：生成一个 1~[最大游戏编号] 的 randomarray，每次从其中取下一个数。

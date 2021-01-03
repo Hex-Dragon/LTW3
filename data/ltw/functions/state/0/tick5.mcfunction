@@ -1,5 +1,5 @@
 # 让无状态玩家变为准备状态
-execute as @a[tag=!lobby_ready,tag=!lobby_watch] run function ltw:state/0/state/join_watch
+execute as @a[team=!debugging,team=!playing,team=!watching] run function ltw:state/0/state/join_watch
 
 # 给予进度
 execute as @a at @s if entity @s[x=-1,y=22,z=-29,dx=5,dy=3,dz=3] run advancement grant @s only ltw:parkour/explore1
@@ -15,7 +15,7 @@ execute as @e[type=piglin,tag=shop_piglin_11,tag=lobby_entity] at @s unless enti
 # ————————————————————————————————————————————————————————————————————————————
 
 # 检查已准备人数
-execute store result score $count mem if entity @a[tag=lobby_ready]
+execute store result score $count mem if entity @a[team=playing]
 execute store result score #total_count mem if entity @a
 
 # 开始：提示开始
@@ -34,7 +34,7 @@ scoreboard players operation #start_sec mem = #start_countdown mem
 scoreboard players operation #start_sec mem /= #const_4 mem
 
 # 20s：提示未准备
-execute if score #start_sec mem matches 20 run tellraw @a[tag=!lobby_ready] [{"text":"","color":"red"},{"text":">> ","bold": true},"你还没有准备, 如果要参加游戏, 请丢出快捷栏最后一格的物品!"]
+execute if score #start_sec mem matches 20 run tellraw @a[team=watching] [{"text":"","color":"red"},{"text":">> ","bold": true},"你还没有准备, 如果要参加游戏, 请丢出快捷栏最后一格的物品!"]
 
 # 10s：提示玩家数量过多
 execute if score #start_sec mem matches 10 if score $count mem matches 9.. run tellraw @a [{"text":"","color":"gold"},{"text":">> ","bold": true},"已超出游戏最多支持的 8 人人数上限, 将随机抽取 8 人开始游戏!"]

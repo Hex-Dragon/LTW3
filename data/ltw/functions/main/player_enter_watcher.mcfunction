@@ -1,5 +1,5 @@
 # 作为旁观者加入服务器
-tag @s add watcher
+team join watching @s
 
 # 清除名次
 tag @s remove mini_rank1

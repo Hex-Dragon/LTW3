@@ -7,7 +7,7 @@ execute as @a run function ltw:state/0/player_enter
 
 # HUD
 scoreboard objectives setdisplay belowName green_total
-scoreboard objectives setdisplay sidebar green_total
+scoreboard objectives setdisplay sidebar
 scoreboard objectives setdisplay list green_total
 scoreboard players set $bossbar_type mem 0
 function lib:bossbar/show
@@ -17,6 +17,9 @@ scoreboard players set $remove_resistance mem 0
 team modify player friendlyFire false
 team modify player collisionRule never
 gamerule fallDamage false
+
+# 修改队伍颜色
+team modify playing color green
 
 # 加载老板
 function ltw:state/0/summon_entity

@@ -15,17 +15,17 @@ attribute @s generic.max_health base set 20
 # 计分板重置
 scoreboard players reset @s kill_phantom
 scoreboard players reset @s kill_phantom2
-scoreboard players set @s[tag=!watcher,tag=!rejoining,tag=!debug] kill_phantom 0
-scoreboard players set @s[tag=!watcher,tag=!rejoining,tag=!debug] kill_phantom2 0
+scoreboard players set @s[team=!watching,tag=!rejoining,team=!debugging] kill_phantom 0
+scoreboard players set @s[team=!watching,tag=!rejoining,team=!debugging] kill_phantom2 0
 scoreboard players reset @s use_trident
 scoreboard players reset @s countdown
 
 # 传送玩家
-tp @s[tag=!watcher,tag=!debug] 1030.5 24.5 6031.5
+tp @s[team=playing] 1030.5 24.5 6031.5
 
 # 调整模式
-gamemode spectator @s[tag=!debug]
-gamemode adventure @s[tag=!watcher,tag=!rejoining,tag=!debug]
+gamemode spectator @s[team=!debugging]
+gamemode adventure @s[team=!watching,tag=!rejoining,team=!debugging]
 
 # 重新加入处理
 execute if entity @s[tag=rejoining] run gamemode spectator
