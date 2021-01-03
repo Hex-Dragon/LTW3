@@ -2,7 +2,7 @@
 
 # 确认实际玩家
 tag @a remove selected_player
-tag @a[team=playing,sort=random,limit=8,team=!debugging] add selected_player
+tag @a[team=playing,sort=random,limit=8] add selected_player
 
 # 通知队伍
 tellraw @a[team=playing,tag=!selected_player] ["",{"text": ">> ","color": "red","bold": true},{"text": "你没有被选中参与, 将旁观本局游戏!","color": "red"}]
