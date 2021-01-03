@@ -83,5 +83,3 @@ tellraw @a[tag=!watcher] ""
 schedule function ltw:state/0/state_enter 2t replace
 execute as @a at @s run function lib:sounds/theend
 forceload remove all
-
-# TODO: https://shimo.im/docs/8dQtWhYp8rJhRRWG

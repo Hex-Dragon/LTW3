@@ -22,6 +22,7 @@ execute if entity @s[tag=!watcher] if score @s game_id = $ game_id run function 
 bossbar set ltw:notice players @a
 function lib:bossbar/show
 
+# TODO: https://shimo.im/docs/8dQtWhYp8rJhRRWG
 # FIXME: [010] 在 init 的时候也重置随机数组
 # FIXME: [010] 已确认确实可以用钓鱼竿获得两个奖励
 # TODO: [LTCat/HIM] 土豆的两个炸弹同时爆炸把两个人炸死，让他们俩并列第三（按存活回合数记分）
