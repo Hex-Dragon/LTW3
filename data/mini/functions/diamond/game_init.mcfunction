@@ -6,7 +6,7 @@ scoreboard players set $finish_mode mem 0
 scoreboard players set $survival mem 1
 
 # 调整时间
-time set 9500t
+time set 10500t
 
 # 生成地图
 setblock 1000 255 5000 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"LTCat",rotation:"NONE",posX:0,mode:"LOAD",posY:-22,sizeX:20,posZ:0,integrity:1.0f,showair:0b,name:"mini:diamond",sizeY:23,sizeZ:20,showboundingbox:1b}
