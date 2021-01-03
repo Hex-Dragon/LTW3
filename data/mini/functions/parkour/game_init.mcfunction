@@ -54,4 +54,5 @@ effect give @e[tag=treasure_item] glowing 1000000 0 true
 scoreboard players set $remove_resistance mem 0
 team modify playing friendlyFire false
 team modify playing collisionRule never
+team modify playing deathMessageVisibility never
 gamerule fallDamage false

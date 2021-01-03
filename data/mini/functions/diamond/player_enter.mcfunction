@@ -4,10 +4,11 @@ function lib:sounds/music/mini_slow
 title @s clear
 title @s actionbar ""
 
-# 触发复活
-function mini:diamond/player_death
-effect clear @s slowness
-effect clear @s blindness
+effect clear @s
+effect give @s saturation 1000000 0 true
+effect give @s haste 1000000 1 true
+gamerule naturalRegeneration false
+spreadplayers 1010 5010 6 8 under 245 false @s[team=playing,tag=!rejoining]
 
 # 设置玩家生命
 attribute @s generic.max_health base set 20

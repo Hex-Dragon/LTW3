@@ -8,6 +8,7 @@ scoreboard players set $survival mem 0
 scoreboard players set $remove_resistance mem 0
 team modify playing friendlyFire true
 team modify playing collisionRule always
+team modify playing deathMessageVisibility never
 gamerule fallDamage false
 
 # 清理残余实体
