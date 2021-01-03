@@ -1,6 +1,6 @@
 # 测试用：快速开始跑酷
 team join playing @a
-function ltw:state/0/start_gameparty
+function ltw:state/0/start_game
 scoreboard players set $round mem 5
 scoreboard players set $mini_type mem 1
 function mini:main/game_init

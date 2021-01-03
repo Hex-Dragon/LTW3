@@ -1,6 +1,6 @@
 # 测试用：快速开始 Hot Potato
 team join playing @a
-function ltw:state/0/start_gameparty
+function ltw:state/0/start_game
 scoreboard players set $round mem 5
 scoreboard players set $mini_type mem 3
 function mini:main/game_init
