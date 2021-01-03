@@ -5,9 +5,6 @@ title @s clear
 title @s actionbar ""
 
 # 触发复活
-say 1
-execute as @s[team=playing] run say 2
-execute as @s[team=playing,tag=!rejoining] run say 3
 function mini:diamond/player_death
 effect give @s slowness 0
 effect give @s blindness 0
