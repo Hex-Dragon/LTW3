@@ -4,16 +4,17 @@ function lib:sounds/music/mini_slow
 title @s clear
 title @s actionbar ""
 
-# 状态效果
-effect clear @s
-effect give @s saturation 1000000 0 true
-gamerule naturalRegeneration false
+# 触发复活
+function mini:diamond/player_death
+effect give @s slowness 0
+effect give @s blindness 0
 
 # 设置玩家生命
 attribute @s generic.max_health base set 20
 
-# 传送玩家
-spreadplayers 1010 6010 4 6 under 255 false @s[team=playing,tag=!rejoining]
+# 计分板重置
+scoreboard players reset @s diamond
+scoreboard players set @s[team=playing,tag=!rejoining] diamond 0
 
 # 调整模式
 gamemode spectator @s[team=!debugging]

@@ -1,10 +1,11 @@
 # 初始化钻石地图
 forceload add 1000 5000 1064 5064
 
-scoreboard players set $finish_mode mem 1
+scoreboard players reset * diamond
+scoreboard players set $finish_mode mem 0
 
 # 调整时间
-time set 2000t
+time set 9400t
 
 # 生成地图
 setblock 1000 255 5000 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"LTCat",rotation:"NONE",posX:0,mode:"LOAD",posY:-22,sizeX:20,posZ:0,integrity:1.0f,showair:0b,name:"mini:diamond",sizeY:23,sizeZ:20,showboundingbox:1b}
@@ -18,3 +19,8 @@ scoreboard players set $remove_resistance mem 1
 team modify playing friendlyFire true
 team modify playing collisionRule always
 gamerule fallDamage true
+
+# Gamerule 调整
+# TODO: 换一个更好的让玩家合成的方法
+gamerule doLimitedCrafting false
+gamerule keepInventory false
