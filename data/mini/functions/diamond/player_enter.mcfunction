@@ -1,14 +1,13 @@
 # 单个玩家开始小游戏时执行
 # TODO: 让 BGM 支持循环播放
-say 3
 function lib:sounds/music/mini_slow
 title @s clear
 title @s actionbar ""
 
 # 触发复活
 function mini:diamond/player_death
-effect give @s slowness 0
-effect give @s blindness 0
+effect clear @s slowness
+effect clear @s blindness
 
 # 设置玩家生命
 attribute @s generic.max_health base set 20
