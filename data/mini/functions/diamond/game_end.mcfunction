@@ -9,3 +9,6 @@ gamerule doTileDrops false
 
 # 计算得分
 execute as @a[team=playing] run scoreboard players operation @s mini_score += @s diamond
+
+# 世界边界
+worldborder set 1000000

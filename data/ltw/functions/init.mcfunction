@@ -135,6 +135,10 @@ team add gold "金色"
 team modify gold color gold
 team modify gold friendlyFire false
 
+# 世界边界
+worldborder warning distance 0
+worldborder set 1000000
+
 # 进度
 advancement revoke @a only lib:damage_dealt
 advancement revoke @a only lib:damage_taken

@@ -13,6 +13,7 @@ effect clear @s blindness
 attribute @s generic.max_health base set 20
 
 # 计分板重置
+tag @s remove diamond_got
 scoreboard players reset @s diamond
 scoreboard players set @s[team=playing,tag=!rejoining] diamond 0
 
