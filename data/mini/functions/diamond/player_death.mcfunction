@@ -8,7 +8,7 @@ effect give @s weakness 30 1
 
 # 处理玩家掉落物品
 execute at @s as @e[type=item,distance=..100] store result score @s temp run data get entity @s Age
-execute at @s store result score #total_drop temp run tag @e[type=item,scores={temp=..4}] add death_drop
+execute at @s store result score #total_drop temp run tag @e[type=item,scores={temp=..2}] add death_drop
 tellraw @a [{"selector":"@s"},{"text":"一共掉了"},{"score": {"name":"#total_drop","objective": "temp"}},{"text":"件物品"}]
 scoreboard players reset @e[type=item] temp
 # 单独处理钻石还没写
@@ -22,4 +22,4 @@ tag @s add dead_player
 execute as @e[type=item,tag=death_drop] run data modify entity @s Thrower set from entity @a[tag=dead_player,limit=1] UUID
 tag @s remove dead_player
 execute as @e[type=item,tag=death_drop] run function item:disable_throw
-tag @e[type=item] remove death_drop
+tag @e[type=item,tag=death_drop] remove death_drop
