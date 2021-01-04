@@ -4,7 +4,8 @@ effect clear @s
 effect give @s saturation 1000000 0 true
 effect give @s haste 1000000 1 true
 effect give @s levitation 6 253
-effect give @s resistance 8 10 true
+effect give @s weakness 7 10 true
+effect give @s resistance 7 10 true
 gamerule naturalRegeneration false
 
 # 传送玩家
