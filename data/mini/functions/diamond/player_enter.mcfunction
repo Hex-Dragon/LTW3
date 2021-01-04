@@ -8,7 +8,7 @@ effect clear @s
 effect give @s saturation 1000000 0 true
 effect give @s haste 1000000 1 true
 gamerule naturalRegeneration false
-spreadplayers 1010 5010 6 8 under 245 false @s[team=playing,tag=!rejoining]
+spreadplayers 1010 5010 6 8 under 246 false @s[team=playing,tag=!rejoining]
 
 # 设置玩家生命
 attribute @s generic.max_health base set 20

@@ -12,4 +12,4 @@ effect give @s slowness 3 3 true
 effect give @s blindness 3 0 true
 
 # 传送玩家
-spreadplayers 1010 5010 6 8 under 245 false @s[team=playing,tag=!rejoining]
+spreadplayers 1010 5010 6 8 under 246 false @s[team=playing,tag=!rejoining]
