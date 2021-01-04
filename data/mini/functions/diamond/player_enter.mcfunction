@@ -17,4 +17,5 @@ gamemode spectator @s[team=!debugging]
 gamemode survival @s[team=playing,tag=!rejoining]
 
 # 执行重生方法
+tag @s remove respawning
 function mini:diamond/game/respawn1

@@ -8,4 +8,5 @@ gamerule naturalRegeneration false
 
 # 传送玩家
 spreadplayers 1016 5016 6 8 under 255 false @s[team=playing,tag=!rejoining]
-schedule function mini:diamond/game/respawn2 1t
+tag @s add respawning
+schedule function mini:diamond/game/respawn2 1t append

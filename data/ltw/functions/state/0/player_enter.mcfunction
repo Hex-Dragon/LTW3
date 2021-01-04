@@ -6,7 +6,8 @@ title @s actionbar ""
 # 重置玩家血量上限
 attribute @s generic.max_health base set 20
 
-# 重置经验值
+# 重置经验值与配方
+recipe take @a *
 xp set @s 0 points
 xp set @s 0 levels
 
