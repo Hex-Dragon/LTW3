@@ -1,5 +1,5 @@
 # 强制玩家捡起自己丢弃的物品，以物品为执行者
-
+say 被tp了
 # 更改 NBT
 data modify entity @s PickupDelay set value 0
 data modify entity @s Owner set from entity @s Thrower
