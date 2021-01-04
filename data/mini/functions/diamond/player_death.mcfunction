@@ -22,4 +22,4 @@ tag @s add dead_player
 execute as @e[type=item,tag=death_drop] run data modify entity @s Thrower set from entity @a[tag=dead_player,limit=1] UUID
 tag @s remove dead_player
 execute as @e[type=item,tag=death_drop] run function item:disable_throw
-tag @e[type=item,tag=death_drop] remove death_drop
+# tag @e[type=item,tag=death_drop] remove death_drop
