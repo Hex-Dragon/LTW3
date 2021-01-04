@@ -3,7 +3,7 @@
 effect clear @s
 effect give @s saturation 1000000 0 true
 effect give @s haste 1000000 1 true
-effect give @s levitation 8 253
+effect give @s levitation 6 253
 gamerule naturalRegeneration false
 
 # 传送玩家

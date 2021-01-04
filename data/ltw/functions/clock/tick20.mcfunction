@@ -17,9 +17,9 @@ function lib:effect/regen
 # 全局倒计时
 execute if score $countdown mem matches 1.. run scoreboard players remove $countdown mem 1
 scoreboard players remove @e[scores={countdown=1..}] countdown 1
-# 两秒一次
-scoreboard players add $twice mem 1
-execute if score $twice mem matches 2.. run scoreboard players set $twice mem 0
+# 4 秒一次
+scoreboard players add $foursec mem 1
+execute if score $foursec mem matches 4.. run scoreboard players set $foursec mem 0
 
 # 掐死原版 BGM
 stopsound @a music music.game
