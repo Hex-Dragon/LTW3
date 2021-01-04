@@ -1,4 +1,3 @@
 # 玩家死亡后触发
-say DEBUG: 触发mini:main/player_death
 execute if score $mini_type mem matches 5 run function mini:phantom/player_failed
 execute if score $mini_type mem matches 6 run function mini:diamond/player_death
