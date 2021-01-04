@@ -1,4 +1,4 @@
-
+say DEBUG: 触发mini:diamond/player_death
 # 执行重生方法
 function mini:diamond/game/respawn1
 
