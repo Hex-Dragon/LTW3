@@ -40,7 +40,7 @@ execute if score @s item_slot matches 102 run data modify entity @e[type=item,ta
 execute if score @s item_slot matches 103 run data modify entity @e[type=item,tag=LockTempItem,limit=1] Item set from entity @s Inventory[{Slot:103b}]
 execute if score @s item_slot matches -106 run data modify entity @e[type=item,tag=LockTempItem,limit=1] Item set from entity @s Inventory[{Slot:-106b}]
 
-execute if score @s item_slot matches 0 run replaceitem entity @s inventory.0 air
+execute if score @s item_slot matches 0 run replaceitem entity @s hotbar.0 air
 execute if score @s item_slot matches 1 run replaceitem entity @s hotbar.1 air
 execute if score @s item_slot matches 2 run replaceitem entity @s hotbar.2 air
 execute if score @s item_slot matches 3 run replaceitem entity @s hotbar.3 air
