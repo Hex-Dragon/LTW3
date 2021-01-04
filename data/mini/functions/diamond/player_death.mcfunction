@@ -9,7 +9,7 @@ effect give @s weakness 30 1
 
 # 处理玩家掉落物品
 execute at @s as @e[type=item,distance=..100] store result score @s temp run data get entity @s Age
-execute at @s store result score #total_drop temp run tag @e[type=item,scores={temp=..5}] add death_drop
+execute at @s store result score #total_drop temp run tag @e[type=item,scores={temp=..6}] add death_drop
 scoreboard players reset @e[type=item] temp
 # 单独处理钻石还没写
 # 掉落数量向上取整
