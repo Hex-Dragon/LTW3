@@ -6,14 +6,15 @@ scoreboard players set $finish_mode mem 0
 scoreboard players set $survival mem 1
 
 # 调整时间
-time set 10500t
+time set 10000t
 
 # 生成地图
-setblock 1000 255 5000 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"LTCat",rotation:"NONE",posX:0,mode:"LOAD",posY:-22,sizeX:20,posZ:0,integrity:1.0f,showair:0b,name:"mini:diamond",sizeY:23,sizeZ:20,showboundingbox:1b}
+setblock 1000 255 5000 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"LTCat",rotation:"NONE",posX:0,mode:"LOAD",posY:-24,sizeX:32,posZ:0,integrity:1.0f,showair:0b,name:"mini:diamond",sizeY:25,sizeZ:32,showboundingbox:1b}
 setblock 1000 255 5001 redstone_block
 
 # 清理残余实体
-kill @e[type=!player,x=950,y=0,z=4950,dx=100,dy=500,dz=100]
+tp @e[type=!player,x=950,y=-200,z=4950,dx=100,dy=600,dz=100] ~ -100 ~
+kill @e[type=!player,x=950,y=-200,z=4950,dx=100,dy=600,dz=100]
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 1
@@ -21,9 +22,12 @@ team modify playing friendlyFire true
 team modify playing collisionRule always
 team modify playing deathMessageVisibility always
 gamerule fallDamage true
+gamerule fireDamage true
+gamerule drowningDamage true
 
 # Gamerule 调整
 # TODO: 换一个更好的让玩家合成的方法
 gamerule doLimitedCrafting false
 gamerule keepInventory false
 gamerule doTileDrops true
+gamerule doEntityDrops true

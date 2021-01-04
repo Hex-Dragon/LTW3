@@ -6,6 +6,9 @@ gamerule doDaylightCycle false
 gamerule doLimitedCrafting true
 gamerule keepInventory true
 gamerule doTileDrops false
+gamerule doEntityDrops false
+gamerule fireDamage false
+gamerule drowningDamage false
 
 # 计算得分
 execute as @a[team=playing] run scoreboard players operation @s mini_score += @s diamond
