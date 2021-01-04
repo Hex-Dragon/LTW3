@@ -1,6 +1,5 @@
 # 单个玩家开始小游戏时执行
 function lib:sounds/music/mini_slow
-scoreboard players set @s music_time 99999
 title @s clear
 title @s actionbar ""
 
