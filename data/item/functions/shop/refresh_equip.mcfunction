@@ -5,12 +5,8 @@ give @s[scores={shop_bow=1}] bow{display:{Name:'{"text":"弓","italic":false,"co
 
 clear @s wooden_shovel
 clear @s stone_shovel
-clear @s iron_shovel
-clear @s diamond_shovel
 give @s[scores={shop_weapon=1}] wooden_shovel{display:{Name:'{"text":"木锹","italic":false,"color":"gray"}'}}
-give @s[scores={shop_weapon=2}] stone_shovel{display:{Name:'{"text":"石锹","italic":false,"color":"gray"}'}}
-give @s[scores={shop_weapon=3}] iron_shovel{display:{Name:'{"text":"铁锹","italic":false,"color":"gray"}'}}
-give @s[scores={shop_weapon=4}] diamond_shovel{display:{Name:'{"text":"钻石锹","italic":false,"color":"gray"}'}}
+give @s[scores={shop_weapon=2..}] stone_shovel{display:{Name:'{"text":"石锹","italic":false,"color":"gray"}'}}
 
 clear @s splash_potion
 give @s[scores={shop_potion_spd=1}] splash_potion{CustomPotionEffects:[{Id:1,Amplifier:0,Duration:300}],CustomPotionColor:8039610,display:{Name:'{"text":"喷溅型迅捷药水","italic":false,"color":"gray"}'}}
