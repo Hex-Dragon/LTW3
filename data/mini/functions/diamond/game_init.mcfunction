@@ -26,7 +26,6 @@ gamerule fireDamage true
 gamerule drowningDamage true
 
 # Gamerule 调整
-# TODO: 换一个更好的让玩家合成的方法
 gamerule doLimitedCrafting false
 gamerule keepInventory false
 gamerule doTileDrops true
