@@ -10,6 +10,7 @@ execute if score $state mem matches 4 run function ltw:state/4/tick20
 execute if score $state mem matches 5 run function ltw:state/5/tick20
 execute if score $state mem matches 6 run function ltw:state/6/tick20
 execute if score $state mem matches 7 run function ltw:state/7/tick20
+function lib:sounds/music/tick20
 
 # 特殊方块给予效果
 function lib:effect/regen
