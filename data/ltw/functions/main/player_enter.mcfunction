@@ -26,7 +26,7 @@ function lib:bossbar/show
 # TODO: [LTCat/HIM] 土豆的两个炸弹同时爆炸把两个人炸死，让他们俩并列第三（按存活回合数记分）
 # FIXME: 旁观者在一轮开始时会被切换为冒险模式又切回去，这会造成游戏模式变更提示，鬼知道为啥
 # FIXME: [010] 如果有人没领取奖励，可以一直站在上面，在奖励领取阶段结束时再拿到一次
-# FIXME: [LTCat] 最后一轮还是会刷出道具
-# TODO: [LTCat] 优化色彩迷阵的加速算法
 # FIXME: 准备倒计时与 Tooltip 降低不一致
 # FIXME: [LTCat] 初尝胜果 成就的判断似乎存在 Bug
+# FIXME: 修复 钻石风暴 spreadplayers 无效
+# FIXME: 修复 钻石风暴 刚开始在空中可以把人打飞
