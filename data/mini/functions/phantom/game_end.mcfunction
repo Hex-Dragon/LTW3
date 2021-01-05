@@ -6,5 +6,5 @@ gamerule doDaylightCycle false
 execute as @a[team=playing] run scoreboard players operation @s mini_score = @s kill_phantom
 
 # 清理锁定格子
-execute as @a run function item:disable_slot/disable_slot_7
-execute as @a run function item:disable_slot/disable_slot_8
+execute as @a[team=!debugging] run function item:disable_slot/disable_slot_7
+execute as @a[team=!debugging] run function item:disable_slot/disable_slot_8

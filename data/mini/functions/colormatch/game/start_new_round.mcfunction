@@ -33,4 +33,4 @@ execute if score $color_match_time mem matches 10 as @a[team=!debugging,gamemode
 
 # 更新地板方块
 scoreboard players operation $color_match_current mem = $color_match_floor mem
-execute as @a run function mini:colormatch/game/show_floor_block
+execute as @a[team=!debugging] run function mini:colormatch/game/show_floor_block
