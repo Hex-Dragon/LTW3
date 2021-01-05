@@ -9,6 +9,8 @@ scoreboard players set $bossbar_color mem 4
 scoreboard players set $countdown_max mem 270
 scoreboard players set $bossbar_type mem 2
 function lib:bossbar/show
+bossbar set mini:red name "剩余时间"
+bossbar set mini:yellow name "剩余时间"
 bossbar set mini:blue name "剩余时间"
 
 # 世界边界
