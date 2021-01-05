@@ -30,3 +30,5 @@ function lib:bossbar/show
 # TODO: [LTCat] 优化色彩迷阵的加速算法
 # FIXME: 准备倒计时与 Tooltip 降低不一致
 # FIXME: [LTCat] 初尝胜果 成就的判断似乎存在 Bug
+# FIXME: 修复 钻石风暴 spreadplayers 无效
+# FIXME: 修复 钻石风暴 刚开始在空中可以把人打飞
