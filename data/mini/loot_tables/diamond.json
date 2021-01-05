@@ -1,4 +1,4 @@
-{"pools": [{"rolls": 2,"entries": [
+{"pools": [{"rolls": {"max": 3,"min": 2},"entries": [
 
     {
         "type": "minecraft:item",
@@ -24,7 +24,7 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 3,
+        "weight": 6,
         "name": "minecraft:diamond"
     }
     
