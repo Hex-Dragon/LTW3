@@ -10,6 +10,7 @@ execute at @s as @e[type=item,distance=..100] store result score @s temp run dat
 execute at @s store result score #total_drop temp run tag @e[type=item,scores={temp=..3}] add death_drop
 scoreboard players reset @e[type=item] temp
 # 单独处理钻石还没写
+function mini:diamond/game/drop_diamond 
 # 掉落数量向上取整
 scoreboard players add #total_drop temp 1
 scoreboard players operation #total_drop temp /= #const_2 mem
