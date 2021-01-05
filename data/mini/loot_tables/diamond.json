@@ -1,0 +1,31 @@
+{"pools": [{"rolls": 2,"entries": [
+
+    {
+        "type": "minecraft:item",
+        "weight": 2,
+        "name": "minecraft:nether_star",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +1\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":1,\"display\":{\"Name\":'{\"text\":\"得分 +1\",\"italic\":false,\"color\":\"white\"}'}}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 1,
+        "name": "minecraft:nether_star",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +2\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":1,\"display\":{\"Name\":'{\"text\":\"得分 +2\",\"italic\":false,\"color\":\"green\"}'}}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 3,
+        "name": "minecraft:diamond"
+    }
+    
+    ]}]}
