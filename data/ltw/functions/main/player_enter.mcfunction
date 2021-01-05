@@ -29,4 +29,4 @@ function lib:bossbar/show
 # FIXME: 准备倒计时与 Tooltip 降低不一致
 # FIXME: [LTCat] 初尝胜果 成就的判断似乎存在 Bug
 # FIXME: 修复 钻石风暴 spreadplayers 无效
-# FIXME: 修复 钻石风暴 刚开始在空中可以把人打飞
+# FIXME: [HIM] 修复死亡判定可能失效
