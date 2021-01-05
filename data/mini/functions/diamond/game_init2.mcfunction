@@ -1,6 +1,6 @@
 
 # 矿物生成
-fill 1028 252 5030 1028 252 5027 minecraft:redstone_block
+setblock 1028 252 5030 minecraft:redstone_block
 
 # 地牢 1 生成
 scoreboard players set $random_max mem 4
