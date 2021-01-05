@@ -36,4 +36,4 @@ gamemode adventure @s[team=playing,tag=!rejoining]
 
 # 修改 Tag
 tag @s add parkour_portal
-tag @s[team=!watching,tag=!rejoining] remove parkour_portal
+tag @s[team=playing,tag=!rejoining] remove parkour_portal

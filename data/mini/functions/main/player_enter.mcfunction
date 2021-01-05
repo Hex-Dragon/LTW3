@@ -1,7 +1,7 @@
 # 单个玩家开始小游戏时执行
 
 tag @s remove mini_running
-tag @s[tag=!rejoining,team=!watching] add mini_running
+tag @s[tag=!rejoining,team=playing] add mini_running
 scoreboard players set @s mini_score 0
 scoreboard players set @s[tag=rejoining] mini_score -1000
 scoreboard players set @s[team=watching] mini_score -1000000

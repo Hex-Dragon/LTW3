@@ -11,7 +11,7 @@ effect give @s night_vision 1000000 0 true
 effect give @s resistance 1000000 4 true
 
 # 设置玩家生命
-scoreboard players set @s[team=!watching,tag=!rejoining] mini_heart 3
+scoreboard players set @s[team=playing,tag=!rejoining] mini_heart 3
 function mini:main/player_max_health
 
 # 传送玩家

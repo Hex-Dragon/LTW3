@@ -13,9 +13,9 @@ tellraw @a[team=debugging] ["",{"text": ">> ","color": "blue","bold": true},{"te
 
 # 设置数据
 scoreboard players reset * total_score
-scoreboard players set @a[team=!watching] total_score 0
+scoreboard players set @a[team=playing] total_score 0
 scoreboard players reset * total_score_disp
-scoreboard players set @a[team=!watching] total_score_disp 0
+scoreboard players set @a[team=playing] total_score_disp 0
 scoreboard players set $round mem 1
 scoreboard players add $ game_id 1
 scoreboard players operation @a game_id = $ game_id
