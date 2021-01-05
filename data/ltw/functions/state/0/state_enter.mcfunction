@@ -3,7 +3,7 @@ forceload add -32 -17 31 -80
 
 # 要求系统进入状态 0（等待大厅）
 scoreboard players set $state mem 0
-execute as @a run function ltw:state/0/player_enter
+execute as @a[team=!debugging] run function ltw:state/0/player_enter
 
 # HUD
 scoreboard objectives setdisplay belowName green_total

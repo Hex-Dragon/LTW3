@@ -27,3 +27,4 @@ spectate
 
 # 清理物品
 clear @s #mini:game_item{game_item:1b}
+recipe take @s *

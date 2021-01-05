@@ -8,6 +8,7 @@ scoreboard players set @s[team=watching] mini_score -1000000
 function mini:main/update_player_count
 
 clear @s #mini:game_item{game_item:1b}
+recipe take @s *
 
 execute if score $mini_type mem matches 1 run function mini:parkour/player_enter
 execute if score $mini_type mem matches 2 run function mini:tntrun/player_enter
