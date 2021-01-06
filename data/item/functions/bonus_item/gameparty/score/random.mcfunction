@@ -1,4 +1,4 @@
-# 根据当前轮数生成随机品质的物品
+# 生成随机品质的物品
 
 # 品质 = d100
 scoreboard players set $random_min mem 1
@@ -7,10 +7,11 @@ function lib:random
 scoreboard players operation #quality mem = $random mem
 
 # 根据品质生成不同的物品
-execute if score #quality mem matches ..24 run function item:bonus_item/gameparty/score/white
-# 绿色：35%
-execute if score #quality mem matches 25..59 run function item:bonus_item/gameparty/score/green
-# 蓝色：25%
-execute if score #quality mem matches 60..84 run function item:bonus_item/gameparty/score/blue
-# 紫色：15%
-execute if score #quality mem matches 85.. run function item:bonus_item/gameparty/score/purple
+# 白色：40%
+execute if score #quality mem matches ..39 run function item:bonus_item/gameparty/score/white
+# 绿色：30%
+execute if score #quality mem matches 40..69 run function item:bonus_item/gameparty/score/green
+# 蓝色：20%
+execute if score #quality mem matches 70..89 run function item:bonus_item/gameparty/score/blue
+# 紫色：10%
+execute if score #quality mem matches 90.. run function item:bonus_item/gameparty/score/purple

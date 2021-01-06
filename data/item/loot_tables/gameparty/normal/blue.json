@@ -2,33 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 11,
-    "name": "minecraft:nether_star",
-    "functions": [
-        {
-            "function": "minecraft:set_count",
-            "count": 3
-        },
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +3\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":3}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 3,
-    "name": "minecraft:ender_eye",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"从最高分玩家处偷取 2 分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":200}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 4,
+    "weight": 1,
     "name": "minecraft:iron_sword",
     "functions": [
         {
@@ -39,7 +13,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 4,
+    "weight": 1,
     "name": "minecraft:enchanted_golden_apple",
     "functions": [
         {
@@ -50,34 +24,12 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 4,
+    "weight": 1,
     "name": "minecraft:shield",
     "functions": [
         {
             "function": "minecraft:set_nbt",
             "tag": "{\"item_name\":\"{\\\"text\\\":\\\"盾牌\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"盾牌\\\",\\\"italic\\\":0,\\\"color\\\":\\\"aqua\\\"}\"}}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 2,
-    "name": "minecraft:netherite_chestplate",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金胸甲、靴子\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:netherite_boots\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 2,
-    "name": "minecraft:netherite_boots",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金护腿、靴子\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:netherite_leggings\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
         }
     ]
 }
