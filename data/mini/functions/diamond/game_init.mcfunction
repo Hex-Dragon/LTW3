@@ -28,6 +28,6 @@ gamerule drowningDamage true
 
 # Gamerule 调整
 gamerule doLimitedCrafting false
-gamerule keepInventory false
+gamerule keepInventory true
 gamerule doTileDrops true
 gamerule doEntityDrops true
