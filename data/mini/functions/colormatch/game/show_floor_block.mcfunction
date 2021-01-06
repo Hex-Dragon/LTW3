@@ -1,14 +1,5 @@
 # 清理物品
-clear @s acacia_planks{game_item:1b}
-clear @s birch_planks{game_item:1b}
-clear @s bedrock{game_item:1b}
-clear @s crimson_planks{game_item:1b}
-clear @s warped_planks{game_item:1b}
-clear @s gold_block{game_item:1b}
-clear @s bricks{game_item:1b}
-clear @s mossy_cobblestone{game_item:1b}
-clear @s purpur_block{game_item:1b}
-clear @s prismarine{game_item:1b}
+clear @s #item:game_item{game_item:1b}
 
 # 返还格子上的物品
 execute if data entity @s Inventory[{Slot:8b}] run scoreboard players set @s item_slot 8

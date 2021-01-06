@@ -24,6 +24,7 @@ scoreboard players reset @s countdown
 tp @s[team=playing] 1030.5 24.5 6031.5
 
 # 清理道具
+clear @s #item:game_item{game_item:1b}
 clear @s barrier{LockItem:1b}
 
 # 调整模式
