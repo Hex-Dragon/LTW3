@@ -36,4 +36,4 @@ scoreboard players reset @s particle_type
 scoreboard players add @s gold 20
 scoreboard players add @s gold_total 20
 
-tellraw @a ["",{"text": ">> ","color": "green","bold":true},{"text":"由于服务器升级, 绿宝石购买已经重置, 补偿的 20 金粒已发放!","color":"green"}]
+tellraw @s ["",{"text": ">> ","color": "green","bold":true},{"text":"由于服务器升级, 绿宝石购买已经重置, 补偿的 20 金粒已发放!","color":"green"}]
