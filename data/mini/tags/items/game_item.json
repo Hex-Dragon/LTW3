@@ -11,6 +11,7 @@
         "minecraft:bricks",
         "minecraft:mossy_cobblestone",
         "minecraft:purpur_block",
-        "minecraft:prismarine"
+        "minecraft:prismarine",
+        "minecraft:tnt"
     ]
 }
