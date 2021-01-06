@@ -1,5 +1,9 @@
 # 当玩家加入游戏时触发
 
+# TODO: v0.3 升级函数
+execute if entity @s[tag=!v02upgrade,scores={gold_total=1..}] run function ltw:main/player_upgrade
+tag @s add v02upgrade
+
 advancement revoke @s only lib:damage_dealt
 advancement revoke @s only lib:damage_taken
 advancement revoke @s only item:container/place
@@ -26,3 +30,4 @@ function lib:bossbar/show
 # TODO: [LTCat/HIM] 土豆的两个炸弹同时爆炸把两个人炸死，让他们俩并列第三（按存活回合数记分）
 # FIXME: [HIM] 死亡复活后可能会捡到已经在地上待了很久的 “老物品”
 # FIXME: <! 重要> [HIM] 锁定格子的物品会被带进其他小游戏
+# FIXME: [LTCat] BGM 可能会双响
