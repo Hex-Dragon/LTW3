@@ -12,7 +12,7 @@ execute as @a at @s run function lib:sounds/hit
 execute store result score @s UUID run data get entity @s UUID[0]
 
 # 如果是旁观者或局号不对头：开始旁观
-execute if entity @s[team=watching] run function ltw:main/player_enter_watcher
+execute if entity @s[team=!playing] run function ltw:main/player_enter_watcher
 execute if entity @s[team=playing] unless score @s game_id = $ game_id run function ltw:main/player_enter_watcher
 # 如果不是旁观且局号正确：游戏中掉线
 execute if entity @s[team=playing] if score @s game_id = $ game_id run function ltw:main/player_enter_rejoin
