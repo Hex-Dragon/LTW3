@@ -2,7 +2,7 @@
 
     {
         "type": "minecraft:loot_table",
-        "weight": 3,
+        "weight": 4,
         "name": "item:gameparty/score/white"
     },
 
@@ -20,11 +20,11 @@
 {
     "type": "minecraft:item",
     "weight": 1,
-    "name": "minecraft:stone_axe",
+    "name": "minecraft:stone_pickaxe",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"石斧\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"石斧\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"石镐\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"石镐\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
         }
     ]
 },
@@ -45,7 +45,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 2,
     "name": "minecraft:shield",
     "functions": [
         {
@@ -76,13 +76,13 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"失明 (0:15)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":15,\"Amplifier\":0,\"Duration\":300}],\"CustomPotionColor\":1644828,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型致盲药水\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"失明 (0:20)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":15,\"Amplifier\":0,\"Duration\":400}],\"CustomPotionColor\":1644828,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型致盲药水\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
         }
     ]
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 2,
     "name": "minecraft:crossbow",
     "functions": [
         {
