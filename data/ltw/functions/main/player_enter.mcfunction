@@ -24,9 +24,5 @@ function lib:bossbar/show
 # TODO: https://shimo.im/docs/8dQtWhYp8rJhRRWG
 # FIXME: <! 重要> [010] 已确认确实可以用钓鱼竿获得两个奖励
 # TODO: [LTCat/HIM] 土豆的两个炸弹同时爆炸把两个人炸死，让他们俩并列第三（按存活回合数记分）
-# FIXME: 旁观者在一轮开始时会被切换为冒险模式又切回去，这会造成游戏模式变更提示，鬼知道为啥
-# FIXME: <! 重要> [010] 如果有人没领取奖励，可以一直站在上面，在奖励领取阶段结束时再拿到一次
-# FIXME: 准备倒计时与 Tooltip 降低不一致
-# FIXME: 修复 钻石风暴 spreadplayers 无效
 # FIXME: [HIM] 死亡复活后可能会捡到已经在地上待了很久的 “老物品”
-# FIXME: [HIM] <! 重要> 锁定格子的物品会被带进生存小游戏
+# FIXME: <! 重要> [HIM] 锁定格子的物品会被带进其他小游戏

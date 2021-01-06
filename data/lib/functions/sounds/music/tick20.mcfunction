@@ -1,5 +1,6 @@
 
 scoreboard players remove @a music_time 1
+stopsound @a[scores={music_time=..0}] music
 
 # lobby (循环)
 execute if score $music_id mem matches 1 run playsound minecraft:music_disc.stal music @a[scores={music_time=..0}] 0 1000000 0 1000000
