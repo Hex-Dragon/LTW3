@@ -1,6 +1,16 @@
 {
     "values": [
         "minecraft:trident",
-        "minecraft:stick"
+        "minecraft:stick",
+        "minecraft:acacia_planks",
+        "minecraft:birch_planks",
+        "minecraft:bedrock",
+        "minecraft:crimson_planks",
+        "minecraft:warped_planks",
+        "minecraft:gold_block",
+        "minecraft:bricks",
+        "minecraft:mossy_cobblestone",
+        "minecraft:purpur_block",
+        "minecraft:prismarine"
     ]
 }
