@@ -1,5 +1,5 @@
 # 清理物品
-clear @s #item:game_item{game_item:1b}
+clear @s #mini:game_item{game_item:1b}
 
 # 返还格子上的物品
 execute if data entity @s Inventory[{Slot:8b}] run scoreboard players set @s item_slot 8
