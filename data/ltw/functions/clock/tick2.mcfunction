@@ -2,8 +2,8 @@
 schedule function ltw:clock/tick2 2t replace
 
 # 死亡触发
-execute as @a[x=-12,y=7,z=-102,distance=..5] run tp @s -13 9 -42
 execute as @a[x=-12,y=7,z=-102,distance=..5] at @s run function ltw:main/player_death
+execute as @a[x=-12,y=7,z=-102,distance=..5] run tp @s -13 9 -42
 
 # 调用其他模块
 function lib:bossbar/tick2
