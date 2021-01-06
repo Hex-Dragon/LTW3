@@ -2,7 +2,7 @@
 
     {
         "type": "minecraft:item",
-        "weight": 3,
+        "weight": 2,
         "name": "minecraft:nether_star",
         "functions": [
             {
@@ -13,12 +13,12 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 1,
+        "weight": 2,
         "name": "minecraft:nether_star",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +2\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":2,\"display\":{\"Name\":'{\"text\":\"得分 +2\",\"italic\":false,\"color\":\"green\"}'}}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +2\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":2,\"display\":{\"Name\":'{\"text\":\"得分 +2\",\"italic\":false,\"color\":\"white\"}'}}"
             }
         ]
     },
