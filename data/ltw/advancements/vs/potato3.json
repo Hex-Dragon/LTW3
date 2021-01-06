@@ -1,14 +1,14 @@
 {
-    "parent": "ltw:parkour/explore2",
+    "parent": "ltw:vs/potato2",
     "display": {
       "icon": {
-        "item": "minecraft:gilded_blackstone"
+        "item": "minecraft:enchanted_golden_apple"
       },
       "title": {
-        "text": "空手而返      "
+        "text": "苹果炸弹      "
       },
       "description": [
-        {"text": "到达神秘老板的面前\n", "color":"gray"},
+        {"text": "在炸弹狂魔中获胜, 且剩余 5 心或更多的生命值\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "3 绿宝石","color":"white"}
       ],
@@ -21,13 +21,13 @@
       "function": "ltw:advancement/bonus_3"
     },
     "criteria": {
-      "finish":{
+      "get_score":{
           "trigger": "minecraft:impossible"
       }
     },
     "requirements": [
       [
-          "finish"
+          "get_score"
       ]
     ]
   }

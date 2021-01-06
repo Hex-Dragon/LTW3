@@ -1,8 +1,8 @@
-{"pools": [{"rolls": {"max": 3,"min": 2},"entries": [
+{"pools": [{"rolls": {"max": 4,"min": 2},"entries": [
 
     {
         "type": "minecraft:item",
-        "weight": 2,
+        "weight": 3,
         "name": "minecraft:nether_star",
         "functions": [
             {
@@ -18,14 +18,19 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +2\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":1,\"display\":{\"Name\":'{\"text\":\"得分 +2\",\"italic\":false,\"color\":\"green\"}'}}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +2\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":2,\"display\":{\"Name\":'{\"text\":\"得分 +2\",\"italic\":false,\"color\":\"green\"}'}}"
             }
         ]
     },
     {
         "type": "minecraft:item",
-        "weight": 5,
+        "weight": 6,
         "name": "minecraft:diamond"
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 2,
+        "name": "minecraft:book"
     }
     
     ]}]}

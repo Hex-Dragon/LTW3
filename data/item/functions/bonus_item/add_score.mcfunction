@@ -22,7 +22,7 @@ function ltw:main/get_max_score
 tag @a remove highest
 tag @a remove may_highest
 execute as @a if score @s total_score = #score_max mem run tag @s add may_highest
-execute at @s run tag @a[tag=may_highest,limit=1,sort=furthest,scores={total_score=1..}] add highest
+execute at @s run tag @a[tag=may_highest,limit=1,sort=furthest,scores={total_score=2..}] add highest
 execute unless entity @a[tag=highest] run tag @s add highest
 
 execute if score #bonus_add_score mem matches 200 run scoreboard players add @s total_score 2
@@ -30,7 +30,7 @@ execute if score #bonus_add_score mem matches 200 run scoreboard players add @s 
 execute if score #bonus_add_score mem matches 200 run scoreboard players remove @a[tag=highest] total_score 2
 execute if score #bonus_add_score mem matches 200 run scoreboard players remove @a[tag=highest] total_score_disp 2
 
-execute if score #bonus_add_score mem matches 200 if entity @s[tag=highest] run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 试图偷取自己的分数……"]
+execute if score #bonus_add_score mem matches 200 if entity @s[tag=highest] run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 没能偷到任何人的分数……"]
 execute if score #bonus_add_score mem matches 200 if entity @s[tag=!highest] run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"selector": "@p[tag=highest]","color":"red"}," 被偷取了 ",{"text": "2 分","color":"red"},", 当前共有 ",{"score": {"name": "@p[tag=highest]","objective": "total_score"}}, " 分"]
 execute if score #bonus_add_score mem matches 200 if entity @s[tag=!highest] run tellraw @a ["",{"text": ">> ","color":"green","bold": true},{"selector": "@s","color":"green"}," 偷取了 ",{"text": "2 分","color":"green"},", 当前共有 ",{"score": {"name": "@s","objective": "total_score"}}, " 分"]
 

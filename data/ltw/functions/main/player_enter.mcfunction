@@ -27,6 +27,6 @@ function lib:bossbar/show
 # FIXME: 旁观者在一轮开始时会被切换为冒险模式又切回去，这会造成游戏模式变更提示，鬼知道为啥
 # FIXME: <! 重要> [010] 如果有人没领取奖励，可以一直站在上面，在奖励领取阶段结束时再拿到一次
 # FIXME: 准备倒计时与 Tooltip 降低不一致
-# FIXME: [LTCat] 初尝胜果 成就的判断似乎存在 Bug
 # FIXME: 修复 钻石风暴 spreadplayers 无效
-# FIXME: <! 重要> [HIM] 修复死亡判定可能失效
+# FIXME: [HIM] 死亡复活后可能会捡到已经在地上待了很久的 “老物品”
+# FIXME: [HIM] <! 重要> 锁定格子的物品会被带进生存小游戏

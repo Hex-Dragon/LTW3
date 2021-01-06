@@ -28,9 +28,6 @@ scoreboard players set $bossbar_type mem 1
 function lib:bossbar/show
 bossbar set mini:red name "地板消失"
 
-# 给予进度
-execute if score $color_match_time mem matches 10 as @a[team=!debugging,gamemode=adventure] run advancement grant @s only ltw:parkour/colormatch1
-
 # 更新地板方块
 scoreboard players operation $color_match_current mem = $color_match_floor mem
 execute as @a[team=!debugging] run function mini:colormatch/game/show_floor_block

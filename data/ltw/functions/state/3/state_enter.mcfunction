@@ -21,11 +21,16 @@ scoreboard players set $tempo_enable mem 0
 # 修改队伍颜色
 team modify playing color white
 
-# 小游戏编号
-# 优化下一次游戏的选择：生成一个 1~[最大游戏编号] 的 randomarray，每次从其中取下一个数。
+# 小游戏编号：生成一个 1~[最大游戏编号] 的 randomarray，每次从其中取下一个数。
 execute unless data storage ltw:mini types[0] run function ltw:state/3/newarray
 execute store result score $mini_type mem run data get storage ltw:mini types[0]
 data remove storage ltw:mini types[0]
+
+# 小游戏编号覆盖：如果为第 5 轮，则有一半概率选用钻石风暴
+scoreboard players set $random_max mem 1
+scoreboard players set $random_min mem 0
+function lib:random
+execute if score $round mem matches 5 if score $random mem matches 1 run scoreboard players set $mini_type mem 6
 
 # 初始化小游戏
 function mini:main/game_init

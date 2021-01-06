@@ -5,12 +5,12 @@
         "item": "minecraft:enchanted_golden_apple"
       },
       "title": {
-        "text": "胜者为王      "
+        "text": "弱者为何要战斗"
       },
       "description": [
         {"text": "获得 20 场游戏的胜利\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
-        {"text": "3 绿宝石","color":"white"}
+        {"text": "4 绿宝石","color":"white"}
       ],
       "frame": "challenge",
       "show_toast": true,
@@ -18,7 +18,7 @@
       "hidden": false
     },
     "rewards": {
-      "function": "ltw:advancement/bonus_3"
+      "function": "ltw:advancement/bonus_4"
     },
     "criteria": {
       "get_score":{

@@ -1,56 +1,14 @@
 {"pools": [{"rolls": 1,"entries": [
 
+    {
+        "type": "minecraft:loot_table",
+        "weight": 4,
+        "name": "item:gameparty/score/white"
+    },
+
 {
     "type": "minecraft:item",
-    "weight": 80,
-    "name": "minecraft:nether_star",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +1\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":1}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 16,
-    "name": "minecraft:paper",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"极小概率得分 +5\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":0}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 4,
-    "name": "minecraft:paper",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"极小概率得分 +5\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":5}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 8,
-    "name": "minecraft:gold_nugget",
-    "functions": [
-        {
-            "function": "minecraft:set_count",
-            "count": 2
-        },
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"金粒 +2\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":300}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 8,
+    "weight": 1,
     "name": "minecraft:splash_potion",
     "functions": [
         {
@@ -61,18 +19,18 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 8,
-    "name": "minecraft:iron_axe",
+    "weight": 1,
+    "name": "minecraft:stone_axe",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁斧\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"铁斧\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"石斧\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"石斧\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
         }
     ]
 },
 {
     "type": "minecraft:item",
-    "weight": 8,
+    "weight": 1,
     "name": "minecraft:wooden_axe",
     "functions": [
         {
@@ -87,18 +45,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 12,
-    "name": "minecraft:fishing_rod",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"钓鱼竿\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"钓鱼竿\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 12,
+    "weight": 1,
     "name": "minecraft:shield",
     "functions": [
         {
@@ -113,7 +60,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 8,
+    "weight": 1,
     "name": "minecraft:splash_potion",
     "functions": [
         {
@@ -124,7 +71,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 8,
+    "weight": 1,
     "name": "minecraft:splash_potion",
     "functions": [
         {
@@ -135,7 +82,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 8,
+    "weight": 1,
     "name": "minecraft:crossbow",
     "functions": [
         {
@@ -146,44 +93,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 8,
-    "name": "minecraft:bow",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<冲击 I> 弓\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Enchantments\":[{\"id\":\"punch\",\"lvl\":1}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<冲击 I> 弓\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 8,
-    "name": "minecraft:arrow",
-    "functions": [
-        {
-            "function": "minecraft:set_count",
-            "count": 10
-        },
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"箭 x10\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 4,
-    "name": "minecraft:netherite_chestplate",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金胸甲\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 4,
+    "weight": 1,
     "name": "minecraft:netherite_leggings",
     "functions": [
         {
@@ -194,7 +104,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 4,
+    "weight": 1,
     "name": "minecraft:netherite_boots",
     "functions": [
         {

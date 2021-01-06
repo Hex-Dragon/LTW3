@@ -2,13 +2,13 @@
     "parent": "ltw:vs/root",
     "display": {
       "icon": {
-        "item": "minecraft:tnt"
+        "item": "minecraft:obsidian"
       },
       "title": {
-        "text": "炸弹人        "
+        "text": "冰桶挑战      "
       },
       "description": [
-        {"text": "在炸弹狂魔中获胜, 且剩余 2 心或更多的生命值\n", "color":"gray"},
+        {"text": "挖掘一块黑曜石\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "2 绿宝石","color":"white"}
       ],
@@ -21,13 +21,20 @@
       "function": "ltw:advancement/bonus_2"
     },
     "criteria": {
-      "get_score":{
-          "trigger": "minecraft:impossible"
-      }
+        "obsidian": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "item": "minecraft:obsidian"
+              }
+            ]
+          }
+        }
     },
     "requirements": [
-      [
-          "get_score"
-      ]
+        [
+          "obsidian"
+        ]
     ]
-  }
+}

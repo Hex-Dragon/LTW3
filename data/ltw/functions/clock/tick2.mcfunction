@@ -27,4 +27,4 @@ scoreboard players remove @e[scores={countdown_fast=1..}] countdown_fast 1
 
 # 死亡触发
 execute as @a[tag=temp_death] at @s run function ltw:main/player_death
-execute as @a[scores={death=1..,health=1..}] run tag @s add temp_death
+execute as @a[scores={death=1..}] run tag @s add temp_death

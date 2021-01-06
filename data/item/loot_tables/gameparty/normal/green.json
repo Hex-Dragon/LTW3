@@ -1,34 +1,25 @@
 {"pools": [{"rolls": 1,"entries": [
 
+    {
+        "type": "minecraft:loot_table",
+        "weight": 1,
+        "name": "item:gameparty/score/green"
+    },
+
 {
     "type": "minecraft:item",
-    "weight": 16,
-    "name": "minecraft:nether_star",
+    "weight": 1,
+    "name": "minecraft:iron_axe",
     "functions": [
         {
-            "function": "minecraft:set_count",
-            "count": 2
-        },
-        {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +2\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":2}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁斧\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"铁斧\\\",\\\"italic\\\":false,\\\"color\\\":\\\"green\\\"}\"}}"
         }
     ]
 },
 {
     "type": "minecraft:item",
-    "weight": 4,
-    "name": "minecraft:emerald",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机翻倍或减半\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":100}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 4,
+    "weight": 1,
     "name": "minecraft:golden_apple",
     "functions": [
         {
@@ -39,23 +30,23 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 4,
+    "weight": 1,
     "name": "minecraft:splash_potion",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"跳跃提升 VII (0:02)\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":8,\"Amplifier\":6,\"Duration\":40}],\"CustomPotionColor\":2292811,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型跳跃药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"跳跃提升 VII (0:03)\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":8,\"Amplifier\":6,\"Duration\":60}],\"CustomPotionColor\":2292811,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型跳跃药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
         }
     ]
 },
 {
     "type": "minecraft:item",
-    "weight": 4,
+    "weight": 1,
     "name": "minecraft:crossbow",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<快速装填 III> 弩, 箭 x15\\\",\\\"color\\\":\\\"green\\\"}\",\"Enchantments\":[{\"id\":\"quick_charge\",\"lvl\":3}],\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":15,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<快速装填 III> 弩\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<快速装填 III> 弩, 箭 x10\\\",\\\"color\\\":\\\"green\\\"}\",\"Enchantments\":[{\"id\":\"quick_charge\",\"lvl\":3}],\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":10,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<快速装填 III> 弩\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
         }
     ]
 }

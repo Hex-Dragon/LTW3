@@ -1,7 +1,9 @@
 # 生成白色品质的物品实体
 
-execute if score $round mem matches ..4 run loot spawn ~ ~ ~ loot item:gameparty/normal/white
-execute if score $round mem matches 5 run loot spawn ~ ~ ~ loot item:gameparty/last/white
+execute if score $round mem matches ..2 run function item:bonus_item/gameparty/normal/white
+execute if score $round mem matches 3 run function item:bonus_item/gameparty/score/white
+execute if score $round mem matches 4 run function item:bonus_item/gameparty/normal/white
+execute if score $round mem matches 5.. run function item:bonus_item/gameparty/score/white
 summon item ~ ~ ~ {Tags:["new_item"],Age:-32768,PickupDelay:0,NoGravity:1,Invulnerable:1,CustomNameVisible:1,Glowing:1,Motion:[0,0,0],Item:{id:"gold_nugget",Count:1}}
 data modify entity @e[tag=new_item,limit=1] Item set from entity @e[limit=1,type=item,sort=nearest,tag=!new_item] Item
 kill @e[limit=1,type=item,sort=nearest,tag=!new_item]

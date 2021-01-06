@@ -2,7 +2,7 @@
     "parent": "ltw:combat/root",
     "display": {
       "icon": {
-        "item": "minecraft:stick"
+        "item": "minecraft:arrow"
       },
       "title": {
         "text": "狩猎学徒      "
