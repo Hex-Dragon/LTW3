@@ -2,82 +2,42 @@
 
 {
     "type": "minecraft:item",
-    "weight": 15,
+    "weight": 4,
     "name": "minecraft:nether_star",
     "functions": [
         {
             "function": "minecraft:set_count",
-            "count": 4
+            "count": 8
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +4\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":4}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +8\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":8}"
         }
     ]
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
-    "name": "minecraft:target",
+    "weight": 4,
+    "name": "minecraft:nether_star",
     "functions": [
         {
+            "function": "minecraft:set_count",
+            "count": 7
+        },
+        {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机 +1~6\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":1}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +7\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":7}"
         }
     ]
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
-    "name": "minecraft:target",
+    "weight": 2,
+    "name": "minecraft:emerald",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机 +1~6\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":2}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 1,
-    "name": "minecraft:target",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机 +1~6\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":3}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 1,
-    "name": "minecraft:target",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机 +1~6\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":4}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 1,
-    "name": "minecraft:target",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机 +1~6\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":5}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 1,
-    "name": "minecraft:target",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机 +1~6\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":6}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机翻倍或不变\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":100}"
         }
     ]
 }

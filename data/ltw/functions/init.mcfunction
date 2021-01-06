@@ -106,12 +106,12 @@ team modify debugging color red
 team modify debugging collisionRule never
 team modify debugging deathMessageVisibility never
 team remove playing
-team add playing "已准备/游戏中"
+team add playing "玩家"
 team modify playing color green
 team modify playing collisionRule never
 team modify playing deathMessageVisibility never
 team remove watching
-team add watching "未准备/旁观中"
+team add watching "旁观者"
 team modify watching color gray
 team modify watching collisionRule never
 team modify watching deathMessageVisibility never
