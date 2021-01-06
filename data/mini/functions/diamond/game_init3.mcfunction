@@ -17,4 +17,5 @@ execute if score $random mem matches 2 run setblock 1027 254 5029 redstone_block
 execute if score $random mem matches 3 run setblock 1027 254 5028 redstone_block
 execute if score $random mem matches 4 run setblock 1027 254 5027 redstone_block
 
-schedule function mini:diamond/game_init4 1t
+# 清理区域
+fill 1025 255 5031 1029 251 5025 air

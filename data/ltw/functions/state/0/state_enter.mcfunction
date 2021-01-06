@@ -1,5 +1,6 @@
 # 加载地图
 forceload add -32 -17 31 -80
+kill @e[type=item]
 
 # 要求系统进入状态 0（等待大厅）
 scoreboard players set $state mem 0
