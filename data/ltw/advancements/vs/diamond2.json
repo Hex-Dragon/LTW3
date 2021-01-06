@@ -1,24 +1,24 @@
 {
-    "parent": "ltw:parkour/root",
+    "parent": "ltw:vs/diamond1",
     "display": {
       "icon": {
-        "item": "minecraft:dead_horn_coral_block"
+        "item": "minecraft:enchanting_table"
       },
       "title": {
-        "text": "圣坛之慰      "
+        "text": "不可能的附魔师"
       },
       "description": [
-        {"text": "在地陷圣坛中获胜\n", "color":"gray"},
+        {"text": "用不知道从哪找到的书制作附魔台\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
-        {"text": "1 绿宝石","color":"white"}
+        {"text": "4 绿宝石","color":"white"}
       ],
-      "frame": "task",
+      "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
     "rewards": {
-      "function": "ltw:advancement/bonus_1"
+      "function": "ltw:advancement/bonus_4"
     },
     "criteria": {
       "get_score":{
@@ -30,4 +30,4 @@
           "get_score"
       ]
     ]
-  }
+}

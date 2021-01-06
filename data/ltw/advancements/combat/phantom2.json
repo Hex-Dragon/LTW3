@@ -2,10 +2,10 @@
     "parent": "ltw:combat/phantom1",
     "display": {
       "icon": {
-        "item": "minecraft:arrow"
+        "item": "minecraft:phantom_membrane"
       },
       "title": {
-        "text": "狩猎大师      "
+        "text": "怪物猎人      "
       },
       "description": [
         {"text": "在月夜狩猎中击杀 16 只幻翼\n", "color":"gray"},

@@ -1,5 +1,5 @@
 {
-    "parent": "ltw:vs/potato1",
+    "parent": "ltw:vs/root",
     "display": {
       "icon": {
         "item": "minecraft:tnt"
@@ -8,17 +8,17 @@
         "text": "炸弹人        "
       },
       "description": [
-        {"text": "在炸弹狂魔中获胜, 且剩余 3 心或更多的生命值\n", "color":"gray"},
+        {"text": "在炸弹狂魔中获胜, 且剩余 2 心或更多的生命值\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
-        {"text": "3 绿宝石","color":"white"}
+        {"text": "2 绿宝石","color":"white"}
       ],
-      "frame": "challenge",
+      "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
     "rewards": {
-      "function": "ltw:advancement/bonus_3"
+      "function": "ltw:advancement/bonus_2"
     },
     "criteria": {
       "get_score":{

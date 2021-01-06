@@ -1,24 +1,24 @@
 {
-    "parent": "ltw:parkour/root",
+    "parent": "ltw:parkour/tnt2",
     "display": {
       "icon": {
-        "item": "minecraft:cyan_glazed_terracotta"
+        "item": "minecraft:crying_obsidian"
       },
       "title": {
-        "text": "纷乱迷阵      "
+        "text": "来自深渊      "
       },
       "description": [
-        {"text": "在色彩迷阵中达到最高速度\n", "color":"gray"},
+        {"text": "从地陷圣坛的最底层返回最顶层\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
-        {"text": "1 绿宝石","color":"white"}
+        {"text": "3 绿宝石","color":"white"}
       ],
-      "frame": "task",
+      "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
     "rewards": {
-      "function": "ltw:advancement/bonus_1"
+      "function": "ltw:advancement/bonus_3"
     },
     "criteria": {
       "get_score":{
