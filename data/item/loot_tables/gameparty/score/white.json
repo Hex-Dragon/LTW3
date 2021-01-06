@@ -2,7 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 6,
+    "weight": 5,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -13,7 +13,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 6,
+    "weight": 5,
     "name": "minecraft:nether_star",
     "functions": [
         {

@@ -2,7 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 4,
+    "weight": 1,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -17,7 +17,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 4,
+    "weight": 1,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -27,17 +27,6 @@
         {
             "function": "minecraft:set_nbt",
             "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +7\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":7}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 2,
-    "name": "minecraft:emerald",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机翻倍或不变\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":101}"
         }
     ]
 }
