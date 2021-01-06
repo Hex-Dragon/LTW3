@@ -7,7 +7,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金胸甲、靴子\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:netherite_boots\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金胸甲、靴子\\\",\\\"color\\\":\\\"purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:netherite_boots\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
             }
         ]
     },
@@ -18,7 +18,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金护腿、靴子\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:netherite_leggings\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金护腿、靴子\\\",\\\"color\\\":\\\"purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:netherite_leggings\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
             }
         ]
     }

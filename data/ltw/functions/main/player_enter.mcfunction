@@ -29,3 +29,4 @@ function lib:bossbar/show
 # FIXME: 准备倒计时与 Tooltip 降低不一致
 # FIXME: 修复 钻石风暴 spreadplayers 无效
 # FIXME: [HIM] 死亡复活后可能会捡到已经在地上待了很久的 “老物品”
+# FIXME: [HIM] <! 重要> 锁定格子的物品会被带进生存小游戏
