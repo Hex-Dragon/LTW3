@@ -1,6 +1,10 @@
 # 每秒执行一次
 schedule function ltw:clock/tick2 2t replace
 
+# 死亡触发
+execute as @a[x=-12,y=7,z=-102,distance=..5] run tp @s -13 9 -42
+execute as @a[x=-12,y=7,z=-102,distance=..5] at @s run function ltw:main/player_death
+
 # 调用其他模块
 function lib:bossbar/tick2
 execute if score $state mem matches 3 run function ltw:state/3/tick2
@@ -24,7 +28,3 @@ function item:tick2
 # 全局倒计时
 execute if score $countdown_fast mem matches 1.. run scoreboard players remove $countdown_fast mem 1
 scoreboard players remove @e[scores={countdown_fast=1..}] countdown_fast 1
-
-# 死亡触发
-execute as @a[tag=temp_death] at @s run function ltw:main/player_death
-execute as @a[scores={death=1..}] run tag @s add temp_death

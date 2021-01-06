@@ -1,5 +1,7 @@
 # 当玩家加入游戏时触发
 
+spawnpoint @s -12 7 -102
+
 # TODO: v0.3 升级函数
 execute if entity @s[tag=!v02upgrade,scores={gold_total=1..}] run function ltw:main/player_upgrade
 tag @s add v02upgrade

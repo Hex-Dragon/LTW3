@@ -11,5 +11,3 @@ gamerule naturalRegeneration false
 
 # 传送玩家
 tp @s 1016 280 5016
-tag @s add respawning
-schedule function mini:diamond/game/respawn2 1t append
