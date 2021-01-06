@@ -10,15 +10,15 @@
       "description": [
         {"text": "从地陷圣坛的最底层返回最顶层\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
-        {"text": "3 绿宝石","color":"white"}
+        {"text": "2 绿宝石","color":"white"}
       ],
-      "frame": "challenge",
+      "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
     "rewards": {
-      "function": "ltw:advancement/bonus_3"
+      "function": "ltw:advancement/bonus_2"
     },
     "criteria": {
       "get_score":{

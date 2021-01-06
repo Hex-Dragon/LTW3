@@ -28,20 +28,23 @@ execute if score $count mem matches ..2 if score #start_countdown mem matches ..
 execute if score $count mem matches ..2 if score #start_countdown mem matches ..999 as @a at @s run function lib:sounds/error
 execute if score $count mem matches ..2 if score #start_countdown mem matches ..999 run scoreboard players set #start_countdown mem 9999
 
-# 计算实际时间
+# 播放音效
 scoreboard players remove #start_countdown mem 1
 scoreboard players operation #start_sec mem = #start_countdown mem
 scoreboard players operation #start_sec mem /= #const_4 mem
+scoreboard players operation #start_div mem = #start_countdown mem
+scoreboard players operation #start_div mem %= #const_4 mem
+execute if score #start_sec mem matches 1..10 if score #start_div mem matches 0 run execute as @a at @s run function lib:sounds/hit2
 
 # 20s：提示未准备
-execute if score #start_sec mem matches 20 run tellraw @a[team=watching] [{"text":"","color":"red"},{"text":">> ","bold": true},"你还没有准备, 如果要参加游戏, 请丢出快捷栏最后一格的物品!"]
+execute if score #start_countdown mem matches 80 run tellraw @a[team=watching] [{"text":"","color":"red"},{"text":">> ","bold": true},"你还没有准备, 如果要参加游戏, 请丢出快捷栏最后一格的物品!"]
 
 # 10s：提示玩家数量过多
-execute if score #start_sec mem matches 10 if score $count mem matches 9.. run tellraw @a [{"text":"","color":"gold"},{"text":">> ","bold": true},"已超出游戏最多支持的 8 人人数上限, 将随机抽取 8 人开始游戏!"]
+execute if score #start_countdown mem matches 40 if score $count mem matches 9.. run tellraw @a [{"text":"","color":"gold"},{"text":">> ","bold": true},"已超出游戏最多支持的 8 人人数上限, 将随机抽取 8 人开始游戏!"]
 
 # 0s：开始游戏
-execute if score #start_sec mem matches 0 run function ltw:state/0/start_game
+execute if score #start_countdown mem matches 0 run function ltw:state/0/start_game
 
 # 显示信息
-execute if score #start_sec mem matches 1..99 run title @a actionbar [{"text":"","color":"green"},{"score":{"name":"$count","objective":"mem"}},"/",{"score":{"name":"#total_count","objective":"mem"}}," 人已准备 | ","将在 ",{"score":{"name":"#start_sec","objective":"mem"}}," 秒后开始游戏"]
-execute if score #start_sec mem matches 100.. run title @a actionbar [{"text":"","color":"red"},{"score":{"name":"$count","objective":"mem"}},"/",{"score":{"name":"#total_count","objective":"mem"}}," 人已准备 | 需要 3 人以开始游戏"]
+execute if score #start_countdown mem matches 1..99 run title @a actionbar [{"text":"","color":"green"},{"score":{"name":"$count","objective":"mem"}},"/",{"score":{"name":"#total_count","objective":"mem"}}," 人已准备 | ","将在 ",{"score":{"name":"#start_sec","objective":"mem"}}," 秒后开始游戏"]
+execute if score #start_countdown mem matches 100.. run title @a actionbar [{"text":"","color":"red"},{"score":{"name":"$count","objective":"mem"}},"/",{"score":{"name":"#total_count","objective":"mem"}}," 人已准备 | 需要 3 人以开始游戏"]
