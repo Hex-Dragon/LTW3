@@ -5,10 +5,10 @@
         "item": "minecraft:enchanting_table"
       },
       "title": {
-        "text": "不可能的附魔师"
+        "text": "附魔师?!    "
       },
       "description": [
-        {"text": "用不知道从哪找到的书制作附魔台\n", "color":"gray"},
+        {"text": "制作一个附魔台\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "4 绿宝石","color":"white"}
       ],
@@ -21,13 +21,20 @@
       "function": "ltw:advancement/bonus_4"
     },
     "criteria": {
-      "get_score":{
-          "trigger": "minecraft:impossible"
-      }
+        "c": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "item": "minecraft:enchanting_table"
+              }
+            ]
+          }
+        }
     },
     "requirements": [
-      [
-          "get_score"
-      ]
+        [
+          "c"
+        ]
     ]
 }

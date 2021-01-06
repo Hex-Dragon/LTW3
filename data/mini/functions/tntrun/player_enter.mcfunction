@@ -14,7 +14,9 @@ attribute @s generic.max_health base set 20
 
 # 传送玩家
 spreadplayers 1019.5 2020.5 2 2 false @s[team=playing,tag=!rejoining]
-# schedule: tp @a ~ ~-3 ~
+
+# 清理 tag
+tag @s remove layer_bottom
 
 # 两秒后才开始 TNT 掉落
 tag @s remove tntrun_pc

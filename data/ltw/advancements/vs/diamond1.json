@@ -21,13 +21,20 @@
       "function": "ltw:advancement/bonus_2"
     },
     "criteria": {
-      "get_score":{
-          "trigger": "minecraft:impossible"
-      }
+        "obsidian": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "item": "minecraft:obsidian"
+              }
+            ]
+          }
+        }
     },
     "requirements": [
-      [
-          "get_score"
-      ]
+        [
+          "obsidian"
+        ]
     ]
-  }
+}
