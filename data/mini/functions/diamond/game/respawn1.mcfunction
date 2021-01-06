@@ -11,3 +11,4 @@ gamerule naturalRegeneration false
 
 # 传送玩家
 tp @s 1016 280 5016
+say 4
