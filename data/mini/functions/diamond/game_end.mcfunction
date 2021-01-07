@@ -15,6 +15,3 @@ execute as @a[team=playing] run scoreboard players operation @s mini_score += @s
 
 # 清理物品栏
 clear @a[team=playing]
-
-# 世界边界
-worldborder set 1000000
