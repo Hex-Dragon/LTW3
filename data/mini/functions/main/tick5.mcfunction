@@ -13,3 +13,7 @@ execute as @a[gamemode=!spectator,scores={health=1..}] run scoreboard players op
 execute as @a run scoreboard players operation @s health_disp = @s temp
 execute as @a run scoreboard players operation @s mini_heart_disp = @s mini_heart
 execute as @a run scoreboard players operation @s mini_heart_disp += @s mini_heart
+
+# 删除奇怪的物品
+kill @e[type=item,nbt={Item:{tag:{game_item:1b}}}]
+kill @e[type=item,nbt={Item:{tag:{lobby_item:1b}}}]
