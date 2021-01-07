@@ -3,7 +3,7 @@
 spawnpoint @s -12 7 -102
 
 # TODO: v0.3 升级函数
-execute if entity @s[tag=!v02upgrade,scores={gold_total=1..}] run function ltw:main/player_upgrade
+execute if entity @s[tag=!v02upgrade,scores={stat_total=1..}] run function ltw:main/player_upgrade
 tag @s add v02upgrade
 
 advancement revoke @s only lib:damage_dealt
@@ -28,9 +28,8 @@ bossbar set ltw:notice players @a
 function lib:bossbar/show
 
 # TODO: https://shimo.im/docs/8dQtWhYp8rJhRRWG
-# FIXME: <! 重要> [010] 已确认确实可以用钓鱼竿获得两个奖励
+# FIXME: <! 重要> 可以用钓鱼竿获得两个奖励
 # TODO: [LTCat/HIM] 土豆的两个炸弹同时爆炸把两个人炸死，让他们俩并列第三（按存活回合数记分）
-# FIXME: [HIM] 死亡复活后可能会捡到已经在地上待了很久的 “老物品”
-# FIXME: <! 重要> [HIM] 锁定格子的物品会被带进其他小游戏
 # FIXME: [LTCat] BGM 可能会双响
 # FIXME: 关掉 JourneyMap 的生物雷达
+# FIXME: <! 重要> 在未知情况下会跳过第二轮直接进入第三轮
