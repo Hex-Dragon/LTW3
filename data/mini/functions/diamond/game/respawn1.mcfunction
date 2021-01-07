@@ -10,4 +10,5 @@ effect give @s resistance 5 10 true
 gamerule naturalRegeneration false
 
 # 传送玩家
-tp @s 1016 280 5016
+tp @s[team=playing] 1016 280 5016
+tp @s[team=watching] 1016 255 5016

@@ -32,7 +32,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 3,
+    "weight": 2,
     "name": "minecraft:ender_eye",
     "functions": [
         {
@@ -43,7 +43,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 3,
+    "weight": 4,
     "name": "minecraft:emerald",
     "functions": [
         {
