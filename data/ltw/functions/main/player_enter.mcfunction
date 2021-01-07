@@ -33,3 +33,4 @@ function lib:bossbar/show
 # FIXME: [HIM] 死亡复活后可能会捡到已经在地上待了很久的 “老物品”
 # FIXME: <! 重要> [HIM] 锁定格子的物品会被带进其他小游戏
 # FIXME: [LTCat] BGM 可能会双响
+# FIXME: 关掉 JourneyMap 的生物雷达

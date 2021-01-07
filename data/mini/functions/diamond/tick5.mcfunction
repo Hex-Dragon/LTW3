@@ -1,7 +1,7 @@
 
 # 更新钻石数量
 execute as @a[team=playing] store result score @s diamond run clear @s diamond 0
-execute if score $countdown mem matches ..60 run effect give @a glowing 1000000 0 true
+execute if score $countdown mem matches ..60 run effect give @a[team=playing] glowing 1000000 0 true
 # effect give @a[scores={diamond=1..}] glowing 5 0 true
 
 # 显示提示

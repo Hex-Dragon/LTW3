@@ -2,6 +2,9 @@
 forceload add -32 -17 31 -80
 kill @e[type=item]
 
+# 世界边界
+worldborder set 1000000
+
 # 要求系统进入状态 0（等待大厅）
 scoreboard players set $state mem 0
 execute as @a[team=!debugging] run function ltw:state/0/player_enter

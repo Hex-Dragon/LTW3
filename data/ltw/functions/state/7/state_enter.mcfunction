@@ -2,6 +2,9 @@
 scoreboard players set $state mem 7
 execute as @a[team=!debugging] run function ltw:state/7/player_enter
 
+# 世界边界
+worldborder set 1000000
+
 # HUD
 scoreboard objectives setdisplay belowName total_score_disp
 scoreboard objectives setdisplay sidebar total_score
