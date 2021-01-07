@@ -32,7 +32,7 @@ function lib:bossbar/show
 # TODO: 土豆 按存活回合数记分（两个炸弹同时爆炸把两个人炸死可以并列）
 # FIXME: [LTCat] BGM 可能会双响
 # FIXME: 关掉 JourneyMap 的生物雷达
-# FIXME: <! 重要> 在未知情况下会跳过第二轮直接进入第三轮
+# FIXME: <! 重要> 在未知情况下会跳过某轮直接进入下一轮
 # TODO: 逐个游戏检查中途退出重进是否造成 Bug
 # TODO: 逐个游戏检查是否在开始时清理了实体
 # TODO: [LTCat] 幻翼 在玩家第一次到达半血时显示回血的提示
@@ -44,8 +44,6 @@ function lib:bossbar/show
 # FIXME: [HIM] 在游戏中也可以通过打开物品栏丢出奇怪的游戏内物品，得想个办法进行限制
 # TODO: [LTCat] 增加文本可读性
 # FIXME: [LTCat] 玩家层数记分板可能会闪烁
-# TODO: 幻翼 用钻石块代替地图上的梯子
-# TODO: [LTCat] 优化转场黑屏动画
+# TODO: [LTCat] 优化转场黑屏动画*
 # TODO: 钻石 为钻石掉落物添加发光效果
-# TODO: [LTCat] 跑酷 修改地图：活塞的新路太过简单了
-# TODO: [LTCat] 跑酷 为密室增加一个奖励物品
+# TODO: [LTCat] 跑酷 为密室增加一个奖励物品*
