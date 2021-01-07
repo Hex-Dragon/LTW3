@@ -43,7 +43,5 @@ function lib:bossbar/show
 # TODO: [LTCat] 钻石 重新考虑是否显示玩家的钻石数——现在这样似乎降低了玩家在最终阶段的攻击欲望
 # FIXME: [HIM] 在游戏中也可以通过打开物品栏丢出奇怪的游戏内物品，得想个办法进行限制
 # TODO: [LTCat] 增加文本可读性
-# FIXME: [LTCat] 玩家层数记分板可能会闪烁
-# TODO: [LTCat] 优化转场黑屏动画*
+# FIXME: [LTCat] 玩家层数记分板可能会闪烁*
 # TODO: 钻石 为钻石掉落物添加发光效果
-# TODO: [LTCat] 跑酷 为密室增加一个奖励物品*

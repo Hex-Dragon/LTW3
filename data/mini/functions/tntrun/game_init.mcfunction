@@ -1,6 +1,8 @@
 # 初始化 TNT Run 地图
 forceload add 1000 2000 1050 2050
 
+scoreboard players reset * layer
+
 scoreboard players set $finish_mode mem 0
 scoreboard players set $survival mem 0
 

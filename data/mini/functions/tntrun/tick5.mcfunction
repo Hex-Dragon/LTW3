@@ -5,7 +5,6 @@ execute as @a[tag=mini_running] at @s if entity @s[y=35,dy=10] run scoreboard pl
 execute as @a[tag=mini_running] at @s if entity @s[y=30,dy=3] run scoreboard players set @s temp 3
 execute as @a[tag=mini_running] at @s if entity @s[y=25,dy=3] run scoreboard players set @s temp 2
 execute as @a[tag=mini_running] at @s if entity @s[y=20,dy=3] run scoreboard players set @s temp 1
-scoreboard players reset * layer
 execute as @a[tag=mini_running] run scoreboard players operation @s layer = @s temp
 
 # 进度判断
