@@ -34,7 +34,7 @@ scoreboard players operation #start_sec mem = #start_countdown mem
 scoreboard players operation #start_sec mem /= #const_4 mem
 scoreboard players operation #start_div mem = #start_countdown mem
 scoreboard players operation #start_div mem %= #const_4 mem
-execute if score #start_sec mem matches 1..10 if score #start_div mem matches 1 run execute as @a at @s run function lib:sounds/hit2
+execute if score #start_sec mem matches 1..10 if score #start_div mem matches 3 run execute as @a at @s run function lib:sounds/hit2
 
 # 20s：提示未准备
 execute if score #start_countdown mem matches 80 run tellraw @a[team=watching] [{"text":"","color":"red"},{"text":">> ","bold": true},"你还没有准备, 如果要参加游戏, 请丢出快捷栏最后一格的物品!"]
