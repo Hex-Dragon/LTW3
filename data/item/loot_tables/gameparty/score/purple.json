@@ -1,0 +1,34 @@
+{"pools": [{"rolls": 1,"entries": [
+
+{
+    "type": "minecraft:item",
+    "weight": 1,
+    "name": "minecraft:nether_star",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 8
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +8\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":8}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 1,
+    "name": "minecraft:nether_star",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 7
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +7\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":7}"
+        }
+    ]
+}
+
+]}]}

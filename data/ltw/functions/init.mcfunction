@@ -1,7 +1,7 @@
 # 全局初始化
 
 # 游戏数据
-setworldspawn 10 13 10
+setworldspawn -12 7 -102
 forceload remove all
 time set midnight
 weather clear
@@ -30,6 +30,8 @@ setblock 0 0 0 jukebox
 # 记分板
 scoreboard objectives remove temp
 scoreboard objectives add temp dummy
+scoreboard objectives remove temp2
+scoreboard objectives add temp2 dummy
 scoreboard objectives remove countdown
 scoreboard objectives add countdown dummy "倒计时"
 scoreboard objectives remove countdown_fast
@@ -39,8 +41,6 @@ scoreboard objectives add health health "生命值"
 scoreboard objectives remove health_disp
 scoreboard objectives add health_disp dummy "生命值"
 scoreboard objectives modify health_disp rendertype hearts
-scoreboard objectives remove death
-scoreboard objectives add death deathCount "死亡触发"
 scoreboard objectives remove mem
 scoreboard objectives add mem dummy "全局变量"
 scoreboard objectives remove total_score
@@ -51,16 +51,18 @@ scoreboard objectives remove leave_game
 scoreboard objectives add leave_game minecraft.custom:leave_game "离开游戏"
 scoreboard objectives remove effect_floating
 scoreboard objectives add effect_floating dummy "悬浮计时"
-# scoreboard objectives remove effect_regen
-# scoreboard objectives add effect_regen dummy "恢复计时"
 scoreboard objectives remove game_id
 scoreboard objectives add game_id dummy "游戏编号"
+scoreboard objectives remove music_time
+scoreboard objectives add music_time dummy "BGM 时间"
 scoreboard players set $ game_id 0
 
 # 商店系统记分板
-scoreboard objectives add buy_trigger trigger "触发器_购买物品"
 scoreboard objectives add gold dummy "金粒"
-scoreboard objectives add gold_total dummy "金粒总计"
+scoreboard objectives add gold_total dummy "总金粒"
+scoreboard objectives add green dummy "绿宝石"
+scoreboard objectives add green_total dummy "总绿宝石"
+scoreboard objectives add buy_trigger trigger "触发器_购买物品"
 scoreboard objectives add shop_arrow dummy "箭升级"
 scoreboard objectives add shop_potion dummy "药水升级"
 scoreboard objectives add shop_apple dummy "苹果升级"
@@ -74,24 +76,45 @@ scoreboard objectives add shop_firework dummy "烟花"
 scoreboard objectives add shop_bgm dummy "BGM"
 scoreboard objectives add shop_pig dummy "猪叫"
 scoreboard objectives add shop_easter_egg dummy "臭彩蛋"
+scoreboard objectives add shop_particle_s dummy "粒子效果系统"
+scoreboard objectives add shop_particle_2 dummy "粒子效果2"
+scoreboard objectives add shop_particle_3 dummy "粒子效果3"
+scoreboard objectives add shop_particle_4 dummy "粒子效果4"
+scoreboard objectives add shop_particle_5 dummy "粒子效果5"
+scoreboard objectives add shop_particle_6 dummy "粒子效果6"
+scoreboard objectives add particle_type dummy "粒子种类"
 scoreboard objectives add shop_dice dummy "骰子"
+scoreboard objectives add stat_total dummy "总场次"
+scoreboard objectives add stat_win dummy "总胜场"
 
 # 常量与变量初始化
 scoreboard players set #mini_total mem 5
 scoreboard players set #const_2 mem 2
+scoreboard players set #const_4 mem 4
 scoreboard players set #const_5 mem 5
 scoreboard players set #const_9 mem 9
 scoreboard players set #const_10 mem 10
 scoreboard players set #const_81 mem 81
 scoreboard players set #const_100 mem 100
-scoreboard players set $game_type mem 1
 
-# 队伍
-team remove player
-team add player "玩家"
-team modify player color white
-team modify player collisionRule never
-team modify player deathMessageVisibility never
+# 玩家队伍
+team remove debugging
+team add debugging "调试者"
+team modify debugging color red
+team modify debugging collisionRule never
+team modify debugging deathMessageVisibility never
+team remove playing
+team add playing "玩家"
+team modify playing color green
+team modify playing collisionRule never
+team modify playing deathMessageVisibility never
+team remove watching
+team add watching "旁观者"
+team modify watching color gray
+team modify watching collisionRule never
+team modify watching deathMessageVisibility never
+
+# 非玩家队伍
 team remove white
 team add white "白色"
 team modify white friendlyFire false
@@ -112,6 +135,10 @@ team add gold "金色"
 team modify gold color gold
 team modify gold friendlyFire false
 
+# 世界边界
+worldborder warning distance 0
+worldborder set 1000000
+
 # 进度
 advancement revoke @a only lib:damage_dealt
 advancement revoke @a only lib:damage_taken
@@ -131,3 +158,10 @@ function lib:bossbar/init
 
 # 状态
 function ltw:state/0/state_enter
+
+# 重置随机数组
+data modify storage ltw:mini types set value []
+data modify storage ltw:mini colormatch.types set value []
+
+# 显示提示
+tellraw @a ["",{"text": ">> ","color": "aqua","bold": true}, {"text": "管理员已手动重置游戏!","color": "aqua"}]

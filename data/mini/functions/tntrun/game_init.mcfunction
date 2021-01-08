@@ -1,7 +1,10 @@
 # 初始化 TNT Run 地图
 forceload add 1000 2000 1050 2050
 
+scoreboard players reset * layer
+
 scoreboard players set $finish_mode mem 0
+scoreboard players set $survival mem 0
 
 # 生成地图
 ##000
@@ -40,6 +43,7 @@ execute positioned 1019.5 19.2 2020.5 run function item:bonus_item/gameparty/aut
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 0
-team modify player friendlyFire true
-team modify player collisionRule always
+team modify playing friendlyFire true
+team modify playing collisionRule always
+team modify playing deathMessageVisibility never
 gamerule fallDamage false

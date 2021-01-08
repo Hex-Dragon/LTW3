@@ -4,10 +4,10 @@
       "item": "minecraft:leather_boots"
     },
     "title": {
-      "text":"探索"
+      "text":"跑酷"
     },
     "description": [
-      {"text": "探索的时光开始了……", "color":"gray"}
+      {"text": "", "color":"gray"}
     ],
     "frame": "task",
     "show_toast": false,

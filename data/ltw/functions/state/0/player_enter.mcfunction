@@ -6,7 +6,8 @@ title @s actionbar ""
 # 重置玩家血量上限
 attribute @s generic.max_health base set 20
 
-# 重置经验值
+# 重置经验值与配方
+recipe take @a *
 xp set @s 0 points
 xp set @s 0 levels
 
@@ -21,14 +22,15 @@ effect give @s resistance 1000000 4 true
 effect give @s weakness 1000000 4 true
 
 # 冒险模式
-gamemode adventure @s[tag=!debug]
+gamemode adventure @s[team=!debugging]
 
 # 传送玩家
-tp @s[tag=!debug] -10 8 -42 68 -20
+tp @s[team=!debugging] -10 8 -42 68 -20
 
 # 刷新物品
-clear @s[tag=!debug]
-execute as @s[tag=!debug] run function item:shop/refresh_gold
+clear @s[team=!debugging]
+execute as @s[team=!debugging] run function item:shop/refresh_gold
+execute as @s[team=!debugging] run function item:shop/refresh_green
 
 # 默认进入待机状态
-function item:lobby_state/join_watch
+function ltw:state/0/state/join_watch

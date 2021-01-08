@@ -1,1 +1,0 @@
-execute as @e[type=item] run data modify entity @s PickupDelay set value 0

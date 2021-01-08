@@ -2,33 +2,18 @@
 
 {
     "type": "minecraft:item",
-    "weight": 7,
-    "name": "minecraft:nether_star",
+    "weight": 2,
+    "name": "minecraft:iron_sword",
     "functions": [
         {
-            "function": "minecraft:set_count",
-            "count": 3
-        },
-        {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +3\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":3}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<击退 I> 铁剑\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Enchantments\":[{\"id\":\"knockback\",\"lvl\":1}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<击退 I> 铁剑\\\",\\\"italic\\\":0,\\\"color\\\":\\\"aqua\\\"}\"}}"
         }
     ]
 },
 {
     "type": "minecraft:item",
-    "weight": 3,
-    "name": "minecraft:emerald",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机翻倍或减半\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":100}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 4,
+    "weight": 2,
     "name": "minecraft:enchanted_golden_apple",
     "functions": [
         {
@@ -39,7 +24,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 4,
+    "weight": 2,
     "name": "minecraft:shield",
     "functions": [
         {
@@ -50,7 +35,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 2,
+    "weight": 1,
     "name": "minecraft:netherite_chestplate",
     "functions": [
         {
@@ -61,7 +46,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 2,
+    "weight": 1,
     "name": "minecraft:netherite_boots",
     "functions": [
         {

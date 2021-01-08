@@ -1,5 +1,3 @@
-scoreboard players add @s gold 243
-scoreboard players set @s temp 0
-tag @a remove self
-tag @s add self
-tellraw @a[tag=!self] ["",{"text":">> ","color":"gold","bold":true},{"selector": "@s","color":"gold"}," 欧到了一个境界，从老板那赢得了3金块！"]
+scoreboard players add @s gold 162
+tellraw @a ["",{"text":">> ","color":"green","bold":true},{"selector": "@s","color":"green"}," 买了一颗二十面骰, 掷出了 ",{"text": "20, 大成功","color":"green"}, ", 获得了 2 金块!"]
+execute at @s run function lib:sounds/levelup

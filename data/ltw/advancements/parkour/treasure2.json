@@ -1,0 +1,33 @@
+{
+    "parent": "ltw:parkour/treasure1",
+    "display": {
+      "icon": {
+        "item": "minecraft:chest"
+      },
+      "title": {
+        "text": "宝藏大师      "
+      },
+      "description": [
+        {"text": "在遗迹寻宝中收集 7 处宝藏\n", "color":"gray"},
+        {"text": "奖励: ","color":"green"},
+        {"text": "2 绿宝石","color":"white"}
+      ],
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "rewards": {
+      "function": "ltw:advancement/bonus_2"
+    },
+    "criteria": {
+      "get_score":{
+          "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+          "get_score"
+      ]
+    ]
+  }

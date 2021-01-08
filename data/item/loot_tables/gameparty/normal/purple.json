@@ -1,85 +1,11 @@
 {"pools": [{"rolls": 1,"entries": [
 
-{
-    "type": "minecraft:item",
-    "weight": 12,
-    "name": "minecraft:nether_star",
-    "functions": [
-        {
-            "function": "minecraft:set_count",
-            "count": 4
-        },
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +4\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":4}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 1,
-    "name": "minecraft:target",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机 +1~6\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":1}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 1,
-    "name": "minecraft:target",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机 +1~6\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":2}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 1,
-    "name": "minecraft:target",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机 +1~6\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":3}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 1,
-    "name": "minecraft:target",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机 +1~6\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":4}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 1,
-    "name": "minecraft:target",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机 +1~6\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":5}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 1,
-    "name": "minecraft:target",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机 +1~6\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":6}"
-        }
-    ]
-}
+
+    {
+        "type": "minecraft:loot_table",
+        "weight": 3,
+        "name": "item:gameparty/normal/blue"
+    }
+
 
 ]}]}

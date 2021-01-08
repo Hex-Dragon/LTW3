@@ -1,5 +1,5 @@
 # 作为玩家加入服务器
-tag @s remove watcher
+team join playing @s
 
 # 清除名次
 tag @s remove mini_rank1

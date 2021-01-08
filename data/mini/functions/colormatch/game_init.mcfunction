@@ -13,6 +13,7 @@ fill 1074 40 4000 1050 40 4024 barrier
 
 # 初始化
 scoreboard players set $finish_mode mem 0
+scoreboard players set $survival mem 0
 scoreboard players set $color_match_time mem 60
 scoreboard players set $color_match_type mem 0
 
@@ -27,6 +28,7 @@ kill @e[type=trident]
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 0
-team modify player friendlyFire true
-team modify player collisionRule always
+team modify playing friendlyFire true
+team modify playing collisionRule always
+team modify playing deathMessageVisibility never
 gamerule fallDamage false

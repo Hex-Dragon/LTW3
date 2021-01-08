@@ -11,6 +11,5 @@ execute as @s[tag=canbuy] run tellraw @a[tag=!canbuy] ["",{"text":">> ","color":
 execute as @s[tag=canbuy] run function item:shop/special_pig
 scoreboard players remove @s[tag=canbuy] gold 1
 execute as @s[tag=!canbuy] at @s run function lib:sounds/error
-execute as @s[tag=canbuy] at @s run function lib:sounds/levelup
 execute as @s[tag=canbuy] run function item:shop/refresh_gold
 tag @s remove canbuy

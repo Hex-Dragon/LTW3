@@ -3,5 +3,3 @@
 # 调用其他模块
 execute if score $state mem matches 5 run function ltw:state/5/tick1
 
-# 调用物品模块
-function item:tick1

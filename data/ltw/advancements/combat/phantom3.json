@@ -1,0 +1,33 @@
+{
+    "parent": "ltw:combat/phantom2",
+    "display": {
+      "icon": {
+        "item": "minecraft:spectral_arrow"
+      },
+      "title": {
+        "text": "不再有梦      "
+      },
+      "description": [
+        {"text": "在月夜狩猎中击杀 24 只幻翼\n", "color":"gray"},
+        {"text": "奖励: ","color":"green"},
+        {"text": "3 绿宝石","color":"white"}
+      ],
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "rewards": {
+      "function": "ltw:advancement/bonus_3"
+    },
+    "criteria": {
+      "finish":{
+          "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+          "finish"
+      ]
+    ]
+  }

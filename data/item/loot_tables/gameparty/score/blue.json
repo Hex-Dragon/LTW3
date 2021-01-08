@@ -1,0 +1,56 @@
+{"pools": [{"rolls": 1,"entries": [
+
+{
+    "type": "minecraft:item",
+    "weight": 5,
+    "name": "minecraft:nether_star",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 6
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +6\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":6}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 5,
+    "name": "minecraft:nether_star",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 5
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +5\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":5}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 2,
+    "name": "minecraft:ender_eye",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"从最高分玩家处偷取 3 分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":200,\"bonus_stole_score\":3}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 4,
+    "name": "minecraft:emerald",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分随机翻倍或不变\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":101}"
+        }
+    ]
+}
+
+]}]}

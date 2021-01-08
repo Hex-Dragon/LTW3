@@ -7,7 +7,7 @@
         "text":"战斗"
       },
       "description": [
-        {"text": "拼搏的时光开始了……", "color":"gray"}
+        {"text": "", "color":"gray"}
       ],
       "frame": "task",
       "show_toast": false,
