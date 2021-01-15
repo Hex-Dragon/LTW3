@@ -1,5 +1,8 @@
 # 去除地板
-execute positioned 1001 11 4000 run clone ~ ~ ~ ~24 ~ ~24 1050 15 4000
+fill 1049 14 3999 1071 14 4021 air replace #mini:colarmatch_floor
+
+# 替换方块
+execute positioned 1001 11 4000 run clone ~ ~ ~ ~20 ~ ~20 1050 15 4000 filtered #mini:colarmatch_floor
 
 # 告知玩家
 execute as @a at @s run function lib:sounds/hit2

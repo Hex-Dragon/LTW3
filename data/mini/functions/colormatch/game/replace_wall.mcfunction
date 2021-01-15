@@ -1,60 +1,32 @@
-execute if score $color_match_floor mem matches 1 run fill 1075 11 3999 1075 40 4025 acacia_planks
-execute if score $color_match_floor mem matches 1 run fill 1075 11 3999 1049 40 3999 acacia_planks
-execute if score $color_match_floor mem matches 1 run fill 1049 11 3999 1049 40 4025 acacia_planks
-execute if score $color_match_floor mem matches 1 run fill 1049 11 4025 1075 40 4025 acacia_planks
-execute if score $color_match_floor mem matches 2 run fill 1075 11 3999 1075 40 4025 birch_planks
-execute if score $color_match_floor mem matches 2 run fill 1075 11 3999 1049 40 3999 birch_planks
-execute if score $color_match_floor mem matches 2 run fill 1049 11 3999 1049 40 4025 birch_planks
-execute if score $color_match_floor mem matches 2 run fill 1049 11 4025 1075 40 4025 birch_planks
-execute if score $color_match_floor mem matches 3 run fill 1075 11 3999 1075 40 4025 bedrock
-execute if score $color_match_floor mem matches 3 run fill 1075 11 3999 1049 40 3999 bedrock
-execute if score $color_match_floor mem matches 3 run fill 1049 11 3999 1049 40 4025 bedrock
-execute if score $color_match_floor mem matches 3 run fill 1049 11 4025 1075 40 4025 bedrock
-execute if score $color_match_floor mem matches 4 run fill 1075 11 3999 1075 40 4025 crimson_planks
-execute if score $color_match_floor mem matches 4 run fill 1075 11 3999 1049 40 3999 crimson_planks
-execute if score $color_match_floor mem matches 4 run fill 1049 11 3999 1049 40 4025 crimson_planks
-execute if score $color_match_floor mem matches 4 run fill 1049 11 4025 1075 40 4025 crimson_planks
-execute if score $color_match_floor mem matches 5 run fill 1075 11 3999 1075 40 4025 warped_planks
-execute if score $color_match_floor mem matches 5 run fill 1075 11 3999 1049 40 3999 warped_planks
-execute if score $color_match_floor mem matches 5 run fill 1049 11 3999 1049 40 4025 warped_planks
-execute if score $color_match_floor mem matches 5 run fill 1049 11 4025 1075 40 4025 warped_planks
-execute if score $color_match_floor mem matches 6 run fill 1075 11 3999 1075 40 4025 gold_block
-execute if score $color_match_floor mem matches 6 run fill 1075 11 3999 1049 40 3999 gold_block
-execute if score $color_match_floor mem matches 6 run fill 1049 11 3999 1049 40 4025 gold_block
-execute if score $color_match_floor mem matches 6 run fill 1049 11 4025 1075 40 4025 gold_block
-execute if score $color_match_floor mem matches 7 run fill 1075 11 3999 1075 40 4025 bricks
-execute if score $color_match_floor mem matches 7 run fill 1075 11 3999 1049 40 3999 bricks
-execute if score $color_match_floor mem matches 7 run fill 1049 11 3999 1049 40 4025 bricks
-execute if score $color_match_floor mem matches 7 run fill 1049 11 4025 1075 40 4025 bricks
-execute if score $color_match_floor mem matches 8 run fill 1075 11 3999 1075 40 4025 mossy_cobblestone
-execute if score $color_match_floor mem matches 8 run fill 1075 11 3999 1049 40 3999 mossy_cobblestone
-execute if score $color_match_floor mem matches 8 run fill 1049 11 3999 1049 40 4025 mossy_cobblestone
-execute if score $color_match_floor mem matches 8 run fill 1049 11 4025 1075 40 4025 mossy_cobblestone
-execute if score $color_match_floor mem matches 9 run fill 1075 11 3999 1075 40 4025 purpur_block
-execute if score $color_match_floor mem matches 9 run fill 1075 11 3999 1049 40 3999 purpur_block
-execute if score $color_match_floor mem matches 9 run fill 1049 11 3999 1049 40 4025 purpur_block
-execute if score $color_match_floor mem matches 9 run fill 1049 11 4025 1075 40 4025 purpur_block
-execute if score $color_match_floor mem matches 10 run fill 1075 11 3999 1075 40 4025 prismarine
-execute if score $color_match_floor mem matches 10 run fill 1075 11 3999 1049 40 3999 prismarine
-execute if score $color_match_floor mem matches 10 run fill 1049 11 3999 1049 40 4025 prismarine
-execute if score $color_match_floor mem matches 10 run fill 1049 11 4025 1075 40 4025 prismarine
-# execute if score $color_match_floor mem matches 11 run fill 1075 11 3999 1075 40 4025 prismarine
-# execute if score $color_match_floor mem matches 11 run fill 1075 11 3999 1049 40 3999 prismarine
-# execute if score $color_match_floor mem matches 11 run fill 1049 11 3999 1049 40 4025 prismarine
-# execute if score $color_match_floor mem matches 11 run fill 1049 11 4025 1075 40 4025 prismarine
-# execute if score $color_match_floor mem matches 12 run fill 1075 11 3999 1075 40 4025 soul_soil
-# execute if score $color_match_floor mem matches 12 run fill 1075 11 3999 1049 40 3999 soul_soil
-# execute if score $color_match_floor mem matches 12 run fill 1049 11 3999 1049 40 4025 soul_soil
-# execute if score $color_match_floor mem matches 12 run fill 1049 11 4025 1075 40 4025 soul_soil
-# execute if score $color_match_floor mem matches 13 run fill 1075 11 3999 1075 40 4025 packed_ice
-# execute if score $color_match_floor mem matches 13 run fill 1075 11 3999 1049 40 3999 packed_ice
-# execute if score $color_match_floor mem matches 13 run fill 1049 11 3999 1049 40 4025 packed_ice
-# execute if score $color_match_floor mem matches 13 run fill 1049 11 4025 1075 40 4025 packed_ice
-# execute if score $color_match_floor mem matches 14 run fill 1075 11 3999 1075 40 4025 white_wool
-# execute if score $color_match_floor mem matches 14 run fill 1075 11 3999 1049 40 3999 white_wool
-# execute if score $color_match_floor mem matches 14 run fill 1049 11 3999 1049 40 4025 white_wool
-# execute if score $color_match_floor mem matches 14 run fill 1049 11 4025 1075 40 4025 white_wool
-# execute if score $color_match_floor mem matches 15 run fill 1075 11 3999 1075 40 4025 diamond_block
-# execute if score $color_match_floor mem matches 15 run fill 1075 11 3999 1049 40 3999 diamond_block
-# execute if score $color_match_floor mem matches 15 run fill 1049 11 3999 1049 40 4025 diamond_block
-# execute if score $color_match_floor mem matches 15 run fill 1049 11 4025 1075 40 4025 diamond_block
+execute if score $color_match_floor mem matches 1 run fill 1049 18 4008 1049 22 4012 minecraft:acacia_planks
+execute if score $color_match_floor mem matches 1 run fill 1062 22 4021 1058 18 4021 minecraft:acacia_planks
+execute if score $color_match_floor mem matches 1 run fill 1071 18 4012 1071 22 4008 minecraft:acacia_planks
+execute if score $color_match_floor mem matches 1 run fill 1058 22 3999 1062 18 3999 minecraft:acacia_planks
+execute if score $color_match_floor mem matches 2 run fill 1049 18 4008 1049 22 4012 minecraft:birch_planks
+execute if score $color_match_floor mem matches 2 run fill 1062 22 4021 1058 18 4021 minecraft:birch_planks
+execute if score $color_match_floor mem matches 2 run fill 1071 18 4012 1071 22 4008 minecraft:birch_planks
+execute if score $color_match_floor mem matches 2 run fill 1058 22 3999 1062 18 3999 minecraft:birch_planks
+execute if score $color_match_floor mem matches 3 run fill 1049 18 4008 1049 22 4012 minecraft:bedrock
+execute if score $color_match_floor mem matches 3 run fill 1062 22 4021 1058 18 4021 minecraft:bedrock
+execute if score $color_match_floor mem matches 3 run fill 1071 18 4012 1071 22 4008 minecraft:bedrock
+execute if score $color_match_floor mem matches 3 run fill 1058 22 3999 1062 18 3999 minecraft:bedrock
+execute if score $color_match_floor mem matches 4 run fill 1049 18 4008 1049 22 4012 minecraft:crimson_planks
+execute if score $color_match_floor mem matches 4 run fill 1062 22 4021 1058 18 4021 minecraft:crimson_planks
+execute if score $color_match_floor mem matches 4 run fill 1071 18 4012 1071 22 4008 minecraft:crimson_planks
+execute if score $color_match_floor mem matches 4 run fill 1058 22 3999 1062 18 3999 minecraft:crimson_planks
+execute if score $color_match_floor mem matches 5 run fill 1049 18 4008 1049 22 4012 minecraft:warped_planks
+execute if score $color_match_floor mem matches 5 run fill 1062 22 4021 1058 18 4021 minecraft:warped_planks
+execute if score $color_match_floor mem matches 5 run fill 1071 18 4012 1071 22 4008 minecraft:warped_planks
+execute if score $color_match_floor mem matches 5 run fill 1058 22 3999 1062 18 3999 minecraft:warped_planks
+execute if score $color_match_floor mem matches 6 run fill 1049 18 4008 1049 22 4012 minecraft:gold_block
+execute if score $color_match_floor mem matches 6 run fill 1062 22 4021 1058 18 4021 minecraft:gold_block
+execute if score $color_match_floor mem matches 6 run fill 1071 18 4012 1071 22 4008 minecraft:gold_block
+execute if score $color_match_floor mem matches 6 run fill 1058 22 3999 1062 18 3999 minecraft:gold_block
+execute if score $color_match_floor mem matches 7 run fill 1049 18 4008 1049 22 4012 minecraft:bricks
+execute if score $color_match_floor mem matches 7 run fill 1062 22 4021 1058 18 4021 minecraft:bricks
+execute if score $color_match_floor mem matches 7 run fill 1071 18 4012 1071 22 4008 minecraft:bricks
+execute if score $color_match_floor mem matches 7 run fill 1058 22 3999 1062 18 3999 minecraft:bricks
+execute if score $color_match_floor mem matches 8 run fill 1049 18 4008 1049 22 4012 minecraft:mossy_cobblestone
+execute if score $color_match_floor mem matches 8 run fill 1062 22 4021 1058 18 4021 minecraft:mossy_cobblestone
+execute if score $color_match_floor mem matches 8 run fill 1071 18 4012 1071 22 4008 minecraft:mossy_cobblestone
+execute if score $color_match_floor mem matches 8 run fill 1058 22 3999 1062 18 3999 minecraft:mossy_cobblestone
