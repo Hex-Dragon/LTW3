@@ -46,6 +46,17 @@
 {
     "type": "minecraft:item",
     "weight": 1,
+    "name": "minecraft:stick",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<击退 I> 木棍\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Enchantments\":[{\"id\":\"knockback\",\"lvl\":1}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<击退 I> 木棍\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 1,
     "name": "minecraft:wooden_axe",
     "functions": [
         {
