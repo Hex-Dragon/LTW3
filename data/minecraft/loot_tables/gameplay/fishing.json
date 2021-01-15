@@ -6,31 +6,20 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 10,
-          "quality": -2,
-          "name": "minecraft:gameplay/fishing/junk"
+          "weight": 3,
+          "quality": 7,
+          "name": "item:gameparty/normal/green"
         },
         {
           "type": "minecraft:loot_table",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "predicate": {
-                "fishing_hook": {
-                  "in_open_water": true
-                }
-              },
-              "entity": "this"
-            }
-          ],
-          "weight": 5,
-          "quality": 2,
-          "name": "minecraft:gameplay/fishing/treasure"
+          "weight": 27,
+          "quality": 13,
+          "name": "item:gameparty/normal/white"
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 85,
-          "quality": -1,
+          "weight": 70,
+          "quality": -25,
           "name": "minecraft:gameplay/fishing/fish"
         }
       ]

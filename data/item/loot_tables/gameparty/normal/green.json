@@ -6,6 +6,17 @@
         "name": "item:gameparty/score/green"
     },
 
+    {
+        "type": "minecraft:item",
+        "weight": 1,
+        "name": "minecraft:fishing_rod",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<海之眷顾> 钓鱼竿\\\",\\\"color\\\":\\\"green\\\"}\",\"Enchantments\":[{\"id\":\"luck_of_the_sea\",\"lvl\":1}],\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"钓鱼竿\\\",\\\"italic\\\":false,\\\"color\\\":\\\"green\\\"}\"}}"
+            }
+        ]
+    },
 {
     "type": "minecraft:item",
     "weight": 1,
