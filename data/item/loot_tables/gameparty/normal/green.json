@@ -2,13 +2,13 @@
 
     {
         "type": "minecraft:loot_table",
-        "weight": 1,
+        "weight": 3,
         "name": "item:gameparty/score/green"
     },
 
     {
         "type": "minecraft:item",
-        "weight": 1,
+        "weight": 2,
         "name": "minecraft:fishing_rod",
         "functions": [
             {
@@ -19,7 +19,7 @@
     },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 3,
     "name": "minecraft:iron_axe",
     "functions": [
         {
@@ -30,7 +30,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 2,
     "name": "minecraft:totem_of_undying",
     "functions": [
         {
@@ -41,7 +41,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 2,
     "name": "minecraft:golden_apple",
     "functions": [
         {
@@ -52,7 +52,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 3,
     "name": "minecraft:splash_potion",
     "functions": [
         {
@@ -63,7 +63,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 3,
     "name": "minecraft:crossbow",
     "functions": [
         {
