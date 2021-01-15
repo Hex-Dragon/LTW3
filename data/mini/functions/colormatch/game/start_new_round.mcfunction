@@ -1,7 +1,7 @@
 # 替换墙壁
 function mini:colormatch/game/replace_wall
 # 复制地板
-execute positioned 1001 10 4000 run clone ~ ~ ~ ~20 ~ ~20 1050 14 4000 filtered #mini:colarmatch_floor
+execute positioned 1001 10 4000 run clone ~ ~ ~ ~20 ~ ~20 1050 16 4000 filtered #mini:colarmatch_floor
 
 # 设置倒计时
 execute if score $color_match_time mem matches 20.. run scoreboard players remove $color_match_time mem 3
@@ -15,7 +15,7 @@ scoreboard players operation $countdown_fast mem = $color_match_time mem
 scoreboard players set $color_match_type mem 0
 
 # 拉玩家下来
-execute as @a[tag=color_match_fall] at @s run tp @s ~ 17 ~
+execute as @a[tag=color_match_fall] at @s run tp @s ~ 19 ~
 execute as @a[tag=color_match_fall] at @s run function lib:sounds/teleport
 execute if entity @a[tag=color_match_fall] run scoreboard players add $countdown_fast mem 5
 tag @a[tag=color_match_fall] remove color_match_fall
