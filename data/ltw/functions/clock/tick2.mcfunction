@@ -7,6 +7,7 @@ execute as @a[x=-12,y=7,z=-102,distance=..5] run tp @s -13 9 -42
 
 # 调用其他模块
 function lib:bossbar/tick2
+execute if score $state mem matches 0 run function ltw:state/0/tick2
 execute if score $state mem matches 3 run function ltw:state/3/tick2
 execute if score $state mem matches 4 run function ltw:state/4/tick2
 execute if score $state mem matches 5 run function ltw:state/5/tick2
