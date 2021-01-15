@@ -31,6 +31,17 @@
 {
     "type": "minecraft:item",
     "weight": 1,
+    "name": "minecraft:totem_of_undying",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"不死图腾\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"不死图腾\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 1,
     "name": "minecraft:golden_apple",
     "functions": [
         {

@@ -5,7 +5,7 @@ kill @e[type=item]
 kill @e[type=arrow]
 kill @e[type=trident]
 
-# 生成 玩家数+2 个奖励
+# 生成 玩家数+1 个奖励
 execute store result score #bonus_count mem if entity @a[team=playing]
 scoreboard players add #bonus_count mem 1
 execute if score #bonus_count mem matches 1.. positioned 17.5 10.2 1967.5 run function item:bonus_item/gameparty/random

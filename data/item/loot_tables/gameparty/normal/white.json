@@ -80,7 +80,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"飘浮 (0:10)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":25,\"Amplifier\":0,\"Duration\":200}],\"CustomPotionColor\":11458519,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型浮空药水\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"神龟 (0:20)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Potion\":\"turtle_master\",\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型神龟药水\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
         }
     ]
 },
@@ -91,7 +91,18 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"失明 (0:20)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":15,\"Amplifier\":0,\"Duration\":400}],\"CustomPotionColor\":1644828,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型致盲药水\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"飘浮 (0:10)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":25,\"Amplifier\":0,\"Duration\":200}],\"CustomPotionColor\":11458519,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型浮空药水\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 1,
+    "name": "minecraft:lingering_potion",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"失明 (滞留, 0:15)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":15,\"Amplifier\":0,\"Duration\":300}],\"CustomPotionColor\":1644828,\"display\":{\"Name\":\"{\\\"text\\\":\\\"滞留型致盲药水\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
         }
     ]
 },
