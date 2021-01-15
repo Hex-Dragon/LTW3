@@ -38,7 +38,5 @@ function lib:bossbar/show
 # TODO: [LTCat] {幻翼} 在玩家第一次到达半血时显示回血的提示
 # TODO: [LTCat] 增加文本可读性
 # TODO: [HIM] 重新处理主大厅的物品给予，在格子上显示固定的物品
-# TODO: [HIM] 不死图腾的处理
-# TODO: [HIM] 改成只锁定最后一个格子
 # TODO: [010] {土豆} 将橙子已经制作好的概念地图实装
 # TODO: [010] {幻翼} 制作幻翼的成品地图
