@@ -37,7 +37,6 @@ function lib:bossbar/show
 
 # FIXME: [LTCat] BGM 可能会双响
 # TODO: [LTCat] {幻翼} 在玩家第一次到达半血时显示回血的提示
-# TODO: [LTCat] {色彩} 添加音效、修改描述
 # TODO: [LTCat] 增加文本可读性
 # TODO: [HIM] 重新处理主大厅的物品给予，在格子上显示固定的物品
 # TODO: [HIM] 不死图腾的处理
