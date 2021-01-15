@@ -32,7 +32,6 @@ function lib:bossbar/show
 # FIXME: 关掉 JourneyMap 的生物雷达
 # TODO: 逐个游戏检查中途退出重进是否造成 Bug
 # TODO: 逐个游戏检查是否在开始时清理了实体
-# TODO: {跑酷} 为已获取的宝藏标识新的粒子，并显示提示*
 # TODO: {TNTRun} 有多人汇报存在严重卡顿，检查是否是场地的粒子造成，或者是游戏中的光照更新、实体、方块变化
 
 # FIXME: [LTCat] BGM 可能会双响
