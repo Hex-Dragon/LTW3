@@ -14,5 +14,5 @@ execute if score $color_match_current mem matches 5 run replaceitem entity @s ho
 execute if score $color_match_current mem matches 6 run replaceitem entity @s hotbar.8 gold_block{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
 execute if score $color_match_current mem matches 7 run replaceitem entity @s hotbar.8 bricks{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
 execute if score $color_match_current mem matches 8 run replaceitem entity @s hotbar.8 mossy_cobblestone{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
-execute if score $color_match_current mem matches 9 run replaceitem entity @s hotbar.8 purpur_block{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
-execute if score $color_match_current mem matches 10 run replaceitem entity @s hotbar.8 prismarine{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
+# execute if score $color_match_current mem matches 9 run replaceitem entity @s hotbar.8 purpur_block{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
+# execute if score $color_match_current mem matches 10 run replaceitem entity @s hotbar.8 prismarine{game_item:1b,display:{Name:'[{"text":"本轮的地板方块","color":"white","italic":false}]'}}
