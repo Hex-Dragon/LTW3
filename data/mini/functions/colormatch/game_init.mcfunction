@@ -3,12 +3,6 @@ forceload add 1001 4000 1075 4025
 setblock 1049 10 3999 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,rotation:"NONE",posX:0,mode:"LOAD",integrity:1.0f,showair:0b,name:"mini:color_match"}
 setblock 1049 11 3999 redstone_block
 
-# 初始化墙壁
-fill 1049 18 4008 1049 22 4012 stone
-fill 1062 22 4021 1058 18 4021 stone
-fill 1071 18 4012 1071 22 4008 stone
-fill 1058 22 3999 1062 18 3999 stone
-
 # 初始化
 scoreboard players set $finish_mode mem 0
 scoreboard players set $survival mem 0
