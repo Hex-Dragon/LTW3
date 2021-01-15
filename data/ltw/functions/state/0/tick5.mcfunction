@@ -26,7 +26,7 @@ execute if score $count mem matches 3.. if score #start_countdown mem matches 99
 # 取消：提示取消
 execute if score $count mem matches ..2 if score #start_countdown mem matches ..999 run tellraw @a [{"text":"","color":"red"},{"text": ">> ","bold": true},"已准备人数不足, 游戏取消!"]
 execute if score $count mem matches ..2 if score #start_countdown mem matches ..999 as @a at @s run function lib:sounds/error
-execute if score $count mem matches ..2 if score #start_countdown mem matches ..999 run scoreboard players set #start_countdown mem 9999
+execute if score $count mem matches ..2 if score #start_countdown mem matches ..999 run scoreboard players set #start_countdown mem 9999999
 
 # 播放音效
 scoreboard players remove #start_countdown mem 1
