@@ -15,7 +15,7 @@ execute store result entity @e[type=armor_stand,tag=dead_marker,limit=1] Pos[2] 
 # 单独处理钻石
 execute store result score #diamond_count temp run clear @s diamond
 scoreboard players add #diamond_count temp 1
-execute at @e[type=armor_stand,tag=dead_marker,limit=1] run summon item ~ ~ ~ {Tags:["temp_diamond"],Item:{id:"minecraft:diamond",Count:1b}}
+execute at @e[type=armor_stand,tag=dead_marker,limit=1] run summon item ~ ~ ~ {Tags:["temp_diamond"],Item:{id:"minecraft:diamond",Count:1b},Glowing:1b}
 execute as @e[type=item,tag=temp_diamond,limit=1] store result entity @s Item.Count byte 0.5 run scoreboard players get #diamond_count temp
 tag @e[type=item,tag=temp_diamond,limit=1] remove temp_diamond
 # 随机槽位掉落
