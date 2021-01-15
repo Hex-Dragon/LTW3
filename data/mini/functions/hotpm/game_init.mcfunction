@@ -19,16 +19,16 @@ kill @e[type=trident]
 # 生成地图
 
 #   101
-setblock 1023 4 3022 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"!",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:32,posZ:0,integrity:1.0f,showair:0b,name:"mini:hotpm101",sizeY:32,sizeZ:32,showboundingbox:0b}
-setblock 1023 5 3022 minecraft:redstone_block
+setblock 1032 4 3032 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"!",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:32,posZ:0,integrity:1.0f,showair:0b,name:"mini:hotpm101",sizeY:32,sizeZ:32,showboundingbox:0b}
+setblock 1032 5 3032 minecraft:redstone_block
 
 #   100
-setblock 1023 4 2999 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:32,posZ:0,integrity:1.0f,showair:0b,name:"mini:hotpm100",sizeY:32,sizeZ:32,showboundingbox:0b}
-setblock 1023 5 2999 minecraft:redstone_block
+setblock 1032 4 2999 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:32,posZ:0,integrity:1.0f,showair:0b,name:"mini:hotpm100",sizeY:32,sizeZ:32,showboundingbox:0b}
+setblock 1032 5 2999 minecraft:redstone_block
 
 #   001
-setblock 1000 4 3022 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:1b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:32,posZ:0,integrity:1.0f,showair:0b,name:"mini:hotpm001",sizeY:32,sizeZ:32,showboundingbox:0b}
-setblock 1000 5 3022 minecraft:redstone_block
+setblock 1000 4 3032 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:1b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:32,posZ:0,integrity:1.0f,showair:0b,name:"mini:hotpm001",sizeY:32,sizeZ:32,showboundingbox:0b}
+setblock 1000 5 3032 minecraft:redstone_block
 
 #   000
 setblock 1000 4 2999 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:32,posZ:0,integrity:1.0f,showair:0b,name:"mini:hotpm000",sizeY:32,sizeZ:32,showboundingbox:0b}
