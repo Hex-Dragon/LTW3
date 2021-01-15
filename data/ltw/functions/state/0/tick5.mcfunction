@@ -48,3 +48,8 @@ execute if score #start_countdown mem matches 0 run function ltw:state/0/start_g
 # 显示信息
 execute if score #start_countdown mem matches 1..199 run title @a actionbar [{"text":"","color":"green"},{"score":{"name":"$count","objective":"mem"}},"/",{"score":{"name":"#total_count","objective":"mem"}}," 人已准备 | ","将在 ",{"score":{"name":"#start_sec","objective":"mem"}}," 秒后开始游戏"]
 execute if score #start_countdown mem matches 200.. run title @a actionbar [{"text":"","color":"red"},{"score":{"name":"$count","objective":"mem"}},"/",{"score":{"name":"#total_count","objective":"mem"}}," 人已准备 | 需要 3 人以开始游戏"]
+
+# 处理乱扔物品的玩家
+execute as @e[type=item,nbt={Item:{tag:{stats_item:1b}}}] at @s as @a[distance=..2] at @s run function item:shop/refresh_gold
+execute as @e[type=item,nbt={Item:{tag:{stats_item:1b}}}] at @s as @a[distance=..2] at @s run function item:shop/refresh_green
+execute as @e[type=item,nbt={Item:{tag:{stats_item:1b}}}] run kill @s
