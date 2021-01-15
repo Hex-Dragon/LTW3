@@ -16,12 +16,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:tropical_fish"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 13,
+          "weight": 15,
           "name": "minecraft:pufferfish"
         }
       ]

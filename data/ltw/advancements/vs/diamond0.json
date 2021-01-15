@@ -1,0 +1,50 @@
+{
+    "parent": "ltw:vs/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:cooked_salmon"
+      },
+      "title": {
+        "text": "美味的鱼儿    "
+      },
+      "description": [
+        {"text": "抓了鱼儿然后烤\n", "color":"gray"},
+        {"text": "奖励: ","color":"green"},
+        {"text": "1 绿宝石","color":"white"}
+      ],
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "rewards": {
+      "function": "ltw:advancement/bonus_1"
+    },
+    "criteria": {
+        "f1": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "item": "minecraft:cooked_salmon"
+              }
+            ]
+          }
+        },
+        "f2": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "item": "minecraft:cooked_cod"
+              }
+            ]
+          }
+        }
+    },
+    "requirements": [
+        [
+          "f1", "f2"
+        ]
+    ]
+}

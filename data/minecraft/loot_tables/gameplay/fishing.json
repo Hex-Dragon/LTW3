@@ -13,13 +13,13 @@
         {
           "type": "minecraft:loot_table",
           "weight": 27,
-          "quality": 13,
+          "quality": 23,
           "name": "item:gameparty/normal/white"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 70,
-          "quality": -25,
+          "quality": -30,
           "name": "minecraft:gameplay/fishing/fish"
         }
       ]
