@@ -5,4 +5,4 @@
 execute unless data entity @s Inventory[{Slot:8b,tag:{game_item:1b}}] unless data entity @s Inventory[{Slot:8b,tag:{LockItem:1b,LockSlot:8b},Count:1b}] run function item:disable_slot/disable_slot_8
 
 # 清除临时物品
-clear @a barrier{LockTempItem:1b}
+clear @a red_dye{LockTempItem:1b}
