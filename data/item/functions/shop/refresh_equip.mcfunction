@@ -26,7 +26,7 @@ give @s[scores={shop_arrow=2}] arrow 2
 give @s[scores={shop_arrow=3}] tipped_arrow{Potion:"minecraft:slowness"} 2
 
 clear @s crossbow
-give @s[scores={shop_firework=1}] minecraft:crossbow{display:{Name:'{"text":"烟花弩","italic":false,"color":"gray"}',Lore:['{"text":"发射一个漂亮的烟花！","italic":false,"color":"gray"}']},Damage:326,Charged:1b,ChargedProjectiles:[{id:"firework_rocket",Count:1b,tag:{Fireworks:{Flight:1b,Explosions:[{Type:0b,Colors:[I;11743532,15435844,14602026,4312372,6719955,2437522,8073150],Flicker:1b}]}}}]} 1
+give @s[scores={shop_firework=1}] minecraft:crossbow{display:{Name:'{"text":"烟花弩","italic":false,"color":"gray"}',Lore:['{"text":"发射一个漂亮的烟花!","italic":false,"color":"gray"}']},Damage:326,Charged:1b,ChargedProjectiles:[{id:"firework_rocket",Count:1b,tag:{Fireworks:{Flight:1b,Explosions:[{Type:0b,Colors:[I;11743532,15435844,14602026,4312372,6719955,2437522,8073150]}]}}}]} 1
 
 replaceitem entity @s armor.chest air
 replaceitem entity @s[scores={shop_armor=3..}] armor.chest golden_chestplate{display:{Name:'{"text":"金胸甲","italic":false,"color":"gray"}'}}
