@@ -1,6 +1,17 @@
 {"pools": [{"rolls": 1,"entries": [
 
 {
+        "type": "minecraft:item",
+        "weight": 2,
+        "name": "minecraft:iron_pickaxe",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁镐\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"铁镐\\\",\\\"italic\\\":0,\\\"color\\\":\\\"aqua\\\"}\"}}"
+            }
+        ]
+},
+{
     "type": "minecraft:item",
     "weight": 2,
     "name": "minecraft:iron_sword",
@@ -58,11 +69,11 @@
 {
     "type": "minecraft:item",
     "weight": 1,
-    "name": "minecraft:netherite_boots",
+    "name": "minecraft:netherite_leggings",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金护腿、靴子\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:netherite_leggings\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金头盔、护腿\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:netherite_helmet\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
         }
     ]
 }

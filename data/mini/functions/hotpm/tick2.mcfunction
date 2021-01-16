@@ -12,7 +12,7 @@ execute if score $countdown_fast mem matches 0 if entity @a[tag=pm_holding] run 
 # 检测土豆
 function mini:hotpm/game/pm_check
 
-# 往手上塞tnt
+# 往手上塞 TNT
 execute as @a[tag=pm_holding] unless data entity @s Inventory[{Slot:8b,tag:{game_item:1b},Count:1b}] run function mini:hotpm/game/pm_show
 execute as @a[tag=!pm_holding] if data entity @s Inventory[{tag:{game_item:1b}}] run clear @s tnt{game_item:1b}
 

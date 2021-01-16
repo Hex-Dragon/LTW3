@@ -6,20 +6,20 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 3,
-          "quality": 7,
+          "weight": 10,
+          "quality": 5,
           "name": "item:gameparty/normal/green"
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 27,
-          "quality": 23,
+          "weight": 40,
+          "quality": 10,
           "name": "item:gameparty/normal/white"
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 70,
-          "quality": -30,
+          "weight": 50,
+          "quality": -15,
           "name": "minecraft:gameplay/fishing/fish"
         }
       ]
