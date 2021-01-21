@@ -1,4 +1,7 @@
 
+# 更新绿宝石数量
+execute as @a[team=playing] store result score @s emerald run clear @s emerald 0
+
 # 显示倒计时
 execute if score $countdown mem matches ..10 run title @a times 3 14 2
 execute if score $countdown mem matches ..10 run title @a subtitle {"score":{"name":"$countdown","objective":"mem"}}
