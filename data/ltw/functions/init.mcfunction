@@ -53,6 +53,8 @@ scoreboard objectives remove effect_floating
 scoreboard objectives add effect_floating dummy "悬浮计时"
 scoreboard objectives remove game_id
 scoreboard objectives add game_id dummy "游戏编号"
+scoreboard objectives remove player_id
+scoreboard objectives add player_id dummy "玩家编号"
 scoreboard objectives remove music_time
 scoreboard objectives add music_time dummy "BGM 时间"
 scoreboard players set $ game_id 0
