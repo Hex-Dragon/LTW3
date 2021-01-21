@@ -31,3 +31,4 @@ gamerule doLimitedCrafting false
 gamerule keepInventory true
 gamerule doTileDrops true
 gamerule doEntityDrops true
+gamerule doMobLoot true

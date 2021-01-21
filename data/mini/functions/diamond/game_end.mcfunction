@@ -7,6 +7,7 @@ gamerule doLimitedCrafting true
 gamerule keepInventory true
 gamerule doTileDrops false
 gamerule doEntityDrops false
+gamerule doMobLoot false
 gamerule fireDamage false
 gamerule drowningDamage false
 

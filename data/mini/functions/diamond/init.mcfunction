@@ -1,6 +1,6 @@
 # 重置计分板
 scoreboard objectives remove diamond
-scoreboard objectives add diamond dummy "持有钻石数"
+scoreboard objectives add diamond dummy "钻石数"
 
 scoreboard objectives remove posX
 scoreboard objectives add posX dummy "坐标X"
