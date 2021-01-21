@@ -19,8 +19,8 @@ kill @e[type=!player,x=950,y=-200,z=4950,dx=100,dy=600,dz=100]
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 1
-team modify playing friendlyFire true
-team modify playing collisionRule always
+team modify playing friendlyFire false
+team modify playing collisionRule never
 team modify playing deathMessageVisibility always
 gamerule fallDamage false
 gamerule fireDamage true
@@ -42,3 +42,7 @@ execute as @e[type=villager,tag=TradePlayer] run data modify entity @s Offers.Re
 execute as @e[type=villager,tag=TradePlayer] run data modify entity @s Offers.Recipes append from entity @e[type=villager,tag=TradeOrigin,limit=1] Offers.Recipes[0]
 execute as @e[type=villager,tag=TradePlayer] run data modify entity @s Offers.Recipes append from entity @e[type=villager,tag=TradeOrigin,limit=1] Offers.Recipes[0]
 execute as @e[type=villager,tag=TradePlayer] run data modify entity @s Offers.Recipes append from entity @e[type=villager,tag=TradeOrigin,limit=1] Offers.Recipes[0]
+# 村民碰撞箱处理
+team join playing @e[type=villager,tag=TradePlayer]
+# 村民隐身
+effect give @e[type=villager,tag=TradePlayer] invisibility 999999 0 true
