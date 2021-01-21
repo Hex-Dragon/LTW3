@@ -4,6 +4,6 @@
     "tag": "minecraft:logs_that_burn"
   },
   "result": "minecraft:charcoal",
-  "experience": 0.15,
-  "cookingtime": 200
+  "experience": 0,
+  "cookingtime": 60
 }
