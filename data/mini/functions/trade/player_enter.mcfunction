@@ -19,4 +19,4 @@ gamemode survival @s[team=playing,tag=!rejoining]
 
 # 执行重生方法
 tag @s remove respawning
-function mini:trade/game/respawn1
+function mini:trade/game/respawn
