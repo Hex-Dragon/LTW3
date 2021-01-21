@@ -20,6 +20,7 @@ kill @e[type=!player,x=950,y=-200,z=4950,dx=100,dy=600,dz=100]
 # 伤害管理
 scoreboard players set $remove_resistance mem 1
 team modify playing friendlyFire false
+team modify playing seeFriendlyInvisibles false
 team modify playing collisionRule never
 team modify playing deathMessageVisibility always
 gamerule fallDamage false
