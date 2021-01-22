@@ -35,7 +35,7 @@ gamerule doEntityDrops true
 gamerule doMobLoot true
 
 # 生成实体
-summon villager 1000 5 5000 {Tags:["TradeMarker","TradeOrigin"],Invulnerable:1b,Silent:1b,Offers:{Recipes:[{buy:{id:"emerald",Count:4},maxUses:999999,rewardExp:false,xp:20,sell:{id:"spider_spawn_egg",Count:1b}}]},VillagerData:{level:5,type:"jungle",profession:"nitwit"},Xp:10}
+summon villager 1000 5 5000 {NoAI:1b,Tags:["TradeMarker","TradeOrigin"],Invulnerable:1b,Silent:1b,Offers:{Recipes:[{buy:{id:"emerald",Count:4},maxUses:999999,rewardExp:false,xp:20,sell:{id:"spider_spawn_egg",Count:1b}}]},VillagerData:{level:5,type:"jungle",profession:"nitwit"},Xp:10}
 # 设置交易列表
 execute as @a[team=playing] run function mini:trade/villager_init
 # 复制交易列表
