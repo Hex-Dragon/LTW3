@@ -4,6 +4,6 @@
         "minecraft:grass",
         "minecraft:tall_grass",
         "#minecraft:climbable",
-        "#minecraft:water"
+        "minecraft:water"
     ]
 }
