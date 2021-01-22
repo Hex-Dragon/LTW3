@@ -46,4 +46,4 @@ execute as @e[type=villager,tag=TradePlayer] run data modify entity @s Offers.Re
 # 村民碰撞箱处理
 team join playing @e[type=villager,tag=TradePlayer]
 # 村民隐身
-effect give @e[type=villager,tag=TradePlayer] invisibility 999999 0 true
+# effect give @e[type=villager,tag=TradePlayer] invisibility 999999 0 true
