@@ -2,7 +2,7 @@
 
     {
         "type": "minecraft:item",
-        "weight": 2,
+        "weight": 3,
         "name": "minecraft:nether_star",
         "functions": [
             {
@@ -24,12 +24,27 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 6,
+        "weight": 4,
         "name": "minecraft:diamond"
     },
     {
         "type": "minecraft:item",
-        "weight": 2,
+        "weight": 3,
+        "name": "minecraft:iron_ingot",
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": {
+              "min": 2.0,
+              "max": 4.0,
+              "type": "minecraft:uniform"
+            }
+          }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 3,
         "name": "minecraft:book"
     }
     
