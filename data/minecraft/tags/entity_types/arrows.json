@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:villager",
     "minecraft:arrow",
     "minecraft:spectral_arrow"
   ]
