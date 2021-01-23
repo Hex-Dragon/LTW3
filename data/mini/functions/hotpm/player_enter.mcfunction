@@ -20,12 +20,8 @@ tag @s remove pm_damage_dealt
 tag @s remove pm_damage_taken
 tag @s remove pm_explode_last
 
-
 # 传送玩家
-tp @s[team=playing,tag=!rejoining] 1023 25 3021
-# spreadplayers 1023 3021 5 5 false @s[team=playing,tag=!rejoining]
-# schedule function mini:hotpm/player_enter2 1t replace
-# execute as @a[team=playing,tag=!rejoining] at @s run tp @s ~ 25 ~
+tp @s[team=playing,tag=!rejoining] 1018.0 8 3015.0
 
 # 调整模式
 gamemode spectator @s[team=!debugging]
