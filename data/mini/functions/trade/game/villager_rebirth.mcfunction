@@ -7,7 +7,7 @@ data modify entity @e[type=villager,tag=newVillager,limit=1] Xp set from entity 
 data modify entity @e[type=villager,tag=newVillager,limit=1] VillagerData set from entity @s VillagerData
 data modify entity @e[type=villager,tag=newVillager,limit=1] Offers set from entity @s Offers
 # 清理tag
-tag @e[type=villager,tag=newVillager] remove newVillager
+data modify entity @e[type=villager,tag=newVillager,limit=1] Tags set from entity @s Tags
 # 清理旧村民
 execute at @s run tp @s ~ -100 ~
 kill @s
