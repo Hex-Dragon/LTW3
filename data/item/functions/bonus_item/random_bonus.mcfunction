@@ -1,5 +1,6 @@
 #as player
 setblock 0 0 1 shulker_box replace
+tellraw 00ll00 {"nbt":"item.tag.bonus_random_bonus","storage": "item:bonus"}
 data modify storage item:bonus random_bonus set from storage item:bonus item.tag.bonus_random_bonus[0]
 data remove storage item:bonus item.tag.bonus_random_bonus[0]
 execute store result score $item.random.count mem run data get storage item:bonus random_bonus.count

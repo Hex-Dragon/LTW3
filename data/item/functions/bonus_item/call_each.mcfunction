@@ -27,5 +27,4 @@ execute if data storage item:bonus item.tag.bonus_random_bonus[0] run function i
 execute if score $state mem matches 7 run function item:bonus_item/pickup_1
 
 # 处理下一个
-tellraw 00ll00 {"nbt":"item_buff","storage": "item:bonus"}
 execute if data storage item:bonus item_buff[0] run function item:bonus_item/call_each
