@@ -173,7 +173,7 @@
                                 },
                                 {
                                     "function": "set_nbt",
-                                    "tag":"{sell:{id:\"nether_star\",Count:1}}"
+                                    "tag":"{sell:{id:\"nether_star\",Count:1,tag:{display:{Name:'{\"text\":\"得分 +1\",\"color\":\"white\",\"italic\":false}'}}}}"
                                 },
                                 {
                                     "function": "set_nbt",

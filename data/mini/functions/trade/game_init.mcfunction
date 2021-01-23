@@ -35,13 +35,16 @@ gamerule doEntityDrops true
 gamerule doMobLoot true
 
 # 生成实体
-summon villager 1000 5 5000 {NoAI:1b,Tags:["TradeMarker","TradeOrigin"],Invulnerable:1b,Silent:1b,Offers:{Recipes:[{buy:{id:"emerald",Count:4},maxUses:999999,rewardExp:false,xp:20,sell:{id:"spider_spawn_egg",Count:1b}}]},CustomName:'{"text":"使用生物雷达是作弊行为哦！","color":"red"}'}
+summon villager 1000 5 5000 {NoAI:1b,Tags:["TradeMarker","TradeOrigin"],Invulnerable:1b,Silent:1b,Offers:{},CustomName:'{"text":"使用生物雷达是作弊行为哦！","color":"red"}'}
 # 设置交易列表
+execute as @e[type=villager,tag=TradeMarker] at @s run function mini:trade/game/set_trade
+
+# 玩家村民生成
 execute as @a[team=playing] run function mini:trade/game/villager_init
 # 复制交易列表
 execute as @e[type=villager,tag=TradePlayer] run data modify entity @s Offers.Recipes append from entity @e[type=villager,tag=TradeOrigin,limit=1] Offers.Recipes[0]
-execute as @e[type=villager,tag=TradePlayer] run data modify entity @s Offers.Recipes append from entity @e[type=villager,tag=TradeOrigin,limit=1] Offers.Recipes[0]
-execute as @e[type=villager,tag=TradePlayer] run data modify entity @s Offers.Recipes append from entity @e[type=villager,tag=TradeOrigin,limit=1] Offers.Recipes[0]
-execute as @e[type=villager,tag=TradePlayer] run data modify entity @s Offers.Recipes append from entity @e[type=villager,tag=TradeOrigin,limit=1] Offers.Recipes[0]
+execute as @e[type=villager,tag=TradePlayer] run data modify entity @s Offers.Recipes append from entity @e[type=villager,tag=TradeOrigin,limit=1] Offers.Recipes[1]
+execute as @e[type=villager,tag=TradePlayer] run data modify entity @s Offers.Recipes append from entity @e[type=villager,tag=TradeOrigin,limit=1] Offers.Recipes[2]
+execute as @e[type=villager,tag=TradePlayer] run data modify entity @s Offers.Recipes append from entity @e[type=villager,tag=TradeOrigin,limit=1] Offers.Recipes[3]
 # 村民碰撞箱处理
 team join playing @e[type=villager,tag=TradePlayer]
