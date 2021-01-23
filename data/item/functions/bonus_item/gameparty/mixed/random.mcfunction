@@ -12,6 +12,6 @@ execute if score #quality mem matches ..55 run function item:bonus_item/gamepart
 # 绿色：30%
 execute if score #quality mem matches 56..85 run function item:bonus_item/gameparty/mixed/green
 # 蓝色：10%
-execute if score #quality mem matches 86..95 run function item:bonus_item/gameparty/mixed/blue
-# 紫色：5%
-execute if score #quality mem matches 96.. run function item:bonus_item/gameparty/mixed/purple
+execute if score #quality mem matches 86..98 run function item:bonus_item/gameparty/mixed/blue
+# 紫色：2%
+execute if score #quality mem matches 99.. run function item:bonus_item/gameparty/mixed/purple

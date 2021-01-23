@@ -8,8 +8,8 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 20,
-        "name": "minecraft:chest",
+        "weight": 25,
+        "name": "minecraft:heart_of_the_sea",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
