@@ -1,10 +1,45 @@
 {"pools": [{"rolls": 1,"entries": [
 
-
     {
-        "type": "minecraft:loot_table",
+        "type": "minecraft:item",
+        "weight": 6,
+        "name": "minecraft:shulker_shell",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁镐, 铁斧, 铁剑, 铁锹\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:iron_pickaxe\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:iron_axe\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:iron_sword\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:iron_shovel\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
+            }
+        ]
+},
+    {
+        "type": "minecraft:item",
         "weight": 3,
-        "name": "item:gameparty/item/blue"
+        "name": "minecraft:iron_ingot",
+        "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 9
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁锭 x9\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 3,
+        "name": "minecraft:diamond",
+        "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 4
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"钻石 x4\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+            }
+        ]
     }
 
 

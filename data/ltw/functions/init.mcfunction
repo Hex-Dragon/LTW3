@@ -108,16 +108,19 @@ team add debugging "调试者"
 team modify debugging color red
 team modify debugging collisionRule never
 team modify debugging deathMessageVisibility never
+team modify debugging seeFriendlyInvisibles false
 team remove playing
 team add playing "玩家"
 team modify playing color green
 team modify playing collisionRule never
 team modify playing deathMessageVisibility never
+team modify playing seeFriendlyInvisibles false
 team remove watching
 team add watching "旁观者"
 team modify watching color gray
 team modify watching collisionRule never
 team modify watching deathMessageVisibility never
+team modify watching seeFriendlyInvisibles false
 
 # 非玩家队伍
 team remove white

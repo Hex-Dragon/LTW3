@@ -1,8 +1,13 @@
 {"pools": [{"rolls": 1,"entries": [
 
     {
+        "type": "minecraft:loot_table",
+        "weight": 50,
+        "name": "item:gameparty/item/purple"
+    },
+    {
         "type": "minecraft:item",
-        "weight": 1,
+        "weight": 30,
         "name": "minecraft:heart_of_the_sea",
         "functions": [
             {
@@ -13,7 +18,7 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 1,
+        "weight": 20,
         "name": "minecraft:heart_of_the_sea",
         "functions": [
             {

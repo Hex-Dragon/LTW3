@@ -8,7 +8,7 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 25,
+        "weight": 30,
         "name": "minecraft:heart_of_the_sea",
         "functions": [
             {
