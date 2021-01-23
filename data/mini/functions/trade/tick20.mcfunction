@@ -25,3 +25,8 @@ execute as @a[scores={temp2=1..}] run scoreboard players operation @s total_scor
 execute as @a[scores={temp2=1..}] run scoreboard players operation @s total_score_disp += @s temp2
 execute as @a[scores={temp2=1..}] run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 从交易中获得了 ",{"score": {"name":"@s","objective": "temp2"},"color":"aqua"},{"text": " 分","color":"aqua"},", 当前共有 ",{"score": {"name": "@s","objective": "total_score"}}, " 分"]
 clear @a[team=playing] nether_star
+
+# 60s 提示
+execute if score $countdown mem matches 60 run tellraw @a ["",{"text": ">> ","color": "gold","bold": true},{"text":"游戏将在 ","color": "gold"}, "60 秒 ",{"text": "后结束","color": "gold"}]
+execute if score $countdown mem matches 60 run scoreboard players set $bossbar_color mem 2
+execute if score $countdown mem matches 60 run function lib:bossbar/show
