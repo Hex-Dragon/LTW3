@@ -9,7 +9,7 @@ tellraw @a[team=playing,tag=!selected_player] ["",{"text": ">> ","color": "red",
 team join watching @a[team=playing,tag=!selected_player]
 tellraw @a[team=playing,tag=selected_player] ["",{"text": ">> ","color": "green","bold": true},{"text": "游戏开始!","color": "green"}]
 tellraw @a[team=watching] ["",{"text": ">> ","color": "green","bold": true},{"text": "游戏开始, 你将旁观本局游戏!","color": "green"}]
-tellraw @a[team=debugging] ["",{"text": ">> ","color": "blue","bold": true},{"text": "你正处于 Debug 模式中, 将忽略游戏开始!","color": "blue"}]
+tellraw @a[team=debugging] ["",{"text": ">> ","color": "aqua","bold": true},{"text": "你正处于 Debug 模式中, 将忽略游戏开始!","color": "aqua"}]
 
 # 设置数据
 scoreboard players reset * total_score
