@@ -1,0 +1,39 @@
+{
+    "type": "generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "group",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "spider_spawn_egg"
+                        },
+                        {
+                            "type": "item",
+                            "name": "skeleton_spawn_egg"
+                        },
+                        {
+                            "type": "item",
+                            "name": "iron_ingot"
+                        },
+                        {
+                            "type": "item",
+                            "name": "stone"
+                        },
+                        {
+                            "type": "item",
+                            "name": "oak_planks"
+                        },
+                        {
+                            "type": "item",
+                            "name": "nether_star"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
