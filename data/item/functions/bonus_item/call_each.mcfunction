@@ -25,3 +25,6 @@ execute if data storage item:bonus item.tag.bonus_random_bonus[0] run function i
 
 # 执行特定函数
 execute if score $state mem matches 7 run function item:bonus_item/pickup_1
+
+# 处理下一个
+execute if data storage item:bonus item_buff[0] run function item:bonus_item/call_each
