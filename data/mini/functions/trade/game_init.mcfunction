@@ -37,7 +37,7 @@ gamerule doMobLoot true
 # 生成实体
 summon villager 1000 5 5000 {NoAI:1b,Tags:["TradeMarker","TradeOrigin"],Invulnerable:1b,Silent:1b,Offers:{},CustomName:'{"text":"使用生物雷达是作弊行为哦！","color":"red"}'}
 # 设置交易列表
-execute as @e[type=villager,tag=TradeMarker] at @s run function mini:trade/game/set_trade
+execute as @e[type=villager,tag=TradeOrigin] at @s run function mini:trade/game/set_trade
 
 # 玩家村民生成
 execute as @a[team=playing] run function mini:trade/game/villager_init
