@@ -2,6 +2,7 @@
 forceload add 1000 5000 1064 5064
 
 scoreboard players reset * emerald
+scoreboard players reset * interactVillager
 scoreboard players set $finish_mode mem 0
 scoreboard players set $survival mem 1
 
