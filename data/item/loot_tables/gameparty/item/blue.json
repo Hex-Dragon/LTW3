@@ -2,7 +2,18 @@
 
     {
         "type": "minecraft:item",
-        "weight": 6,
+        "weight": 3,
+        "name": "minecraft:chest",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"地牢箱子\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"BlockEntityTag\":{\"LootTable\":\"mini:diamond\",\"id\":\"minecraft:chest\"}}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 3,
         "name": "minecraft:iron_ingot",
         "functions": [
             {
@@ -12,6 +23,17 @@
             {
                 "function": "minecraft:set_nbt",
                 "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁锭 x5\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 3,
+        "name": "minecraft:lava_bucket",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"岩浆桶\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
             }
         ]
     },
@@ -77,7 +99,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"鞘翅, 烟花火箭 x5\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"鞘翅\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"},\"bonus_give_items\":[{\"id\":\"minecraft:firework_rocket\",\"Count\":5,\"tag\":{\"is_bonus\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}}]}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"鞘翅, 烟花火箭 x8\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"鞘翅\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"},\"bonus_give_items\":[{\"id\":\"minecraft:firework_rocket\",\"Count\":8,\"tag\":{\"is_bonus\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}}]}"
         }
     ]
 },

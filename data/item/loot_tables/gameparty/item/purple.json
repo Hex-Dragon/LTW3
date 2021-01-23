@@ -7,7 +7,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"万能药 (饮用, 2:00)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":12,\"Amplifier\":0,\"Duration\":2400},{\"Id\":11,\"Amplifier\":1,\"Duration\":2400},{\"Id\":1,\"Amplifier\":1,\"Duration\":2400},{\"Id\":5,\"Amplifier\":1,\"Duration\":2400},{\"Id\":3,\"Amplifier\":4,\"Duration\":2400}],\"CustomPotionColor\":16777215,\"display\":{\"Name\":\"{\\\"text\\\":\\\"万能药\\\",\\\"italic\\\":0,\\\"color\\\":\\\"light_purple\\\"}\"}}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"万能药 (饮用, 3:00)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":10,\"Amplifier\":0,\"Duration\":3600},{\"Id\":12,\"Amplifier\":0,\"Duration\":3600},{\"Id\":11,\"Amplifier\":1,\"Duration\":3600},{\"Id\":1,\"Amplifier\":1,\"Duration\":3600},{\"Id\":5,\"Amplifier\":1,\"Duration\":3600},{\"Id\":3,\"Amplifier\":4,\"Duration\":3600}],\"CustomPotionColor\":16777215,\"display\":{\"Name\":\"{\\\"text\\\":\\\"万能药\\\",\\\"italic\\\":0,\\\"color\\\":\\\"light_purple\\\"}\"}}"
             }
         ]
     },

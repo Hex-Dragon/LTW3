@@ -58,6 +58,17 @@
 {
     "type": "minecraft:item",
     "weight": 3,
+    "name": "minecraft:blast_furnace",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"高炉, 煤炭 x5\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:coal\",\"Count\":5,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}]}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
     "name": "minecraft:cobblestone",
     "functions": [
         {
@@ -77,11 +88,11 @@
     "functions": [
         {
             "function": "minecraft:set_count",
-            "count": 4
+            "count": 5
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁矿石 x4\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁矿石 x5\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
         }
     ]
 },

@@ -2,7 +2,22 @@
 
 {
     "type": "minecraft:item",
-    "weight": 6,
+    "weight": 4,
+    "name": "minecraft:nether_star",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 7
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +7\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":7}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 4,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -17,7 +32,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 6,
+    "weight": 4,
     "name": "minecraft:nether_star",
     "functions": [
         {

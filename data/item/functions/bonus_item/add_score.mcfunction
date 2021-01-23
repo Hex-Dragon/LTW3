@@ -21,10 +21,10 @@ execute if score #bonus_add_score mem matches 101 if score $random mem matches 0
 # 200：偷分
 execute if score #bonus_add_score mem matches 200 run function item:bonus_item/stole_score
 
-# 300：金粒 +5
-execute if score #bonus_add_score mem matches 300 run scoreboard players add @s gold 5
-execute if score #bonus_add_score mem matches 300 run scoreboard players add @s gold_total 5
-execute if score #bonus_add_score mem matches 300 run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 获得了 5 金粒"]
+# 300：金粒 +7
+execute if score #bonus_add_score mem matches 300 run scoreboard players add @s gold 7
+execute if score #bonus_add_score mem matches 300 run scoreboard players add @s gold_total 7
+execute if score #bonus_add_score mem matches 300 run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 获得了 7 金粒"]
 
 # 给予进度
 execute if entity @s[scores={total_score=10..}] run advancement grant @s only ltw:story/score1
