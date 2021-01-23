@@ -8,6 +8,7 @@
         "minecraft:purpur_block",
         "minecraft:bricks",
         "minecraft:mossy_cobblestone",
-        "minecraft:stone"
+        "minecraft:stone",
+        "minecraft:diamond_block"
     ]
 }
