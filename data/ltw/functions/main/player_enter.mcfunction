@@ -38,6 +38,5 @@ function lib:bossbar/show
 # FIXME: {交易} 在缓慢旋转视角时能观察到村民前后抽搐
 
 # 010
-# TODO: 支持 “随机获得 2 个绿色物品” 这种类型的奖励（指定 LootTable 名称和运行次数）
 # TODO: 升级 1.16.5（不过得先等 OptiFine 更新）
 # TODO: {幻翼} 制作幻翼的成品地图
