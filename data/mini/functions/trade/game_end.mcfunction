@@ -2,7 +2,6 @@
 forceload remove 1000 5000 1064 5064
 
 # Gamerule 调整
-gamerule doDaylightCycle false
 gamerule doLimitedCrafting true
 gamerule keepInventory true
 gamerule doTileDrops false
