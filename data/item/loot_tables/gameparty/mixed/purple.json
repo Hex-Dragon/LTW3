@@ -1,15 +1,9 @@
 {"pools": [{"rolls": 1,"entries": [
 
-
-    {
-        "type": "minecraft:loot_table",
-        "weight": 100,
-        "name": "item:gameparty/item/purple"
-    },
     {
         "type": "minecraft:item",
-        "weight": 10,
-        "name": "minecraft:chest",
+        "weight": 1,
+        "name": "minecraft:heart_of_the_sea",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
@@ -19,8 +13,8 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 10,
-        "name": "minecraft:chest",
+        "weight": 1,
+        "name": "minecraft:heart_of_the_sea",
         "functions": [
             {
                 "function": "minecraft:set_nbt",

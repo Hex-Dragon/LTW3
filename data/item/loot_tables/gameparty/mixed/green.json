@@ -12,8 +12,8 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 11,
-        "name": "minecraft:chest",
+        "weight": 13,
+        "name": "minecraft:heart_of_the_sea",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
@@ -23,8 +23,8 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 3,
-        "name": "minecraft:chest",
+        "weight": 4,
+        "name": "minecraft:heart_of_the_sea",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
@@ -34,8 +34,8 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 3,
-        "name": "minecraft:chest",
+        "weight": 4,
+        "name": "minecraft:heart_of_the_sea",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
@@ -45,8 +45,8 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 3,
-        "name": "minecraft:chest",
+        "weight": 4,
+        "name": "minecraft:heart_of_the_sea",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
