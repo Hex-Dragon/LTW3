@@ -23,11 +23,12 @@ gamerule doLimitedCrafting true
 gamerule announceAdvancements true
 
 # 主寄存区块：将所有需要不卸载的都放里面
-#   已占用：(0,0,0) (0,0,1) (0,1,0)
+#   已占用：(0,0,0) (0,0,1) (0,1,0) (0,1,1)
 forceload add 0 0
 setblock 0 0 0 jukebox
 setblock 0 0 1 shulker_box
-setblock 0 1 0 oak_sign
+setblock 0 1 0 minecraft:acacia_wall_sign[facing=north]
+setblock 0 1 1 stone
 
 # 记分板
 scoreboard objectives remove temp
