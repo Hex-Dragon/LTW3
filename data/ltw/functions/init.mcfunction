@@ -100,7 +100,7 @@ scoreboard players set #const_81 mem 81
 scoreboard players set #const_100 mem 100
 
 # 玩家队伍
-team remove debugging
+# team remove debugging
 team add debugging "调试者"
 team modify debugging color red
 team modify debugging collisionRule never
