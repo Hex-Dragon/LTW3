@@ -3,6 +3,17 @@
     {
         "type": "minecraft:item",
         "weight": 6,
+        "name": "minecraft:potion",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"万能药 (饮用, 2:00)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":12,\"Amplifier\":0,\"Duration\":2400},{\"Id\":11,\"Amplifier\":1,\"Duration\":2400},{\"Id\":1,\"Amplifier\":1,\"Duration\":2400},{\"Id\":5,\"Amplifier\":1,\"Duration\":2400},{\"Id\":3,\"Amplifier\":4,\"Duration\":2400}],\"CustomPotionColor\":16777215,\"display\":{\"Name\":\"{\\\"text\\\":\\\"万能药\\\",\\\"italic\\\":0,\\\"color\\\":\\\"light_purple\\\"}\"}}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 6,
         "name": "minecraft:shulker_shell",
         "functions": [
             {
@@ -18,11 +29,11 @@
         "functions": [
             {
                 "function": "minecraft:set_count",
-                "count": 9
+                "count": 10
             },
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁锭 x9\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁锭 x10\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
             }
         ]
     },
@@ -33,11 +44,11 @@
         "functions": [
             {
                 "function": "minecraft:set_count",
-                "count": 4
+                "count": 5
             },
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"钻石 x4\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"钻石 x5\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
             }
         ]
     }
