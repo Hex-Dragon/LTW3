@@ -26,6 +26,7 @@ gamerule announceAdvancements true
 #   已占用：(0,0,0) (0,0,1)
 forceload add 0 0
 setblock 0 0 0 jukebox
+setblock 0 0 1 shulker_box
 
 # 记分板
 scoreboard objectives remove temp
