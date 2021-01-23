@@ -38,13 +38,9 @@ gamerule doMobLoot true
 summon villager 1000 5 5000 {NoAI:1b,Tags:["TradeMarker","TradeOrigin"],Invulnerable:1b,Silent:1b,Offers:{},CustomName:'{"text":"使用生物雷达是作弊行为哦！","color":"red"}'}
 # 设置交易列表
 execute as @e[type=villager,tag=TradeOrigin] at @s run function mini:trade/game/set_trade
-
 # 玩家村民生成
 execute as @a[team=playing] run function mini:trade/game/villager_init
 # 复制交易列表
-execute as @e[type=villager,tag=TradePlayer] run data modify entity @s Offers.Recipes append from entity @e[type=villager,tag=TradeOrigin,limit=1] Offers.Recipes[0]
-execute as @e[type=villager,tag=TradePlayer] run data modify entity @s Offers.Recipes append from entity @e[type=villager,tag=TradeOrigin,limit=1] Offers.Recipes[1]
-execute as @e[type=villager,tag=TradePlayer] run data modify entity @s Offers.Recipes append from entity @e[type=villager,tag=TradeOrigin,limit=1] Offers.Recipes[2]
-execute as @e[type=villager,tag=TradePlayer] run data modify entity @s Offers.Recipes append from entity @e[type=villager,tag=TradeOrigin,limit=1] Offers.Recipes[3]
+execute as @e[type=villager,tag=TradePlayer] run function mini:trade/game/villager_update_trade
 # 村民碰撞箱处理
 team join playing @e[type=villager,tag=TradePlayer]
