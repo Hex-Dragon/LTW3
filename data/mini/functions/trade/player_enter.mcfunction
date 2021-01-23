@@ -4,7 +4,7 @@ title @s clear
 title @s actionbar ""
 
 # 解锁配方
-recipe give @s *
+recipe give @s[team=playing] *
 
 # 设置玩家生命
 attribute @s generic.max_health base set 20
