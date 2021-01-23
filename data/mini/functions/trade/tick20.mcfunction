@@ -30,3 +30,8 @@ clear @a[team=playing] nether_star
 execute if score $countdown mem matches 60 run tellraw @a ["",{"text": ">> ","color": "gold","bold": true},{"text":"游戏将在 ","color": "gold"}, "60 秒 ",{"text": "后结束","color": "gold"}]
 execute if score $countdown mem matches 60 run scoreboard players set $bossbar_color mem 2
 execute if score $countdown mem matches 60 run function lib:bossbar/show
+
+# 给予进度
+execute as @a[team=playing] if score @s emerald matches 40.. run advancement grant @s only ltw:vs/emerald1
+execute as @a[team=playing] if score @s emerald matches 70.. run advancement grant @s only ltw:vs/emerald2
+execute as @a[team=playing] if score @s emerald matches 100.. run advancement grant @s only ltw:vs/emerald3

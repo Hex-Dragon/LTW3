@@ -19,7 +19,7 @@
                             "functions": [
                                 {
                                     "function": "set_nbt",
-                                    "tag": "{buy:{id:\"emerald\",Count:4}}"
+                                    "tag": "{buy:{id:\"emerald\",Count:3}}"
                                 },
                                 {
                                     "function": "set_nbt",
@@ -49,7 +49,7 @@
                             "functions": [
                                 {
                                     "function": "set_nbt",
-                                    "tag": "{buy:{id:\"emerald\",Count:5}}"
+                                    "tag": "{buy:{id:\"emerald\",Count:4}}"
                                 },
                                 {
                                     "function": "set_nbt",

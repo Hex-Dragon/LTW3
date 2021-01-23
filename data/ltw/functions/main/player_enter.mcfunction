@@ -30,7 +30,14 @@ function lib:bossbar/show
 
 # 无指定人员
 # FIXME: 关掉 JourneyMap 的生物雷达
-# TODO: {TNTRun} 有多人汇报存在严重卡顿，检查是否是场地的粒子造成，或者是游戏中的光照更新、实体、方块变化
+# TODO: {TNTRun} 哭泣的黑曜石的光照更新导致了严重的卡顿
+
+# LTCat
+# FIXME: 尝试偷 3 分时只会偷到 0 分
+# FIXME: 继续尝试修改过场动画
+
+# HIM
+# TODO: {贸易} 让每条出售交易都有 30% 的概率打 7 折
 
 # 010
 # TODO: 升级 1.16.5（不过得先等 OptiFine 更新）

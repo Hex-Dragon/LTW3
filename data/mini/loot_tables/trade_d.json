@@ -83,7 +83,7 @@
                                 },
                                 {
                                     "function": "set_nbt",
-                                    "tag":"{sell:{id:\"emerald\",Count:8}}"
+                                    "tag":"{sell:{id:\"emerald\",Count:9}}"
                                 },
                                 {
                                     "function": "set_nbt",
@@ -212,7 +212,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag":"{sell:{id:\"emerald\",Count:9}}"
+                            "tag":"{sell:{id:\"emerald\",Count:10}}"
                         },
                         {
                             "function": "set_nbt",

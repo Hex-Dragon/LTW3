@@ -141,11 +141,11 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{buy:{id:\"yellow_stained_glass\",Count:1}}"
+                            "tag": "{buy:{id:\"yellow_stained_glass\",Count:2}}"
                         },
                         {
                             "function": "set_nbt",
-                            "tag":"{sell:{id:\"emerald\",Count:4}}"
+                            "tag":"{sell:{id:\"emerald\",Count:9}}"
                         },
                         {
                             "function": "set_nbt",
@@ -175,7 +175,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag":"{sell:{id:\"emerald\",Count:3}}"
+                            "tag":"{sell:{id:\"emerald\",Count:4}}"
                         },
                         {
                             "function": "set_nbt",
