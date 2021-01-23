@@ -1,5 +1,5 @@
 #as player
-execute store result score #bonus_add_score mem run data get block 0 0 0 RecordItem.tag.bonus_add_score
+execute store result score #bonus_add_score mem run data get storage item:bouns item.tag.bonus_add_score
 
 # 正常的加分
 execute if score #bonus_add_score mem matches ..10 run scoreboard players operation @s total_score += #bonus_add_score mem

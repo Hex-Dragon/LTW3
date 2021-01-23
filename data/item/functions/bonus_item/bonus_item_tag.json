@@ -9,5 +9,9 @@
     "bonus_give_items":[
         {"id":"minecraft:stone","Count":64,"tag":{"is_bonus":true,"display":{"Name":"\"普通的石头\""}}},
         {"id":"minecraft:arrow","Count":64,"tag":{"is_bonus":true}}
+    ],
+    "bonus_random_bounds":[
+        {"type":"normal","level":"white","count":2},
+        {"type":"score","level":"green","count":1}
     ]
 }
