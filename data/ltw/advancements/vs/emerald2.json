@@ -1,5 +1,5 @@
 {
-    "parent": "ltw:vs/emerald2",
+    "parent": "ltw:vs/emerald1",
     "display": {
       "icon": {
         "item": "minecraft:emerald"

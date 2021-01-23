@@ -2,7 +2,7 @@
 
 {
         "type": "minecraft:item",
-        "weight": 2,
+        "weight":3,
         "name": "minecraft:fishing_rod",
         "functions": [
             {
@@ -13,7 +13,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 3,
+    "weight": 6,
     "name": "minecraft:iron_axe",
     "functions": [
         {
@@ -24,7 +24,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 2,
+    "weight": 3,
     "name": "minecraft:totem_of_undying",
     "functions": [
         {
@@ -35,7 +35,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 2,
+    "weight": 3,
     "name": "minecraft:golden_apple",
     "functions": [
         {
@@ -46,12 +46,86 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 3,
+    "weight": 6,
     "name": "minecraft:crossbow",
     "functions": [
         {
             "function": "minecraft:set_nbt",
             "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<快速装填 III> 弩, 箭 x10\\\",\\\"color\\\":\\\"green\\\"}\",\"Enchantments\":[{\"id\":\"quick_charge\",\"lvl\":3}],\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":10,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<快速装填 III> 弩\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:cobblestone",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 16
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"圆石 x16\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:iron_ore",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 4
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁矿石 x4\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:potion",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"急迫 IV (饮用, 2:00)\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":3,\"Amplifier\":3,\"Duration\":2400}],\"CustomPotionColor\":16578599,\"display\":{\"Name\":\"{\\\"text\\\":\\\"速掘药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:potion",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"力量 II (饮用, 1:30)\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":5,\"Amplifier\":1,\"Duration\":1800}],\"CustomPotionColor\":9836568,\"display\":{\"Name\":\"{\\\"text\\\":\\\"力量药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:netherite_chestplate",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金胸甲\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:netherite_leggings",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金护腿\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
         }
     ]
 }

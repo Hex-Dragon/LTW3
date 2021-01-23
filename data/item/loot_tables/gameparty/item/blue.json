@@ -1,8 +1,23 @@
 {"pools": [{"rolls": 1,"entries": [
 
+    {
+        "type": "minecraft:item",
+        "weight": 4,
+        "name": "minecraft:iron_ingot",
+        "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 4
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁锭 x4\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+            }
+        ]
+    },
 {
         "type": "minecraft:item",
-        "weight": 2,
+        "weight": 4,
         "name": "minecraft:iron_pickaxe",
         "functions": [
             {
@@ -13,7 +28,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 2,
+    "weight": 6,
     "name": "minecraft:iron_sword",
     "functions": [
         {
@@ -24,7 +39,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 2,
+    "weight": 6,
     "name": "minecraft:enchanted_golden_apple",
     "functions": [
         {
@@ -35,7 +50,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 2,
+    "weight": 6,
     "name": "minecraft:shield",
     "functions": [
         {
@@ -46,7 +61,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 2,
+    "weight": 6,
     "name": "minecraft:elytra",
     "functions": [
         {
@@ -57,7 +72,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 3,
     "name": "minecraft:netherite_chestplate",
     "functions": [
         {
@@ -68,7 +83,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 3,
     "name": "minecraft:netherite_leggings",
     "functions": [
         {

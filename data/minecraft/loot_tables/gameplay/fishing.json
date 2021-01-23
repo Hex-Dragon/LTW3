@@ -7,7 +7,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 10,
-          "quality": 5,
+          "quality": 10,
           "name": "item:gameparty/item/green"
         },
         {
@@ -19,7 +19,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 50,
-          "quality": -15,
+          "quality": -20,
           "name": "minecraft:gameplay/fishing/fish"
         }
       ]

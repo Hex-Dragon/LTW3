@@ -2,18 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 1,
-    "name": "minecraft:splash_potion",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"速度 II (0:20)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":1,\"Amplifier\":1,\"Duration\":400}],\"CustomPotionColor\":8039610,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型速度药水\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 1,
+    "weight": 6,
     "name": "minecraft:fishing_rod",
     "functions": [
         {
@@ -28,7 +17,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 6,
     "name": "minecraft:stone_pickaxe",
     "functions": [
         {
@@ -39,7 +28,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 4,
     "name": "minecraft:stick",
     "functions": [
         {
@@ -50,7 +39,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 4,
     "name": "minecraft:wooden_axe",
     "functions": [
         {
@@ -65,7 +54,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 2,
+    "weight": 6,
     "name": "minecraft:shield",
     "functions": [
         {
@@ -80,29 +69,29 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 2,
     "name": "minecraft:splash_potion",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"神龟 (0:20)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Potion\":\"turtle_master\",\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型神龟药水\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"神龟 (喷溅, 0:20)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Potion\":\"turtle_master\",\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型神龟药水\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
         }
     ]
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 2,
     "name": "minecraft:splash_potion",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"飘浮 (0:10)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":25,\"Amplifier\":0,\"Duration\":200}],\"CustomPotionColor\":11458519,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型浮空药水\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"飘浮 (喷溅, 0:10)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":25,\"Amplifier\":0,\"Duration\":200}],\"CustomPotionColor\":11458519,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型浮空药水\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
         }
     ]
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 2,
     "name": "minecraft:lingering_potion",
     "functions": [
         {
@@ -113,18 +102,18 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
-    "name": "minecraft:splash_potion",
+    "weight": 2,
+    "name": "minecraft:potion",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"隐身 (3:00)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Potion\":\"invisibility\",\"display\":{\"Name\":\"{\\\"text\\\":\\\"隐身药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"隐身 (饮用, 3:00)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Potion\":\"invisibility\",\"display\":{\"Name\":\"{\\\"text\\\":\\\"隐身药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
         }
     ]
 },
 {
     "type": "minecraft:item",
-    "weight": 2,
+    "weight": 6,
     "name": "minecraft:crossbow",
     "functions": [
         {
@@ -135,23 +124,49 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
-    "name": "minecraft:netherite_leggings",
+    "weight": 3,
+    "name": "minecraft:diamond_helmet",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金护腿\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"钻石头盔\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
         }
     ]
 },
 {
     "type": "minecraft:item",
-    "weight": 1,
+    "weight": 3,
     "name": "minecraft:netherite_boots",
     "functions": [
         {
             "function": "minecraft:set_nbt",
             "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金靴子\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:oak_log",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 5
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"橡木原木 x5\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:furnace",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"熔炉\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
         }
     ]
 }
