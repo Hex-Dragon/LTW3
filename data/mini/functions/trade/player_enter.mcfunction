@@ -10,7 +10,7 @@ recipe give @s[team=playing] *
 attribute @s generic.max_health base set 20
 
 # 计分板重置
-scoreboard players reset @s emerald
+scoreboard players reset * emerald
 scoreboard players set @s[team=playing,tag=!rejoining] emerald 0
 
 # 调整模式

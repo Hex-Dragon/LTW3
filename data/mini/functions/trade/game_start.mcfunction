@@ -1,7 +1,7 @@
 
 # HUD 与倒计时
 scoreboard objectives setdisplay list total_score_disp
-scoreboard objectives setdisplay belowName emerald
+scoreboard objectives setdisplay belowName total_score_disp
 scoreboard objectives setdisplay sidebar emerald
 scoreboard players set $bossbar_color mem 4
 scoreboard players set $countdown_max mem 330
