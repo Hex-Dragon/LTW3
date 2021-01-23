@@ -8,13 +8,13 @@
           "type": "minecraft:loot_table",
           "weight": 10,
           "quality": 5,
-          "name": "item:gameparty/normal/green"
+          "name": "item:gameparty/item/green"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 40,
           "quality": 10,
-          "name": "item:gameparty/normal/white"
+          "name": "item:gameparty/item/white"
         },
         {
           "type": "minecraft:loot_table",
