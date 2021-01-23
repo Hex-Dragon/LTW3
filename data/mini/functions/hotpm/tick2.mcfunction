@@ -9,6 +9,9 @@ execute if score $countdown_fast mem matches ..0 run scoreboard players set $cou
 # 爆炸
 execute if score $countdown_fast mem matches 0 if entity @a[tag=pm_holding] run function mini:hotpm/player_lose_heart
 
+# 存活加分
+execute if score $countdown_fast mem matches 0 run scoreboard players add @a[tag=mini_running] surviveRound 1
+
 # 检测土豆
 function mini:hotpm/game/pm_check
 
