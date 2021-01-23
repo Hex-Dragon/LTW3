@@ -3,6 +3,7 @@ forceload add 1000 3000 1100 3100
 
 scoreboard players set $finish_mode mem 0
 scoreboard players set $survival mem 0
+scoreboard players reset * surviveRound
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 0
