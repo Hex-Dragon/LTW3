@@ -1,5 +1,5 @@
 setblock 0 0 0 jukebox replace
-data modify block 0 0 0 RecordItem set from storage item:bouns item
+data modify block 0 0 0 RecordItem set from storage item:bonus item
 data modify block 0 0 0 RecordItem.tag.bonus_new set value 0b
 setblock 0 0 0 air destroy
 tag @s add item_op
