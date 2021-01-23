@@ -1,0 +1,33 @@
+{"pools": [{"rolls": 1,"entries": [
+
+
+    {
+        "type": "minecraft:loot_table",
+        "weight": 100,
+        "name": "item:gameparty/item/purple"
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:chest",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"2 件随机蓝色道具\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"blue\",\"count\":2}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:chest",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"3 件随机绿色道具\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"green\",\"count\":3}]}"
+            }
+        ]
+    }
+
+
+]}]}

@@ -1,0 +1,14 @@
+{"pools": [{"rolls": 1,"entries": [
+
+    {
+        "type": "minecraft:loot_table",
+        "weight": 20,
+        "name": "item:gameparty/score/white"
+    },
+    {
+        "type": "minecraft:loot_table",
+        "weight": 80,
+        "name": "item:gameparty/item/white"
+    }
+
+]}]}

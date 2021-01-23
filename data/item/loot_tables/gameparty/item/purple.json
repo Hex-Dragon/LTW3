@@ -4,7 +4,7 @@
     {
         "type": "minecraft:loot_table",
         "weight": 3,
-        "name": "item:gameparty/normal/blue"
+        "name": "item:gameparty/item/blue"
     }
 
 
