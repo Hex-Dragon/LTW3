@@ -6,4 +6,4 @@ data modify storage item:bouns item_buff set value []
 data modify storage item:bouns item_buff append from entity @s Inventory[{"tag":{"bonus_new":1b}}]
 clear @s #item:bonus{"bonus_new":1b}
 
-execute unless data storage item:bouns item_buff[0] run function item:bonus_item/call_each
+execute if data storage item:bouns item_buff[0] run function item:bonus_item/call_each
