@@ -222,6 +222,13 @@
                                     "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:tripwire_hook\"}}]}}"
                                 }
                             }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:spider_spawn_egg\"}}]}}"
+                            }
                         }
                     ]
                 }
