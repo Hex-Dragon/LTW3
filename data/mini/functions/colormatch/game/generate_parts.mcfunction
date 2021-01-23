@@ -17,4 +17,4 @@ execute if score $floor_generate_part mem matches 9 positioned 1000 10 4000 run 
 setblock 1000 9 4000 redstone_block
 setblock 1000 9 4000 air
 setblock 1000 10 4000 air
-execute if score $floor_generate_part mem matches 1..9 run schedule function mini:colormatch/game/generate_parts 1t replace
+execute if score $floor_generate_part mem matches 1..10 run schedule function mini:colormatch/game/generate_parts 1t replace
