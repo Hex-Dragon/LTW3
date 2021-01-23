@@ -17,3 +17,11 @@ execute if score $countdown mem matches 0 run function mini:main/game_end
 # 回复生命值
 execute if score $foursec mem matches 1 run effect give @a[team=playing] regeneration 1 10 true
 execute if score $foursec mem matches 1 run schedule function mini:trade/game/clear_effect 1t replace
+
+# 更新下界之星，转换为得分
+scoreboard players reset * temp2
+execute as @a[team=playing] store result score @s temp2 run clear @s nether_star 0
+execute as @a[scores={temp2=1..}] run scoreboard players operation @s total_score += @s temp2
+execute as @a[scores={temp2=1..}] run scoreboard players operation @s total_score_disp += @s temp2
+execute as @a[scores={temp2=1..}] run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 从交易中获得了 ",{"score": {"name":"@s","objective": "temp2"},"color":"aqua"},{"text": " 分","color":"aqua"},", 当前共有 ",{"score": {"name": "@s","objective": "total_score"}}, " 分"]
+clear @a[team=playing] nether_star

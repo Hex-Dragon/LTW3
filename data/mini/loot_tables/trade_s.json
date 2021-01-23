@@ -83,7 +83,7 @@
                                 },
                                 {
                                     "function": "set_nbt",
-                                    "tag":"{sell:{id:\"iron_ingot\",Count:2}}"
+                                    "tag":"{sell:{id:\"iron_ingot\",Count:3}}"
                                 },
                                 {
                                     "function": "set_nbt",
@@ -109,7 +109,7 @@
                             "functions": [
                                 {
                                     "function": "set_nbt",
-                                    "tag": "{buy:{id:\"emerald\",Count:6}}"
+                                    "tag": "{buy:{id:\"emerald\",Count:4}}"
                                 },
                                 {
                                     "function": "set_nbt",
@@ -139,11 +139,11 @@
                             "functions": [
                                 {
                                     "function": "set_nbt",
-                                    "tag": "{buy:{id:\"emerald\",Count:5}}"
+                                    "tag": "{buy:{id:\"emerald\",Count:4}}"
                                 },
                                 {
                                     "function": "set_nbt",
-                                    "tag":"{sell:{id:\"oak_planks\",Count:12}}"
+                                    "tag":"{sell:{id:\"oak_log\",Count:4}}"
                                 },
                                 {
                                     "function": "set_nbt",
@@ -157,7 +157,7 @@
                                         "condition": "minecraft:entity_properties",
                                         "entity": "this",
                                         "predicate": {
-                                            "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:oak_planks\"}}]}}"
+                                            "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:oak_log\"}}]}}"
                                         }
                                     }
                                 }
@@ -169,11 +169,11 @@
                             "functions": [
                                 {
                                     "function": "set_nbt",
-                                    "tag": "{buy:{id:\"emerald\",Count:18}}"
+                                    "tag": "{buy:{id:\"emerald\",Count:4}}"
                                 },
                                 {
                                     "function": "set_nbt",
-                                    "tag":"{sell:{id:\"nether_star\",Count:1,tag:{display:{Name:'{\"text\":\"得分 +1\",\"color\":\"white\",\"italic\":false}'}}}}"
+                                    "tag":"{sell:{id:\"cobblestone\",Count:8}}"
                                 },
                                 {
                                     "function": "set_nbt",
@@ -187,7 +187,7 @@
                                         "condition": "minecraft:entity_properties",
                                         "entity": "this",
                                         "predicate": {
-                                            "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:nether_star\"}}]}}"
+                                            "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:cobblestone\"}}]}}"
                                         }
                                     }
                                 }
