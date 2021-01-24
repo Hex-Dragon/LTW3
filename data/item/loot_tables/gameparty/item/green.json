@@ -103,7 +103,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"急迫 V (饮用, 3:00)\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":3,\"Amplifier\":4,\"Duration\":3600}],\"CustomPotionColor\":16578599,\"display\":{\"Name\":\"{\\\"text\\\":\\\"速掘药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"急迫 VI (饮用, 3:00)\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":3,\"Amplifier\":5,\"Duration\":3600}],\"CustomPotionColor\":16578599,\"display\":{\"Name\":\"{\\\"text\\\":\\\"速掘药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
         }
     ]
 },
