@@ -1,5 +1,5 @@
 # as player
-execute store result score #bonus_stole_score mem run data get block 0 0 0 RecordItem.tag.bonus_stole_score
+execute store result score #bonus_stole_score mem run data get storage item:bonus item.tag.bonus_stole_score
 
 # 获取有效的最高分玩家
 function ltw:main/get_max_score
