@@ -14,7 +14,17 @@
     {
         "type": "minecraft:item",
         "weight": 1,
-        "name": "minecraft:diamond"
+        "name": "minecraft:diamond",
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": {
+              "min": 1.0,
+              "max": 2.0,
+              "type": "minecraft:uniform"
+            }
+          }
+        ]
     },
     {
         "type": "minecraft:item",
@@ -25,7 +35,7 @@
             "function": "minecraft:set_count",
             "count": {
               "min": 2.0,
-              "max": 4.0,
+              "max": 3.0,
               "type": "minecraft:uniform"
             }
           }
@@ -34,7 +44,17 @@
     {
         "type": "minecraft:item",
         "weight": 1,
-        "name": "minecraft:book"
+        "name": "minecraft:book",
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": {
+              "min": 1.0,
+              "max": 3.0,
+              "type": "minecraft:uniform"
+            }
+          }
+        ]
     }
     
 ]}]}
