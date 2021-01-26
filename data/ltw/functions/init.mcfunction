@@ -169,6 +169,7 @@ function ltw:state/0/state_enter
 
 # 重置随机数组
 data modify storage ltw:mini types set value []
+data modify storage ltw:mini qualities set value []
 data modify storage ltw:mini colormatch.types set value []
 
 # 显示提示
