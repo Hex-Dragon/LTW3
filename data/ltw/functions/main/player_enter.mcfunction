@@ -27,13 +27,6 @@ execute if entity @s[team=playing] if score @s game_id = $ game_id run function 
 bossbar set ltw:notice players @a
 function lib:bossbar/show
 
-
-# 无指定人员
-# TODO: {TNTRun} 哭泣的黑曜石的光照更新导致了严重的卡顿
-
-# LTCat
-# FIXME: 继续尝试修改过场动画
-
 # 010
 # TODO: 升级 1.16.5（不过得先等 OptiFine 更新）
 # TODO: {幻翼} 制作幻翼的成品地图
