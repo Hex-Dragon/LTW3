@@ -1,7 +1,7 @@
 # 生成随机品质的物品
 
 # 品质：生成一个 1~10 的 randomarray，每次从其中取下一个数
-execute unless data storage ltw:mini qualities[0] run function item:bonus_item/newarray
+execute unless data storage ltw:mini qualities[0] run function item:bonus_item/new_array
 execute store result score #quality mem run data get storage ltw:mini qualities[0]
 data remove storage ltw:mini qualities[0]
 
