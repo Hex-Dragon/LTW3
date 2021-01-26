@@ -38,5 +38,4 @@ function lib:bossbar/show
 # FIXME: 让老板不能通过修改触发器进行交易
 
 # 010
-# TODO: 升级 1.16.5（不过得先等 OptiFine 更新）
 # TODO: {幻翼} 制作幻翼的成品地图
