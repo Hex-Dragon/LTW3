@@ -1,7 +1,7 @@
 # 替换墙壁
 function mini:colormatch/game/replace_wall
 # 复制地板
-execute positioned 1001 10 4000 run clone ~ ~ ~ ~20 ~ ~20 1050 16 4000 filtered #mini:colarmatch_floor
+execute positioned 1001 10 4000 run clone ~ ~ ~ ~20 ~ ~20 1050 16 4000 filtered #mini:colormatch_floor
 
 # 设置倒计时
 execute if score $color_match_time mem matches 20.. run scoreboard players remove $color_match_time mem 4

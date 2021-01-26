@@ -5,5 +5,4 @@ data modify entity @s Rotation[1] set value 0f
 tag @s add tpTemp
 scoreboard players set @s temp 0
 execute at @s run function mini:trade/game/villager_tp3
-execute if entity @a[tag=noVillager,tag=tempPlayerTp] at @s run function lib:sounds/teleport
 execute if entity @a[tag=noVillager,tag=tempPlayerTp] at @s run function mini:trade/game/villager_rebirth
