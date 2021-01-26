@@ -3,14 +3,12 @@ function lib:sounds/music/mini_middle
 title @s clear
 title @s actionbar ""
 
-# 状态效果
-effect clear @s
-effect give @s saturation 1000000 0 true
-gamerule naturalRegeneration true
-effect give @s resistance 1000000 4 true
+# 给予状态效果
+function mini:parkour/give_effect
 
 # 设置玩家生命
 attribute @s generic.max_health base set 20
+gamerule naturalRegeneration true
 
 # 计分板重置
 scoreboard players reset @s treasure

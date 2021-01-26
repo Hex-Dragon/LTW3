@@ -3,15 +3,12 @@ function lib:sounds/music/mini_fast
 title @s clear
 title @s actionbar ""
 
-# 状态效果
-effect clear @s
-effect give @s saturation 1000000 0 true
-effect give @s resistance 1000000 4 true
-effect give @s night_vision 1000000 0 true
-gamerule naturalRegeneration true
+# 给予状态效果
+function mini:tntrun/give_effect
 
 # 设置玩家生命
 attribute @s generic.max_health base set 20
+gamerule naturalRegeneration true
 
 # 传送玩家
 spreadplayers 1019.5 2020.5 2 2 false @s[team=playing,tag=!rejoining]

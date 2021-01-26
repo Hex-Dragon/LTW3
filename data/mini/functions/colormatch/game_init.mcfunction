@@ -27,3 +27,4 @@ team modify playing friendlyFire true
 team modify playing collisionRule always
 team modify playing deathMessageVisibility never
 gamerule fallDamage false
+gamerule naturalRegeneration true

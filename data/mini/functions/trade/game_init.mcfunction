@@ -26,6 +26,7 @@ team modify playing deathMessageVisibility always
 gamerule fallDamage false
 gamerule fireDamage true
 gamerule drowningDamage true
+gamerule naturalRegeneration false
 
 # Gamerule 调整
 gamerule doLimitedCrafting false

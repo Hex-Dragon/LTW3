@@ -3,16 +3,13 @@ function lib:sounds/music/mini_middle
 title @s clear
 title @s actionbar ""
 
-# 状态效果
-effect clear @s
-effect give @s saturation 1000000 0 true
-gamerule naturalRegeneration true
-effect give @s night_vision 1000000 0 true
-effect give @s resistance 1000000 4 true
+# 给予状态效果
+function mini:hotpm/give_effect
 
 # 设置玩家生命
 scoreboard players set @s[team=playing,tag=!rejoining] mini_heart 3
 function mini:main/player_max_health
+gamerule naturalRegeneration true
 
 # 清理 Tag
 tag @s remove pm_holding
