@@ -2,7 +2,7 @@
 
 {
         "type": "minecraft:item",
-        "weight":4,
+        "weight":6,
         "name": "minecraft:fishing_rod",
         "functions": [
             {
@@ -73,11 +73,11 @@
     "functions": [
         {
             "function": "minecraft:set_count",
-            "count": 16
+            "count": 20
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"圆石 x16\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"圆石 x20\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
         }
     ]
 },
