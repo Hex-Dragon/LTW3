@@ -2,10 +2,6 @@
 
 spawnpoint @s -12 7 -102
 
-# TODO: v0.3 升级函数
-execute if entity @s[tag=!v02upgrade,scores={stat_total=1..}] run function ltw:main/player_upgrade
-tag @s add v02upgrade
-
 advancement revoke @s only lib:damage_dealt
 advancement revoke @s only lib:damage_taken
 advancement revoke @s only item:container/place
@@ -27,8 +23,15 @@ execute if entity @s[team=playing] if score @s game_id = $ game_id run function 
 bossbar set ltw:notice players @a
 function lib:bossbar/show
 
-# HIM
+# 无指定人员
+# FIXME: 如果服务器异常关闭，玩家在再次加入的时候不会触发进入事件（由于没有离开游戏计数）
 # FIXME: 通过在每次进入阶段 3 时 kill 使用过不死图腾的玩家来解决不死图腾假死
+
+# 龙猫
+# TODO: {钻石/贸易} 减少水；分别刷出不同的额外方块；增加一个池子
+
+# HIM
+# FIXME: 让老板不能通过修改触发器进行交易
 
 # 010
 # TODO: 升级 1.16.5（不过得先等 OptiFine 更新）
