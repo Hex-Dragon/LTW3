@@ -5,7 +5,6 @@ execute if score @s mini_heart matches 1 if entity @s[nbt={SelectedItem:{id:"min
 execute if score @s mini_heart matches 1 if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:totem_of_undying"}]}] run tag @s add have_totem
 execute if entity @s[tag=have_totem] run effect clear @s resistance
 execute if entity @s[tag=have_totem] run effect give @s instant_damage 1 10 true
-execute if entity @s[tag=have_totem] run effect give @s instant_damage 1 10 true
 schedule function mini:main/lose_heart_effect 1t
 
 # 减少命
