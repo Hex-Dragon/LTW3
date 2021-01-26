@@ -49,7 +49,7 @@
                             "functions": [
                                 {
                                     "function": "set_nbt",
-                                    "tag": "{buy:{id:\"emerald\",Count:4}}"
+                                    "tag": "{buy:{id:\"emerald\",Count:3}}"
                                 },
                                 {
                                     "function": "set_nbt",
@@ -79,7 +79,7 @@
                             "functions": [
                                 {
                                     "function": "set_nbt",
-                                    "tag": "{buy:{id:\"emerald\",Count:6}}"
+                                    "tag": "{buy:{id:\"emerald\",Count:4}}"
                                 },
                                 {
                                     "function": "set_nbt",
@@ -109,11 +109,11 @@
                             "functions": [
                                 {
                                     "function": "set_nbt",
-                                    "tag": "{buy:{id:\"emerald\",Count:4}}"
+                                    "tag": "{buy:{id:\"emerald\",Count:3}}"
                                 },
                                 {
                                     "function": "set_nbt",
-                                    "tag":"{sell:{id:\"stone\",Count:4}}"
+                                    "tag":"{sell:{id:\"stone\",Count:5}}"
                                 },
                                 {
                                     "function": "set_nbt",
@@ -139,11 +139,11 @@
                             "functions": [
                                 {
                                     "function": "set_nbt",
-                                    "tag": "{buy:{id:\"emerald\",Count:4}}"
+                                    "tag": "{buy:{id:\"emerald\",Count:3}}"
                                 },
                                 {
                                     "function": "set_nbt",
-                                    "tag":"{sell:{id:\"oak_log\",Count:4}}"
+                                    "tag":"{sell:{id:\"oak_log\",Count:5}}"
                                 },
                                 {
                                     "function": "set_nbt",
@@ -169,11 +169,11 @@
                             "functions": [
                                 {
                                     "function": "set_nbt",
-                                    "tag": "{buy:{id:\"emerald\",Count:4}}"
+                                    "tag": "{buy:{id:\"emerald\",Count:3}}"
                                 },
                                 {
                                     "function": "set_nbt",
-                                    "tag":"{sell:{id:\"cobblestone\",Count:8}}"
+                                    "tag":"{sell:{id:\"cobblestone\",Count:10}}"
                                 },
                                 {
                                     "function": "set_nbt",

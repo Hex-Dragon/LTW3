@@ -113,17 +113,6 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 6,
-    "name": "minecraft:crossbow",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"弩, 箭 x3\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"弩\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"},\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":3,\"tag\":{\"is_bonus\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}}]}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
     "weight": 3,
     "name": "minecraft:diamond_helmet",
     "functions": [

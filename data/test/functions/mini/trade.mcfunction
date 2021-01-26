@@ -7,3 +7,5 @@ scoreboard players set $mini_type mem 8
 function mini:main/game_init
 function ltw:state/4/state_enter
 say 已开始单个测试游戏！
+
+schedule function test:time/quick 20t

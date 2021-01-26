@@ -3,6 +3,17 @@
     {
         "type": "minecraft:item",
         "weight": 6,
+        "name": "minecraft:totem_of_undying",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"不死图腾 x3\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:totem_of_undying\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:totem_of_undying\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:totem_of_undying\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 6,
         "name": "minecraft:potion",
         "functions": [
             {
@@ -49,6 +60,17 @@
             {
                 "function": "minecraft:set_nbt",
                 "tag": "{\"item_name\":\"{\\\"text\\\":\\\"钻石 x5\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 6,
+        "name": "minecraft:netherite_ingot",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金全身甲\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:netherite_helmet\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:netherite_chestplate\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:netherite_leggings\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:netherite_boots\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
             }
         ]
     }
