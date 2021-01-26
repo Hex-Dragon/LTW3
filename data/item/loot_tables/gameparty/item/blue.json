@@ -99,7 +99,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"鞘翅, 烟花火箭 x8\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"鞘翅\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"},\"bonus_give_items\":[{\"id\":\"minecraft:firework_rocket\",\"Count\":8,\"tag\":{\"is_bonus\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}}]}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"鞘翅, 烟花火箭 x9\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"鞘翅\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"},\"bonus_give_items\":[{\"id\":\"minecraft:firework_rocket\",\"Count\":9,\"tag\":{\"is_bonus\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}}]}"
         }
     ]
 },

@@ -7,11 +7,11 @@ function lib:random
 scoreboard players operation #quality mem = $random mem
 
 # 根据品质生成不同的物品
-# 白色：50%
-execute if score #quality mem matches ..50 run function item:bonus_item/gameparty/mixed/white
+# 白色：40%
+execute if score #quality mem matches ..39 run function item:bonus_item/gameparty/mixed/white
 # 绿色：30%
-execute if score #quality mem matches 50..79 run function item:bonus_item/gameparty/mixed/green
-# 蓝色：15%
-execute if score #quality mem matches 80..95 run function item:bonus_item/gameparty/mixed/blue
-# 紫色：5%
-execute if score #quality mem matches 96.. run function item:bonus_item/gameparty/mixed/purple
+execute if score #quality mem matches 40..69 run function item:bonus_item/gameparty/mixed/green
+# 蓝色：20%
+execute if score #quality mem matches 70..89 run function item:bonus_item/gameparty/mixed/blue
+# 紫色：10%
+execute if score #quality mem matches 90.. run function item:bonus_item/gameparty/mixed/purple
