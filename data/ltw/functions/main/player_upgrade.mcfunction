@@ -13,9 +13,6 @@ scoreboard players add @s[advancements={ltw:parkour/treasure3=true}] green_total
 scoreboard players add @s[advancements={ltw:story/score1=true}] green_total 1
 scoreboard players add @s[advancements={ltw:story/score2=true}] green_total 2
 scoreboard players add @s[advancements={ltw:story/score3=true}] green_total 3
-scoreboard players add @s[advancements={ltw:story/total1=true}] green_total 1
-scoreboard players add @s[advancements={ltw:story/total2=true}] green_total 2
-scoreboard players add @s[advancements={ltw:story/total3=true}] green_total 4
 scoreboard players add @s[advancements={ltw:story/win1=true}] green_total 1
 scoreboard players add @s[advancements={ltw:story/win2=true}] green_total 2
 scoreboard players add @s[advancements={ltw:story/win3=true}] green_total 4

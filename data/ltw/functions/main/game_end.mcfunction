@@ -19,9 +19,6 @@ tag @a[tag=max_uncounted] remove max_uncounted
 
 # 给予进度
 scoreboard players add @a[team=playing] stat_total 1
-advancement grant @a[scores={stat_total=5..}] only ltw:story/total1
-advancement grant @a[scores={stat_total=20..}] only ltw:story/total2
-advancement grant @a[scores={stat_total=50..}] only ltw:story/total3
 scoreboard players add @a[tag=total_rank1] stat_win 1
 advancement grant @a[scores={stat_win=1..}] only ltw:story/win1
 advancement grant @a[scores={stat_win=5..}] only ltw:story/win2

@@ -27,6 +27,9 @@ execute if entity @s[team=playing] if score @s game_id = $ game_id run function 
 bossbar set ltw:notice players @a
 function lib:bossbar/show
 
+# HIM
+# FIXME: 通过在每次进入阶段 3 时 kill 使用过不死图腾的玩家来解决不死图腾假死
+
 # 010
 # TODO: 升级 1.16.5（不过得先等 OptiFine 更新）
 # TODO: {幻翼} 制作幻翼的成品地图
