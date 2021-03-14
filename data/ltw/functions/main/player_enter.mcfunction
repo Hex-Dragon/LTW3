@@ -38,6 +38,7 @@ function lib:bossbar/show
 
 # HIM
 # FIXME: 让老板不能通过修改触发器进行交易
+# FIXME: 锁格子依旧会吞物品
 
 
 # ——————————————
