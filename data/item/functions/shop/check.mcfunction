@@ -1,3 +1,4 @@
+execute if score @s buy_trigger matches 1 at @s unless entity @s[x=-3,z=-63,y=7,dx=20,dy=8,dz=30] run function item:shop/error
 execute if score @s buy_trigger matches 1 if score $state mem matches 0 run function item:shop/buy_apple1
 execute if score @s buy_trigger matches 2 if score $state mem matches 0 run function item:shop/buy_apple2
 execute if score @s buy_trigger matches 3 if score $state mem matches 0 run function item:shop/buy_armor1
