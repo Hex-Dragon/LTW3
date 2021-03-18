@@ -21,6 +21,8 @@ scoreboard players set $remove_resistance mem 0
 team modify playing friendlyFire false
 team modify playing collisionRule never
 gamerule fallDamage false
+gamerule doMobLoot false
+gamerule doTileDrops false
 
 # 修改队伍颜色
 team modify playing color green
