@@ -34,5 +34,8 @@ execute if score $mini_type mem matches 3 run advancement grant @a[tag=mini_rank
 execute if score $mini_type mem matches 3 run advancement grant @a[tag=mini_rank1,scores={mini_heart=5..}] only ltw:vs/potato3
 execute if score $mini_type mem matches 4 if score $color_match_time mem matches ..13 run advancement grant @a[tag=mini_rank1] only ltw:parkour/colormatch2
 
+# 清理怪东西
+clear @a[team=!debugging] #mini:game_item{game_item:1b}
+
 # 进入状态 6
 function ltw:state/6/state_enter

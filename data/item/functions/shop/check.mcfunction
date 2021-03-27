@@ -1,3 +1,8 @@
+execute if score @s buy_trigger matches 1..18 at @s unless entity @s[x=-3,z=-63,y=6,dx=25,dy=6,dz=30] run function item:shop/error
+execute if score @s buy_trigger matches 19..21 at @s unless entity @s[x=1,z=-63,y=20,dx=5,dy=4,dz=6] run function item:shop/error
+execute if score @s buy_trigger matches 100..108 at @s unless entity @s[x=-22,z=-75,y=18,dx=10,dy=4,dz=5] run function item:shop/error
+execute if score @s buy_trigger matches 999 at @s unless entity @s[x=-3,z=-49,y=27,dx=5,dy=4,dz=5] run function item:shop/charity
+
 execute if score @s buy_trigger matches 1 if score $state mem matches 0 run function item:shop/buy_apple1
 execute if score @s buy_trigger matches 2 if score $state mem matches 0 run function item:shop/buy_apple2
 execute if score @s buy_trigger matches 3 if score $state mem matches 0 run function item:shop/buy_armor1

@@ -37,7 +37,6 @@ function lib:bossbar/show
 # FIXME: {钻石} 玩家会列入钻石的记分板（由于在 belowName 里显示）
 
 # HIM
-# FIXME: 让老板不能通过修改触发器进行交易
 
 
 # ——————————————
