@@ -53,6 +53,10 @@
               "max": 3.0,
               "type": "minecraft:uniform"
             }
+          },
+          {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"display\":{\"Name\":'{\"text\":\"书\",\"italic\":false,\"color\":\"white\"}',\"Lore\":['{\"text\":\"K{16 capitals, sort A to Z.}\",\"italic\":false,\"color\":\"gray\"}']}}"
           }
         ]
     }
