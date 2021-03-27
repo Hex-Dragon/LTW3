@@ -1,4 +1,4 @@
-# 初始化钻石地图
+# 初始化交易地图
 forceload add 1000 5000 1064 5064
 
 scoreboard players reset * emerald
@@ -24,7 +24,7 @@ team modify playing friendlyFire false
 team modify playing collisionRule never
 team modify playing deathMessageVisibility always
 gamerule fallDamage false
-gamerule fireDamage true
+gamerule fireDamage false
 gamerule drowningDamage true
 
 # Gamerule 调整
