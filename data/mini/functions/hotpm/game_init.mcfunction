@@ -13,9 +13,8 @@ team modify playing deathMessageVisibility never
 gamerule fallDamage false
 
 # 清理残余实体
-kill @e[type=arrow]
-kill @e[type=item]
-kill @e[type=trident]
+function mini:main/kill_entity
+
 
 # 生成地图
 

@@ -4,7 +4,7 @@ function mini:parkour/init
 function mini:hotpm/init
 function mini:phantom/init
 function mini:diamond/init
-function mini:koth/init
+function mini:ass/init
 function mini:trade/init
 
 # 计分板初始化

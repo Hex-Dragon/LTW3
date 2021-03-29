@@ -33,10 +33,8 @@ setblock 1032 52 2032 minecraft:structure_block[mode=load]{metadata:"",mirror:"N
 setblock 1032 51 2032 minecraft:redstone_block
 
 # 清理残余实体
-kill @e[type=arrow]
-kill @e[type=item]
+function mini:main/kill_entity
 kill @e[tag=tntrun_block]
-kill @e[type=trident]
 
 # 生成奖励
 execute positioned 1019.5 19.2 2020.5 run function item:bonus_item/gameparty/auto/white

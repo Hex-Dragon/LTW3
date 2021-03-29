@@ -24,10 +24,8 @@ setblock 1032 4 6000 air
 setblock 1032 4 6032 air
 
 # 清理残余实体
-kill @e[type=arrow]
-kill @e[type=item]
+function mini:main/kill_entity
 tp @e[type=phantom] 1000 -100 6000
-kill @e[type=trident]
 
 # 生成奖励物品
 execute positioned 1034.0 27.5 6058.5 run function item:bonus_item/gameparty/auto/white

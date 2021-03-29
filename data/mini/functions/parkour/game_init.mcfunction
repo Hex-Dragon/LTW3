@@ -16,11 +16,10 @@ setblock 1000 4 1000 air
 setblock 1000 4 1032 air
 
 # 清理残余实体
-kill @e[type=arrow]
-kill @e[type=item]
 kill @e[type=falling_block,tag=parkour_block]
 kill @e[tag=treasure_item]
-kill @e[type=trident]
+function mini:main/kill_entity
+
 
 # 生成节奏方块实体
 function mini:parkour/game/marker_spawn
