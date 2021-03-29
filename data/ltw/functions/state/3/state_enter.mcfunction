@@ -30,8 +30,8 @@ execute if score $round mem matches ..4 run data remove storage ltw:mini types[0
 scoreboard players set $random_max mem 1
 scoreboard players set $random_min mem 0
 function lib:random
-execute if score $round mem matches 5 if score $random mem matches 0 run scoreboard players set $mini_type mem 6
-execute if score $round mem matches 5 if score $random mem matches 1 run scoreboard players set $mini_type mem 8
+execute if score $round mem matches 5 if score $random mem matches 0 run scoreboard players set $mini_type mem -1
+execute if score $round mem matches 5 if score $random mem matches 1 run scoreboard players set $mini_type mem -2
 
 # 初始化小游戏
 function mini:main/game_init

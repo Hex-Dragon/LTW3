@@ -4,7 +4,7 @@ execute if score $mini_type mem matches 1 run function mini:parkour/tick5
 execute if score $mini_type mem matches 2 run function mini:tntrun/tick5
 execute if score $mini_type mem matches 3 run function mini:hotpm/tick5
 execute if score $mini_type mem matches 5 run function mini:phantom/tick5
-execute if score $mini_type mem matches 6 run function mini:diamond/tick5
+execute if score $mini_type mem matches -1 run function mini:diamond/tick5
 
 # 同步生命值
 scoreboard players reset * temp
