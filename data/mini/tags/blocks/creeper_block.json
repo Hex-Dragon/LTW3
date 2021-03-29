@@ -3,6 +3,7 @@
         "minecraft:clay",
         "minecraft:white_concrete",
         "#minecraft:wool",
-        "minecraft:diamond_block"
+        "minecraft:diamond_block",
+        "minecraft:emerald_block"
     ]
 }
