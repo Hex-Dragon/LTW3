@@ -1,5 +1,6 @@
 # 测试用：快速开始 Assassinate
 team join playing @a[team=watching]
+clear @a[team=!debugging]
 function ltw:state/0/start_game
 scoreboard players set $round mem 5
 scoreboard players set $mini_type mem 6
