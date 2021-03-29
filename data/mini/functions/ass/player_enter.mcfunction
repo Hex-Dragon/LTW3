@@ -13,7 +13,7 @@ gamerule naturalRegeneration false
 
 
 # 计分板重置
-scoreboard players set @s countdown_fast 0
+scoreboard players set @s countdown_fast 100
 scoreboard players set @s creeperUse 0
 
 # 传送玩家
