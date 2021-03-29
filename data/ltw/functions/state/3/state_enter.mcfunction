@@ -19,7 +19,7 @@ scoreboard players set $countdown mem 3
 scoreboard players set $tempo_enable mem 0
 
 # 修改队伍颜色
-team modify playing color white
+team modify playing color reset
 
 # 小游戏编号：生成一个 1~[最大游戏编号] 的 randomarray，每次从其中取下一个数。
 execute unless data storage ltw:mini types[0] run function ltw:state/3/newarray
