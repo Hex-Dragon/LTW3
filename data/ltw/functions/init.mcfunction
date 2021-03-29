@@ -94,7 +94,7 @@ scoreboard objectives add stat_win dummy "总胜场"
 scoreboard objectives add puzzle dummy "解密编号"
 
 # 常量与变量初始化
-scoreboard players set #mini_total mem 6
+scoreboard players set #mini_total mem 5
 scoreboard players set #const_2 mem 2
 scoreboard players set #const_4 mem 4
 scoreboard players set #const_5 mem 5

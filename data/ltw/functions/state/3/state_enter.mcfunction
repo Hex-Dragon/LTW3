@@ -26,10 +26,13 @@ execute unless data storage ltw:mini types[0] run function ltw:state/3/newarray
 execute store result score $mini_type mem run data get storage ltw:mini types[0]
 execute if score $round mem matches ..4 run data remove storage ltw:mini types[0]
 
-# 小游戏编号覆盖：如果为第 5 轮，则有一半概率选用钻石，一半概率选用贸易
+# 前置/后置小游戏
+# 如果为第 1 轮，则有一半概率选用刺客，一半概率不变
+# 如果为第 5 轮，则有一半概率选用钻石，一半概率选用贸易
 scoreboard players set $random_max mem 1
 scoreboard players set $random_min mem 0
 function lib:random
+execute if score $round mem matches 1 if score $random mem matches 0 run scoreboard players set $mini_type mem 201
 execute if score $round mem matches 5 if score $random mem matches 0 run scoreboard players set $mini_type mem 101
 execute if score $round mem matches 5 if score $random mem matches 1 run scoreboard players set $mini_type mem 102
 
