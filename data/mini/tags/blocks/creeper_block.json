@@ -1,9 +1,10 @@
 {
     "values": [
-        "minecraft:clay",
-        "minecraft:white_concrete",
-        "#minecraft:wool",
-        "minecraft:diamond_block",
-        "minecraft:emerald_block"
+        "minecraft:stone",
+        "minecraft:cobblestone",
+        "minecraft:coal_ore",
+        "minecraft:iron_ore",
+        "minecraft:diamond_ore",
+        "minecraft:diamond_block"
     ]
 }
