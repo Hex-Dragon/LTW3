@@ -6,7 +6,6 @@ execute if score @s mini_heart matches 1.. run tellraw @a ["",{"text": ">> ","co
 
 
 # 无生命计数：恢复所有生命
-execute unless score @s mini_heart matches 1.. run effect give @s instant_health 1 4 true
 execute unless score @s mini_heart matches 1.. run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 使用了不死图腾, 并恢复到了满血!"]
 
 ## 归还苹果
