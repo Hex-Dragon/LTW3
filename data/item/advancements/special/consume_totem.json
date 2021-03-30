@@ -1,7 +1,7 @@
 {
     "criteria": {
         "consume_ga": {
-            "trigger": "minecraft:consume_item",
+            "trigger": "minecraft:used_totem",
             "conditions": {
                 "item": {
                     "item": "minecraft:totem_of_undying"
