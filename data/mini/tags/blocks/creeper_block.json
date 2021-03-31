@@ -27,6 +27,7 @@
         "barrier",
         "oak_leaves",
         "spruce_fence",
-        "spruce_slab"
+        "spruce_slab",
+        "netherite_block"
     ]
 }
