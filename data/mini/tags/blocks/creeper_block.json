@@ -1,10 +1,32 @@
 {
     "values": [
-        "minecraft:stone",
-        "minecraft:cobblestone",
-        "minecraft:coal_ore",
-        "minecraft:iron_ore",
-        "minecraft:diamond_ore",
-        "minecraft:diamond_block"
+        "diamond_block",
+        "stone_bricks",
+        "cobblestone",
+        "gravel",
+        "mossy_stone_bricks",
+        "light_gray_terracotta",
+        "cracked_stone_bricks",
+        "spruce_log",
+        "polished_blackstone_bricks",
+        "cracked_polished_blackstone_bricks",
+        "polished_blackstone_brick_stairs",
+        "polished_blackstone_brick_wall",
+        "polished_blackstone_brick_slab",
+        "magma_block",
+        "polished_basalt",
+        "stone",
+        "dark_prismarine",
+        "green_stained_glass",
+        "orange_stained_glass",
+        "sea_lantern",
+        "dark_oak_stairs",
+        "chiseled_polished_blackstone",
+        "purple_terracotta",
+        "spruce_stairs",
+        "barrier",
+        "oak_leaves",
+        "spruce_fence",
+        "spruce_slab"
     ]
 }
