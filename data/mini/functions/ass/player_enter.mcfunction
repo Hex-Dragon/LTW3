@@ -1,5 +1,5 @@
 # 单个玩家开始小游戏时执行
-function lib:sounds/music/mini_middle
+function lib:sounds/music/mini_secret
 title @s clear
 title @s actionbar ""
 
