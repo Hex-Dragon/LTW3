@@ -17,4 +17,4 @@ execute unless score @s mini_heart matches 1.. run tellraw @a ["",{"text": ">> "
 # $remove_resistance 信息在小游戏初始化时提供
 # 去除buff
 execute run tag @s add consume_apple
-schedule function item:special/clear_effect 1t replace
+schedule function item:special/clear_effect 2t replace
