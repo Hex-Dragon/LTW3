@@ -10,6 +10,7 @@ execute if score $mini_type mem matches 101 run function mini:diamond/tick5
 scoreboard players reset * temp
 scoreboard players set @a[gamemode=!spectator] temp 20
 execute as @a[gamemode=!spectator,scores={health=1..}] run scoreboard players operation @s temp = @s health
+execute if score $foursec mem matches 2 run scoreboard players reset * health_disp
 execute as @a run scoreboard players operation @s health_disp = @s temp
 execute as @a run scoreboard players operation @s mini_heart_disp = @s mini_heart
 execute as @a run scoreboard players operation @s mini_heart_disp += @s mini_heart
