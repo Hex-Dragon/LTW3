@@ -9,7 +9,5 @@ execute if score $countdown mem matches 1 as @a at @s run function lib:sounds/dr
 execute if score $countdown mem matches ..0 run effect give @a[team=playing] wither 60 1 true
 
 # 回复生命值
-execute if score $foursec mem matches 1 run effect give @a[team=playing] regeneration 1 10 true
-execute if score $foursec mem matches 1 run schedule function mini:diamond/game/clear_effect 1t replace
-execute if score $foursec mem matches 3 run effect give @a[team=playing] regeneration 1 10 true
-execute if score $foursec mem matches 3 run schedule function mini:diamond/game/clear_effect 1t replace
+execute if score $countdown mem matches 1.. if score $foursec mem matches 1 run effect give @a[team=playing] regeneration 1 10 true
+execute if score $countdown mem matches 1.. if score $foursec mem matches 1 run schedule function mini:ass/game/clear_effect 1t replace
