@@ -13,7 +13,8 @@
         "minecraft:mossy_cobblestone",
         "minecraft:purpur_block",
         "minecraft:prismarine",
-        "minecraft:tnt",
-        "minecraft:soul_soil"
+        "minecraft:soul_soil",
+        "minecraft:tnt"
+        
     ]
 }
