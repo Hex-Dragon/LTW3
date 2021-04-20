@@ -1,5 +1,7 @@
 # 全局初始化
 
+datapack enable "file/LTW3"
+datapack disable "vanilla"
 tellraw @a [{"text":"\n ❇ ","color":"aqua"}," 管理员已手动重置游戏！\n"]
 
 # ---------------------------------------------
@@ -85,9 +87,9 @@ gamerule doImmediateRespawn true
 gamerule doLimitedCrafting true
 gamerule doMobLoot false
 gamerule doTileDrops false
-gamerule drowningdamage false
-gamerule falldamage false
-gamerule firedamage false
+gamerule drowningDamage false
+gamerule fallDamage false
+gamerule fireDamage false
 gamerule mobGriefing false
 gamerule announceAdvancements false
 gamerule commandBlockOutput false
