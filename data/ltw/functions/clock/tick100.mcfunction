@@ -4,5 +4,3 @@ schedule function ltw:clock/tick100 100t replace
 # 掐死原版 BGM
 stopsound @a music music.game
 stopsound @a music music.creative
-
-say test

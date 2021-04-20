@@ -46,16 +46,6 @@ team add debug "调试者"
 team modify debug color dark_gray
 team add watch "旁观者"
 team modify watch color gray
-# 确保若玩家并非调试者、旁观者，则一定在下述队伍之一
-team remove white
-team add white "白队"
-team modify white color white
-team remove green
-team add green "绿队"
-team modify green color green
-team remove aqua
-team add aqua "蓝队"
-team modify aqua color aqua
 
 # ---------------------------------------------
 #  非玩家队伍
@@ -77,7 +67,7 @@ team add npc_gold "橙色"
 team modify npc_gold color gold
 
 # ---------------------------------------------
-#  游戏规则
+#  不常修改的游戏规则
 # ---------------------------------------------
 difficulty normal
 time set day
@@ -115,7 +105,14 @@ gamerule spawnRadius 0
 gamerule spectatorsGenerateChunks false
 gamerule universalAnger true
 worldborder warning distance 0
+
+# ---------------------------------------------
+#  其他模块
+# ---------------------------------------------
 function ltw:init/gamerule
+function ltw:init/entity
+function ltw:state/0/state_enter
+
 
 # # 主寄存区块：将所有需要不卸载的都放里面
 # #   已占用：(0,0,0) (0,0,1) (0,1,0) (0,1,1)
@@ -199,9 +196,6 @@ function ltw:init/gamerule
 # function mini:main/init
 # function item:init
 # function lib:bossbar/init
-
-# # 状态
-# function ltw:state/0/state_enter
 
 # # 重置随机数组
 # data modify storage ltw:mini types set value []
