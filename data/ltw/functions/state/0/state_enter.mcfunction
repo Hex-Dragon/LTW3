@@ -1,4 +1,4 @@
-# 要求系统进入状态 0（等待大厅）
+# 在系统进入状态时触发
 scoreboard players set $state mem 0
 
 # HUD
@@ -13,6 +13,7 @@ forceload add 31 -17 -31 -80
 
 # 规则
 function ltw:init/gamerule
+gamerule naturalRegeneration true
 
 # 队伍
 team remove hub_watch
@@ -32,14 +33,17 @@ team modify hub_play suffix " "
 function ltw:init/entity
 function ltw:state/0/sp/refresh_entity
 
+# 玩家
+execute as @a[team=!debug] run function ltw:state/0/player_enter
+
+# ——————————————————————————————————————————————
+
+
+
+
+
 # 重置开始倒计时
 #scoreboard players set #start_countdown mem 9999999
-
-#execute as @a[team=!debugging] run function ltw:state/0/player_enter
-
-
-
-
 
 # 启用节奏跑酷
 #scoreboard players set $tempo_enable mem 1

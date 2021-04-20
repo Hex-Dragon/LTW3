@@ -40,7 +40,7 @@ scoreboard players set #81 mem 81
 scoreboard players set #100 mem 100
 
 # ---------------------------------------------
-#  玩家队伍
+#  通用的玩家队伍
 # ---------------------------------------------
 team add debug "调试者"
 team modify debug color dark_gray
