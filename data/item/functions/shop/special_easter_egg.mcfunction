@@ -1,1 +1,0 @@
-execute at @s run playsound entity.enderman.scream ambient @a 0 1000000 0 1000000
