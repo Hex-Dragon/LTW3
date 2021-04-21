@@ -1,0 +1,22 @@
+{"pools": [{"rolls": 1,"entries": [
+
+
+    {
+        "type": "minecraft:loot_table",
+        "weight": 100,
+        "name": "item:gameparty/item/blue"
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 30,
+        "name": "minecraft:heart_of_the_sea",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"2 件随机绿色道具\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"green\",\"count\":2}]}"
+            }
+        ]
+    }
+
+
+]}]}

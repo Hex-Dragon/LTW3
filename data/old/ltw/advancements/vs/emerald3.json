@@ -1,0 +1,33 @@
+{
+    "parent": "ltw:vs/emerald2",
+    "display": {
+      "icon": {
+        "item": "minecraft:emerald_block"
+      },
+      "title": {
+        "text": "商业奇迹        "
+      },
+      "description": [
+        {"text": "在贸易专家中获得 100 个绿宝石\n", "color":"gray"},
+        {"text": "奖励: ","color":"green"},
+        {"text": "3 绿宝石","color":"white"}
+      ],
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "rewards": {
+      "function": "ltw:advancement/bonus_3"
+    },
+    "criteria": {
+      "get_score":{
+          "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+          "get_score"
+      ]
+    ]
+  }

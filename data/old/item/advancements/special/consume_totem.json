@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "consume_ga": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:totem_of_undying"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "item:special/totem"
+    }
+}

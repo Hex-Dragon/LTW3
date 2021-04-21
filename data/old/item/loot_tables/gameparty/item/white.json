@@ -1,0 +1,163 @@
+{"pools": [{"rolls": 1,"entries": [
+
+{
+    "type": "minecraft:item",
+    "weight": 6,
+    "name": "minecraft:fishing_rod",
+    "functions": [
+        {
+            "function": "minecraft:set_damage",
+            "damage":{"min": 0.04, "max": 0.08}
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"破损的钓鱼竿\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"钓鱼竿\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 6,
+    "name": "minecraft:stone_pickaxe",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"石镐\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"石镐\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 4,
+    "name": "minecraft:stick",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<击退 I> 木棍\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Enchantments\":[{\"id\":\"knockback\",\"lvl\":1}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<击退 I> 木棍\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 4,
+    "name": "minecraft:wooden_axe",
+    "functions": [
+        {
+            "function": "minecraft:set_damage",
+            "damage":{"min": 0.05, "max": 0.08}
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<击退 II> 破损的木斧\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Enchantments\":[{\"id\":\"knockback\",\"lvl\":2}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<击退 II> 木斧\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 6,
+    "name": "minecraft:shield",
+    "functions": [
+        {
+            "function": "minecraft:set_damage",
+            "damage":{"min": 0.05, "max": 0.09}
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"破损的盾牌\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"盾牌\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 2,
+    "name": "minecraft:splash_potion",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"神龟 (喷溅, 0:20)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Potion\":\"turtle_master\",\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型神龟药水\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 2,
+    "name": "minecraft:splash_potion",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"飘浮 (喷溅, 0:10)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":25,\"Amplifier\":0,\"Duration\":200}],\"CustomPotionColor\":11458519,\"display\":{\"Name\":\"{\\\"text\\\":\\\"喷溅型浮空药水\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 2,
+    "name": "minecraft:lingering_potion",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"失明 (滞留, 0:15)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":15,\"Amplifier\":0,\"Duration\":300}],\"CustomPotionColor\":1644828,\"display\":{\"Name\":\"{\\\"text\\\":\\\"滞留型致盲药水\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 2,
+    "name": "minecraft:potion",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"隐身 (饮用, 1:00)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":14,\"Amplifier\":0,\"Duration\":1200}],\"CustomPotionColor\":8553121,\"Potion\":\"invisibility\",\"display\":{\"Name\":\"{\\\"text\\\":\\\"隐身药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:diamond_helmet",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"钻石头盔\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:netherite_boots",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金靴子\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:oak_log",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 5
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"橡木原木 x5\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:furnace",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"熔炉\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+        }
+    ]
+}
+
+]}]}

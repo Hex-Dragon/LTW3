@@ -1,0 +1,33 @@
+{
+    "parent": "ltw:story/score1",
+    "display": {
+      "icon": {
+        "item": "minecraft:map"
+      },
+      "title": {
+        "text": "分数猎手      "
+      },
+      "description": [
+        {"text": "在单局游戏中达到 18 分\n", "color":"gray"},
+        {"text": "奖励: ","color":"green"},
+        {"text": "2 绿宝石","color":"white"}
+      ],
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "rewards": {
+      "function": "ltw:advancement/bonus_2"
+    },
+    "criteria": {
+      "get_score":{
+          "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+          "get_score"
+      ]
+    ]
+  }

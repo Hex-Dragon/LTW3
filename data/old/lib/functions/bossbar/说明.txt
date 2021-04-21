@@ -1,0 +1,8 @@
+
+mem $bossbar_sync
+  0：不显示 Bossbar
+  1：Bossbar 当前值与 $cd_fast 同步
+  2：Bossbar 当前值与 $cd_second 同步
+  3：Bossbar 当前值与 $cd_player 同步
+
+# 玩家的bossbar_color: 1红 2黄 3绿 4蓝

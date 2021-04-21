@@ -1,0 +1,64 @@
+{"pools": [{"rolls": {"max": 4,"min": 2},"entries": [
+
+    {
+        "type": "minecraft:item",
+        "weight": 1,
+        "name": "minecraft:nether_star",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +1\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":1,\"display\":{\"Name\":'{\"text\":\"得分 +1\",\"italic\":false,\"color\":\"white\"}'}}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 1,
+        "name": "minecraft:diamond",
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": {
+              "min": 1.0,
+              "max": 2.0,
+              "type": "minecraft:uniform"
+            }
+          }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 1,
+        "name": "minecraft:iron_ingot",
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": {
+              "min": 2.0,
+              "max": 3.0,
+              "type": "minecraft:uniform"
+            }
+          }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 1,
+        "name": "minecraft:book",
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": {
+              "min": 1.0,
+              "max": 3.0,
+              "type": "minecraft:uniform"
+            }
+          },
+          {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"display\":{\"Name\":'{\"text\":\"书\",\"italic\":false,\"color\":\"white\"}',\"Lore\":['{\"text\":\"K{16 capitals, sort A to Z.}\",\"italic\":false,\"color\":\"gray\"}']}}"
+          }
+        ]
+    }
+    
+]}]}
