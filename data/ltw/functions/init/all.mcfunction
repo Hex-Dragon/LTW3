@@ -19,6 +19,12 @@ schedule function ltw:clock/tick100 98t replace
 # ---------------------------------------------
 scoreboard objectives remove mem
 scoreboard objectives add mem dummy "全局变量"
+scoreboard objectives remove temp
+scoreboard objectives add temp dummy "缓存"
+scoreboard objectives remove temp2
+scoreboard objectives add temp2 dummy "缓存 2"
+scoreboard objectives remove UUID
+scoreboard objectives add UUID dummy "UUID"
 
 # ---------------------------------------------
 #  数字常量
@@ -97,7 +103,7 @@ gamerule logAdminCommands false
 gamerule maxEntityCramming 10
 gamerule naturalRegeneration false
 gamerule randomTickSpeed 0
-gamerule reducedDebugInfo true
+gamerule reducedDebugInfo false
 gamerule sendCommandFeedback true
 gamerule showDeathMessages false
 setworldspawn -12 7 -102
@@ -114,6 +120,8 @@ function ltw:init/entity
 function ltw:state/0/state_enter
 
 
+# TODO: 未完成的重构
+
 # # 主寄存区块：将所有需要不卸载的都放里面
 # #   已占用：(0,0,0) (0,0,1) (0,1,0) (0,1,1)
 # forceload remove all
@@ -124,10 +132,6 @@ function ltw:state/0/state_enter
 # setblock 0 1 1 stone
 
 # # 记分板
-# scoreboard objectives remove temp
-# scoreboard objectives add temp dummy
-# scoreboard objectives remove temp2
-# scoreboard objectives add temp2 dummy
 # scoreboard objectives remove countdown
 # scoreboard objectives add countdown dummy "倒计时"
 # scoreboard objectives remove countdown_fast
@@ -194,7 +198,6 @@ function ltw:state/0/state_enter
 
 # # 其他模块
 # function mini:main/init
-# function item:init
 # function lib:bossbar/init
 
 # # 重置随机数组

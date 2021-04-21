@@ -7,6 +7,8 @@ execute as @e[type=piglin,tag=shop_piglin_11,tag=lobby_entity] at @s unless enti
 # 游戏准备检查部分
 # ————————————————————————————————————————————————————————————————————————————
 
+# TODO: 未完成的重构
+
 # 检查已准备人数
 execute store result score $count mem if entity @a[team=hub_play]
 

@@ -24,6 +24,7 @@ function ltw:state/0/sp/join_watch
 
 
 
+# TODO: 未完成的重构
 
 ## 开启触发器
 #scoreboard players enable @s buy_trigger

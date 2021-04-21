@@ -4,7 +4,7 @@ forceload add 1000 2000 1050 2050
 scoreboard players reset * layer
 
 scoreboard players set $finish_mode mem 0
-scoreboard players set $survival mem 0
+scoreboard players set $is_survival_minigame mem 0
 
 # 生成地图
 ##000

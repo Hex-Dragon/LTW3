@@ -5,7 +5,7 @@ setblock 1049 11 3999 redstone_block
 
 # 初始化
 scoreboard players set $finish_mode mem 0
-scoreboard players set $survival mem 0
+scoreboard players set $is_survival_minigame mem 0
 scoreboard players set $color_match_time mem 60
 scoreboard players set $color_match_type mem 0
 
