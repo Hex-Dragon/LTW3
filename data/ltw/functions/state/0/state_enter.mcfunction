@@ -19,13 +19,11 @@ gamerule naturalRegeneration true
 team remove hub_watch
 team add hub_watch "旁观"
 team modify hub_watch collisionRule never
-team modify hub_watch friendlyFire false
 team modify hub_watch prefix {"text":" ◇ ","color":"white"}
 team modify hub_watch suffix " "
 team remove hub_play
 team add hub_play "准备"
 team modify hub_play collisionRule never
-team modify hub_play friendlyFire false
 team modify hub_play prefix {"text":" ◆ ","color":"green"}
 team modify hub_play suffix " "
 

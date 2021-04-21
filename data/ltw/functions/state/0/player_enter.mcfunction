@@ -2,8 +2,6 @@
 function ltw:init/player
 
 # 状态效果
-effect give @s resistance 1000000 4 true
-effect give @s weakness 1000000 4 true
 
 # 位置与模式
 tp @s -10 8 -42 68 -20
