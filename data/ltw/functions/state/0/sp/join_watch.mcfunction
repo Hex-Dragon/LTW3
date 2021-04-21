@@ -2,12 +2,12 @@
 # 清理现有选择物品
 clear @s lime_dye{lobby_item:1b}
 clear @s gray_dye{lobby_item:1b}
-kill @e[type=item,nbt={Item:{id:"minecraft:gray_dye",tag:{lobby_item:1b}}}]
+kill @e[type=item,nbt={Item:{id:"minecraft:lime_dye",tag:{lobby_item:1b}}}]
 # 弹出玩家放在第一格上的物品
 execute if data entity @s Inventory[{Slot:0b}] run scoreboard players set @s temp 0
 execute if data entity @s Inventory[{Slot:0b}] at @s run function lib:pop_slot/return_item
 # 设置新的选择物品
-replaceitem entity @s hotbar.0 gray_dye{lobby_item:1b,display:{Name:'[{"text":"","color":"white","italic":false},"旁观模式 (按 ",{"keybind":"key.drop"}," 准备)"]',Lore:['[{"text":"","color":"gray","italic":false},"你将在下一局旁观游戏"]']}}
+replaceitem entity @s hotbar.0 gray_dye{lobby_item:1b,display:{Name:'[{"text":"","color":"white","italic":false},"旁观模式 (按 ",{"keybind":"key.drop"}," 以准备)"]',Lore:['[{"text":"","color":"gray","italic":false},"你将在下一局旁观游戏"]']}}
 
 # 设置队伍
 team join hub_watch @s

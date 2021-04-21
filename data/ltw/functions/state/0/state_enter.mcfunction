@@ -38,14 +38,14 @@ execute as @a[team=!debug] run function ltw:state/0/player_enter
 
 # ——————————————————————————————————————————————
 
+# 重置开始倒计时
+scoreboard players set $start_countdown mem 9999999
+
 
 
 
 
 # TODO: 未完成的重构
-
-# 重置开始倒计时
-#scoreboard players set #start_countdown mem 9999999
 
 # 启用节奏跑酷
 #scoreboard players set $tempo_enable mem 1
