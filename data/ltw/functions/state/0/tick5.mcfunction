@@ -28,7 +28,7 @@ execute store result score #total_count mem if entity @a
 # 人数足够，开始倒计时
 execute if score #ready_count mem matches 3.. if score $start_countdown mem matches 999.. run tellraw @a [{"text":" ❇ ","color":"green"}," 游戏即将开始， 请使用第一格的物品确定自己是否参与！"]
 execute if score #ready_count mem matches 3.. if score $start_countdown mem matches 999.. as @a at @s run function lib:sounds/levelup
-execute if score #ready_count mem matches 3.. if score $start_countdown mem matches 999.. run scoreboard players set $start_countdown mem 241
+execute if score #ready_count mem matches 3.. if score $start_countdown mem matches 999.. run scoreboard players set $start_countdown mem 121
 
 # 人数不足，取消倒计时
 execute if score #ready_count mem matches ..2 if score $start_countdown mem matches ..999 run tellraw @a [{"text":" ✖ ","color":"red"}," 准备人数不足， 开始倒计时已取消！"]
