@@ -15,7 +15,6 @@ execute if score $state mem matches 0 run function ltw:state/0/tick2
 # 物品模块必须最后调用，以清理弹出的临时物品
 function item:tick2
 
-
 # TODO: 未完成的重构
 
 # # 特殊方块给予效果

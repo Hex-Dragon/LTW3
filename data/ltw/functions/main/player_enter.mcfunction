@@ -26,6 +26,5 @@ execute if score $state mem matches 0 run function ltw:state/0/player_enter
 # 处理进度
 #advancement revoke @s only lib:damage_dealt
 #advancement revoke @s only lib:damage_taken
-#advancement revoke @s only item:container/place
 #advancement revoke @s only item:special/consume_enchanted_apple
 #advancement revoke @s only item:special/consume_golden_apple
