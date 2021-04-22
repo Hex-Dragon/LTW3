@@ -22,7 +22,7 @@ function mini:main/show_result
 execute at @s run function lib:sounds/levelup
 
 # 自由旁观
-gamemode spectator @s[team=!debugging]
+gamemode spectator @s[team=!debug]
 spectate
 
 # 清理物品

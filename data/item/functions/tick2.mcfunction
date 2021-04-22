@@ -8,7 +8,7 @@ kill @e[type=item,tag=LockTempItem]
 # TODO: 未完成的重构
 
 ## 检测玩家格子锁定
-#execute if score $state mem matches 1.. as @a[team=!debugging] run function item:disable_slot/check_slot
+#execute if score $state mem matches 1.. as @a[team=!debug] run function item:disable_slot/check_slot
 
 ## 检查玩家拾取奖励物品
 #execute as @a if data entity @s Inventory[{"tag":{"bonus_new":1b}}] run function item:bonus_item/call

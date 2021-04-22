@@ -27,8 +27,13 @@ scoreboard objectives remove UUID
 scoreboard objectives add UUID dummy "UUID"
 scoreboard objectives remove music_time
 scoreboard objectives add music_time dummy "音乐倒计时"
-scoreboard objectives remove music_now
-scoreboard objectives add music_now dummy "音乐曲目"
+scoreboard objectives remove music
+scoreboard objectives add music dummy "音乐曲目"
+scoreboard objectives remove player_id
+scoreboard objectives add player_id dummy "玩家编号"
+scoreboard objectives remove game_id
+scoreboard objectives add game_id dummy "游戏局号"
+scoreboard players set $ game_id 0
 # 无需移除的全局记分板
 scoreboard objectives add leave_game minecraft.custom:leave_game "离开游戏计数"
 
@@ -47,6 +52,7 @@ scoreboard players set #7 mem 7
 scoreboard players set #8 mem 8
 scoreboard players set #9 mem 9
 scoreboard players set #10 mem 10
+scoreboard players set #16 mem 16
 scoreboard players set #64 mem 64
 scoreboard players set #81 mem 81
 scoreboard players set #100 mem 100
@@ -54,6 +60,7 @@ scoreboard players set #100 mem 100
 # ---------------------------------------------
 #  通用的玩家队伍
 # ---------------------------------------------
+# 若玩家不在以下两个队伍之一，那就代表他是游戏中的玩家
 team add debug "调试者"
 team modify debug color dark_gray
 team add watch "旁观者"
@@ -151,11 +158,6 @@ function ltw:state/0/state_enter
 # scoreboard objectives add total_score_disp dummy "得分"
 # scoreboard objectives remove effect_floating
 # scoreboard objectives add effect_floating dummy "悬浮计时"
-# scoreboard objectives remove game_id
-# scoreboard objectives add game_id dummy "游戏编号"
-# scoreboard objectives remove player_id
-# scoreboard objectives add player_id dummy "玩家编号"
-# scoreboard players set $ game_id 0
 
 # # 商店系统记分板
 # scoreboard objectives add gold dummy "金粒"
@@ -192,7 +194,6 @@ function ltw:state/0/state_enter
 # # 进度
 # advancement revoke @a only lib:damage_dealt
 # advancement revoke @a only lib:damage_taken
-# advancement revoke @a only item:container/place
 # advancement revoke @a only item:special/consume_enchanted_apple
 # advancement revoke @a only item:special/consume_golden_apple
 

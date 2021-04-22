@@ -22,7 +22,7 @@ scoreboard players reset @s countdown
 tp @s[team=playing] 1030.5 24.5 6031.5
 
 # 调整模式
-gamemode spectator @s[team=!debugging]
+gamemode spectator @s[team=!debug]
 gamemode adventure @s[team=playing,tag=!rejoining]
 
 # 重新加入处理

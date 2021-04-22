@@ -1,6 +1,6 @@
 # 测试用：快速开始钻石风暴
-team join playing @a[team=watching]
-clear @a[team=!debugging]
+team join playing @a[team=watch]
+clear @a[team=!debug]
 function ltw:state/0/start_game
 scoreboard players set $round mem 5
 scoreboard players set $mini_type mem 101

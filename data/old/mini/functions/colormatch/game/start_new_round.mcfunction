@@ -32,4 +32,4 @@ bossbar set mini:red name "地板消失"
 
 # 更新地板方块
 scoreboard players operation $color_match_current mem = $color_match_floor mem
-execute as @a[team=!debugging] run function mini:colormatch/game/show_floor_block
+execute as @a[team=!debug] run function mini:colormatch/game/show_floor_block

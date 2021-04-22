@@ -4,7 +4,7 @@ tag @s remove mini_running
 tag @s[tag=!rejoining,team=playing] add mini_running
 scoreboard players set @s mini_score 0
 scoreboard players set @s[tag=rejoining] mini_score -1000
-scoreboard players set @s[team=watching] mini_score -1000000
+scoreboard players set @s[team=watch] mini_score -1000000
 function mini:main/update_player_count
 
 clear @s #mini:game_item{game_item:1b}

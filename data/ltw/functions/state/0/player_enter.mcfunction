@@ -5,9 +5,9 @@ title @s clear
 title @s actionbar ""
 
 # BGM
-scoreboard players set @s music_now 1
+scoreboard players set @s music 1
 function lib:music/refresh
-scoreboard players set @s music_now 2
+scoreboard players set @s music 2
 
 # 状态效果
 effect clear @s

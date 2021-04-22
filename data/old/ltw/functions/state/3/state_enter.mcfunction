@@ -1,6 +1,6 @@
 # 要求系统进入状态 3（主要阶段结束，初始化小游戏）
 scoreboard players set $state mem 3
-execute as @a[team=!debugging] run function ltw:state/3/player_enter
+execute as @a[team=!debug] run function ltw:state/3/player_enter
 
 # HUD
 scoreboard objectives setdisplay belowName total_score_disp

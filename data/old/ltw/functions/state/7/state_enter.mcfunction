@@ -1,6 +1,6 @@
 # 要求系统进入状态 7（选择奖励）
 scoreboard players set $state mem 7
-execute as @a[team=!debugging] run function ltw:state/7/player_enter
+execute as @a[team=!debug] run function ltw:state/7/player_enter
 
 # 世界边界
 worldborder set 1000000

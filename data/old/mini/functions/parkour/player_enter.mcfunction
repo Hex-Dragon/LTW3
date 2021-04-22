@@ -29,7 +29,7 @@ spreadplayers 1018 1007 4 6 under 9 false @s[team=playing,tag=!rejoining]
 # tp @s[team=playing,tag=!rejoining] 1010.07 7.50 1006.98 -1518.69 -10.62
 
 # 调整模式
-gamemode spectator @s[team=!debugging]
+gamemode spectator @s[team=!debug]
 gamemode adventure @s[team=playing,tag=!rejoining]
 
 # 修改 Tag

@@ -14,7 +14,7 @@ function mini:main/player_max_health
 tp @s[team=playing,tag=!rejoining] 1062 19 4012
 
 # 调整模式
-gamemode spectator @s[team=!debugging]
+gamemode spectator @s[team=!debug]
 gamemode adventure @s[team=playing,tag=!rejoining]
 
 # 重新加入处理

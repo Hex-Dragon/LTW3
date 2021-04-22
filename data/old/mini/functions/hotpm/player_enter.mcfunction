@@ -21,7 +21,7 @@ tag @s remove pm_explode_last
 tp @s[team=playing,tag=!rejoining] 1018.0 8 3015.0
 
 # 调整模式
-gamemode spectator @s[team=!debugging]
+gamemode spectator @s[team=!debug]
 gamemode adventure @s[team=playing,tag=!rejoining]
 
 # 重新加入处理

@@ -1,7 +1,7 @@
 # 生成分数奖励
 
 # 传送
-tp @a[team=!debugging] 24.5 11.0 1967.5
+tp @a[team=!debug] 24.5 11.0 1967.5
 
 # 设置轮数
 scoreboard players set $round mem 5

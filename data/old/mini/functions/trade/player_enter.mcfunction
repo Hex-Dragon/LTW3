@@ -15,7 +15,7 @@ scoreboard players reset * emerald
 scoreboard players set @s[team=playing,tag=!rejoining] emerald 0
 
 # 调整模式
-gamemode spectator @s[team=!debugging]
+gamemode spectator @s[team=!debug]
 gamemode survival @s[team=playing,tag=!rejoining]
 
 # 执行重生方法
