@@ -1,10 +1,8 @@
 # 每秒执行一次
 schedule function ltw:clock/tick20 20t replace
 
-# 恢复生命
-execute if score $state mem matches 0 run effect give @a instant_health 1 10 true
-
 # 调用其他模块
+execute if score $state mem matches 0 run function ltw:state/0/tick20
 function ltw:main/tick20
 function lib:music/tick20
 

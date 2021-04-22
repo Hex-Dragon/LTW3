@@ -1,7 +1,7 @@
 
-# 隐藏/显示 骰子房老板的名片
-execute as @e[type=piglin,tag=shop_piglin_11,tag=lobby_entity] at @s if entity @a[distance=..5] run data modify entity @s CustomNameVisible set value true
-execute as @e[type=piglin,tag=shop_piglin_11,tag=lobby_entity] at @s unless entity @a[distance=..5] run data modify entity @s CustomNameVisible set value false
+## 隐藏/显示 骰子房老板的名片
+#execute as @e[type=piglin,tag=shop_piglin_11,tag=lobby_entity] at @s if entity @a[distance=..5] run data modify entity @s CustomNameVisible set value true
+#execute as @e[type=piglin,tag=shop_piglin_11,tag=lobby_entity] at @s unless entity @a[distance=..5] run data modify entity @s CustomNameVisible set value false
 
 # 调用节奏方块
 function lib:tempo_block/tick5
@@ -44,5 +44,3 @@ execute if score $start_countdown mem matches 0 run function ltw:state/0/start_g
 # 显示信息
 execute if score $start_countdown mem matches 1..999 run title @a[team=!debugging] actionbar [{"text":"","color":"green"},{"score":{"name":"#ready_count","objective":"mem"}},"/",{"score":{"name":"#total_count","objective":"mem"}}," 人已准备 | ","将在 ",{"score":{"name":"#start_sec","objective":"mem"}}," 秒后开始游戏"]
 execute if score $start_countdown mem matches 999.. run title @a[team=!debugging] actionbar [{"text":"","color":"red"},{"score":{"name":"#ready_count","objective":"mem"}},"/",{"score":{"name":"#total_count","objective":"mem"}}," 人已准备 | 需要 3 人以开始游戏"]
-
-

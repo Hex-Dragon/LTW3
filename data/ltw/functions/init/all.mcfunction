@@ -25,12 +25,12 @@ scoreboard objectives remove temp2
 scoreboard objectives add temp2 dummy "缓存 2"
 scoreboard objectives remove UUID
 scoreboard objectives add UUID dummy "UUID"
-scoreboard objectives remove leave_game
-scoreboard objectives add leave_game minecraft.custom:leave_game "离开游戏计数"
 scoreboard objectives remove music_time
 scoreboard objectives add music_time dummy "音乐倒计时"
 scoreboard objectives remove music_now
 scoreboard objectives add music_now dummy "音乐曲目"
+# 无需移除的全局记分板
+scoreboard objectives add leave_game minecraft.custom:leave_game "离开游戏计数"
 
 # ---------------------------------------------
 #  数字常量
