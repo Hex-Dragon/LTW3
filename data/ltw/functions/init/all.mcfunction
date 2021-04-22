@@ -115,10 +115,8 @@ gamerule universalAnger true
 worldborder warning distance 0
 
 # ---------------------------------------------
-#  其他模块
+#  切换状态（其中会调用其他 init 函数）
 # ---------------------------------------------
-function ltw:init/gamerule
-function ltw:init/entity
 function ltw:state/0/state_enter
 
 

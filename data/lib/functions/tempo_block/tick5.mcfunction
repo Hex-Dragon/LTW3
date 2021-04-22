@@ -1,6 +1,6 @@
 
 # 倒计时（后续为 0~5，即 1.5s 一轮）
-execute if score $countdown_tempo mem matches 0 run scoreboard players set $countdown_tempo mem 6
+execute unless score $countdown_tempo mem matches 1.. run scoreboard players set $countdown_tempo mem 6
 execute if score $countdown_tempo mem matches 1.. run scoreboard players remove $countdown_tempo mem 1
 
 # 触发与音效
