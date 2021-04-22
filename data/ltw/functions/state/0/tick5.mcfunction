@@ -17,18 +17,18 @@ execute store result score #total_count mem if entity @a
 # 人数足够，开始倒计时
 execute if score #ready_count mem matches 3.. if score $start_countdown mem matches 999.. run tellraw @a [{"text":" ❇ ","color":"green"}," 游戏即将开始， 请使用第一格的物品确定自己是否参与！"]
 execute if score #ready_count mem matches 3.. if score $start_countdown mem matches 999.. as @a at @s run function lib:sounds/levelup
-execute if score #ready_count mem matches 3.. if score $start_countdown mem matches 999.. run scoreboard players set $start_countdown mem 121
+execute if score #ready_count mem matches 3.. if score $start_countdown mem matches 999.. run scoreboard players set $start_countdown mem 161
 
 # 人数不足，取消倒计时
-execute if score #ready_count mem matches ..2 if score $start_countdown mem matches ..999 run tellraw @a [{"text":" ✖ ","color":"red"}," 准备人数不足， 开始倒计时已取消！"]
+execute if score #ready_count mem matches ..2 if score $start_countdown mem matches ..999 run tellraw @a [{"text":" ✖ ","color":"red"}," 准备人数不足， 已取消游戏开始进程！"]
 execute if score #ready_count mem matches ..2 if score $start_countdown mem matches ..999 as @a at @s run function lib:sounds/error
 execute if score #ready_count mem matches ..2 if score $start_countdown mem matches ..999 run scoreboard players set $start_countdown mem 9999999
 
 # 减少倒计时
 scoreboard players remove $start_countdown mem 1
 
-# 15s：提示未准备
-execute if score $start_countdown mem matches 60 run tellraw @a[team=hub_watch] [{"text":" ❇ ","color":"gold"}," 如果要加入游戏， 请丢出第一格的灰色染料， 否则将会进入旁观模式！"]
+# 20s：提示未准备
+execute if score $start_countdown mem matches 80 run tellraw @a[team=hub_watch] [{"text":" ✒ ","color":"light_purple"}," 小提示: ",{"text":"如果要加入游戏， 请丢出第一格的灰色染料， 否则将会进入旁观模式！","color":"white"}]
 
 # 10s：播放倒计时音效
 scoreboard players operation #start_sec mem = $start_countdown mem
