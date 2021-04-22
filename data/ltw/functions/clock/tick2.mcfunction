@@ -21,9 +21,6 @@ function item:tick2
 # # 特殊方块给予效果
 # function lib:effect/floating
 
-# # 调用节奏方块模块
-# execute if score $tempo_enable mem matches 1 run function lib:tempo_block/tick2
-
 # # 调用粒子模块
 # function item:particle/show_particle
 

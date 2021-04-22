@@ -39,15 +39,14 @@ execute as @a[team=!debug] run function ltw:state/0/player_enter
 # 重置开始倒计时
 scoreboard players set $start_countdown mem 9999999
 
+# 初始化节奏方块
+function ltw:state/0/sp/tempo_block/marker_spawn
 
 
 
 
 # TODO: 未完成的重构
 
-# 启用节奏跑酷
-#scoreboard players set $tempo_enable mem 1
-#function ltw:state/0/parkour/tempo_block/marker_spawn
 # bossbar
 #scoreboard players set $bossbar_type mem 0
 #function lib:bossbar/show

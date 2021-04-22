@@ -3,6 +3,9 @@
 execute as @e[type=piglin,tag=shop_piglin_11,tag=lobby_entity] at @s if entity @a[distance=..5] run data modify entity @s CustomNameVisible set value true
 execute as @e[type=piglin,tag=shop_piglin_11,tag=lobby_entity] at @s unless entity @a[distance=..5] run data modify entity @s CustomNameVisible set value false
 
+# 调用节奏方块
+function lib:tempo_block/tick5
+
 # TODO: 未完成的重构
 
 ## 20s：提示未准备
