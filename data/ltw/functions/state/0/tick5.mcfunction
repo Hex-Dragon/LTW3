@@ -14,8 +14,6 @@ function lib:tempo_block/tick5
 execute store result score #ready_count mem if entity @a[team=hub_play]
 execute store result score #total_count mem if entity @a
 
-scoreboard players set #ready_count mem 10
-
 # 人数足够，开始倒计时
 execute if score #ready_count mem matches 3.. if score $start_countdown mem matches 999.. run tellraw @a [{"text":" ❇ ","color":"green"}," 游戏即将开始， 请使用第一格的物品确定自己是否参与！"]
 execute if score #ready_count mem matches 3.. if score $start_countdown mem matches 999.. as @a at @s run function lib:sounds/levelup
@@ -48,5 +46,5 @@ execute if score $start_countdown mem matches 1..998 run title @a actionbar [{"t
 
 # 替换人数过多的警告
 scoreboard players operation #start_div mem = $start_countdown mem
-scoreboard players operation #start_div mem %= #16 mem
-execute if score $start_countdown mem matches 1..998 if score #start_div mem matches 8.. if score #ready_count mem matches 9.. run title @a actionbar {"text":"人数过多， 将随机抽取 8 人进行游戏","color":"yellow"}
+scoreboard players operation #start_div mem %= #20 mem
+execute if score $start_countdown mem matches 1..998 if score #start_div mem matches 12.. if score #ready_count mem matches 9.. run title @a actionbar {"text":"人数过多， 将随机抽取 8 人进行游戏","color":"yellow"}

@@ -52,7 +52,7 @@ scoreboard players set #7 mem 7
 scoreboard players set #8 mem 8
 scoreboard players set #9 mem 9
 scoreboard players set #10 mem 10
-scoreboard players set #16 mem 16
+scoreboard players set #20 mem 20
 scoreboard players set #64 mem 64
 scoreboard players set #81 mem 81
 scoreboard players set #100 mem 100
