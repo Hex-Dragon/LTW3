@@ -7,4 +7,3 @@ execute if score $state mem matches 0 run function ltw:state/0/tick5
 # TODO: 未完成的重构
 
 # execute if score $state mem matches 5 run function ltw:state/5/tick5
-# function ltw:main/tick5

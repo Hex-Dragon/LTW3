@@ -4,9 +4,11 @@ schedule function ltw:clock/tick20 20t replace
 # 恢复生命
 execute if score $state mem matches 0 run effect give @a instant_health 1 10 true
 
+# 调用其他模块
+function ltw:main/tick20
+
 # TODO: 未完成的重构
 
-# # 调用其他模块
 # function item:tick20
 # function lib:bossbar/tick20
 # execute if score $state mem matches 3 run function ltw:state/3/tick20

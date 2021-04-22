@@ -25,6 +25,8 @@ scoreboard objectives remove temp2
 scoreboard objectives add temp2 dummy "缓存 2"
 scoreboard objectives remove UUID
 scoreboard objectives add UUID dummy "UUID"
+scoreboard objectives remove leave_game
+scoreboard objectives add leave_game minecraft.custom:leave_game "离开游戏计数"
 
 # ---------------------------------------------
 #  数字常量
@@ -145,8 +147,6 @@ function ltw:state/0/state_enter
 # scoreboard objectives add total_score dummy "得分"
 # scoreboard objectives remove total_score_disp
 # scoreboard objectives add total_score_disp dummy "得分"
-# scoreboard objectives remove leave_game
-# scoreboard objectives add leave_game minecraft.custom:leave_game "离开游戏"
 # scoreboard objectives remove effect_floating
 # scoreboard objectives add effect_floating dummy "悬浮计时"
 # scoreboard objectives remove game_id
