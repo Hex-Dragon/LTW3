@@ -9,7 +9,7 @@ scoreboard players set @s music_now 2
 # 状态效果
 
 # 位置与模式
-tp @s -10 8 -42 68 -20
+tp @s -14 10 -40 218 0
 gamemode adventure
 
 # ——————————————————————————————————————————————

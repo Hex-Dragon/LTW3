@@ -3,6 +3,9 @@
 # 存储 UUID
 execute store result score @s UUID run data get entity @s UUID[0]
 
+# 初始化重生点
+spawnpoint @s -29 39 -78
+
 # 如果在主大厅
 execute if score $state mem matches 0 run function ltw:state/0/player_enter
 
@@ -20,8 +23,6 @@ execute if score $state mem matches 0 run function ltw:state/0/player_enter
 #bossbar set ltw:notice players @a
 #function lib:bossbar/show
 
-# 初始化重生点
-#spawnpoint @s -12 7 -102
 # 处理进度
 #advancement revoke @s only lib:damage_dealt
 #advancement revoke @s only lib:damage_taken
