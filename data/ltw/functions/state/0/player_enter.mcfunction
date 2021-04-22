@@ -1,6 +1,11 @@
 # 对单个玩家的处理（如果玩家中途加入就会执行此函数）
 function ltw:init/player
 
+# BGM
+scoreboard players set @s music_now 1
+function lib:music/refresh
+scoreboard players set @s music_now 2
+
 # 状态效果
 
 # 位置与模式
@@ -29,6 +34,3 @@ function ltw:state/0/sp/join_watch
 
 #execute as @s run function item:shop/refresh_gold
 #execute as @s run function item:shop/refresh_green
-
-## BGM
-#function lib:sounds/music/lobby

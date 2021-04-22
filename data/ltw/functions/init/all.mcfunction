@@ -27,6 +27,10 @@ scoreboard objectives remove UUID
 scoreboard objectives add UUID dummy "UUID"
 scoreboard objectives remove leave_game
 scoreboard objectives add leave_game minecraft.custom:leave_game "离开游戏计数"
+scoreboard objectives remove music_time
+scoreboard objectives add music_time dummy "音乐倒计时"
+scoreboard objectives remove music_now
+scoreboard objectives add music_now dummy "音乐曲目"
 
 # ---------------------------------------------
 #  数字常量
@@ -151,8 +155,6 @@ function ltw:state/0/state_enter
 # scoreboard objectives add game_id dummy "游戏编号"
 # scoreboard objectives remove player_id
 # scoreboard objectives add player_id dummy "玩家编号"
-# scoreboard objectives remove music_time
-# scoreboard objectives add music_time dummy "BGM 时间"
 # scoreboard players set $ game_id 0
 
 # # 商店系统记分板

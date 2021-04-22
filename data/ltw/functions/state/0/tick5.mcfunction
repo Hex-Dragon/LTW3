@@ -6,20 +6,6 @@ execute as @e[type=piglin,tag=shop_piglin_11,tag=lobby_entity] at @s unless enti
 # 调用节奏方块
 function lib:tempo_block/tick5
 
-# TODO: 未完成的重构
-
-## 20s：提示未准备
-#execute if score $start_countdown mem matches 80 run tellraw @a[team=watching] [{"text":"","color":"red"},{"text":">> ","bold": true},"你还没有准备, 如果要参加游戏, 请丢出快捷栏最后一格的物品!"]
-
-## 让无状态玩家变为旁观状态
-#execute as @a[team=!debug,team=!hub_play,team=!hub_watch] run function ltw:state/0/sp/join_watch
-
-## 给予主大厅进度
-#execute as @a at @s if entity @s[x=-1,y=22,z=-29,dx=5,dy=3,dz=3] run advancement grant @s only ltw:parkour/explore1
-#execute as @a at @s if entity @s[x=6,y=48,z=-32,dx=4,dy=3,dz=9] run advancement grant @s only ltw:parkour/explore2
-#execute as @a at @s if entity @s[x=0,y=28,z=-46,distance=..4] run advancement grant @s only ltw:parkour/explore3
-
-
 # ————————————————————————————————————————————————————————————————————————————
 #  游戏开始倒计时
 # ————————————————————————————————————————————————————————————————————————————
@@ -38,8 +24,11 @@ execute if score #ready_count mem matches ..2 if score $start_countdown mem matc
 execute if score #ready_count mem matches ..2 if score $start_countdown mem matches ..999 as @a at @s run function lib:sounds/error
 execute if score #ready_count mem matches ..2 if score $start_countdown mem matches ..999 run scoreboard players set $start_countdown mem 9999999
 
-# 20s：提示玩家数量过多
-execute if score $start_countdown mem matches 80 if score #ready_count mem matches 9.. run tellraw @a [{"text":" ❇ ","color":"gold"}," 准备人数已超出 8 人的人数上限, 将随机抽取 8 人进行游戏！"]
+# 20s：提示未准备
+execute if score $start_countdown mem matches 80 run tellraw @a[team=hub_watch] [{"text":" ❇ ","color":"gold"}," 你还没有准备开始！ 如果要参加游戏， 请丢出第一格的灰色染料!"]
+
+# 10s：提示玩家数量过多
+execute if score $start_countdown mem matches 40 if score #ready_count mem matches 9.. run tellraw @a [{"text":" ❇ ","color":"gold"}," 准备人数已超出 8 人的人数上限, 将随机抽取 8 人进行游戏！"]
 
 # 10s：播放倒计时音效
 scoreboard players remove $start_countdown mem 1
