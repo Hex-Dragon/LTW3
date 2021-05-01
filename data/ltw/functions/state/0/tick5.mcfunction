@@ -41,8 +41,8 @@ execute if score #start_sec mem matches 1..10 if score #start_div mem matches 3 
 execute if score $start_countdown mem matches 0 run function ltw:state/0/sp/start_game
 
 # 显示 ActionBar 信息
-execute if score $start_countdown mem matches 999.. run title @a actionbar [{"text":"","color":"red"},{"score":{"name":"#ready_count","objective":"mem"}},"/",{"score":{"name":"#total_count","objective":"mem"}}," 人已准备 | 需要 3 人以开始游戏"]
-execute if score $start_countdown mem matches 1..998 run title @a actionbar [{"text":"","color":"green"},{"score":{"name":"#ready_count","objective":"mem"}},"/",{"score":{"name":"#total_count","objective":"mem"}}," 人已准备 | 游戏将在 ",{"score":{"name":"#start_sec","objective":"mem"}}," 秒后开始"]
+execute if score $start_countdown mem matches 999.. run title @a[team=!debug] actionbar [{"text":"","color":"red"},{"score":{"name":"#ready_count","objective":"mem"}},"/",{"score":{"name":"#total_count","objective":"mem"}}," 人已准备 | 需要 3 人以开始游戏"]
+execute if score $start_countdown mem matches 1..998 run title @a[team=!debug] actionbar [{"text":"","color":"green"},{"score":{"name":"#ready_count","objective":"mem"}},"/",{"score":{"name":"#total_count","objective":"mem"}}," 人已准备 | 游戏将在 ",{"score":{"name":"#start_sec","objective":"mem"}}," 秒后开始"]
 
 # 替换人数过多的警告
 scoreboard players operation #start_div mem = $start_countdown mem
