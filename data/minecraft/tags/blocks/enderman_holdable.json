@@ -2,10 +2,7 @@
   "replace": false,
   "values": [
     "#minecraft:small_flowers",
-    "minecraft:grass_block",
-    "minecraft:dirt",
-    "minecraft:coarse_dirt",
-    "minecraft:podzol",
+    "#minecraft:dirt",
     "minecraft:sand",
     "minecraft:red_sand",
     "minecraft:gravel",
