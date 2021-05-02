@@ -23,10 +23,7 @@ recipe take @s *
 xp set @s 0 points
 xp set @s 0 levels
 
-# 物品
-clear @s
-
-# 设置默认状态
+# 设置默认状态（这也会刷新物品）
 function ltw:state/0/sp/join_watch
 
 
@@ -35,6 +32,3 @@ function ltw:state/0/sp/join_watch
 
 ## 开启触发器
 #scoreboard players enable @s buy_trigger
-
-#execute as @s run function item:shop/refresh_gold
-#execute as @s run function item:shop/refresh_green
