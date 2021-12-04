@@ -20,5 +20,5 @@ summon armor_stand 1012 7.6 1036 {Marker:1b,Invisible:1b,Invulnerable:1b,Small:1
 summon armor_stand 1014 8.6 1039 {Marker:1b,Invisible:1b,Invulnerable:1b,Small:1b,NoGravity:1b,Tags:["parkour_tempo","tempo_blue"]}
 
 # 显示as
-replaceitem entity @e[type=armor_stand,tag=tempo_red,tag=parkour_tempo] armor.head red_stained_glass
-replaceitem entity @e[type=armor_stand,tag=tempo_blue,tag=parkour_tempo] armor.head blue_stained_glass
+item replace entity @e[type=armor_stand,tag=tempo_red,tag=parkour_tempo] armor.head red_stained_glass
+item replace entity @e[type=armor_stand,tag=tempo_blue,tag=parkour_tempo] armor.head blue_stained_glass
