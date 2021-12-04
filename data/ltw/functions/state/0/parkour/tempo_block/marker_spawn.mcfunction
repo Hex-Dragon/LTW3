@@ -35,5 +35,5 @@ execute positioned 14 50 -30 run summon armor_stand ~ ~-0.4 ~ {Marker:1b,Invisib
 execute positioned 21 49 -34 run summon armor_stand ~ ~-0.4 ~ {Marker:1b,Invisible:1b,Invulnerable:1b,Small:1b,NoGravity:1b,Tags:["lobby_tempo","tempo_blue_r"]}
 
 # 显示as
-item replace entity @e[type=armor_stand,tag=tempo_red_t,tag=lobby_tempo] armor.head red_stained_glass
-item replace entity @e[type=armor_stand,tag=tempo_blue_t,tag=lobby_tempo] armor.head blue_stained_glass
+item replace entity @e[type=armor_stand,tag=tempo_red_t,tag=lobby_tempo] armor.head with red_stained_glass
+item replace entity @e[type=armor_stand,tag=tempo_blue_t,tag=lobby_tempo] armor.head with blue_stained_glass

@@ -81,5 +81,5 @@ execute at @s positioned ~ ~ ~ run function item:pop_slot/pop_item
 scoreboard players set @s item_slot -106
 execute at @s positioned ~ ~ ~ run function item:pop_slot/pop_item
 give @s dead_bush 2304
-item replace entity @s weapon.offhand dead_bush 64
-item replace entity @s armor.head dead_bush 64
+item replace entity @s weapon.offhand with dead_bush 64
+item replace entity @s armor.head with dead_bush 64
