@@ -4,5 +4,6 @@ function lib:bossbar/show
 
 # 继续下一轮小游戏
 scoreboard players add $round mem 1
+function ltw:state/7/state_end
 schedule function ltw:state/3/state_enter 2t replace
 forceload remove 0 1900 50 2000

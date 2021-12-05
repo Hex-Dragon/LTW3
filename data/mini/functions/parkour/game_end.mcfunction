@@ -1,3 +1,8 @@
+# 清理残余实体
+kill @e[type=falling_block,tag=parkour_block]
+kill @e[tag=treasure_item]
+function mini:main/kill_entity
+
 # 结束跑酷
 forceload remove 1000 1000 1064 1064
 
