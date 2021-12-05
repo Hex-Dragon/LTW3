@@ -1,6 +1,5 @@
 # 加载地图
 forceload add -32 -17 31 -80
-kill @e[type=item]
 
 # 世界边界
 worldborder set 1000000
