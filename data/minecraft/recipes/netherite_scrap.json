@@ -4,6 +4,6 @@
     "item": "minecraft:ancient_debris"
   },
   "result": "minecraft:netherite_scrap",
-  "experience": 0,
-  "cookingtime": 60
+  "experience": 2.0,
+  "cookingtime": 200
 }

@@ -4,6 +4,6 @@
     "item": "minecraft:chorus_fruit"
   },
   "result": "minecraft:popped_chorus_fruit",
-  "experience": 0,
-  "cookingtime": 60
+  "experience": 0.1,
+  "cookingtime": 200
 }

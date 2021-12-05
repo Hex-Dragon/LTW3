@@ -33,6 +33,6 @@
     }
   ],
   "result": "minecraft:gold_nugget",
-  "experience": 0,
-  "cookingtime": 20
+  "experience": 0.1,
+  "cookingtime": 100
 }
