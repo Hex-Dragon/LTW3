@@ -13,10 +13,6 @@ setblock 1000 255 5000 minecraft:structure_block[mode=load]{metadata:"",mirror:"
 setblock 1000 255 5001 redstone_block
 schedule function mini:diamond/game_init2 1t append
 
-# 清理残余实体
-tp @e[type=!player,x=950,y=-200,z=4950,dx=100,dy=600,dz=100] ~ -100 ~
-kill @e[type=!player,x=950,y=-200,z=4950,dx=100,dy=600,dz=100]
-
 # 伤害管理
 scoreboard players set $remove_resistance mem 1
 team modify playing friendlyFire true

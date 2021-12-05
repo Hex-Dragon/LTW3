@@ -15,12 +15,6 @@ setblock 1000 5 1032 minecraft:redstone_block
 setblock 1000 4 1000 air
 setblock 1000 4 1032 air
 
-# 清理残余实体
-kill @e[type=falling_block,tag=parkour_block]
-kill @e[tag=treasure_item]
-function mini:main/kill_entity
-
-
 # 生成节奏方块实体
 function mini:parkour/game/marker_spawn
 
