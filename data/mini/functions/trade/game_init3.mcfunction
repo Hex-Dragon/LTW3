@@ -19,3 +19,6 @@ execute if score $random mem matches 4 run setblock 1027 254 5027 redstone_block
 
 # 清理区域
 fill 1025 255 5031 1029 251 5025 air
+
+# 清理箱子重叠时产生的物品
+kill @e[type=item]
