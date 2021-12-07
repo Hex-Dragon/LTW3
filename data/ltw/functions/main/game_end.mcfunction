@@ -1,8 +1,5 @@
 # 游戏结束，根据 total_score 判断排名，并返回主大厅
 
-# 清理物品
-function ltw:state/7/state_end
-
 # 计算排名
 tag @a remove total_rank1
 tag @a remove total_rank2
