@@ -10,4 +10,4 @@ execute if score $mini_type mem matches 102 run function mini:trade/tick20
 function mini:main/check_game_end
 
 # 清理残留掉落物
-function mini:main/kill_remaining_items
+function mini:main/kill_remaining_entity
