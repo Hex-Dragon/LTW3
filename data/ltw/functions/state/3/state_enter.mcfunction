@@ -37,6 +37,7 @@ execute if score $round mem matches 5 if score $random mem matches 0 run scorebo
 execute if score $round mem matches 5 if score $random mem matches 1 run scoreboard players set $mini_type mem 102
 
 # 初始化小游戏
+scoreboard players add $ round_id 1
 function mini:main/game_init
 
 # 清理残留实体

@@ -56,11 +56,14 @@ scoreboard objectives remove effect_floating
 scoreboard objectives add effect_floating dummy "悬浮计时"
 scoreboard objectives remove game_id
 scoreboard objectives add game_id dummy "游戏编号"
+scoreboard objectives remove round_id
+scoreboard objectives add round_id dummy "小游戏编号"
 scoreboard objectives remove player_id
 scoreboard objectives add player_id dummy "玩家编号"
 scoreboard objectives remove music_time
 scoreboard objectives add music_time dummy "BGM 时间"
 scoreboard players set $ game_id 0
+scoreboard players set $ round_id 0
 
 # 商店系统记分板
 scoreboard objectives add gold dummy "金粒"
