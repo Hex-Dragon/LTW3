@@ -10,6 +10,9 @@ setblock 1000 4 7000 minecraft:structure_block[mode=load]{mode:"LOAD",posX:0,pos
 setblock 1000 5 7000 minecraft:redstone_block
 setblock 1000 4 7000 air
 
+# 清理残余实体
+function mini:main/kill_entity
+
 # 伤害管理
 scoreboard players set $remove_resistance mem 1
 team modify playing friendlyFire false

@@ -1,4 +1,10 @@
 # 生成奖励物品
+
+# 清理残余实体
+kill @e[type=item]
+kill @e[type=arrow]
+kill @e[type=trident]
+
 # 生成 玩家数+1 个奖励
 execute store result score #bonus_count mem if entity @a[team=playing]
 scoreboard players add #bonus_count mem 1

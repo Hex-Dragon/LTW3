@@ -1,7 +1,3 @@
-# 清理残余实体
-tp @e[type=!player,x=950,y=-200,z=4950,dx=100,dy=600,dz=100] ~ -100 ~
-kill @e[type=!player,x=950,y=-200,z=4950,dx=100,dy=600,dz=100]
-
 # 游戏结束
 forceload remove 1000 5000 1064 5064
 worldborder set 1000000
