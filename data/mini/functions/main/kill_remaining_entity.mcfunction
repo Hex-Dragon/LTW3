@@ -5,4 +5,5 @@ scoreboard players operation @e[type=!player,scores={round_id=0}] round_id = $ r
 scoreboard players set item_test mem 0
 execute as @e[type=!player] unless score @s round_id = $ round_id run scoreboard players add item_test mem 1
 execute as @e[type=!player] unless score @s round_id = $ round_id run tp @s ~ ~-1000 ~
+execute as @e[type=!player] unless score @s round_id = $ round_id run kill @s
 execute if score item_test mem matches 1.. run tellraw @a ["清理了",{"score":{"name": "item_test","objective": "mem"}},"个实体"]
