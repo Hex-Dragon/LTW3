@@ -9,6 +9,9 @@ scoreboard objectives setdisplay list total_score_disp
 scoreboard players set $bossbar_type mem 0
 function lib:bossbar/show
 
+# 清理残留实体
+function mini:main/kill_remaining_entity
+
 # 初始化倒计时
 scoreboard players set $countdown mem 4
 
