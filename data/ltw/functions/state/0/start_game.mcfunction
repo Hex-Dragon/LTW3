@@ -1,6 +1,4 @@
 # 开始游戏
-# 清理实体
-kill @e[type=item]
 
 # 确认实际玩家
 tag @a remove selected_player
