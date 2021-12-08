@@ -1,0 +1,21 @@
+# 重置计分板
+scoreboard objectives remove rgb_sys
+scoreboard objectives add rgb_sys dummy "RGB小游戏系统变量"
+scoreboard objectives remove rgb_rule_id
+scoreboard objectives add rgb_rule_id dummy "RGB小游戏规则ID"
+
+scoreboard objectives remove rgb_R
+scoreboard objectives add rgb_R dummy {"text": "R","color": "red"}
+scoreboard objectives remove rgb_G
+scoreboard objectives add rgb_R dummy {"text": "G","color": "green"}
+scoreboard objectives remove rgb_B
+scoreboard objectives add rgb_R dummy {"text": "B","color": "blue"}
+
+scoreboard objectives remove rgb_obtain_rule
+scoreboard objectives add rgb_obtain_rule minecraft.mined:minecraft.pumpkin "RGB小游戏获得规则计分板"
+scoreboard objectives remove rgb_place_rule
+scoreboard objectives add rgb_place_rule minecraft.used:armor_stand "RGB小游戏放置规则计分板"
+scoreboard objectives remove rgb_destroy_rule
+scoreboard objectives add rgb_destroy_rule minecraft.killed:armor_stand "RGB小游戏销毁规则计分板"
+scoreboard objectives remove rgb_shift
+scoreboard objectives add rgb_shift custom:sneak_time "RGB小游戏潜行时间"

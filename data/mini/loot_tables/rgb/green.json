@@ -1,0 +1,64 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'下蹲',type:'shift'}],events:[{name:'{\"text\":\"+1\",\"color\":\"green\"}',type:'add_green',value:1s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'在水中',type:'in_water'}],events:[{name:'{\"text\":\"+1\",\"color\":\"red\"}',type:'add_red',value:1s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'离开地面',type:'on_air'}],events:[{name:'{\"text\":\"+1\",\"color\":\"red\"}',type:'add_red',value:1s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'在阳光直射处',type:'sky_light_15'}],events:[{name:'{\"text\":\"+1\",\"color\":\"red\"}',type:'add_red',value:1s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'在黑暗中',type:'in_dark'}],events:[{name:'{\"text\":\"+1\",\"color\":\"red\"}',type:'add_red',value:1s}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
