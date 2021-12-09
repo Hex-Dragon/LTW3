@@ -22,4 +22,4 @@ spreadplayers 1026 8012 8 16 under 30 false @s[team=playing,tag=!rejoining]
 
 # 调整模式
 gamemode spectator @s[team=!debugging]
-gamemode adventure @s[team=playing,tag=!rejoining]
+gamemode survival @s[team=playing,tag=!rejoining]
