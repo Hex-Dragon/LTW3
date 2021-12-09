@@ -2,21 +2,21 @@
 
 # 随机规则 0-100
 scoreboard players set $random_min mem 0
-scoreboard players set $random_max mem 2
+scoreboard players set $random_max mem 13
 function lib:random
 
 execute if score $random mem matches 0..2 run loot replace block 0 0 1 container.0 loot mini:rgb/red
 execute if score $random mem matches 3..5 run loot replace block 0 0 1 container.0 loot mini:rgb/green
 #execute if score $random mem matches 6..8 run loot replace block 0 0 1 container.0 loot mini:rgb/blue
 #execute if score $random mem matches 9..12 run loot replace block 0 0 1 container.0 loot mini:rgb/event
-#execute if score $random mem matches 13 run loot replace block 0 0 1 container.0 loot mini:rgb/finish
+execute if score $random mem matches 13 run loot replace block 0 0 1 container.0 loot mini:rgb/finish
 
 # 生成文本
 data modify storage ltw:mini rgb set from block 0 0 1 Items[0].tag
 setblock 0 1 0 acacia_wall_sign destroy
-function mini:rgb/game/give_random_rule_1
+function mini:rgb/game/gen_rule_text_1
 data modify block 0 1 0 Text1 set value '[{"nbt":"Text1","block":"0 1 0","interpret":true},{"text":" -> ","color":"white"}]'
-function mini:rgb/game/give_random_rule_2
+function mini:rgb/game/gen_rule_text_2
 data modify block 0 0 1 Items[0].tag.EntityTag.CustomName set from block 0 1 0 Text1
 data modify block 0 1 0 Text1 set value '[{"text":"规则：","color":"white","italic":false},{"nbt":"Text1","block":"0 1 0","interpret":true}]'
 data modify block 0 0 1 Items[0].tag.display.Name set from block 0 1 0 Text1
@@ -36,3 +36,4 @@ setblock 0 0 0 air destroy
 tag @s add rgb_temp
 execute as @e[nbt={"Item":{"tag":{"rgb_newrule":1b}}},limit=1] run function mini:rgb/game/tp_new_item
 tag @s remove rgb_temp
+playsound minecraft:entity.item.pickup player @s

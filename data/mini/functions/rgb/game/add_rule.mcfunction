@@ -1,4 +1,5 @@
 # as rule armor_stand at @s
+# with @s[tag=rgb_new_rule]
 
 tellraw @a[tag=mini_running] [{"text": ">> ","bold": true,"color": "aqua"}, {"text": "新增了一条规则：","bold": false},{"nbt":"CustomName","entity": "@s","bold": false,"interpret": true}]
 execute as @a[tag=mini_running] at @s facing entity @e[tag=rgb_new_rule,limit=1] eyes positioned ^ ^ ^5 run playsound minecraft:entity.chicken.egg player @s ~ ~ ~

@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"下蹲5秒\",\"color\":\"yellow\"}',type:'shift',value:3s}],events:[{name:'{\"text\":\"R+1\",\"color\":\"red\"}',type:'add_red',value:1s}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"下蹲5秒\",\"color\":\"yellow\"}',type:'shift',value:20s}],events:[{name:'{\"text\":\"R+1\",\"color\":\"red\"}',type:'add_red',value:1s}]}"
                         }
                     ]
                 },
@@ -21,7 +21,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"在水中3秒\",\"color\":\"yellow\"}',type:'in_water',value:3s}],events:[{name:'{\"text\":\"R+1\",\"color\":\"red\"}',type:'add_red',value:1s}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"在水中3秒\",\"color\":\"yellow\"}',type:'in_water',value:12s}],events:[{name:'{\"text\":\"R+1\",\"color\":\"red\"}',type:'add_red',value:1s}]}"
                         }
                     ]
                 },
@@ -32,7 +32,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"离开地面3秒\",\"color\":\"yellow\"}',type:'on_air',value:3s}],events:[{name:'{\"text\":\"R+2\",\"color\":\"red\"}',type:'add_red',value:2s}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"离开地面3秒\",\"color\":\"yellow\"}',type:'on_air',value:12s}],events:[{name:'{\"text\":\"R+2\",\"color\":\"red\"}',type:'add_red',value:2s}]}"
                         }
                     ]
                 },
@@ -43,7 +43,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"晒太阳5秒\",\"color\":\"yellow\"}',type:'sky_light_15',value:5s}],events:[{name:'{\"text\":\"R+1\",\"color\":\"red\"}',type:'add_red',value:1s}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"站在黑曜石上3秒\",\"color\":\"yellow\"}',type:'on_obsidian',value:12s}],events:[{name:'{\"text\":\"R+1\",\"color\":\"red\"}',type:'add_red',value:1s}]}"
                         }
                     ]
                 },
@@ -54,18 +54,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"站在黑曜石上3秒\",\"color\":\"yellow\"}',type:'on_obsidian',value:3s}],events:[{name:'{\"text\":\"R+1\",\"color\":\"red\"}',type:'add_red',value:1s}]}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:armor_stand",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"站在南瓜上\",\"color\":\"yellow\"}',type:'on_pumpkin',value:0s}],events:[{name:'{\"text\":\"R=30\",\"color\":\"red\"}',type:'set_red',value:30s},{name:'{\"text\":\"清除下方的南瓜\",\"color\":\"yellow\"}',type:'remove_block',value:-1s}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"站在南瓜上\",\"color\":\"yellow\"}',type:'on_pumpkin',value:1s}],events:[{name:'{\"text\":\"R=30\",\"color\":\"red\"}',type:'set_red',value:30s},{name:'{\"text\":\"清除下方的南瓜\",\"color\":\"yellow\"}',type:'place_air'}]}"
                         }
                     ]
                 }

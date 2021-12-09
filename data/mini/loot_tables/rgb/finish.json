@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"R≥50\",\"color\":\"red\"}',type:'red_ge',value:50s}],events:[{name:'{\"text\":\"完成游戏！\",\"color\":\"yellow\"}',type:'finish'}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

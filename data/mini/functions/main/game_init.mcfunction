@@ -10,6 +10,7 @@ execute if score $mini_type mem matches 3 run function mini:hotpm/game_init
 execute if score $mini_type mem matches 4 run function mini:colormatch/game_init
 execute if score $mini_type mem matches 5 run function mini:phantom/game_init
 execute if score $mini_type mem matches 201 run function mini:ass/game_init
+execute if score $mini_type mem matches 202 run function mini:rgb/game_init
 execute if score $mini_type mem matches 101 run function mini:diamond/game_init
 execute if score $mini_type mem matches 102 run function mini:trade/game_init
 

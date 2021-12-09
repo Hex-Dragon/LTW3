@@ -6,3 +6,4 @@ execute if score $mini_type mem matches 5 run function mini:phantom/give_effect
 execute if score $mini_type mem matches 101 run function mini:diamond/give_effect
 execute if score $mini_type mem matches 102 run function mini:trade/give_effect
 execute if score $mini_type mem matches 201 run function mini:ass/give_effect
+execute if score $mini_type mem matches 202 run function mini:rgb/give_effect
