@@ -16,6 +16,6 @@ execute as @a run scoreboard players operation @s mini_heart_disp = @s mini_hear
 execute as @a run scoreboard players operation @s mini_heart_disp += @s mini_heart
 
 # 删除奇怪的物品
-kill @e[type=item,nbt={Item:{tag:{game_item:1b}}}]
-kill @e[type=item,nbt={Item:{tag:{lobby_item:1b}}}]
-kill @e[type=item,nbt={Item:{tag:{LockItem:1b}}}]
+kill @e[type=item,nbt={Item:{tag:{game_item:1b}}},tag=!persist]
+kill @e[type=item,nbt={Item:{tag:{lobby_item:1b}}},tag=!persist]
+kill @e[type=item,nbt={Item:{tag:{LockItem:1b}}},tag=!persist]
