@@ -10,7 +10,18 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"R≥10\",\"color\":\"red\"}',type:'red_ge',value:10s}],events:[{name:'{\"text\":\"脚下方块消失\",\"color\":\"yellow\"}',type:'eff_float',value:3s}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"R≥5\",\"color\":\"red\"}',type:'red_ge',value:20s},{name:'{\"text\":\"站在地上\",\"color\":\"yellow\"}',type:'on_ground',value:1s}],events:[{name:'{\"text\":\"脚下方块变为TNT\",\"color\":\"yellow\"}',type:'place_tnt'},{name:'{\"text\":\"R-1\",\"color\":\"red\"}'}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"G<5\",\"color\":\"green\"}',type:'green_l',value:5s},{name:'{\"text\":\"站在地上\",\"color\":\"yellow\"}',type:'on_ground',value:1s}],events:[{name:'{\"text\":\"漂浮5秒\",\"color\":\"yellow\"}',type:'effect',value:'float_lvl1_5s'},{name:'{\"text\":\"G+1\",\"color\":\"green\"}'}]}"
                         }
                     ]
                 }

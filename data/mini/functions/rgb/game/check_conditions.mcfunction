@@ -1,5 +1,6 @@
 # 位置相关
 execute as @e[type=marker,tag=rgb_rule,nbt={data:{enable:1b,conditions:[{type:"on_air"}]}}] run function mini:rgb/game/conditions/on_air
+execute as @e[type=marker,tag=rgb_rule,nbt={data:{enable:1b,conditions:[{type:"on_ground"}]}}] run function mini:rgb/game/conditions/on_ground
 execute as @e[type=marker,tag=rgb_rule,nbt={data:{enable:1b,conditions:[{type:"in_water"}]}}] run function mini:rgb/game/conditions/in_water
 execute as @e[type=marker,tag=rgb_rule,nbt={data:{enable:1b,conditions:[{type:"on_pumpkin"}]}}] run function mini:rgb/game/conditions/on_pumpkin
 

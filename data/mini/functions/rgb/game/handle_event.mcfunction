@@ -9,8 +9,12 @@ execute if data entity @s data.events[{type:"set_red"}] run function mini:rgb/ga
 execute if data entity @s data.events[{type:"set_green"}] run function mini:rgb/game/events/set_green
 execute if data entity @s data.events[{type:"set_blue"}] run function mini:rgb/game/events/set_blue
 
+# 效果事件
+execute if data entity @s data.events[{type:"effect"}] run function mini:rgb/game/events/effect
+
 # 方块事件
 execute if data entity @s data.events[{type:"place_air"}] run function mini:rgb/game/events/place_air
+execute if data entity @s data.events[{type:"place_tnt"}] run function mini:rgb/game/events/place_tnt
 
 # 完成游戏
 execute if data entity @s data.events[{type:"finish"}] run function mini:rgb/game/events/finish
