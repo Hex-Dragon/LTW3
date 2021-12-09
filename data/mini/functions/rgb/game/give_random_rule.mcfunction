@@ -12,7 +12,7 @@ execute if score $random mem matches 3..5 run loot replace block 0 0 1 container
 execute if score $random mem matches 13 run loot replace block 0 0 1 container.0 loot mini:rgb/finish
 
 # 生成文本
-data modify storage ltw:mini rgb set from block 0 0 1 Items[0].tag
+data modify storage ltw:mini rgb.rule set from block 0 0 1 Items[0].tag
 setblock 0 1 0 acacia_wall_sign destroy
 function mini:rgb/game/gen_rule_text_1
 data modify block 0 1 0 Text1 set value '[{"nbt":"Text1","block":"0 1 0","interpret":true},{"text":" -> ","color":"white"}]'
