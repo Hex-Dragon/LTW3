@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"下蹲5秒\",\"color\":\"yellow\"}',type:'shift',value:20s}],events:[{name:'{\"text\":\"R+1\",\"color\":\"red\"}',type:'add_red',value:1s}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"下蹲1秒\",\"color\":\"yellow\"}',type:'shift',value:4s}],events:[{name:'{\"text\":\"R+1\",\"color\":\"red\"}',type:'add_red',value:1s}]}"
                         }
                     ]
                 },
@@ -32,7 +32,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"离开地面3秒\",\"color\":\"yellow\"}',type:'on_air',value:12s}],events:[{name:'{\"text\":\"R+2\",\"color\":\"red\"}',type:'add_red',value:2s}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"离开地面1秒\",\"color\":\"yellow\"}',type:'on_air',value:4s}],events:[{name:'{\"text\":\"R+2\",\"color\":\"red\"}',type:'add_red',value:2s}]}"
                         }
                     ]
                 },

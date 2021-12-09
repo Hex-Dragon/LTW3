@@ -1,1 +1,3 @@
-forceload remove 1000 8000 1032 7032
+forceload remove 1008 8000 1071 8063
+
+kill @e[tag=rgb_rule]

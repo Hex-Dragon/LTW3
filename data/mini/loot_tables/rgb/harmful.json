@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"B<5\",\"color\":\"red\"}',type:'green_l',value:5s}],events:[{name:'{\"text\":\"生成点燃的TNT\",\"color\":\"yellow\"}',type:'summon_tnt'},{name:'{\"text\":\"B+1\",\"color\":\"blue\"}',type:'add_blue',value:1s}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
