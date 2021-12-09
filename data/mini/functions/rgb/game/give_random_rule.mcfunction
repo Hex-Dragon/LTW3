@@ -32,6 +32,9 @@ data modify block 0 0 0 RecordItem.tag.EntityTag.Small set value 1b
 data modify block 0 0 0 RecordItem.tag.EntityTag.ArmorItems set value [{id:"minecraft:stone",Count:1s},{}]
 data modify block 0 0 0 RecordItem.tag.EntityTag.ArmorItems[0].tag.conditions set from block 0 0 0 RecordItem.tag.conditions
 data modify block 0 0 0 RecordItem.tag.EntityTag.ArmorItems[0].tag.events set from block 0 0 0 RecordItem.tag.events
+
+tellraw @a {"nbt":"RecordItem","block": "0 0 0"}
+
 setblock 0 0 0 air destroy
 tag @s add rgb_temp
 execute as @e[nbt={"Item":{"tag":{"rgb_newrule":1b}}},limit=1] run function mini:rgb/game/tp_new_item
