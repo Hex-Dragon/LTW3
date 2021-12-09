@@ -1,4 +1,5 @@
 # as rule marker
+# rgb_B 大于等于 value
 
 execute store result score #temp_scr rgb_sys run scoreboard players get @a[tag=rgb_op,limit=1] rgb_B
 

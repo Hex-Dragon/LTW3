@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"R≥10\",\"color\":\"red\"}',type:'red_ge',value:10s}],events:[{name:'{\"text\":\"脚下方块消失\",\"color\":\"yellow\"}',type:'eff_float',value:3s}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"R<10\",\"color\":\"red\"}',type:'red_l',value:10s}],events:[{name:'{\"text\":\"清除脚下方块\",\"color\":\"yellow\"}',type:'place_air'}]}"
                         }
                     ]
                 }

@@ -1,5 +1,6 @@
 # as rule marker
-# 自动归零
+# 在水中 value/4 秒
+# 离开水自动归零
 
 execute store result score #temp_scr rgb_sys run data get entity @s data.player.conditions.in_water
 scoreboard players set #temp rgb_sys 0

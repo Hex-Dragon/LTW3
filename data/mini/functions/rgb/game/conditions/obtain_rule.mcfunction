@@ -1,4 +1,5 @@
 # as rule marker
+# 获得 value 条规则
 
 execute store result score #temp_scr rgb_sys run data get entity @s data.player.conditions.obtain_rule
 scoreboard players operation #temp_scr rgb_sys += @a[tag=rgb_op,limit=1] rgb_obtain_rule

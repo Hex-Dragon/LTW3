@@ -1,5 +1,6 @@
 # as rule marker
-# 自动归零
+# 站在烟雾中 value/4 秒
+# 离开烟雾自动归零
 
 execute store result score #temp_scr rgb_sys run data get entity @s data.player.conditions.smokey
 scoreboard players set #temp rgb_sys 0

@@ -1,5 +1,6 @@
 # as rule marker
-# 自动归零
+# 离开地面 value/4 秒
+# 落地自动归零
 
 execute store result score #temp_scr rgb_sys run data get entity @s data.player.conditions.on_air
 scoreboard players set #temp rgb_sys 0

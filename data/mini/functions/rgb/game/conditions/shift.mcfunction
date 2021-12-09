@@ -1,5 +1,6 @@
 # as rule marker
-# 自动归零
+# 下蹲 value/4 秒
+# 站起自动归零
 
 execute store result score #temp_scr rgb_sys run data get entity @s data.player.conditions.shift
 scoreboard players set #temp rgb_sys 0

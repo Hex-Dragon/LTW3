@@ -1,5 +1,6 @@
 # as rule marker
-# 自动归零
+# 站在南瓜上 value/4 秒
+# 离开南瓜自动归零
 
 execute store result score #temp_scr rgb_sys run data get entity @s data.player.conditions.on_pumpkin
 scoreboard players set #temp rgb_sys 0
