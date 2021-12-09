@@ -5,11 +5,11 @@ scoreboard objectives remove rgb_rule_id
 scoreboard objectives add rgb_rule_id dummy "RGB小游戏规则ID"
 
 scoreboard objectives remove rgb_R
-scoreboard objectives add rgb_R dummy {"text": "R","color": "red"}
+scoreboard objectives add rgb_R dummy {"text": "R","color": "red","bold": true}
 scoreboard objectives remove rgb_G
-scoreboard objectives add rgb_G dummy {"text": "G","color": "green"}
+scoreboard objectives add rgb_G dummy {"text": "G","color": "green","bold": true}
 scoreboard objectives remove rgb_B
-scoreboard objectives add rgb_B dummy {"text": "B","color": "blue"}
+scoreboard objectives add rgb_B dummy {"text": "B","color": "blue","bold": true}
 
 scoreboard objectives remove rgb_obtain_rule
 scoreboard objectives add rgb_obtain_rule minecraft.mined:minecraft.pumpkin "RGB小游戏获得规则计分板"
