@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"R≥5\",\"color\":\"red\"}',type:'red_ge',value:20s},{name:'{\"text\":\"站在地上\",\"color\":\"yellow\"}',type:'on_ground',value:1s}],events:[{name:'{\"text\":\"脚下方块变为TNT\",\"color\":\"yellow\"}',type:'place_tnt'},{name:'{\"text\":\"R-1\",\"color\":\"red\"}'}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"R≥5\",\"color\":\"red\"}',type:'red_ge',value:20s},{name:'{\"text\":\"站在地上\",\"color\":\"yellow\"}',type:'on_ground',value:1s}],events:[{name:'{\"text\":\"脚下方块变为TNT\",\"color\":\"yellow\"}',type:'place_tnt'},{name:'{\"text\":\"R-1\",\"color\":\"red\"}',type:'add_red',value:-1s}]}"
                         }
                     ]
                 },
