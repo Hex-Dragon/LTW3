@@ -17,5 +17,6 @@ execute if score $mini_type mem matches 3 run function mini:hotpm/player_enter
 execute if score $mini_type mem matches 4 run function mini:colormatch/player_enter
 execute if score $mini_type mem matches 5 run function mini:phantom/player_enter
 execute if score $mini_type mem matches 201 run function mini:ass/player_enter
+execute if score $mini_type mem matches 202 run function mini:ass/player_enter
 execute if score $mini_type mem matches 101 run function mini:diamond/player_enter
 execute if score $mini_type mem matches 102 run function mini:trade/player_enter
