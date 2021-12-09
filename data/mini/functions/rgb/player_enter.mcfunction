@@ -18,7 +18,7 @@ scoreboard players set @s rgb_G 0
 scoreboard players set @s rgb_B 0
 
 # 传送玩家
-spreadplayers 1026 8012 8 16 under 30 false @s[team=playing,tag=!rejoining]
+spreadplayers 1038 8031 8 30 under 20 false @s[team=playing,tag=!rejoining]
 
 # 调整模式
 gamemode spectator @s[team=!debugging]

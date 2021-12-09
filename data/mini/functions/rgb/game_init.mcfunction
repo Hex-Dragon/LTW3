@@ -22,6 +22,7 @@ setblock 1008 8 8000 minecraft:redstone_block destroy
 setblock 1040 8 8000 minecraft:redstone_block destroy
 setblock 1008 8 8032 minecraft:redstone_block destroy
 setblock 1040 8 8032 minecraft:redstone_block destroy
+fill 1008 7 8000 1040 8 8032 air
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 1
@@ -37,3 +38,6 @@ scoreboard players set $ rgb_rule_id 0
 scoreboard players reset @a rgb_R
 scoreboard players reset @a rgb_G
 scoreboard players reset @a rgb_B
+
+# GameRule 调整
+gamerule fireDamage true
