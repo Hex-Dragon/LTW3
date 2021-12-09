@@ -7,8 +7,8 @@ function lib:random
 
 execute if score $random mem matches 0..2 run loot replace block 0 0 1 container.0 loot mini:rgb/red
 execute if score $random mem matches 3..5 run loot replace block 0 0 1 container.0 loot mini:rgb/green
-#execute if score $random mem matches 6..8 run loot replace block 0 0 1 container.0 loot mini:rgb/blue
-#execute if score $random mem matches 9..12 run loot replace block 0 0 1 container.0 loot mini:rgb/event
+execute if score $random mem matches 6..8 run loot replace block 0 0 1 container.0 loot mini:rgb/blue
+execute if score $random mem matches 9..12 run loot replace block 0 0 1 container.0 loot mini:rgb/effect
 execute if score $random mem matches 13 run loot replace block 0 0 1 container.0 loot mini:rgb/finish
 
 # 生成文本

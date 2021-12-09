@@ -1,3 +1,20 @@
 {
-    
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"下蹲20秒\",\"color\":\"yellow\"}',type:'shift',value:80s}],events:[{name:'{\"text\":\"B+1\",\"color\":\"blue\"}',type:'add_blue',value:1s}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
