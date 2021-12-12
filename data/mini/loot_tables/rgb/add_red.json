@@ -65,7 +65,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'[{\"text\":\"失去\",\"color\":\"yellow\"},{\"text\":\"❤\",\"color\":\"red\"},{\"text\":\"x1\",\"color\":\"yellow\"}]',type:'get_damage',value:2s}],events:[{name:'{\"text\":\"R+3\",\"color\":\"red\"}',type:'add_red',value:3s}]}"
+                            "tag": "{conditions:[{name:'[{\"text\":\"失去\",\"color\":\"yellow\"},{\"text\":\"❤\",\"color\":\"red\"},{\"text\":\"≥1\",\"color\":\"yellow\"}]',type:'take_damage',value:2s}],events:[{name:'{\"text\":\"R+3\",\"color\":\"red\"}',type:'add_red',value:3s}]}"
                         }
                     ]
                 },
@@ -76,7 +76,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'[{\"text\":\"失去\",\"color\":\"yellow\"},{\"text\":\"❤\",\"color\":\"red\"},{\"text\":\"x3\",\"color\":\"yellow\"}]',type:'get_damage',value:6s}],events:[{name:'{\"text\":\"R=15\",\"color\":\"red\"}',type:'set_red',value:15s}]}"
+                            "tag": "{conditions:[{name:'[{\"text\":\"失去\",\"color\":\"yellow\"},{\"text\":\"❤\",\"color\":\"red\"},{\"text\":\"≥3\",\"color\":\"yellow\"}]',type:'take_damage',value:6s}],events:[{name:'{\"text\":\"R=15\",\"color\":\"red\"}',type:'set_red',value:15s}]}"
                         }
                     ]
                 }

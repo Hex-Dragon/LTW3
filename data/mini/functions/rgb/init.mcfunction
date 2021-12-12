@@ -19,3 +19,9 @@ scoreboard objectives remove rgb_destroy_rule
 scoreboard objectives add rgb_destroy_rule minecraft.killed:armor_stand "RGB小游戏销毁规则计分板"
 scoreboard objectives remove rgb_shift
 scoreboard objectives add rgb_shift custom:sneak_time "RGB小游戏潜行时间"
+scoreboard objectives remove rgb_dig_ice
+scoreboard objectives add rgb_dig_ice minecraft.mined:minecraft.ice "RGB小游戏挖掘冰块"
+scoreboard objectives remove rgb_take_damage
+scoreboard objectives add rgb_take_damage dummy "RGB小游戏受到伤害，为负表示回血"
+scoreboard objectives remove rgb_health
+scoreboard objectives add rgb_health dummy "RGB小游戏生命值"

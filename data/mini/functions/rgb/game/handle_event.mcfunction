@@ -18,6 +18,13 @@ execute if data entity @s data.events[{type:"place_tnt"}] run function mini:rgb/
 execute if data entity @s data.events[{type:"place_ice_cage"}] run function mini:rgb/game/events/place_ice_cage
 execute if data entity @s data.events[{type:"place_powder_snow"}] run function mini:rgb/game/events/place_powder_snow
 
+# 实体事件
+execute if data entity @s data.events[{type:"summon_tnt"}] run function mini:rgb/game/events/summon_tnt
+execute if data entity @s data.events[{type:"summon_creeper"}] run function mini:rgb/game/events/summon_creeper
+
+# 杂项事件
+execute if data entity @s data.events[{type:"tp"}] run function mini:rgb/game/events/tp
+
 # 完成游戏
 execute if data entity @s data.events[{type:"finish"}] run function mini:rgb/game/events/finish
 
