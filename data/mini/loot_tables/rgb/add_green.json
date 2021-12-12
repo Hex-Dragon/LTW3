@@ -6,11 +6,44 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:armor_stand",
-                    "weight": 1,
+                    "weight": 15,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"下蹲1秒\",\"color\":\"yellow\"}',type:'shift',value:4s}],events:[{name:'{\"text\":\"R+1\",\"color\":\"red\"}',type:'add_red',value:1s}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"站在草方块上3秒\",\"color\":\"yellow\"}',type:'on_grass_block',value:12s}],events:[{name:'{\"text\":\"G+1\",\"color\":\"green\"}',type:'add_green',value:1s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"站在草方块上4秒\",\"color\":\"yellow\"}',type:'on_grass_block',value:16s}],events:[{name:'{\"text\":\"G+1\",\"color\":\"green\"}',type:'add_green',value:1s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"站在草方块上5秒\",\"color\":\"yellow\"}',type:'on_grass_block',value:20s}],events:[{name:'{\"text\":\"G+1\",\"color\":\"green\"}',type:'add_green',value:1s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"放置1条规则\",\"color\":\"yellow\"}',type:'place_rule',value:1s}],events:[{name:'{\"text\":\"G+3\",\"color\":\"green\"}',type:'add_green',value:3s}]}"
                         }
                     ]
                 },
@@ -21,40 +54,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"在水中3秒\",\"color\":\"yellow\"}',type:'in_water',value:12s}],events:[{name:'{\"text\":\"R+1\",\"color\":\"red\"}',type:'add_red',value:1s}]}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:armor_stand",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"离开地面1秒\",\"color\":\"yellow\"}',type:'on_air',value:4s}],events:[{name:'{\"text\":\"R+2\",\"color\":\"red\"}',type:'add_red',value:2s}]}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:armor_stand",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"站在黑曜石上3秒\",\"color\":\"yellow\"}',type:'on_obsidian',value:12s}],events:[{name:'{\"text\":\"R+1\",\"color\":\"red\"}',type:'add_red',value:1s}]}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:armor_stand",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"站在南瓜上\",\"color\":\"yellow\"}',type:'on_pumpkin',value:1s}],events:[{name:'{\"text\":\"R=30\",\"color\":\"red\"}',type:'set_red',value:30s},{name:'{\"text\":\"清除下方的南瓜\",\"color\":\"yellow\"}',type:'place_air'}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"放置3条规则\",\"color\":\"yellow\"}',type:'place_rule',value:3s}],events:[{name:'{\"text\":\"G=15\",\"color\":\"green\"}',type:'set_green',value:15s}]}"
                         }
                     ]
                 }

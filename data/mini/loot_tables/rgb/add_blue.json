@@ -1,0 +1,174 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"站在水中3秒\",\"color\":\"yellow\"}',type:'in_water',value:12s}],events:[{name:'{\"text\":\"B+1\",\"color\":\"blue\"}',type:'add_blue',value:1s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"站在水中3秒\",\"color\":\"yellow\"}',type:'in_water',value:12s}],events:[{name:'{\"text\":\"B+2\",\"color\":\"blue\"}',type:'add_blue',value:2s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"站在水中4秒\",\"color\":\"yellow\"}',type:'in_water',value:16s}],events:[{name:'{\"text\":\"B+2\",\"color\":\"blue\"}',type:'add_blue',value:2s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"站在水中5秒\",\"color\":\"yellow\"}',type:'in_water',value:20s}],events:[{name:'{\"text\":\"B+2\",\"color\":\"blue\"}',type:'add_blue',value:2s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"站在水中3秒\",\"color\":\"yellow\"}',type:'in_water',value:12s}],events:[{name:'{\"text\":\"B+3\",\"color\":\"blue\"}',type:'add_blue',value:3s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"站在水中10秒\",\"color\":\"yellow\"}',type:'in_water',value:40s},{name:'{\"text\":\"保持下蹲\",\"color\":\"yellow\"}',type:'shift',value:40s}],events:[{name:'{\"text\":\"B=10\",\"color\":\"blue\"}',type:'set_blue',value:10s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"站在冰上2秒\",\"color\":\"yellow\"}',type:'on_ice',value:8s}],events:[{name:'{\"text\":\"B+1\",\"color\":\"blue\"}',type:'add_blue',value:1s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"站在冰上3秒\",\"color\":\"yellow\"}',type:'on_ice',value:12s}],events:[{name:'{\"text\":\"B+2\",\"color\":\"blue\"}',type:'add_blue',value:2s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"站在冰上3秒\",\"color\":\"yellow\"}',type:'on_ice',value:12s}],events:[{name:'{\"text\":\"B+3\",\"color\":\"blue\"}',type:'add_blue',value:3s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"站在冰上5秒\",\"color\":\"yellow\"}',type:'on_ice',value:20s}],events:[{name:'{\"text\":\"B+3\",\"color\":\"blue\"}',type:'add_blue',value:5s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"挖掘1个冰块\",\"color\":\"yellow\"}',type:'dig_ice',value:1s}],events:[{name:'{\"text\":\"B+2\",\"color\":\"blue\"}',type:'add_blue',value:2s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"挖掘1个冰块\",\"color\":\"yellow\"}',type:'dig_ice',value:1s}],events:[{name:'{\"text\":\"B+3\",\"color\":\"blue\"}',type:'add_blue',value:3s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"挖掘2个冰块\",\"color\":\"yellow\"}',type:'dig_ice',value:2s}],events:[{name:'{\"text\":\"B+4\",\"color\":\"blue\"}',type:'add_blue',value:4s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"挖掘3个冰块\",\"color\":\"yellow\"}',type:'dig_ice',value:3s}],events:[{name:'{\"text\":\"B+4\",\"color\":\"blue\"}',type:'add_blue',value:4s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"挖掘3个冰块\",\"color\":\"yellow\"}',type:'dig_ice',value:3s}],events:[{name:'{\"text\":\"B+5\",\"color\":\"blue\"}',type:'add_blue',value:5s}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

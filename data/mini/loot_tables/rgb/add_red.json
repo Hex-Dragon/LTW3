@@ -1,0 +1,86 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"着火1秒\",\"color\":\"yellow\"}',type:'on_fire',value:4s}],events:[{name:'{\"text\":\"R+3\",\"color\":\"red\"}',type:'add_red',value:3s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"着火2秒\",\"color\":\"yellow\"}',type:'on_fire',value:4s}],events:[{name:'{\"text\":\"R+3\",\"color\":\"red\"}',type:'add_red',value:3s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"着火2秒\",\"color\":\"yellow\"}',type:'on_fire',value:4s}],events:[{name:'{\"text\":\"R+4\",\"color\":\"red\"}',type:'add_red',value:4s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"站在火中1秒\",\"color\":\"yellow\"}',type:'in_fire',value:4s}],events:[{name:'{\"text\":\"R+3\",\"color\":\"red\"}',type:'add_red',value:3s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"站在火中2秒\",\"color\":\"yellow\"}',type:'in_fire',value:8s}],events:[{name:'{\"text\":\"R+5\",\"color\":\"red\"}',type:'add_red',value:5s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'[{\"text\":\"失去\",\"color\":\"yellow\"},{\"text\":\"❤\",\"color\":\"red\"},{\"text\":\"x1\",\"color\":\"yellow\"}]',type:'get_damage',value:2s}],events:[{name:'{\"text\":\"R+3\",\"color\":\"red\"}',type:'add_red',value:3s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'[{\"text\":\"失去\",\"color\":\"yellow\"},{\"text\":\"❤\",\"color\":\"red\"},{\"text\":\"x3\",\"color\":\"yellow\"}]',type:'get_damage',value:6s}],events:[{name:'{\"text\":\"R=15\",\"color\":\"red\"}',type:'set_red',value:15s}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

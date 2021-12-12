@@ -6,11 +6,44 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:armor_stand",
-                    "weight": 1,
+                    "weight": 15,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"R≥50\",\"color\":\"red\"}',type:'red_ge',value:50s}],events:[{name:'{\"text\":\"完成游戏！\",\"color\":\"yellow\"}',type:'finish'}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"R≥10\",\"color\":\"red\"}',type:'red_ge',value:10s},{name:'{\"text\":\"G≥10\",\"color\":\"green\"}',type:'green_ge',value:10s},{name:'{\"text\":\"B≥10\",\"color\":\"blue\"}',type:'blue_ge',value:10s}],events:[{name:'{\"text\":\"完成游戏！\",\"color\":\"yellow\"}',type:'finish'}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"R≥20\",\"color\":\"red\"}',type:'red_ge',value:20s}],events:[{name:'{\"text\":\"完成游戏！\",\"color\":\"yellow\"}',type:'finish'}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"G≥20\",\"color\":\"green\"}',type:'green_ge',value:20s}],events:[{name:'{\"text\":\"完成游戏！\",\"color\":\"yellow\"}',type:'finish'}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{conditions:[{name:'{\"text\":\"B≥20\",\"color\":\"blue\"}',type:'blue_ge',value:20s}],events:[{name:'{\"text\":\"完成游戏！\",\"color\":\"yellow\"}',type:'finish'}]}"
                         }
                     ]
                 }
