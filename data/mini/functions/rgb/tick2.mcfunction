@@ -8,5 +8,5 @@ execute as @e[type=armor_stand,tag=rgb_new_rule] at @s run function mini:rgb/gam
 execute as @e[type=marker,tag=rgb_rule] run function mini:rgb/game/check_rule_exists
 
 # TODO 想办法关掉盔甲架掉落
-clear @a[tag=mini_running] armor_stand
-clear @a[tag=mini_running] stone
+kill @e[type=item,nbt={Item:{id:"minecraft:armor_stand"}}]
+kill @e[type=item,nbt={Item:{id:"minecraft:stone"}}]
