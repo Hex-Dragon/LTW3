@@ -39,5 +39,7 @@ scoreboard players reset @a rgb_R
 scoreboard players reset @a rgb_G
 scoreboard players reset @a rgb_B
 
+kill @e[tag=rgb_rule]
+
 # GameRule 调整
 gamerule fireDamage true
