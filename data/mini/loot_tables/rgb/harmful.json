@@ -76,7 +76,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"G≥10\",\"color\":\"green\"}',type:'green_ge',value:10s}],events:[{name:'{\"text\":\"上升5米\",\"color\":\"yellow\"}',type:'tp',direction:'up',value:2s},{name:'{\"text\":\"G-2\",\"color\":\"blue\"}',type:'add_green',value:-2s}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"G≥10\",\"color\":\"green\"}',type:'green_ge',value:10s}],events:[{name:'{\"text\":\"上升5米\",\"color\":\"yellow\"}',type:'tp',direction:'up',value:2s},{name:'{\"text\":\"G-2\",\"color\":\"green\"}',type:'add_green',value:-2s}]}"
                         }
                     ]
                 },
@@ -87,7 +87,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"G≥10\",\"color\":\"green\"}',type:'green_ge',value:10s}],events:[{name:'{\"text\":\"生成苦力怕\",\"color\":\"yellow\"}',type:'summon_creeper'},{name:'{\"text\":\"G-2\",\"color\":\"blue\"}',type:'add_green',value:-2s}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"G≥10\",\"color\":\"green\"}',type:'green_ge',value:10s}],events:[{name:'{\"text\":\"生成苦力怕\",\"color\":\"yellow\"}',type:'summon_creeper'},{name:'{\"text\":\"G-2\",\"color\":\"green\"}',type:'add_green',value:-2s}]}"
                         }
                     ]
                 }

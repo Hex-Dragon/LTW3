@@ -15,7 +15,7 @@ data modify block 0 1 0 Text1 set value '[{"nbt":"Text1","block":"0 1 0","interp
 function mini:rgb/game/gen_rule_text_2
 
 # 生成实体
-summon armor_stand ~ ~ ~ {Tags:["rgb_new_rule"],Small:1b,ArmorItems:[{id:"minecraft:stone",Count:1b},{}]}
+summon armor_stand ~ ~ ~ {Tags:["rgb_new_rule"],Small:1b,ArmorItems:[{id:"minecraft:stone",Count:1b},{}],CustomNameVisible:1b}
 data modify entity @e[tag=rgb_new_rule,limit=1] CustomName set from block 0 1 0 Text1
 data modify entity @e[tag=rgb_new_rule,limit=1] ArmorItems[0].tag.conditions set from block 0 0 1 Items[0].tag.conditions
 data modify entity @e[tag=rgb_new_rule,limit=1] ArmorItems[0].tag.events set from block 0 0 1 Items[0].tag.events

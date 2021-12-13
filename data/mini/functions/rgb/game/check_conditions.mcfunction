@@ -16,6 +16,7 @@ execute as @e[type=marker,tag=rgb_rule,nbt={data:{enable:1b,conditions:[{type:"p
 execute as @e[type=marker,tag=rgb_rule,nbt={data:{enable:1b,conditions:[{type:"destroy_rule"}]}}] run function mini:rgb/game/conditions/destroy_rule
 execute as @e[type=marker,tag=rgb_rule,nbt={data:{enable:1b,conditions:[{type:"dig_ice"}]}}] run function mini:rgb/game/conditions/dig_ice
 execute as @e[type=marker,tag=rgb_rule,nbt={data:{enable:1b,conditions:[{type:"take_damage"}]}}] run function mini:rgb/game/conditions/take_damage
+execute as @e[type=marker,tag=rgb_rule,nbt={data:{enable:1b,conditions:[{type:"on_fire"}]}}] run function mini:rgb/game/conditions/on_fire
 
 # 分数相关
 execute as @e[type=marker,tag=rgb_rule,nbt={data:{enable:1b,conditions:[{type:"red_ge"}]}}] run function mini:rgb/game/conditions/red_ge
