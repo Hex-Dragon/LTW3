@@ -24,4 +24,4 @@ scoreboard objectives add rgb_dig_ice minecraft.mined:minecraft.ice "RGB小游�
 scoreboard objectives remove rgb_take_damage
 scoreboard objectives add rgb_take_damage dummy "RGB小游戏受到伤害，为负表示回血"
 scoreboard objectives remove rgb_health
-scoreboard objectives add rgb_health dummy "RGB小游戏生命值"
+scoreboard objectives add rgb_health health "RGB小游戏生命值"
