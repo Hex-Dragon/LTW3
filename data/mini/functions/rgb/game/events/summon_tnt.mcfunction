@@ -1,4 +1,4 @@
 # as rule marker
 # with rgb_op
 
-execute at @a[tag=rgb_op] run summon tnt ~ ~ ~ {Fuse:20}
+execute at @a[tag=rgb_op] run summon tnt ~ ~ ~ {Fuse:30}
