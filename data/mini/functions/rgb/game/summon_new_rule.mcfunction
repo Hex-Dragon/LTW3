@@ -19,5 +19,5 @@ data modify entity @e[tag=rgb_new_rule,limit=1] CustomName set from block 0 1 0 
 data modify entity @e[tag=rgb_new_rule,limit=1] ArmorItems[0].tag.conditions set from block 0 0 1 Items[0].tag.conditions
 data modify entity @e[tag=rgb_new_rule,limit=1] ArmorItems[0].tag.events set from block 0 0 1 Items[0].tag.events
 effect give @e[tag=rgb_new_rule] slow_falling 10
-spreadplayers ~ ~ 1 1.5 false @s
+spreadplayers ~ ~ 1 1.5 false @e[tag=rgb_new_rule]
 execute as @e[tag=rgb_new_rule] run function mini:rgb/game/add_rule

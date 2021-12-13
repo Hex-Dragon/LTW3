@@ -1,6 +1,6 @@
 scoreboard players remove $init_rule_num rgb_sys 1
-execute store result score $rule_type rgb_sys run data get storage ltw3:mini rgb.init_array[0]
-data remove storage ltw3:mini rgb.init_array[0]
+execute store result score $rule_type rgb_sys run data get storage ltw:mini rgb.init_array[0]
+data remove storage ltw:mini rgb.init_array[0]
 
 execute positioned 1038 15 8031 run function mini:rgb/game/summon_new_rule
 
