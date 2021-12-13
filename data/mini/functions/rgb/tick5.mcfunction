@@ -3,6 +3,7 @@ execute as @a[tag=mini_running] if score @s rgb_obtain_rule matches 1.. at @s ru
 
 # 准备参数
 execute as @a[tag=mini_running] run scoreboard players operation @s rgb_take_damage -= @s rgb_health
+tellraw @a {"score":{"name": "@s","objective": "rgb_take_damage"}}
 
 # 对每一个玩家进行条件检定和事件执行
 execute as @a[tag=mini_running] at @s run function mini:rgb/game/player_tick
