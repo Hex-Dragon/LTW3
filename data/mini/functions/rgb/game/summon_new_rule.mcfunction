@@ -1,10 +1,10 @@
 # at new position
-# input: $rgb_rule_type rgb_sys
+# input: $rule_type rgb_sys
 
-execute if score $rgb_rule_type rgb_sys matches 1 run loot replace block 0 0 1 container.0 loot mini:rgb/add_red
-execute if score $rgb_rule_type rgb_sys matches 2 run loot replace block 0 0 1 container.0 loot mini:rgb/add_green
-execute if score $rgb_rule_type rgb_sys matches 3 run loot replace block 0 0 1 container.0 loot mini:rgb/add_blue
-execute if score $rgb_rule_type rgb_sys matches 4 run loot replace block 0 0 1 container.0 loot mini:rgb/finish
+execute if score $rule_type rgb_sys matches 1 run loot replace block 0 0 1 container.0 loot mini:rgb/add_red
+execute if score $rule_type rgb_sys matches 2 run loot replace block 0 0 1 container.0 loot mini:rgb/add_green
+execute if score $rule_type rgb_sys matches 3 run loot replace block 0 0 1 container.0 loot mini:rgb/add_blue
+execute if score $rule_type rgb_sys matches 4 run loot replace block 0 0 1 container.0 loot mini:rgb/finish
 
 # 生成文本
 data modify storage ltw:mini rgb.rule set from block 0 0 1 Items[0].tag
