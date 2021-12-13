@@ -14,10 +14,10 @@ setblock 1008 8 8000 minecraft:redstone_block destroy
 setblock 1040 8 8000 minecraft:redstone_block destroy
 setblock 1008 8 8032 minecraft:redstone_block destroy
 setblock 1040 8 8032 minecraft:redstone_block destroy
-setblock 1008 7 8000 minecraft:structure_block[mode=load]{author:"?",ignoreEntities:1b,integrity:0.001f,metadata:"",mirror:"NONE",mode:"LOAD",name:"mini:rgb_000_p",posX:0,posY:0,posZ:0,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:0b,sizeX:32,sizeY:32,sizeZ:32} destroy
-setblock 1040 7 8000 minecraft:structure_block[mode=load]{author:"?",ignoreEntities:1b,integrity:0.001f,metadata:"",mirror:"NONE",mode:"LOAD",name:"mini:rgb_100_p",posX:0,posY:0,posZ:0,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:0b,sizeX:32,sizeY:32,sizeZ:32} destroy
-setblock 1008 7 8032 minecraft:structure_block[mode=load]{author:"?",ignoreEntities:1b,integrity:0.001f,metadata:"",mirror:"NONE",mode:"LOAD",name:"mini:rgb_001_p",posX:0,posY:0,posZ:0,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:0b,sizeX:32,sizeY:32,sizeZ:32} destroy
-setblock 1040 7 8032 minecraft:structure_block[mode=load]{author:"?",ignoreEntities:1b,integrity:0.001f,metadata:"",mirror:"NONE",mode:"LOAD",name:"mini:rgb_101_p",posX:0,posY:0,posZ:0,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:0b,sizeX:32,sizeY:32,sizeZ:32} destroy
+setblock 1008 7 8000 minecraft:structure_block[mode=load]{author:"?",ignoreEntities:1b,integrity:0.005f,metadata:"",mirror:"NONE",mode:"LOAD",name:"mini:rgb_000_p",posX:0,posY:0,posZ:0,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:0b,sizeX:32,sizeY:32,sizeZ:32} destroy
+setblock 1040 7 8000 minecraft:structure_block[mode=load]{author:"?",ignoreEntities:1b,integrity:0.005f,metadata:"",mirror:"NONE",mode:"LOAD",name:"mini:rgb_100_p",posX:0,posY:0,posZ:0,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:0b,sizeX:32,sizeY:32,sizeZ:32} destroy
+setblock 1008 7 8032 minecraft:structure_block[mode=load]{author:"?",ignoreEntities:1b,integrity:0.005f,metadata:"",mirror:"NONE",mode:"LOAD",name:"mini:rgb_001_p",posX:0,posY:0,posZ:0,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:0b,sizeX:32,sizeY:32,sizeZ:32} destroy
+setblock 1040 7 8032 minecraft:structure_block[mode=load]{author:"?",ignoreEntities:1b,integrity:0.005f,metadata:"",mirror:"NONE",mode:"LOAD",name:"mini:rgb_101_p",posX:0,posY:0,posZ:0,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:0b,sizeX:32,sizeY:32,sizeZ:32} destroy
 setblock 1008 8 8000 minecraft:redstone_block destroy
 setblock 1040 8 8000 minecraft:redstone_block destroy
 setblock 1008 8 8032 minecraft:redstone_block destroy
