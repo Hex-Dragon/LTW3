@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"R≥10\",\"color\":\"red\"}',type:'red_ge',value:10s}],events:[{name:'{\"text\":\"生成点燃的TNT\",\"color\":\"yellow\"}',type:'summon_tnt'},{name:'{\"text\":\"R-1\",\"color\":\"red\"}',type:'add_red',value:-1s}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"R≥10\",\"color\":\"red\"}',type:'red_ge',value:10s},{name:'{\"text\":\"站在地上\",\"color\":\"yellow\"}',type:'on_ground',value:1s}],events:[{name:'{\"text\":\"生成点燃的TNT\",\"color\":\"yellow\"}',type:'summon_tnt'},{name:'{\"text\":\"R-1\",\"color\":\"red\"}',type:'add_red',value:-1s}]}"
                         }
                     ]
                 },
@@ -43,7 +43,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"B≥10\",\"color\":\"blue\"}',type:'blue_ge',value:10s},{name:'{\"text\":\"在空气中\",\"color\":\"yellow\"}',type:'in_air',value:1s}],events:[{name:'{\"text\":\"生成冰牢\",\"color\":\"yellow\"}',type:'place_ice_cage'},{name:'{\"text\":\"B-1\",\"color\":\"blue\"}',type:'add_blue',value:-1s}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"B≥10\",\"color\":\"blue\"}',type:'blue_ge',value:10s},{name:'{\"text\":\"在空气中\",\"color\":\"yellow\"}',type:'in_air',value:1s}],events:[{name:'{\"text\":\"生成冰牢\",\"color\":\"yellow\"}',type:'place_ice_cage'},{name:'{\"text\":\"B-5\",\"color\":\"blue\"}',type:'add_blue',value:-5s}]}"
                         }
                     ]
                 },
@@ -65,7 +65,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"G≥10\",\"color\":\"blue\"}',type:'green_ge',value:10s},{name:'{\"text\":\"站在地上\",\"color\":\"yellow\"}',type:'on_ground',value:1s}],events:[{name:'{\"text\":\"原地起飞\",\"color\":\"yellow\"}',type:'effect',value:'levitation_1_10'},{name:'{\"text\":\"G-2\",\"color\":\"blue\"}',type:'add_green',value:-2s}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"G≥10\",\"color\":\"green\"}',type:'green_ge',value:10s},{name:'{\"text\":\"站在地上\",\"color\":\"yellow\"}',type:'on_ground',value:1s}],events:[{name:'{\"text\":\"原地起飞\",\"color\":\"yellow\"}',type:'effect',value:'levitation_1_10'},{name:'{\"text\":\"G-2\",\"color\":\"green\"}',type:'add_green',value:-2s}]}"
                         }
                     ]
                 },

@@ -6,3 +6,7 @@ execute as @e[type=armor_stand,tag=rgb_new_rule] at @s run function mini:rgb/gam
 
 # 销毁规则
 execute as @e[type=marker,tag=rgb_rule] run function mini:rgb/game/check_rule_exists
+
+# TODO 想办法关掉盔甲架掉落
+clear @a[tag=mini_running] armor_stand
+clear @a[tag=mini_running] stone

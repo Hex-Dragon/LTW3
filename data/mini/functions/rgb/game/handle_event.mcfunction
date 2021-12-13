@@ -15,6 +15,7 @@ execute if data entity @s data.events[{type:"effect"}] run function mini:rgb/gam
 # 方块事件
 execute if data entity @s data.events[{type:"place_air"}] run function mini:rgb/game/events/place_air
 execute if data entity @s data.events[{type:"place_tnt"}] run function mini:rgb/game/events/place_tnt
+execute if data entity @s data.events[{type:"place_fire"}] run function mini:rgb/game/events/place_fire
 execute if data entity @s data.events[{type:"place_ice_cage"}] run function mini:rgb/game/events/place_ice_cage
 execute if data entity @s data.events[{type:"place_powder_snow"}] run function mini:rgb/game/events/place_powder_snow
 

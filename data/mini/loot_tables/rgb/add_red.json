@@ -21,7 +21,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"着火2秒\",\"color\":\"yellow\"}',type:'on_fire',value:4s}],events:[{name:'{\"text\":\"R+3\",\"color\":\"red\"}',type:'add_red',value:3s}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"着火2秒\",\"color\":\"yellow\"}',type:'on_fire',value:8s}],events:[{name:'{\"text\":\"R+3\",\"color\":\"red\"}',type:'add_red',value:3s}]}"
                         }
                     ]
                 },
@@ -32,7 +32,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"着火2秒\",\"color\":\"yellow\"}',type:'on_fire',value:4s}],events:[{name:'{\"text\":\"R+4\",\"color\":\"red\"}',type:'add_red',value:4s}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"着火2秒\",\"color\":\"yellow\"}',type:'on_fire',value:8s}],events:[{name:'{\"text\":\"R+4\",\"color\":\"red\"}',type:'add_red',value:4s}]}"
                         }
                     ]
                 },
@@ -43,7 +43,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"站在火中1秒\",\"color\":\"yellow\"}',type:'in_fire',value:4s}],events:[{name:'{\"text\":\"R+3\",\"color\":\"red\"}',type:'add_red',value:3s}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"站在火中1秒\",\"color\":\"yellow\"}',type:'in_fire',value:4s}],events:[{name:'{\"text\":\"R+4\",\"color\":\"red\"}',type:'add_red',value:5s}]}"
                         }
                     ]
                 },
@@ -54,7 +54,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{conditions:[{name:'{\"text\":\"站在火中2秒\",\"color\":\"yellow\"}',type:'in_fire',value:8s}],events:[{name:'{\"text\":\"R+5\",\"color\":\"red\"}',type:'add_red',value:5s}]}"
+                            "tag": "{conditions:[{name:'{\"text\":\"站在火中2秒\",\"color\":\"yellow\"}',type:'in_fire',value:8s}],events:[{name:'{\"text\":\"R=10\",\"color\":\"red\"}',type:'set_red',value:10s}]}"
                         }
                     ]
                 },
