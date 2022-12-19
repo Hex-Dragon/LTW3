@@ -1,0 +1,64 @@
+{"pools": [{"rolls": 1,"entries": [
+
+{
+    "type": "minecraft:item",
+    "weight": 14,
+    "name": "minecraft:nether_star",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 6
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"6 积分\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":6}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 10,
+    "name": "minecraft:nether_star",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 7
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"7 积分\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":7}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:gold_nugget",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 12
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"12 金粒\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":300,\"bonus_gold\":12}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:gold_nugget",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 14
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"14 金粒\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":300,\"bonus_gold\":14}"
+        }
+    ]
+}
+
+]}]}

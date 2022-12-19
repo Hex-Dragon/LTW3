@@ -3,7 +3,7 @@
     {
         "type": "minecraft:loot_table",
         "weight": 40,
-        "name": "item:gameparty/item/purple"
+        "name": "item:item/purple"
     },
     {
         "type": "minecraft:item",

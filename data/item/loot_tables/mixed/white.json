@@ -3,12 +3,12 @@
     {
         "type": "minecraft:loot_table",
         "weight": 20,
-        "name": "item:gameparty/score/white"
+        "name": "item:score/white"
     },
     {
         "type": "minecraft:loot_table",
         "weight": 80,
-        "name": "item:gameparty/item/white"
+        "name": "item:item/white"
     }
 
 ]}]}

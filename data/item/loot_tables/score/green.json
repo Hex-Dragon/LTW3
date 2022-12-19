@@ -1,0 +1,156 @@
+{"pools": [{"rolls": 1,"entries": [
+
+{
+    "type": "minecraft:item",
+    "weight": 10,
+    "name": "minecraft:nether_star",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 2
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"2 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":2}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 14,
+    "name": "minecraft:nether_star",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 3
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"3 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":3}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:gold_nugget",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 4
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"4 金粒\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":300,\"bonus_gold\":4}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:gold_nugget",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 6
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"6 金粒\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":300,\"bonus_gold\":6}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 8,
+    "name": "minecraft:ender_eye",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 2
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"从最高分玩家处偷取 2 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":200,\"bonus_stole_score\":2}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 2,
+    "name": "minecraft:target",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机 1~6 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":1}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 2,
+    "name": "minecraft:target",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机 1~6 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":2}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 2,
+    "name": "minecraft:target",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机 1~6 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":3}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 2,
+    "name": "minecraft:target",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机 1~6 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":4}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 2,
+    "name": "minecraft:target",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机 1~6 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":5}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 2,
+    "name": "minecraft:target",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机 1~6 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":6}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 6,
+    "name": "minecraft:magenta_glazed_terracotta",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"积分随机翻倍或减半\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":100}"
+        }
+    ]
+}
+
+]}]}

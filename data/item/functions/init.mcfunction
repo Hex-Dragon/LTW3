@@ -4,3 +4,5 @@ scoreboard objectives add UUID dummy "UUID"
 
 scoreboard objectives remove item_slot
 scoreboard objectives add item_slot dummy "item_slot"
+
+function item:bonus_item/new_array
