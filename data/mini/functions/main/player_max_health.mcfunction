@@ -14,3 +14,11 @@ execute if score @s mini_heart matches 4 run attribute @s generic.max_health bas
 execute if score @s mini_heart matches 3 run attribute @s generic.max_health base set 6
 execute if score @s mini_heart matches 2 run attribute @s generic.max_health base set 4
 execute if score @s mini_heart matches 1 run attribute @s generic.max_health base set 2
+
+# 如果玩家血量比最大血量高，则给个瞬间治疗
+scoreboard players operation @s temp = @s mini_heart
+scoreboard players operation @s temp += @s mini_heart
+scoreboard players operation @s temp2 = @s health_disp
+scoreboard players operation @s[scores={health=1..}] temp2 = @s health
+scoreboard players set @s[scores={temp2=0}] temp2 20
+execute if score @s temp2 > @s temp run effect give @s instant_health 1 0 true

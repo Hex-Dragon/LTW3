@@ -33,7 +33,6 @@ execute if score @s buy_trigger matches 106 if score $state mem matches 0 run fu
 execute if score @s buy_trigger matches 107 if score $state mem matches 0 run function item:shop/buy_particle5
 execute if score @s buy_trigger matches 108 if score $state mem matches 0 run function item:shop/buy_particle6
 execute if score @s buy_trigger matches 999 if score $state mem matches 0 run function item:shop/buy_dice
-execute if score @s buy_trigger matches 85304 if score $state mem matches 0 run function item:shop/puzzle
 execute if score @s buy_trigger matches 114514 if score $state mem matches 0 run function item:shop/buy_easter_egg
 scoreboard players set @s buy_trigger 0
 execute if score $state mem matches 0 run scoreboard players enable @s buy_trigger

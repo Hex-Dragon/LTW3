@@ -94,7 +94,6 @@ scoreboard objectives add particle_type dummy "粒子种类"
 scoreboard objectives add shop_dice dummy "骰子"
 scoreboard objectives add stat_total dummy "总场次"
 scoreboard objectives add stat_win dummy "总胜场"
-scoreboard objectives add puzzle dummy "解密编号"
 
 # 常量与变量初始化
 scoreboard players set #mini_total mem 5

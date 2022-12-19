@@ -4,14 +4,14 @@ scoreboard players set $random_min mem 1
 scoreboard players set $random_max mem 20
 function lib:random
 
-# 20 大成功：获得 2 金块
+# 20 大成功：获得 1 金块
 execute if score $random mem matches 20 run function ltw:state/0/roll_dice/super_win
 
-# 19-16 / 20% 成功：返还 1 金锭
-execute if score $random mem matches 16..19 run function ltw:state/0/roll_dice/win
+# 19-11 / 45% 成功：获得 2 金锭
+execute if score $random mem matches 11..19 run function ltw:state/0/roll_dice/win
 
-# 15-2 / 70% 失败：不返还
-execute if score $random mem matches 2..15 run function ltw:state/0/roll_dice/lose
+# 10-2 / 45% 失败：不返还
+execute if score $random mem matches 2..10 run function ltw:state/0/roll_dice/lose
 
 # 1 大失败：归零
 execute if score $random mem matches 1 run function ltw:state/0/roll_dice/super_lose

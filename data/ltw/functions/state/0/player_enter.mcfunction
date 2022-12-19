@@ -17,6 +17,7 @@ scoreboard players enable @s buy_trigger
 # 状态效果
 effect clear @s
 effect give @s saturation 1000000 0 true
+effect give @s instant_health 1 10 true
 gamerule naturalRegeneration true
 effect give @s resistance 1000000 4 true
 effect give @s weakness 1000000 4 true
@@ -25,7 +26,7 @@ effect give @s weakness 1000000 4 true
 gamemode adventure @s[team=!debugging]
 
 # 传送玩家
-tp @s[team=!debugging] -10 8 -42 68 -20
+tp @s[team=!debugging] -10 8 -32 -113 0
 
 # 刷新物品
 clear @s[team=!debugging]
