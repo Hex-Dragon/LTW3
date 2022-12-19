@@ -3,7 +3,7 @@ function mini:tntrun/init
 function mini:parkour/init
 function mini:hotpm/init
 function mini:phantom/init
-function mini:diamond/init
+function mini:iron/init
 function mini:ass/init
 function mini:trade/init
 

@@ -79,6 +79,6 @@ execute if block 1009 0 5003 minecraft:bedrock at @e[type=armor_stand,tag=dead_m
 execute if block 1009 0 5004 minecraft:bedrock run scoreboard players set @s item_slot 103
 execute if block 1009 0 5004 minecraft:bedrock at @e[type=armor_stand,tag=dead_marker,limit=1] run function item:pop_slot/pop_item
 execute store result score #fill_count temp run fill 1000 0 5001 1009 0 5004 air
-scoreboard players operation #fill_count temp %= #const_2 temp
+scoreboard players operation #fill_count temp %= #2 temp
 execute if score #fill_count temp matches 1 run scoreboard players set @s item_slot -106
 execute if score #fill_count temp matches 1 at @e[type=armor_stand,tag=dead_marker,limit=1] run function item:pop_slot/pop_item

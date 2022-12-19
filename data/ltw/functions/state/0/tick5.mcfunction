@@ -31,9 +31,9 @@ execute if score $count mem matches ..2 if score #start_countdown mem matches ..
 # 播放音效
 scoreboard players remove #start_countdown mem 1
 scoreboard players operation #start_sec mem = #start_countdown mem
-scoreboard players operation #start_sec mem /= #const_4 mem
+scoreboard players operation #start_sec mem /= #4 mem
 scoreboard players operation #start_div mem = #start_countdown mem
-scoreboard players operation #start_div mem %= #const_4 mem
+scoreboard players operation #start_div mem %= #4 mem
 execute if score #start_sec mem matches 1..10 if score #start_div mem matches 3 run execute as @a at @s run function lib:sounds/hit2
 
 # 20s：提示未准备

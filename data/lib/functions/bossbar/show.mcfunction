@@ -2,7 +2,7 @@
 
 # 计算最大值
 scoreboard players operation #temp mem = $countdown_max mem
-execute if score $bossbar_type mem matches 2 run scoreboard players operation #temp mem *= #const_10 mem
+execute if score $bossbar_type mem matches 2 run scoreboard players operation #temp mem *= #10 mem
 
 # 设置最大值
 execute store result bossbar mini:red max run scoreboard players get #temp mem

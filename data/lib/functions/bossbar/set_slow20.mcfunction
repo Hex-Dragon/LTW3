@@ -1,6 +1,6 @@
 # 计算值
 scoreboard players operation #temp mem = $countdown mem
-scoreboard players operation #temp mem *= #const_10 mem
+scoreboard players operation #temp mem *= #10 mem
 
 # 设置值
 execute store result bossbar mini:red value run scoreboard players get #temp mem

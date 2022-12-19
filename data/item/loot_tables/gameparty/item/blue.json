@@ -7,7 +7,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"地牢箱子\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"BlockEntityTag\":{\"LootTable\":\"mini:diamond\",\"id\":\"minecraft:chest\"}}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"地牢箱子\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"BlockEntityTag\":{\"LootTable\":\"mini:iron\",\"id\":\"minecraft:chest\"}}"
             }
         ]
     },

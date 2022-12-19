@@ -11,9 +11,9 @@ attribute @s generic.max_health base set 20
 gamerule naturalRegeneration false
 
 # 计分板重置
-tag @s remove diamond_got
-scoreboard players reset @s diamond
-scoreboard players set @s[team=playing,tag=!rejoining] diamond 0
+tag @s remove iron_got
+scoreboard players reset @s iron_count
+scoreboard players set @s[team=playing,tag=!rejoining] iron_count 0
 
 # 调整模式
 gamemode spectator @s[team=!debugging]
@@ -21,4 +21,4 @@ gamemode survival @s[team=playing,tag=!rejoining]
 
 # 执行重生方法
 tag @s remove respawning
-function mini:diamond/game/respawn
+function mini:iron/game/respawn

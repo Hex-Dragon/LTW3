@@ -1,7 +1,7 @@
 # 计算权重
 scoreboard players reset @a temp
 execute as @a[team=!debugging] run scoreboard players operation @s temp = @s mini_heart
-execute as @a[team=!debugging] run scoreboard players operation @s temp *= #const_100 mem
+execute as @a[team=!debugging] run scoreboard players operation @s temp *= #100 mem
 execute as @a[team=!debugging] run scoreboard players operation @s temp += @s total_score_disp
 scoreboard players add @a[tag=!pm_explode_last] temp 10000
 

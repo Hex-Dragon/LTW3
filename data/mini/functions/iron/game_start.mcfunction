@@ -4,7 +4,7 @@ scoreboard players set $countdown mem 270
 # HUD
 scoreboard objectives setdisplay list total_score_disp
 scoreboard objectives setdisplay belowName health_disp
-scoreboard objectives setdisplay sidebar diamond
+scoreboard objectives setdisplay sidebar iron_disp
 scoreboard players set $bossbar_color mem 4
 scoreboard players set $countdown_max mem 270
 scoreboard players set $bossbar_type mem 2

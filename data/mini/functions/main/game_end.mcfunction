@@ -5,7 +5,7 @@ execute if score $mini_type mem matches 3 run function mini:hotpm/game_end
 execute if score $mini_type mem matches 4 run function mini:colormatch/game_end
 execute if score $mini_type mem matches 5 run function mini:phantom/game_end
 execute if score $mini_type mem matches 201 run function mini:ass/game_end
-execute if score $mini_type mem matches 101 run function mini:diamond/game_end
+execute if score $mini_type mem matches 101 run function mini:iron/game_end
 execute if score $mini_type mem matches 102 run function mini:trade/game_end
 
 # 计算排名

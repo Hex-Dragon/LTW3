@@ -1,6 +1,6 @@
 
 # 给予状态效果
-function mini:diamond/give_effect
+function mini:iron/give_effect
 effect give @s slow_falling 4
 effect give @s weakness 5 10 true
 effect give @s resistance 5 10 true

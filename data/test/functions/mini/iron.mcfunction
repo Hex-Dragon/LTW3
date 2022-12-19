@@ -1,4 +1,4 @@
-# 测试用：快速开始钻石风暴
+# 测试用：快速开始钢铁狂潮
 team join playing @a[team=watching]
 clear @a[team=!debugging]
 function ltw:state/0/start_game

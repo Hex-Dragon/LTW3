@@ -97,13 +97,20 @@ scoreboard objectives add stat_win dummy "总胜场"
 
 # 常量与变量初始化
 scoreboard players set #mini_total mem 5
-scoreboard players set #const_2 mem 2
-scoreboard players set #const_4 mem 4
-scoreboard players set #const_5 mem 5
-scoreboard players set #const_9 mem 9
-scoreboard players set #const_10 mem 10
-scoreboard players set #const_81 mem 81
-scoreboard players set #const_100 mem 100
+scoreboard players set #-1 mem -1
+scoreboard players set #0 mem 0
+scoreboard players set #1 mem 1
+scoreboard players set #2 mem 2
+scoreboard players set #3 mem 3
+scoreboard players set #4 mem 4
+scoreboard players set #5 mem 5
+scoreboard players set #6 mem 6
+scoreboard players set #7 mem 7
+scoreboard players set #8 mem 8
+scoreboard players set #9 mem 9
+scoreboard players set #10 mem 10
+scoreboard players set #81 mem 81
+scoreboard players set #100 mem 100
 
 # 玩家队伍
 # team remove debugging

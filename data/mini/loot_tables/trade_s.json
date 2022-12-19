@@ -74,7 +74,7 @@
             "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
                 "tag": "{buy:{id:\"emerald\",Count:3}}"
             }, { "function": "set_nbt",
-                "tag":"{sell:{id:\"chest\",Count:1,tag:{BlockEntityTag:{LootTable:\"mini:diamond\",id:\"minecraft:chest\"},display:{Name:'{\"text\":\"地牢箱子\",\"color\":\"aqua\",\"italic\":false}'}}}}"
+                "tag":"{sell:{id:\"chest\",Count:1,tag:{BlockEntityTag:{LootTable:\"mini:iron\",id:\"minecraft:chest\"},display:{Name:'{\"text\":\"地牢箱子\",\"color\":\"aqua\",\"italic\":false}'}}}}"
             }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
                 "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:chest\"}}]}}"
             }}}]

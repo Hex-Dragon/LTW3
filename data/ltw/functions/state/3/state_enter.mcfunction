@@ -28,7 +28,7 @@ execute if score $round mem matches ..4 run data remove storage ltw:mini types[0
 
 # 前置/后置小游戏
 # 如果为第 1 轮，则有一半概率选用刺客，一半概率不变
-# 如果为第 5 轮，则有一半概率选用钻石，一半概率选用贸易
+# 如果为第 5 轮，则有一半概率选用钢铁，一半概率选用贸易
 scoreboard players set $random_max mem 1
 scoreboard players set $random_min mem 0
 function lib:random

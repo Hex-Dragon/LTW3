@@ -38,13 +38,13 @@ scoreboard players operation #total_gold mem /= #total_weight mem
 # 计算名次奖励
 scoreboard players set #rank1_gold mem 3
 scoreboard players operation #rank1_gold mem *= #total_gold mem
-scoreboard players operation #rank1_gold mem /= #const_100 mem
+scoreboard players operation #rank1_gold mem /= #100 mem
 scoreboard players set #rank2_gold mem 2
 scoreboard players operation #rank2_gold mem *= #total_gold mem
-scoreboard players operation #rank2_gold mem /= #const_100 mem
+scoreboard players operation #rank2_gold mem /= #100 mem
 scoreboard players set #rank3_gold mem 1
 scoreboard players operation #rank3_gold mem *= #total_gold mem
-scoreboard players operation #rank3_gold mem /= #const_100 mem
+scoreboard players operation #rank3_gold mem /= #100 mem
 # 如果因为掉线强制结束则无名次奖励
 execute store result score #count mem if entity @a[team=playing]
 execute if score #count mem matches ..2 run scoreboard players set #rank1_gold mem 0
@@ -60,7 +60,7 @@ tellraw @a ""
 
 # 积分金粒奖励
 execute as @a[team=playing] run scoreboard players operation @s temp2 = @s total_score
-execute as @a[team=playing] run scoreboard players operation @s temp2 /= #const_2 mem
+execute as @a[team=playing] run scoreboard players operation @s temp2 /= #2 mem
 execute as @a[team=playing] run scoreboard players operation @s gold += @s temp2
 execute as @a[team=playing] run scoreboard players operation @s gold_total += @s temp2
 tellraw @a[team=playing] [" ",{"text": "积分奖励: ","color":"gold"},{"score":{"name": "*","objective": "temp2"}}," 金粒"]
