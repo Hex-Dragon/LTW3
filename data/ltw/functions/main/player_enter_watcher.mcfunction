@@ -7,7 +7,7 @@ tag @s remove mini_rank2
 tag @s remove mini_rank3
 tag @s remove mini_rank4
 
-# 清除得分显示（防止中途加入的旁观者依然保留上一局的得分）
+# 清除积分显示（防止中途加入的旁观者依然保留上一局的积分）
 scoreboard players reset @s total_score
 scoreboard players reset @s total_score_disp
 

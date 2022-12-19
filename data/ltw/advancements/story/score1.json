@@ -8,7 +8,7 @@
         "text": "两位数的突破  "
       },
       "description": [
-        {"text": "在单局游戏中达到 10 分\n", "color":"gray"},
+        {"text": "在单局游戏中达到 10 积分\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "1 绿宝石","color":"white"}
       ],

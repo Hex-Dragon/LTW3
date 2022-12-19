@@ -1,14 +1,44 @@
-{"pools": [{"rolls": {"max": 4,"min": 2},"entries": [
+{"pools": [{"rolls": 5,"entries": [
 
     {
         "type": "minecraft:item",
-        "weight": 1,
+        "weight": 3,
         "name": "minecraft:nether_star",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"得分 +1\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":1,\"display\":{\"Name\":'{\"text\":\"得分 +1\",\"italic\":false,\"color\":\"white\"}'}}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"积分 +1\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":1,\"display\":{\"Name\":'{\"text\":\"积分 +1\",\"italic\":false,\"color\":\"white\"}'}}"
             }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 1,
+        "name": "minecraft:coal",
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": {
+              "min": 1.0,
+              "max": 3.0,
+              "type": "minecraft:uniform"
+            }
+          }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 2,
+        "name": "minecraft:iron_ingot",
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": {
+              "min": 1.0,
+              "max": 3.0,
+              "type": "minecraft:uniform"
+            }
+          }
         ]
     },
     {
@@ -21,21 +51,6 @@
             "count": {
               "min": 1.0,
               "max": 2.0,
-              "type": "minecraft:uniform"
-            }
-          }
-        ]
-    },
-    {
-        "type": "minecraft:item",
-        "weight": 1,
-        "name": "minecraft:iron_ingot",
-        "functions": [
-          {
-            "function": "minecraft:set_count",
-            "count": {
-              "min": 2.0,
-              "max": 3.0,
               "type": "minecraft:uniform"
             }
           }

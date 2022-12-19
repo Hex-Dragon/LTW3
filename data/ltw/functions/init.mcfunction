@@ -47,9 +47,9 @@ scoreboard objectives modify health_disp rendertype hearts
 scoreboard objectives remove mem
 scoreboard objectives add mem dummy "全局变量"
 scoreboard objectives remove total_score
-scoreboard objectives add total_score dummy "得分"
+scoreboard objectives add total_score dummy "积分"
 scoreboard objectives remove total_score_disp
-scoreboard objectives add total_score_disp dummy "得分"
+scoreboard objectives add total_score_disp dummy "积分"
 scoreboard objectives remove leave_game
 scoreboard objectives add leave_game minecraft.custom:leave_game "离开游戏"
 scoreboard objectives remove effect_floating

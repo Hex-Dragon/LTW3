@@ -8,7 +8,7 @@ data remove storage item:bonus item_buff[0]
 # 播放音效
 function lib:sounds/hit
 
-# 显示拾取提示（获得得分的提示由 add_score 显示，获得随机物品则该物品不显示）
+# 显示拾取提示（获得积分的提示由 add_score 显示，获得随机物品则该物品不显示）
 execute unless data storage item:bonus item.tag.bonus_add_score unless data storage item:bonus item.tag.bonus_random_bonus[0] run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 获得了 ",{"nbt": "item.tag.item_name","storage":"item:bonus","interpret": true}]
 
 # 如果有 return 标签则退回物品（最先执行）

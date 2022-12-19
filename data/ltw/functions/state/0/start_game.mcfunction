@@ -20,7 +20,7 @@ scoreboard players set $round mem 1
 scoreboard players add $ game_id 1
 scoreboard players operation @a game_id = $ game_id
 
-# 分配玩家id
+# 设置玩家id
 scoreboard players set @a[team=playing] player_id 0
 scoreboard players set $player_id mem 0
 execute if entity @a[team=playing,scores={player_id=0}] run function ltw:state/0/set_player_id

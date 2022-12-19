@@ -1,4 +1,4 @@
-# 分数更改 
+# part 数更改 
 scoreboard players add $floor_generate_part mem 1
 # 随机生成地板
 execute if score $floor_generate_part mem matches 1 positioned 1000 10 4000 run setblock ~ ~ ~ minecraft:structure_block{posX:1,mode:"LOAD",name:"mini:color_match/color_1",integrity:1.0f}

@@ -58,12 +58,12 @@ execute if entity @a[tag=total_rank2] run tellraw @a [" ",{"text": "第二名 - 
 execute if entity @a[tag=total_rank3] run tellraw @a [" ",{"text": "第三名 - ","color":"green"},{"selector": "@a[tag=total_rank3]","color":"white"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=total_rank3]","objective": "total_score"},"color":"gray"},{"text":")","color":"gray"}]
 tellraw @a ""
 
-# 得分金粒奖励
+# 积分金粒奖励
 execute as @a[team=playing] run scoreboard players operation @s temp2 = @s total_score
 execute as @a[team=playing] run scoreboard players operation @s temp2 /= #const_2 mem
 execute as @a[team=playing] run scoreboard players operation @s gold += @s temp2
 execute as @a[team=playing] run scoreboard players operation @s gold_total += @s temp2
-tellraw @a[team=playing] [" ",{"text": "得分奖励: ","color":"gold"},{"score":{"name": "*","objective": "temp2"}}," 金粒"]
+tellraw @a[team=playing] [" ",{"text": "积分奖励: ","color":"gold"},{"score":{"name": "*","objective": "temp2"}}," 金粒"]
 
 # 名次金粒奖励
 scoreboard players set @a temp 0

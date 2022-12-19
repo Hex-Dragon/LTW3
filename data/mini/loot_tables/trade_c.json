@@ -3,236 +3,81 @@
     "functions": [
         {
             "function": "set_nbt",
-            "tag": "{TradeItem:1b}"
+            "tag": "{TradeItem:1b,maxUses:1}"
         }
     ],
-    "pools": [
+    "pools": [{"rolls": 1,"entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "group",
-                    "children": [
-                        {
-                            "type": "item",
-                            "name": "stone",
-                            "functions": [
-                                {
-                                    "function": "set_nbt",
-                                    "tag": "{buy:{id:\"oak_leaves\",Count:6}}"
-                                },
-                                {
-                                    "function": "set_nbt",
-                                    "tag":"{sell:{id:\"emerald\",Count:3}}"
-                                },
-                                {
-                                    "function": "set_nbt",
-                                    "tag":"{maxUses:2}"
-                                }
-                            ],
-                            "conditions": [
-                                {
-                                    "condition": "inverted",
-                                    "term": {
-                                        "condition": "minecraft:entity_properties",
-                                        "entity": "this",
-                                        "predicate": {
-                                            "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:oak_leaves\"}}]}}"
-                                        }
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "item",
-                            "name": "stone",
-                            "functions": [
-                                {
-                                    "function": "set_nbt",
-                                    "tag": "{buy:{id:\"armor_stand\",Count:1}}"
-                                },
-                                {
-                                    "function": "set_nbt",
-                                    "tag":"{sell:{id:\"emerald\",Count:4}}"
-                                },
-                                {
-                                    "function": "set_nbt",
-                                    "tag":"{maxUses:2}"
-                                }
-                            ],
-                            "conditions": [
-                                {
-                                    "condition": "inverted",
-                                    "term": {
-                                        "condition": "minecraft:entity_properties",
-                                        "entity": "this",
-                                        "predicate": {
-                                            "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:armor_stand\"}}]}}"
-                                        }
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "item",
-                            "name": "stone",
-                            "functions": [
-                                {
-                                    "function": "set_nbt",
-                                    "tag": "{buy:{id:\"minecraft:potion\",Count:1,tag:{Potion:\"minecraft:water\"}}}"
-                                },
-                                {
-                                    "function": "set_nbt",
-                                    "tag":"{sell:{id:\"emerald\",Count:4}}"
-                                },
-                                {
-                                    "function": "set_nbt",
-                                    "tag":"{maxUses:2}"
-                                }
-                            ],
-                            "conditions": [
-                                {
-                                    "condition": "inverted",
-                                    "term": {
-                                        "condition": "minecraft:entity_properties",
-                                        "entity": "this",
-                                        "predicate": {
-                                            "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\"}}}]}}"
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "stone",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{buy:{id:\"yellow_concrete\",Count:1}}"
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag":"{sell:{id:\"emerald\",Count:10}}"
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag":"{maxUses:2}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:yellow_concrete\"}}]}}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "stone",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{buy:{id:\"stonecutter\",Count:1}}"
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag":"{sell:{id:\"emerald\",Count:8}}"
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag":"{maxUses:2}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:stonecutter\"}}]}}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "stone",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{buy:{id:\"chest_minecart\",Count:1}}"
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag":"{sell:{id:\"emerald\",Count:10}}"
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag":"{maxUses:2}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:chest_minecart\"}}]}}"
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "stone",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{buy:{id:\"tripwire_hook\",Count:1}}"
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag":"{sell:{id:\"emerald\",Count:4}}"
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag":"{maxUses:2}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:tripwire_hook\"}}]}}"
-                                }
-                            }
-                        },
-                        {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:spider_spawn_egg\"}}]}}"
-                            }
-                        }
-                    ]
-                }
-            ]
+            "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
+                "tag": "{buy:{id:\"glass\",Count:2}}"
+            }, { "function": "set_nbt",
+                "tag":"{sell:{id:\"emerald\",Count:1}}"
+            }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
+                "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:glass\"}}]}}"
+            }}}]
+        },
+        {
+            "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
+                "tag": "{buy:{id:\"iron_nugget\",Count:18}}"
+            }, { "function": "set_nbt",
+                "tag":"{sell:{id:\"emerald\",Count:1}}"
+            }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
+                "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:iron_nugget\"}}]}}"
+            }}}]
+        },
+        {
+            "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
+                "tag": "{buy:{id:\"shield\",Count:1}}"
+            }, { "function": "set_nbt",
+                "tag":"{sell:{id:\"emerald\",Count:1}}"
+            }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
+                "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:shield\"}}]}}"
+            }}}]
+        },
+        {
+            "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
+                "tag": "{buy:{id:\"vine\",Count:2}}"
+            }, { "function": "set_nbt",
+                "tag":"{sell:{id:\"emerald\",Count:1}}"
+            }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
+                "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:vine\"}}]}}"
+            }}}]
+        },
+        {
+            "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
+                "tag": "{buy:{id:\"minecraft:potion\",Count:1,tag:{Potion:\"minecraft:water\"}}}"
+            }, { "function": "set_nbt",
+                "tag":"{sell:{id:\"emerald\",Count:1}}"
+            }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
+                "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:potion\"}}]}}"
+            }}}]
+        },
+        {
+            "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
+                "tag": "{buy:{id:\"grass\",Count:8}}"
+            }, { "function": "set_nbt",
+                "tag":"{sell:{id:\"emerald\",Count:1}}"
+            }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
+                "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:grass\"}}]}}"
+            }}}]
+        },
+        {
+            "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
+                "tag": "{buy:{id:\"flint_and_steel\",Count:1}}"
+            }, { "function": "set_nbt",
+                "tag":"{sell:{id:\"emerald\",Count:2}}"
+            }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
+                "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:flint_and_steel\"}}]}}"
+            }}}]
+        },
+        {
+            "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
+                "tag": "{buy:{id:\"dirt\",Count:32}}"
+            }, { "function": "set_nbt",
+                "tag":"{sell:{id:\"emerald\",Count:2}}"
+            }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
+                "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:dirt\"}}]}}"
+            }}}]
         }
-    ]
+    ]}]
 }

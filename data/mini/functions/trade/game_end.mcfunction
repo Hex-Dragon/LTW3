@@ -11,7 +11,7 @@ gamerule doMobLoot false
 gamerule fireDamage false
 gamerule drowningDamage false
 
-# 计算得分
+# 计算积分
 execute as @a[team=playing] run scoreboard players operation @s mini_score += @s emerald
 
 # 清理物品栏

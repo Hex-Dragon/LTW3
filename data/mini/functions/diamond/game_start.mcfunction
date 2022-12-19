@@ -2,7 +2,7 @@ gamerule doDaylightCycle true
 scoreboard players set $countdown mem 270
 
 # HUD
-scoreboard objectives setdisplay list health_disp
+scoreboard objectives setdisplay list total_score_disp
 scoreboard objectives setdisplay belowName health_disp
 scoreboard objectives setdisplay sidebar diamond
 scoreboard players set $bossbar_color mem 4
