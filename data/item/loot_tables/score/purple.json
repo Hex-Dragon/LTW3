@@ -2,7 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 14,
+    "weight": 10,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -41,7 +41,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"12 金粒\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":300,\"bonus_gold\":12}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"12 金粒\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_gold\":12}"
         }
     ]
 },
@@ -56,7 +56,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"14 金粒\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":300,\"bonus_gold\":14}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"14 金粒\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_gold\":14}"
         }
     ]
 }

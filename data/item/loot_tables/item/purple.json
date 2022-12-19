@@ -7,7 +7,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"不死图腾 x3\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:totem_of_undying\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:totem_of_undying\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:totem_of_undying\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"不死图腾 x3\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:totem_of_undying\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:totem_of_undying\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:totem_of_undying\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
             }
         ]
     },
@@ -18,7 +18,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"万能药 (饮用, 3:00)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":10,\"Amplifier\":0,\"Duration\":3600},{\"Id\":12,\"Amplifier\":0,\"Duration\":3600},{\"Id\":11,\"Amplifier\":1,\"Duration\":3600},{\"Id\":1,\"Amplifier\":1,\"Duration\":3600},{\"Id\":5,\"Amplifier\":1,\"Duration\":3600},{\"Id\":3,\"Amplifier\":4,\"Duration\":3600}],\"CustomPotionColor\":16777215,\"display\":{\"Name\":\"{\\\"text\\\":\\\"万能药\\\",\\\"italic\\\":0,\\\"color\\\":\\\"light_purple\\\"}\"}}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"万能药 (饮用, 3:00)\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":10,\"Amplifier\":0,\"Duration\":3600},{\"Id\":12,\"Amplifier\":0,\"Duration\":3600},{\"Id\":11,\"Amplifier\":1,\"Duration\":3600},{\"Id\":1,\"Amplifier\":1,\"Duration\":3600},{\"Id\":5,\"Amplifier\":1,\"Duration\":3600},{\"Id\":3,\"Amplifier\":4,\"Duration\":3600}],\"CustomPotionColor\":16777215,\"display\":{\"Name\":\"{\\\"text\\\":\\\"万能药\\\",\\\"italic\\\":0,\\\"color\\\":\\\"gold\\\"}\"}}"
             }
         ]
     },
@@ -29,7 +29,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁镐, 铁斧, 铁剑, 铁锹\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:iron_pickaxe\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:iron_axe\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:iron_sword\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:iron_shovel\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁镐, 铁斧, 铁剑, 铁锹\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:iron_pickaxe\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:iron_axe\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:iron_sword\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:iron_shovel\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
             }
         ]
 },
@@ -44,7 +44,7 @@
             },
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁锭 x10\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁锭 x10\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
             }
         ]
     },
@@ -59,7 +59,7 @@
             },
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"钻石 x5\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"钻石 x5\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
             }
         ]
     },
@@ -70,7 +70,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金全身甲\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:netherite_helmet\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:netherite_chestplate\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:netherite_leggings\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:netherite_boots\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金全身甲\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:netherite_helmet\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:netherite_chestplate\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:netherite_leggings\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}},{\"id\":\"minecraft:netherite_boots\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
             }
         ]
     }

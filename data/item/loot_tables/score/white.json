@@ -2,7 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 24,
+    "weight": 20,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -22,7 +22,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"2 金粒\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":300,\"bonus_gold\":2}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"2 金粒\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_gold\":2}"
         }
     ]
 },
@@ -33,7 +33,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"从最高分玩家处偷取 1 积分\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":200,\"bonus_stole_score\":1}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"从最高分玩家处偷取 1 积分\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_stole_score\":1}"
         }
     ]
 },

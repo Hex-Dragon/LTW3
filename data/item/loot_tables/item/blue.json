@@ -7,7 +7,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"地牢箱子\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"BlockEntityTag\":{\"LootTable\":\"mini:diamond\",\"id\":\"minecraft:chest\"}}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"地牢箱子\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"BlockEntityTag\":{\"LootTable\":\"mini:diamond\",\"id\":\"minecraft:chest\"}}"
             }
         ]
     },
@@ -22,7 +22,7 @@
             },
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁锭 x5\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁锭 x5\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
             }
         ]
     },
@@ -33,7 +33,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁镐\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"铁镐\\\",\\\"italic\\\":0,\\\"color\\\":\\\"aqua\\\"}\"}}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁镐\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"铁镐\\\",\\\"italic\\\":0,\\\"color\\\":\\\"light_purple\\\"}\"}}"
             }
         ]
 },
@@ -44,7 +44,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<亡灵杀手 V> 钻石剑\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Enchantments\":[{\"id\":\"smite\",\"lvl\":5}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<亡灵杀手 V> 钻石剑\\\",\\\"italic\\\":0,\\\"color\\\":\\\"aqua\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<亡灵杀手 V> 钻石剑\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Enchantments\":[{\"id\":\"smite\",\"lvl\":5}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<亡灵杀手 V> 钻石剑\\\",\\\"italic\\\":0,\\\"color\\\":\\\"light_purple\\\"}\"}}"
         }
     ]
 },
@@ -55,7 +55,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<击退 I> 铁剑\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Enchantments\":[{\"id\":\"knockback\",\"lvl\":1}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<击退 I> 铁剑\\\",\\\"italic\\\":0,\\\"color\\\":\\\"aqua\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<击退 I> 铁剑\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"Enchantments\":[{\"id\":\"knockback\",\"lvl\":1}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<击退 I> 铁剑\\\",\\\"italic\\\":0,\\\"color\\\":\\\"light_purple\\\"}\"}}"
         }
     ]
 },
@@ -66,7 +66,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"附魔生命果\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Lore\":[\"{\\\"text\\\":\\\"恢复到满血或生命加倍\\\",\\\"italic\\\":0,\\\"color\\\":\\\"gray\\\"}\"],\"Name\":\"{\\\"text\\\":\\\"附魔生命果\\\",\\\"italic\\\":0,\\\"color\\\":\\\"aqua\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"附魔生命果\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Lore\":[\"{\\\"text\\\":\\\"恢复到满血或生命加倍\\\",\\\"italic\\\":0,\\\"color\\\":\\\"gray\\\"}\"],\"Name\":\"{\\\"text\\\":\\\"附魔生命果\\\",\\\"italic\\\":0,\\\"color\\\":\\\"light_purple\\\"}\"}}"
         }
     ]
 },
@@ -77,7 +77,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"盾牌\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"盾牌\\\",\\\"italic\\\":0,\\\"color\\\":\\\"aqua\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"盾牌\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"盾牌\\\",\\\"italic\\\":0,\\\"color\\\":\\\"light_purple\\\"}\"}}"
         }
     ]
 },
@@ -88,7 +88,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"鞘翅, 烟花火箭 x9\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"鞘翅\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"},\"bonus_give_items\":[{\"id\":\"minecraft:firework_rocket\",\"Count\":9,\"tag\":{\"is_bonus\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}}]}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"鞘翅, 烟花火箭 x9\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"鞘翅\\\",\\\"italic\\\":false,\\\"color\\\":\\\"light_purple\\\"}\"},\"bonus_give_items\":[{\"id\":\"minecraft:firework_rocket\",\"Count\":9,\"tag\":{\"is_bonus\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}}]}"
         }
     ]
 },
@@ -99,7 +99,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金胸甲、靴子\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:netherite_boots\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金胸甲、靴子\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:netherite_boots\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
         }
     ]
 },
@@ -110,7 +110,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金头盔、护腿\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:netherite_helmet\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金头盔、护腿\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:netherite_helmet\",\"Count\":1,\"tag\":{\"bonus_return\":1b,\"is_bonus\":1b}}]}"
         }
     ]
 }

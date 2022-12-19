@@ -7,7 +7,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<海之眷顾 II> 钓鱼竿\\\",\\\"color\\\":\\\"green\\\"}\",\"Enchantments\":[{\"id\":\"luck_of_the_sea\",\"lvl\":2}],\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"钓鱼竿\\\",\\\"italic\\\":false,\\\"color\\\":\\\"green\\\"}\"}}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<海之眷顾 II> 钓鱼竿\\\",\\\"color\\\":\\\"aqua\\\"}\",\"Enchantments\":[{\"id\":\"luck_of_the_sea\",\"lvl\":2}],\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"钓鱼竿\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"}}"
             }
         ]
 },
@@ -18,7 +18,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁斧\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"铁斧\\\",\\\"italic\\\":false,\\\"color\\\":\\\"green\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"铁斧\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"铁斧\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"}}"
         }
     ]
 },
@@ -29,7 +29,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"不死图腾\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"不死图腾\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"不死图腾\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Name\":\"{\\\"text\\\":\\\"不死图腾\\\",\\\"italic\\\":0,\\\"color\\\":\\\"aqua\\\"}\"}}"
         }
     ]
 },
@@ -40,7 +40,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"生命果\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Lore\":[\"{\\\"text\\\":\\\"恢复 4 颗心或生命 +1\\\",\\\"italic\\\":0,\\\"color\\\":\\\"gray\\\"}\"],\"Name\":\"{\\\"text\\\":\\\"生命果\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"生命果\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"display\":{\"Lore\":[\"{\\\"text\\\":\\\"恢复 4 颗心或生命 +1\\\",\\\"italic\\\":0,\\\"color\\\":\\\"gray\\\"}\"],\"Name\":\"{\\\"text\\\":\\\"生命果\\\",\\\"italic\\\":0,\\\"color\\\":\\\"aqua\\\"}\"}}"
         }
     ]
 },
@@ -51,7 +51,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<快速装填 III> 弩, 箭 x10\\\",\\\"color\\\":\\\"green\\\"}\",\"Enchantments\":[{\"id\":\"quick_charge\",\"lvl\":3}],\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":10,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<快速装填 III> 弩\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"<快速装填 III> 弩, 箭 x10\\\",\\\"color\\\":\\\"aqua\\\"}\",\"Enchantments\":[{\"id\":\"quick_charge\",\"lvl\":3}],\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:arrow\",\"Count\":10,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}],\"display\":{\"Name\":\"{\\\"text\\\":\\\"<快速装填 III> 弩\\\",\\\"italic\\\":0,\\\"color\\\":\\\"aqua\\\"}\"}}"
         }
     ]
 },
@@ -62,7 +62,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"高炉, 煤炭 x5\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:coal\",\"Count\":5,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}]}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"高炉, 煤炭 x5\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b,\"bonus_give_items\":[{\"id\":\"minecraft:coal\",\"Count\":5,\"tag\":{\"is_bonus\":1b,\"bonus_clear_nbt\":1b}}]}"
         }
     ]
 },
@@ -77,7 +77,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"圆石 x20\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"圆石 x20\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
         }
     ]
 },
@@ -92,7 +92,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"粗铁 x5\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"粗铁 x5\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"bonus_clear_nbt\":1b}"
         }
     ]
 },
@@ -103,7 +103,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"急迫 VI (饮用, 3:00)\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":3,\"Amplifier\":5,\"Duration\":3600}],\"CustomPotionColor\":16578599,\"display\":{\"Name\":\"{\\\"text\\\":\\\"速掘药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"急迫 VI (饮用, 3:00)\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":3,\"Amplifier\":5,\"Duration\":3600}],\"CustomPotionColor\":16578599,\"display\":{\"Name\":\"{\\\"text\\\":\\\"速掘药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"aqua\\\"}\"}}"
         }
     ]
 },
@@ -114,7 +114,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"力量 II (饮用, 1:30)\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":5,\"Amplifier\":1,\"Duration\":1800}],\"CustomPotionColor\":9836568,\"display\":{\"Name\":\"{\\\"text\\\":\\\"力量药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"green\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"力量 II (饮用, 1:30)\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":5,\"Amplifier\":1,\"Duration\":1800}],\"CustomPotionColor\":9836568,\"display\":{\"Name\":\"{\\\"text\\\":\\\"力量药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"aqua\\\"}\"}}"
         }
     ]
 },
@@ -125,7 +125,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金胸甲\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金胸甲\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
         }
     ]
 },
@@ -136,7 +136,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金护腿\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"下界合金护腿\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b}"
         }
     ]
 }

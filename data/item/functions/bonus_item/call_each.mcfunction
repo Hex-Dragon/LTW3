@@ -9,7 +9,7 @@ data remove storage item:bonus item_buff[0]
 function lib:sounds/hit
 
 # 显示拾取提示（获得积分的提示由 add_score 显示，获得随机物品则该物品不显示）
-execute unless data storage item:bonus item.tag.bonus_add_score unless data storage item:bonus item.tag.bonus_random_bonus[0] run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 获得了 ",{"nbt": "item.tag.item_name","storage":"item:bonus","interpret": true}]
+execute unless data storage item:bonus item.tag.bonus_add_score unless data storage item:bonus item.tag.bonus_stole_score unless data storage item:bonus item.tag.bonus_gold unless data storage item:bonus item.tag.bonus_random_bonus[0] run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 获得了 ",{"nbt": "item.tag.item_name","storage":"item:bonus","interpret": true}]
 
 # 如果有 return 标签则退回物品（最先执行）
 execute if data storage item:bonus item.tag{"bonus_return":1b} run function item:bonus_item/return_item
@@ -22,6 +22,12 @@ execute if data storage item:bonus item.tag.bonus_give_items[0] run function ite
 
 # 如果有 random_bonus 标签则返还随机物品
 execute if data storage item:bonus item.tag.bonus_random_bonus[0] run function item:bonus_item/random_bonus
+
+# 如果有 random_bonus 标签则偷分
+execute if data storage item:bonus item.tag.bonus_stole_score run function item:bonus_item/stole_score
+
+# 如果有 random_bonus 标签则给予金粒
+execute if data storage item:bonus item.tag.bonus_gold run function item:bonus_item/gold
 
 # 执行特定函数
 execute if score $state mem matches 7 run function item:bonus_item/pickup_1

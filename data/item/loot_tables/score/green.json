@@ -17,7 +17,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 14,
+    "weight": 10,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -41,7 +41,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"4 金粒\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":300,\"bonus_gold\":4}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"4 金粒\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_gold\":4}"
         }
     ]
 },
@@ -56,7 +56,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"6 金粒\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":300,\"bonus_gold\":6}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"6 金粒\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_gold\":6}"
         }
     ]
 },
@@ -71,7 +71,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"从最高分玩家处偷取 2 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":200,\"bonus_stole_score\":2}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"从最高分玩家处偷取 2 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_stole_score\":2}"
         }
     ]
 },

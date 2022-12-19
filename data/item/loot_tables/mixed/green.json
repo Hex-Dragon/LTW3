@@ -2,66 +2,33 @@
 
     {
         "type": "minecraft:loot_table",
-        "weight": 10,
+        "weight": 25,
         "name": "item:score/green"
     },
     {
         "type": "minecraft:loot_table",
-        "weight": 90,
+        "weight": 61,
         "name": "item:item/green"
     },
     {
         "type": "minecraft:item",
-        "weight": 13,
+        "weight": 7,
         "name": "minecraft:heart_of_the_sea",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"3 件随机白色道具\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"white\",\"count\":3}]}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机蓝色道具\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"green\",\"count\":1}]}"
             }
         ]
     },
     {
         "type": "minecraft:item",
-        "weight": 3,
+        "weight": 7,
         "name": "minecraft:heart_of_the_sea",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"1 件随机品质道具\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"white\",\"count\":1}]}"
-            }
-        ]
-    },
-    {
-        "type": "minecraft:item",
-        "weight": 3,
-        "name": "minecraft:heart_of_the_sea",
-        "functions": [
-            {
-                "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"1 件随机品质道具\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"green\",\"count\":1}]}"
-            }
-        ]
-    },
-    {
-        "type": "minecraft:item",
-        "weight": 3,
-        "name": "minecraft:heart_of_the_sea",
-        "functions": [
-            {
-                "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"1 件随机品质道具\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"blue\",\"count\":1}]}"
-            }
-        ]
-    },
-    {
-        "type": "minecraft:item",
-        "weight": 3,
-        "name": "minecraft:heart_of_the_sea",
-        "functions": [
-            {
-                "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"1 件随机品质道具\\\",\\\"color\\\":\\\"green\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"purple\",\"count\":1}]}"
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机白色道具 x3\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"white\",\"count\":3}]}"
             }
         ]
     }

@@ -18,12 +18,6 @@ execute if score #bonus_add_score mem matches 100 if score $random mem matches 0
 execute if score #bonus_add_score mem matches 100 if score $random mem matches 0 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"selector": "@s","color":"red"}," 的硬币投出了反面, 积分减半, 当前共有 ",{"score": {"name": "@s","objective": "total_score"},"color":"red"},{"text": " 积分", "color":"red"}]
 execute if score #bonus_add_score mem matches 101 if score $random mem matches 0 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"selector": "@s","color":"red"}," 的硬币投出了反面, 积分不变, 当前共有 ",{"score": {"name": "@s","objective": "total_score"},"color":"red"},{"text": " 积分", "color":"red"}]
 
-# 200：偷分
-execute if score #bonus_add_score mem matches 200 run function item:bonus_item/stole_score
-
-# 300：金粒
-execute if score #bonus_add_score mem matches 300 run function item:bonus_item/gold
-
 # 给予进度
 execute if entity @s[scores={total_score=10..}] run advancement grant @s only ltw:story/score1
 execute if entity @s[scores={total_score=18..}] run advancement grant @s only ltw:story/score2
