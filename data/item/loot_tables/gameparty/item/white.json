@@ -107,7 +107,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"隐身 (饮用, 1:00)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":14,\"Amplifier\":0,\"Duration\":1200}],\"CustomPotionColor\":8553121,\"Potion\":\"invisibility\",\"display\":{\"Name\":\"{\\\"text\\\":\\\"隐身药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"隐身 (饮用, 1:00)\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_return\":1b,\"CustomPotionEffects\":[{\"Id\":14,\"Amplifier\":0,\"Duration\":1200}],\"CustomPotionColor\":8553121,\"display\":{\"Name\":\"{\\\"text\\\":\\\"隐身药水\\\",\\\"italic\\\":0,\\\"color\\\":\\\"white\\\"}\"}}"
         }
     ]
 },
