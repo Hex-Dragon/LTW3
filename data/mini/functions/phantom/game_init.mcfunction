@@ -30,4 +30,4 @@ team modify playing collisionRule always
 team modify playing deathMessageVisibility always
 gamerule fallDamage false
 
-schedule function mini:phantom/game_init2 1t replace
+schedule function mini:phantom/game_init2 10t replace

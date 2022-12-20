@@ -39,4 +39,4 @@ team modify playing collisionRule always
 team modify playing deathMessageVisibility never
 gamerule fallDamage false
 
-schedule function mini:tntrun/game_init2 1t replace
+schedule function mini:tntrun/game_init2 10t replace

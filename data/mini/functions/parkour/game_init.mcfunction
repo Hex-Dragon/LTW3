@@ -22,4 +22,4 @@ team modify playing collisionRule never
 team modify playing deathMessageVisibility never
 gamerule fallDamage false
 
-schedule function mini:parkour/game_init2 1t replace
+schedule function mini:parkour/game_init2 10t replace

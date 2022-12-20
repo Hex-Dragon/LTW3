@@ -29,4 +29,4 @@ gamerule doTileDrops true
 gamerule doEntityDrops true
 gamerule doMobLoot true
 
-schedule function mini:iron/game_init2 1t append
+schedule function mini:iron/game_init2 10t append

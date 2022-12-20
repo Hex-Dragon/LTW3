@@ -18,4 +18,4 @@ team modify playing deathMessageVisibility always
 gamerule naturalRegeneration false
 gamerule fallDamage false
 
-schedule function mini:ass/game_init2 1t replace
+schedule function mini:ass/game_init2 10t replace
