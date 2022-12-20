@@ -2,13 +2,13 @@
     "parent": "ltw:vs/root",
     "display": {
       "icon": {
-        "item": "minecraft:villager_spawn_egg"
+        "item": "minecraft:emerald"
       },
       "title": {
-        "text": "商业新星        "
+        "text": "商业鬼才        "
       },
       "description": [
-        {"text": "在贸易专家中获得 7 个绿宝石\n", "color":"gray"},
+        {"text": "在贸易专家中获得 8 个绿宝石\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "1 绿宝石","color":"white"}
       ],

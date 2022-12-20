@@ -4,7 +4,8 @@ execute store result score #bonus_add_score mem run data get storage item:bonus 
 # 正常的加分
 execute if score #bonus_add_score mem matches ..10 run scoreboard players operation @s total_score += #bonus_add_score mem
 execute if score #bonus_add_score mem matches ..10 run scoreboard players operation @s total_score_disp += #bonus_add_score mem
-execute if score #bonus_add_score mem matches ..10 run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 获得了 ",{"score": {"name":"#bonus_add_score","objective": "mem"},"color":"aqua"},{"text": " 积分","color":"aqua"},", 当前共有 ",{"score": {"name": "@s","objective": "total_score"}}, " 积分"]
+execute if score #bonus_add_score mem matches ..0 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"selector": "@s","color":"red"}," 没能获得积分……"]
+execute if score #bonus_add_score mem matches 1..10 run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 获得了 ",{"score": {"name":"#bonus_add_score","objective": "mem"},"color":"aqua"},{"text": " 积分","color":"aqua"},", 当前共有 ",{"score": {"name": "@s","objective": "total_score"}}, " 积分"]
 
 # 100：普通硬币 / 101：高级硬币
 scoreboard players set $random_max mem 1

@@ -2,13 +2,13 @@
     "parent": "ltw:vs/emerald2",
     "display": {
       "icon": {
-        "item": "minecraft:emerald_block"
+        "item": "minecraft:obsidian"
       },
       "title": {
-        "text": "商业奇迹        "
+        "text": "冰桶挑战        "
       },
       "description": [
-        {"text": "在贸易专家中获得 13 个绿宝石\n", "color":"gray"},
+        {"text": "挖掘一块黑曜石\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "3 绿宝石","color":"white"}
       ],
@@ -21,13 +21,15 @@
       "function": "ltw:advancement/bonus_3"
     },
     "criteria": {
-      "get_score":{
-          "trigger": "minecraft:impossible"
-      }
-    },
-    "requirements": [
-      [
-          "get_score"
-      ]
-    ]
+        "obsidian": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": ["minecraft:obsidian"]
+              }
+            ]
+          }
+        }
+    }
   }

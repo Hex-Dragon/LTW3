@@ -32,6 +32,5 @@ execute if score $countdown mem matches 60 run scoreboard players set $bossbar_c
 execute if score $countdown mem matches 60 run function lib:bossbar/show
 
 # 给予进度
-execute as @a[team=playing] if score @s emerald matches 7.. run advancement grant @s only ltw:vs/emerald1
-execute as @a[team=playing] if score @s emerald matches 10.. run advancement grant @s only ltw:vs/emerald2
-execute as @a[team=playing] if score @s emerald matches 13.. run advancement grant @s only ltw:vs/emerald3
+execute as @a[team=playing] if score @s emerald matches 8.. run advancement grant @s only ltw:vs/emerald1
+execute as @a[team=playing] if score @s emerald matches 12.. run advancement grant @s only ltw:vs/emerald2

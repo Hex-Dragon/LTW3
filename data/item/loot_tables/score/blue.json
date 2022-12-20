@@ -2,7 +2,7 @@
 
 {
     "type": "minecraft:item",
-    "weight": 10,
+    "weight": 7,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -17,7 +17,7 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 10,
+    "weight": 7,
     "name": "minecraft:nether_star",
     "functions": [
         {
@@ -32,22 +32,22 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 3,
-    "name": "minecraft:gold_nugget",
+    "weight": 7,
+    "name": "minecraft:shulker_shell",
     "functions": [
         {
             "function": "minecraft:set_count",
-            "count": 8
+            "count": 9
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"8 金粒\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_gold\":8}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"4 积分 + 4 金粒\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":4,\"bonus_gold\":4}"
         }
     ]
 },
 {
     "type": "minecraft:item",
-    "weight": 3,
+    "weight": 5,
     "name": "minecraft:gold_nugget",
     "functions": [
         {

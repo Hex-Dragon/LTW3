@@ -2,13 +2,13 @@
     "parent": "ltw:vs/emerald1",
     "display": {
       "icon": {
-        "item": "minecraft:emerald"
+        "item": "minecraft:emerald_block"
       },
       "title": {
-        "text": "商业鬼才        "
+        "text": "商业奇迹        "
       },
       "description": [
-        {"text": "在贸易专家中获得 10 个绿宝石\n", "color":"gray"},
+        {"text": "在贸易专家中获得 12 个绿宝石\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "2 绿宝石","color":"white"}
       ],
