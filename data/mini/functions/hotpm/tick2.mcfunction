@@ -22,10 +22,12 @@ execute as @a[tag=!pm_holding] if data entity @s Inventory[{tag:{game_item:1b}}]
 # HUD
 scoreboard players set $bossbar_color mem 0
 scoreboard players set @a[tag=pm_holding] bossbar_color 1
-execute as @p[tag=pm_holding] at @s run scoreboard players set @a[tag=!pm_holding,distance=..14] bossbar_color 2
-execute as @p[tag=pm_holding] at @s run scoreboard players set @a[tag=!pm_holding,distance=14..] bossbar_color 3
+execute as @p[tag=pm_holding] at @s run scoreboard players set @a[tag=!pm_holding] bossbar_color 2
 scoreboard players set $bossbar_type mem 1
 function lib:bossbar/show
-bossbar set mini:green name "炸弹稳定度"
 bossbar set mini:yellow name "炸弹稳定度"
-bossbar set mini:red name {"text":"炸弹稳定度","color":"red"}
+bossbar set mini:red name {"text":"< ! > 你正持有炸弹 < ! >","color":"red"}
+
+# 粒子
+execute as @a[tag=pm_holding] at @s run particle minecraft:crit ~ ~1 ~ 0.2 0.5 0.2 0.5 10 normal @a[distance=0.01..]
+execute as @a[tag=pm_holding] at @s run particle minecraft:lava ~ ~1 ~ 0.1 0.1 0.1 0.5 1 force @a

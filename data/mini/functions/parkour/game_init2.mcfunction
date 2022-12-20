@@ -9,7 +9,7 @@ function mini:main/kill_entity
 function mini:parkour/game/marker_spawn
 
 # 生成物品
-execute positioned 1015.5 12.0 1019.5 run function item:bonus_item/gameparty/auto/random
+execute positioned 1015.5 12.0 1019.5 run function item:bonus_item/gameparty/auto/normal
 
 # 生成传送门实体
 summon minecraft:falling_block 1014 21 1057 {Time:1,NoGravity:1b,BlockState:{Name:"nether_portal",Properties:{axis:z}},Tags:["parkour_block"]}

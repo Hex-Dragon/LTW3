@@ -12,14 +12,14 @@ kill @e[type=arrow]
 kill @e[type=trident]
 
 # 生成奖励
-execute positioned 17.5 10.2 1967.5 run function item:bonus_item/gameparty/mixed/random
-execute positioned 19.5 10.2 1962.5 run function item:bonus_item/gameparty/mixed/random
-execute positioned 24.5 10.2 1960.5 run function item:bonus_item/gameparty/mixed/random
-execute positioned 29.5 10.2 1962.5 run function item:bonus_item/gameparty/mixed/random
-execute positioned 31.5 10.2 1967.5 run function item:bonus_item/gameparty/mixed/random
-execute positioned 29.5 10.2 1972.5 run function item:bonus_item/gameparty/mixed/random
-execute positioned 24.5 10.2 1974.5 run function item:bonus_item/gameparty/mixed/random
-execute positioned 19.5 10.2 1972.5 run function item:bonus_item/gameparty/mixed/random
+execute positioned 17.5 10.2 1967.5 run function item:bonus_item/gameparty/mixed/normal
+execute positioned 19.5 10.2 1962.5 run function item:bonus_item/gameparty/mixed/normal
+execute positioned 24.5 10.2 1960.5 run function item:bonus_item/gameparty/mixed/normal
+execute positioned 29.5 10.2 1962.5 run function item:bonus_item/gameparty/mixed/normal
+execute positioned 31.5 10.2 1967.5 run function item:bonus_item/gameparty/mixed/normal
+execute positioned 29.5 10.2 1972.5 run function item:bonus_item/gameparty/mixed/normal
+execute positioned 24.5 10.2 1974.5 run function item:bonus_item/gameparty/mixed/normal
+execute positioned 19.5 10.2 1972.5 run function item:bonus_item/gameparty/mixed/normal
 
 # 生成拾取背景
 execute positioned 17.0 10.0 1967.0 run function ltw:state/6/generate_background

@@ -1,8 +1,10 @@
 # 初始化热土豆地图
 forceload add 1000 3000 1100 3100
 
+# 初始化
 scoreboard players set $finish_mode mem 0
 scoreboard players set $survival mem 0
+scoreboard players set $new_item_cd mem 0
 scoreboard players reset * surviveRound
 
 # 伤害管理

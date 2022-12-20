@@ -6,11 +6,11 @@ execute store result score #quality mem run data get storage ltw:mini qualities[
 data remove storage ltw:mini qualities[0]
 
 # 根据品质生成不同的物品
-# 白色：5
+# 白色：5x
 execute if score #quality mem matches ..5 run function item:bonus_item/gameparty/score/white
-# 绿色：4
+# 蓝色：4x
 execute if score #quality mem matches 6..9 run function item:bonus_item/gameparty/score/green
-# 蓝色：3
+# 紫色：3x
 execute if score #quality mem matches 10..12 run function item:bonus_item/gameparty/score/blue
-# 紫色：2
+# 橙色：2x
 execute if score #quality mem matches 13.. run function item:bonus_item/gameparty/score/purple
