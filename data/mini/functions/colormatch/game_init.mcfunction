@@ -11,13 +11,6 @@ scoreboard players set $color_match_type mem 0
 
 # 刷新地基
 function mini:colormatch/game/prepare_round
-schedule function mini:colormatch/game_init2 12t replace
-
-# 清理残余实体
-function mini:main/kill_entity
-
-# 生成物品
-execute positioned 1060.5 22.0 4010.5 run function item:bonus_item/gameparty/auto/white
 
 # 伤害管理
 scoreboard players set $remove_resistance mem 0
@@ -26,3 +19,5 @@ team modify playing collisionRule always
 team modify playing deathMessageVisibility never
 gamerule fallDamage false
 gamerule naturalRegeneration true
+
+schedule function mini:colormatch/game_init2 12t replace
