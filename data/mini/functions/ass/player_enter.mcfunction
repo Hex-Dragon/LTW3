@@ -4,10 +4,7 @@ title @s clear
 title @s actionbar ""
 
 # 状态效果
-effect clear @s
-effect give @s saturation 1000000 0 true
-effect give @s night_vision 1000000 0 true
-effect give @s resistance 1000000 2 true
+function mini:ass/give_effect
 
 # 设置玩家生命
 attribute @s generic.max_health base set 20
