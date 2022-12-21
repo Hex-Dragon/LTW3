@@ -11,7 +11,7 @@ attribute @s generic.max_health base set 20
 gamerule naturalRegeneration true
 
 # 传送玩家
-spreadplayers 1019.5 2020.5 2 2 false @s[team=playing,tag=!rejoining]
+spreadplayers 1019.5 2020.5 3 3 false @s[team=playing,tag=!rejoining]
 
 # 清理 tag
 tag @s remove layer_bottom
