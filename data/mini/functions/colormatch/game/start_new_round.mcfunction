@@ -17,7 +17,7 @@ scoreboard players set $color_match_type mem 0
 # 拉玩家下来
 execute as @a[tag=color_match_fall] at @s run tp @s ~ 19 ~
 execute as @a[tag=color_match_fall] at @s run function lib:sounds/teleport
-execute if entity @a[tag=color_match_fall] run scoreboard players add $countdown_fast mem 5
+execute if entity @a[tag=color_match_fall] run scoreboard players add $countdown_fast mem 7
 tag @a[tag=color_match_fall] remove color_match_fall
 
 # 告知玩家

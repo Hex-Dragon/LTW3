@@ -83,3 +83,4 @@ schedule function ltw:state/0/state_enter 2t replace
 execute as @a at @s run function lib:sounds/theend
 forceload remove all
 forceload add 0 0
+forceload add 0 1900 50 2000

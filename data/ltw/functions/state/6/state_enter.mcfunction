@@ -15,9 +15,6 @@ function mini:main/kill_remaining_entity
 # 初始化倒计时
 scoreboard players set $countdown mem 4
 
-# 初始化地图
-forceload add 0 1900 50 2000
-
 # 生成地图
 setblock 0 10 2000 minecraft:structure_block{mode:"LOAD",name:"ltw:select"}
 setblock 0 11 2000 minecraft:redstone_block

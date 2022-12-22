@@ -33,6 +33,7 @@ function ltw:state/0/summon_entity
 # 清理加载区域
 forceload remove all
 forceload add 0 0
+forceload add 0 1900 50 2000
 
 # 启用节奏跑酷
 scoreboard players set $tempo_enable mem 1

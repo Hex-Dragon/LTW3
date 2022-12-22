@@ -27,5 +27,5 @@ spectate
 
 # 清理物品
 clear @s #mini:game_item{game_item:1b}
-clear @s red_dye{LockItem:1b}
+clear @s crimson_button{LockItem:1b}
 recipe take @s *

@@ -1,36 +1,47 @@
 # 刷新单个玩家购买的物品
 
+# 01
 clear @s bow
-give @s[scores={shop_bow=1}] bow{display:{Name:'{"text":"弓","italic":false,"color":"gray"}'},Damage:381}
+give @s[scores={shop_01_bow=1}] bow{display:{Name:'{"text":"单发弓","italic":false,"color":"gray"}'},Damage:384}
+give @s[scores={shop_01_bow=2}] bow{display:{Name:'{"text":"弓","italic":false,"color":"gray"}'},Damage:346}
+give @s[scores={shop_01_bow=3}] bow{display:{Name:'{"text":"<冲击 I> 弓","italic":false,"color":"white"}'},Damage:346,Enchantments:[{id:"minecraft:punch",lvl:1s}]}
 
-clear @s wooden_shovel
-clear @s stone_shovel
-give @s[scores={shop_weapon=1}] wooden_shovel{display:{Name:'{"text":"木锹","italic":false,"color":"gray"}'}}
-give @s[scores={shop_weapon=2..}] stone_shovel{display:{Name:'{"text":"石锹","italic":false,"color":"gray"}'}}
-
-clear @s splash_potion
-give @s[scores={shop_potion_spd=1}] splash_potion{CustomPotionEffects:[{Id:1,Amplifier:0,Duration:300}],CustomPotionColor:8039610,display:{Name:'{"text":"喷溅型迅捷药水","italic":false,"color":"gray"}'}}
-give @s[scores={shop_potion_spd=2}] splash_potion{CustomPotionEffects:[{Id:1,Amplifier:1,Duration:300}],CustomPotionColor:8039610,display:{Name:'{"text":"喷溅型迅捷药水","italic":false,"color":"gray"}'}}
-give @s[scores={shop_potion_rst=1}] splash_potion{CustomPotionEffects:[{Id:11,Amplifier:0,Duration:400}],CustomPotionColor:9913400,display:{Name:'{"text":"喷溅型抵抗药水","italic":false,"color":"gray"}'}}
-
-clear @s golden_apple
-clear @s enchanted_golden_apple
-give @s[scores={shop_apple=1}] golden_apple{display:{Lore:['{"text":"恢复 4 颗心或生命 +1","italic":false,"color":"gray"}'],Name:'{"text":"生命果","italic":false,"color":"green"}'}}
-give @s[scores={shop_apple=2}] enchanted_golden_apple{display:{Name:'{"text":"附魔生命果","italic":false}',Lore:['{"text":"恢复到满血或生命加倍","italic":false,"color":"gray"}']}}
-scoreboard players reset @s shop_apple
-
+# 02
 clear @s arrow
 clear @s tipped_arrow
-give @s[scores={shop_arrow=1}] arrow
-give @s[scores={shop_arrow=2}] arrow 2
-give @s[scores={shop_arrow=3}] tipped_arrow{Potion:"minecraft:slowness"} 2
+give @s[scores={shop_02_arrow=1}] arrow
+give @s[scores={shop_02_arrow=2}] arrow 2
+give @s[scores={shop_02_arrow=3}] tipped_arrow{Potion:"minecraft:slowness"} 2
 
-clear @s crossbow
-give @s[scores={shop_firework=1}] minecraft:crossbow{display:{Name:'{"text":"烟花弩","italic":false,"color":"gray"}',Lore:['{"text":"发射一个漂亮的烟花!","italic":false,"color":"gray"}']},Damage:326,Charged:1b,ChargedProjectiles:[{id:"firework_rocket",Count:1b,tag:{Fireworks:{Flight:1b,Explosions:[{Type:0b,Colors:[I;11743532,15435844,14602026,4312372,6719955,2437522,8073150]}]}}}]} 1
+# 03
+clear @s golden_apple
+clear @s enchanted_golden_apple
+give @s[scores={shop_03_apple=1}] golden_apple{display:{Lore:['{"text":"恢复 4 颗心或生命 +1","italic":false,"color":"gray"}'],Name:'{"text":"生命果","italic":false,"color":"aqua"}'}}
+give @s[scores={shop_03_apple=2}] enchanted_golden_apple{display:{Name:'{"text":"附魔生命果","italic":false,"color":"light_purple"}',Lore:['{"text":"恢复到满血或生命加倍","italic":false,"color":"gray"}']}}
+scoreboard players reset @s shop_03_apple
 
-item replace entity @s armor.chest with air
-item replace entity @s[scores={shop_armor=3..}] armor.chest with golden_chestplate{display:{Name:'{"text":"金胸甲","italic":false,"color":"gray"}'}}
-item replace entity @s armor.legs with air
-item replace entity @s[scores={shop_armor=2}] armor.legs with golden_leggings{display:{Name:'{"text":"金护腿","italic":false,"color":"gray"}'}}
+# 04
+clear @s potion
+give @s[scores={shop_04_float=1}] potion{CustomPotionEffects:[{Id:25,Amplifier:1,Duration:40}],CustomPotionColor:8039610,display:{Name:'{"text":"弱效浮空药水","italic":false,"color":"gray"}'}}
+give @s[scores={shop_04_float=2}] potion{CustomPotionEffects:[{Id:25,Amplifier:1,Duration:60}],CustomPotionColor:8039610,display:{Name:'{"text":"浮空药水","italic":false,"color":"white"}'}}
+
+# 05
+clear @s wooden_axe
+clear @s golden_axe
+give @s[scores={shop_05_axe=1}] wooden_axe{display:{Name:'{"text":"木斧","italic":false,"color":"gray"}'},Damage:54}
+give @s[scores={shop_05_axe=2}] golden_axe{display:{Name:'{"text":"金斧","italic":false,"color":"gray"}'},Damage:28}
+give @s[scores={shop_05_axe=3}] golden_axe{display:{Name:'{"text":"金斧","italic":false,"color":"white"}'},Damage:25}
+
+# 06
 item replace entity @s armor.feet with air
-item replace entity @s[scores={shop_armor=1}] armor.feet with golden_boots{display:{Name:'{"text":"金靴子","italic":false,"color":"gray"}'}}
+item replace entity @s[scores={shop_06_armor=1}] armor.feet with leather_boots{display:{Name:'{"text":"皮革靴子","italic":false,"color":"gray"}'}}
+item replace entity @s[scores={shop_06_armor=2}] armor.feet with iron_boots{display:{Name:'{"text":"铁靴子","italic":false,"color":"gray"}'}}
+item replace entity @s[scores={shop_06_armor=3}] armor.feet with diamond_boots{display:{Name:'{"text":"钻石靴子","italic":false,"color":"white"}'}}
+item replace entity @s[scores={shop_06_armor=4}] armor.feet with netherite_boots{display:{Name:'{"text":"下界合金靴子","italic":false,"color":"aqua"}'}}
+
+# 07
+clear @s fishing_rod
+give @s[scores={shop_07_fish=1}] fishing_rod{display:{Name:'{"text":"钓鱼竿","italic":false,"color":"gray"}'},Damage:62}
+give @s[scores={shop_07_fish=2}] fishing_rod{display:{Name:'{"text":"钓鱼竿","italic":false,"color":"gray"}'},Damage:56}
+give @s[scores={shop_07_fish=3}] fishing_rod{display:{Name:'{"text":"<饵钓 II> 钓鱼竿","italic":false,"color":"white"}'},Damage:56,Enchantments:[{id:"minecraft:lure",lvl:2s}]}
+give @s[scores={shop_07_fish=4}] fishing_rod{display:{Name:'{"text":"<饵钓 II> 钓鱼竿","italic":false,"color":"white"}'},Damage:50,Enchantments:[{id:"minecraft:lure",lvl:2s}]}

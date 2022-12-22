@@ -25,6 +25,7 @@ gamerule announceAdvancements true
 # 主寄存区块：将所有需要不卸载的都放里面
 #   已占用：(0,0,0) (0,0,1) (0,1,0) (0,1,1)
 forceload add 0 0
+forceload add 0 1900 50 2000
 setblock 0 0 0 jukebox
 setblock 0 0 1 shulker_box
 setblock 0 1 0 minecraft:acacia_wall_sign[facing=north]
@@ -62,38 +63,10 @@ scoreboard objectives remove player_id
 scoreboard objectives add player_id dummy "玩家编号"
 scoreboard objectives remove music_time
 scoreboard objectives add music_time dummy "BGM 时间"
-scoreboard players set $ game_id 0
-scoreboard players set $ round_id 0
-
-# 商店系统记分板
-scoreboard objectives add gold dummy "金粒"
-scoreboard objectives add gold_total dummy "总金粒"
-scoreboard objectives add green dummy "绿宝石"
-scoreboard objectives add green_total dummy "总绿宝石"
-scoreboard objectives add buy_trigger trigger "触发器_购买物品"
-scoreboard objectives add shop_arrow dummy "箭升级"
-scoreboard objectives add shop_potion dummy "药水升级"
-scoreboard objectives add shop_apple dummy "苹果升级"
-scoreboard objectives add shop_armor dummy "护甲升级"
-scoreboard objectives add shop_weapon dummy "武器升级"
-scoreboard objectives add shop_orange dummy "活跃橙升级"
-scoreboard objectives add shop_potion_spd dummy "速度药水升级"
-scoreboard objectives add shop_potion_rst dummy "抗性药水升级"
-scoreboard objectives add shop_bow dummy "弓升级"
-scoreboard objectives add shop_firework dummy "烟花"
-scoreboard objectives add shop_bgm dummy "BGM"
-scoreboard objectives add shop_pig dummy "猪叫"
-scoreboard objectives add shop_easter_egg dummy "臭彩蛋"
-scoreboard objectives add shop_particle_s dummy "粒子效果系统"
-scoreboard objectives add shop_particle_2 dummy "粒子效果2"
-scoreboard objectives add shop_particle_3 dummy "粒子效果3"
-scoreboard objectives add shop_particle_4 dummy "粒子效果4"
-scoreboard objectives add shop_particle_5 dummy "粒子效果5"
-scoreboard objectives add shop_particle_6 dummy "粒子效果6"
-scoreboard objectives add particle_type dummy "粒子种类"
-scoreboard objectives add shop_dice dummy "骰子"
 scoreboard objectives add stat_total dummy "总场次"
 scoreboard objectives add stat_win dummy "总胜场"
+scoreboard players set $ game_id 0
+scoreboard players set $ round_id 0
 
 # 常量与变量初始化
 scoreboard players set #mini_total mem 5

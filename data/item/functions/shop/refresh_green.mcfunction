@@ -1,7 +1,7 @@
 # 刷新单个玩家背包中的绿宝石
 
-execute unless entity @s[scores={green=0..}] run scoreboard players set @s green 0
-execute unless entity @s[scores={green=0..}] run scoreboard players set @s green_total 0
+scoreboard players add @s green 0
+scoreboard players add @s green_total 0
 clear @s emerald_block
 clear @s emerald
 

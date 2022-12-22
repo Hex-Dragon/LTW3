@@ -5,4 +5,4 @@ execute unless data entity @s[team=playing] Inventory[{Slot:8b,tag:{lobby_item:1
 execute if data entity @s[team=playing] Inventory[{tag:{lobby_item:1b,lobby_watch:1b}}] run clear @s gray_dye{lobby_item:1b,lobby_watch:1b}
 
 # 清除临时物品
-clear @s red_dye{LockTempItem:1b}
+clear @s crimson_button{LockTempItem:1b}
