@@ -66,6 +66,8 @@ scoreboard objectives remove music_time
 scoreboard objectives add music_time dummy "BGM 时间"
 scoreboard objectives add stat_total dummy "总场次"
 scoreboard objectives add stat_win dummy "总胜场"
+scoreboard objectives remove setup_trigger
+scoreboard objectives add setup_trigger trigger "触发器_视频设置"
 scoreboard players set $ game_id 0
 scoreboard players set $ round_id 0
 

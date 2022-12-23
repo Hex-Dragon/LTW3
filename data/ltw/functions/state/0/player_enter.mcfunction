@@ -12,6 +12,8 @@ xp set @s 0 points
 xp set @s 0 levels
 
 # 开启触发器
+scoreboard players enable @s setup_trigger
+scoreboard players set @s setup_trigger 0
 scoreboard players enable @s buy_trigger
 
 # 状态效果
@@ -26,7 +28,8 @@ effect give @s weakness 1000000 4 true
 gamemode adventure @s[team=!debugging]
 
 # 传送玩家
-tp @s[team=!debugging] -10 8 -32 -113 0
+tp @s[team=!debugging,tag=pass_setup] -10 8 -32 -113 0
+tp @s[team=!debugging,tag=!pass_setup] 2.5 300.2 -52.5 0 0
 
 # 刷新物品
 clear @s[team=!debugging]

@@ -22,7 +22,7 @@ scoreboard players reset @s shop_03_apple
 
 # 04
 clear @s potion
-give @s[scores={shop_04_float=1}] potion{CustomPotionEffects:[{Id:25,Amplifier:1,Duration:40}],CustomPotionColor:8039610,display:{Name:'{"text":"弱效浮空药水","italic":false,"color":"gray"}'}}
+give @s[scores={shop_04_float=1}] potion{CustomPotionEffects:[{Id:25,Amplifier:1,Duration:40}],CustomPotionColor:8039610,display:{Name:'{"text":"浮空药水","italic":false,"color":"gray"}'}}
 give @s[scores={shop_04_float=2}] potion{CustomPotionEffects:[{Id:25,Amplifier:1,Duration:60}],CustomPotionColor:8039610,display:{Name:'{"text":"浮空药水","italic":false,"color":"white"}'}}
 
 # 05
