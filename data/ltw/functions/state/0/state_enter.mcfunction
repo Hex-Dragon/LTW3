@@ -1,6 +1,8 @@
-# 加载地图
-forceload add -32 -17 31 -80
-kill @e[type=item]
+# 清理加载区域
+forceload remove all
+forceload add 0 0
+forceload add 0 1900 50 2000
+forceload add -32 -17 45 -80
 
 # 世界边界
 worldborder set 1000000
@@ -27,17 +29,7 @@ gamerule doTileDrops false
 # 修改队伍颜色
 team modify playing color green
 
-# 加载老板
-function ltw:state/0/summon_entity
-
-# 清理加载区域
-forceload remove all
-forceload add 0 0
-forceload add 0 1900 50 2000
-
-# 启用节奏跑酷
-scoreboard players set $tempo_enable mem 1
-function ltw:state/0/parkour/tempo_block/marker_spawn
-
 # 重置开始倒计时
 scoreboard players set #start_countdown mem 9999999
+
+schedule function ltw:state/0/state_enter_2 10t replace

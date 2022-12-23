@@ -22,3 +22,8 @@ execute unless entity @e[type=armor_stand,tag=shop_particle_8,tag=lobby_entity] 
 execute unless entity @e[type=piglin,tag=shop_piglin_11,tag=lobby_entity] run kill @e[type=minecart,tag=lobby_entity]
 execute unless entity @e[type=minecart,tag=lobby_entity] run kill @e[type=piglin,tag=lobby_entity,tag=shop_piglin_11]
 execute unless entity @e[type=piglin,tag=shop_piglin_11,tag=lobby_entity] run summon minecart 4 28 -47 {Rotation:[0.0f,0.0f],Tags:["lobby_entity"],Passengers:[{id:"minecraft:piglin",Rotation:[90.0f,0.0f],Tags:["lobby_entity","shop_piglin_11"],CustomName:'{"text":"神秘老板"}',ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],PersistenceRequired:1b,IsImmuneToZombification:1b,CannotHunt:1b,HandItems:[{id:"gold_block",Count:1b},{}],HandDropChances:[0.0f,0.0f]}]}
+
+# 召唤显示测试实体
+execute unless entity @e[tag=visual_1,tag=lobby_entity] run summon armor_stand 0 300.25 -49.75 {Tags:["lobby_entity","visual_1"],DisabledSlots:7967,ArmorItems:[{},{},{},{id:"snowball",Count:1}],Invisible:1b,Small:1b,NoGravity:1b,Marker:1b,Team:"orange_test",Glowing:1b}
+execute unless entity @e[tag=visual_2,tag=lobby_entity] run summon item 44.0 300.9 -48.50 {Tags:["lobby_entity","visual_2"],Age:-32768,PickupDelay:32767,NoGravity:1,Invulnerable:1,Glowing:1,Motion:[0,0,0],Item:{id:"minecraft:stone",Count:1}}
+team join green_test @e[tag=visual_2]

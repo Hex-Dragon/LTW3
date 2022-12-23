@@ -26,6 +26,7 @@ gamerule announceAdvancements true
 #   已占用：(0,0,0) (0,0,1) (0,1,0) (0,1,1)
 forceload add 0 0
 forceload add 0 1900 50 2000
+forceload add -32 -17 45 -80
 setblock 0 0 0 jukebox
 setblock 0 0 1 shulker_box
 setblock 0 1 0 minecraft:acacia_wall_sign[facing=north]
@@ -125,6 +126,10 @@ team remove gold
 team add gold "金色"
 team modify gold color gold
 team modify gold friendlyFire false
+team add green_test "绿色（显示测试用）"
+team modify green_test color green
+team add orange_test "橙色（显示测试用）"
+team modify orange_test color gold
 
 # 世界边界
 worldborder warning distance 0
