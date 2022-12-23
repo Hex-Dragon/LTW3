@@ -4,6 +4,7 @@ forceload add 1000 1000 1064 1064
 scoreboard players reset * treasure
 scoreboard players set $finish_mode mem 1
 scoreboard players set $tempo_enable mem 1
+scoreboard players set $show_score mem 0
 scoreboard players set $countdown_fast mem 0
 scoreboard players set $survival mem 0
 

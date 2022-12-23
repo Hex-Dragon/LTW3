@@ -63,10 +63,10 @@ execute if score #count mem matches ..2 run scoreboard players set #rank3_gold m
 execute if score #count mem matches ..2 run scoreboard players set #rankl_gold mem 0
 
 # 显示排名
-tellraw @a ["",{"text":"\n------  全部游戏结束！ ------\n","color":"light_purple","bold":true}]
-tellraw @a ["  ",{"text": "第一名 - ","color":"red"},{"selector": "@a[tag=total_rank1]","color":"red"},{"text":" （","color":"gray"},{"score":{"name": "@p[tag=total_rank1]","objective": "total_score"},"color":"gray"},{"text":" 积分）","color":"gray"}]
-execute if entity @a[tag=total_rank2] run tellraw @a ["  ",{"text": "第二名 - ","color":"gold"},{"selector": "@a[tag=total_rank2]","color":"gold"},{"text":" （","color":"gray"},{"score":{"name": "@p[tag=total_rank2]","objective": "total_score"},"color":"gray"},{"text":" 积分）","color":"gray"}]
-execute if entity @a[tag=total_rank3] run tellraw @a ["  ",{"text": "第三名 - ","color":"yellow"},{"selector": "@a[tag=total_rank3]","color":"yellow"},{"text":" （","color":"gray"},{"score":{"name": "@p[tag=total_rank3]","objective": "total_score"},"color":"gray"},{"text":" 积分）","color":"gray"}]
+tellraw @a ["",{"text":"\n------  全场游戏结束！ ------\n","color":"light_purple","bold":true}]
+tellraw @a ["  ",{"text": "第一名 >  ","color":"red"},{"selector": "@a[tag=total_rank1]","color":"red"},{"text":"（","color":"gray"},{"score":{"name": "@p[tag=total_rank1]","objective": "total_score"},"color":"gray"},{"text":" 积分）","color":"gray"}]
+execute if entity @a[tag=total_rank2] run tellraw @a ["  ",{"text": "第二名 >  ","color":"gold"},{"selector": "@a[tag=total_rank2]","color":"gold"},{"text":"（","color":"gray"},{"score":{"name": "@p[tag=total_rank2]","objective": "total_score"},"color":"gray"},{"text":" 积分）","color":"gray"}]
+execute if entity @a[tag=total_rank3] run tellraw @a ["  ",{"text": "第三名 >  ","color":"yellow"},{"selector": "@a[tag=total_rank3]","color":"yellow"},{"text":"（","color":"gray"},{"score":{"name": "@p[tag=total_rank3]","objective": "total_score"},"color":"gray"},{"text":" 积分）","color":"gray"}]
 tellraw @a ""
 
 # 积分金粒奖励

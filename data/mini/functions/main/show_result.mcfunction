@@ -1,5 +1,16 @@
-# 显示小游戏排名并给分
+# 显示小游戏排名
+tellraw @s ["",{"text":"\n------  小游戏结束！ ------\n","color":"light_purple","bold":true}]
 
-execute if entity @a[tag=mini_rank2] if entity @a[tag=mini_rank3] run tellraw @s [{"text":"\n >> 小游戏结束 >>\n\n","color":"gold","bold":true},{"text": " 第一名 - ","color":"green","bold": false},{"selector": "@a[tag=mini_rank1]","color":"white","bold": false},{"text": "\n 第二名 - ","color":"green","bold": false},{"selector": "@a[tag=mini_rank2]","color":"white","bold": false},{"text": "\n 第三名 - ","color":"green","bold": false},{"selector": "@a[tag=mini_rank3]","color":"white","bold": false},"\n"]
-execute if entity @a[tag=mini_rank2] unless entity @a[tag=mini_rank3] run tellraw @s [{"text":"\n >> 小游戏结束 >>\n\n","color":"gold","bold":true},{"text": " 第一名 - ","color":"green","bold": false},{"selector": "@a[tag=mini_rank1]","color":"white","bold": false},{"text": "\n 第二名 - ","color":"green","bold": false},{"selector": "@a[tag=mini_rank2]","color":"white","bold": false},"\n"]
-execute unless entity @a[tag=mini_rank2] run tellraw @s [{"text":"\n >> 小游戏结束 >>\n\n","color":"gold","bold":true},{"text": " 第一名 - ","color":"green","bold": false},{"selector": "@a[tag=mini_rank1]","color":"white","bold": false},"\n"]
+# 1
+execute if score $show_score mem matches 1 run tellraw @s ["  ",{"text": "第一名 >  ","color":"red"},{"selector": "@a[tag=mini_rank1]","color":"red"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=mini_rank1]","objective": "mini_score"},"color":"gray"},{"text":")","color":"gray"}]
+execute if score $show_score mem matches 0 run tellraw @s ["  ",{"text": "第一名 >  ","color":"red"},{"selector": "@a[tag=mini_rank1]","color":"red"}]
+
+# 2
+execute if score $show_score mem matches 1 if entity @a[tag=mini_rank2] run tellraw @s ["  ",{"text": "第二名 >  ","color":"gold"},{"selector": "@a[tag=mini_rank2]","color":"gold"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=mini_rank2]","objective": "mini_score"},"color":"gray"},{"text":")","color":"gray"}]
+execute if score $show_score mem matches 0 if entity @a[tag=mini_rank2] run tellraw @s ["  ",{"text": "第二名 >  ","color":"gold"},{"selector": "@a[tag=mini_rank2]","color":"gold"}]
+
+# 3
+execute if score $show_score mem matches 1 if entity @a[tag=mini_rank3] run tellraw @s ["  ",{"text": "第三名 >  ","color":"yellow"},{"selector": "@a[tag=mini_rank3]","color":"yellow"},{"text":" (","color":"gray"},{"score":{"name": "@p[tag=mini_rank3]","objective": "mini_score"},"color":"gray"},{"text":")","color":"gray"}]
+execute if score $show_score mem matches 0 if entity @a[tag=mini_rank3] run tellraw @s ["  ",{"text": "第三名 >  ","color":"yellow"},{"selector": "@a[tag=mini_rank3]","color":"yellow"}]
+
+tellraw @s ""
