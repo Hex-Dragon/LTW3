@@ -17,6 +17,6 @@ scoreboard players operation @a[tag=highest] total_score -= #bonus_stole_score m
 scoreboard players operation @a[tag=highest] total_score_disp -= #bonus_stole_score mem
 
 # 显示提示
-execute if entity @s[tag=highest] run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 没能偷到任何人的分数……"]
-execute if entity @s[tag=!highest] run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"selector": "@a[tag=highest]","color":"red"}," 被偷取了 ",{"score": {"name": "#bonus_stole_score","objective": "mem"},"color":"red"},{"text": " 积分","color":"red"},", 当前共有 ",{"score": {"name": "@a[tag=highest,limit=1]","objective": "total_score"}}, " 积分"]
-execute if entity @s[tag=!highest] run tellraw @a ["",{"text": ">> ","color":"green","bold": true},{"selector": "@s","color":"green"}," 偷取了 ",{"score": {"name": "#bonus_stole_score","objective": "mem"},"color":"green"},{"text": " 积分","color":"green"},", 当前共有 ",{"score": {"name": "@s","objective": "total_score"}}, " 积分"]
+execute if entity @s[tag=highest] run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 保护住了自己的分数！"]
+execute if entity @s[tag=!highest] run tellraw @a ["",{"text": ">> ","color":"green","bold": true},{"selector": "@s","color":"green"}," 偷到了 ",{"score": {"name": "#bonus_stole_score","objective": "mem"},"color":"green"},{"text": " 积分","color":"green"},", 当前共有 ",{"score": {"name": "@s","objective": "total_score"}}, " 积分"]
+execute if entity @s[tag=!highest] run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"selector": "@p[tag=highest]","color":"red"}," 被偷走了 ",{"score": {"name": "#bonus_stole_score","objective": "mem"},"color":"red"},{"text": " 积分","color":"red"},", 当前还剩 ",{"score": {"name": "@p[tag=highest]","objective": "total_score"}}, " 积分"]
