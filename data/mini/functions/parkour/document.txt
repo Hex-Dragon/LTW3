@@ -1,43 +1,42 @@
 营地：
-/execute in minecraft:overworld run tp @s 1004.49 8.20 1016.49 -448.22 90.00 S
-/execute in minecraft:overworld run tp @s 1006.49 8.06 1007.02 -502.67 30.15
-/execute in minecraft:overworld run tp @s 1007.57 14.00 1007.52 -800.12 24.60
-/execute in minecraft:overworld run tp @s 1017.51 11.00 1002.49 -901.52 90.00
-/execute in minecraft:overworld run tp @s 1026.52 18.00 1009.47 -654.02 71.55
-/execute in minecraft:overworld run tp @s 1012.49 17.00 1017.49 -801.32 10.80 S
-/execute in minecraft:overworld run tp @s 1020.51 17.00 1008.49 -714.92 87.90 Y
+1004.5 08.5 1016.5 S
+1006.5 08.5 1007.0 
+1007.5 14.5 1007.5 
+1017.5 13.2 1002.5 
+1026.5 19.2 1009.5 
+1012.5 17.5 1017.5 S
+1020.5 18.5 1008.5 Y
 红柱：
-/execute in minecraft:overworld run tp @s 1023.45 23.00 1029.51 -541.67 12.75
-/execute in minecraft:overworld run tp @s 1023.55 27.00 1026.53 -564.77 12.90
-/execute in minecraft:overworld run tp @s 1030.49 24.00 1020.50 -549.47 86.40
-/execute in minecraft:overworld run tp @s 1021.52 7.00 1025.53 -379.67 32.55
-/execute in minecraft:overworld run tp @s 1018.49 12.00 1025.45 -378.92 29.40 S
+1023.5 24.2 1030.5 
+1023.5 27.5 1026.5 
+1030.5 25.2 1020.5
+1018.5 12.5 1025.5 S
 活板：
-/execute in minecraft:overworld run tp @s 1028.00 17.00 1036.53 -846.46 82.05
-/execute in minecraft:overworld run tp @s 1025.56 8.00 1040.40 -1110.01 73.65 S
-/execute in minecraft:overworld run tp @s 1020.54 18.00 1041.50 -583.21 75.00
+1028.5 19.2 1036.5
+1025.5 09.5 1040.5 S
+1020.5 19.5 1041.5
 落日：
-/execute in minecraft:overworld run tp @s 1026.50 21.00 1059.51 -1087.06 90.00
-/execute in minecraft:overworld run tp @s 1023.50 11.00 1053.47 -1487.11 19.05 S
-/execute in minecraft:overworld run tp @s 1020.49 20.00 1051.52 -1098.46 11.55
-/execute in minecraft:overworld run tp @s 1030.55 20.50 1054.47 -1353.76 44.85
-/execute in minecraft:overworld run tp @s 1027.53 9.00 1054.42 -1349.11 43.95 S
+1026.5 23.2 1059.5 
+1023.5 11.5 1053.5 S
+1020.5 22.2 1051.5 
+1030.5 22.2 1054.5 
+1027.5 09.5 1054.5 S
 水柱：
-/execute in minecraft:overworld run tp @s 1016.46 27.00 1029.49 -620.87 16.35
-/execute in minecraft:overworld run tp @s 1006.55 32.00 1019.54 -721.52 89.55 Y
-/execute in minecraft:overworld run tp @s 1001.45 27.00 1016.50 -394.82 21.90
-/execute in minecraft:overworld run tp @s 1002.43 27.00 1025.44 -790.82 22.50
-/execute in minecraft:overworld run tp @s 1011.45 29.00 1033.49 -853.07 52.65 Y
+1016.5 27.5 1029.5 
+1009.0 32.0 1020.5 Y
+1001.5 27.5 1016.5 
+1002.5 27.5 1025.5 
+1010.5 30.0 1031.5 Y
 下界：
-/execute in minecraft:overworld run tp @s 1011.52 21.00 1061.43 -631.51 19.20 S-
-/execute in minecraft:overworld run tp @s 1001.58 10.88 1048.46 340.04 -2.70
-/execute in minecraft:overworld run tp @s 1014.48 14.00 1048.54 84.44 32.70
-/execute in minecraft:overworld run tp @s 1011.51 17.00 1051.48 71.09 72.15
+1011.5 21.5 1061.5 S-
+1001.5 11.5 1048.5 
+1014.5 15.5 1048.5 
+1011.5 17.5 1051.5 
 活塞：
-/execute in minecraft:overworld run tp @s 1021.57 30.00 1034.47 -729.76 -4.95
-/execute in minecraft:overworld run tp @s 1010.51 28.00 1043.53 -154.51 11.55
-/execute in minecraft:overworld run tp @s 1015.03 27.00 1033.50 -326.41 22.95
-/execute in minecraft:overworld run tp @s 1019.49 27.00 1053.48 -720.91 31.05
+1021.5 31.2 1033.5 
+1010.5 28.0 1043.5 
+1015.0 28.0 1033.5 
+1019.5 28.0 1053.5 
 节奏：
-/execute in minecraft:overworld run tp @s 1015.00 14.00 1029.96 122.09 28.80 S-
-/execute in minecraft:overworld run tp @s 1013.50 14.00 1032.46 -298.06 29.10
+1015.0 14.5 1030.0 S-
+1013.5 14.5 1038.0 
