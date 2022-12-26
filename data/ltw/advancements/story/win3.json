@@ -2,15 +2,15 @@
     "parent": "ltw:story/win2",
     "display": {
       "icon": {
-        "item": "minecraft:enchanted_golden_apple"
+        "item": "minecraft:wither_skeleton_skull"
       },
       "title": {
-        "text": "弱者为何要战斗"
+        "text": " 无人能敌 · γ "
       },
       "description": [
-        {"text": "获得 20 场游戏的胜利\n", "color":"gray"},
+        {"text": "获得 10 场游戏的胜利\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
-        {"text": "4 绿宝石","color":"white"}
+        {"text": "3 绿宝石","color":"white"}
       ],
       "frame": "challenge",
       "show_toast": true,
@@ -18,7 +18,7 @@
       "hidden": false
     },
     "rewards": {
-      "function": "ltw:advancement/bonus_4"
+      "function": "ltw:advancement/bonus_3"
     },
     "criteria": {
       "get_score":{

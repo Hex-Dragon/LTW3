@@ -1,16 +1,16 @@
 {
-  "parent": "ltw:parkour/tnt1",
+  "parent": "ltw:parkour/root",
   "display": {
     "icon": {
-      "item": "minecraft:warped_hyphae"
+      "item": "minecraft:dead_fire_coral_block"
     },
     "title": {
-      "text": " 圣坛之主 · β "
+      "text": " 圣坛之主 · α "
     },
     "description": [
-      {"text": "【地陷圣坛】从最底层返回最顶层\n", "color":"gray"},
+      {"text": "【地陷圣坛】在不位于最底层时获胜\n", "color":"gray"},
       {"text": "奖励: ","color":"green"},
-      {"text": "2 绿宝石","color":"white"}
+      {"text": "1 绿宝石","color":"white"}
     ],
     "frame": "task",
     "show_toast": true,
@@ -18,7 +18,7 @@
     "hidden": false
   },
   "rewards": {
-    "function": "ltw:advancement/bonus_2"
+    "function": "ltw:advancement/bonus_1"
   },
   "criteria": {
     "get_score":{

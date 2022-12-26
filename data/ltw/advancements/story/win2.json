@@ -2,13 +2,13 @@
     "parent": "ltw:story/win1",
     "display": {
       "icon": {
-        "item": "minecraft:golden_apple"
+        "item": "minecraft:skeleton_skull"
       },
       "title": {
-        "text": "常胜将军      "
+        "text": " 无人能敌 · β "
       },
       "description": [
-        {"text": "获得 5 场游戏的胜利\n", "color":"gray"},
+        {"text": "获得 4 场游戏的胜利\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "2 绿宝石","color":"white"}
       ],

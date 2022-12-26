@@ -29,8 +29,9 @@ tag @a[team=playing,tag=!total_rank1,tag=!total_rank2,tag=!total_rank3] add tota
 scoreboard players add @a[team=playing] stat_total 1
 scoreboard players add @a[tag=total_rank1] stat_win 1
 advancement grant @a[scores={stat_win=1..}] only ltw:story/win1
-advancement grant @a[scores={stat_win=5..}] only ltw:story/win2
-advancement grant @a[scores={stat_win=20..}] only ltw:story/win3
+advancement grant @a[scores={stat_win=4..}] only ltw:story/win2
+advancement grant @a[scores={stat_win=10..}] only ltw:story/win3
+advancement grant @a[scores={stat_win=25..}] only ltw:story/win4
 
 # 计算金粒奖励
 scoreboard players set #total_gold mem 0

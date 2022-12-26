@@ -2,10 +2,10 @@
     "parent": "ltw:story/root",
     "display": {
       "icon": {
-        "item": "minecraft:apple"
+        "item": "minecraft:player_head"
       },
       "title": {
-        "text": "初尝胜果      "
+        "text": " 无人能敌 · α "
       },
       "description": [
         {"text": "获得 1 场游戏的胜利\n", "color":"gray"},
@@ -30,4 +30,4 @@
           "get_score"
       ]
     ]
-  }
+}

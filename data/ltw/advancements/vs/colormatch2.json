@@ -1,24 +1,24 @@
 {
-    "parent": "ltw:parkour/colormatch2",
+    "parent": "ltw:vs/colormatch1",
     "display": {
       "icon": {
-        "item": "minecraft:purple_glazed_terracotta"
+        "item": "minecraft:red_glazed_terracotta"
       },
       "title": {
-        "text": " 纷乱迷阵 · γ "
+        "text": " 纷乱迷阵 · β "
       },
       "description": [
-        {"text": "色彩迷阵中，在满速切换后获胜，且不损失任何生命值\n", "color":"gray"},
+        {"text": "【色彩迷阵】在满速切换后获胜，且剩余至少 2 颗心\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
-        {"text": "3 绿宝石","color":"white"}
+        {"text": "2 绿宝石","color":"white"}
       ],
-      "frame": "challenge",
+      "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
     "rewards": {
-      "function": "ltw:advancement/bonus_3"
+      "function": "ltw:advancement/bonus_2"
     },
     "criteria": {
       "get_score":{
