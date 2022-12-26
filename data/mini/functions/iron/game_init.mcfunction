@@ -3,7 +3,6 @@ forceload add 1000 5000 1064 5064
 
 scoreboard players reset * iron_count
 scoreboard players reset * iron_disp
-scoreboard players set $finish_mode mem 0
 scoreboard players set $show_score mem 1
 scoreboard players set $survival mem 1
 

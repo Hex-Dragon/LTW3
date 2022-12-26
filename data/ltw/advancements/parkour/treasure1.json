@@ -2,13 +2,13 @@
     "parent": "ltw:parkour/root",
     "display": {
       "icon": {
-        "item": "minecraft:oak_leaves"
+        "item": "minecraft:iron_boots"
       },
       "title": {
-        "text": "宝藏学徒      "
+        "text": "争分夺秒 · α      "
       },
       "description": [
-        {"text": "在遗迹寻宝中收集 4 处宝藏\n", "color":"gray"},
+        {"text": "在遗迹寻宝中，于 100 秒内到达终点\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "1 绿宝石","color":"white"}
       ],

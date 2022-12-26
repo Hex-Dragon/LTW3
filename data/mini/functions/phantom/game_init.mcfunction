@@ -1,7 +1,6 @@
 # 初始化幻翼地图
 forceload add 1000 6000 1064 6064
 
-scoreboard players set $finish_mode mem 0
 scoreboard players set $show_score mem 1
 scoreboard players set $survival mem 0
 scoreboard players reset * kill_phantom

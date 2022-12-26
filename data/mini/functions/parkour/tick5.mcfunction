@@ -1,7 +1,5 @@
 # 回城营火
-execute as @a[tag=mini_running,x=1005,y=11,z=1018,dx=2,dy=3,dz=2] at @s run tag @s remove parkour_portal
-execute as @a[tag=mini_running,x=1005,y=11,z=1018,dx=2,dy=3,dz=2] at @s run function lib:sounds/teleport
-execute as @a[tag=mini_running,x=1005,y=11,z=1018,dx=2,dy=3,dz=2] at @s run tp ~5 ~-4 ~-12
+execute as @a[team=playing,x=1005,y=11,z=1018,dx=2,dy=3,dz=2] at @s run function mini:parkour/game/on_finish
 
 # 掉落方块保持
 execute as @e[type=falling_block,tag=parkour_block] run data modify entity @s Time set value 1

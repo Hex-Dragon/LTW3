@@ -1,7 +1,6 @@
 # 初始化刺客地图
 forceload add 1000 7000 1032 7032
 
-scoreboard players set $finish_mode mem 0
 scoreboard players set $countdown_fast mem 0
 scoreboard players set $show_score mem 0
 scoreboard players set $survival mem 0

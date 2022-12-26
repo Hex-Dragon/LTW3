@@ -4,7 +4,6 @@ setblock 1049 10 3999 minecraft:structure_block[mode=load]{metadata:"",mirror:"N
 setblock 1049 11 3999 redstone_block
 
 # 初始化
-scoreboard players set $finish_mode mem 0
 scoreboard players set $survival mem 0
 scoreboard players set $show_score mem 0
 scoreboard players set $color_match_time mem 60

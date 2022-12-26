@@ -2,13 +2,13 @@
     "parent": "ltw:parkour/treasure2",
     "display": {
       "icon": {
-        "item": "minecraft:ender_chest"
+        "item": "minecraft:netherite_boots"
       },
       "title": {
-        "text": "不做选择题    "
+        "text": "争分夺秒 · γ    "
       },
       "description": [
-        {"text": "在遗迹寻宝中收集全部宝藏\n", "color":"gray"},
+        {"text": "在遗迹寻宝中，于 40 秒内到达终点\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "3 绿宝石","color":"white"}
       ],
