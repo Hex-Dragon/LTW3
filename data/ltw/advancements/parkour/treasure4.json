@@ -1,0 +1,30 @@
+{
+    "parent": "ltw:parkour/treasure3",
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_boots",
+        "nbt": "{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}"
+      },
+      "title": {
+        "text": " 争分夺秒 · Ω "
+      },
+      "description": [
+        {"text": "遗迹寻宝中，在 33 秒内到达终点\n", "color":"gray"},
+        {"text": "究极隐藏挑战！","color":"dark_gray","italic": true}
+      ],
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "criteria": {
+      "get_score":{
+          "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+          "get_score"
+      ]
+    ]
+  }

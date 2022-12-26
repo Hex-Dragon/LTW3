@@ -5,10 +5,10 @@
         "item": "minecraft:iron_boots"
       },
       "title": {
-        "text": "争分夺秒 · α      "
+        "text": " 争分夺秒 · α "
       },
       "description": [
-        {"text": "在遗迹寻宝中，于 100 秒内到达终点\n", "color":"gray"},
+        {"text": "遗迹寻宝中，在 100 秒内到达终点\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "1 绿宝石","color":"white"}
       ],

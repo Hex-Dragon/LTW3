@@ -9,6 +9,7 @@ function mini:colormatch/give_effect
 # 设置玩家生命
 scoreboard players set @s[team=playing,tag=!rejoining] mini_heart 3
 function mini:main/player_max_health
+tag @s remove colormatch_hurt
 
 # 传送玩家
 tp @s[team=playing,tag=!rejoining] 1062 19 4012

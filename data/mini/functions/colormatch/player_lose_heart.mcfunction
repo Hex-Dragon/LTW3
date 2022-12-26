@@ -2,6 +2,7 @@
 tellraw @a ["",{"text":">> ","color":"gold","bold": true},{"selector":"@s","color":"gold"}," 掉入了陷阱!"]
 
 # 失去一颗心
+tag @s add colormatch_hurt
 function mini:main/player_lose_heart
 function lib:sounds/error
 

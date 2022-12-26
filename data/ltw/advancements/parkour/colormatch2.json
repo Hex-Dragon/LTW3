@@ -1,14 +1,14 @@
 {
-    "parent": "ltw:parkour/root",
+    "parent": "ltw:parkour/colormatch1",
     "display": {
       "icon": {
-        "item": "minecraft:yellow_glazed_terracotta"
+        "item": "minecraft:red_glazed_terracotta"
       },
       "title": {
-        "text": "纷乱迷阵      "
+        "text": " 纷乱迷阵 · β "
       },
       "description": [
-        {"text": "在色彩迷阵中达到最高速度, 并最终获胜\n", "color":"gray"},
+        {"text": "色彩迷阵中，在满速切换后获胜，且剩余至少 2 颗心\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "2 绿宝石","color":"white"}
       ],
