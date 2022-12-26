@@ -11,6 +11,7 @@ gamerule doFireTick false
 gamerule doMobSpawning false
 gamerule keepInventory true
 gamerule doWeatherCycle false
+gamerule reducedDebugInfo true
 gamerule doImmediateRespawn true
 gamerule mobGriefing false
 gamerule randomTickSpeed 0
