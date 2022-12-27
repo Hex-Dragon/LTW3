@@ -5,10 +5,10 @@
         "item": "minecraft:map"
       },
       "title": {
-        "text": "分数猎手      "
+        "text": "积分猎手 · β "
       },
       "description": [
-        {"text": "在单局游戏中达到 18 积分\n", "color":"gray"},
+        {"text": "在单局游戏中达到 20 积分\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "2 绿宝石","color":"white"}
       ],

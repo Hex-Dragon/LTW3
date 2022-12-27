@@ -21,5 +21,6 @@ execute if score #bonus_add_score mem matches 101 if score $random mem matches 0
 
 # 给予进度
 execute if entity @s[scores={total_score=10..}] run advancement grant @s only ltw:story/score1
-execute if entity @s[scores={total_score=18..}] run advancement grant @s only ltw:story/score2
-execute if entity @s[scores={total_score=26..}] run advancement grant @s only ltw:story/score3
+execute if entity @s[scores={total_score=20..}] run advancement grant @s only ltw:story/score2
+execute if entity @s[scores={total_score=30..}] run advancement grant @s only ltw:story/score3
+execute if entity @s[scores={total_score=40..}] run advancement grant @s only ltw:story/score4

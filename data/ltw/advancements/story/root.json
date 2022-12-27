@@ -1,10 +1,10 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:flower_banner_pattern"
+        "item": "minecraft:book"
       },
       "title": {
-        "text":"履历"
+        "text":"荣誉之路"
       },
       "description": [
         {"text": "", "color":"gray"}

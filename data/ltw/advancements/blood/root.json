@@ -1,10 +1,10 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:wooden_sword"
+        "item": "minecraft:crossbow"
       },
       "title": {
-        "text":"战斗"
+        "text":"金铁交鸣"
       },
       "description": [
         {"text": "", "color":"gray"}

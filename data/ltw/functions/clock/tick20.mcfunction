@@ -11,9 +11,6 @@ execute if score $state mem matches 6 run function ltw:state/6/tick20
 execute if score $state mem matches 7 run function ltw:state/7/tick20
 function lib:sounds/music/tick20
 
-# 特殊方块给予效果
-function lib:effect/regen
-
 # 全局倒计时
 execute if score $countdown mem matches 1.. run scoreboard players remove $countdown mem 1
 scoreboard players remove @e[scores={countdown=1..}] countdown 1

@@ -1,10 +1,10 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:wooden_axe"
+        "item": "minecraft:fishing_rod"
       },
       "title": {
-        "text":"竞技"
+        "text":"百般绝学"
       },
       "description": [
         {"text": "", "color":"gray"}

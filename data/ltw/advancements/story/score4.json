@@ -1,15 +1,14 @@
 {
-    "parent": "ltw:parkour/treasure3",
+    "parent": "ltw:story/score3",
     "display": {
       "icon": {
-        "item": "minecraft:netherite_boots",
-        "nbt": "{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}"
+        "item": "minecraft:nether_star"
       },
       "title": {
-        "text": "争分夺秒 · Ω "
+        "text": "积分猎手 · Ω "
       },
       "description": [
-        {"text": "【遗迹寻宝】在 33 秒内到达终点\n", "color":"gray"},
+        {"text": "在单局游戏中达到 40 积分\n", "color":"gray"},
         {"text": "究极隐藏挑战！","color":"dark_gray","italic": true}
       ],
       "frame": "challenge",

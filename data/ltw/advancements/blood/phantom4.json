@@ -1,15 +1,14 @@
 {
-    "parent": "ltw:parkour/treasure3",
+    "parent": "ltw:blood/phantom3",
     "display": {
       "icon": {
-        "item": "minecraft:netherite_boots",
-        "nbt": "{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}"
+        "item": "minecraft:red_bed"
       },
       "title": {
-        "text": "争分夺秒 · Ω "
+        "text": "不再有梦 · Ω "
       },
       "description": [
-        {"text": "【遗迹寻宝】在 33 秒内到达终点\n", "color":"gray"},
+        {"text": "【月夜狩猎】击杀 32 只幻翼\n", "color":"gray"},
         {"text": "究极隐藏挑战！","color":"dark_gray","italic": true}
       ],
       "frame": "challenge",
