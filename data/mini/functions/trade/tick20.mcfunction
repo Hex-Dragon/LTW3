@@ -2,14 +2,17 @@
 # 更新绿宝石数量
 execute as @a[team=playing] store result score @s emerald run clear @s emerald 0
 
-# 刷新交易
-execute as @e[type=villager,tag=TradePlayer] run function mini:trade/game/villager_update_trade
-
 # 显示倒计时
 execute if score $countdown mem matches ..10 run title @a times 3 14 2
 execute if score $countdown mem matches ..10 run title @a subtitle {"score":{"name":"$countdown","objective":"mem"}}
 execute if score $countdown mem matches ..10 run title @a title [""]
 execute if score $countdown mem matches ..10 as @a at @s run function lib:sounds/hit2
+
+# 升级
+execute as @e[tag=TradePlayer] run function mini:trade/game/villager_try_level_up
+
+# 移除空交易
+execute as @e[tag=TradePlayer,x=999,y=0,z=4999,dx=500,dy=200,dz=500,nbt={Offers:{Recipes:[{uses:1}]}}] run function mini:trade/game/remove_trade
 
 # 0s：游戏结束
 execute if score $countdown mem matches 0 run function mini:main/game_end
@@ -20,11 +23,8 @@ execute if score $foursec mem matches 1 run schedule function mini:trade/game/cl
 
 # 更新下界之星，转换为积分
 scoreboard players reset * temp2
-execute as @a[team=playing] store result score @s temp2 run clear @s nether_star 0
-execute as @a[scores={temp2=1..}] run scoreboard players operation @s total_score += @s temp2
-execute as @a[scores={temp2=1..}] run scoreboard players operation @s total_score_disp += @s temp2
-execute as @a[scores={temp2=1..}] run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 从交易中获得了 ",{"score": {"name":"@s","objective": "temp2"},"color":"aqua"},{"text": " 积分","color":"aqua"},", 当前共有 ",{"score": {"name": "@s","objective": "total_score"}}, " 积分"]
-clear @a[team=playing] nether_star
+execute as @a[team=playing] store result score @s temp2 run clear @s nether_star
+execute as @a[scores={temp2=1..}] at @s run function mini:trade/game/get_score
 
 # 60s 提示
 execute if score $countdown mem matches 60 run tellraw @a ["",{"text": ">> ","color": "gold","bold": true},{"text":"游戏将在 ","color": "gold"}, "60 秒 ",{"text": "后结束","color": "gold"}]
@@ -33,4 +33,6 @@ execute if score $countdown mem matches 60 run function lib:bossbar/show
 
 # 给予进度
 execute as @a[team=playing] if score @s emerald matches 8.. run advancement grant @s only ltw:vs/emerald1
-execute as @a[team=playing] if score @s emerald matches 12.. run advancement grant @s only ltw:vs/emerald2
+execute as @e[tag=TradePlayer,tag=!adv3_checked] store success score @s temp run data get entity @s Offers.Recipes[0]
+execute as @a[team=playing] if score @s player_id = @e[tag=TradePlayer,scores={temp=0},tag=!adv3_checked,limit=1] player_id run advancement grant @s only ltw:vs/emerald3
+tag @e[tag=TradePlayer,scores={temp=0},tag=!adv3_checked] add adv3_checked

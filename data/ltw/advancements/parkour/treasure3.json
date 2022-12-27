@@ -21,13 +21,8 @@
       "function": "ltw:advancement/bonus_3"
     },
     "criteria": {
-      "get_score":{
+      "a":{
           "trigger": "minecraft:impossible"
       }
-    },
-    "requirements": [
-      [
-          "get_score"
-      ]
-    ]
+    }
   }

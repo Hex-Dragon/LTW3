@@ -5,10 +5,10 @@
         "item": "minecraft:emerald"
       },
       "title": {
-        "text": "商业鬼才        "
+        "text": " 商业奇迹 · α "
       },
       "description": [
-        {"text": "在贸易专家中获得 8 个绿宝石\n", "color":"gray"},
+        {"text": "【贸易专家】持有 8 个绿宝石\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "1 绿宝石","color":"white"}
       ],
@@ -21,13 +21,8 @@
       "function": "ltw:advancement/bonus_1"
     },
     "criteria": {
-      "get_score":{
+      "a":{
           "trigger": "minecraft:impossible"
       }
-    },
-    "requirements": [
-      [
-          "get_score"
-      ]
-    ]
+    }
   }

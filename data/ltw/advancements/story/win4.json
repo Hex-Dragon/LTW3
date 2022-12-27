@@ -17,13 +17,8 @@
       "hidden": true
     },
     "criteria": {
-      "get_score":{
+      "a":{
           "trigger": "minecraft:impossible"
       }
-    },
-    "requirements": [
-      [
-          "get_score"
-      ]
-    ]
+    }
   }

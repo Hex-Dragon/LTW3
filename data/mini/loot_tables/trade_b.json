@@ -9,11 +9,11 @@
     "pools": [{"rolls": 1,"entries": [
         {
             "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
-                "tag": "{buy:{id:\"stone_pickaxe\",Count:1}}"
+                "tag": "{buy:{id:\"stone_axe\",Count:1}}"
             }, { "function": "set_nbt",
                 "tag":"{sell:{id:\"emerald\",Count:1}}"
             }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
-                "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:stone_pickaxe\"}}]}}"
+                "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:stone_axe\"}}]}}"
             }}}]
         },
         {
@@ -45,7 +45,7 @@
         },
         {
             "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
-                "tag": "{buy:{id:\"coal\",Count:3}}"
+                "tag": "{buy:{id:\"coal\",Count:1}}"
             }, { "function": "set_nbt",
                 "tag":"{sell:{id:\"emerald\",Count:1}}"
             }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
