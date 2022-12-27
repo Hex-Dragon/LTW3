@@ -23,3 +23,9 @@ execute if score $countdown mem matches 0 run function mini:main/game_end
 # 回复生命值
 execute if score $foursec mem matches 1 run effect give @a[team=playing] regeneration 1 10 true
 execute if score $foursec mem matches 1 run schedule function mini:iron/game/clear_effect 1t replace
+
+# 给予进度
+advancement grant @a[team=playing,scores={iron_count=15..}] only ltw:blood/iron1
+advancement grant @a[team=playing,scores={iron_count=25..}] only ltw:blood/iron2
+advancement grant @a[team=playing,scores={iron_count=35..}] only ltw:blood/iron3
+advancement grant @a[team=playing,scores={iron_count=50..}] only ltw:blood/iron4
