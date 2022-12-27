@@ -1,12 +1,12 @@
 gamerule doDaylightCycle true
-scoreboard players set $countdown mem 270
+scoreboard players set $countdown mem 240
 
 # HUD
 scoreboard objectives setdisplay list total_score_disp
-scoreboard objectives setdisplay belowName health_disp
+scoreboard objectives setdisplay belowName iron_count
 scoreboard objectives setdisplay sidebar iron_disp
 scoreboard players set $bossbar_color mem 4
-scoreboard players set $countdown_max mem 270
+scoreboard players set $countdown_max mem 240
 scoreboard players set $bossbar_type mem 2
 function lib:bossbar/show
 bossbar set mini:red name "剩余时间"

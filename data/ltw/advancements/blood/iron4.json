@@ -1,0 +1,24 @@
+{
+    "parent": "ltw:blood/iron3",
+    "display": {
+      "icon": {
+        "item": "minecraft:anvil"
+      },
+      "title": {
+        "text": "铁血大亨 · Ω "
+      },
+      "description": [
+        {"text": "【钢铁狂潮】拥有 50 块铁锭\n", "color":"gray"},
+        {"text": "究极隐藏挑战！","color":"dark_gray","italic": true}
+      ],
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "a":{
+          "trigger": "minecraft:impossible"
+      }
+    }
+  }

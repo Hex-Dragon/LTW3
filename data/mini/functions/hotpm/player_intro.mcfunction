@@ -1,8 +1,4 @@
 # 向单个玩家展示小游戏介绍
 tp @s[team=!debugging] 1029 15 3007.77 -290.29 32.65
-tellraw @s ["",{"text":"\n >> 炸弹狂魔 >>\n\n","color":"gold","bold":true}, " 在炸弹爆炸前攻击他人, 将炸弹扔到其他人身上!\n"]
-tellraw @s ["",{"text": " <生命淘汰制> ","color":"red","bold": true}, {"text":"你有 3 条生命, 生命耗尽后即被淘汰。","color":"gray"}]
-tellraw @s ["",{"text": " <PVP> ","color":"light_purple","bold": true}, {"text":"攻击其他玩家可以转移炸弹, 远程伤害同样有效。","color":"gray"}]
-tellraw @s ""
-
+tellraw @s ["",{"text":"\n >> 炸弹狂魔 >>\n\n","color":"gold","bold":true}," 炸弹会在一段时间后爆炸！\n 在持有炸弹时, 只要 ",{"text":"攻击其他人","color":"gold"}," 就能把炸弹甩给他！\n 努力存活下来吧！\n\n",{"text": " <可以击退玩家> ","color":"red"},"\n"]
 effect give @s night_vision 1000000 0 true

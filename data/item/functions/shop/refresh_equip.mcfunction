@@ -21,9 +21,9 @@ give @s[scores={shop_03_apple=2}] enchanted_golden_apple{display:{Name:'{"text":
 scoreboard players reset @s shop_03_apple
 
 # 04
-clear @s potion
-give @s[scores={shop_04_float=1}] potion{CustomPotionEffects:[{Id:25,Amplifier:1,Duration:40}],CustomPotionColor:8039610,display:{Name:'{"text":"浮空药水","italic":false,"color":"gray"}'}}
-give @s[scores={shop_04_float=2}] potion{CustomPotionEffects:[{Id:25,Amplifier:1,Duration:60}],CustomPotionColor:8039610,display:{Name:'{"text":"浮空药水","italic":false,"color":"white"}'}}
+clear @s splash_potion
+give @s[scores={shop_04_float=1}] splash_potion{CustomPotionEffects:[{Id:25,Amplifier:1,Duration:50}],CustomPotionColor:8039610,display:{Name:'{"text":"喷溅型浮空药水","italic":false,"color":"gray"}'}}
+give @s[scores={shop_04_float=2}] splash_potion{CustomPotionEffects:[{Id:25,Amplifier:1,Duration:70}],CustomPotionColor:8039610,display:{Name:'{"text":"喷溅型浮空药水","italic":false,"color":"white"}'}}
 
 # 05
 clear @s wooden_axe

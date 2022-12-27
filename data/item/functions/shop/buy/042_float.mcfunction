@@ -1,4 +1,4 @@
-# 浮空药水 II (8g)
+# 喷溅型浮空药水 II (8g)
 scoreboard players add @s shop_04_float 0
 tag @s remove canbuy
 tag @s[scores={shop_04_float=1,gold=72..}] add canbuy

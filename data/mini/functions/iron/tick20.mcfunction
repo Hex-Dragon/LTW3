@@ -15,7 +15,6 @@ execute if score $countdown mem matches 90 run function lib:bossbar/show
 execute if score $countdown mem matches 61 as @a run function lib:sounds/music/mini_fast
 execute if score $countdown mem matches 60 run tellraw @a ["",{"text": ">> ","color": "gold","bold": true},{"text": "玩家雷达已开启, 游戏将在 ","color": "gold"},"60 秒 ", {"text": "后结束","color": "gold"}]
 execute if score $countdown mem matches 60 run scoreboard players set $bossbar_color mem 1
-execute if score $countdown mem matches 60 run scoreboard objectives setdisplay belowName iron_count
 execute if score $countdown mem matches 60 run function lib:bossbar/show
 
 # 0s：游戏结束
