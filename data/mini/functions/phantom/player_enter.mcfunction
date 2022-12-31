@@ -15,11 +15,12 @@ scoreboard players reset @s kill_phantom
 scoreboard players reset @s kill_phantom2
 scoreboard players set @s[team=playing,tag=!rejoining] kill_phantom 0
 scoreboard players set @s[team=playing,tag=!rejoining] kill_phantom2 0
+scoreboard players set @s[team=playing,tag=!rejoining] countdown_fast 0
 scoreboard players reset @s use_trident
 scoreboard players reset @s countdown
 
 # 传送玩家
-tp @s[team=playing] 1030.5 24.5 6031.5
+spreadplayers 1030 6031 3 3 under 18 false @s[team=playing]
 
 # 调整模式
 gamemode spectator @s[team=!debugging]
