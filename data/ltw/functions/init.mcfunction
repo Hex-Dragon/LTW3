@@ -129,6 +129,8 @@ team remove gold
 team add gold "金色"
 team modify gold color gold
 team modify gold friendlyFire false
+team add red "红色（幻翼用）"
+team modify red color red
 team add green_test "绿色（显示测试用）"
 team modify green_test color green
 team add orange_test "橙色（显示测试用）"

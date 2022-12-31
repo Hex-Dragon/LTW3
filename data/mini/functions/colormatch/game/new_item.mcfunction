@@ -1,4 +1,5 @@
 tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"text": "新的奖励物资已在空中部署！","color":"aqua"}]
+playsound minecraft:entity.player.levelup player @a 0 1000000 0 1000000 2
 scoreboard players set $new_item_cd mem 0
 
 # 随机选择生成组

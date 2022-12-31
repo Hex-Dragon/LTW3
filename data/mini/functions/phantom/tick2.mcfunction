@@ -10,3 +10,6 @@ execute as @e[type=trident,tag=!fixed_trident] run function mini:phantom/game/fi
 # 删除掉在地上的三叉戟
 kill @e[type=trident,nbt={inGround:1b}]
 kill @e[type=item,nbt={Item:{id:"minecraft:trident",tag:{game_item:1b}}}]
+
+# 奖励幻翼特效
+execute as @e[tag=bonus_phantom] at @s run particle dust 1 0 0 2 ~ ~ ~ 0.2 0 0.2 0 2 normal

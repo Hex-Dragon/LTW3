@@ -3,6 +3,7 @@ forceload add 1000 6000 1064 6064
 
 scoreboard players set $show_score mem 1
 scoreboard players set $survival mem 0
+scoreboard players set $new_item_cd mem 0
 scoreboard players reset * kill_phantom
 scoreboard players reset * kill_phantom2
 
@@ -30,4 +31,4 @@ team modify playing collisionRule always
 team modify playing deathMessageVisibility always
 gamerule fallDamage false
 
-schedule function mini:phantom/game_init2 10t replace
+schedule function mini:phantom/game_init2 15t replace
