@@ -10,9 +10,8 @@ function mini:ass/give_effect
 attribute @s generic.max_health base set 20
 gamerule naturalRegeneration false
 
-
 # 计分板重置
-scoreboard players set @s countdown_fast 50
+scoreboard players set @s countdown_fast 10
 scoreboard players set @s creeperUse 0
 
 # 传送玩家

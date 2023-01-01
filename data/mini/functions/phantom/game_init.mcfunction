@@ -8,7 +8,7 @@ scoreboard players reset * kill_phantom
 scoreboard players reset * kill_phantom2
 
 # 调整时间
-time set 21000t
+time set 21200t
 
 # 生成地图
 setblock 1000 4 6000 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"LTCat",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:32,posZ:0,integrity:1.0f,showair:0b,name:"mini:hy00",sizeY:32,sizeZ:32,showboundingbox:0b}
