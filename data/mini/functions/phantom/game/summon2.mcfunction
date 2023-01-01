@@ -2,12 +2,7 @@
 execute as @e[tag=new_phantom] at @s run tp @s ~ 33 ~
 
 # 设置攻击力与随机生命值
-scoreboard players set $random_min mem 1
-scoreboard players set $random_max mem 3
-function lib:random
-execute if score $random mem matches 1 run attribute @e[tag=new_phantom,limit=1] generic.max_health base set 2
-execute if score $random mem matches 2 run attribute @e[tag=new_phantom,limit=1] generic.max_health base set 3
-execute if score $random mem matches 3 run attribute @e[tag=new_phantom,limit=1] generic.max_health base set 4
+attribute @e[tag=new_phantom,limit=1] generic.max_health base set 2
 attribute @e[tag=new_phantom,limit=1] generic.attack_damage base set 4
 
 # 如果满足条件（在 tick20 中检查），则刷出奖励幻翼
