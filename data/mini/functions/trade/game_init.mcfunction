@@ -18,7 +18,6 @@ scoreboard players set $remove_resistance mem 1
 team modify playing friendlyFire false
 team modify playing collisionRule never
 team modify playing deathMessageVisibility always
-gamerule fallDamage false
 gamerule fireDamage false
 gamerule drowningDamage true
 

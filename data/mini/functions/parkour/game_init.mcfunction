@@ -19,6 +19,5 @@ scoreboard players set $remove_resistance mem 0
 team modify playing friendlyFire false
 team modify playing collisionRule never
 team modify playing deathMessageVisibility never
-gamerule fallDamage false
 
 schedule function mini:parkour/game_init2 15t replace

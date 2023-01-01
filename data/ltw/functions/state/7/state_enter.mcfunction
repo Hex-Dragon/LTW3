@@ -19,4 +19,3 @@ scoreboard players set $countdown mem 5
 scoreboard players set $remove_resistance mem 0
 team modify playing friendlyFire false
 team modify playing collisionRule always
-gamerule fallDamage false

@@ -12,4 +12,4 @@ execute if score $random mem matches 0 positioned 1060.5 26 4002.5 run function 
 execute if score $random mem matches 0 positioned 1060.5 26 4018.5 run function item:bonus_item/gameparty/auto/low
 execute if score $random mem matches 1 positioned 1068.5 26 4010.5 run function item:bonus_item/gameparty/auto/low
 execute if score $random mem matches 1 positioned 1052.5 26 4010.5 run function item:bonus_item/gameparty/auto/low
-execute as @e[tag=bonus_item,limit=1] run data modify entity @s NoGravity set value 0b
+execute as @e[tag=bonus_item] run data modify entity @s NoGravity set value 0b

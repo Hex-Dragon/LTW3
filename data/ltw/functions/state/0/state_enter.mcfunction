@@ -22,7 +22,6 @@ function lib:bossbar/show
 scoreboard players set $remove_resistance mem 0
 team modify playing friendlyFire false
 team modify playing collisionRule never
-gamerule fallDamage false
 gamerule doMobLoot false
 gamerule doTileDrops false
 

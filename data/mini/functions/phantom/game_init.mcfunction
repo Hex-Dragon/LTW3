@@ -29,6 +29,8 @@ scoreboard players set $remove_resistance mem 1
 team modify playing friendlyFire false
 team modify playing collisionRule always
 team modify playing deathMessageVisibility always
-gamerule fallDamage false
+
+# gamerule 调整
+gamerule doMobLoot true
 
 schedule function mini:phantom/game_init2 15t replace
