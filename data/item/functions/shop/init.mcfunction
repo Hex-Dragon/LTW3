@@ -17,9 +17,4 @@ scoreboard objectives add shop_04_float dummy
 scoreboard objectives add shop_05_axe dummy
 scoreboard objectives add shop_06_armor dummy
 scoreboard objectives add shop_07_fish dummy
-scoreboard objectives add shop_particle_system dummy
-scoreboard objectives add shop_particle_2 dummy
-scoreboard objectives add shop_particle_3 dummy
-scoreboard objectives add shop_particle_4 dummy
-scoreboard objectives add shop_particle_5 dummy
-scoreboard objectives add shop_particle_6 dummy
+scoreboard objectives add shop_particle dummy

@@ -31,14 +31,12 @@ execute if score @s buy_trigger matches 101 if score $state mem matches 0 run fu
 execute if score @s buy_trigger matches 102 if score $state mem matches 0 run function item:shop/buy/102_bgm
 execute if score @s buy_trigger matches 103 if score $state mem matches 0 run function item:shop/buy/103_pig
 # 村民尾迹商店
-execute if score @s buy_trigger matches 201 if score $state mem matches 0 run function item:shop/buy/201_particle_system
-execute if score @s buy_trigger matches 210 if score $state mem matches 0 run function item:shop/buy/210_particle_close
-execute if score @s buy_trigger matches 211 if score $state mem matches 0 run function item:shop/buy/211_particle1
-execute if score @s buy_trigger matches 212 if score $state mem matches 0 run function item:shop/buy/212_particle2
-execute if score @s buy_trigger matches 213 if score $state mem matches 0 run function item:shop/buy/213_particle3
-execute if score @s buy_trigger matches 214 if score $state mem matches 0 run function item:shop/buy/214_particle4
-execute if score @s buy_trigger matches 215 if score $state mem matches 0 run function item:shop/buy/215_particle5
-execute if score @s buy_trigger matches 216 if score $state mem matches 0 run function item:shop/buy/216_particle6
+execute if score @s buy_trigger matches 201 if score $state mem matches 0 run function item:shop/buy/201_particle_close
+execute if score @s buy_trigger matches 211 if score $state mem matches 0 run function item:shop/buy/211_particle
+execute if score @s buy_trigger matches 212 if score $state mem matches 0 run function item:shop/buy/212_particle
+execute if score @s buy_trigger matches 213 if score $state mem matches 0 run function item:shop/buy/213_particle
+execute if score @s buy_trigger matches 214 if score $state mem matches 0 run function item:shop/buy/214_particle
+execute if score @s buy_trigger matches 215 if score $state mem matches 0 run function item:shop/buy/215_particle
 # 骰子房
 execute if score @s buy_trigger matches 999 if score $state mem matches 0 run function item:shop/buy/999_dice
 # 彩蛋
