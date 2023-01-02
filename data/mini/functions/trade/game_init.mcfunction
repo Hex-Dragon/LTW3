@@ -28,4 +28,4 @@ gamerule doTileDrops true
 gamerule doEntityDrops true
 gamerule doMobLoot true
 
-schedule function mini:trade/game_init2 10t append
+schedule function mini:trade/game_init2 15t replace

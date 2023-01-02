@@ -21,4 +21,4 @@ team modify playing collisionRule always
 team modify playing deathMessageVisibility never
 gamerule naturalRegeneration true
 
-schedule function mini:colormatch/game_init2 12t replace
+schedule function mini:colormatch/game_init2 15t replace

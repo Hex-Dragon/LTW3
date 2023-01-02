@@ -38,4 +38,4 @@ team modify playing friendlyFire true
 team modify playing collisionRule always
 team modify playing deathMessageVisibility never
 
-schedule function mini:tntrun/game_init2 10t replace
+schedule function mini:tntrun/game_init2 15t replace

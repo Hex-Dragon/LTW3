@@ -3,6 +3,7 @@ forceload add 1000 7000 1032 7032
 
 scoreboard players set $countdown_fast mem 0
 scoreboard players set $show_score mem 0
+scoreboard players set $new_item_cd mem 0
 scoreboard players set $survival mem 0
 
 # 生成地图
@@ -17,4 +18,4 @@ team modify playing collisionRule always
 team modify playing deathMessageVisibility always
 gamerule naturalRegeneration false
 
-schedule function mini:ass/game_init2 10t replace
+schedule function mini:ass/game_init2 15t replace

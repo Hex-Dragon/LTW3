@@ -2,7 +2,7 @@
 scoreboard players set #new_item mem 0
 
 # 当前场地上没有物品
-execute if entity @e[tag=bonus_item] run scoreboard players set #new_item mem 1
+execute if entity @e[tag=bonus_item,x=1000,y=0,z=4000,dx=100,dy=1000,dz=100] run scoreboard players set #new_item mem 1
 
 # 如果没有物品，则计算冷却
 execute if score #new_item mem matches 0 run scoreboard players add $new_item_cd mem 1

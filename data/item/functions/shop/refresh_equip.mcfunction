@@ -44,4 +44,4 @@ clear @s fishing_rod
 give @s[scores={shop_07_fish=1}] fishing_rod{display:{Name:'{"text":"钓鱼竿","italic":false,"color":"gray"}'},Damage:60}
 give @s[scores={shop_07_fish=2}] fishing_rod{display:{Name:'{"text":"钓鱼竿","italic":false,"color":"gray"}'},Damage:57}
 give @s[scores={shop_07_fish=3}] fishing_rod{display:{Name:'{"text":"<饵钓 II> 钓鱼竿","italic":false,"color":"white"}'},Damage:57,Enchantments:[{id:"minecraft:lure",lvl:2s}]}
-give @s[scores={shop_07_fish=4}] fishing_rod{display:{Name:'{"text":"<饵钓 II> 钓鱼竿","italic":false,"color":"white"}'},Damage:51,Enchantments:[{id:"minecraft:lure",lvl:2s}]}
+give @s[scores={shop_07_fish=4}] fishing_rod{display:{Name:'{"text":"<饵钓 II> 钓鱼竿","italic":false,"color":"white"}'},Damage:54,Enchantments:[{id:"minecraft:lure",lvl:2s}]}
