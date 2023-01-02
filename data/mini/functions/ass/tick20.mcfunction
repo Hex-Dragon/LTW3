@@ -6,7 +6,7 @@ execute if score $countdown mem matches 1 run scoreboard players set $bossbar_co
 execute if score $countdown mem matches 1 run function lib:bossbar/show
 execute if score $countdown mem matches 1 as @a at @s run function lib:sounds/music/mini_fast
 execute if score $countdown mem matches 1 as @a at @s run function lib:sounds/dragon_growl
-execute if score $countdown mem matches ..0 run effect give @a[team=playing] wither 60 1 true
+execute if score $countdown mem matches ..0 run effect give @a[team=playing] wither 60 2 true
 
 # 回复生命值
 execute if score $countdown mem matches 1.. if score $foursec mem matches 1 if score $foursec mem matches 1 run effect give @a[team=playing] regeneration 1 10 true

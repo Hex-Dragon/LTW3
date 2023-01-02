@@ -15,7 +15,7 @@ scoreboard players set @s countdown_fast 10
 scoreboard players set @s creeperUse 0
 
 # 传送玩家
-spreadplayers 1015 7015 1 10 under 15 false @s[team=playing,tag=!rejoining]
+spreadplayers 1016 7017 1 8 under 8 false @s[team=playing,tag=!rejoining]
 
 # 调整模式
 gamemode spectator @s[team=!debugging]
