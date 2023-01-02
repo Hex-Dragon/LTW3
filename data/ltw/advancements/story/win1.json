@@ -21,8 +21,6 @@
       "function": "ltw:advancement/bonus_1"
     },
     "criteria": {
-      "a":{
-          "trigger": "minecraft:impossible"
-      }
+      "01": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":1}},"condition":"entity_scores","entity":"this"}]}}
     }
 }

@@ -1,14 +1,14 @@
 {
-    "parent": "ltw:blood/phantom3",
+    "parent": "ltw:story/challenger3",
     "display": {
       "icon": {
-        "item": "minecraft:red_bed"
+        "item": "minecraft:netherite_pickaxe"
       },
       "title": {
-        "text": "不再有梦 · Ω "
+        "text": "挑战极限 · Ω "
       },
       "description": [
-        {"text": "【月夜狩猎】击杀 32 只幻翼\n", "color":"gray"},
+        {"text": "完成 12 项挑战进度\n", "color":"gray"},
         {"text": "究极隐藏挑战！","color":"dark_gray","italic": true}
       ],
       "frame": "challenge",
@@ -20,8 +20,6 @@
       "function": "ltw:advancement/bonus_4"
     },
     "criteria": {
-      "a":{
-          "trigger": "minecraft:impossible"
-      }
+      "a": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_adv_challenge":{"min":12}},"condition":"entity_scores","entity":"this"}]}}
     }
   }

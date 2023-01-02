@@ -17,6 +17,9 @@
       "announce_to_chat": true,
       "hidden": true
     },
+    "rewards": {
+      "function": "ltw:advancement/bonus_4"
+    },
     "criteria": {
       "a":{
           "trigger": "minecraft:impossible"

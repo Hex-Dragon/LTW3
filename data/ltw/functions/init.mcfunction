@@ -66,12 +66,20 @@ scoreboard objectives remove player_id
 scoreboard objectives add player_id dummy "玩家编号"
 scoreboard objectives remove music_time
 scoreboard objectives add music_time dummy "BGM 时间"
-scoreboard objectives add stat_total dummy "总场次"
-scoreboard objectives add stat_win dummy "总胜场"
 scoreboard objectives remove setup_trigger
 scoreboard objectives add setup_trigger trigger "触发器_视频设置"
 scoreboard players set $ game_id 0
 scoreboard players set $ round_id 0
+
+# 统计数据
+scoreboard objectives add stat_total dummy "总场次"
+scoreboard objectives add stat_win dummy "总胜场"
+scoreboard objectives add stat_adv_1 dummy "完成的 α 进度数"
+scoreboard objectives add stat_adv_2 dummy "完成的 β 进度数"
+scoreboard objectives add stat_adv_3 dummy "完成的 γ 进度数"
+scoreboard objectives add stat_adv_4 dummy "完成的 Ω 进度数"
+scoreboard objectives add stat_adv dummy "完成的进度数"
+scoreboard objectives add stat_adv_challenge dummy "完成的挑战进度数"
 
 # 常量与变量初始化
 scoreboard players set #mini_total mem 5

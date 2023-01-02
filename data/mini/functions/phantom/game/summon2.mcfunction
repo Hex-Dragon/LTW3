@@ -6,7 +6,7 @@ attribute @e[tag=new_phantom,limit=1] generic.max_health base set 2
 attribute @e[tag=new_phantom,limit=1] generic.attack_damage base set 4
 
 # 如果满足条件（在 tick20 中检查），则刷出奖励幻翼
-execute if score #new_item mem matches 0 run tellraw @a ["\n",{"text": ">> ","color":"aqua","bold": true},{"text": "击杀红色幻翼, 获取奖励物资！\n","color":"aqua"}]
+execute if score #new_item mem matches 0 run tellraw @a ["\n",{"text": ">> ","color":"gold","bold": true},{"text": "击杀红色幻翼, 获取奖励物资！\n","color":"gold"}]
 execute if score #new_item mem matches 0 run playsound minecraft:entity.player.levelup player @a 0 1000000 0 1000000 2
 execute if score #new_item mem matches 0 run tag @e[tag=new_phantom] add bonus_phantom
 execute if score #new_item mem matches 0 run scoreboard players set $new_item_cd mem 0

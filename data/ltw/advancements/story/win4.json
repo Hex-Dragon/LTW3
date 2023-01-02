@@ -16,9 +16,10 @@
       "announce_to_chat": true,
       "hidden": true
     },
+    "rewards": {
+      "function": "ltw:advancement/bonus_4"
+    },
     "criteria": {
-      "a":{
-          "trigger": "minecraft:impossible"
-      }
+      "a": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":25}},"condition":"entity_scores","entity":"this"}]}}
     }
   }

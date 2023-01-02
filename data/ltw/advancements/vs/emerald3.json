@@ -10,7 +10,7 @@
       "description": [
         {"text": "【贸易专家】清空整个交易列表\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
-        {"text": "3 绿宝石","color":"white"}
+        {"text": "2 绿宝石","color":"white"}
       ],
       "frame": "challenge",
       "show_toast": true,

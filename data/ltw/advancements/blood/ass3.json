@@ -1,14 +1,14 @@
 {
-    "parent": "ltw:parkour/tnt2",
+    "parent": "ltw:blood/ass2",
     "display": {
       "icon": {
-        "item": "minecraft:crimson_hyphae"
+        "item": "minecraft:creeper_spawn_egg"
       },
       "title": {
-        "text": "圣坛之主 · γ "
+        "text": "爆破学家 · γ "
       },
       "description": [
-        {"text": "【地陷圣坛】几乎清空最顶层的所有方块\n", "color":"gray"},
+        {"text": "【核爆刺客】在满生命时获胜\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "2 绿宝石","color":"white"}
       ],

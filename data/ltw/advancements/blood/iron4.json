@@ -14,7 +14,10 @@
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
-      "hidden": false
+      "hidden": true
+    },
+    "rewards": {
+      "function": "ltw:advancement/bonus_4"
     },
     "criteria": {
       "a":{

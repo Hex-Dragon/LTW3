@@ -1,3 +1,5 @@
+scoreboard players add @s stat_adv 1
+scoreboard players add @s stat_adv_1 1
 scoreboard players add @s green 1
 scoreboard players add @s green_total 1
 scoreboard players add @s green_extra 1

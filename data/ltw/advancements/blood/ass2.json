@@ -1,24 +1,24 @@
 {
-    "parent": "ltw:parkour/tnt2",
+    "parent": "ltw:blood/ass1",
     "display": {
       "icon": {
-        "item": "minecraft:crimson_hyphae"
+        "item": "minecraft:flint_and_steel"
       },
       "title": {
-        "text": "圣坛之主 · γ "
+        "text": "爆破学家 · β "
       },
       "description": [
-        {"text": "【地陷圣坛】几乎清空最顶层的所有方块\n", "color":"gray"},
+        {"text": "【核爆刺客】在剩余至少 5 颗心时获胜\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "2 绿宝石","color":"white"}
       ],
-      "frame": "challenge",
+      "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
     "rewards": {
-      "function": "ltw:advancement/bonus_3"
+      "function": "ltw:advancement/bonus_2"
     },
     "criteria": {
       "a":{

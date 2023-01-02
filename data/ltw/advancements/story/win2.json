@@ -21,8 +21,9 @@
       "function": "ltw:advancement/bonus_2"
     },
     "criteria": {
-      "a":{
-          "trigger": "minecraft:impossible"
-      }
+      "01": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":1}},"condition":"entity_scores","entity":"this"}]}},
+      "02": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":2}},"condition":"entity_scores","entity":"this"}]}},
+      "03": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":3}},"condition":"entity_scores","entity":"this"}]}},
+      "04": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":4}},"condition":"entity_scores","entity":"this"}]}}
     }
   }
