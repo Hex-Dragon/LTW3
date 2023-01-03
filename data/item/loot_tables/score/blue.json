@@ -11,7 +11,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"4 积分\\\",\\\"color\\\":\\\"light_purple\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_add_score\":4}"
+            "tag": "{item_name:'{\"text\":\"4 积分\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:4}"
         }
     ]
 },
@@ -26,7 +26,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"5 积分\\\",\\\"color\\\":\\\"light_purple\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_add_score\":5}"
+            "tag": "{item_name:'{\"text\":\"5 积分\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:5}"
         }
     ]
 },
@@ -41,7 +41,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"4 积分 + 4 金粒\\\",\\\"color\\\":\\\"light_purple\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_add_score\":4,\"bonus_gold\":4}"
+            "tag": "{item_name:'{\"text\":\"4 积分 + 4 金粒\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:4,\"bonus_gold\":4}"
         }
     ]
 },
@@ -56,7 +56,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"12 金粒\\\",\\\"color\\\":\\\"light_purple\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_gold\":12}"
+            "tag": "{item_name:'{\"text\":\"12 金粒\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,\"bonus_gold\":12}"
         }
     ]
 },
@@ -71,7 +71,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"从最高分玩家处偷取 3 积分\\\",\\\"color\\\":\\\"light_purple\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_stole_score\":3}"
+            "tag": "{item_name:'{\"text\":\"从最高分玩家处偷取 3 积分\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,\"bonus_stole_score\":3}"
         }
     ]
 },
@@ -82,7 +82,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"1/2 概率获得 10 积分\\\",\\\"color\\\":\\\"light_purple\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_add_score\":0}"
+            "tag": "{item_name:'{\"text\":\"1/2 概率获得 10 积分\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:0}"
         }
     ]
 },
@@ -93,7 +93,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"1/2 概率获得 10 积分\\\",\\\"color\\\":\\\"light_purple\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_add_score\":10}"
+            "tag": "{item_name:'{\"text\":\"1/2 概率获得 10 积分\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:10}"
         }
     ]
 },
@@ -104,7 +104,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"积分随机翻倍或不变\\\",\\\"color\\\":\\\"light_purple\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_add_score\":101}"
+            "tag": "{item_name:'{\"text\":\"积分随机翻倍或不变\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:101}"
         }
     ]
 }

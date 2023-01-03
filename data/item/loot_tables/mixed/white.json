@@ -16,7 +16,7 @@
             },
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"清空物品栏, 换取 2 积分\\\",\\\"color\\\":\\\"white\\\"}\",is_bonus:1b,bonus_new:1b,\"clean_inventory\":1b,\"bonus_add_score\":2}"
+                "tag": "{item_name:'{\"text\":\"清空物品栏, 换取 2 积分\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,clean_inventory:1b,bonus_add_score:2}"
             }
         ]
     },
@@ -32,7 +32,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"清空物品栏, 换取随机蓝色道具\\\",\\\"color\\\":\\\"white\\\"}\",is_bonus:1b,bonus_new:1b,\"clean_inventory\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"green\",Count:1}]}"
+                "tag": "{item_name:'{\"text\":\"清空物品栏, 换取随机蓝色道具\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,clean_inventory:1b,bonus_random_bonus:[{type:\"item\",level:\"green\",Count:1}]}"
             }
         ]
     },
@@ -43,7 +43,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机白色道具\\\",\\\"color\\\":\\\"white\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"white\",Count:1}]}"
+                "tag": "{item_name:'{\"text\":\"随机白色道具\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,bonus_random_bonus:[{type:\"item\",level:\"white\",Count:1}]}"
             }
         ]
     },
@@ -58,7 +58,7 @@
             },
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机白色道具 x2\\\",\\\"color\\\":\\\"white\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"white\",Count:2}]}"
+                "tag": "{item_name:'{\"text\":\"随机白色道具 x2\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,bonus_random_bonus:[{type:\"item\",level:\"white\",Count:2}]}"
             }
         ]
     }
