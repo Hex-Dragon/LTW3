@@ -2,27 +2,12 @@
 
     {
         "type": "minecraft:loot_table",
-        "weight": 6,
+        "weight": 10,
         "name": "item:item/purple"
     },
     {
         "type": "minecraft:item",
-        "weight": 1,
-        "name": "minecraft:shulker_shell",
-        "functions": [
-            {
-                "function": "minecraft:set_count",
-                "count": 4
-            },
-            {
-                "function": "minecraft:set_nbt",
-                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"四种品质的道具各一件\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"purple\",\"count\":1},{\"type\":\"item\",\"level\":\"blue\",\"count\":1},{\"type\":\"item\",\"level\":\"green\",\"count\":1},{\"type\":\"item\",\"level\":\"white\",\"count\":1}]}"
-            }
-        ]
-    },
-    {
-        "type": "minecraft:item",
-        "weight": 1,
+        "weight": 2,
         "name": "minecraft:shulker_shell",
         "functions": [
             {
@@ -33,7 +18,37 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 1,
+        "weight": 3,
+        "name": "minecraft:blaze_powder",
+        "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 3
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"清空物品栏, 换取随机紫色道具 x3\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"clean_inventory\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"blue\",\"count\":3}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 3,
+        "name": "minecraft:shulker_shell",
+        "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 4
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机紫色、蓝色、白色道具各一件\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"blue\",\"count\":1},{\"type\":\"item\",\"level\":\"green\",\"count\":1},{\"type\":\"item\",\"level\":\"white\",\"count\":1}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 3,
         "name": "minecraft:shulker_shell",
         "functions": [
             {
@@ -48,7 +63,7 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 1,
+        "weight": 3,
         "name": "minecraft:shulker_shell",
         "functions": [
             {

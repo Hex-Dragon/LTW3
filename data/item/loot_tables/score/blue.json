@@ -52,11 +52,11 @@
     "functions": [
         {
             "function": "minecraft:set_count",
-            "count": 10
+            "count": 12
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"10 金粒\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_gold\":10}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"12 金粒\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_gold\":12}"
         }
     ]
 },

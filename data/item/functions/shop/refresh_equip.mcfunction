@@ -2,7 +2,7 @@
 
 # 01
 clear @s bow
-give @s[scores={shop_01_bow=1}] bow{display:{Name:'{"text":"一次性弓","italic":false,"color":"gray"}'},Damage:384}
+give @s[scores={shop_01_bow=1}] bow{display:{Name:'{"text":"破损的弓","italic":false,"color":"gray"}'},Damage:382}
 give @s[scores={shop_01_bow=2}] bow{display:{Name:'{"text":"弓","italic":false,"color":"gray"}'},Damage:346}
 give @s[scores={shop_01_bow=3}] bow{display:{Name:'{"text":"<冲击 I> 弓","italic":false,"color":"white"}'},Damage:346,Enchantments:[{id:"minecraft:punch",lvl:1s}]}
 
