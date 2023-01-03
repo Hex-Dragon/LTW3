@@ -11,7 +11,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"2 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":2}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"2 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_add_score\":2}"
         }
     ]
 },
@@ -26,7 +26,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"3 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":3}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"3 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_add_score\":3}"
         }
     ]
 },
@@ -41,7 +41,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"2 积分 + 2 金粒\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":2,\"bonus_gold\":2}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"2 积分 + 2 金粒\\\",\\\"color\\\":\\\"aqua\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_add_score\":2,\"bonus_gold\":2}"
         }
     ]
 },
@@ -56,7 +56,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"4 金粒\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_gold\":4}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"4 金粒\\\",\\\"color\\\":\\\"aqua\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_gold\":4}"
         }
     ]
 },
@@ -71,7 +71,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"6 金粒\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_gold\":6}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"6 金粒\\\",\\\"color\\\":\\\"aqua\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_gold\":6}"
         }
     ]
 },
@@ -86,7 +86,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"从最高分玩家处偷取 2 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_stole_score\":2}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"从最高分玩家处偷取 2 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_stole_score\":2}"
         }
     ]
 },
@@ -97,7 +97,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机 1~6 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":1}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机 1~6 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_add_score\":1}"
         }
     ]
 },
@@ -108,7 +108,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机 1~6 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":2}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机 1~6 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_add_score\":2}"
         }
     ]
 },
@@ -119,7 +119,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机 1~6 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":3}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机 1~6 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_add_score\":3}"
         }
     ]
 },
@@ -130,7 +130,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机 1~6 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":4}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机 1~6 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_add_score\":4}"
         }
     ]
 },
@@ -141,7 +141,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机 1~6 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":5}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机 1~6 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_add_score\":5}"
         }
     ]
 },
@@ -152,7 +152,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机 1~6 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":6}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机 1~6 积分\\\",\\\"color\\\":\\\"aqua\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_add_score\":6}"
         }
     ]
 },
@@ -163,7 +163,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"积分随机翻倍或减半\\\",\\\"color\\\":\\\"aqua\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":100}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"积分随机翻倍或减半\\\",\\\"color\\\":\\\"aqua\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_add_score\":100}"
         }
     ]
 }

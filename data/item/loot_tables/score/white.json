@@ -7,7 +7,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"1 积分\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":1}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"1 积分\\\",\\\"color\\\":\\\"white\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_add_score\":1}"
         }
     ]
 },
@@ -22,7 +22,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"2 金粒\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_gold\":2}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"2 金粒\\\",\\\"color\\\":\\\"white\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_gold\":2}"
         }
     ]
 },
@@ -33,7 +33,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"从最高分玩家处偷取 1 积分\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_stole_score\":1}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"从最高分玩家处偷取 1 积分\\\",\\\"color\\\":\\\"white\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_stole_score\":1}"
         }
     ]
 },
@@ -44,7 +44,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"1/4 概率获得 5 积分\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":0}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"1/4 概率获得 5 积分\\\",\\\"color\\\":\\\"white\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_add_score\":0}"
         }
     ]
 },
@@ -55,7 +55,7 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"1/4 概率获得 5 积分\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_add_score\":5}"
+            "tag": "{\"item_name\":\"{\\\"text\\\":\\\"1/4 概率获得 5 积分\\\",\\\"color\\\":\\\"white\\\"}\",is_bonus:1b,bonus_new:1b,\"bonus_add_score\":5}"
         }
     ]
 }
