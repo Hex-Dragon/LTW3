@@ -2,14 +2,18 @@
 
     {
         "type": "minecraft:loot_table",
-        "weight": 8,
+        "weight": 6,
         "name": "item:item/purple"
     },
     {
         "type": "minecraft:item",
         "weight": 1,
-        "name": "minecraft:heart_of_the_sea",
+        "name": "minecraft:shulker_shell",
         "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 4
+            },
             {
                 "function": "minecraft:set_nbt",
                 "tag": "{\"item_name\":\"{\\\"text\\\":\\\"四种品质的道具各一件\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"purple\",\"count\":1},{\"type\":\"item\",\"level\":\"blue\",\"count\":1},{\"type\":\"item\",\"level\":\"green\",\"count\":1},{\"type\":\"item\",\"level\":\"white\",\"count\":1}]}"
@@ -19,7 +23,7 @@
     {
         "type": "minecraft:item",
         "weight": 1,
-        "name": "minecraft:heart_of_the_sea",
+        "name": "minecraft:shulker_shell",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
@@ -30,8 +34,12 @@
     {
         "type": "minecraft:item",
         "weight": 1,
-        "name": "minecraft:heart_of_the_sea",
+        "name": "minecraft:shulker_shell",
         "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 2
+            },
             {
                 "function": "minecraft:set_nbt",
                 "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机紫色道具 x2\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"blue\",\"count\":2}]}"
@@ -41,8 +49,12 @@
     {
         "type": "minecraft:item",
         "weight": 1,
-        "name": "minecraft:heart_of_the_sea",
+        "name": "minecraft:shulker_shell",
         "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 4
+            },
             {
                 "function": "minecraft:set_nbt",
                 "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机蓝色道具 x4\\\",\\\"color\\\":\\\"gold\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"green\",\"count\":4}]}"

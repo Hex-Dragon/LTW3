@@ -11,7 +11,11 @@ function lib:sounds/hit
 # 显示拾取提示（获得积分的提示由 add_score 显示，获得随机物品则该物品不显示）
 execute unless data storage item:bonus item.tag.bonus_add_score unless data storage item:bonus item.tag.bonus_stole_score unless data storage item:bonus item.tag.bonus_gold unless data storage item:bonus item.tag.bonus_random_bonus[0] run tellraw @a ["",{"text": ">> ","color":"aqua","bold": true},{"selector": "@s","color":"aqua"}," 获得了 ",{"nbt": "item.tag.item_name","storage":"item:bonus","interpret": true}]
 
-# 如果有 return 标签则退回物品（最先执行）
+# 如果有 clean_inventory 标签则清空物品栏
+execute if data storage item:bonus item.tag{"clean_inventory":1b} run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"selector": "@s","color":"red"}," 的物品栏被清空了……"]
+execute if data storage item:bonus item.tag{"clean_inventory":1b} run clear @s #item:non_game
+
+# 如果有 return 标签则退回物品
 execute if data storage item:bonus item.tag{"bonus_return":1b} run function item:bonus_item/return_item
 
 # 如果有 add_score 标签则增加积分

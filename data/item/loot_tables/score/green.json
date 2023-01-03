@@ -33,7 +33,7 @@
 {
     "type": "minecraft:item",
     "weight": 7,
-    "name": "minecraft:shulker_shell",
+    "name": "minecraft:prismarine_crystals",
     "functions": [
         {
             "function": "minecraft:set_count",

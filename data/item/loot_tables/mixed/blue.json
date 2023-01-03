@@ -1,14 +1,40 @@
 {"pools": [{"rolls": 1,"entries": [
 
     {
+        "type": "minecraft:item",
+        "weight": 1,
+        "name": "minecraft:blaze_powder",
+        "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 5
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"清空物品栏, 换取 5 积分\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"clean_inventory\":1b,\"bonus_add_score\":5}"
+            }
+        ]
+    },
+    {
         "type": "minecraft:loot_table",
-        "weight": 60,
+        "weight": 10,
         "name": "item:item/blue"
     },
     {
         "type": "minecraft:item",
-        "weight": 10,
-        "name": "minecraft:heart_of_the_sea",
+        "weight": 1,
+        "name": "minecraft:blaze_powder",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"清空物品栏, 换取随机橙色道具\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"clean_inventory\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"purple\",\"count\":1}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 1,
+        "name": "minecraft:shulker_shell",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
@@ -18,9 +44,13 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 10,
-        "name": "minecraft:heart_of_the_sea",
+        "weight": 1,
+        "name": "minecraft:shulker_shell",
         "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 2
+            },
             {
                 "function": "minecraft:set_nbt",
                 "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机蓝色道具 x2\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"green\",\"count\":2}]}"

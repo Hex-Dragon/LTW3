@@ -2,18 +2,44 @@
 
     {
         "type": "minecraft:loot_table",
-        "weight": 35,
+        "weight": 30,
         "name": "item:score/white"
     },
     {
+        "type": "minecraft:item",
+        "weight": 5,
+        "name": "minecraft:blaze_powder",
+        "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 2
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"清空物品栏, 换取 2 积分\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"clean_inventory\":1b,\"bonus_add_score\":2}"
+            }
+        ]
+    },
+    {
         "type": "minecraft:loot_table",
-        "weight": 51,
+        "weight": 50,
         "name": "item:item/white"
     },
     {
         "type": "minecraft:item",
-        "weight": 7,
-        "name": "minecraft:heart_of_the_sea",
+        "weight": 5,
+        "name": "minecraft:blaze_powder",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"item_name\":\"{\\\"text\\\":\\\"清空物品栏, 换取随机蓝色道具\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"clean_inventory\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"green\",\"count\":1}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 5,
+        "name": "minecraft:shulker_shell",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
@@ -23,9 +49,13 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 7,
-        "name": "minecraft:heart_of_the_sea",
+        "weight": 5,
+        "name": "minecraft:shulker_shell",
         "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 2
+            },
             {
                 "function": "minecraft:set_nbt",
                 "tag": "{\"item_name\":\"{\\\"text\\\":\\\"随机白色道具 x2\\\",\\\"color\\\":\\\"white\\\"}\",\"is_bonus\":1b,\"bonus_new\":1b,\"bonus_random_bonus\":[{\"type\":\"item\",\"level\":\"white\",\"count\":2}]}"
