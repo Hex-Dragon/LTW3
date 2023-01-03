@@ -1,0 +1,68 @@
+{"pools": [{"rolls": 1,"entries": [
+
+    {
+        "type": "minecraft:item",
+        "weight": 6,
+        "name": "minecraft:totem_of_undying",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"不死图腾 x3\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:totem_of_undying\",Count:1,tag:{bonus_return:1b,is_bonus:1b}},{id:\"minecraft:totem_of_undying\",Count:1,tag:{bonus_return:1b,is_bonus:1b}},{id:\"minecraft:totem_of_undying\",Count:1,tag:{bonus_return:1b,is_bonus:1b}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 6,
+        "name": "minecraft:prismarine_crystals",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"铁镐, 铁斧, 铁剑, 铁锹\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:iron_pickaxe\",Count:1,tag:{bonus_return:1b,is_bonus:1b}},{id:\"minecraft:iron_axe\",Count:1,tag:{bonus_return:1b,is_bonus:1b}},{id:\"minecraft:iron_sword\",Count:1,tag:{bonus_return:1b,is_bonus:1b}},{id:\"minecraft:iron_shovel\",Count:1,tag:{bonus_return:1b,is_bonus:1b}}]}"
+            }
+        ]
+},
+    {
+        "type": "minecraft:item",
+        "weight": 3,
+        "name": "minecraft:iron_ingot",
+        "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 10
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"铁锭 x10\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,bonus_clear_nbt:1b}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 3,
+        "name": "minecraft:diamond",
+        "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 5
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"钻石 x5\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,bonus_clear_nbt:1b}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 6,
+        "name": "minecraft:netherite_ingot",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"下界合金全身甲\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:netherite_helmet\",Count:1,tag:{bonus_return:1b,is_bonus:1b}},{id:\"minecraft:netherite_chestplate\",Count:1,tag:{bonus_return:1b,is_bonus:1b}},{id:\"minecraft:netherite_leggings\",Count:1,tag:{bonus_return:1b,is_bonus:1b}},{id:\"minecraft:netherite_boots\",Count:1,tag:{bonus_return:1b,is_bonus:1b}}]}"
+            }
+        ]
+    }
+
+
+]}]}
