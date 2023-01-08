@@ -10,4 +10,4 @@ function mini:main/player_failed
 # execute unless entity @a[tag=mini_running] run function mini:main/game_end
 
 execute if score $player_alive mem matches 2 if score $countdown mem matches 2.. run effect clear @a resistance
-execute if score $player_alive mem matches 2 if score $countdown mem matches 2.. run tellraw @a ["",{"text": ">> ","color": "gold","bold": true},{"text": "苦力怕现在会造成更多伤害！","color": "gold"}]
+execute if score $player_alive mem matches 2 if score $countdown mem matches 2.. run tellraw @a ["\n",{"text": ">> ","color": "gold","bold": true},{"text": "苦力怕现在会造成更多伤害！\n","color": "gold"}]

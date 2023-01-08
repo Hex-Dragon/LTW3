@@ -1,4 +1,6 @@
-tellraw @a ["\n",{"text": ">> ","color":"aqua","bold": true},{"text": "新的奖励物资已在空中部署！\n","color":"aqua"}]
+title @a subtitle {"text":"❇ 奖励物资已在空中部署 ❇","color":"aqua"}
+title @a times 1 60 3
+title @a title ""
 playsound minecraft:entity.player.levelup player @a 0 1000000 0 1000000 2
 scoreboard players set $new_item_cd mem 0
 

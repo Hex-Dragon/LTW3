@@ -1,8 +1,8 @@
 # 给予进度
-execute as @a[team=playing,scores={temp=1..,kill_phantom=8}] run advancement grant @s only ltw:blood/phantom1
-execute as @a[team=playing,scores={temp=1..,kill_phantom=16}] run advancement grant @s only ltw:blood/phantom2
-execute as @a[team=playing,scores={temp=1..,kill_phantom=24}] run advancement grant @s only ltw:blood/phantom3
-execute as @a[team=playing,scores={temp=1..,kill_phantom=32}] run advancement grant @s only ltw:blood/phantom4
+execute as @a[team=playing,scores={temp=1..,kill_phantom=7}] run advancement grant @s only ltw:blood/phantom1
+execute as @a[team=playing,scores={temp=1..,kill_phantom=14}] run advancement grant @s only ltw:blood/phantom2
+execute as @a[team=playing,scores={temp=1..,kill_phantom=21}] run advancement grant @s only ltw:blood/phantom3
+execute as @a[team=playing,scores={temp=1..,kill_phantom=28}] run advancement grant @s only ltw:blood/phantom4
 
 # 判断是否符合刷出新物品的条件：0 为可以，其他为不可以
 scoreboard players set #new_item mem 0

@@ -8,6 +8,16 @@ execute if score $countdown mem matches ..10 run title @a subtitle {"score":{"na
 execute if score $countdown mem matches ..10 run title @a title [""]
 execute if score $countdown mem matches ..10 as @a at @s run function lib:sounds/hit2
 
+# 120s：时间提示
+execute if score $countdown mem matches 120 run title @a subtitle {"text":"⚠ 还剩两分钟！ ⚠","color":"yellow"}
+execute if score $countdown mem matches 120 run title @a times 1 50 3
+execute if score $countdown mem matches 120 run title @a title ""
+
+# 30s：时间提示
+execute if score $countdown mem matches 30 run title @a subtitle {"text":"⚠ 还剩三十秒！ ⚠","color":"yellow"}
+execute if score $countdown mem matches 30 run title @a times 1 50 3
+execute if score $countdown mem matches 30 run title @a title ""
+
 # 升级
 execute as @e[tag=TradePlayer] run function mini:trade/game/villager_try_level_up
 

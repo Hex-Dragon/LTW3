@@ -23,4 +23,4 @@ fill 1000 319 5000 1032 290 5032 air
 fill 1000 289 5000 1032 271 5032 air
 fill 1000 270 5000 1032 255 5032 air
 
-schedule function mini:iron/game_init4 1t
+schedule function mini:iron/game_init4 10t

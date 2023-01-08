@@ -1,13 +1,13 @@
 
 # 强制死亡机制
 execute if score $countdown mem matches 21 run tellraw @a ["",{"text": ">> ","color": "gold","bold": true},{"text": "强制死亡将在 20 秒后开启！","color": "gold"}]
-execute if score $countdown mem matches 1 run tellraw @a ["",{"text": ">> ","color": "gold","bold": true},{"text": "强制死亡已开启！","color": "gold"}]
 execute if score $countdown mem matches 1 run scoreboard players set $bossbar_color mem 1
 execute if score $countdown mem matches 1 run function lib:bossbar/show
 execute if score $countdown mem matches 1 as @a at @s run function lib:sounds/music/mini_fast
 execute if score $countdown mem matches 1 as @a at @s run function lib:sounds/dragon_growl
 execute if score $countdown mem matches 1 if score $player_alive mem matches 3.. run effect clear @a resistance
-execute if score $countdown mem matches 1 if score $player_alive mem matches 3.. run tellraw @a ["",{"text": ">> ","color": "gold","bold": true},{"text": "苦力怕现在会造成更多伤害！","color": "gold"}]
+execute if score $countdown mem matches 1 if score $player_alive mem matches ..2 run tellraw @a ["\n",{"text": ">> ","color": "gold","bold": true},{"text": "强制死亡已开启！\n","color": "gold"}]
+execute if score $countdown mem matches 1 if score $player_alive mem matches 3.. run tellraw @a ["\n",{"text": ">> ","color": "gold","bold": true},{"text": "强制死亡已开启！苦力怕现在会造成更多伤害！\n","color": "gold"}]
 execute if score $countdown mem matches ..0 run effect give @a[team=playing] wither 1000000 1 true
 
 # 回复生命值
