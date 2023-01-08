@@ -32,7 +32,7 @@ execute if score $countdown mem matches 60 run scoreboard players set $bossbar_c
 execute if score $countdown mem matches 60 run function lib:bossbar/show
 
 # 给予进度
-execute as @a[team=playing] if score @s emerald matches 8.. run advancement grant @s only ltw:vs/emerald1
-execute as @e[tag=TradePlayer,tag=!adv3_checked] store success score @s temp run data get entity @s Offers.Recipes[0]
-execute as @a[team=playing] if score @s player_id = @e[tag=TradePlayer,scores={temp=0},tag=!adv3_checked,limit=1] player_id run advancement grant @s only ltw:vs/emerald3
-tag @e[tag=TradePlayer,scores={temp=0},tag=!adv3_checked] add adv3_checked
+execute as @a[team=playing] if score @s emerald matches 7.. run advancement grant @s only ltw:vs/emerald1
+execute as @e[tag=TradePlayer,tag=!adv3_checked] unless entity @s[nbt={Offers:{Recipes:[{sell:{id:"minecraft:emerald"},uses:0}]}}] run tag @s add adv3_achieved
+execute as @a[team=playing] if score @s player_id = @e[tag=TradePlayer,tag=adv3_achieved,tag=!adv3_checked,limit=1] player_id run advancement grant @s only ltw:vs/emerald3
+tag @e[tag=TradePlayer,tag=adv3_achieved,tag=!adv3_checked] add adv3_checked

@@ -13,7 +13,7 @@ summon area_effect_cloud 1023.5 24.2 1030.5 {Tags: ["treasure"], Age:-2147483648
 summon area_effect_cloud 1023.5 27.5 1026.5 {Tags: ["treasure"], Age:-2147483648, Duration:-1, WaitTime:-2147483648}
 summon area_effect_cloud 1030.5 25.2 1020.5 {Tags: ["treasure"], Age:-2147483648, Duration:-1, WaitTime:-2147483648}
 summon area_effect_cloud 1018.5 12.5 1025.5 {Tags: ["treasure","treasure_secret"], Age:-2147483648, Duration:-1, WaitTime:-2147483648}
-summon area_effect_cloud 1028.5 19.2 1036.5 {Tags: ["treasure"], Age:-2147483648, Duration:-1, WaitTime:-2147483648}
+summon area_effect_cloud 1028.5 18.2 1036.5 {Tags: ["treasure"], Age:-2147483648, Duration:-1, WaitTime:-2147483648}
 summon area_effect_cloud 1025.5 09.5 1040.5 {Tags: ["treasure","treasure_secret"], Age:-2147483648, Duration:-1, WaitTime:-2147483648}
 summon area_effect_cloud 1020.5 19.5 1041.5 {Tags: ["treasure"], Age:-2147483648, Duration:-1, WaitTime:-2147483648}
 summon area_effect_cloud 1026.5 23.2 1059.5 {Tags: ["treasure"], Age:-2147483648, Duration:-1, WaitTime:-2147483648}

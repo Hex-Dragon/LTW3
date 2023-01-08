@@ -13,7 +13,7 @@ execute positioned 1023.5 27.5 1026.5 run function item:bonus_item/gameparty/aut
 execute positioned 1030.5 25.2 1020.5 run function item:bonus_item/gameparty/auto/low2
 execute positioned 1018.5 12.5 1025.5 run function item:bonus_item/gameparty/auto/low2
 # 活板：
-execute positioned 1028.5 19.2 1036.5 run function item:bonus_item/gameparty/auto/low2
+execute positioned 1028.5 18.2 1036.5 run function item:bonus_item/gameparty/auto/low2
 execute positioned 1025.5 09.5 1040.5 run function item:bonus_item/gameparty/auto/low2
 execute positioned 1020.5 19.5 1041.5 run function item:bonus_item/gameparty/auto/low2
 # 落日：

@@ -72,9 +72,9 @@
         },
         {
             "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
-                "tag": "{buy:{id:\"gravel\",Count:6}}"
+                "tag": "{buy:{id:\"gravel\",Count:3}}"
             }, { "function": "set_nbt",
-                "tag":"{sell:{id:\"emerald\",Count:2}}"
+                "tag":"{sell:{id:\"emerald\",Count:1}}"
             }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
                 "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:gravel\"}}]}}"
             }}}]

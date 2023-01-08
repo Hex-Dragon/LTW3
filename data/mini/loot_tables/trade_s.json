@@ -11,7 +11,7 @@
             "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
                 "tag": "{buy:{id:\"emerald\",Count:1}}"
             }, { "function": "set_nbt",
-                "tag":"{sell:{id:\"coal_block\",Count:3}}"
+                "tag":"{sell:{id:\"coal_block\",Count:4}}"
             }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
                 "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:coal_block\"}}]}}"
             }}}]
@@ -20,7 +20,7 @@
             "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
                 "tag": "{buy:{id:\"emerald\",Count:1}}"
             }, { "function": "set_nbt",
-                "tag":"{sell:{id:\"oak_log\",Count:16}}"
+                "tag":"{sell:{id:\"oak_log\",Count:32}}"
             }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
                 "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:oak_log\"}}]}}"
             }}}]
@@ -38,7 +38,7 @@
             "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
                 "tag": "{buy:{id:\"emerald\",Count:1}}"
             }, { "function": "set_nbt",
-                "tag":"{sell:{id:\"raw_iron\",Count:8}}"
+                "tag":"{sell:{id:\"raw_iron\",Count:10}}"
             }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
                 "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:raw_iron\"}}]}}"
             }}}]
@@ -47,7 +47,7 @@
             "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
                 "tag": "{buy:{id:\"emerald\",Count:1}}"
             }, { "function": "set_nbt",
-                "tag":"{sell:{id:\"iron_ingot\",Count:4}}"
+                "tag":"{sell:{id:\"iron_ingot\",Count:5}}"
             }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
                 "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_ingot\"}}]}}"
             }}}]
@@ -65,16 +65,16 @@
             "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
                 "tag": "{buy:{id:\"emerald\",Count:2}}"
             }, { "function": "set_nbt",
-                "tag":"{sell:{id:\"nether_star\",Count:1,tag:{display:{Name:'{\"text\":\"1 积分\",\"color\":\"white\",\"italic\":false}'}}}}"
+                "tag":"{sell:{id:\"nether_star\",Count:2,tag:{display:{Name:'{\"text\":\"2 积分\",\"color\":\"aqua\",\"italic\":false}'}}}}"
             }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
                 "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:nether_star\"}}]}}"
             }}}]
         },
         {
             "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
-                "tag": "{buy:{id:\"emerald\",Count:3}}"
+                "tag": "{buy:{id:\"emerald\",Count:2}}"
             }, { "function": "set_nbt",
-                "tag":"{sell:{id:\"chest\",Count:1,tag:{BlockEntityTag:{LootTable:\"mini:diamond\",id:\"minecraft:chest\"},display:{Name:'{\"text\":\"地牢箱子\",\"color\":\"aqua\",\"italic\":false}'}}}}"
+                "tag":"{sell:{id:\"chest\",Count:1,tag:{BlockEntityTag:{LootTable:\"mini:diamond\",id:\"minecraft:chest\"},display:{Name:'{\"text\":\"地牢箱子\",\"color\":\"gold\",\"italic\":false}'}}}}"
             }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
                 "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:chest\"}}]}}"
             }}}]

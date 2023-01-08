@@ -18,7 +18,7 @@
         },
         {
             "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
-                "tag": "{buy:{id:\"vine\",Count:12}}"
+                "tag": "{buy:{id:\"vine\",Count:10}}"
             }, { "function": "set_nbt",
                 "tag":"{sell:{id:\"emerald\",Count:1}}"
             }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
@@ -29,7 +29,7 @@
             "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
                 "tag": "{buy:{id:\"furnace_minecart\",Count:1}}"
             }, { "function": "set_nbt",
-                "tag":"{sell:{id:\"emerald\",Count:1}}"
+                "tag":"{sell:{id:\"emerald\",Count:2}}"
             }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
                 "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:furnace_minecart\"}}]}}"
             }}}]
@@ -38,7 +38,7 @@
             "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
                 "tag": "{buy:{id:\"diamond_pickaxe\",Count:1}}"
             }, { "function": "set_nbt",
-                "tag":"{sell:{id:\"emerald\",Count:1}}"
+                "tag":"{sell:{id:\"emerald\",Count:2}}"
             }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
                 "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:diamond_pickaxe\"}}]}}"
             }}}]
@@ -47,7 +47,7 @@
             "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
                 "tag": "{buy:{id:\"stone\",Count:64}}"
             }, { "function": "set_nbt",
-                "tag":"{sell:{id:\"nether_star\",Count:2,tag:{display:{Name:'{\"text\":\"2 积分\",\"color\":\"aqua\",\"italic\":false}'}}}}"
+                "tag":"{sell:{id:\"nether_star\",Count:4,tag:{display:{Name:'{\"text\":\"4 积分\",\"color\":\"light_purple\",\"italic\":false}'}}}}"
             }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
                 "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:stone\"}}]}}"
             }}}]
@@ -56,7 +56,7 @@
             "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
                 "tag": "{buy:{id:\"diamond_leggings\",Count:1}}"
             }, { "function": "set_nbt",
-                "tag":"{sell:{id:\"nether_star\",Count:2,tag:{display:{Name:'{\"text\":\"2 积分\",\"color\":\"aqua\",\"italic\":false}'}}}}"
+                "tag":"{sell:{id:\"nether_star\",Count:4,tag:{display:{Name:'{\"text\":\"4 积分\",\"color\":\"light_purple\",\"italic\":false}'}}}}"
             }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
                 "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:diamond_leggings\"}}]}}"
             }}}]
@@ -65,7 +65,7 @@
             "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
                 "tag": "{buy:{id:\"mossy_cobblestone\",Count:32}}"
             }, { "function": "set_nbt",
-                "tag":"{sell:{id:\"nether_star\",Count:2,tag:{display:{Name:'{\"text\":\"2 积分\",\"color\":\"aqua\",\"italic\":false}'}}}}"
+                "tag":"{sell:{id:\"nether_star\",Count:4,tag:{display:{Name:'{\"text\":\"4 积分\",\"color\":\"light_purple\",\"italic\":false}'}}}}"
             }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
                 "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:mossy_cobblestone\"}}]}}"
             }}}]
@@ -74,7 +74,7 @@
             "type": "item", "name": "stone", "functions": [{ "function": "set_nbt",
                 "tag": "{buy:{id:\"obsidian\",Count:1}}"
             }, { "function": "set_nbt",
-                "tag":"{sell:{id:\"nether_star\",Count:2,tag:{display:{Name:'{\"text\":\"2 积分\",\"color\":\"aqua\",\"italic\":false}'}}}}"
+                "tag":"{sell:{id:\"nether_star\",Count:4,tag:{display:{Name:'{\"text\":\"4 积分\",\"color\":\"light_purple\",\"italic\":false}'}}}}"
             }], "conditions": [{ "condition": "inverted", "term": { "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
                 "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:obsidian\"}}]}}"
             }}}]
