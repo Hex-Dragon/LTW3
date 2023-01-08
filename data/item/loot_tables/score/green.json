@@ -41,7 +41,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{item_name:'{\"text\":\"2 积分 + 2 金粒\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:2,\"bonus_gold\":2}"
+            "tag": "{item_name:'{\"text\":\"2 积分 + 2 金粒\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:2,bonus_gold:2}"
         }
     ]
 },
@@ -56,7 +56,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{item_name:'{\"text\":\"4 金粒\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,\"bonus_gold\":4}"
+            "tag": "{item_name:'{\"text\":\"4 金粒\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_gold:4}"
         }
     ]
 },
@@ -71,7 +71,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{item_name:'{\"text\":\"6 金粒\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,\"bonus_gold\":6}"
+            "tag": "{item_name:'{\"text\":\"6 金粒\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_gold:6}"
         }
     ]
 },

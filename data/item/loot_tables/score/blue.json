@@ -41,7 +41,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{item_name:'{\"text\":\"4 积分 + 4 金粒\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:4,\"bonus_gold\":4}"
+            "tag": "{item_name:'{\"text\":\"4 积分 + 4 金粒\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:4,bonus_gold:4}"
         }
     ]
 },
@@ -56,7 +56,7 @@
         },
         {
             "function": "minecraft:set_nbt",
-            "tag": "{item_name:'{\"text\":\"12 金粒\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,\"bonus_gold\":12}"
+            "tag": "{item_name:'{\"text\":\"12 金粒\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_gold:12}"
         }
     ]
 },
