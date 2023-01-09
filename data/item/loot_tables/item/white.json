@@ -59,7 +59,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"弩\",\"italic\":false,\"color\":\"white\"}'},item_name:'{\"text\":\"弩, 箭 x4\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,bonus_give_items:[{id:\"minecraft:arrow\",Count:4,tag:{is_bonus:1b,bonus_return:1b,bonus_clear_nbt:1b}}]}"
+                "tag": "{display:{Name:'{\"text\":\"<多重射击> 弩\",\"italic\":false,\"color\":\"white\"}'},item_name:'{\"text\":\"<多重射击> 弩, 箭 x3\",\"color\":\"white\"}',is_bonus:1b,Enchantments:[{id:\"multishot\",lvl:1}],bonus_new:1b,bonus_return:1b,bonus_give_items:[{id:\"minecraft:arrow\",Count:3,tag:{is_bonus:1b,bonus_return:1b,bonus_clear_nbt:1b}}]}"
             }
         ]
     },
@@ -192,7 +192,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{item_name:'{\"text\":\"钻石护腿\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b}"
+                "tag": "{item_name:'{\"text\":\"<荆棘 I> 钻石护腿\",\"color\":\"white\"}',Name:'{\"text\":\"<荆棘 I> 钻石护腿\",\"italic\":false,\"color\":\"white\"}',Enchantments:[{id:\"thorns\",lvl:1}],is_bonus:1b,bonus_new:1b,bonus_return:1b}"
             }
         ]
     },
@@ -214,7 +214,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{item_name:'{\"text\":\"破损的全身金甲\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:golden_helmet\",Count:1,tag:{is_bonus:1b,bonus_return:1b,bonus_clear_nbt:1b,Damage:72}},{id:\"minecraft:golden_chestplate\",Count:1,tag:{is_bonus:1b,bonus_return:1b,bonus_clear_nbt:1b,Damage:104}},{id:\"minecraft:golden_leggings\",Count:1,tag:{is_bonus:1b,bonus_return:1b,bonus_clear_nbt:1b,Damage:98}},{id:\"minecraft:golden_boots\",Count:1,tag:{is_bonus:1b,bonus_return:1b,bonus_clear_nbt:1b,Damage:85}}]}"
+                "tag": "{item_name:'{\"text\":\"破损的全身金甲\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:golden_helmet\",Count:1,tag:{is_bonus:1b,bonus_return:1b,Damage:72}},{id:\"minecraft:golden_chestplate\",Count:1,tag:{is_bonus:1b,bonus_return:1b,Damage:104}},{id:\"minecraft:golden_leggings\",Count:1,tag:{is_bonus:1b,bonus_return:1b,Damage:98}},{id:\"minecraft:golden_boots\",Count:1,tag:{is_bonus:1b,bonus_return:1b,Damage:85}}]}"
             }
         ]
     },

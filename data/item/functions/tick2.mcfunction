@@ -20,3 +20,6 @@ execute as @e[tag=item_purple] at @s run particle minecraft:wax_on ~ ~0.3 ~ 0 0 
 execute as @e[tag=item_purple] at @s run particle minecraft:wax_on ~ ~0.3 ~ 0.7 0.7 0.7 1 1 normal
 execute as @e[tag=item_purple] at @s run particle minecraft:wax_on ~ ~0.3 ~ 1.5 1.5 1.5 1 2 normal
 execute as @e[tag=item_purple] at @s run particle minecraft:wax_on ~ ~0.3 ~ 2.5 2.5 2.5 1 1 normal
+
+# 禁止捡起、在落地 10 秒后清理
+execute as @e[type=arrow,tag=!projectile_checked] run data merge entity @s {pickup:0,life:1000,Tags:["projectile_checked"]}

@@ -4,7 +4,7 @@ scoreboard players set $random_max mem 8
 function lib:random
 
 # 显示提示
-execute if score $random mem matches 1 run tellraw @s "“你的手上如果有钓鱼竿的话，可以用它把物品给直接勾过来，哼唧。”"
+execute if score $random mem matches 1 run tellraw @s "“钓鱼竿可以直接把物品勾过来，鞘翅也能让你一飞冲天嗷。哼唧。”"
 execute if score $random mem matches 2 run tellraw @s "“哼唧，你可以用钓鱼竿把人勾下悬崖，或者用来钓……哼哼，‘鱼’？”"
 execute if score $random mem matches 3 run tellraw @s "“继续沿着你来时的那条密道走，指不定能找到我隐居的神秘兄弟……？”"
 execute if score $random mem matches 4 run tellraw @s "“从蛛网密布的密道尽头，沿灰色珊瑚指引，就能窥见创世的秘密。”"
