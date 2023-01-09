@@ -77,34 +77,23 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 6,
+    "weight": 5,
     "name": "minecraft:map",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{item_name:'{\"text\":\"1/2 概率获得 10 积分\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:0}"
+            "tag": "{item_name:'{\"text\":\"一半概率获得 10 积分\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:0}"
         }
     ]
 },
 {
     "type": "minecraft:item",
-    "weight": 6,
+    "weight": 5,
     "name": "minecraft:map",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{item_name:'{\"text\":\"1/2 概率获得 10 积分\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:10}"
-        }
-    ]
-},
-{
-    "type": "minecraft:item",
-    "weight": 6,
-    "name": "minecraft:magenta_glazed_terracotta",
-    "functions": [
-        {
-            "function": "minecraft:set_nbt",
-            "tag": "{item_name:'{\"text\":\"积分随机翻倍或不变\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:101}"
+            "tag": "{item_name:'{\"text\":\"一半概率获得 10 积分\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:10}"
         }
     ]
 }

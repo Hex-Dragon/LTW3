@@ -8,7 +8,7 @@
         "text": "积分猎手 · Ω "
       },
       "description": [
-        {"text": "在单局游戏中达到 40 积分\n", "color":"gray"},
+        {"text": "在单局游戏中达到 32 积分\n", "color":"gray"},
         {"text": "究极隐藏挑战！","color":"dark_gray","italic": true}
       ],
       "frame": "challenge",

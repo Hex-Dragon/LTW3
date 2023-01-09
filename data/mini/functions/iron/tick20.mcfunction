@@ -1,3 +1,4 @@
+xp set @a 0 points
 
 # 显示倒计时
 execute if score $countdown mem matches ..10 run title @a times 3 14 2

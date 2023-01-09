@@ -163,7 +163,18 @@
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{item_name:'{\"text\":\"积分随机翻倍或减半\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:100}"
+            "tag": "{item_name:'{\"text\":\"积分随机 +7 或清零\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:-1}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 6,
+    "name": "minecraft:magenta_glazed_terracotta",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{item_name:'{\"text\":\"积分随机 +7 或清零\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:7}"
         }
     ]
 }

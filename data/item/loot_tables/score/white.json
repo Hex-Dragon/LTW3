@@ -58,6 +58,28 @@
             "tag": "{item_name:'{\"text\":\"1/4 概率获得 5 积分\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:5}"
         }
     ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 4,
+    "name": "minecraft:magenta_glazed_terracotta",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{item_name:'{\"text\":\"积分随机 +4 或清零\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:-1}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 4,
+    "name": "minecraft:magenta_glazed_terracotta",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{item_name:'{\"text\":\"积分随机 +4 或清零\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:4}"
+        }
+    ]
 }
 
 ]}]}
