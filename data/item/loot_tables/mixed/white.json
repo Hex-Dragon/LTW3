@@ -2,12 +2,47 @@
 
     {
         "type": "minecraft:loot_table",
-        "weight": 30,
+        "weight": 28,
         "name": "item:score/white"
     },
     {
         "type": "minecraft:item",
-        "weight": 5,
+        "weight": 6,
+        "name": "minecraft:blaze_powder",
+        "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 3
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"清空物品栏, 换取 3 积分\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,clean_inventory:1b,bonus_add_score:3}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:loot_table",
+        "weight": 48,
+        "name": "item:item/white"
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 3,
+        "name": "minecraft:blaze_powder",
+        "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 5
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"清空物品栏, 换取随机白色道具 x5\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,clean_inventory:1b,bonus_random_bonus:[{type:\"item\",level:\"white\",Count:5}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 3,
         "name": "minecraft:blaze_powder",
         "functions": [
             {
@@ -16,29 +51,13 @@
             },
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{item_name:'{\"text\":\"清空物品栏, 换取 2 积分\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,clean_inventory:1b,bonus_add_score:2}"
-            }
-        ]
-    },
-    {
-        "type": "minecraft:loot_table",
-        "weight": 50,
-        "name": "item:item/white"
-    },
-    {
-        "type": "minecraft:item",
-        "weight": 5,
-        "name": "minecraft:blaze_powder",
-        "functions": [
-            {
-                "function": "minecraft:set_nbt",
-                "tag": "{item_name:'{\"text\":\"清空物品栏, 换取随机蓝色道具\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,clean_inventory:1b,bonus_random_bonus:[{type:\"item\",level:\"green\",Count:1}]}"
+                "tag": "{item_name:'{\"text\":\"清空物品栏, 换取随机蓝色道具 x2\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,clean_inventory:1b,bonus_random_bonus:[{type:\"item\",level:\"green\",Count:2}]}"
             }
         ]
     },
     {
         "type": "minecraft:item",
-        "weight": 5,
+        "weight": 6,
         "name": "minecraft:shulker_shell",
         "functions": [
             {
@@ -49,7 +68,7 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 5,
+        "weight": 6,
         "name": "minecraft:shulker_shell",
         "functions": [
             {

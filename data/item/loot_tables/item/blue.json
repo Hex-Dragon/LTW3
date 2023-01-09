@@ -33,7 +33,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{item_name:'{\"text\":\"钓鱼竿\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,display:{Name:'{\"text\":\"钓鱼竿\",\"italic\":false,\"color\":\"light_purple\"}'}}"
+                "tag": "{item_name:'{\"text\":\"<饵钓 I> 钓鱼竿\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,Enchantments:[{id:\"lure\",lvl:1}],display:{Name:'{\"text\":\"<饵钓 I> 钓鱼竿\",\"italic\":false,\"color\":\"light_purple\"}'}}"
             }
         ]
     },
@@ -114,7 +114,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"<免疫击退> 下界合金胸甲\",\"italic\":false,\"color\":\"light_purple\"}'},item_name:'{\"text\":\"<免疫击退> 下界合金胸甲\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,AttributeModifiers:[{UUID:[I;23,38,0,2],Amount:8,AttributeName:\"generic.armor\",Name:\"armor\",Slot:\"legs\",Operation:0},{UUID:[I;23,38,0,3],Amount:8,AttributeName:\"generic.armor_toughness\",Name:\"armor1\",Slot:\"legs\",Operation:0},{UUID:[I;23,38,0,1],Amount:100,AttributeName:\"generic.knockback_resistance\",Name:\"kn\",Slot:\"legs\",Operation:0}]}"
+                "tag": "{display:{Name:'{\"text\":\"<免疫击退> 下界合金胸甲\",\"italic\":false,\"color\":\"light_purple\"}'},item_name:'{\"text\":\"<免疫击退> 下界合金胸甲\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,AttributeModifiers:[{UUID:[I;23,38,0,2],Amount:8,AttributeName:\"generic.armor\",Name:\"armor\",Slot:\"chest\",Operation:0},{UUID:[I;23,38,0,3],Amount:8,AttributeName:\"generic.armor_toughness\",Name:\"armor1\",Slot:\"chest\",Operation:0},{UUID:[I;23,38,0,1],Amount:100,AttributeName:\"generic.knockback_resistance\",Name:\"kn\",Slot:\"chest\",Operation:0}]}"
             }
         ]
     }

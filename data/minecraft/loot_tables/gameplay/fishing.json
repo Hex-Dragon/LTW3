@@ -3,37 +3,24 @@
   "pools": [
     {
       "rolls": 1.0,
-      "bonus_rolls": 0.0,
       "entries": [
+        
         {
           "type": "minecraft:loot_table",
-          "weight": 10,
-          "quality": -2,
-          "name": "minecraft:gameplay/fishing/junk"
+          "weight": 1,
+          "name": "item:item/white"
         },
         {
           "type": "minecraft:loot_table",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "predicate": {
-                "fishing_hook": {
-                  "in_open_water": true
-                }
-              },
-              "entity": "this"
-            }
-          ],
-          "weight": 5,
-          "quality": 2,
-          "name": "minecraft:gameplay/fishing/treasure"
+          "weight": 1,
+          "name": "item:item/green"
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 85,
-          "quality": -1,
-          "name": "minecraft:gameplay/fishing/fish"
+          "weight": 1,
+          "name": "item:item/blue"
         }
+
       ]
     }
   ]
