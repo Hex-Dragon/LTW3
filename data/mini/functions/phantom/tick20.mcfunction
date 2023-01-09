@@ -10,8 +10,8 @@ scoreboard players set #new_item mem 0
 execute if entity @e[tag=bonus_phantom] run scoreboard players set #new_item mem 1
 # 如果没有物品，则计算冷却
 execute if score #new_item mem matches 0 run scoreboard players add $new_item_cd mem 1
-# 已经超过 15s 冷却时间
-execute if score $new_item_cd mem matches ..14 run scoreboard players set #new_item mem 1
+# 已经超过 10s 冷却时间
+execute if score $new_item_cd mem matches ..9 run scoreboard players set #new_item mem 1
 
 # 召唤幻翼
 execute if score $countdown mem matches 11.. run function mini:phantom/game/try_summon

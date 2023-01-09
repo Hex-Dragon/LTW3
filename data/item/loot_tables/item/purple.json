@@ -3,11 +3,22 @@
     {
         "type": "minecraft:item",
         "weight": 10,
+        "name": "minecraft:diamond_axe",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"<击退 II> 钻石斧\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,\"Enchantments\":[{id:\"knockback\",\"lvl\":2}],display:{Name:'{\"text\":\"<击退 II> 钻石斧\",\"italic\":false,\"color\":\"gold\"}'}}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
         "name": "minecraft:elytra",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"鞘翅\",\"italic\":false,\"color\":\"aqua\"}'},item_name:'{\"text\":\"鞘翅, 烟花火箭 x5\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,bonus_give_items:[{id:\"minecraft:firework_rocket\",Count:5,tag:{is_bonus:1b,bonus_return:1b,bonus_clear_nbt:1b}}]}"
+                "tag": "{display:{Name:'{\"text\":\"鞘翅\",\"italic\":false,\"color\":\"aqua\"}'},item_name:'{\"text\":\"鞘翅, 烟花火箭 x6\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,bonus_give_items:[{id:\"minecraft:firework_rocket\",Count:6,tag:{is_bonus:1b,bonus_return:1b,bonus_clear_nbt:1b}}]}"
             }
         ]
     },

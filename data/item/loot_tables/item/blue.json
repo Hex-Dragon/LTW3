@@ -2,12 +2,38 @@
 
     {
         "type": "minecraft:item",
-        "weight": 15,
-        "name": "minecraft:potion",
+        "weight": 10,
+        "name": "minecraft:totem_of_undying",
+        "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 3
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"不死图腾 x3\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:totem_of_undying\",Count:1,tag:{bonus_return:1b,is_bonus:1b,display:{Name:'{\"text\":\"不死图腾\",\"italic\":false,\"color\":\"white\"}'}}},{id:\"minecraft:totem_of_undying\",Count:1,tag:{bonus_return:1b,is_bonus:1b,display:{Name:'{\"text\":\"不死图腾\",\"italic\":false,\"color\":\"white\"}'}}},{id:\"minecraft:totem_of_undying\",Count:1,tag:{bonus_return:1b,is_bonus:1b,display:{Name:'{\"text\":\"不死图腾\",\"italic\":false,\"color\":\"white\"}'}}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:shield",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomPotionColor:10751624,item_name:'{\"text\":\"隐身药水 (0:30) x4\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:600}],CustomPotionColor:10751624,display:{Name:'{\"text\":\"隐身药水\",\"italic\":false,\"color\":\"aqua\"}'}}},{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:600}],CustomPotionColor:10751624,display:{Name:'{\"text\":\"隐身药水\",\"italic\":false,\"color\":\"aqua\"}'}}},{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:600}],CustomPotionColor:10751624,display:{Name:'{\"text\":\"隐身药水\",\"italic\":false,\"color\":\"aqua\"}'}}},{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:600}],CustomPotionColor:10751624,display:{Name:'{\"text\":\"隐身药水\",\"italic\":false,\"color\":\"aqua\"}'}}}]}"
+                "tag": "{item_name:'{\"text\":\"盾牌\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,display:{Name:'{\"text\":\"盾牌\",\"italic\":false,\"color\":\"light_purple\"}'}}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 15,
+        "name": "minecraft:fishing_rod",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"钓鱼竿\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,display:{Name:'{\"text\":\"钓鱼竿\",\"italic\":false,\"color\":\"light_purple\"}'}}"
             }
         ]
     },
@@ -33,99 +59,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{item_name:'{\"text\":\"<效率 II> 钻石镐\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,\"Enchantments\":[{id:\"efficiency\",\"lvl\":2}],display:{Name:'{\"text\":\"<效率 II> 钻石镐\",\"italic\":false,\"color\":\"light_purple\"}'}}"
-            }
-        ]
-    },
-    {
-        "type": "minecraft:item",
-        "weight": 15,
-        "name": "minecraft:iron_axe",
-        "functions": [
-            {
-                "function": "minecraft:set_nbt",
-                "tag": "{item_name:'{\"text\":\"<击退 II> 铁斧\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,\"Enchantments\":[{id:\"knockback\",\"lvl\":2}],display:{Name:'{\"text\":\"<击退 II> 铁斧\",\"italic\":false,\"color\":\"light_purple\"}'}}"
-            }
-        ]
-    },
-    {
-        "type": "minecraft:item",
-        "weight": 10,
-        "name": "minecraft:chainmail_leggings",
-        "functions": [
-            {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"<速度 +30%> 锁链护腿\",\"italic\":false,\"color\":\"light_purple\"}'},item_name:'{\"text\":\"<速度 +30%> 锁链护腿\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,AttributeModifiers:[{UUID:[I;23,37,0,1],Amount:0.3,AttributeName:\"generic.movement_speed\",Name:\"spd\",Slot:\"legs\",Operation:1},{UUID:[I;23,37,0,2],Amount:4,AttributeName:\"generic.armor\",Name:\"armor\",Slot:\"legs\",Operation:0}]}"
-            }
-        ]
-    },
-    {
-        "type": "minecraft:item",
-        "weight": 15,
-        "name": "minecraft:fishing_rod",
-        "functions": [
-            {
-                "function": "minecraft:set_nbt",
-                "tag": "{item_name:'{\"text\":\"钓鱼竿\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,display:{Name:'{\"text\":\"钓鱼竿\",\"italic\":false,\"color\":\"light_purple\"}'}}"
-            }
-        ]
-    },
-    {
-        "type": "minecraft:item",
-        "weight": 7,
-        "name": "minecraft:netherite_chestplate",
-        "functions": [
-            {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"<免疫击退> 下界合金胸甲\",\"italic\":false,\"color\":\"light_purple\"}'},item_name:'{\"text\":\"<免疫击退> 下界合金胸甲\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,AttributeModifiers:[{UUID:[I;23,38,0,2],Amount:8,AttributeName:\"generic.armor\",Name:\"armor\",Slot:\"legs\",Operation:0},{UUID:[I;23,38,0,3],Amount:8,AttributeName:\"generic.armor_toughness\",Name:\"armor1\",Slot:\"legs\",Operation:0},{UUID:[I;23,38,0,1],Amount:10,AttributeName:\"generic.knockback_resistance\",Name:\"kn\",Slot:\"legs\",Operation:0}]}"
-            }
-        ]
-    },
-    {
-        "type": "minecraft:item",
-        "weight": 10,
-        "name": "minecraft:shield",
-        "functions": [
-            {
-                "function": "minecraft:set_nbt",
-                "tag": "{item_name:'{\"text\":\"盾牌\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,display:{Name:'{\"text\":\"盾牌\",\"italic\":false,\"color\":\"light_purple\"}'}}"
-            }
-        ]
-    },
-    {
-        "type": "minecraft:item",
-        "weight": 5,
-        "name": "minecraft:netherite_ingot",
-        "functions": [
-            {
-                "function": "minecraft:set_count",
-                "count": 4
-            },
-            {
-                "function": "minecraft:set_nbt",
-                "tag": "{item_name:'{\"text\":\"全身下界合金甲\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:netherite_helmet\",Count:1,tag:{bonus_return:1b,is_bonus:1b}},{id:\"minecraft:netherite_chestplate\",Count:1,tag:{bonus_return:1b,is_bonus:1b}},{id:\"minecraft:netherite_leggings\",Count:1,tag:{bonus_return:1b,is_bonus:1b}},{id:\"minecraft:netherite_boots\",Count:1,tag:{bonus_return:1b,is_bonus:1b}}]}"
-            }
-        ]
-    },
-    {
-        "type": "minecraft:item",
-        "weight": 10,
-        "name": "minecraft:shulker_box",
-        "functions": [
-            {
-                "function": "minecraft:set_nbt",
-                "tag": "{item_name:'{\"text\":\"铁镐, 铁斧, 铁锹\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:iron_pickaxe\",Count:1,tag:{bonus_return:1b,is_bonus:1b,display:{Name:'{\"text\":\"铁镐\",\"italic\":false,\"color\":\"aqua\"}'}}},{id:\"minecraft:iron_axe\",Count:1,tag:{bonus_return:1b,is_bonus:1b,display:{Name:'{\"text\":\"铁斧\",\"italic\":false,\"color\":\"aqua\"}'}}},{id:\"minecraft:iron_shovel\",Count:1,tag:{bonus_return:1b,is_bonus:1b,display:{Name:'{\"text\":\"铁锹\",\"italic\":false,\"color\":\"white\"}'}}}]}"
-            }
-        ]
-    },
-    {
-        "type": "minecraft:item",
-        "weight": 10,
-        "name": "minecraft:totem_of_undying",
-        "functions": [
-            {
-                "function": "minecraft:set_nbt",
-                "tag": "{item_name:'{\"text\":\"不死图腾 x3\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:totem_of_undying\",Count:1,tag:{bonus_return:1b,is_bonus:1b,display:{Name:'{\"text\":\"不死图腾\",\"italic\":false,\"color\":\"white\"}'}}},{id:\"minecraft:totem_of_undying\",Count:1,tag:{bonus_return:1b,is_bonus:1b,display:{Name:'{\"text\":\"不死图腾\",\"italic\":false,\"color\":\"white\"}'}}},{id:\"minecraft:totem_of_undying\",Count:1,tag:{bonus_return:1b,is_bonus:1b,display:{Name:'{\"text\":\"不死图腾\",\"italic\":false,\"color\":\"white\"}'}}}]}"
+                "tag": "{item_name:'{\"text\":\"<效率 I> 钻石镐\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,\"Enchantments\":[{id:\"efficiency\",\"lvl\":1}],display:{Name:'{\"text\":\"<效率 I> 钻石镐\",\"italic\":false,\"color\":\"light_purple\"}'}}"
             }
         ]
     },
@@ -148,6 +82,39 @@
             {
                 "function": "minecraft:set_nbt",
                 "tag": "{item_name:'{\"text\":\"生命果 + 9 金粒\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,display:{Lore:['{\"text\":\"恢复 4 颗心或生命 +1\",\"italic\":false,\"color\":\"gray\"}'],Name:'{\"text\":\"生命果\",\"italic\":false,\"color\":\"white\"}'},bonus_gold:9}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 15,
+        "name": "minecraft:potion",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:4791617,item_name:'{\"text\":\"隐身药水 (0:30) x4\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:600}],CustomPotionColor:4791617,display:{Name:'{\"text\":\"隐身药水\",\"italic\":false,\"color\":\"white\"}'}}},{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:600}],CustomPotionColor:4791617,display:{Name:'{\"text\":\"隐身药水\",\"italic\":false,\"color\":\"white\"}'}}},{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:600}],CustomPotionColor:4791617,display:{Name:'{\"text\":\"隐身药水\",\"italic\":false,\"color\":\"white\"}'}}},{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:600}],CustomPotionColor:4791617,display:{Name:'{\"text\":\"隐身药水\",\"italic\":false,\"color\":\"white\"}'}}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:chainmail_leggings",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"<速度 +30%> 锁链护腿\",\"italic\":false,\"color\":\"light_purple\"}'},item_name:'{\"text\":\"<速度 +30%> 锁链护腿\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,AttributeModifiers:[{UUID:[I;23,37,0,1],Amount:0.3,AttributeName:\"generic.movement_speed\",Name:\"spd\",Slot:\"legs\",Operation:1},{UUID:[I;23,37,0,2],Amount:4,AttributeName:\"generic.armor\",Name:\"armor\",Slot:\"legs\",Operation:0}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:netherite_chestplate",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"<免疫击退> 下界合金胸甲\",\"italic\":false,\"color\":\"light_purple\"}'},item_name:'{\"text\":\"<免疫击退> 下界合金胸甲\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,AttributeModifiers:[{UUID:[I;23,38,0,2],Amount:8,AttributeName:\"generic.armor\",Name:\"armor\",Slot:\"legs\",Operation:0},{UUID:[I;23,38,0,3],Amount:8,AttributeName:\"generic.armor_toughness\",Name:\"armor1\",Slot:\"legs\",Operation:0},{UUID:[I;23,38,0,1],Amount:100,AttributeName:\"generic.knockback_resistance\",Name:\"kn\",Slot:\"legs\",Operation:0}]}"
             }
         ]
     }
