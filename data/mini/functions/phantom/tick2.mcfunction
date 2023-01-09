@@ -1,5 +1,3 @@
-# 近战攻击不消耗三叉戟
-execute as @a[tag=mini_running,scores={use_trident=1..}] at @s if data entity @s Inventory[{Slot:8b,id:"minecraft:trident",tag:{game_item:1b}}] run scoreboard players set @s use_trident 0
 # 投掷三叉戟
 execute as @a[tag=mini_running,scores={use_trident=1..}] at @s run function mini:phantom/game/use_trident
 
