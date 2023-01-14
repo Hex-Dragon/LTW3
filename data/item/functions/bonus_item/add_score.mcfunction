@@ -10,7 +10,8 @@ execute if score #bonus_add_score mem matches 1..10 run tellraw @a ["",{"text": 
 execute if score #bonus_add_score mem matches 0 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"selector": "@s","color":"red"}," 没能获得积分……"]
 
 # 清零
-execute if score #bonus_add_score mem matches ..-1 run tellraw @a ["",{"text": ">> ","color":"red","bold": true},{"selector": "@s","color":"red"}," 的积分惨遭清零……"]
+execute if score #bonus_add_score mem matches ..-1 if score @s total_score matches 0 run tellraw @a [{"text":"","color":"red"},{"text": ">> ","color":"red","bold": true},{"selector": "@s","color":"white"}," 的 ",{"score": {"name": "@s","objective": "total_score"}}," 没能获得积分……"]
+execute if score #bonus_add_score mem matches ..-1 if score @s total_score matches 1.. run tellraw @a [{"text":"","color":"red"},{"text": ">> ","color":"red","bold": true},{"selector": "@s","color":"white"}," 的 ",{"score": {"name": "@s","objective": "total_score"}}," 积分惨遭清零……"]
 execute if score #bonus_add_score mem matches ..-1 run scoreboard players set @s total_score 0
 execute if score #bonus_add_score mem matches ..-1 run scoreboard players set @s total_score_disp 0
 

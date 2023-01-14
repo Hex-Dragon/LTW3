@@ -21,6 +21,9 @@ scoreboard players set $tempo_enable mem 0
 # 修改队伍颜色
 team modify playing color reset
 
+# 清理奖励物资
+kill @e[tag=bonus_item]
+
 # 小游戏编号：生成一个 1~[最大游戏编号] 的 randomarray，每次从其中取下一个数。
 execute unless data storage ltw:mini types[0] run function ltw:state/3/newarray
 execute store result score $mini_type mem run data get storage ltw:mini types[0]

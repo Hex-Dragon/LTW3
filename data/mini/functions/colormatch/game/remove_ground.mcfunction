@@ -11,7 +11,7 @@ execute as @a at @s run function lib:sounds/hit2
 scoreboard players set $countdown_fast mem 28
 scoreboard players operation $countdown_fast mem < $color_match_time mem
 scoreboard players remove $countdown_fast mem 3
-execute if score $countdown_fast mem matches ..17 run scoreboard players set $countdown_fast mem 18
+execute if score $countdown_fast mem matches ..13 run scoreboard players set $countdown_fast mem 14
 scoreboard players set $color_match_type mem 1
 
 # HUD

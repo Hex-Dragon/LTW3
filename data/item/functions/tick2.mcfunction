@@ -23,3 +23,6 @@ execute as @e[tag=item_purple] at @s run particle minecraft:wax_on ~ ~0.3 ~ 2.5 
 
 # 禁止捡起、在落地 10 秒后清理
 execute as @e[type=arrow,tag=!projectile_checked] run data merge entity @s {pickup:0,life:1000,Tags:["projectile_checked"]}
+
+# 调用粒子模块
+function item:particle/tick2
