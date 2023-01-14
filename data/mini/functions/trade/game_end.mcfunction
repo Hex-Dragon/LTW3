@@ -12,6 +12,7 @@ gamerule fireDamage false
 gamerule drowningDamage false
 
 # 计算积分
+scoreboard players set @a[team=playing] mini_score 0
 execute as @a[team=playing] run scoreboard players operation @s mini_score += @s emerald
 
 # 清理物品栏

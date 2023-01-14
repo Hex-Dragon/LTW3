@@ -32,7 +32,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{item_name:'{\"text\":\"清空物品栏, 换取随机蓝色道具 x3\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,clean_inventory:1b,bonus_random_bonus:[{type:\"item\",level:\"blue\",Count:3}]}"
+                "tag": "{item_name:'{\"text\":\"清空物品栏, 换取随机蓝色道具 x3\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,clean_inventory:1b,bonus_random_bonus:[{type:\"item\",level:\"green\",Count:3}]}"
             }
         ]
     },

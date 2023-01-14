@@ -2,7 +2,7 @@
 execute if score @s buy_trigger matches 001..099 at @s unless entity @s[x=-3,z=-63,y=6,dx=25,dy=6,dz=30] run function item:shop/error/piglin
 execute if score @s buy_trigger matches 100..199 at @s unless entity @s[x=1,z=-63,y=20,dx=5,dy=4,dz=6] run function item:shop/error/piglin
 execute if score @s buy_trigger matches 200..299 at @s unless entity @s[x=-22,z=-75,y=18,dx=10,dy=4,dz=5] run function item:shop/error/villager
-execute if score @s buy_trigger matches 999 at @s unless entity @s[x=-3,z=-49,y=27,dx=5,dy=4,dz=5] run function item:shop/error/dice
+execute if score @s buy_trigger matches 666..999 at @s unless entity @s[x=-3,z=-49,y=27,dx=5,dy=4,dz=5] run function item:shop/error/dice
 
 # 普通商店
 execute if score @s buy_trigger matches 011 if score $state mem matches 0 run function item:shop/buy/011_bow

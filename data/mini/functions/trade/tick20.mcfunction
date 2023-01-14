@@ -14,8 +14,15 @@ execute if score $countdown mem matches 120 run title @a subtitle {"text":"⚠ �
 execute if score $countdown mem matches 120 run title @a times 1 50 3
 execute if score $countdown mem matches 120 run title @a title ""
 
+# 60s：时间提示
+execute if score $countdown mem matches 60 run title @a subtitle {"text":"⚠ 还剩一分钟！ ⚠","color":"yellow"}
+execute if score $countdown mem matches 60 run title @a times 1 50 3
+execute if score $countdown mem matches 60 run title @a title ""
+execute if score $countdown mem matches 60 run scoreboard players set $bossbar_color mem 2
+execute if score $countdown mem matches 60 run function lib:bossbar/show
+
 # 30s：时间提示
-execute if score $countdown mem matches 30 run title @a subtitle {"text":"⚠ 还剩三十秒！ ⚠","color":"yellow"}
+execute if score $countdown mem matches 30 run title @a subtitle {"text":"⚠ 最后三十秒！ ⚠","color":"gold"}
 execute if score $countdown mem matches 30 run title @a times 1 50 3
 execute if score $countdown mem matches 30 run title @a title ""
 
@@ -37,13 +44,8 @@ scoreboard players reset * temp2
 execute as @a[team=playing] store result score @s temp2 run clear @s nether_star
 execute as @a[scores={temp2=1..}] at @s run function mini:trade/game/get_score
 
-# 60s 提示
-execute if score $countdown mem matches 60 run tellraw @a ["",{"text": ">> ","color": "gold","bold": true},{"text":"游戏将在 ","color": "gold"}, "60 秒 ",{"text": "后结束","color": "gold"}]
-execute if score $countdown mem matches 60 run scoreboard players set $bossbar_color mem 2
-execute if score $countdown mem matches 60 run function lib:bossbar/show
-
 # 给予进度
-execute as @a[team=playing] if score @s emerald matches 7.. run advancement grant @s only ltw:vs/emerald1
+execute as @a[team=playing] if score @s emerald matches 8.. run advancement grant @s only ltw:vs/emerald1
 execute as @e[tag=TradePlayer,tag=!adv3_checked] unless entity @s[nbt={Offers:{Recipes:[{sell:{id:"minecraft:emerald"},uses:0}]}}] run tag @s add adv3_achieved
 execute as @a[team=playing] if score @s player_id = @e[tag=TradePlayer,tag=adv3_achieved,tag=!adv3_checked,limit=1] player_id run advancement grant @s only ltw:vs/emerald3
 tag @e[tag=TradePlayer,tag=adv3_achieved,tag=!adv3_checked] add adv3_checked

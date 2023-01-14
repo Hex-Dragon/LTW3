@@ -4,7 +4,7 @@ scoreboard players set $countdown mem 90
 # HUD
 scoreboard objectives setdisplay list health_disp
 scoreboard objectives setdisplay belowName health_disp
-scoreboard objectives setdisplay sidebar health_disp
+scoreboard objectives setdisplay sidebar health
 scoreboard players set $bossbar_color mem 3
 scoreboard players set $countdown_max mem 90
 scoreboard players set $bossbar_type mem 2
