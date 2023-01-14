@@ -2,7 +2,7 @@
 
     {
         "type": "minecraft:item",
-        "weight": 1,
+        "weight": 2,
         "name": "minecraft:blaze_powder",
         "functions": [
             {
@@ -17,12 +17,12 @@
     },
     {
         "type": "minecraft:loot_table",
-        "weight": 12,
+        "weight": 30,
         "name": "item:item/blue"
     },
     {
         "type": "minecraft:item",
-        "weight": 1,
+        "weight": 2,
         "name": "minecraft:blaze_powder",
         "functions": [
             {
@@ -33,7 +33,7 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 1,
+        "weight": 3,
         "name": "minecraft:shulker_shell",
         "functions": [
             {
@@ -44,7 +44,7 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 1,
+        "weight": 3,
         "name": "minecraft:shulker_shell",
         "functions": [
             {

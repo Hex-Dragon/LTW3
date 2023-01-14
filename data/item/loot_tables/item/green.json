@@ -29,7 +29,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{item_name:'{\"text\":\"<饵钓 IV> 破损的钓鱼竿\",\"color\":\"aqua\"}',Damage:60,is_bonus:1b,bonus_new:1b,bonus_return:1b,Enchantments:[{id:\"lure\",lvl:3}],display:{Name:'{\"text\":\"<饵钓 IV> 破损的钓鱼竿\",\"italic\":false,\"color\":\"aqua\"}'}}"
+                "tag": "{item_name:'{\"text\":\"<饵钓 IV> 破损的钓鱼竿\",\"color\":\"aqua\"}',Damage:60,is_bonus:1b,bonus_new:1b,bonus_return:1b,Enchantments:[{id:\"lure\",lvl:4}],display:{Name:'{\"text\":\"<饵钓 IV> 破损的钓鱼竿\",\"italic\":false,\"color\":\"aqua\"}'}}"
             }
         ]
     },
@@ -125,7 +125,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomPotionColor:4791617,item_name:'{\"text\":\"隐身药水 (0:30) x2\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:600}],CustomPotionColor:4791617,display:{Name:'{\"text\":\"隐身药水\",\"italic\":false,\"color\":\"white\"}'}}},{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:600}],CustomPotionColor:4791617,display:{Name:'{\"text\":\"隐身药水\",\"italic\":false,\"color\":\"white\"}'}}}]}"
+                "tag": "{CustomPotionColor:4791617,item_name:'{\"text\":\"隐身药水 (0:20) x2\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:400}],CustomPotionColor:4791617,display:{Name:'{\"text\":\"隐身药水\",\"italic\":false,\"color\":\"white\"}'}}},{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:400}],CustomPotionColor:4791617,display:{Name:'{\"text\":\"隐身药水\",\"italic\":false,\"color\":\"white\"}'}}}]}"
             }
         ]
     },

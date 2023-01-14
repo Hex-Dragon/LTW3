@@ -21,7 +21,7 @@ execute store result score #total_count mem if entity @a
 # 开始：提示开始
 execute if score $count mem matches 3.. if score #start_countdown mem matches 999.. run tellraw @a[tag=pass_setup] [{"text":"","color":"green"},{"text": ">> ","bold": true},"游戏即将开始, 请使用快捷栏最后一格确定自己是否参与!"]
 execute if score $count mem matches 3.. if score #start_countdown mem matches 999.. as @a at @s run function lib:sounds/levelup
-execute if score $count mem matches 3.. if score #start_countdown mem matches 999.. run scoreboard players set #start_countdown mem 121
+execute if score $count mem matches 3.. if score #start_countdown mem matches 999.. run scoreboard players set #start_countdown mem 201
 
 # 取消：提示取消
 execute if score $count mem matches ..2 if score #start_countdown mem matches ..999 run tellraw @a[tag=pass_setup] [{"text":"","color":"red"},{"text": ">> ","bold": true},"已准备人数不足, 游戏取消!"]
@@ -37,14 +37,14 @@ scoreboard players operation #start_div mem %= #4 mem
 execute if score #start_sec mem matches 1..10 if score #start_div mem matches 3 run execute as @a at @s run function lib:sounds/hit2
 
 # 20s：提示未准备
-execute if score #start_countdown mem matches 80 run tellraw @a[team=watching,tag=pass_setup] [{"text":"","color":"red"},{"text":">> ","bold": true},"你还没有准备, 如果要参加游戏, 请丢出快捷栏最后一格的物品!"]
+execute if score #start_countdown mem matches 80 run tellraw @a[team=watching,tag=pass_setup] [{"text":"\n","color":"red"},{"text":">> ","bold": true},"请丢出最后一格的物品准备开始，否则将旁观下一局游戏！\n"]
 
-# 10s：提示玩家数量过多
-execute if score #start_countdown mem matches 40 if score $count mem matches 9.. run tellraw @a [{"text":"","color":"gold"},{"text":">> ","bold": true},"已超出游戏最多支持的 8 人人数上限, 将随机抽取 8 人开始游戏!"]
+# 6s：提示玩家数量过多
+execute if score #start_countdown mem matches 24 if score $count mem matches 9.. run tellraw @a[tag=pass_setup] [{"text":"","color":"gold"},{"text":">> ","bold": true},"已超出游戏最多支持的 8 人人数上限, 将随机抽取 8 人开始游戏!"]
 
 # 0s：开始游戏
 execute if score #start_countdown mem matches 0 run function ltw:state/0/start_game
 
 # 显示信息
-execute if score #start_countdown mem matches 1..199 run title @a[team=!debugging,tag=pass_setup] actionbar [{"text":"","color":"green"},{"score":{"name":"$count","objective":"mem"}},"/",{"score":{"name":"#total_count","objective":"mem"}}," 人已准备 | ","将在 ",{"score":{"name":"#start_sec","objective":"mem"}}," 秒后开始游戏"]
-execute if score #start_countdown mem matches 200.. run title @a[team=!debugging,tag=pass_setup] actionbar [{"text":"","color":"red"},{"score":{"name":"$count","objective":"mem"}},"/",{"score":{"name":"#total_count","objective":"mem"}}," 人已准备 | 需要 3 人以开始游戏"]
+execute if score #start_countdown mem matches 1..998 run title @a[team=!debugging,tag=pass_setup] actionbar [{"text":"","color":"green"},{"score":{"name":"$count","objective":"mem"}},"/",{"score":{"name":"#total_count","objective":"mem"}}," 人已准备 | ","将在 ",{"score":{"name":"#start_sec","objective":"mem"}}," 秒后开始游戏"]
+execute if score #start_countdown mem matches 999.. run title @a[team=!debugging,tag=pass_setup] actionbar [{"text":"","color":"red"},{"score":{"name":"$count","objective":"mem"}},"/",{"score":{"name":"#total_count","objective":"mem"}}," 人已准备 | 需要 3 人以开始游戏"]

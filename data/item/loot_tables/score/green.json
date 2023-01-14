@@ -158,23 +158,23 @@
 },
 {
     "type": "minecraft:item",
-    "weight": 6,
+    "weight": 4,
     "name": "minecraft:magenta_glazed_terracotta",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{item_name:'{\"text\":\"积分随机 +8 或清零\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:-1}"
+            "tag": "{item_name:'{\"text\":\"积分随机 +6 或清零\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:-1}"
         }
     ]
 },
 {
     "type": "minecraft:item",
-    "weight": 6,
+    "weight": 8,
     "name": "minecraft:magenta_glazed_terracotta",
     "functions": [
         {
             "function": "minecraft:set_nbt",
-            "tag": "{item_name:'{\"text\":\"积分随机 +8 或清零\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:8}"
+            "tag": "{item_name:'{\"text\":\"积分随机 +6 或清零\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:6}"
         }
     ]
 }

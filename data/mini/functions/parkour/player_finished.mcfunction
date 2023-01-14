@@ -5,9 +5,9 @@ tag @s remove mini_running
 function mini:main/update_player_count
 
 # 计算时间
-scoreboard players set #temp mem 150
+scoreboard players set #temp mem 130
 scoreboard players operation #temp mem -= $countdown mem
-execute if score #temp mem matches 1..100 run advancement grant @s only ltw:parkour/treasure1
+execute if score #temp mem matches 1..80 run advancement grant @s only ltw:parkour/treasure1
 execute if score #temp mem matches 1..60 run advancement grant @s only ltw:parkour/treasure2
 execute if score #temp mem matches 1..40 run advancement grant @s only ltw:parkour/treasure3
 execute if score #temp mem matches 1..30 run advancement grant @s only ltw:parkour/treasure4
