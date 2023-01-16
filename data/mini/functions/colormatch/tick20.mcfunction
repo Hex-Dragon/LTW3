@@ -6,8 +6,8 @@ execute if entity @e[tag=bonus_item,x=1000,y=0,z=4000,dx=100,dy=1000,dz=100] run
 
 # 如果没有物品，则计算冷却
 execute if score #new_item mem matches 0 run scoreboard players add $new_item_cd mem 1
-# 已经超过 12s 冷却时间
-execute if score $new_item_cd mem matches ..11 run scoreboard players set #new_item mem 1
+# 已经超过 15s 冷却时间
+execute if score $new_item_cd mem matches ..14 run scoreboard players set #new_item mem 1
 
 # 存活玩家数（$player_alive）>= 3
 execute if score $player_alive mem matches ..2 run scoreboard players set #new_item mem 1

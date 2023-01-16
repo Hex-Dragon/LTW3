@@ -12,7 +12,7 @@ execute unless entity @e[type=piglin,tag=shop_piglin_10,tag=lobby_entity] run su
 
 # 召唤粒子房实体
 execute unless entity @e[type=villager,tag=shop_particle_1,tag=lobby_entity] run summon minecraft:villager -23 20 -73 {Tags:["lobby_entity","shop_particle_1"],CustomName:'{"text":"使用生物雷达是作弊行为哦！","color":"red"}'}
-execute unless entity @e[type=villager,tag=shop_particle_2,tag=lobby_entity] run summon minecraft:villager -17 20 -76 {Tags:["lobby_entity","shop_particle_2"],CustomName:'{"text":"使用生物雷达是作弊行为哦！","color":"red"}'}
+execute unless entity @e[type=villager,tag=shop_particle_2,tag=lobby_entity] run summon minecraft:villager -17 20 -76 {Tags:["lobby_entity","shop_particle_2"]}
 execute unless entity @e[type=armor_stand,tag=show_particle_1,tag=lobby_entity] run summon minecraft:armor_stand -19 20.1 -75 {Small:1b,Invisible:1b,Invulnerable:1b,Marker:1b,Tags:["show_particle_1","lobby_entity"]}
 execute unless entity @e[type=armor_stand,tag=show_particle_2,tag=lobby_entity] run summon minecraft:armor_stand -18 20.1 -75 {Small:1b,Invisible:1b,Invulnerable:1b,Marker:1b,Tags:["show_particle_2","lobby_entity"]}
 execute unless entity @e[type=armor_stand,tag=show_particle_3,tag=lobby_entity] run summon minecraft:armor_stand -17 20.1 -75 {Small:1b,Invisible:1b,Invulnerable:1b,Marker:1b,Tags:["show_particle_3","lobby_entity"]}

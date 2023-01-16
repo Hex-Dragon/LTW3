@@ -7,3 +7,4 @@ execute if score $countdown mem matches ..60 run effect clear @a[team=playing,ta
 
 # 铁锭发光
 execute as @e[type=item,nbt={Item:{id:"minecraft:iron_ingot"}}] run data modify entity @s Glowing set value 1b
+execute as @e[type=item,nbt={Item:{id:"minecraft:raw_iron"}}] run data modify entity @s Glowing set value 1b

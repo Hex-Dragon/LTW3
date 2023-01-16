@@ -16,8 +16,8 @@ give @s[scores={shop_02_arrow=3}] tipped_arrow{Potion:"minecraft:slowness"} 2
 # 03
 clear @s golden_apple
 clear @s enchanted_golden_apple
-give @s[scores={shop_03_apple=1}] golden_apple{display:{Lore:['{"text":"恢复 4 颗心或生命 +1","italic":false,"color":"gray"}'],Name:'{"text":"生命果","italic":false,"color":"aqua"}'}}
-give @s[scores={shop_03_apple=2}] enchanted_golden_apple{display:{Name:'{"text":"附魔生命果","italic":false,"color":"light_purple"}',Lore:['{"text":"恢复到满血或生命加倍","italic":false,"color":"gray"}']}}
+give @s[scores={shop_03_apple=1}] golden_apple{display:{Lore:['{"text":"在部分小游戏中食用能使生命 +1","italic":false,"color":"gray"}'],Name:'{"text":"金苹果","italic":false,"color":"aqua"}'}}
+give @s[scores={shop_03_apple=2}] enchanted_golden_apple{display:{Name:'{"text":"附魔金苹果","italic":false,"color":"light_purple"}',Lore:['{"text":"在部分小游戏中食用能使当前生命加倍","italic":false,"color":"gray"}']}}
 scoreboard players reset @s shop_03_apple
 
 # 04

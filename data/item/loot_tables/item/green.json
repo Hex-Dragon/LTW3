@@ -184,7 +184,7 @@
             },
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{item_name:'{\"text\":\"生命果 x2\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,display:{Lore:['{\"text\":\"恢复 4 颗心或生命 +1\",\"italic\":false,\"color\":\"gray\"}'],Name:'{\"text\":\"生命果\",\"italic\":false,\"color\":\"white\"}'}}"
+                "tag": "{item_name:'{\"text\":\"金苹果 x2\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,display:{Lore:['{\"text\":\"在部分小游戏中食用能使生命 +1\",\"italic\":false,\"color\":\"gray\"}'],Name:'{\"text\":\"金苹果\",\"italic\":false,\"color\":\"white\"}'}}"
             }
         ]
     },
