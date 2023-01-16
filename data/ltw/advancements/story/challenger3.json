@@ -8,7 +8,7 @@
         "text": "挑战极限 · γ "
       },
       "description": [
-        {"text": "完成 8 项挑战进度\n", "color":"gray"},
+        {"text": "完成 10 项挑战进度\n", "color":"gray"},
         {"text": "奖励: ","color":"green"},
         {"text": "2 绿宝石","color":"white"}
       ],
@@ -28,6 +28,8 @@
       "05": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_adv_challenge":{"min":5}},"condition":"entity_scores","entity":"this"}]}},
       "06": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_adv_challenge":{"min":6}},"condition":"entity_scores","entity":"this"}]}},
       "07": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_adv_challenge":{"min":7}},"condition":"entity_scores","entity":"this"}]}},
-      "08": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_adv_challenge":{"min":8}},"condition":"entity_scores","entity":"this"}]}}
+      "08": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_adv_challenge":{"min":8}},"condition":"entity_scores","entity":"this"}]}},
+      "09": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_adv_challenge":{"min":9}},"condition":"entity_scores","entity":"this"}]}},
+      "10": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_adv_challenge":{"min":10}},"condition":"entity_scores","entity":"this"}]}}
     }
   }

@@ -45,5 +45,5 @@ execute if score $foursec mem matches 1 run schedule function mini:iron/game/cle
 # 给予进度
 advancement grant @a[team=playing,scores={iron_count=10..}] only ltw:blood/iron1
 advancement grant @a[team=playing,scores={iron_count=20..}] only ltw:blood/iron2
-advancement grant @a[team=playing,scores={iron_count=35..}] only ltw:blood/iron3
+advancement grant @a[team=playing,scores={iron_count=40..}] only ltw:blood/iron3
 advancement grant @a[team=playing,scores={iron_count=50..}] only ltw:blood/iron4

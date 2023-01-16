@@ -8,7 +8,7 @@
         "text": "挑战极限 · Ω "
       },
       "description": [
-        {"text": "完成 12 项挑战进度\n", "color":"gray"},
+        {"text": "完成 13 项挑战进度\n", "color":"gray"},
         {"text": "究极隐藏挑战！","color":"dark_gray","italic": true}
       ],
       "frame": "challenge",
@@ -20,6 +20,6 @@
       "function": "ltw:advancement/bonus_4"
     },
     "criteria": {
-      "a": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_adv_challenge":{"min":12}},"condition":"entity_scores","entity":"this"}]}}
+      "a": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_adv_challenge":{"min":13}},"condition":"entity_scores","entity":"this"}]}}
     }
   }

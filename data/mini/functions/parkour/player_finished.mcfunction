@@ -8,9 +8,9 @@ function mini:main/update_player_count
 scoreboard players set #temp mem 130
 scoreboard players operation #temp mem -= $countdown mem
 execute if score #temp mem matches 1..80 run advancement grant @s only ltw:parkour/treasure1
-execute if score #temp mem matches 1..60 run advancement grant @s only ltw:parkour/treasure2
-execute if score #temp mem matches 1..40 run advancement grant @s only ltw:parkour/treasure3
-execute if score #temp mem matches 1..30 run advancement grant @s only ltw:parkour/treasure4
+execute if score #temp mem matches 1..45 run advancement grant @s only ltw:parkour/treasure2
+execute if score #temp mem matches 1..35 run advancement grant @s only ltw:parkour/treasure3
+execute if score #temp mem matches 1..28 run advancement grant @s only ltw:parkour/treasure4
 
 # 显示提示
 execute if entity @s[tag=!rejoining] if score $player_finish mem matches 1 run tellraw @a ["",{"text": ">> ","color":"green","bold": true},{"selector": "@s"},{"text": " 已到达终点，用时 ","color":"green"},{"score": {"name": "#temp","objective": "mem"}}," 秒",{"text": "！第 ","color":"green"},{"score": {"name": "$player_finish","objective": "mem"},"color":"green"},{"text": " 名！","color":"green"}]
