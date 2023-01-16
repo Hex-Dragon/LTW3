@@ -143,12 +143,23 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 15,
+        "weight": 10,
         "name": "minecraft:potion",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
                 "tag": "{CustomPotionColor:4791617,item_name:'{\"text\":\"隐身药水 (0:20)\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:400}],CustomPotionColor:4791617,display:{Name:'{\"text\":\"隐身药水\",\"italic\":false,\"color\":\"white\"}'}}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:potion",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:2752294,item_name:'{\"text\":\"跳跃提升 II 药水 (0:40)\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:8,Amplifier:1,Duration:800}],CustomPotionColor:2752294,display:{Name:'{\"text\":\"跳跃提升 II 药水\",\"italic\":false,\"color\":\"white\"}'}}}]}"
             }
         ]
     },
@@ -187,7 +198,7 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 10,
+        "weight": 8,
         "name": "minecraft:diamond_leggings",
         "functions": [
             {
@@ -209,7 +220,7 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 10,
+        "weight": 8,
         "name": "minecraft:raw_gold_block",
         "functions": [
             {
@@ -220,12 +231,23 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 10,
+        "weight": 8,
         "name": "minecraft:raw_iron_block",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
                 "tag": "{item_name:'{\"text\":\"铁头盔、胸甲\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:iron_helmet\",Count:1,tag:{is_bonus:1b,bonus_return:1b,bonus_clear_nbt:1b}},{id:\"minecraft:iron_chestplate\",Count:1,tag:{is_bonus:1b,bonus_return:1b,bonus_clear_nbt:1b}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 8,
+        "name": "minecraft:raw_iron_block",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"<绑定诅咒> 全身铁甲\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:iron_helmet\",Count:1,tag:{is_bonus:1b,display:{Name:'{\"text\":\"<绑定诅咒> 铁头盔\",\"italic\":false,\"color\":\"white\"}'},bonus_return:1b,Enchantments:[{id:\"binding_curse\",lvl:1}]}},{id:\"minecraft:iron_chestplate\",Count:1,tag:{is_bonus:1b,display:{Name:'{\"text\":\"<绑定诅咒> 铁胸甲\",\"italic\":false,\"color\":\"white\"}'},bonus_return:1b,Enchantments:[{id:\"binding_curse\",lvl:1}]}},{id:\"minecraft:iron_leggings\",Count:1,tag:{is_bonus:1b,display:{Name:'{\"text\":\"<绑定诅咒> 铁护腿\",\"italic\":false,\"color\":\"white\"}'},bonus_return:1b,Enchantments:[{id:\"binding_curse\",lvl:1}]}},{id:\"minecraft:iron_boots\",Count:1,tag:{is_bonus:1b,display:{Name:'{\"text\":\"<绑定诅咒> 铁靴子\",\"italic\":false,\"color\":\"white\"}'},bonus_return:1b,Enchantments:[{id:\"binding_curse\",lvl:1}]}}]}"
             }
         ]
     }

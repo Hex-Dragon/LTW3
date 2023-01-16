@@ -9,6 +9,10 @@ execute if score $countdown mem matches ..10 run title @a subtitle {"score":{"na
 execute if score $countdown mem matches ..10 run title @a title [""]
 execute if score $countdown mem matches ..10 as @a at @s run function lib:sounds/hit2
 
+# 180s：教学
+execute if score $countdown mem matches 180 run tellraw @s[team=playing,scores={green_total=..10,emerald=0}] [{"text":"\n>> ","color":"light_purple","bold": true},{"text":"提示：手持最后一格的交易契约召唤村民，与村民交易，尽量获取绿宝石！","bold":false},"\n"]
+execute if score $countdown mem matches 180 run tellraw @s[team=playing,scores={green_total=..10,emerald=1..}] [{"text":"\n>> ","color":"light_purple","bold": true},{"text":"提示：地牢的箱子中有积分与不少资源，寻找地牢也是不错的选择！","bold":false},"\n"]
+
 # 120s：时间提示
 execute if score $countdown mem matches 120 run title @a subtitle {"text":"⚠ 还剩两分钟！ ⚠","color":"yellow"}
 execute if score $countdown mem matches 120 run title @a times 1 50 3

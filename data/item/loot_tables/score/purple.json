@@ -66,6 +66,21 @@
             "tag": "{item_name:'{\"text\":\"80% 概率获得 10 积分\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:10}"
         }
     ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:ender_eye",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 4
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{item_name:'{\"text\":\"从最高分玩家处偷取 4 积分\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,\"bonus_stole_score\":4}"
+        }
+    ]
 }
 
 ]}]}

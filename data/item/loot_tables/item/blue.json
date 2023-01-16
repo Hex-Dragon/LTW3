@@ -18,6 +18,32 @@
     {
         "type": "minecraft:item",
         "weight": 10,
+        "name": "minecraft:golden_apple",
+        "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 3
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"金苹果 x3\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,display:{Lore:['{\"text\":\"在部分小游戏中食用能使生命 +1\",\"italic\":false,\"color\":\"gray\"}'],Name:'{\"text\":\"金苹果\",\"italic\":false,\"color\":\"white\"}'}}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:potion",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:2752294,item_name:'{\"text\":\"跳跃提升 V 药水 (5:00)\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:8,Amplifier:4,Duration:6000}],CustomPotionColor:2752294,display:{Name:'{\"text\":\"跳跃提升 V 药水\",\"italic\":false,\"color\":\"light_purple\"}'}}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
         "name": "minecraft:shield",
         "functions": [
             {
@@ -28,7 +54,29 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 15,
+        "weight": 10,
+        "name": "minecraft:netherite_axe",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"下界合金镐\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,display:{Name:'{\"text\":\"下界合金镐\",\"italic\":false,\"color\":\"light_purple\"}'}}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:elytra",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"鞘翅\",\"italic\":false,\"color\":\"aqua\"}'},item_name:'{\"text\":\"鞘翅, 烟花火箭 x4\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,bonus_give_items:[{id:\"minecraft:firework_rocket\",Count:4,tag:{is_bonus:1b,bonus_return:1b,bonus_clear_nbt:1b}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
         "name": "minecraft:fishing_rod",
         "functions": [
             {
@@ -77,17 +125,6 @@
     {
         "type": "minecraft:item",
         "weight": 10,
-        "name": "minecraft:golden_apple",
-        "functions": [
-            {
-                "function": "minecraft:set_nbt",
-                "tag": "{item_name:'{\"text\":\"金苹果 + 9 金粒\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,display:{Lore:['{\"text\":\"在部分小游戏中食用能使生命 +1\",\"italic\":false,\"color\":\"gray\"}'],Name:'{\"text\":\"金苹果\",\"italic\":false,\"color\":\"white\"}'},bonus_gold:9}"
-            }
-        ]
-    },
-    {
-        "type": "minecraft:item",
-        "weight": 15,
         "name": "minecraft:potion",
         "functions": [
             {

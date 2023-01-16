@@ -4,15 +4,15 @@ function mini:colormatch/game/replace_wall
 execute positioned 1001 10 4000 run clone ~ ~ ~ ~20 ~ ~20 1050 16 4000 filtered #mini:colormatch_floor
 
 # 设置倒计时
-execute if score #max_speed mem matches 0 if entity @a[tag=color_match_fall] run scoreboard players add $color_match_time mem 5
-execute if score #max_speed mem matches 1 if entity @a[tag=color_match_fall] run scoreboard players add $color_match_time mem 3
-execute if score $color_match_time mem matches 11..14 run scoreboard players remove $color_match_time mem 1
-execute if score $color_match_time mem matches 15..19 run scoreboard players remove $color_match_time mem 2
-execute if score $color_match_time mem matches 20..29 run scoreboard players remove $color_match_time mem 3
-execute if score $color_match_time mem matches 30..39 run scoreboard players remove $color_match_time mem 4
+execute if score $player_alive mem matches 3.. if entity @a[tag=color_match_fall] run scoreboard players add $color_match_time mem 5
+execute if score $player_alive mem matches ..2 if entity @a[tag=color_match_fall] run scoreboard players add $color_match_time mem 3
+execute if score $color_match_time mem matches 9..13 run scoreboard players remove $color_match_time mem 1
+execute if score $color_match_time mem matches 14..18 run scoreboard players remove $color_match_time mem 2
+execute if score $color_match_time mem matches 19..28 run scoreboard players remove $color_match_time mem 3
+execute if score $color_match_time mem matches 29..39 run scoreboard players remove $color_match_time mem 4
 execute if score $color_match_time mem matches 40.. run scoreboard players remove $color_match_time mem 5
 scoreboard players operation $countdown_fast mem = $color_match_time mem
-execute if score $color_match_time mem matches ..10 if score #max_speed mem matches 0 run function mini:colormatch/game/reach_max_speed
+execute if score $color_match_time mem matches ..8 if score #max_speed mem matches 0 run function mini:colormatch/game/reach_max_speed
 
 # 重置分数
 scoreboard players set $color_match_type mem 0

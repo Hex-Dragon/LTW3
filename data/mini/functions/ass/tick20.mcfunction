@@ -1,4 +1,7 @@
 
+# 60s：教学
+execute if score $countdown mem matches 60 run tellraw @a[team=playing,scores={green_total=..10}] [{"text":"\n>> ","color":"light_purple","bold": true},{"text":"提示：在召唤苦力怕后稍等一下再击退，能让它在飞到目标时立即爆炸！","bold":false},"\n"]
+
 # 强制死亡机制
 execute if score $countdown mem matches 21 run tellraw @a ["",{"text": ">> ","color": "gold","bold": true},{"text": "强制死亡将在 20 秒后开启！","color": "gold"}]
 execute if score $countdown mem matches 1 run scoreboard players set $bossbar_color mem 1

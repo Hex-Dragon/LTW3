@@ -1,5 +1,5 @@
 # 召唤老板
-execute unless entity @e[type=piglin,tag=shop_piglin_1,tag=lobby_entity] run summon piglin 0 22 -60 {Tags:["lobby_entity","shop_piglin_1"],PersistenceRequired:1b,IsImmuneToZombification:1b,CannotHunt:1b,HandItems:[{id:"paper",Count:1b},{}],HandDropChances:[0.0f,0.0f]}
+execute unless entity @e[type=piglin,tag=shop_piglin_1,tag=lobby_entity] run summon piglin 0 22 -60 {Tags:["lobby_entity","shop_piglin_1"],PersistenceRequired:1b,IsImmuneToZombification:1b,CannotHunt:1b,HandItems:[{id:"paper",Count:1b},{}],HandDropChances:[0.0f,0.0f],CustomName:'{"text":"使用生物雷达是作弊行为哦！","color":"red"}'}
 execute unless entity @e[type=piglin,tag=shop_piglin_2,tag=lobby_entity] run summon piglin 0 22 -60 {Tags:["lobby_entity","shop_piglin_2"],PersistenceRequired:1b,IsImmuneToZombification:1b,CannotHunt:1b,HandItems:[{id:"music_disc_pigstep",Count:1b},{}],HandDropChances:[0.0f,0.0f]}
 execute unless entity @e[type=piglin,tag=shop_piglin_3,tag=lobby_entity] run summon piglin 1 9 -37 {Tags:["lobby_entity","shop_piglin_3"],PersistenceRequired:1b,IsImmuneToZombification:1b,CannotHunt:1b,HandItems:[{id:"fishing_rod",Count:1b},{}],HandDropChances:[0.0f,0.0f]}
 execute unless entity @e[type=pig,tag=shop_piglin_4,tag=lobby_entity] run summon pig 9 11 -36 {Tags:["lobby_entity","shop_piglin_4"],PersistenceRequired:1b}
@@ -11,7 +11,7 @@ execute unless entity @e[type=piglin,tag=shop_piglin_9,tag=lobby_entity] run sum
 execute unless entity @e[type=piglin,tag=shop_piglin_10,tag=lobby_entity] run summon piglin 0 9 -55 {Tags:["lobby_entity","shop_piglin_10"],PersistenceRequired:1b,IsImmuneToZombification:1b,CannotHunt:1b,HandItems:[{id:"bow",Count:1b},{}],HandDropChances:[0.0f,0.0f]}
 
 # 召唤粒子房实体
-execute unless entity @e[type=villager,tag=shop_particle_1,tag=lobby_entity] run summon minecraft:villager -23 20 -73 {Tags:["lobby_entity","shop_particle_1"],CustomName:'{"text":"使用生物雷达是作弊行为哦！","color":"red"}'}
+execute unless entity @e[type=villager,tag=shop_particle_1,tag=lobby_entity] run summon minecraft:villager -23 20 -73 {Tags:["lobby_entity","shop_particle_1"]}
 execute unless entity @e[type=villager,tag=shop_particle_2,tag=lobby_entity] run summon minecraft:villager -17 20 -76 {Tags:["lobby_entity","shop_particle_2"]}
 execute unless entity @e[type=armor_stand,tag=show_particle_1,tag=lobby_entity] run summon minecraft:armor_stand -19 20.1 -75 {Small:1b,Invisible:1b,Invulnerable:1b,Marker:1b,Tags:["show_particle_1","lobby_entity"]}
 execute unless entity @e[type=armor_stand,tag=show_particle_2,tag=lobby_entity] run summon minecraft:armor_stand -18 20.1 -75 {Small:1b,Invisible:1b,Invulnerable:1b,Marker:1b,Tags:["show_particle_2","lobby_entity"]}

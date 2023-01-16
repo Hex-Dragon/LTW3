@@ -1,3 +1,7 @@
+
+# 100s：教学
+execute if score $countdown mem matches 100 run tellraw @a[team=playing,scores={green_total=..10}] [{"text":"\n>> ","color":"light_purple","bold": true},{"text":"提示：留意隐蔽的角落与奇怪的地方，指不定里面就藏着宝藏……","bold":false},"\n"]
+
 # 地狱门音效
 scoreboard players set $random_max mem 3
 scoreboard players set $random_min mem 1

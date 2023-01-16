@@ -2,12 +2,23 @@
 
     {
         "type": "minecraft:item",
-        "weight": 15,
+        "weight": 10,
         "name": "minecraft:potion",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomPotionColor:16777215,item_name:'{\"text\":\"万能药 (2:00)\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:10,Amplifier:0,Duration:2400},{Id:12,Amplifier:0,Duration:2400},{Id:11,Amplifier:1,Duration:2400},{Id:1,Amplifier:1,Duration:2400},{Id:3,Amplifier:4,Duration:2400}],CustomPotionColor:16777215,display:{Name:'{\"text\":\"万能药\",\"italic\":false,\"color\":\"aqua\"}'}}}]}"
+                "tag": "{CustomPotionColor:16777215,item_name:'{\"text\":\"万能药 (2:00)\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:10,Amplifier:0,Duration:2400},{Id:12,Amplifier:0,Duration:2400},{Id:11,Amplifier:1,Duration:2400},{Id:1,Amplifier:0,Duration:2400},{Id:8,Amplifier:0,Duration:2400},{Id:3,Amplifier:4,Duration:2400}],CustomPotionColor:16777215,display:{Name:'{\"text\":\"万能药\",\"italic\":false,\"color\":\"aqua\"}'}}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:potion",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:2752294,item_name:'{\"text\":\"跳跃提升 III 药水 (3:00)\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:8,Amplifier:2,Duration:3600}],CustomPotionColor:2752294,display:{Name:'{\"text\":\"跳跃提升 III 药水\",\"italic\":false,\"color\":\"aqua\"}'}}}]}"
             }
         ]
     },
@@ -61,6 +72,17 @@
     },
     {
         "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:raw_iron_block",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"粗铁块\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,bonus_clear_nbt:1b}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
         "weight": 15,
         "name": "minecraft:totem_of_undying",
         "functions": [
@@ -76,7 +98,7 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 15,
+        "weight": 10,
         "name": "minecraft:crossbow",
         "functions": [
             {
@@ -120,12 +142,23 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 15,
+        "weight": 10,
         "name": "minecraft:potion",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
                 "tag": "{CustomPotionColor:4791617,item_name:'{\"text\":\"隐身药水 (0:20) x2\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:400}],CustomPotionColor:4791617,display:{Name:'{\"text\":\"隐身药水\",\"italic\":false,\"color\":\"white\"}'}}},{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:400}],CustomPotionColor:4791617,display:{Name:'{\"text\":\"隐身药水\",\"italic\":false,\"color\":\"white\"}'}}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:potion",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:8267585,item_name:'{\"text\":\"力量 & 隐身药水 (0:30)\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:600},{Id:5,Amplifier:0,Duration:600}],CustomPotionColor:8267585,display:{Name:'{\"text\":\"力量 & 隐身药水\",\"italic\":false,\"color\":\"aqua\"}'}}}]}"
             }
         ]
     },
@@ -142,7 +175,7 @@
     },
     {
         "type": "minecraft:item",
-        "weight": 15,
+        "weight": 10,
         "name": "minecraft:stick",
         "functions": [
             {

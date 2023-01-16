@@ -2,7 +2,7 @@
 execute as @e[tag=new_phantom] at @s run tp @s ~ 33 ~
 
 # 设置攻击力与随机生命值
-attribute @e[tag=new_phantom,limit=1] generic.attack_damage base set 4
+attribute @e[tag=new_phantom,limit=1] generic.attack_damage base set 5
 scoreboard players set $random_min mem 1
 scoreboard players set $random_max mem 2
 function lib:random
@@ -21,7 +21,7 @@ execute if score #new_item mem matches 0 run scoreboard players set $new_item_cd
 team join red @e[tag=bonus_phantom,tag=new_phantom,limit=1]
 effect give @e[tag=bonus_phantom,tag=new_phantom,limit=1] glowing 1000000 0 true
 data merge entity @e[tag=bonus_phantom,tag=new_phantom,limit=1] {Size:7,DeathLootTable:"mini:phantom"}
-attribute @e[tag=bonus_phantom,tag=new_phantom,limit=1] generic.attack_damage base set 8
+attribute @e[tag=bonus_phantom,tag=new_phantom,limit=1] generic.attack_damage base set 9
 attribute @e[tag=bonus_phantom,tag=new_phantom,limit=1] generic.max_health base set 20
 
 # 确认属性修改
