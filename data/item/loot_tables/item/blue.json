@@ -55,7 +55,7 @@
     {
         "type": "minecraft:item",
         "weight": 10,
-        "name": "minecraft:netherite_axe",
+        "name": "minecraft:netherite_pickaxe",
         "functions": [
             {
                 "function": "minecraft:set_nbt",
