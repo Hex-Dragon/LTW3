@@ -4,6 +4,7 @@ title @s clear
 title @s actionbar ""
 
 # 状态效果
+effect clear @s
 function mini:ass/give_effect
 
 # 设置玩家生命

@@ -1,5 +1,6 @@
 
 # 给予状态效果
+effect clear @s
 function mini:trade/give_effect
 effect give @s slow_falling 4
 effect give @s weakness 5 10 true

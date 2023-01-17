@@ -20,4 +20,4 @@ execute if entity @s[tag=!rejoining] if score $player_finish mem matches ..2 run
 execute if score $player_finish mem matches ..3 as @a at @s run function lib:sounds/levelup
 
 # 给已完成的玩家加分
-scoreboard players add @a[tag=!mini_running] mini_score 1
+scoreboard players add @a[tag=!mini_running] mini_score 100

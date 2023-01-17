@@ -34,6 +34,7 @@ execute if data storage item:bonus item.tag.bonus_stole_score run function item:
 execute if data storage item:bonus item.tag.bonus_gold run function item:bonus_item/gold
 
 # 执行特定函数
+execute if score $state mem matches 5 if score $mini_type mem matches 1 run function mini:parkour/pickup
 execute if score $state mem matches 7 run function item:bonus_item/pickup_1
 
 # 处理下一个
