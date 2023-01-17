@@ -11,4 +11,4 @@ execute unless score @s mini_heart matches 1.. run tellraw @a ["",{"text": ">> "
 # $remove_resistance 信息在小游戏初始化时提供
 # 去除buff
 execute unless score @s mini_heart matches 1.. run tag @s add have_totem
-schedule function mini:special/clear_totem_effect 2t replace
+schedule function item:special/clear_totem_effect 2t replace

@@ -77,7 +77,7 @@
         "functions": [
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{item_name:'{\"text\":\"铁镐、铁锹、铁斧、铁剑\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:iron_pickaxe\",Count:1,tag:{is_bonus:1b,bonus_return:1b,display:{Name:'{\"text\":\"铁斧\",\"italic\":false,\"color\":\"aqua\"}'}}},{id:\"minecraft:iron_axe\",Count:1,tag:{is_bonus:1b,bonus_return:1b,display:{Name:'{\"text\":\"铁镐\",\"italic\":false,\"color\":\"aqua\"}'}}},{id:\"minecraft:iron_sword\",Count:1,tag:{is_bonus:1b,bonus_return:1b,display:{Name:'{\"text\":\"铁剑\",\"italic\":false,\"color\":\"aqua\"}'}}},{id:\"minecraft:iron_shovel\",Count:1,tag:{is_bonus:1b,bonus_return:1b,display:{Name:'{\"text\":\"铁锹\",\"italic\":false,\"color\":\"white\"}'}}}]}"
+                "tag": "{item_name:'{\"text\":\"铁镐、铁锹、铁斧、铁剑\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:iron_axe\",Count:1,tag:{is_bonus:1b,bonus_return:1b,display:{Name:'{\"text\":\"铁斧\",\"italic\":false,\"color\":\"aqua\"}'}}},{id:\"minecraft:iron_pickaxe\",Count:1,tag:{is_bonus:1b,bonus_return:1b,display:{Name:'{\"text\":\"铁镐\",\"italic\":false,\"color\":\"aqua\"}'}}},{id:\"minecraft:iron_sword\",Count:1,tag:{is_bonus:1b,bonus_return:1b,display:{Name:'{\"text\":\"铁剑\",\"italic\":false,\"color\":\"aqua\"}'}}},{id:\"minecraft:iron_shovel\",Count:1,tag:{is_bonus:1b,bonus_return:1b,display:{Name:'{\"text\":\"铁锹\",\"italic\":false,\"color\":\"white\"}'}}}]}"
             }
         ]
     }
