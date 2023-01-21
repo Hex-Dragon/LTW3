@@ -1,0 +1,62 @@
+{"pools": [{"rolls": 1,"entries": [
+
+    {
+        "type": "minecraft:item",
+        "weight": 2,
+        "name": "minecraft:blaze_powder",
+        "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 7
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"清空物品栏, 换取 7 积分\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,clean_inventory:1b,bonus_add_score:7}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:loot_table",
+        "weight": 30,
+        "name": "item:item/blue"
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 2,
+        "name": "minecraft:blaze_powder",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"清空物品栏, 换取随机紫色道具 x2\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,clean_inventory:1b,bonus_random_bonus:[{type:\"item\",level:\"blue\",Count:2}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 3,
+        "name": "minecraft:shulker_shell",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"随机紫色道具\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_random_bonus:[{type:\"item\",level:\"blue\",Count:1}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 3,
+        "name": "minecraft:shulker_shell",
+        "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 2
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"随机蓝色道具 x2\",\"color\":\"light_purple\"}',is_bonus:1b,bonus_new:1b,bonus_random_bonus:[{type:\"item\",level:\"green\",Count:2}]}"
+            }
+        ]
+    }
+
+
+]}]}

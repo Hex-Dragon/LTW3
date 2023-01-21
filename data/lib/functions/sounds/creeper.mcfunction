@@ -1,1 +1,0 @@
-playsound minecraft:entity.creeper.primed ambient @a ~ ~ ~ 0.7

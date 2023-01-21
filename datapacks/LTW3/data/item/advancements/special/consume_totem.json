@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "consume_ga": {
+            "trigger": "minecraft:used_totem"
+        }
+    },
+    "rewards": {
+        "function": "item:special/totem"
+    }
+}

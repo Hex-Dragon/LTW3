@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "consume_ga": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["minecraft:golden_apple"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "item:special/golden_apple"
+    }
+}

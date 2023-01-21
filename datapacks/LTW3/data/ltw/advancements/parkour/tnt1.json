@@ -1,0 +1,33 @@
+{
+  "parent": "ltw:parkour/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:dead_fire_coral_block"
+    },
+    "title": {
+      "text": "圣坛之主 · α "
+    },
+    "description": [
+      {"text": "【地陷圣坛】在不位于最底层时获胜\n", "color":"gray"},
+      {"text": "奖励: ","color":"green"},
+      {"text": "1 绿宝石","color":"white"}
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "ltw:advancement/bonus_1"
+  },
+  "criteria": {
+    "a":{
+        "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+        "a"
+    ]
+  ]
+}

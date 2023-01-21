@@ -1,0 +1,85 @@
+{"pools": [{"rolls": 1,"entries": [
+
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:diamond_axe",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"<击退 II> 钻石斧\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,\"Enchantments\":[{id:\"knockback\",\"lvl\":2}],display:{Name:'{\"text\":\"<击退 II> 钻石斧\",\"italic\":false,\"color\":\"gold\"}'}}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:elytra",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"鞘翅\",\"italic\":false,\"color\":\"aqua\"}'},item_name:'{\"text\":\"鞘翅, 烟花火箭 x6\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,bonus_give_items:[{id:\"minecraft:firework_rocket\",Count:6,tag:{is_bonus:1b,bonus_return:1b,bonus_clear_nbt:1b}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:golden_leggings",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"<速度 +50%> 金护腿\",\"italic\":false,\"color\":\"gold\"}'},item_name:'{\"text\":\"<速度 +50%> 金护腿\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,AttributeModifiers:[{UUID:[I;21,51,0,1],Amount:0.5,AttributeName:\"generic.movement_speed\",Name:\"spd\",Slot:\"legs\",Operation:1},{UUID:[I;21,51,0,2],Amount:3,AttributeName:\"generic.armor\",Name:\"armor\",Slot:\"legs\",Operation:0}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:chest",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"地牢箱子\",\"italic\":false,\"color\":\"gold\"}'},item_name:'{\"text\":\"地牢箱子\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,BlockEntityTag:{LootTable:\"mini:diamond\"}}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:enchanted_golden_apple",
+        "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 2
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"附魔金苹果 x2\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,display:{Lore:['{\"text\":\"在部分小游戏中食用能使当前生命加倍\",\"italic\":false,\"color\":\"gray\"}'],Name:'{\"text\":\"附魔金苹果\",\"italic\":false,\"color\":\"light_purple\"}'}}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:potion",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:16777215,item_name:'{\"text\":\"万能药 (2:00) x4\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:10,Amplifier:0,Duration:2400},{Id:12,Amplifier:0,Duration:2400},{Id:11,Amplifier:1,Duration:2400},{Id:1,Amplifier:0,Duration:2400},{Id:8,Amplifier:0,Duration:2400},{Id:3,Amplifier:4,Duration:2400}],CustomPotionColor:16777215,display:{Name:'{\"text\":\"万能药\",\"italic\":false,\"color\":\"aqua\"}'}}},{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:10,Amplifier:0,Duration:2400},{Id:12,Amplifier:0,Duration:2400},{Id:11,Amplifier:1,Duration:2400},{Id:1,Amplifier:0,Duration:2400},{Id:8,Amplifier:0,Duration:2400},{Id:3,Amplifier:4,Duration:2400}],CustomPotionColor:16777215,display:{Name:'{\"text\":\"万能药\",\"italic\":false,\"color\":\"aqua\"}'}}},{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:10,Amplifier:0,Duration:2400},{Id:12,Amplifier:0,Duration:2400},{Id:11,Amplifier:1,Duration:2400},{Id:1,Amplifier:0,Duration:2400},{Id:8,Amplifier:0,Duration:2400},{Id:3,Amplifier:4,Duration:2400}],CustomPotionColor:16777215,display:{Name:'{\"text\":\"万能药\",\"italic\":false,\"color\":\"aqua\"}'}}},{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:10,Amplifier:0,Duration:2400},{Id:12,Amplifier:0,Duration:2400},{Id:11,Amplifier:1,Duration:2400},{Id:1,Amplifier:0,Duration:2400},{Id:8,Amplifier:0,Duration:2400},{Id:3,Amplifier:4,Duration:2400}],CustomPotionColor:16777215,display:{Name:'{\"text\":\"万能药\",\"italic\":false,\"color\":\"aqua\"}'}}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:raw_iron_block",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"铁镐、铁锹、铁斧、铁剑\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:iron_axe\",Count:1,tag:{is_bonus:1b,bonus_return:1b,display:{Name:'{\"text\":\"铁斧\",\"italic\":false,\"color\":\"aqua\"}'}}},{id:\"minecraft:iron_pickaxe\",Count:1,tag:{is_bonus:1b,bonus_return:1b,display:{Name:'{\"text\":\"铁镐\",\"italic\":false,\"color\":\"aqua\"}'}}},{id:\"minecraft:iron_sword\",Count:1,tag:{is_bonus:1b,bonus_return:1b,display:{Name:'{\"text\":\"铁剑\",\"italic\":false,\"color\":\"aqua\"}'}}},{id:\"minecraft:iron_shovel\",Count:1,tag:{is_bonus:1b,bonus_return:1b,display:{Name:'{\"text\":\"铁锹\",\"italic\":false,\"color\":\"white\"}'}}}]}"
+            }
+        ]
+    }
+
+]}]}

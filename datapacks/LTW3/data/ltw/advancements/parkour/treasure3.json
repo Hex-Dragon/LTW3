@@ -1,0 +1,28 @@
+{
+    "parent": "ltw:parkour/treasure2",
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_boots"
+      },
+      "title": {
+        "text": "争分夺秒 · γ "
+      },
+      "description": [
+        {"text": "【遗迹寻宝】在 35 秒内到达终点\n", "color":"gray"},
+        {"text": "奖励: ","color":"green"},
+        {"text": "2 绿宝石","color":"white"}
+      ],
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "rewards": {
+      "function": "ltw:advancement/bonus_3"
+    },
+    "criteria": {
+      "a":{
+          "trigger": "minecraft:impossible"
+      }
+    }
+  }

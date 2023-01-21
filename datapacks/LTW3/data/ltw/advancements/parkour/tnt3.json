@@ -1,0 +1,28 @@
+{
+    "parent": "ltw:parkour/tnt2",
+    "display": {
+      "icon": {
+        "item": "minecraft:crimson_hyphae"
+      },
+      "title": {
+        "text": "圣坛之主 · γ "
+      },
+      "description": [
+        {"text": "【地陷圣坛】几乎清空最顶层的所有方块\n", "color":"gray"},
+        {"text": "奖励: ","color":"green"},
+        {"text": "2 绿宝石","color":"white"}
+      ],
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "rewards": {
+      "function": "ltw:advancement/bonus_3"
+    },
+    "criteria": {
+      "a":{
+          "trigger": "minecraft:impossible"
+      }
+    }
+  }

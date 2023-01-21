@@ -1,0 +1,28 @@
+{
+    "parent": "ltw:vs/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:yellow_glazed_terracotta"
+      },
+      "title": {
+        "text": "纷乱迷阵 · α "
+      },
+      "description": [
+        {"text": "【色彩迷阵】坚持至切换速度达到满速\n", "color":"gray"},
+        {"text": "奖励: ","color":"green"},
+        {"text": "1 绿宝石","color":"white"}
+      ],
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "rewards": {
+      "function": "ltw:advancement/bonus_1"
+    },
+    "criteria": {
+      "a":{
+          "trigger": "minecraft:impossible"
+      }
+    }
+  }

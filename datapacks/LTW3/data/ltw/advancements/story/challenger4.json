@@ -1,0 +1,25 @@
+{
+    "parent": "ltw:story/challenger3",
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_pickaxe"
+      },
+      "title": {
+        "text": "挑战极限 · Ω "
+      },
+      "description": [
+        {"text": "完成 13 项挑战进度\n", "color":"gray"},
+        {"text": "究极隐藏挑战！","color":"dark_gray","italic": true}
+      ],
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "rewards": {
+      "function": "ltw:advancement/bonus_4"
+    },
+    "criteria": {
+      "a": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_adv_challenge":{"min":13}},"condition":"entity_scores","entity":"this"}]}}
+    }
+  }

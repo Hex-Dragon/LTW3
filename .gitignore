@@ -3,3 +3,14 @@
 *.py
 *.pyc
 ~$*
+advancements/
+!datapacks/LTW3/data/item/advancements/
+!datapacks/LTW3/data/lib/advancements/
+!datapacks/LTW3/data/ltw/advancements/
+data/scoreboard.dat
+DIM1/
+DIM-1/
+playerdata/
+stats/
+level.dat_old
+sessions.lock

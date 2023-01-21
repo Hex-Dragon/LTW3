@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "place_furnace":{
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item": {
+                    "tag": "item:container"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "item:container/placed/call"
+    }
+}

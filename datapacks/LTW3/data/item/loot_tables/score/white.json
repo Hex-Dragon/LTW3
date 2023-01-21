@@ -1,0 +1,85 @@
+{"pools": [{"rolls": 1,"entries": [
+
+{
+    "type": "minecraft:item",
+    "weight": 20,
+    "name": "minecraft:nether_star",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{item_name:'{\"text\":\"1 积分\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:1}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 6,
+    "name": "minecraft:gold_nugget",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 2
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{item_name:'{\"text\":\"2 金粒\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,bonus_gold:2}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 8,
+    "name": "minecraft:ender_pearl",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{item_name:'{\"text\":\"从最高分玩家处偷取 1 积分\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,\"bonus_stole_score\":1}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 9,
+    "name": "minecraft:paper",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{item_name:'{\"text\":\"1/4 概率获得 5 积分\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:0}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:paper",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{item_name:'{\"text\":\"1/4 概率获得 5 积分\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:5}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:magenta_glazed_terracotta",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{item_name:'{\"text\":\"积分随机 +4 或清零\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:-1}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 5,
+    "name": "minecraft:magenta_glazed_terracotta",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{item_name:'{\"text\":\"积分随机 +4 或清零\",\"color\":\"white\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:4}"
+        }
+    ]
+}
+
+]}]}

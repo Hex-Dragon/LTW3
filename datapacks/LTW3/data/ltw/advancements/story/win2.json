@@ -1,0 +1,29 @@
+{
+    "parent": "ltw:story/win1",
+    "display": {
+      "icon": {
+        "item": "minecraft:skeleton_skull"
+      },
+      "title": {
+        "text": "无人能敌 · β "
+      },
+      "description": [
+        {"text": "获得 4 场游戏的胜利\n", "color":"gray"},
+        {"text": "奖励: ","color":"green"},
+        {"text": "2 绿宝石","color":"white"}
+      ],
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "rewards": {
+      "function": "ltw:advancement/bonus_2"
+    },
+    "criteria": {
+      "01": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":1}},"condition":"entity_scores","entity":"this"}]}},
+      "02": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":2}},"condition":"entity_scores","entity":"this"}]}},
+      "03": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":3}},"condition":"entity_scores","entity":"this"}]}},
+      "04": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":4}},"condition":"entity_scores","entity":"this"}]}}
+    }
+  }

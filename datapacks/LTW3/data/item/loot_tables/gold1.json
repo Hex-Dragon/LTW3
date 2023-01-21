@@ -1,0 +1,15 @@
+{"pools": [{"rolls": 1,"entries": [
+
+{
+    "type": "minecraft:item",
+    "weight": 6,
+    "name": "minecraft:gold_nugget",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{is_bonus:1b,bonus_new:1b,bonus_gold:1}"
+        }
+    ]
+}
+
+]}]}

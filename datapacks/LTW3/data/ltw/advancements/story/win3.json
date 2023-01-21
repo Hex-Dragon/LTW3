@@ -1,0 +1,35 @@
+{
+    "parent": "ltw:story/win2",
+    "display": {
+      "icon": {
+        "item": "minecraft:wither_skeleton_skull"
+      },
+      "title": {
+        "text": "无人能敌 · γ "
+      },
+      "description": [
+        {"text": "获得 10 场游戏的胜利\n", "color":"gray"},
+        {"text": "奖励: ","color":"green"},
+        {"text": "2 绿宝石","color":"white"}
+      ],
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "rewards": {
+      "function": "ltw:advancement/bonus_3"
+    },
+    "criteria": {
+      "01": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":1}},"condition":"entity_scores","entity":"this"}]}},
+      "02": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":2}},"condition":"entity_scores","entity":"this"}]}},
+      "03": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":3}},"condition":"entity_scores","entity":"this"}]}},
+      "04": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":4}},"condition":"entity_scores","entity":"this"}]}},
+      "05": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":5}},"condition":"entity_scores","entity":"this"}]}},
+      "06": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":6}},"condition":"entity_scores","entity":"this"}]}},
+      "07": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":7}},"condition":"entity_scores","entity":"this"}]}},
+      "08": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":8}},"condition":"entity_scores","entity":"this"}]}},
+      "09": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":9}},"condition":"entity_scores","entity":"this"}]}},
+      "10": {"trigger":"minecraft:location","conditions":{"player":[{"scores":{"stat_win":{"min":10}},"condition":"entity_scores","entity":"this"}]}}
+    }
+  }

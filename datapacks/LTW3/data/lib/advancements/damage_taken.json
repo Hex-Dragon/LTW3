@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "hurt": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "taken": {
+                        "min": 0.1
+                    },
+                    "type": {
+                        "is_magic": false
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "lib:damage_indicator/damage_taken"
+    }
+}

@@ -1,0 +1,86 @@
+{"pools": [{"rolls": 1,"entries": [
+
+{
+    "type": "minecraft:item",
+    "weight": 7,
+    "name": "minecraft:nether_star",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 6
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{item_name:'{\"text\":\"6 积分\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:6}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 7,
+    "name": "minecraft:nether_star",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 7
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{item_name:'{\"text\":\"7 积分\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:7}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 7,
+    "name": "minecraft:prismarine_crystals",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 5
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{item_name:'{\"text\":\"5 积分 + 5 金粒\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:5,bonus_gold:5}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 2,
+    "name": "minecraft:map",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{item_name:'{\"text\":\"80% 概率获得 10 积分\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:0}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 8,
+    "name": "minecraft:map",
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{item_name:'{\"text\":\"80% 概率获得 10 积分\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,bonus_add_score:10}"
+        }
+    ]
+},
+{
+    "type": "minecraft:item",
+    "weight": 3,
+    "name": "minecraft:ender_eye",
+    "functions": [
+        {
+            "function": "minecraft:set_count",
+            "count": 4
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{item_name:'{\"text\":\"从最高分玩家处偷取 4 积分\",\"color\":\"gold\"}',is_bonus:1b,bonus_new:1b,\"bonus_stole_score\":4}"
+        }
+    ]
+}
+
+]}]}

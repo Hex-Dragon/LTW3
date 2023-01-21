@@ -1,0 +1,28 @@
+{
+    "parent": "ltw:parkour/treasure1",
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_boots"
+      },
+      "title": {
+        "text": "争分夺秒 · β "
+      },
+      "description": [
+        {"text": "【遗迹寻宝】在 50 秒内到达终点\n", "color":"gray"},
+        {"text": "奖励: ","color":"green"},
+        {"text": "2 绿宝石","color":"white"}
+      ],
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "rewards": {
+      "function": "ltw:advancement/bonus_2"
+    },
+    "criteria": {
+      "a":{
+          "trigger": "minecraft:impossible"
+      }
+    }
+  }

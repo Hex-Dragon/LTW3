@@ -1,0 +1,247 @@
+{"pools": [{"rolls": 1,"entries": [
+
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:potion",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:16777215,item_name:'{\"text\":\"万能药 (2:00)\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:10,Amplifier:0,Duration:2400},{Id:12,Amplifier:0,Duration:2400},{Id:11,Amplifier:1,Duration:2400},{Id:1,Amplifier:0,Duration:2400},{Id:8,Amplifier:0,Duration:2400},{Id:3,Amplifier:4,Duration:2400}],CustomPotionColor:16777215,display:{Name:'{\"text\":\"万能药\",\"italic\":false,\"color\":\"aqua\"}'}}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:potion",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:2752294,item_name:'{\"text\":\"跳跃提升 III 药水 (3:00)\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:8,Amplifier:2,Duration:3600}],CustomPotionColor:2752294,display:{Name:'{\"text\":\"跳跃提升 III 药水\",\"italic\":false,\"color\":\"aqua\"}'}}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 5,
+        "name": "minecraft:shield",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"破损的盾牌\",\"color\":\"aqua\"}',Damage:317,is_bonus:1b,bonus_new:1b,bonus_return:1b,display:{Name:'{\"text\":\"破损的盾牌\",\"italic\":false,\"color\":\"aqua\"}'}}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 15,
+        "name": "minecraft:fishing_rod",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"<饵钓 IV> 破损的钓鱼竿\",\"color\":\"aqua\"}',Damage:60,is_bonus:1b,bonus_new:1b,bonus_return:1b,Enchantments:[{id:\"lure\",lvl:4}],display:{Name:'{\"text\":\"<饵钓 IV> 破损的钓鱼竿\",\"italic\":false,\"color\":\"aqua\"}'}}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:iron_ingot",
+        "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 5
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"铁锭 x5\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,bonus_clear_nbt:1b}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:iron_pickaxe",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"铁镐\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,display:{Name:'{\"text\":\"铁镐\",\"italic\":false,\"color\":\"aqua\"}'}}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:raw_iron_block",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"粗铁块\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,bonus_clear_nbt:1b}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 15,
+        "name": "minecraft:totem_of_undying",
+        "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 2
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"不死图腾 x2\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:totem_of_undying\",Count:1,tag:{bonus_return:1b,is_bonus:1b,display:{Name:'{\"text\":\"不死图腾\",\"italic\":false,\"color\":\"white\"}'}}},{id:\"minecraft:totem_of_undying\",Count:1,tag:{bonus_return:1b,is_bonus:1b,display:{Name:'{\"text\":\"不死图腾\",\"italic\":false,\"color\":\"white\"}'}}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:crossbow",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"<快速装填 IV> 弩\",\"italic\":false,\"color\":\"aqua\"}'},item_name:'{\"text\":\"<快速装填 IV> 弩, 箭 x5\",\"color\":\"aqua\"}',Enchantments:[{id:\"quick_charge\",lvl:4}],is_bonus:1b,bonus_new:1b,bonus_return:1b,bonus_give_items:[{id:\"minecraft:arrow\",Count:5,tag:{is_bonus:1b,bonus_return:1b,bonus_clear_nbt:1b}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 5,
+        "name": "minecraft:shield",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"<速度 -60%> 盾牌\",\"italic\":false,\"color\":\"aqua\"}'},item_name:'{\"text\":\"<速度 -60%> 盾牌\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,HideFlags:32767,AttributeModifiers:[{UUID:[I;19,31,0,1],Amount:-0.6,AttributeName:\"generic.movement_speed\",Name:\"spd\",Operation:1}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 15,
+        "name": "minecraft:elytra",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"鞘翅\",\"italic\":false,\"color\":\"aqua\"}'},item_name:'{\"text\":\"鞘翅, 烟花火箭 x2\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,bonus_give_items:[{id:\"minecraft:firework_rocket\",Count:2,tag:{is_bonus:1b,bonus_return:1b,bonus_clear_nbt:1b}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:raw_gold_block",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"金镐、金锹、金斧、金剑\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:golden_pickaxe\",Count:1,tag:{is_bonus:1b,bonus_return:1b,bonus_clear_nbt:1b}},{id:\"minecraft:golden_axe\",Count:1,tag:{is_bonus:1b,bonus_return:1b,bonus_clear_nbt:1b}},{id:\"minecraft:golden_sword\",Count:1,tag:{is_bonus:1b,bonus_return:1b,bonus_clear_nbt:1b}},{id:\"minecraft:golden_shovel\",Count:1,tag:{is_bonus:1b,bonus_return:1b,bonus_clear_nbt:1b}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:potion",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:4791617,item_name:'{\"text\":\"隐身药水 (0:20) x2\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:400}],CustomPotionColor:4791617,display:{Name:'{\"text\":\"隐身药水\",\"italic\":false,\"color\":\"white\"}'}}},{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:400}],CustomPotionColor:4791617,display:{Name:'{\"text\":\"隐身药水\",\"italic\":false,\"color\":\"white\"}'}}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:potion",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:8267585,item_name:'{\"text\":\"力量 & 隐身药水 (0:30)\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:potion\",Count:1,tag:{bonus_return:1b,is_bonus:1b,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:600},{Id:5,Amplifier:0,Duration:600}],CustomPotionColor:8267585,display:{Name:'{\"text\":\"力量 & 隐身药水\",\"italic\":false,\"color\":\"aqua\"}'}}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:leather_chestplate",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"<荆棘 XIV> 皮革外套\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,Enchantments:[{id:\"thorns\",lvl:14}],display:{Name:'{\"text\":\"<荆棘 XIV> 皮革外套\",\"italic\":false,\"color\":\"aqua\"}'}}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:stick",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"<击退 I> 木棍\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,Enchantments:[{id:\"knockback\",lvl:1}],display:{Name:'{\"text\":\"<击退 I> 木棍\",\"italic\":false,\"color\":\"aqua\"}'}}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:netherite_boots",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"<免疫击退> 下界合金靴子\",\"italic\":false,\"color\":\"aqua\"}'},item_name:'{\"text\":\"<免疫击退> 下界合金靴子\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,AttributeModifiers:[{UUID:[I;19,35,0,2],Amount:3,AttributeName:\"generic.armor\",Name:\"armor\",Slot:\"feet\",Operation:0},{UUID:[I;19,35,0,3],Amount:3,AttributeName:\"generic.armor_toughness\",Name:\"armor1\",Slot:\"feet\",Operation:0},{UUID:[I;19,35,0,1],Amount:100,AttributeName:\"generic.knockback_resistance\",Name:\"kn\",Slot:\"feet\",Operation:0}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 5,
+        "name": "minecraft:diamond_block",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"<绑定诅咒> 全身钻石甲\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:diamond_helmet\",Count:1,tag:{is_bonus:1b,display:{Name:'{\"text\":\"<绑定诅咒> 钻石头盔\",\"italic\":false,\"color\":\"white\"}'},bonus_return:1b,Enchantments:[{id:\"binding_curse\",lvl:1}]}},{id:\"minecraft:diamond_chestplate\",Count:1,tag:{is_bonus:1b,display:{Name:'{\"text\":\"<绑定诅咒> 钻石胸甲\",\"italic\":false,\"color\":\"white\"}'},bonus_return:1b,Enchantments:[{id:\"binding_curse\",lvl:1}]}},{id:\"minecraft:diamond_leggings\",Count:1,tag:{is_bonus:1b,display:{Name:'{\"text\":\"<绑定诅咒> 钻石护腿\",\"italic\":false,\"color\":\"white\"}'},bonus_return:1b,Enchantments:[{id:\"binding_curse\",lvl:1}]}},{id:\"minecraft:diamond_boots\",Count:1,tag:{is_bonus:1b,display:{Name:'{\"text\":\"<绑定诅咒> 钻石靴子\",\"italic\":false,\"color\":\"white\"}'},bonus_return:1b,Enchantments:[{id:\"binding_curse\",lvl:1}]}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 15,
+        "name": "minecraft:golden_apple",
+        "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": 2
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"金苹果 x2\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,display:{Lore:['{\"text\":\"在部分小游戏中食用能使生命 +1\",\"italic\":false,\"color\":\"gray\"}'],Name:'{\"text\":\"金苹果\",\"italic\":false,\"color\":\"white\"}'}}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 5,
+        "name": "minecraft:netherite_ingot",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{item_name:'{\"text\":\"下界合金头盔、护腿\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_give_items:[{id:\"minecraft:netherite_helmet\",Count:1,tag:{bonus_return:1b,is_bonus:1b}},{id:\"minecraft:netherite_leggings\",Count:1,tag:{bonus_return:1b,is_bonus:1b}}]}"
+            }
+        ]
+    },
+    {
+        "type": "minecraft:item",
+        "weight": 10,
+        "name": "minecraft:turtle_helmet",
+        "functions": [
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"<速度 +20%> 海龟壳\",\"italic\":false,\"color\":\"aqua\"}'},item_name:'{\"text\":\"<速度 +20%> 海龟壳\",\"color\":\"aqua\"}',is_bonus:1b,bonus_new:1b,bonus_return:1b,AttributeModifiers:[{UUID:[I;19,42,0,1],Amount:0.2,AttributeName:\"generic.movement_speed\",Name:\"spd\",Slot:\"head\",Operation:1},{UUID:[I;19,42,0,2],Amount:2,AttributeName:\"generic.armor\",Name:\"armor\",Slot:\"head\",Operation:0}]}"
+            }
+        ]
+    }
+
+]}]}
